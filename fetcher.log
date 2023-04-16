@@ -493,3 +493,45 @@
 [2023-04-17 01:04:55] INFO root fetch - main [MainThread]: End processing [lsqfitgp]: success
 [2023-04-17 01:04:56] INFO root fetch - main [MainThread]: End processing [sprocket-carball]: success
 [2023-04-17 01:04:56] INFO root fetch - main [MainThread]: Store serial: [17730859]
+[2023-04-17 01:09:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17730859]
+[2023-04-17 01:10:04] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-17 01:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sprocket-carball
+[2023-04-17 01:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kesslergame
+[2023-04-17 01:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jeff-api
+[2023-04-17 01:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: export-ease
+[2023-04-17 01:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: icepool
+[2023-04-17 01:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sprocket-carball
+[2023-04-17 01:10:04] INFO root fetch - processPackages [sprocket-carball]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-04-17 01:10:04] INFO root fetch - processPackages [icepool]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-17 01:10:04] INFO root fetch - processPackages [export-ease]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-17 01:10:04] INFO root fetch - processPackages [kesslergame]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-04-17 01:10:04] INFO root fetch - processPackages [sprocket-carball]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-04-17 01:10:04] INFO root fetch - processPackages [jeff-api]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-04-17 01:10:05] INFO root fetch - processPackages [icepool]: Downloading https://files.pythonhosted.org/packages/94/88/20b99789579285e85ed1bc1b2de8bbdca61acab6696cc2621582ca9cd72e/icepool-0.8.0.tar.gz
+[2023-04-17 01:10:05] INFO root fetch - processPackages [export-ease]: Downloading https://files.pythonhosted.org/packages/04/b3/9b22c4a3d4fdb1dbc874dc9ed2d6c6bad575820c59dadf2ca3d1e59d59c7/export_ease-0.0.4.tar.gz
+[2023-04-17 01:10:05] INFO root fetch - processPackages [jeff-api]: Downloading https://files.pythonhosted.org/packages/f3/55/bb528b9a744283b9a67f2acc2c791faddbdc22e07626dcf0a76aa2ce707c/jeff_api-1.1.4.tar.gz
+[2023-04-17 01:10:05] INFO root fetch - processPackages [sprocket-carball]: Downloading https://files.pythonhosted.org/packages/68/e3/4d957012a12cfae9519354087278664e820b69bb786cfd3f8770f359439a/sprocket_carball-0.8.2.tar.gz
+[2023-04-17 01:10:05] INFO root fetch - processPackages [sprocket-carball]: Downloading https://files.pythonhosted.org/packages/68/e3/4d957012a12cfae9519354087278664e820b69bb786cfd3f8770f359439a/sprocket_carball-0.8.2.tar.gz
+[2023-04-17 01:10:05] INFO root fetch - processPackages [export-ease]: executing diffoscope
+[2023-04-17 01:10:05] INFO root fetch - processPackages [export-ease]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/export_ease-0.0.3.tar.gz tmp/export_ease-0.0.4.tar.gz --markdown 20230417/e/export-ease/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-17 01:10:05] INFO root fetch - processPackages [jeff-api]: executing diffoscope
+[2023-04-17 01:10:05] INFO root fetch - processPackages [jeff-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jeff_api-1.1.3.tar.gz tmp/jeff_api-1.1.4.tar.gz --markdown 20230417/j/jeff-api/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-04-17 01:10:05] INFO root fetch - processPackages [kesslergame]: Downloading https://files.pythonhosted.org/packages/ec/05/1b919acf46be4ba672f5cc4cdde0f150d819ee59ea0bdee02883851c90be/kesslergame-1.3.4.tar.gz
+[2023-04-17 01:10:05] INFO root fetch - processPackages [kesslergame]: executing diffoscope
+[2023-04-17 01:10:05] INFO root fetch - processPackages [kesslergame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kesslergame-1.3.3.tar.gz tmp/kesslergame-1.3.4.tar.gz --markdown 20230417/k/kesslergame/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-04-17 01:10:05] INFO root fetch - processPackages [sprocket-carball]: Downloading https://files.pythonhosted.org/packages/fb/7c/c2d5f58034f7f082a942d5a1ff44227e253c3727ba06c5211653a6780b87/sprocket_carball-0.8.3.tar.gz
+[2023-04-17 01:10:05] INFO root fetch - processPackages [sprocket-carball]: Downloading https://files.pythonhosted.org/packages/fb/7c/c2d5f58034f7f082a942d5a1ff44227e253c3727ba06c5211653a6780b87/sprocket_carball-0.8.3.tar.gz
+[2023-04-17 01:10:05] INFO root fetch - processPackages [sprocket-carball]: executing diffoscope
+[2023-04-17 01:10:05] INFO root fetch - processPackages [sprocket-carball]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sprocket_carball-0.8.2.tar.gz tmp/sprocket_carball-0.8.3.tar.gz --markdown 20230417/s/sprocket-carball/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-04-17 01:10:05] INFO root fetch - processPackages [sprocket-carball]: executing diffoscope
+[2023-04-17 01:10:05] INFO root fetch - processPackages [sprocket-carball]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sprocket_carball-0.8.2.tar.gz tmp/sprocket_carball-0.8.3.tar.gz --markdown 20230417/s/sprocket-carball/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-04-17 01:10:05] INFO root fetch - processPackages [icepool]: Downloading https://files.pythonhosted.org/packages/89/19/d048a9d0f7be7d936293f865a84bdffde2fd5b06a3b5773d75e376762197/icepool-0.9.0.tar.gz
+[2023-04-17 01:10:05] INFO root fetch - processPackages [icepool]: executing diffoscope
+[2023-04-17 01:10:05] INFO root fetch - processPackages [icepool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icepool-0.8.0.tar.gz tmp/icepool-0.9.0.tar.gz --markdown 20230417/i/icepool/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-17 01:10:06] INFO root fetch - main [MainThread]: End processing [jeff-api]: success
+[2023-04-17 01:10:06] INFO root fetch - main [MainThread]: End processing [export-ease]: success
+[2023-04-17 01:10:06] INFO root fetch - main [MainThread]: End processing [kesslergame]: success
+[2023-04-17 01:10:07] INFO root fetch - main [MainThread]: End processing [icepool]: success
+[2023-04-17 01:10:07] INFO root fetch - main [MainThread]: End processing [sprocket-carball]: success
+[2023-04-17 01:10:08] INFO root fetch - main [MainThread]: End processing [sprocket-carball]: success
+[2023-04-17 01:10:08] INFO root fetch - main [MainThread]: Store serial: [17730875]
