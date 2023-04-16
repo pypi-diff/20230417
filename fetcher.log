@@ -570,3 +570,36 @@
 [2023-04-17 01:15:19] INFO root fetch - main [MainThread]: End processing [cpggen]: success
 [2023-04-17 01:15:19] INFO root fetch - main [MainThread]: End processing [asu]: success
 [2023-04-17 01:15:19] INFO root fetch - main [MainThread]: Store serial: [17730899]
+[2023-04-17 01:20:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17730899]
+[2023-04-17 01:20:28] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-17 01:20:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tinytuya
+[2023-04-17 01:20:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: assisted-service-client
+[2023-04-17 01:20:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flow-py-sdk-legacy
+[2023-04-17 01:20:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pipen
+[2023-04-17 01:20:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-trackings
+[2023-04-17 01:20:28] INFO root fetch - processPackages [tinytuya]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-04-17 01:20:28] INFO root fetch - processPackages [flow-py-sdk-legacy]: New version: [1.0.0] Old Version: [0.0.0]
+[2023-04-17 01:20:28] INFO root fetch - processPackages [pipen]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-04-17 01:20:28] INFO root fetch - processPackages [django-trackings]: New version: [0.6.0a0] Old Version: [0.5.2a0]
+[2023-04-17 01:20:28] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2023-04-17 01:20:28] INFO root fetch - processPackages [tinytuya]: Downloading https://files.pythonhosted.org/packages/22/7d/9d5fa82f83de2bc3db572f4410c55462fbeac68779f13c61ab259b930b3b/tinytuya-1.9.0-py2.py3-none-any.whl
+[2023-04-17 01:20:28] INFO root fetch - processPackages [flow-py-sdk-legacy]: Downloading https://files.pythonhosted.org/packages/97/3b/ef162d3317a3d8f53a698dbca63d99800deb610de8e63518c019f1c8fb48/flow_py_sdk_legacy-0.0.0.tar.gz
+[2023-04-17 01:20:28] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2023-04-17 01:20:28] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20230417/a/assisted-service-client/2.9.0.post8-2.9.0.post9/diff.md --exclude *.pyd
+[2023-04-17 01:20:28] INFO root fetch - processPackages [django-trackings]: executing diffoscope
+[2023-04-17 01:20:28] INFO root fetch - processPackages [django-trackings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_trackings-0.5.2a0.tar.gz tmp/django_trackings-0.6.0a0.tar.gz --markdown 20230417/d/django-trackings/0.5.2a0-0.6.0a0/diff.md --exclude *.pyd
+[2023-04-17 01:20:28] INFO root fetch - processPackages [pipen]: Downloading https://files.pythonhosted.org/packages/17/d9/3e4aeab8beabfecb3f69d968a43b092de7239e31e5fb3b9b64ada290f2cd/pipen-0.9.5.tar.gz
+[2023-04-17 01:20:28] INFO root fetch - processPackages [tinytuya]: Downloading https://files.pythonhosted.org/packages/6b/dd/19d76df53a7c336d3c501f30b519cec78154f50351414491f01fa4ea7c75/tinytuya-1.9.1-py2.py3-none-any.whl
+[2023-04-17 01:20:28] INFO root fetch - processPackages [pipen]: executing diffoscope
+[2023-04-17 01:20:28] INFO root fetch - processPackages [pipen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipen-0.9.4.tar.gz tmp/pipen-0.9.5.tar.gz --markdown 20230417/p/pipen/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-04-17 01:20:28] INFO root fetch - processPackages [flow-py-sdk-legacy]: Downloading https://files.pythonhosted.org/packages/be/76/6e9a44f2bda527eaf028bc3be932bc0385c4a50dd4c129ca65b77cc8c04b/flow_py_sdk_legacy-1.0.0.tar.gz
+[2023-04-17 01:20:28] INFO root fetch - processPackages [tinytuya]: executing diffoscope
+[2023-04-17 01:20:28] INFO root fetch - processPackages [tinytuya]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinytuya-1.9.0-py2.py3-none-any.whl.zip tmp/tinytuya-1.9.1-py2.py3-none-any.whl.zip --markdown 20230417/t/tinytuya/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-04-17 01:20:28] INFO root fetch - processPackages [flow-py-sdk-legacy]: executing diffoscope
+[2023-04-17 01:20:28] INFO root fetch - processPackages [flow-py-sdk-legacy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flow_py_sdk_legacy-0.0.0.tar.gz tmp/flow_py_sdk_legacy-1.0.0.tar.gz --markdown 20230417/f/flow-py-sdk-legacy/0.0.0-1.0.0/diff.md --exclude *.pyd
+[2023-04-17 01:20:29] INFO root fetch - main [MainThread]: End processing [tinytuya]: success
+[2023-04-17 01:20:29] INFO root fetch - main [MainThread]: End processing [flow-py-sdk-legacy]: success
+[2023-04-17 01:20:30] INFO root fetch - main [MainThread]: End processing [django-trackings]: success
+[2023-04-17 01:20:30] INFO root fetch - main [MainThread]: End processing [pipen]: success
+[2023-04-17 01:20:32] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2023-04-17 01:20:32] INFO root fetch - main [MainThread]: Store serial: [17730914]
