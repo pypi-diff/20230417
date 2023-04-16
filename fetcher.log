@@ -34,3 +34,27 @@
 [2023-04-17 00:01:59] INFO root fetch - main [MainThread]: End processing [developergpt]: success
 [2023-04-17 00:01:59] INFO root fetch - main [MainThread]: End processing [sopel-twitter]: success
 [2023-04-17 00:01:59] INFO root fetch - main [MainThread]: Store serial: [17730561]
+[2023-04-17 00:07:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17730561]
+[2023-04-17 00:07:08] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-04-17 00:07:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cookiecutter-autodocs
+[2023-04-17 00:07:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: capsolver-api
+[2023-04-17 00:07:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hikaxpro
+[2023-04-17 00:07:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aiogram-ext
+[2023-04-17 00:07:08] INFO root fetch - processPackages [aiogram-ext]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 00:07:08] INFO root fetch - processPackages [capsolver-api]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-04-17 00:07:08] WARNING root fetch - processPackages [cookiecutter-autodocs]: Skipping, unable to determine old version
+[2023-04-17 00:07:08] INFO root fetch - processPackages [hikaxpro]: New version: [2.1.1] Old Version: [2.0.0]
+[2023-04-17 00:07:08] INFO root fetch - main [MainThread]: End processing [cookiecutter-autodocs] error
+[2023-04-17 00:07:08] INFO root fetch - processPackages [aiogram-ext]: executing diffoscope
+[2023-04-17 00:07:08] INFO root fetch - processPackages [aiogram-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiogram-ext-0.0.8.tar.gz tmp/aiogram-ext-0.0.9.tar.gz --markdown 20230417/a/aiogram-ext/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 00:07:08] INFO root fetch - processPackages [capsolver-api]: Downloading https://files.pythonhosted.org/packages/d2/6d/763b652ac84bb374ed576d972695e246e64d8dc178a286a4ea9cce486311/capsolver_api-1.0.4.tar.gz
+[2023-04-17 00:07:08] INFO root fetch - processPackages [hikaxpro]: Downloading https://files.pythonhosted.org/packages/6d/58/4d07898ca630f15d7ab6098d75edd443374ef49e989ea7e5517ad9c80a80/hikaxpro-2.0.0.tar.gz
+[2023-04-17 00:07:09] INFO root fetch - processPackages [capsolver-api]: executing diffoscope
+[2023-04-17 00:07:09] INFO root fetch - processPackages [capsolver-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capsolver_api-1.0.3.tar.gz tmp/capsolver_api-1.0.4.tar.gz --markdown 20230417/c/capsolver-api/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-04-17 00:07:09] INFO root fetch - processPackages [hikaxpro]: Downloading https://files.pythonhosted.org/packages/2b/2d/61419cbfae16c398f6907d8e0e596da96856e2ec0b2f5d71e748a2bdb00f/hikaxpro-2.1.1.tar.gz
+[2023-04-17 00:07:09] INFO root fetch - processPackages [hikaxpro]: executing diffoscope
+[2023-04-17 00:07:09] INFO root fetch - processPackages [hikaxpro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hikaxpro-2.0.0.tar.gz tmp/hikaxpro-2.1.1.tar.gz --markdown 20230417/h/hikaxpro/2.0.0-2.1.1/diff.md --exclude *.pyd
+[2023-04-17 00:07:09] INFO root fetch - main [MainThread]: End processing [aiogram-ext]: success
+[2023-04-17 00:07:10] INFO root fetch - main [MainThread]: End processing [capsolver-api]: success
+[2023-04-17 00:07:10] INFO root fetch - main [MainThread]: End processing [hikaxpro]: success
+[2023-04-17 00:07:10] INFO root fetch - main [MainThread]: Store serial: [17730572]
