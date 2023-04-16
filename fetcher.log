@@ -289,3 +289,66 @@
 [2023-04-17 00:40:02] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-04-17 00:40:02] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-04-17 00:40:02] INFO root fetch - main [MainThread]: Store serial: [17730731]
+[2023-04-17 00:45:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17730731]
+[2023-04-17 00:45:11] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-17 00:45:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jeff-api
+[2023-04-17 00:45:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ml-botting-core
+[2023-04-17 00:45:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-upload-to
+[2023-04-17 00:45:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: osl
+[2023-04-17 00:45:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ultralytics
+[2023-04-17 00:45:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jeff-api
+[2023-04-17 00:45:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: arabica
+[2023-04-17 00:45:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tinyscript
+[2023-04-17 00:45:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ml-botting-core
+[2023-04-17 00:45:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyadtpulse
+[2023-04-17 00:45:11] INFO root fetch - processPackages [django-upload-to]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-04-17 00:45:11] WARNING root fetch - processPackages [ml-botting-core]: Skipping, unable to determine old version
+[2023-04-17 00:45:11] INFO root fetch - main [MainThread]: End processing [ml-botting-core] error
+[2023-04-17 00:45:11] INFO root fetch - processPackages [jeff-api]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-04-17 00:45:11] WARNING root fetch - processPackages [ml-botting-core]: Skipping, unable to determine old version
+[2023-04-17 00:45:11] INFO root fetch - processPackages [jeff-api]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-04-17 00:45:11] INFO root fetch - main [MainThread]: End processing [ml-botting-core] error
+[2023-04-17 00:45:11] INFO root fetch - processPackages [osl]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-04-17 00:45:11] INFO root fetch - processPackages [arabica]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-04-17 00:45:11] INFO root fetch - processPackages [tinyscript]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-04-17 00:45:11] INFO root fetch - processPackages [ultralytics]: New version: [8.0.9] Old Version: [8.0.81]
+[2023-04-17 00:45:11] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/b9/2a/e1f6d2676e6bb666fea16a78abe7efadc0e5141c0ead2e9d8ec5f7a0ee4b/ultralytics-8.0.81.tar.gz
+[2023-04-17 00:45:11] INFO root fetch - processPackages [django-upload-to]: Downloading https://files.pythonhosted.org/packages/2a/e4/6299e1b5d135c14b807157650145314ee0de8d27b412792524a0cbe40ae5/django_upload_to-0.3.3.tar.gz
+[2023-04-17 00:45:11] INFO root fetch - processPackages [osl]: Downloading https://files.pythonhosted.org/packages/22/0c/35b1afd71611d652b9dee166e436394b933191c9df225cb658d5924771d9/osl-0.2.0.tar.gz
+[2023-04-17 00:45:11] INFO root fetch - processPackages [jeff-api]: Downloading https://files.pythonhosted.org/packages/78/4f/b40538f8f84af73936f492c0380ba76725c961caa9bb37c95f08bbb58202/jeff_api-1.1.0.tar.gz
+[2023-04-17 00:45:11] INFO root fetch - processPackages [jeff-api]: Downloading https://files.pythonhosted.org/packages/78/4f/b40538f8f84af73936f492c0380ba76725c961caa9bb37c95f08bbb58202/jeff_api-1.1.0.tar.gz
+[2023-04-17 00:45:11] INFO root fetch - processPackages [arabica]: Downloading https://files.pythonhosted.org/packages/bc/dd/0573fa0443926a2a989941eb6f74cd8bc4df6400660d2f3363fbbb4b0aad/arabica-1.4.3.tar.gz
+[2023-04-17 00:45:11] INFO root fetch - processPackages [tinyscript]: Downloading https://files.pythonhosted.org/packages/45/d0/3393f08eca58519f8e94086418ba3efe9502ad4acb3cc377fe73b08f64ab/tinyscript-1.9.4.tar.gz
+[2023-04-17 00:45:11] INFO root fetch - processPackages [pyadtpulse]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-17 00:45:11] INFO root fetch - processPackages [django-upload-to]: executing diffoscope
+[2023-04-17 00:45:11] INFO root fetch - processPackages [django-upload-to]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_upload_to-0.3.2.tar.gz tmp/django_upload_to-0.3.3.tar.gz --markdown 20230417/d/django-upload-to/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-04-17 00:45:12] INFO root fetch - processPackages [arabica]: executing diffoscope
+[2023-04-17 00:45:12] INFO root fetch - processPackages [arabica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arabica-1.4.2.tar.gz tmp/arabica-1.4.3.tar.gz --markdown 20230417/a/arabica/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-04-17 00:45:12] INFO root fetch - processPackages [pyadtpulse]: Downloading https://files.pythonhosted.org/packages/82/62/504ed9d456fb9c761f0a34d3626c3b146851d54c703839ea163ba39de333/pyadtpulse-1.0.0-py3-none-any.whl
+[2023-04-17 00:45:12] INFO root fetch - processPackages [ultralytics]: executing diffoscope
+[2023-04-17 00:45:12] INFO root fetch - processPackages [ultralytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultralytics-8.0.81.tar.gz tmp/ultralytics-8.0.9.tar.gz --markdown 20230417/u/ultralytics/8.0.81-8.0.9/diff.md --exclude *.pyd
+[2023-04-17 00:45:12] INFO root fetch - processPackages [jeff-api]: Downloading https://files.pythonhosted.org/packages/7f/a0/e8ff9a6ac48492c8e2ae3b247eb0a52db00fc3ad6f70339b09689c00fa6b/jeff_api-1.1.1.tar.gz
+[2023-04-17 00:45:12] INFO root fetch - processPackages [jeff-api]: Downloading https://files.pythonhosted.org/packages/7f/a0/e8ff9a6ac48492c8e2ae3b247eb0a52db00fc3ad6f70339b09689c00fa6b/jeff_api-1.1.1.tar.gz
+[2023-04-17 00:45:12] INFO root fetch - processPackages [osl]: Downloading https://files.pythonhosted.org/packages/9f/4b/5dd5d5f789b6321f2f65a35ebd1cf777f680a64368374a1996a1a1276833/osl-0.3.0.tar.gz
+[2023-04-17 00:45:12] INFO root fetch - processPackages [jeff-api]: executing diffoscope
+[2023-04-17 00:45:12] INFO root fetch - processPackages [jeff-api]: executing diffoscope
+[2023-04-17 00:45:12] INFO root fetch - processPackages [jeff-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jeff_api-1.1.0.tar.gz tmp/jeff_api-1.1.1.tar.gz --markdown 20230417/j/jeff-api/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-04-17 00:45:12] INFO root fetch - processPackages [jeff-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jeff_api-1.1.0.tar.gz tmp/jeff_api-1.1.1.tar.gz --markdown 20230417/j/jeff-api/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-04-17 00:45:12] INFO root fetch - processPackages [tinyscript]: Downloading https://files.pythonhosted.org/packages/a4/92/f1a76d3caa9d4c9a8eea462e7b0ebce18a722fc05ccdba197c2ce598db2b/tinyscript-1.9.5.tar.gz
+[2023-04-17 00:45:12] INFO root fetch - processPackages [pyadtpulse]: Downloading https://files.pythonhosted.org/packages/c0/c4/5afc999ef2ae3048ad8e00c95f85fa434ded5eba3e759d5f6a3cdeb2fee7/pyadtpulse-1.0.1-py3-none-any.whl
+[2023-04-17 00:45:12] INFO root fetch - processPackages [pyadtpulse]: executing diffoscope
+[2023-04-17 00:45:12] INFO root fetch - processPackages [pyadtpulse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyadtpulse-1.0.0-py3-none-any.whl.zip tmp/pyadtpulse-1.0.1-py3-none-any.whl.zip --markdown 20230417/p/pyadtpulse/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-17 00:45:12] INFO root fetch - processPackages [tinyscript]: executing diffoscope
+[2023-04-17 00:45:12] INFO root fetch - processPackages [tinyscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinyscript-1.9.4.tar.gz tmp/tinyscript-1.9.5.tar.gz --markdown 20230417/t/tinyscript/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-04-17 00:45:13] INFO root fetch - main [MainThread]: End processing [django-upload-to]: success
+[2023-04-17 00:45:13] INFO root fetch - main [MainThread]: End processing [arabica]: success
+[2023-04-17 00:45:13] INFO root fetch - main [MainThread]: End processing [jeff-api]: success
+[2023-04-17 00:45:13] INFO root fetch - processPackages [osl]: executing diffoscope
+[2023-04-17 00:45:13] INFO root fetch - processPackages [osl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osl-0.2.0.tar.gz tmp/osl-0.3.0.tar.gz --markdown 20230417/o/osl/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-04-17 00:45:13] INFO root fetch - main [MainThread]: End processing [jeff-api]: success
+[2023-04-17 00:45:13] INFO root fetch - main [MainThread]: End processing [pyadtpulse]: success
+[2023-04-17 00:45:14] INFO root fetch - main [MainThread]: End processing [tinyscript]: success
+[2023-04-17 00:45:14] INFO root fetch - main [MainThread]: End processing [ultralytics]: success
+[2023-04-17 00:48:13] ERROR root fetch - processPackages [osl]: Timeout during execution of pkgdiff
+[2023-04-17 00:48:13] INFO root fetch - main [MainThread]: End processing [osl] error
+[2023-04-17 00:48:13] INFO root fetch - main [MainThread]: Store serial: [17730781]
