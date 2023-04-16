@@ -244,3 +244,48 @@
 [2023-04-17 00:34:20] INFO root fetch - main [MainThread]: End processing [pyds-cli]: success
 [2023-04-17 00:34:20] INFO root fetch - main [MainThread]: End processing [flawmop-fishdish]: success
 [2023-04-17 00:34:20] INFO root fetch - main [MainThread]: Store serial: [17730692]
+[2023-04-17 00:39:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17730692]
+[2023-04-17 00:39:29] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-17 00:39:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dql-alpha
+[2023-04-17 00:39:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quilt-py
+[2023-04-17 00:39:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyhOn
+[2023-04-17 00:39:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oauthAPImojang
+[2023-04-17 00:39:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: routingblocks
+[2023-04-17 00:39:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: moto
+[2023-04-17 00:39:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: moto
+[2023-04-17 00:39:29] INFO root fetch - processPackages [dql-alpha]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-17 00:39:29] INFO root fetch - processPackages [routingblocks]: New version: [0.1.7] Old Version: [0.1.5]
+[2023-04-17 00:39:29] INFO root fetch - processPackages [pyhOn]: New version: [0.8.0b7] Old Version: [0.8.0b6]
+[2023-04-17 00:39:29] INFO root fetch - processPackages [quilt-py]: New version: [0.4.1] Old Version: [0.3.1]
+[2023-04-17 00:39:29] INFO root fetch - processPackages [oauthAPImojang]: New version: [0.3.1] Old Version: [0.2.9]
+[2023-04-17 00:39:29] INFO root fetch - processPackages [moto]: New version: [4.1.8.dev9] Old Version: [4.1.8.dev8]
+[2023-04-17 00:39:29] INFO root fetch - processPackages [moto]: New version: [4.1.8.dev9] Old Version: [4.1.8.dev8]
+[2023-04-17 00:39:29] INFO root fetch - processPackages [routingblocks]: Downloading https://files.pythonhosted.org/packages/1b/e1/e538e20860405c39ff2ef758f21c8ea9f1803d1a017d6eed33b39282c43d/routingblocks-0.1.5.tar.gz
+[2023-04-17 00:39:29] INFO root fetch - processPackages [dql-alpha]: Downloading https://files.pythonhosted.org/packages/60/8e/27c481daa147be803b678cc7bfdff371dfff6e0cc9ec15e0bfe25ef6773c/dql-alpha-0.8.0.tar.gz
+[2023-04-17 00:39:29] INFO root fetch - processPackages [pyhOn]: Downloading https://files.pythonhosted.org/packages/af/a1/a3bd46eefd8a1df683ad143612670b6c039b0fb809ea4eb4f8ad8cba54dd/pyhOn-0.8.0b7.tar.gz
+[2023-04-17 00:39:29] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-04-17 00:39:29] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.8.dev8.tar.gz tmp/moto-4.1.8.dev9.tar.gz --markdown 20230417/m/moto/4.1.8.dev8-4.1.8.dev9/diff.md --exclude *.pyd
+[2023-04-17 00:39:29] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-04-17 00:39:29] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.8.dev8.tar.gz tmp/moto-4.1.8.dev9.tar.gz --markdown 20230417/m/moto/4.1.8.dev8-4.1.8.dev9/diff.md --exclude *.pyd
+[2023-04-17 00:39:29] INFO root fetch - processPackages [oauthAPImojang]: Downloading https://files.pythonhosted.org/packages/2d/af/94ae867b974a3e4f9e33b2019e4028dffac456b53c7d9328b02de988f5c7/oauthAPImojang-0.3.1.tar.gz
+[2023-04-17 00:39:29] INFO root fetch - processPackages [quilt-py]: Downloading https://files.pythonhosted.org/packages/d4/4b/98fa51eb52e668e03db6976dadca967177184db6d9410fb5877d000c2f63/quilt_py-0.4.1.tar.gz
+[2023-04-17 00:39:29] INFO root fetch - processPackages [pyhOn]: executing diffoscope
+[2023-04-17 00:39:29] INFO root fetch - processPackages [pyhOn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhOn-0.8.0b6.tar.gz tmp/pyhOn-0.8.0b7.tar.gz --markdown 20230417/p/pyhOn/0.8.0b6-0.8.0b7/diff.md --exclude *.pyd
+[2023-04-17 00:39:29] INFO root fetch - processPackages [oauthAPImojang]: executing diffoscope
+[2023-04-17 00:39:29] INFO root fetch - processPackages [oauthAPImojang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oauthAPImojang-0.2.9.tar.gz tmp/oauthAPImojang-0.3.1.tar.gz --markdown 20230417/o/oauthAPImojang/0.2.9-0.3.1/diff.md --exclude *.pyd
+[2023-04-17 00:39:29] INFO root fetch - processPackages [routingblocks]: Downloading https://files.pythonhosted.org/packages/33/fa/92da6cc0dda8a3a88bf3cc4ce8b3da4ea1e4839f9405e29754b9558ace3c/routingblocks-0.1.7.tar.gz
+[2023-04-17 00:39:29] INFO root fetch - processPackages [quilt-py]: executing diffoscope
+[2023-04-17 00:39:29] INFO root fetch - processPackages [quilt-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quilt_py-0.3.1.tar.gz tmp/quilt_py-0.4.1.tar.gz --markdown 20230417/q/quilt-py/0.3.1-0.4.1/diff.md --exclude *.pyd
+[2023-04-17 00:39:29] INFO root fetch - processPackages [routingblocks]: executing diffoscope
+[2023-04-17 00:39:29] INFO root fetch - processPackages [routingblocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/routingblocks-0.1.5.tar.gz tmp/routingblocks-0.1.7.tar.gz --markdown 20230417/r/routingblocks/0.1.5-0.1.7/diff.md --exclude *.pyd
+[2023-04-17 00:39:29] INFO root fetch - processPackages [dql-alpha]: Downloading https://files.pythonhosted.org/packages/5f/4b/932e15e7e71f8b51b4966e96056e13cbd2203696a798fbe0c15a8ad136d8/dql-alpha-0.9.0.tar.gz
+[2023-04-17 00:39:29] INFO root fetch - processPackages [dql-alpha]: executing diffoscope
+[2023-04-17 00:39:29] INFO root fetch - processPackages [dql-alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dql-alpha-0.8.0.tar.gz tmp/dql-alpha-0.9.0.tar.gz --markdown 20230417/d/dql-alpha/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-17 00:39:30] INFO root fetch - main [MainThread]: End processing [oauthAPImojang]: success
+[2023-04-17 00:39:31] INFO root fetch - main [MainThread]: End processing [quilt-py]: success
+[2023-04-17 00:39:31] INFO root fetch - main [MainThread]: End processing [pyhOn]: success
+[2023-04-17 00:39:31] INFO root fetch - main [MainThread]: End processing [dql-alpha]: success
+[2023-04-17 00:39:33] INFO root fetch - main [MainThread]: End processing [routingblocks]: success
+[2023-04-17 00:40:02] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-04-17 00:40:02] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-04-17 00:40:02] INFO root fetch - main [MainThread]: Store serial: [17730731]
