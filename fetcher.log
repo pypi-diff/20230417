@@ -1,0 +1,36 @@
+[2023-04-17 00:01:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17730546]
+[2023-04-17 00:01:57] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-17 00:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sprocket-boxcars-py
+[2023-04-17 00:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pygments-git
+[2023-04-17 00:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chromat
+[2023-04-17 00:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sopel-twitter
+[2023-04-17 00:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: developergpt
+[2023-04-17 00:01:57] INFO root fetch - processPackages [pygments-git]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-04-17 00:01:57] INFO root fetch - processPackages [sopel-twitter]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-17 00:01:57] INFO root fetch - processPackages [sprocket-boxcars-py]: New version: [0.1.16] Old Version: [0.1.15]
+[2023-04-17 00:01:57] INFO root fetch - processPackages [chromat]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-17 00:01:57] INFO root fetch - processPackages [developergpt]: New version: [0.2.1] Old Version: [0.1.7]
+[2023-04-17 00:01:57] INFO root fetch - processPackages [pygments-git]: Downloading https://files.pythonhosted.org/packages/66/96/1f50a65ab2d0d35d46188d53a0445fc9d5e5a453c6dd8c77d23591e1f674/pygments_git-1.1.0.tar.gz
+[2023-04-17 00:01:57] INFO root fetch - processPackages [sprocket-boxcars-py]: Downloading https://files.pythonhosted.org/packages/d8/49/3ab943e18871d63e96a0a97936c0c1ae83deb45b4e2d40045f4961f37f3d/sprocket_boxcars_py-0.1.15.tar.gz
+[2023-04-17 00:01:57] INFO root fetch - processPackages [sopel-twitter]: Downloading https://files.pythonhosted.org/packages/a0/29/3c2423834963264d9c68f383e68b3efd03f32058700f4ab19ec2219bb08f/sopel-twitter-1.0.0.tar.gz
+[2023-04-17 00:01:57] INFO root fetch - processPackages [chromat]: Downloading https://files.pythonhosted.org/packages/9c/35/c68af728ac36e34f7873cc930e2bc8a94611b8fbb868459f58c9525f7d4b/chromat-0.0.5.tar.gz
+[2023-04-17 00:01:58] INFO root fetch - processPackages [chromat]: executing diffoscope
+[2023-04-17 00:01:58] INFO root fetch - processPackages [chromat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromat-0.0.4.tar.gz tmp/chromat-0.0.5.tar.gz --markdown 20230417/c/chromat/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-17 00:01:58] INFO root fetch - processPackages [developergpt]: Downloading https://files.pythonhosted.org/packages/d7/21/39fb8cd1b9f5fac097fd80122e2e484e8495e372ed74aed8a84fa2e3ed78/developergpt-0.2.1.tar.gz
+[2023-04-17 00:01:58] INFO root fetch - processPackages [pygments-git]: Downloading https://files.pythonhosted.org/packages/a2/4a/d0dfd0b24418c4dacb946b4de8bcbccbdb8aa1f4a6446757efb36d09e5ec/pygments_git-1.2.0.tar.gz
+[2023-04-17 00:01:58] INFO root fetch - processPackages [sprocket-boxcars-py]: Downloading https://files.pythonhosted.org/packages/10/0b/f45eccfc625376c705c7131123db00a847a93749a6e55de63c9c1054de21/sprocket_boxcars_py-0.1.16.tar.gz
+[2023-04-17 00:01:58] INFO root fetch - processPackages [sopel-twitter]: Downloading https://files.pythonhosted.org/packages/28/63/acff23c048999d85903e3aa1eabca334b54d81c568001d945e4cff783575/sopel-twitter-1.0.1.tar.gz
+[2023-04-17 00:01:58] INFO root fetch - processPackages [developergpt]: executing diffoscope
+[2023-04-17 00:01:58] INFO root fetch - processPackages [developergpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/developergpt-0.1.7.tar.gz tmp/developergpt-0.2.1.tar.gz --markdown 20230417/d/developergpt/0.1.7-0.2.1/diff.md --exclude *.pyd
+[2023-04-17 00:01:58] INFO root fetch - processPackages [pygments-git]: executing diffoscope
+[2023-04-17 00:01:58] INFO root fetch - processPackages [pygments-git]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygments_git-1.1.0.tar.gz tmp/pygments_git-1.2.0.tar.gz --markdown 20230417/p/pygments-git/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-04-17 00:01:58] INFO root fetch - processPackages [sprocket-boxcars-py]: executing diffoscope
+[2023-04-17 00:01:58] INFO root fetch - processPackages [sprocket-boxcars-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sprocket_boxcars_py-0.1.15.tar.gz tmp/sprocket_boxcars_py-0.1.16.tar.gz --markdown 20230417/s/sprocket-boxcars-py/0.1.15-0.1.16/diff.md --exclude *.pyd
+[2023-04-17 00:01:58] INFO root fetch - processPackages [sopel-twitter]: executing diffoscope
+[2023-04-17 00:01:58] INFO root fetch - processPackages [sopel-twitter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sopel-twitter-1.0.0.tar.gz tmp/sopel-twitter-1.0.1.tar.gz --markdown 20230417/s/sopel-twitter/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-17 00:01:59] INFO root fetch - main [MainThread]: End processing [sprocket-boxcars-py]: success
+[2023-04-17 00:01:59] INFO root fetch - main [MainThread]: End processing [chromat]: success
+[2023-04-17 00:01:59] INFO root fetch - main [MainThread]: End processing [pygments-git]: success
+[2023-04-17 00:01:59] INFO root fetch - main [MainThread]: End processing [developergpt]: success
+[2023-04-17 00:01:59] INFO root fetch - main [MainThread]: End processing [sopel-twitter]: success
+[2023-04-17 00:01:59] INFO root fetch - main [MainThread]: Store serial: [17730561]
