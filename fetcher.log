@@ -772,3 +772,62 @@
 [2023-04-17 01:46:25] INFO root fetch - main [MainThread]: End processing [verifiNN]: success
 [2023-04-17 01:46:35] INFO root fetch - main [MainThread]: End processing [oauthAPImojang]: success
 [2023-04-17 01:46:35] INFO root fetch - main [MainThread]: Store serial: [17731107]
+[2023-04-17 01:51:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17731107]
+[2023-04-17 01:51:43] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-17 01:51:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: drs-compliance-suite
+[2023-04-17 01:51:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oauthAPImojang
+[2023-04-17 01:51:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shogun-build
+[2023-04-17 01:51:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: biobricks
+[2023-04-17 01:51:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: symdexer
+[2023-04-17 01:51:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytest-frappe
+[2023-04-17 01:51:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bamsalvage
+[2023-04-17 01:51:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wavescout
+[2023-04-17 01:51:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: marqo
+[2023-04-17 01:51:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vellumdev
+[2023-04-17 01:51:43] WARNING root fetch - processPackages [drs-compliance-suite]: Skipping, unable to determine old version
+[2023-04-17 01:51:43] INFO root fetch - processPackages [drs-compliance-suite]: Start processing: spclustering
+[2023-04-17 01:51:43] INFO root fetch - main [MainThread]: End processing [drs-compliance-suite] error
+[2023-04-17 01:51:43] INFO root fetch - processPackages [oauthAPImojang]: New version: [0.3.4] Old Version: [0.3.2]
+[2023-04-17 01:51:43] INFO root fetch - processPackages [pytest-frappe]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-17 01:51:43] WARNING root fetch - processPackages [shogun-build]: Skipping, unable to determine old version
+[2023-04-17 01:51:43] INFO root fetch - main [MainThread]: End processing [shogun-build] error
+[2023-04-17 01:51:43] INFO root fetch - processPackages [biobricks]: New version: [0.1.60] Old Version: [0.1.59]
+[2023-04-17 01:51:43] WARNING root fetch - processPackages [wavescout]: Skipping, unable to determine old version
+[2023-04-17 01:51:43] INFO root fetch - processPackages [vellumdev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 01:51:43] INFO root fetch - main [MainThread]: End processing [wavescout] error
+[2023-04-17 01:51:43] INFO root fetch - processPackages [symdexer]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-04-17 01:51:43] INFO root fetch - processPackages [marqo]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-04-17 01:51:43] WARNING root fetch - processPackages [bamsalvage]: Skipping, unable to determine old version
+[2023-04-17 01:51:43] INFO root fetch - main [MainThread]: End processing [bamsalvage] error
+[2023-04-17 01:51:43] INFO root fetch - processPackages [vellumdev]: executing diffoscope
+[2023-04-17 01:51:43] INFO root fetch - processPackages [vellumdev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vellumdev-0.0.8.tar.gz tmp/vellumdev-0.0.9-py3-none-any.whl.zip --markdown 20230417/v/vellumdev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 01:51:43] INFO root fetch - processPackages [spclustering]: New version: [0.8.0] Old Version: [0.0.3]
+[2023-04-17 01:51:44] INFO root fetch - processPackages [oauthAPImojang]: Downloading https://files.pythonhosted.org/packages/03/59/8c84c55ab7283a3c1c229cb2521e9591f5634c5741a0c9b83e405d0dc811/oauthAPImojang-0.3.4.tar.gz
+[2023-04-17 01:51:44] INFO root fetch - processPackages [biobricks]: Downloading https://files.pythonhosted.org/packages/e0/83/37b53219074fa4deb867914ab703e6c615911c88555838cdda36729a17d6/biobricks-0.1.59.tar.gz
+[2023-04-17 01:51:44] INFO root fetch - processPackages [pytest-frappe]: Downloading https://files.pythonhosted.org/packages/5a/75/031c3adefa28c15c74d787ea13a4fa8cdb43e5b39fd208e0c269797f1a0d/pytest-frappe-0.0.1.tar.gz
+[2023-04-17 01:51:44] INFO root fetch - processPackages [oauthAPImojang]: executing diffoscope
+[2023-04-17 01:51:44] INFO root fetch - processPackages [oauthAPImojang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oauthAPImojang-0.3.2.tar.gz tmp/oauthAPImojang-0.3.4.tar.gz --markdown 20230417/o/oauthAPImojang/0.3.2-0.3.4/diff.md --exclude *.pyd
+[2023-04-17 01:51:44] INFO root fetch - processPackages [spclustering]: Downloading https://files.pythonhosted.org/packages/fa/d8/6f94fa2558d104b9b1ae2b9221460ebdc867c81b47ffb8fce4190e2b68c0/spclustering-0.0.3.tar.gz
+[2023-04-17 01:51:44] INFO root fetch - processPackages [marqo]: Downloading https://files.pythonhosted.org/packages/dc/0d/449c0387a382da21d1320788e4e3de1e02f74bdceb4eb19a89b3459478d2/marqo-0.9.3.tar.gz
+[2023-04-17 01:51:44] INFO root fetch - processPackages [symdexer]: Downloading https://files.pythonhosted.org/packages/7b/57/daaad03cd7b01edf1f5e342f13a9cd723a13186540c02e830dcd40bb53a6/symdexer-0.2.4.tar.gz
+[2023-04-17 01:51:44] INFO root fetch - processPackages [biobricks]: Downloading https://files.pythonhosted.org/packages/c0/54/668bd061609a20d946a01579692c00149b984170ca2f348d746d03094f72/biobricks-0.1.60.tar.gz
+[2023-04-17 01:51:44] INFO root fetch - processPackages [pytest-frappe]: Downloading https://files.pythonhosted.org/packages/2b/7b/20b3c878644fb0a5413da4a417a14b54fbfd55b7dc3cbb2ebc03d3d4d09d/pytest-frappe-0.0.2.tar.gz
+[2023-04-17 01:51:44] INFO root fetch - processPackages [symdexer]: executing diffoscope
+[2023-04-17 01:51:44] INFO root fetch - processPackages [symdexer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symdexer-0.2.3.tar.gz tmp/symdexer-0.2.4.tar.gz --markdown 20230417/s/symdexer/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-04-17 01:51:44] INFO root fetch - processPackages [marqo]: executing diffoscope
+[2023-04-17 01:51:44] INFO root fetch - processPackages [marqo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marqo-0.9.2.tar.gz tmp/marqo-0.9.3.tar.gz --markdown 20230417/m/marqo/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-04-17 01:51:44] INFO root fetch - processPackages [spclustering]: Downloading https://files.pythonhosted.org/packages/17/61/35c627703a7de2be94724665831dfa76259662c0e6c145201be77eac07e0/spclustering-0.8.0-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-17 01:51:44] INFO root fetch - processPackages [biobricks]: executing diffoscope
+[2023-04-17 01:51:44] INFO root fetch - processPackages [biobricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biobricks-0.1.59.tar.gz tmp/biobricks-0.1.60.tar.gz --markdown 20230417/b/biobricks/0.1.59-0.1.60/diff.md --exclude *.pyd
+[2023-04-17 01:51:44] INFO root fetch - processPackages [pytest-frappe]: executing diffoscope
+[2023-04-17 01:51:44] INFO root fetch - processPackages [pytest-frappe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-frappe-0.0.1.tar.gz tmp/pytest-frappe-0.0.2.tar.gz --markdown 20230417/p/pytest-frappe/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-17 01:51:44] INFO root fetch - processPackages [spclustering]: executing diffoscope
+[2023-04-17 01:51:44] INFO root fetch - processPackages [spclustering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spclustering-0.0.3.tar.gz tmp/spclustering-0.8.0-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230417/s/spclustering/0.0.3-0.8.0/diff.md --exclude *.pyd
+[2023-04-17 01:51:45] INFO root fetch - main [MainThread]: End processing [oauthAPImojang]: success
+[2023-04-17 01:51:45] INFO root fetch - main [MainThread]: End processing [vellumdev]: success
+[2023-04-17 01:51:45] INFO root fetch - main [MainThread]: End processing [symdexer]: success
+[2023-04-17 01:51:45] INFO root fetch - main [MainThread]: End processing [marqo]: success
+[2023-04-17 01:51:45] INFO root fetch - main [MainThread]: End processing [pytest-frappe]: success
+[2023-04-17 01:51:45] INFO root fetch - main [MainThread]: End processing [biobricks]: success
+[2023-04-17 01:51:45] INFO root fetch - main [MainThread]: End processing [spclustering]: success
+[2023-04-17 01:51:45] INFO root fetch - main [MainThread]: Store serial: [17731150]
