@@ -134,3 +134,72 @@
 [2023-04-17 00:17:40] INFO root fetch - main [MainThread]: End processing [pyrocumulus]: success
 [2023-04-17 00:18:38] INFO root fetch - main [MainThread]: End processing [bpp-iplweb]: success
 [2023-04-17 00:18:38] INFO root fetch - main [MainThread]: Store serial: [17730614]
+[2023-04-17 00:23:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17730614]
+[2023-04-17 00:23:47] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-17 00:23:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastcoref
+[2023-04-17 00:23:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tuneflow-devkit-py
+[2023-04-17 00:23:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: evolutionary-forest
+[2023-04-17 00:23:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: phantominator
+[2023-04-17 00:23:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: network-scanner-kbk
+[2023-04-17 00:23:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hordelib
+[2023-04-17 00:23:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mqtt-entity
+[2023-04-17 00:23:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pygptj
+[2023-04-17 00:23:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zhcode
+[2023-04-17 00:23:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hybkit
+[2023-04-17 00:23:48] INFO root fetch - processPackages [tuneflow-devkit-py]: New version: [0.6.0] Old Version: [0.5.5]
+[2023-04-17 00:23:48] INFO root fetch - processPackages [fastcoref]: New version: [2.1.3] Old Version: [2.1.1]
+[2023-04-17 00:23:48] INFO root fetch - processPackages [phantominator]: New version: [0.7.0] Old Version: [0.6.4]
+[2023-04-17 00:23:48] INFO root fetch - processPackages [hordelib]: New version: [0.9.0] Old Version: [0.8.8]
+[2023-04-17 00:23:48] INFO root fetch - processPackages [mqtt-entity]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-17 00:23:48] INFO root fetch - processPackages [evolutionary-forest]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-17 00:23:48] INFO root fetch - processPackages [zhcode]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-17 00:23:48] INFO root fetch - processPackages [network-scanner-kbk]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-17 00:23:48] WARNING root fetch - processPackages [pygptj]: Skipping, unable to determine old version
+[2023-04-17 00:23:48] INFO root fetch - processPackages [pygptj]: Start processing: distributed-transcoder-common
+[2023-04-17 00:23:48] INFO root fetch - main [MainThread]: End processing [pygptj] error
+[2023-04-17 00:23:48] INFO root fetch - processPackages [distributed-transcoder-common]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-04-17 00:23:48] INFO root fetch - processPackages [hybkit]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-04-17 00:23:48] INFO root fetch - processPackages [tuneflow-devkit-py]: Downloading https://files.pythonhosted.org/packages/97/3d/f209a04d5d8b61409e1ab5e277def490ca4e288a8ba20475a4c57a967ac5/tuneflow-devkit-py-0.5.5.tar.gz
+[2023-04-17 00:23:48] INFO root fetch - processPackages [distributed-transcoder-common]: executing diffoscope
+[2023-04-17 00:23:48] INFO root fetch - processPackages [distributed-transcoder-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/distributed-transcoder-common-0.2.4.tar.gz tmp/distributed-transcoder-common-0.2.5.tar.gz --markdown 20230417/d/distributed-transcoder-common/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-04-17 00:23:48] INFO root fetch - processPackages [phantominator]: Downloading https://files.pythonhosted.org/packages/26/88/706f1500f130d23b860faaca5e9e722ee11e300a84a8102f5945519fd066/phantominator-0.6.4.tar.gz
+[2023-04-17 00:23:48] INFO root fetch - processPackages [fastcoref]: Downloading https://files.pythonhosted.org/packages/e9/66/9c23c0f3fe57985756c8415f68e1178ab3fdc3395df33aefc022ac6eeaf0/fastcoref-2.1.1.tar.gz
+[2023-04-17 00:23:48] INFO root fetch - processPackages [zhcode]: Downloading https://files.pythonhosted.org/packages/6d/ef/c3aa2d4254ef8a2b2323c52c1edf0e09cb759ef88871c4e28a5c26b3f8c1/zhcode-0.1.1.tar.gz
+[2023-04-17 00:23:48] INFO root fetch - processPackages [mqtt-entity]: Downloading https://files.pythonhosted.org/packages/a3/cc/84ba6f289d302b7fb1e3982d05ae62cf034ca350540a05ff4ba21b0827fd/mqtt-entity-0.0.1.tar.gz
+[2023-04-17 00:23:48] INFO root fetch - processPackages [network-scanner-kbk]: Downloading https://files.pythonhosted.org/packages/f6/4e/b04f66b257a74d3725e59600216583012408f58be5b200963ec013a85ea1/network_scanner_kbk-0.0.3.tar.gz
+[2023-04-17 00:23:48] INFO root fetch - processPackages [evolutionary-forest]: Downloading https://files.pythonhosted.org/packages/0a/0a/7f5846d8c8f3cf84b733bef6a174922a45226c97577a7e8ffbba8ca6b1e2/evolutionary_forest-0.2.2-py2.py3-none-any.whl
+[2023-04-17 00:23:48] INFO root fetch - processPackages [hordelib]: Downloading https://files.pythonhosted.org/packages/54/b3/51e2e97230c67a36b54354f2703b98c20b29b12b08654ec203fb0f41e2cd/hordelib-0.8.8.tar.gz
+[2023-04-17 00:23:48] INFO root fetch - processPackages [zhcode]: executing diffoscope
+[2023-04-17 00:23:48] INFO root fetch - processPackages [zhcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhcode-0.1.0.tar.gz tmp/zhcode-0.1.1.tar.gz --markdown 20230417/z/zhcode/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-17 00:23:48] INFO root fetch - processPackages [hybkit]: Downloading https://files.pythonhosted.org/packages/9e/64/14b24a068b8af8f03f0da89a21db98ffca0f26977513ab8ee528f306b48c/hybkit-0.2.0.tar.gz
+[2023-04-17 00:23:48] INFO root fetch - processPackages [network-scanner-kbk]: executing diffoscope
+[2023-04-17 00:23:48] INFO root fetch - processPackages [network-scanner-kbk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/network_scanner_kbk-0.0.2.tar.gz tmp/network_scanner_kbk-0.0.3.tar.gz --markdown 20230417/n/network-scanner-kbk/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-17 00:23:48] INFO root fetch - processPackages [evolutionary-forest]: executing diffoscope
+[2023-04-17 00:23:48] INFO root fetch - processPackages [evolutionary-forest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evolutionary_forest-0.2.1.tar.gz tmp/evolutionary_forest-0.2.2-py2.py3-none-any.whl.zip --markdown 20230417/e/evolutionary-forest/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-17 00:23:48] INFO root fetch - processPackages [phantominator]: Downloading https://files.pythonhosted.org/packages/9a/9d/f50dfac33ef59dab3fc90b9606dae8b8eb5a63d6a7cf295d4923e55c305d/phantominator-0.7.0.tar.gz
+[2023-04-17 00:23:48] WARNING root fetch - processPackages [hybkit]: Skipping package: exceeds size limit 37121936>=10485760
+[2023-04-17 00:23:48] INFO root fetch - main [MainThread]: End processing [hybkit] error
+[2023-04-17 00:23:48] INFO root fetch - processPackages [tuneflow-devkit-py]: Downloading https://files.pythonhosted.org/packages/d8/f6/e8330ecd8d9c2520ae1f8c252318f7f5ffeaeb6535b7f54ad3bed349727a/tuneflow-devkit-py-0.6.0.tar.gz
+[2023-04-17 00:23:48] INFO root fetch - processPackages [mqtt-entity]: Downloading https://files.pythonhosted.org/packages/f5/2a/07a707a8e00caf1a7c50651f3209c67f279d1407c6387888cbe08f739d0e/mqtt-entity-0.0.2.tar.gz
+[2023-04-17 00:23:48] INFO root fetch - processPackages [phantominator]: executing diffoscope
+[2023-04-17 00:23:48] INFO root fetch - processPackages [phantominator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phantominator-0.6.4.tar.gz tmp/phantominator-0.7.0.tar.gz --markdown 20230417/p/phantominator/0.6.4-0.7.0/diff.md --exclude *.pyd
+[2023-04-17 00:23:48] INFO root fetch - processPackages [fastcoref]: Downloading https://files.pythonhosted.org/packages/4d/d5/6126f55387d76a147ec58d3b8ea81e96095b2cef4ce3721dc22df62bcdb5/fastcoref-2.1.3.tar.gz
+[2023-04-17 00:23:48] INFO root fetch - processPackages [tuneflow-devkit-py]: executing diffoscope
+[2023-04-17 00:23:48] INFO root fetch - processPackages [tuneflow-devkit-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuneflow-devkit-py-0.5.5.tar.gz tmp/tuneflow-devkit-py-0.6.0.tar.gz --markdown 20230417/t/tuneflow-devkit-py/0.5.5-0.6.0/diff.md --exclude *.pyd
+[2023-04-17 00:23:48] INFO root fetch - processPackages [mqtt-entity]: executing diffoscope
+[2023-04-17 00:23:48] INFO root fetch - processPackages [mqtt-entity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mqtt-entity-0.0.1.tar.gz tmp/mqtt-entity-0.0.2.tar.gz --markdown 20230417/m/mqtt-entity/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-17 00:23:48] INFO root fetch - processPackages [hordelib]: Downloading https://files.pythonhosted.org/packages/19/5b/4d036eb37d102ec5e78307da28fc88ea302086540df7b884f1e92882fdd5/hordelib-0.9.0.tar.gz
+[2023-04-17 00:23:48] INFO root fetch - processPackages [fastcoref]: executing diffoscope
+[2023-04-17 00:23:48] INFO root fetch - processPackages [fastcoref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastcoref-2.1.1.tar.gz tmp/fastcoref-2.1.3.tar.gz --markdown 20230417/f/fastcoref/2.1.1-2.1.3/diff.md --exclude *.pyd
+[2023-04-17 00:23:48] INFO root fetch - processPackages [hordelib]: executing diffoscope
+[2023-04-17 00:23:48] INFO root fetch - processPackages [hordelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hordelib-0.8.8.tar.gz tmp/hordelib-0.9.0.tar.gz --markdown 20230417/h/hordelib/0.8.8-0.9.0/diff.md --exclude *.pyd
+[2023-04-17 00:23:49] INFO root fetch - main [MainThread]: End processing [distributed-transcoder-common]: success
+[2023-04-17 00:23:49] INFO root fetch - main [MainThread]: End processing [zhcode]: success
+[2023-04-17 00:23:49] INFO root fetch - main [MainThread]: End processing [network-scanner-kbk]: success
+[2023-04-17 00:23:50] INFO root fetch - main [MainThread]: End processing [phantominator]: success
+[2023-04-17 00:23:50] INFO root fetch - main [MainThread]: End processing [fastcoref]: success
+[2023-04-17 00:23:50] INFO root fetch - main [MainThread]: End processing [tuneflow-devkit-py]: success
+[2023-04-17 00:23:50] INFO root fetch - main [MainThread]: End processing [mqtt-entity]: success
+[2023-04-17 00:23:51] INFO root fetch - main [MainThread]: End processing [evolutionary-forest]: success
+[2023-04-17 00:23:59] INFO root fetch - main [MainThread]: End processing [hordelib]: success
+[2023-04-17 00:23:59] INFO root fetch - main [MainThread]: Store serial: [17730664]
