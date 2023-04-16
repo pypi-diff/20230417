@@ -703,3 +703,42 @@
 [2023-04-17 01:36:03] INFO root fetch - main [MainThread]: End processing [flow-py-sdk-legacy]: success
 [2023-04-17 01:36:04] INFO root fetch - main [MainThread]: End processing [alertify]: success
 [2023-04-17 01:36:04] INFO root fetch - main [MainThread]: Store serial: [17731021]
+[2023-04-17 01:41:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17731021]
+[2023-04-17 01:41:12] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-17 01:41:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pipen-args
+[2023-04-17 01:41:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-trackings
+[2023-04-17 01:41:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dbxconfig
+[2023-04-17 01:41:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ynab-sdk
+[2023-04-17 01:41:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aiogram-ext
+[2023-04-17 01:41:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fastHDMI
+[2023-04-17 01:41:12] INFO root fetch - processPackages [fastHDMI]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-04-17 01:41:12] INFO root fetch - processPackages [pipen-args]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-04-17 01:41:12] INFO root fetch - processPackages [dbxconfig]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-17 01:41:12] INFO root fetch - processPackages [django-trackings]: New version: [0.6.0a2] Old Version: [0.6.0a1]
+[2023-04-17 01:41:12] INFO root fetch - processPackages [ynab-sdk]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-04-17 01:41:12] INFO root fetch - processPackages [aiogram-ext]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 01:41:12] INFO root fetch - processPackages [fastHDMI]: executing diffoscope
+[2023-04-17 01:41:12] INFO root fetch - processPackages [fastHDMI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastHDMI-1.2.8.tar.gz tmp/fastHDMI-1.2.9.tar.gz --markdown 20230417/f/fastHDMI/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-04-17 01:41:12] INFO root fetch - processPackages [aiogram-ext]: executing diffoscope
+[2023-04-17 01:41:12] INFO root fetch - processPackages [aiogram-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiogram-ext-0.0.8.tar.gz tmp/aiogram-ext-0.0.9.tar.gz --markdown 20230417/a/aiogram-ext/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 01:41:12] INFO root fetch - processPackages [dbxconfig]: Downloading https://files.pythonhosted.org/packages/b0/7b/9fbb88d4eb5084f8f5cffdbaf4e0c8f105b2b91dbe385ff5f8b479de7a3c/dbxconfig-1.0.2.tar.gz
+[2023-04-17 01:41:12] INFO root fetch - processPackages [pipen-args]: Downloading https://files.pythonhosted.org/packages/3a/f2/752173baf905a60d493557aac840c434cd30e33c0d29c3f9d63ecf75dee5/pipen_args-0.9.4.tar.gz
+[2023-04-17 01:41:12] INFO root fetch - processPackages [ynab-sdk]: Downloading https://files.pythonhosted.org/packages/ec/4e/d2af12223660db59ba2d036872b3172d2fcb6f78b29a257b078234b51011/ynab-sdk-0.4.0.tar.gz
+[2023-04-17 01:41:12] INFO root fetch - processPackages [django-trackings]: Downloading https://files.pythonhosted.org/packages/a3/19/f87952a0a1fb16648145fcccc71b835236e783a6566756a8ed37c5a74d62/django_trackings-0.6.0a1.tar.gz
+[2023-04-17 01:41:13] INFO root fetch - processPackages [pipen-args]: executing diffoscope
+[2023-04-17 01:41:13] INFO root fetch - processPackages [pipen-args]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipen_args-0.9.3.tar.gz tmp/pipen_args-0.9.4.tar.gz --markdown 20230417/p/pipen-args/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-04-17 01:41:13] INFO root fetch - processPackages [dbxconfig]: executing diffoscope
+[2023-04-17 01:41:13] INFO root fetch - processPackages [dbxconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbxconfig-1.0.1.tar.gz tmp/dbxconfig-1.0.2.tar.gz --markdown 20230417/d/dbxconfig/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-17 01:41:13] INFO root fetch - processPackages [ynab-sdk]: Downloading https://files.pythonhosted.org/packages/5c/90/f4997631c7fa7332bec1f6d8a34adc17befbace984ecab7bb6665d27c278/ynab-sdk-0.5.0.tar.gz
+[2023-04-17 01:41:13] INFO root fetch - processPackages [django-trackings]: Downloading https://files.pythonhosted.org/packages/97/4b/f48eb8505e320787ce9b613c4f55dad8d2ed14ee3bed37a80b0864ccdb49/django_trackings-0.6.0a2.tar.gz
+[2023-04-17 01:41:13] INFO root fetch - processPackages [ynab-sdk]: executing diffoscope
+[2023-04-17 01:41:13] INFO root fetch - processPackages [ynab-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ynab-sdk-0.4.0.tar.gz tmp/ynab-sdk-0.5.0.tar.gz --markdown 20230417/y/ynab-sdk/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-04-17 01:41:13] INFO root fetch - processPackages [django-trackings]: executing diffoscope
+[2023-04-17 01:41:13] INFO root fetch - processPackages [django-trackings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_trackings-0.6.0a1.tar.gz tmp/django_trackings-0.6.0a2.tar.gz --markdown 20230417/d/django-trackings/0.6.0a1-0.6.0a2/diff.md --exclude *.pyd
+[2023-04-17 01:41:14] INFO root fetch - main [MainThread]: End processing [aiogram-ext]: success
+[2023-04-17 01:41:14] INFO root fetch - main [MainThread]: End processing [dbxconfig]: success
+[2023-04-17 01:41:14] INFO root fetch - main [MainThread]: End processing [pipen-args]: success
+[2023-04-17 01:41:14] INFO root fetch - main [MainThread]: End processing [django-trackings]: success
+[2023-04-17 01:41:15] INFO root fetch - main [MainThread]: End processing [ynab-sdk]: success
+[2023-04-17 01:41:15] INFO root fetch - main [MainThread]: End processing [fastHDMI]: success
+[2023-04-17 01:41:15] INFO root fetch - main [MainThread]: Store serial: [17731084]
