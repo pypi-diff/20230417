@@ -58,3 +58,35 @@
 [2023-04-17 00:07:10] INFO root fetch - main [MainThread]: End processing [capsolver-api]: success
 [2023-04-17 00:07:10] INFO root fetch - main [MainThread]: End processing [hikaxpro]: success
 [2023-04-17 00:07:10] INFO root fetch - main [MainThread]: Store serial: [17730572]
+[2023-04-17 00:12:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17730572]
+[2023-04-17 00:12:18] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-17 00:12:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aiogram-ext
+[2023-04-17 00:12:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyhOn
+[2023-04-17 00:12:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scarf
+[2023-04-17 00:12:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: export-ease
+[2023-04-17 00:12:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: arabica
+[2023-04-17 00:12:18] INFO root fetch - processPackages [pyhOn]: New version: [0.8.0b6] Old Version: [0.8.0b5]
+[2023-04-17 00:12:18] INFO root fetch - processPackages [aiogram-ext]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 00:12:18] INFO root fetch - processPackages [scarf]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-04-17 00:12:18] INFO root fetch - processPackages [export-ease]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-17 00:12:19] INFO root fetch - processPackages [arabica]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-04-17 00:12:19] INFO root fetch - processPackages [pyhOn]: Downloading https://files.pythonhosted.org/packages/fd/68/3cb4549c5f4f5df0ba0673ef301089c805dda41ef2892b517a295d6ffd3b/pyhOn-0.8.0b6.tar.gz
+[2023-04-17 00:12:19] INFO root fetch - processPackages [export-ease]: Downloading https://files.pythonhosted.org/packages/97/2e/31bcfda19a99e72f9d3fa34164fbd00e70da74d0740a9eda29528a912bf1/export_ease-0.0.3.tar.gz
+[2023-04-17 00:12:19] INFO root fetch - processPackages [arabica]: Downloading https://files.pythonhosted.org/packages/93/d2/4bf84ffe661b7a8cfcfc4d23f16763863a9a6d664c7be98b37b2d8fd5e56/arabica-1.4.1.tar.gz
+[2023-04-17 00:12:19] INFO root fetch - processPackages [aiogram-ext]: executing diffoscope
+[2023-04-17 00:12:19] INFO root fetch - processPackages [aiogram-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiogram-ext-0.0.8.tar.gz tmp/aiogram-ext-0.0.9.tar.gz --markdown 20230417/a/aiogram-ext/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 00:12:19] INFO root fetch - processPackages [export-ease]: executing diffoscope
+[2023-04-17 00:12:19] INFO root fetch - processPackages [export-ease]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/export_ease-0.0.2.tar.gz tmp/export_ease-0.0.3.tar.gz --markdown 20230417/e/export-ease/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-17 00:12:19] INFO root fetch - processPackages [pyhOn]: executing diffoscope
+[2023-04-17 00:12:19] INFO root fetch - processPackages [pyhOn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhOn-0.8.0b5.tar.gz tmp/pyhOn-0.8.0b6.tar.gz --markdown 20230417/p/pyhOn/0.8.0b5-0.8.0b6/diff.md --exclude *.pyd
+[2023-04-17 00:12:19] INFO root fetch - processPackages [scarf]: executing diffoscope
+[2023-04-17 00:12:19] INFO root fetch - processPackages [scarf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scarf-0.9.1.tar.gz tmp/scarf-0.9.2.tar.gz --markdown 20230417/s/scarf/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-04-17 00:12:19] INFO root fetch - processPackages [arabica]: Downloading https://files.pythonhosted.org/packages/47/aa/15a3dfc3b21de5be8e154289825040cabda8b7a4a9160c0033831d41a03a/arabica-1.4.2.tar.gz
+[2023-04-17 00:12:19] INFO root fetch - processPackages [arabica]: executing diffoscope
+[2023-04-17 00:12:19] INFO root fetch - processPackages [arabica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arabica-1.4.1.tar.gz tmp/arabica-1.4.2.tar.gz --markdown 20230417/a/arabica/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-04-17 00:12:20] INFO root fetch - main [MainThread]: End processing [aiogram-ext]: success
+[2023-04-17 00:12:20] INFO root fetch - main [MainThread]: End processing [export-ease]: success
+[2023-04-17 00:12:20] INFO root fetch - main [MainThread]: End processing [pyhOn]: success
+[2023-04-17 00:12:20] INFO root fetch - main [MainThread]: End processing [scarf]: success
+[2023-04-17 00:12:20] INFO root fetch - main [MainThread]: End processing [arabica]: success
+[2023-04-17 00:12:20] INFO root fetch - main [MainThread]: Store serial: [17730589]
