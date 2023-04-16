@@ -603,3 +603,31 @@
 [2023-04-17 01:20:30] INFO root fetch - main [MainThread]: End processing [pipen]: success
 [2023-04-17 01:20:32] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
 [2023-04-17 01:20:32] INFO root fetch - main [MainThread]: Store serial: [17730914]
+[2023-04-17 01:25:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17730914]
+[2023-04-17 01:25:40] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-04-17 01:25:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: to-cloud-run
+[2023-04-17 01:25:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pygptj
+[2023-04-17 01:25:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytheus
+[2023-04-17 01:25:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cointables
+[2023-04-17 01:25:40] INFO root fetch - processPackages [to-cloud-run]: New version: [1.2] Old Version: [1.1]
+[2023-04-17 01:25:40] INFO root fetch - processPackages [pytheus]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 01:25:40] INFO root fetch - processPackages [cointables]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-17 01:25:40] INFO root fetch - processPackages [pygptj]: New version: [1.0.2] Old Version: [1.0.0]
+[2023-04-17 01:25:41] INFO root fetch - processPackages [cointables]: Downloading https://files.pythonhosted.org/packages/c8/3b/c3f694998b9355826b95a975f978228398e9b2e0785b9cb7395efd8b4615/cointables-0.1.0.tar.gz
+[2023-04-17 01:25:41] INFO root fetch - processPackages [to-cloud-run]: Downloading https://files.pythonhosted.org/packages/6c/84/554c85e77ced1ad922aca059c88e46581906f25b6c263ac53e9f38a1c160/to-cloud-run-1.2.tar.gz
+[2023-04-17 01:25:41] INFO root fetch - processPackages [pygptj]: Downloading https://files.pythonhosted.org/packages/7a/f7/0bc6601616a785c09ad49ada1ef2c2abcbc1b6515e3b06d81fcd13bdd212/pygptj-1.0.0.tar.gz
+[2023-04-17 01:25:41] INFO root fetch - processPackages [to-cloud-run]: executing diffoscope
+[2023-04-17 01:25:41] INFO root fetch - processPackages [to-cloud-run]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/to-cloud-run-1.1.tar.gz tmp/to-cloud-run-1.2.tar.gz --markdown 20230417/t/to-cloud-run/1.1-1.2/diff.md --exclude *.pyd
+[2023-04-17 01:25:41] INFO root fetch - processPackages [pytheus]: executing diffoscope
+[2023-04-17 01:25:41] INFO root fetch - processPackages [pytheus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytheus-0.0.8.tar.gz tmp/pytheus-0.0.9.tar.gz --markdown 20230417/p/pytheus/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 01:25:41] INFO root fetch - processPackages [pygptj]: Downloading https://files.pythonhosted.org/packages/6d/88/210ca211a7a0a70923b20621342c7a9603083d28e76e825a915010a39ac2/pygptj-1.0.2.tar.gz
+[2023-04-17 01:25:41] INFO root fetch - processPackages [cointables]: Downloading https://files.pythonhosted.org/packages/99/86/a6047e691dd03ae604a6bdb26dc33b64d38bdae9092f6cfa40386acfe312/cointables-0.1.1.tar.gz
+[2023-04-17 01:25:41] INFO root fetch - processPackages [cointables]: executing diffoscope
+[2023-04-17 01:25:41] INFO root fetch - processPackages [cointables]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cointables-0.1.0.tar.gz tmp/cointables-0.1.1.tar.gz --markdown 20230417/c/cointables/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-17 01:25:41] INFO root fetch - processPackages [pygptj]: executing diffoscope
+[2023-04-17 01:25:41] INFO root fetch - processPackages [pygptj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygptj-1.0.0.tar.gz tmp/pygptj-1.0.2.tar.gz --markdown 20230417/p/pygptj/1.0.0-1.0.2/diff.md --exclude *.pyd
+[2023-04-17 01:25:42] INFO root fetch - main [MainThread]: End processing [to-cloud-run]: success
+[2023-04-17 01:25:42] INFO root fetch - main [MainThread]: End processing [cointables]: success
+[2023-04-17 01:25:42] INFO root fetch - main [MainThread]: End processing [pytheus]: success
+[2023-04-17 01:25:42] INFO root fetch - main [MainThread]: End processing [pygptj]: success
+[2023-04-17 01:25:42] INFO root fetch - main [MainThread]: Store serial: [17730986]
