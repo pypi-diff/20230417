@@ -462,3 +462,34 @@
 [2023-04-17 00:59:43] INFO root fetch - main [MainThread]: End processing [tmnt]: success
 [2023-04-17 00:59:45] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
 [2023-04-17 00:59:45] INFO root fetch - main [MainThread]: Store serial: [17730842]
+[2023-04-17 01:04:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17730842]
+[2023-04-17 01:04:53] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-17 01:04:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lsqfitgp
+[2023-04-17 01:04:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: micropython-mlx90393
+[2023-04-17 01:04:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vellumdev
+[2023-04-17 01:04:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sprocket-carball
+[2023-04-17 01:04:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jeff-api
+[2023-04-17 01:04:53] INFO root fetch - processPackages [lsqfitgp]: New version: [0.9] Old Version: [0.8]
+[2023-04-17 01:04:53] INFO root fetch - processPackages [vellumdev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 01:04:53] WARNING root fetch - processPackages [micropython-mlx90393]: Skipping, unable to determine old version
+[2023-04-17 01:04:53] INFO root fetch - processPackages [sprocket-carball]: New version: [0.8.1] Old Version: [0.8]
+[2023-04-17 01:04:53] INFO root fetch - main [MainThread]: End processing [micropython-mlx90393] error
+[2023-04-17 01:04:53] INFO root fetch - processPackages [jeff-api]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-04-17 01:04:53] INFO root fetch - processPackages [jeff-api]: Downloading https://files.pythonhosted.org/packages/f0/3b/8a7b95c8b587362f7d8da7c52d020e7f2e8e166ce3201ca60d51ea662d35/jeff_api-1.1.2.tar.gz
+[2023-04-17 01:04:54] INFO root fetch - processPackages [lsqfitgp]: Downloading https://files.pythonhosted.org/packages/db/95/c6091ffe65cf91c456f88c753c41389fa7dac73da9a3594e9a00db731935/lsqfitgp-0.8.tar.gz
+[2023-04-17 01:04:54] INFO root fetch - processPackages [sprocket-carball]: Downloading https://files.pythonhosted.org/packages/79/ad/42185de5f35c233e7a0ed8be860bd8ecab05382a0d36b4e5170a816b1ce7/sprocket_carball-0.8.1.tar.gz
+[2023-04-17 01:04:54] INFO root fetch - processPackages [vellumdev]: executing diffoscope
+[2023-04-17 01:04:54] INFO root fetch - processPackages [vellumdev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vellumdev-0.0.8.tar.gz tmp/vellumdev-0.0.9-py3-none-any.whl.zip --markdown 20230417/v/vellumdev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 01:04:54] INFO root fetch - processPackages [sprocket-carball]: executing diffoscope
+[2023-04-17 01:04:54] INFO root fetch - processPackages [sprocket-carball]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sprocket_carball-0.8.tar.gz tmp/sprocket_carball-0.8.1.tar.gz --markdown 20230417/s/sprocket-carball/0.8-0.8.1/diff.md --exclude *.pyd
+[2023-04-17 01:04:54] INFO root fetch - processPackages [jeff-api]: Downloading https://files.pythonhosted.org/packages/7e/0d/69bdb46576924c7765d0245b32a6fb67b4199cbf783ba51bc4638d48fb98/jeff_api-1.1.3.tar.gz
+[2023-04-17 01:04:54] INFO root fetch - processPackages [jeff-api]: executing diffoscope
+[2023-04-17 01:04:54] INFO root fetch - processPackages [jeff-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jeff_api-1.1.2.tar.gz tmp/jeff_api-1.1.3.tar.gz --markdown 20230417/j/jeff-api/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-04-17 01:04:54] INFO root fetch - processPackages [lsqfitgp]: Downloading https://files.pythonhosted.org/packages/ed/c2/202ed18536dec63e34c4defff80a6c0e36a45cd3f17a2475eb2db4a83862/lsqfitgp-0.9.tar.gz
+[2023-04-17 01:04:54] INFO root fetch - processPackages [lsqfitgp]: executing diffoscope
+[2023-04-17 01:04:54] INFO root fetch - processPackages [lsqfitgp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsqfitgp-0.8.tar.gz tmp/lsqfitgp-0.9.tar.gz --markdown 20230417/l/lsqfitgp/0.8-0.9/diff.md --exclude *.pyd
+[2023-04-17 01:04:55] INFO root fetch - main [MainThread]: End processing [vellumdev]: success
+[2023-04-17 01:04:55] INFO root fetch - main [MainThread]: End processing [jeff-api]: success
+[2023-04-17 01:04:55] INFO root fetch - main [MainThread]: End processing [lsqfitgp]: success
+[2023-04-17 01:04:56] INFO root fetch - main [MainThread]: End processing [sprocket-carball]: success
+[2023-04-17 01:04:56] INFO root fetch - main [MainThread]: Store serial: [17730859]
