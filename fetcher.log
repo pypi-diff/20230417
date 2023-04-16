@@ -675,3 +675,31 @@
 [2023-04-17 01:30:53] INFO root fetch - main [MainThread]: End processing [gama-cli]: success
 [2023-04-17 01:30:53] INFO root fetch - main [MainThread]: End processing [zndraw]: success
 [2023-04-17 01:30:53] INFO root fetch - main [MainThread]: Store serial: [17731008]
+[2023-04-17 01:35:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17731008]
+[2023-04-17 01:36:02] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-04-17 01:36:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alertify
+[2023-04-17 01:36:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flow-py-sdk-legacy
+[2023-04-17 01:36:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pygeoweaver
+[2023-04-17 01:36:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dbxconfig
+[2023-04-17 01:36:02] INFO root fetch - processPackages [dbxconfig]: New version: [1.0.1] Old Version: [1.0.0.dev1]
+[2023-04-17 01:36:02] INFO root fetch - processPackages [flow-py-sdk-legacy]: New version: [1.0.2] Old Version: [1.0.0]
+[2023-04-17 01:36:02] INFO root fetch - processPackages [pygeoweaver]: New version: [0.6.4] Old Version: [0.6.2]
+[2023-04-17 01:36:02] INFO root fetch - processPackages [alertify]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-04-17 01:36:02] INFO root fetch - processPackages [dbxconfig]: Downloading https://files.pythonhosted.org/packages/c7/dd/888cbe2c64d9dd26583bcacf776ef00a1cf35a820483ace55a55a2b71665/dbxconfig-1.0.1.tar.gz
+[2023-04-17 01:36:02] INFO root fetch - processPackages [flow-py-sdk-legacy]: Downloading https://files.pythonhosted.org/packages/8b/e1/e45f806f0a3a4d31072615b133bd32556d7b083fac87c2b7c27290b4fb64/flow_py_sdk_legacy-1.0.2.tar.gz
+[2023-04-17 01:36:02] INFO root fetch - processPackages [alertify]: Downloading https://files.pythonhosted.org/packages/65/69/c1cb19ba4d2544df0912e299459d87c7a80156555796d4919a4995a58cc5/alertify-0.7.0.tar.gz
+[2023-04-17 01:36:02] INFO root fetch - processPackages [pygeoweaver]: Downloading https://files.pythonhosted.org/packages/40/52/5bce9335af736571a6e8df9d20ef674882434995aa37579ebc913d24a2c8/pygeoweaver-0.6.4.tar.gz
+[2023-04-17 01:36:02] INFO root fetch - processPackages [dbxconfig]: executing diffoscope
+[2023-04-17 01:36:02] INFO root fetch - processPackages [dbxconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbxconfig-1.0.0.dev1.tar.gz tmp/dbxconfig-1.0.1.tar.gz --markdown 20230417/d/dbxconfig/1.0.0.dev1-1.0.1/diff.md --exclude *.pyd
+[2023-04-17 01:36:02] INFO root fetch - processPackages [flow-py-sdk-legacy]: executing diffoscope
+[2023-04-17 01:36:02] INFO root fetch - processPackages [flow-py-sdk-legacy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flow_py_sdk_legacy-1.0.0.tar.gz tmp/flow_py_sdk_legacy-1.0.2.tar.gz --markdown 20230417/f/flow-py-sdk-legacy/1.0.0-1.0.2/diff.md --exclude *.pyd
+[2023-04-17 01:36:02] INFO root fetch - processPackages [pygeoweaver]: executing diffoscope
+[2023-04-17 01:36:02] INFO root fetch - processPackages [pygeoweaver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygeoweaver-0.6.2.tar.gz tmp/pygeoweaver-0.6.4.tar.gz --markdown 20230417/p/pygeoweaver/0.6.2-0.6.4/diff.md --exclude *.pyd
+[2023-04-17 01:36:02] INFO root fetch - processPackages [alertify]: Downloading https://files.pythonhosted.org/packages/0c/45/8d20a28390863de4aab9f8509501970870fe626b91f5c32b2363880ceab0/alertify-0.8.0.tar.gz
+[2023-04-17 01:36:03] INFO root fetch - processPackages [alertify]: executing diffoscope
+[2023-04-17 01:36:03] INFO root fetch - processPackages [alertify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alertify-0.7.0.tar.gz tmp/alertify-0.8.0.tar.gz --markdown 20230417/a/alertify/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-04-17 01:36:03] INFO root fetch - main [MainThread]: End processing [dbxconfig]: success
+[2023-04-17 01:36:03] INFO root fetch - main [MainThread]: End processing [pygeoweaver]: success
+[2023-04-17 01:36:03] INFO root fetch - main [MainThread]: End processing [flow-py-sdk-legacy]: success
+[2023-04-17 01:36:04] INFO root fetch - main [MainThread]: End processing [alertify]: success
+[2023-04-17 01:36:04] INFO root fetch - main [MainThread]: Store serial: [17731021]
