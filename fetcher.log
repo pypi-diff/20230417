@@ -203,3 +203,19 @@
 [2023-04-17 00:23:51] INFO root fetch - main [MainThread]: End processing [evolutionary-forest]: success
 [2023-04-17 00:23:59] INFO root fetch - main [MainThread]: End processing [hordelib]: success
 [2023-04-17 00:23:59] INFO root fetch - main [MainThread]: Store serial: [17730664]
+[2023-04-17 00:29:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17730664]
+[2023-04-17 00:29:08] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-04-17 00:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pipen
+[2023-04-17 00:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: experiment-config
+[2023-04-17 00:29:08] INFO root fetch - processPackages [pipen]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-04-17 00:29:08] INFO root fetch - processPackages [experiment-config]: New version: [0.2] Old Version: [0.1]
+[2023-04-17 00:29:08] INFO root fetch - processPackages [experiment-config]: Downloading https://files.pythonhosted.org/packages/27/b3/0f7b2cf0f9f6581047918e2708e81b012e106c6155f0d8324d5a0bda11ca/experiment-config-0.1.tar.gz
+[2023-04-17 00:29:08] INFO root fetch - processPackages [pipen]: Downloading https://files.pythonhosted.org/packages/2d/48/1e78fb893a4d369dbc4453c0376bff38772066ce123964765f54d4558410/pipen-0.9.4.tar.gz
+[2023-04-17 00:29:09] INFO root fetch - processPackages [pipen]: executing diffoscope
+[2023-04-17 00:29:09] INFO root fetch - processPackages [pipen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipen-0.9.3.tar.gz tmp/pipen-0.9.4.tar.gz --markdown 20230417/p/pipen/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-04-17 00:29:09] INFO root fetch - processPackages [experiment-config]: Downloading https://files.pythonhosted.org/packages/1a/dd/340b4edb1567289160355242f649eac8553ba7741201c7b039fe1d2f681d/experiment-config-0.2.tar.gz
+[2023-04-17 00:29:09] INFO root fetch - processPackages [experiment-config]: executing diffoscope
+[2023-04-17 00:29:09] INFO root fetch - processPackages [experiment-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/experiment-config-0.1.tar.gz tmp/experiment-config-0.2.tar.gz --markdown 20230417/e/experiment-config/0.1-0.2/diff.md --exclude *.pyd
+[2023-04-17 00:29:10] INFO root fetch - main [MainThread]: End processing [pipen]: success
+[2023-04-17 00:29:10] INFO root fetch - main [MainThread]: End processing [experiment-config]: success
+[2023-04-17 00:29:10] INFO root fetch - main [MainThread]: Store serial: [17730671]
