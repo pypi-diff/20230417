@@ -405,3 +405,60 @@
 [2023-04-17 00:53:25] INFO root fetch - main [MainThread]: End processing [ml-botting-core]: success
 [2023-04-17 00:54:32] INFO root fetch - main [MainThread]: End processing [bpp-iplweb]: success
 [2023-04-17 00:54:32] INFO root fetch - main [MainThread]: Store serial: [17730804]
+[2023-04-17 00:59:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17730804]
+[2023-04-17 00:59:41] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-17 00:59:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-bindiff
+[2023-04-17 00:59:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: siste-test
+[2023-04-17 00:59:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: IMGTgeneDL
+[2023-04-17 00:59:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sfkit
+[2023-04-17 00:59:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tmnt-cu101
+[2023-04-17 00:59:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ExoPSI
+[2023-04-17 00:59:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flwr-nightly
+[2023-04-17 00:59:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: distributed-transcoder-common
+[2023-04-17 00:59:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tmnt
+[2023-04-17 00:59:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jeff-api
+[2023-04-17 00:59:41] WARNING root fetch - processPackages [python-bindiff]: Skipping, unable to determine old version
+[2023-04-17 00:59:41] INFO root fetch - processPackages [python-bindiff]: Start processing: sprocket-boxcars-py
+[2023-04-17 00:59:41] INFO root fetch - main [MainThread]: End processing [python-bindiff] error
+[2023-04-17 00:59:41] WARNING root fetch - processPackages [IMGTgeneDL]: Skipping, unable to determine old version
+[2023-04-17 00:59:41] INFO root fetch - main [MainThread]: End processing [IMGTgeneDL] error
+[2023-04-17 00:59:41] INFO root fetch - processPackages [sfkit]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-17 00:59:41] WARNING root fetch - processPackages [siste-test]: Skipping, unable to determine old version
+[2023-04-17 00:59:41] INFO root fetch - main [MainThread]: End processing [siste-test] error
+[2023-04-17 00:59:41] INFO root fetch - processPackages [distributed-transcoder-common]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-04-17 00:59:41] INFO root fetch - processPackages [jeff-api]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-04-17 00:59:41] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230415] Old Version: [0.7.0b20230414]
+[2023-04-17 00:59:41] INFO root fetch - processPackages [sprocket-boxcars-py]: New version: [0.1.16] Old Version: [0.1.15]
+[2023-04-17 00:59:41] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230415] Old Version: [0.7.0b20230414]
+[2023-04-17 00:59:41] INFO root fetch - processPackages [flwr-nightly]: New version: [1.4.0.dev20230416] Old Version: [1.4.0.dev20230414]
+[2023-04-17 00:59:41] INFO root fetch - processPackages [ExoPSI]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-17 00:59:41] INFO root fetch - processPackages [jeff-api]: executing diffoscope
+[2023-04-17 00:59:41] INFO root fetch - processPackages [jeff-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jeff_api-1.1.0.tar.gz tmp/jeff_api-1.1.1.tar.gz --markdown 20230417/j/jeff-api/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-04-17 00:59:41] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-04-17 00:59:41] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230414.tar.gz tmp/tmnt-0.7.0b20230415.tar.gz --markdown 20230417/t/tmnt/0.7.0b20230414-0.7.0b20230415/diff.md --exclude *.pyd
+[2023-04-17 00:59:41] INFO root fetch - processPackages [sfkit]: Downloading https://files.pythonhosted.org/packages/69/8b/9a1f5060e155248ea5b8d75d6b7f8e1c798bf9c3a22c9f96083fb0ebca9e/sfkit-0.0.98-py3-none-any.whl
+[2023-04-17 00:59:41] INFO root fetch - processPackages [sprocket-boxcars-py]: executing diffoscope
+[2023-04-17 00:59:41] INFO root fetch - processPackages [sprocket-boxcars-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sprocket_boxcars_py-0.1.15.tar.gz tmp/sprocket_boxcars_py-0.1.16.tar.gz --markdown 20230417/s/sprocket-boxcars-py/0.1.15-0.1.16/diff.md --exclude *.pyd
+[2023-04-17 00:59:41] INFO root fetch - processPackages [distributed-transcoder-common]: Downloading https://files.pythonhosted.org/packages/5d/09/eca5163c6a28e3869a590e9caf89ee256a687159f63de89faedf68c597ef/distributed-transcoder-common-0.2.6.tar.gz
+[2023-04-17 00:59:41] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-04-17 00:59:41] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230414.tar.gz tmp/tmnt-cu101-0.7.0b20230415.tar.gz --markdown 20230417/t/tmnt-cu101/0.7.0b20230414-0.7.0b20230415/diff.md --exclude *.pyd
+[2023-04-17 00:59:41] INFO root fetch - processPackages [distributed-transcoder-common]: executing diffoscope
+[2023-04-17 00:59:41] INFO root fetch - processPackages [distributed-transcoder-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/distributed-transcoder-common-0.2.5.tar.gz tmp/distributed-transcoder-common-0.2.6.tar.gz --markdown 20230417/d/distributed-transcoder-common/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-04-17 00:59:41] INFO root fetch - processPackages [ExoPSI]: Downloading https://files.pythonhosted.org/packages/52/ca/e8d92f06fa8b2e89215a1cad012e6979d71ddbd0bea0cd2633960b3834e9/ExoPSI-1.0.3.tar.gz
+[2023-04-17 00:59:41] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/7b/51/040bc8e458914d8e40612b6d33291cc0d45f6cef4cdd03efcd5c94cd551e/flwr_nightly-1.4.0.dev20230416.tar.gz
+[2023-04-17 00:59:41] INFO root fetch - processPackages [sfkit]: Downloading https://files.pythonhosted.org/packages/ec/6a/31917f962eb713dee0e13323371f569ef0aa4a601303df27a62825d946cf/sfkit-0.0.99-py3-none-any.whl
+[2023-04-17 00:59:41] INFO root fetch - processPackages [ExoPSI]: executing diffoscope
+[2023-04-17 00:59:41] INFO root fetch - processPackages [ExoPSI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ExoPSI-1.0.2.tar.gz tmp/ExoPSI-1.0.3.tar.gz --markdown 20230417/E/ExoPSI/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-17 00:59:41] INFO root fetch - processPackages [flwr-nightly]: executing diffoscope
+[2023-04-17 00:59:41] INFO root fetch - processPackages [flwr-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr_nightly-1.4.0.dev20230414.tar.gz tmp/flwr_nightly-1.4.0.dev20230416.tar.gz --markdown 20230417/f/flwr-nightly/1.4.0.dev20230414-1.4.0.dev20230416/diff.md --exclude *.pyd
+[2023-04-17 00:59:41] INFO root fetch - processPackages [sfkit]: executing diffoscope
+[2023-04-17 00:59:41] INFO root fetch - processPackages [sfkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sfkit-0.0.98-py3-none-any.whl.zip tmp/sfkit-0.0.99-py3-none-any.whl.zip --markdown 20230417/s/sfkit/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-17 00:59:42] INFO root fetch - main [MainThread]: End processing [jeff-api]: success
+[2023-04-17 00:59:42] INFO root fetch - main [MainThread]: End processing [sprocket-boxcars-py]: success
+[2023-04-17 00:59:42] INFO root fetch - main [MainThread]: End processing [distributed-transcoder-common]: success
+[2023-04-17 00:59:42] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-04-17 00:59:43] INFO root fetch - main [MainThread]: End processing [ExoPSI]: success
+[2023-04-17 00:59:43] INFO root fetch - main [MainThread]: End processing [sfkit]: success
+[2023-04-17 00:59:43] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-04-17 00:59:45] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
+[2023-04-17 00:59:45] INFO root fetch - main [MainThread]: Store serial: [17730842]
