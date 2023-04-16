@@ -831,3 +831,43 @@
 [2023-04-17 01:51:45] INFO root fetch - main [MainThread]: End processing [biobricks]: success
 [2023-04-17 01:51:45] INFO root fetch - main [MainThread]: End processing [spclustering]: success
 [2023-04-17 01:51:45] INFO root fetch - main [MainThread]: Store serial: [17731150]
+[2023-04-17 01:56:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17731150]
+[2023-04-17 01:56:54] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-17 01:56:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autocar
+[2023-04-17 01:56:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pymodelextractor
+[2023-04-17 01:56:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: soupsieve
+[2023-04-17 01:56:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aa-srp
+[2023-04-17 01:56:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hhoppe-tools
+[2023-04-17 01:56:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: oauthAPImojang
+[2023-04-17 01:56:54] INFO root fetch - processPackages [soupsieve]: New version: [2.4.1] Old Version: [2.4]
+[2023-04-17 01:56:54] INFO root fetch - processPackages [autocar]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-17 01:56:54] INFO root fetch - processPackages [oauthAPImojang]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-04-17 01:56:54] INFO root fetch - processPackages [hhoppe-tools]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-04-17 01:56:54] INFO root fetch - processPackages [aa-srp]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-04-17 01:56:54] INFO root fetch - processPackages [pymodelextractor]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-17 01:56:54] INFO root fetch - processPackages [soupsieve]: Downloading https://files.pythonhosted.org/packages/1b/cb/34933ebdd6bf6a77daaa0bd04318d61591452eb90ecca4def947e3cb2165/soupsieve-2.4.tar.gz
+[2023-04-17 01:56:54] INFO root fetch - processPackages [autocar]: Downloading https://files.pythonhosted.org/packages/da/05/6ab98dbcf5a59f7fb7432e3487bccb36c7fffa5fc75ce74f0a771bcd87f6/autocar-0.1.8.tar.gz
+[2023-04-17 01:56:54] INFO root fetch - processPackages [oauthAPImojang]: Downloading https://files.pythonhosted.org/packages/8a/a7/2dd952e7f7e569b33a2b01c0fc14c5dbc9ca507b4e5a2164c9b0cf90e65f/oauthAPImojang-0.3.5.tar.gz
+[2023-04-17 01:56:54] INFO root fetch - processPackages [hhoppe-tools]: Downloading https://files.pythonhosted.org/packages/29/6e/ae90f3a31cde4e52a77249f084f5ee733ea05a79d788788a57bbf5526c50/hhoppe-tools-1.2.8.tar.gz
+[2023-04-17 01:56:54] INFO root fetch - processPackages [oauthAPImojang]: executing diffoscope
+[2023-04-17 01:56:54] INFO root fetch - processPackages [oauthAPImojang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oauthAPImojang-0.3.4.tar.gz tmp/oauthAPImojang-0.3.5.tar.gz --markdown 20230417/o/oauthAPImojang/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-04-17 01:56:54] INFO root fetch - processPackages [pymodelextractor]: executing diffoscope
+[2023-04-17 01:56:54] INFO root fetch - processPackages [pymodelextractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymodelextractor-0.9.8.tar.gz tmp/pymodelextractor-0.9.9.tar.gz --markdown 20230417/p/pymodelextractor/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-17 01:56:54] INFO root fetch - processPackages [autocar]: Downloading https://files.pythonhosted.org/packages/24/f8/ebfc72288a215f2fcaf2e6eb5e5c62a8961f10f5ac27ea29e6d3695cabc5/autocar-0.1.9.tar.gz
+[2023-04-17 01:56:54] INFO root fetch - processPackages [soupsieve]: Downloading https://files.pythonhosted.org/packages/47/9e/780779233a615777fbdf75a4dee2af7a345f4bf74b42d4a5f836800b9d91/soupsieve-2.4.1.tar.gz
+[2023-04-17 01:56:54] INFO root fetch - processPackages [aa-srp]: executing diffoscope
+[2023-04-17 01:56:54] INFO root fetch - processPackages [aa-srp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aa-srp-1.8.0.tar.gz tmp/aa-srp-1.9.0.tar.gz --markdown 20230417/a/aa-srp/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-04-17 01:56:54] INFO root fetch - processPackages [autocar]: executing diffoscope
+[2023-04-17 01:56:54] INFO root fetch - processPackages [autocar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autocar-0.1.8.tar.gz tmp/autocar-0.1.9.tar.gz --markdown 20230417/a/autocar/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-17 01:56:54] INFO root fetch - processPackages [soupsieve]: executing diffoscope
+[2023-04-17 01:56:54] INFO root fetch - processPackages [soupsieve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soupsieve-2.4.tar.gz tmp/soupsieve-2.4.1.tar.gz --markdown 20230417/s/soupsieve/2.4-2.4.1/diff.md --exclude *.pyd
+[2023-04-17 01:56:54] INFO root fetch - processPackages [hhoppe-tools]: Downloading https://files.pythonhosted.org/packages/bc/4f/ac06fc59219248febef96daef2f298b138dc3b6f77ffef98e2ea76f861bd/hhoppe-tools-1.2.9.tar.gz
+[2023-04-17 01:56:55] INFO root fetch - processPackages [hhoppe-tools]: executing diffoscope
+[2023-04-17 01:56:55] INFO root fetch - processPackages [hhoppe-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hhoppe-tools-1.2.8.tar.gz tmp/hhoppe-tools-1.2.9.tar.gz --markdown 20230417/h/hhoppe-tools/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-04-17 01:56:56] INFO root fetch - main [MainThread]: End processing [oauthAPImojang]: success
+[2023-04-17 01:56:56] INFO root fetch - main [MainThread]: End processing [hhoppe-tools]: success
+[2023-04-17 01:56:56] INFO root fetch - main [MainThread]: End processing [autocar]: success
+[2023-04-17 01:56:56] INFO root fetch - main [MainThread]: End processing [soupsieve]: success
+[2023-04-17 01:56:56] INFO root fetch - main [MainThread]: End processing [pymodelextractor]: success
+[2023-04-17 01:56:58] INFO root fetch - main [MainThread]: End processing [aa-srp]: success
+[2023-04-17 01:56:58] INFO root fetch - main [MainThread]: Store serial: [17731167]
