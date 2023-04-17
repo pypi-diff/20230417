@@ -3367,3 +3367,88 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 03:29:31] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
 [2023-04-17 03:29:31] INFO root fetch - main [MainThread]: End processing [explainaboard-api-client]: success
 [2023-04-17 03:29:31] INFO root fetch - main [MainThread]: Store serial: [17732585]
+[2023-04-17 03:34:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17732585]
+[2023-04-17 03:34:40] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-17 03:34:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shady-island
+[2023-04-17 03:34:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-lambda-layer-wget
+[2023-04-17 03:34:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tsstp
+[2023-04-17 03:34:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbdev-numpy
+[2023-04-17 03:34:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: redbuild
+[2023-04-17 03:34:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-upload-to
+[2023-04-17 03:34:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nbdev-pandas
+[2023-04-17 03:34:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: svgelements
+[2023-04-17 03:34:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: indiek-core
+[2023-04-17 03:34:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: export-ease
+[2023-04-17 03:34:40] INFO root fetch - processPackages [tsstp]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-17 03:34:40] INFO root fetch - processPackages [redbuild]: New version: [2.0.6] Old Version: [2.0.4]
+[2023-04-17 03:34:40] INFO root fetch - processPackages [django-upload-to]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-04-17 03:34:40] INFO root fetch - processPackages [indiek-core]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-17 03:34:40] INFO root fetch - processPackages [shady-island]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 03:34:40] INFO root fetch - processPackages [export-ease]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-17 03:34:40] INFO root fetch - processPackages [svgelements]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-04-17 03:34:40] INFO root fetch - processPackages [cdk-lambda-layer-wget]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-04-17 03:34:40] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-17 03:34:40] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-17 03:34:40] INFO root fetch - processPackages [tsstp]: Downloading https://files.pythonhosted.org/packages/3f/51/64013416a088fc72e443d151f7f311de22f35b7b4299647c3c9dc69836fb/TSSTP-0.1.0-py3-none-any.whl
+[2023-04-17 03:34:40] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-04-17 03:34:40] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230417/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-17 03:34:40] INFO root fetch - processPackages [cdk-lambda-layer-wget]: executing diffoscope
+[2023-04-17 03:34:40] INFO root fetch - processPackages [cdk-lambda-layer-wget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-wget-2.0.98.tar.gz tmp/cdk-lambda-layer-wget-2.0.99.tar.gz --markdown 20230417/c/cdk-lambda-layer-wget/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-04-17 03:34:40] INFO root fetch - processPackages [django-upload-to]: Downloading https://files.pythonhosted.org/packages/34/7e/ee0fdd453f7a510793be2f564cd601b5e5c068dc9dc7250e2d7f4d638d76/django_upload_to-0.3.4.tar.gz
+[2023-04-17 03:34:40] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-04-17 03:34:40] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230417/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-17 03:34:40] INFO root fetch - processPackages [svgelements]: Downloading https://files.pythonhosted.org/packages/32/c2/177f566c57803feee6f4cbf55da4c293c1f1ede78093cf1684b5afad022a/svgelements-1.9.1.tar.gz
+[2023-04-17 03:34:40] INFO root fetch - processPackages [shady-island]: Downloading https://files.pythonhosted.org/packages/ed/ae/a7a990a5b643750cce1402cad9e15fd73a9c16dc25acb3c8a49f79eb7a7d/shady-island-0.0.8.tar.gz
+[2023-04-17 03:34:40] INFO root fetch - processPackages [redbuild]: Downloading https://files.pythonhosted.org/packages/3c/ed/f1bfe08212d51711c6f90e84f97559ff04a11b5cb47ebe3f2bc016853dd5/redbuild-2.0.6.tar.gz
+[2023-04-17 03:34:40] INFO root fetch - processPackages [indiek-core]: Downloading https://files.pythonhosted.org/packages/5d/ce/db711595675016ae3b518be089e8a89b935eb19fdc605dca183cd9a1e9d9/indiek-core-0.1.0.tar.gz
+[2023-04-17 03:34:40] INFO root fetch - processPackages [export-ease]: Downloading https://files.pythonhosted.org/packages/85/d6/e1cda7640b8c4ed685eead46af3f3a9c26e5401a2db24905e6b0a1380a63/export_ease-0.0.5.tar.gz
+[2023-04-17 03:34:40] INFO root fetch - processPackages [tsstp]: Downloading https://files.pythonhosted.org/packages/08/43/9ca68de72603b774cce8e04d4cb255e0b1898c34e1a46a7577c0c796aaba/tsstp-0.2.0-py3-none-any.whl
+[2023-04-17 03:34:40] INFO root fetch - processPackages [redbuild]: executing diffoscope
+[2023-04-17 03:34:40] INFO root fetch - processPackages [redbuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redbuild-2.0.4.tar.gz tmp/redbuild-2.0.6.tar.gz --markdown 20230417/r/redbuild/2.0.4-2.0.6/diff.md --exclude *.pyd
+[2023-04-17 03:34:40] INFO root fetch - processPackages [export-ease]: executing diffoscope
+[2023-04-17 03:34:40] INFO root fetch - processPackages [export-ease]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/export_ease-0.0.4.tar.gz tmp/export_ease-0.0.5.tar.gz --markdown 20230417/e/export-ease/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-17 03:34:40] INFO root fetch - processPackages [django-upload-to]: executing diffoscope
+[2023-04-17 03:34:40] INFO root fetch - processPackages [django-upload-to]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_upload_to-0.3.3.tar.gz tmp/django_upload_to-0.3.4.tar.gz --markdown 20230417/d/django-upload-to/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-04-17 03:34:40] INFO root fetch - processPackages [svgelements]: Downloading https://files.pythonhosted.org/packages/7f/7e/6c337cdad7e45fe93e184af8629a74fa485e9232a01f8f95bde8338cf0de/svgelements-1.9.2.tar.gz
+[2023-04-17 03:34:40] INFO root fetch - processPackages [tsstp]: executing diffoscope
+[2023-04-17 03:34:40] INFO root fetch - processPackages [tsstp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TSSTP-0.1.0-py3-none-any.whl.zip tmp/tsstp-0.2.0-py3-none-any.whl.zip --markdown 20230417/t/tsstp/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-04-17 03:34:40] INFO root fetch - processPackages [shady-island]: Downloading https://files.pythonhosted.org/packages/69/14/ae3dbf243e4cb1db1d1a6d89c5b0ab88ad11f64d1873591474d5e78d2c24/shady-island-0.0.9.tar.gz
+[2023-04-17 03:34:40] INFO root fetch - processPackages [indiek-core]: Downloading https://files.pythonhosted.org/packages/ea/56/8f82fcc8f6ffe8a52dc267e6ec9178e1cc1acb4c1793a6d07213feb903ff/indiek-core-0.1.1.tar.gz
+[2023-04-17 03:34:40] INFO root fetch - processPackages [svgelements]: executing diffoscope
+[2023-04-17 03:34:40] INFO root fetch - processPackages [svgelements]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/svgelements-1.9.1.tar.gz tmp/svgelements-1.9.2.tar.gz --markdown 20230417/s/svgelements/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-04-17 03:34:41] INFO root fetch - processPackages [shady-island]: executing diffoscope
+[2023-04-17 03:34:41] INFO root fetch - processPackages [shady-island]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shady-island-0.0.8.tar.gz tmp/shady-island-0.0.9.tar.gz --markdown 20230417/s/shady-island/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 03:34:41] INFO root fetch - processPackages [indiek-core]: executing diffoscope
+[2023-04-17 03:34:41] INFO root fetch - processPackages [indiek-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indiek-core-0.1.0.tar.gz tmp/indiek-core-0.1.1.tar.gz --markdown 20230417/i/indiek-core/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-17 03:34:42] INFO root fetch - processPackages [redbuild]: Start processing: pepperize.cdk-organizations
+[2023-04-17 03:34:42] INFO root fetch - main [MainThread]: End processing [redbuild]: success
+[2023-04-17 03:34:42] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-04-17 03:34:42] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-04-17 03:34:42] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230417/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-04-17 03:34:42] INFO root fetch - processPackages [django-upload-to]: Start processing: nbdev-pytorch
+[2023-04-17 03:34:42] INFO root fetch - main [MainThread]: End processing [django-upload-to]: success
+[2023-04-17 03:34:42] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-17 03:34:42] INFO root fetch - processPackages [cdk-lambda-layer-wget]: Start processing: yafti
+[2023-04-17 03:34:42] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-wget]: success
+[2023-04-17 03:34:42] INFO root fetch - processPackages [indiek-core]: Start processing: nbdev-scipy
+[2023-04-17 03:34:42] INFO root fetch - main [MainThread]: End processing [indiek-core]: success
+[2023-04-17 03:34:42] INFO root fetch - processPackages [yafti]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-04-17 03:34:42] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-17 03:34:42] INFO root fetch - main [MainThread]: End processing [export-ease]: success
+[2023-04-17 03:34:42] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-04-17 03:34:42] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230417/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-17 03:34:42] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-04-17 03:34:42] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230417/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-17 03:34:42] INFO root fetch - main [MainThread]: End processing [tsstp]: success
+[2023-04-17 03:34:42] INFO root fetch - main [MainThread]: End processing [shady-island]: success
+[2023-04-17 03:34:42] INFO root fetch - processPackages [yafti]: Downloading https://files.pythonhosted.org/packages/c1/36/b9580d42cf7a242326b9c1790cc5eea053670c1e80ebf85175cc217b19cc/yafti-0.6.1.tar.gz
+[2023-04-17 03:34:42] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-04-17 03:34:42] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-04-17 03:34:42] INFO root fetch - processPackages [yafti]: executing diffoscope
+[2023-04-17 03:34:42] INFO root fetch - processPackages [yafti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yafti-0.6.0.tar.gz tmp/yafti-0.6.1.tar.gz --markdown 20230417/y/yafti/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-04-17 03:34:43] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-04-17 03:34:43] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-04-17 03:34:43] INFO root fetch - main [MainThread]: End processing [yafti]: success
+[2023-04-17 03:34:44] INFO root fetch - main [MainThread]: End processing [svgelements]: success
+[2023-04-17 03:34:52] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-04-17 03:34:52] INFO root fetch - main [MainThread]: Store serial: [17732626]
