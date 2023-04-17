@@ -20277,3 +20277,99 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-17 20:39:45] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-04-17 20:39:51] INFO root fetch - main [MainThread]: End processing [surfacetopography]: success
 [2023-04-17 20:39:51] INFO root fetch - main [MainThread]: Store serial: [17742798]
+[2023-04-17 20:44:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17742798]
+[2023-04-17 20:45:02] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-04-17 20:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: f4
+[2023-04-17 20:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: evals
+[2023-04-17 20:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spotdl
+[2023-04-17 20:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autoanki
+[2023-04-17 20:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autoanki
+[2023-04-17 20:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tuplechanger
+[2023-04-17 20:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: doing-cli
+[2023-04-17 20:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tap-pulumi-cloud
+[2023-04-17 20:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: forensicfit
+[2023-04-17 20:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ssss
+[2023-04-17 20:45:02] WARNING root fetch - processPackages [tap-pulumi-cloud]: Skipping, unable to determine old version
+[2023-04-17 20:45:02] INFO root fetch - processPackages [tap-pulumi-cloud]: Start processing: fwdviewpy
+[2023-04-17 20:45:02] INFO root fetch - main [MainThread]: End processing [tap-pulumi-cloud] error
+[2023-04-17 20:45:02] INFO root fetch - processPackages [fwdviewpy]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-17 20:45:02] INFO root fetch - processPackages [evals]: New version: [1.0.3.post1] Old Version: [1.0.3]
+[2023-04-17 20:45:02] INFO root fetch - processPackages [autoanki]: New version: [1.0.0] Old Version: [0.5.0]
+[2023-04-17 20:45:02] INFO root fetch - processPackages [autoanki]: New version: [1.0.0] Old Version: [0.5.0]
+[2023-04-17 20:45:02] WARNING root fetch - processPackages [tuplechanger]: Skipping, unable to determine old version
+[2023-04-17 20:45:02] INFO root fetch - processPackages [tuplechanger]: Start processing: xh-dict-utils
+[2023-04-17 20:45:02] INFO root fetch - main [MainThread]: End processing [tuplechanger] error
+[2023-04-17 20:45:02] WARNING root fetch - processPackages [ssss]: Skipping, unable to determine old version
+[2023-04-17 20:45:02] INFO root fetch - processPackages [ssss]: Start processing: ops.manifest
+[2023-04-17 20:45:02] WARNING root fetch - processPackages [forensicfit]: Skipping, unable to determine old version
+[2023-04-17 20:45:02] INFO root fetch - processPackages [f4]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-04-17 20:45:02] INFO root fetch - main [MainThread]: End processing [ssss] error
+[2023-04-17 20:45:02] INFO root fetch - processPackages [doing-cli]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-04-17 20:45:02] INFO root fetch - processPackages [forensicfit]: Start processing: nonebot-plugin-genshinuid
+[2023-04-17 20:45:02] INFO root fetch - main [MainThread]: End processing [forensicfit] error
+[2023-04-17 20:45:02] INFO root fetch - processPackages [spotdl]: New version: [4.1.5] Old Version: [4.1.4]
+[2023-04-17 20:45:02] INFO root fetch - processPackages [xh-dict-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 20:45:02] INFO root fetch - processPackages [fwdviewpy]: Downloading https://files.pythonhosted.org/packages/11/8d/3501d8609f104bb1ff6591ecdc9ee03dbb5edc8b45ad029933ce06b8aa10/fwdviewpy-0.1.0.tar.gz
+[2023-04-17 20:45:02] INFO root fetch - processPackages [nonebot-plugin-genshinuid]: New version: [4.0.4] Old Version: [4.0.3]
+[2023-04-17 20:45:02] INFO root fetch - processPackages [autoanki]: Downloading https://files.pythonhosted.org/packages/6d/53/bb3c4fe498d0a2c1869d631e41aee9cd2ad3d9c3f1f961b023fce1954f88/autoanki-0.5.0.tar.gz
+[2023-04-17 20:45:02] INFO root fetch - processPackages [autoanki]: Downloading https://files.pythonhosted.org/packages/6d/53/bb3c4fe498d0a2c1869d631e41aee9cd2ad3d9c3f1f961b023fce1954f88/autoanki-0.5.0.tar.gz
+[2023-04-17 20:45:02] INFO root fetch - processPackages [ops.manifest]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-04-17 20:45:02] INFO root fetch - processPackages [xh-dict-utils]: executing diffoscope
+[2023-04-17 20:45:02] INFO root fetch - processPackages [xh-dict-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xh-dict-utils-0.0.8.tar.gz tmp/xh-dict-utils-0.0.9.tar.gz --markdown 20230417/x/xh-dict-utils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 20:45:02] INFO root fetch - processPackages [doing-cli]: Downloading https://files.pythonhosted.org/packages/e5/25/24f12e8aeba9e322b0a5638dd6d5917af2f62dc0f0ded982e4d33460e063/doing-cli-1.5.1.tar.gz
+[2023-04-17 20:45:02] INFO root fetch - processPackages [spotdl]: Downloading https://files.pythonhosted.org/packages/67/f7/dc9bb9a2fa64a5438933d4c85c1b9e54b3593e5987933049fde6b3f9bb7c/spotdl-4.1.4.tar.gz
+[2023-04-17 20:45:02] INFO root fetch - processPackages [evals]: Downloading https://files.pythonhosted.org/packages/a6/71/f3745b38f0745c63694842f87bc88cb3f2c55f2661f038bdb0ae1d9ea3eb/evals-1.0.3.post1.tar.gz
+[2023-04-17 20:45:02] INFO root fetch - processPackages [f4]: Downloading https://files.pythonhosted.org/packages/93/2d/03763f08f5be69835c824d6ef071cc9600666281f6edfc3fa7feee7edbf1/f4-0.5.1.tar.gz
+[2023-04-17 20:45:02] INFO root fetch - processPackages [ops.manifest]: Downloading https://files.pythonhosted.org/packages/e5/a2/de78e741ab9401eb91dd801ee81be4bbee34ef4c1a35f8680e27c635a468/ops.manifest-1.1.1.tar.gz
+[2023-04-17 20:45:02] INFO root fetch - processPackages [fwdviewpy]: Downloading https://files.pythonhosted.org/packages/44/8a/538da8a659cb5c80d6a1920f350eb9302e494f5a4e71272b96fff9a2b3a7/fwdviewpy-0.1.1.tar.gz
+[2023-04-17 20:45:02] INFO root fetch - processPackages [doing-cli]: Downloading https://files.pythonhosted.org/packages/2f/14/19db0c2016af8b988d9617a4420b21655c945f7e55934868721f4276fbf0/doing-cli-1.5.2.tar.gz
+[2023-04-17 20:45:02] INFO root fetch - processPackages [autoanki]: Downloading https://files.pythonhosted.org/packages/ad/ad/7a5e62e715118e73583b8a9853a7e5c1a8bb10c9ea3686abb9a6fb2c9161/autoanki-1.0.0.tar.gz
+[2023-04-17 20:45:02] INFO root fetch - processPackages [autoanki]: Downloading https://files.pythonhosted.org/packages/ad/ad/7a5e62e715118e73583b8a9853a7e5c1a8bb10c9ea3686abb9a6fb2c9161/autoanki-1.0.0.tar.gz
+[2023-04-17 20:45:02] INFO root fetch - processPackages [nonebot-plugin-genshinuid]: Downloading https://files.pythonhosted.org/packages/64/17/9307c64f8be176c6d16e12a09c73b99d1181cd79c5f0f1252f40a958af0a/nonebot_plugin_genshinuid-4.0.4.tar.gz
+[2023-04-17 20:45:02] INFO root fetch - processPackages [f4]: executing diffoscope
+[2023-04-17 20:45:02] INFO root fetch - processPackages [f4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/f4-0.5.0.tar.gz tmp/f4-0.5.1.tar.gz --markdown 20230417/f/f4/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-04-17 20:45:02] INFO root fetch - processPackages [spotdl]: Downloading https://files.pythonhosted.org/packages/ce/f3/2ad0c6e239bb292d7f17e00fa35179d1949a6873662a498c5a7ca92b9005/spotdl-4.1.5.tar.gz
+[2023-04-17 20:45:03] INFO root fetch - processPackages [ops.manifest]: Downloading https://files.pythonhosted.org/packages/7e/65/0386072fdaac1919ad737c1ed6f8e05219adf2a4d4e02ebfe5e3501337d7/ops.manifest-1.1.2.tar.gz
+[2023-04-17 20:45:03] INFO root fetch - processPackages [fwdviewpy]: executing diffoscope
+[2023-04-17 20:45:03] INFO root fetch - processPackages [fwdviewpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fwdviewpy-0.1.0.tar.gz tmp/fwdviewpy-0.1.1.tar.gz --markdown 20230417/f/fwdviewpy/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-17 20:45:03] INFO root fetch - processPackages [autoanki]: executing diffoscope
+[2023-04-17 20:45:03] INFO root fetch - processPackages [autoanki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoanki-0.5.0.tar.gz tmp/autoanki-1.0.0.tar.gz --markdown 20230417/a/autoanki/0.5.0-1.0.0/diff.md --exclude *.pyd
+[2023-04-17 20:45:03] INFO root fetch - processPackages [autoanki]: executing diffoscope
+[2023-04-17 20:45:03] INFO root fetch - processPackages [doing-cli]: executing diffoscope
+[2023-04-17 20:45:03] INFO root fetch - processPackages [autoanki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoanki-0.5.0.tar.gz tmp/autoanki-1.0.0.tar.gz --markdown 20230417/a/autoanki/0.5.0-1.0.0/diff.md --exclude *.pyd
+[2023-04-17 20:45:03] INFO root fetch - processPackages [doing-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doing-cli-1.5.1.tar.gz tmp/doing-cli-1.5.2.tar.gz --markdown 20230417/d/doing-cli/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-04-17 20:45:03] INFO root fetch - processPackages [nonebot-plugin-genshinuid]: executing diffoscope
+[2023-04-17 20:45:03] INFO root fetch - processPackages [nonebot-plugin-genshinuid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_genshinuid-4.0.3.tar.gz tmp/nonebot_plugin_genshinuid-4.0.4.tar.gz --markdown 20230417/n/nonebot-plugin-genshinuid/4.0.3-4.0.4/diff.md --exclude *.pyd
+[2023-04-17 20:45:03] INFO root fetch - processPackages [spotdl]: executing diffoscope
+[2023-04-17 20:45:03] INFO root fetch - processPackages [spotdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotdl-4.1.4.tar.gz tmp/spotdl-4.1.5.tar.gz --markdown 20230417/s/spotdl/4.1.4-4.1.5/diff.md --exclude *.pyd
+[2023-04-17 20:45:03] INFO root fetch - processPackages [ops.manifest]: executing diffoscope
+[2023-04-17 20:45:03] INFO root fetch - processPackages [ops.manifest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ops.manifest-1.1.1.tar.gz tmp/ops.manifest-1.1.2.tar.gz --markdown 20230417/o/ops.manifest/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-04-17 20:45:03] INFO root fetch - processPackages [evals]: executing diffoscope
+[2023-04-17 20:45:03] INFO root fetch - processPackages [evals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evals-1.0.3.tar.gz tmp/evals-1.0.3.post1.tar.gz --markdown 20230417/e/evals/1.0.3-1.0.3.post1/diff.md --exclude *.pyd
+[2023-04-17 20:45:04] INFO root fetch - processPackages [xh-dict-utils]: Start processing: hearthstone
+[2023-04-17 20:45:04] INFO root fetch - main [MainThread]: End processing [xh-dict-utils]: success
+[2023-04-17 20:45:04] INFO root fetch - processPackages [f4]: Start processing: neon-skill-holidays
+[2023-04-17 20:45:04] INFO root fetch - main [MainThread]: End processing [f4]: success
+[2023-04-17 20:45:04] INFO root fetch - processPackages [fwdviewpy]: Start processing: ml-starter
+[2023-04-17 20:45:04] INFO root fetch - main [MainThread]: End processing [fwdviewpy]: success
+[2023-04-17 20:45:04] INFO root fetch - processPackages [ml-starter]: New version: [0.0.18] Old Version: [0.0.17]
+[2023-04-17 20:45:04] INFO root fetch - processPackages [hearthstone]: New version: [6.5.1] Old Version: [6.5.0]
+[2023-04-17 20:45:04] WARNING root fetch - processPackages [neon-skill-holidays]: Skipping, unable to determine old version
+[2023-04-17 20:45:04] INFO root fetch - main [MainThread]: End processing [neon-skill-holidays] error
+[2023-04-17 20:45:04] INFO root fetch - processPackages [ml-starter]: Downloading https://files.pythonhosted.org/packages/5a/b5/591f3cdf108a5b68dbf9d5caa3ea686db409862bfcfd7455a86cd404a191/ml-starter-0.0.17.tar.gz
+[2023-04-17 20:45:04] INFO root fetch - main [MainThread]: End processing [autoanki]: success
+[2023-04-17 20:45:04] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-genshinuid]: success
+[2023-04-17 20:45:04] INFO root fetch - processPackages [hearthstone]: Downloading https://files.pythonhosted.org/packages/ae/d0/e8d648276ebf85ea6fde0cd296a5efe9b5c4693d7297624df4f855959d97/hearthstone-6.5.0.tar.gz
+[2023-04-17 20:45:04] INFO root fetch - processPackages [ml-starter]: executing diffoscope
+[2023-04-17 20:45:04] INFO root fetch - processPackages [ml-starter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-starter-0.0.17.tar.gz tmp/ml-starter-0.0.18.tar.gz --markdown 20230417/m/ml-starter/0.0.17-0.0.18/diff.md --exclude *.pyd
+[2023-04-17 20:45:04] INFO root fetch - processPackages [hearthstone]: Downloading https://files.pythonhosted.org/packages/a4/6c/9ed19c8b88e10a8c6d56a5f1799cd7569a697cd4e2af6221667fcd3a09f8/hearthstone-6.5.1.tar.gz
+[2023-04-17 20:45:04] INFO root fetch - main [MainThread]: End processing [spotdl]: success
+[2023-04-17 20:45:04] INFO root fetch - main [MainThread]: End processing [autoanki]: success
+[2023-04-17 20:45:05] INFO root fetch - main [MainThread]: End processing [doing-cli]: success
+[2023-04-17 20:45:05] INFO root fetch - processPackages [hearthstone]: executing diffoscope
+[2023-04-17 20:45:05] INFO root fetch - processPackages [hearthstone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hearthstone-6.5.0.tar.gz tmp/hearthstone-6.5.1.tar.gz --markdown 20230417/h/hearthstone/6.5.0-6.5.1/diff.md --exclude *.pyd
+[2023-04-17 20:45:05] INFO root fetch - main [MainThread]: End processing [ops.manifest]: success
+[2023-04-17 20:45:06] INFO root fetch - main [MainThread]: End processing [hearthstone]: success
+[2023-04-17 20:45:07] INFO root fetch - main [MainThread]: End processing [ml-starter]: success
+[2023-04-17 20:45:09] INFO root fetch - main [MainThread]: End processing [evals]: success
+[2023-04-17 20:45:09] INFO root fetch - main [MainThread]: Store serial: [17742862]
