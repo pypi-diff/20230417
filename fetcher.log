@@ -4478,3 +4478,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 05:09:49] INFO root fetch - main [MainThread]: End processing [ml-starter]: success
 [2023-04-17 05:10:15] INFO root fetch - main [MainThread]: End processing [SALTISE-components]: success
 [2023-04-17 05:10:15] INFO root fetch - main [MainThread]: Store serial: [17733232]
+[2023-04-17 05:15:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17733232]
+[2023-04-17 05:15:24] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-17 05:15:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tmpeco
+[2023-04-17 05:15:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: graph-notebook
+[2023-04-17 05:15:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: psd-export
+[2023-04-17 05:15:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mecord-cli
+[2023-04-17 05:15:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: langchain-utils
+[2023-04-17 05:15:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: network-scanner-kbk
+[2023-04-17 05:15:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sora-device-client
+[2023-04-17 05:15:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: shapleyrouting
+[2023-04-17 05:15:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pony2
+[2023-04-17 05:15:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tmpeco
+[2023-04-17 05:15:24] INFO root fetch - processPackages [network-scanner-kbk]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-04-17 05:15:24] INFO root fetch - processPackages [langchain-utils]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-17 05:15:25] INFO root fetch - processPackages [tmpeco]: New version: [1.3] Old Version: [1.2]
+[2023-04-17 05:15:25] INFO root fetch - processPackages [tmpeco]: New version: [1.3] Old Version: [1.2]
+[2023-04-17 05:15:25] INFO root fetch - processPackages [network-scanner-kbk]: executing diffoscope
+[2023-04-17 05:15:25] INFO root fetch - processPackages [network-scanner-kbk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/network_scanner_kbk-0.0.7.tar.gz tmp/network_scanner_kbk-0.0.9.tar.gz --markdown 20230417/n/network-scanner-kbk/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 05:15:25] WARNING root fetch - processPackages [pony2]: Skipping, unable to determine old version
+[2023-04-17 05:15:25] INFO root fetch - processPackages [pony2]: Start processing: sora-device-client
+[2023-04-17 05:15:25] INFO root fetch - main [MainThread]: End processing [pony2] error
+[2023-04-17 05:15:25] WARNING root fetch - processPackages [shapleyrouting]: Skipping, unable to determine old version
+[2023-04-17 05:15:25] INFO root fetch - main [MainThread]: End processing [shapleyrouting] error
+[2023-04-17 05:15:25] INFO root fetch - processPackages [graph-notebook]: New version: [3.8.0] Old Version: [3.7.3]
+[2023-04-17 05:15:25] INFO root fetch - processPackages [langchain-utils]: executing diffoscope
+[2023-04-17 05:15:25] INFO root fetch - processPackages [langchain-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_utils-0.3.8.tar.gz tmp/langchain_utils-0.3.9.tar.gz --markdown 20230417/l/langchain-utils/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-17 05:15:25] INFO root fetch - processPackages [psd-export]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-04-17 05:15:25] INFO root fetch - processPackages [sora-device-client]: New version: [1.1.0a0] Old Version: [1.1.0]
+[2023-04-17 05:15:25] INFO root fetch - processPackages [mecord-cli]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-17 05:15:25] INFO root fetch - processPackages [sora-device-client]: New version: [1.1.0a0] Old Version: [1.1.0]
+[2023-04-17 05:15:25] INFO root fetch - processPackages [tmpeco]: Downloading https://files.pythonhosted.org/packages/76/88/890423a755115e1f6b261fd4cd1c28aec673765c2f91f046e99937eeecb6/tmpeco-1.2.tar.gz
+[2023-04-17 05:15:25] INFO root fetch - processPackages [tmpeco]: Downloading https://files.pythonhosted.org/packages/76/88/890423a755115e1f6b261fd4cd1c28aec673765c2f91f046e99937eeecb6/tmpeco-1.2.tar.gz
+[2023-04-17 05:15:25] INFO root fetch - processPackages [psd-export]: Downloading https://files.pythonhosted.org/packages/83/14/48fd6d39e6e4d9d294333cf793324dba1d733b44db7c995cab4e8ba97c75/psd_export-1.0.3.tar.gz
+[2023-04-17 05:15:25] INFO root fetch - processPackages [mecord-cli]: Downloading https://files.pythonhosted.org/packages/99/07/defecf133b4a0c137e7272f092b0a7e4b36005e5d2e5b2e4f22949323973/mecord-cli-0.1.8.tar.gz
+[2023-04-17 05:15:25] INFO root fetch - processPackages [sora-device-client]: Downloading https://files.pythonhosted.org/packages/8e/2b/2bcdcb88011b1f561c3a37048bf638bb5fb8b82d83185ac057bb4b703b6f/sora_device_client-1.1.0.tar.gz
+[2023-04-17 05:15:25] INFO root fetch - processPackages [sora-device-client]: Downloading https://files.pythonhosted.org/packages/8e/2b/2bcdcb88011b1f561c3a37048bf638bb5fb8b82d83185ac057bb4b703b6f/sora_device_client-1.1.0.tar.gz
+[2023-04-17 05:15:25] INFO root fetch - processPackages [graph-notebook]: Downloading https://files.pythonhosted.org/packages/5c/d6/85d6fcdf8707d42b1efcf70f76b1fe5967acedd7ffbabed667f68f2dc63a/graph-notebook-3.7.3.tar.gz
+[2023-04-17 05:15:25] WARNING root fetch - processPackages [graph-notebook]: Skipping package: exceeds size limit 19405819>=10485760
+[2023-04-17 05:15:25] INFO root fetch - main [MainThread]: End processing [graph-notebook] error
+[2023-04-17 05:15:25] INFO root fetch - processPackages [psd-export]: Downloading https://files.pythonhosted.org/packages/26/cc/91af71baddca11a12df5c42ce5417dd4858f43258496997c06becbdcd8bc/psd_export-1.0.4.tar.gz
+[2023-04-17 05:15:25] INFO root fetch - processPackages [tmpeco]: Downloading https://files.pythonhosted.org/packages/12/17/4116ad91056ee9a656d18ce4395fcff5642834ae6dbd79f5ec6efd7fdc9c/tmpeco-1.3.tar.gz
+[2023-04-17 05:15:25] INFO root fetch - processPackages [tmpeco]: Downloading https://files.pythonhosted.org/packages/12/17/4116ad91056ee9a656d18ce4395fcff5642834ae6dbd79f5ec6efd7fdc9c/tmpeco-1.3.tar.gz
+[2023-04-17 05:15:25] INFO root fetch - processPackages [psd-export]: executing diffoscope
+[2023-04-17 05:15:25] INFO root fetch - processPackages [psd-export]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psd_export-1.0.3.tar.gz tmp/psd_export-1.0.4.tar.gz --markdown 20230417/p/psd-export/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-04-17 05:15:25] INFO root fetch - processPackages [sora-device-client]: Downloading https://files.pythonhosted.org/packages/c4/64/8fac1175781b8409357939505390a1a3dbd1fbe95a04a89e2de5bbf0941f/sora_device_client-1.1.0a0.tar.gz
+[2023-04-17 05:15:25] INFO root fetch - processPackages [sora-device-client]: Downloading https://files.pythonhosted.org/packages/c4/64/8fac1175781b8409357939505390a1a3dbd1fbe95a04a89e2de5bbf0941f/sora_device_client-1.1.0a0.tar.gz
+[2023-04-17 05:15:25] INFO root fetch - processPackages [mecord-cli]: Downloading https://files.pythonhosted.org/packages/2b/9f/dbf00e6cfb2e166744734b7095dec6d81a7ee7213a1ef56c5c29e85783a1/mecord-cli-0.1.9.tar.gz
+[2023-04-17 05:15:25] INFO root fetch - processPackages [tmpeco]: executing diffoscope
+[2023-04-17 05:15:25] INFO root fetch - processPackages [tmpeco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmpeco-1.2.tar.gz tmp/tmpeco-1.3.tar.gz --markdown 20230417/t/tmpeco/1.2-1.3/diff.md --exclude *.pyd
+[2023-04-17 05:15:25] INFO root fetch - processPackages [tmpeco]: executing diffoscope
+[2023-04-17 05:15:25] INFO root fetch - processPackages [tmpeco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmpeco-1.2.tar.gz tmp/tmpeco-1.3.tar.gz --markdown 20230417/t/tmpeco/1.2-1.3/diff.md --exclude *.pyd
+[2023-04-17 05:15:25] INFO root fetch - processPackages [sora-device-client]: executing diffoscope
+[2023-04-17 05:15:25] INFO root fetch - processPackages [sora-device-client]: executing diffoscope
+[2023-04-17 05:15:25] INFO root fetch - processPackages [sora-device-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sora_device_client-1.1.0.tar.gz tmp/sora_device_client-1.1.0a0.tar.gz --markdown 20230417/s/sora-device-client/1.1.0-1.1.0a0/diff.md --exclude *.pyd
+[2023-04-17 05:15:25] INFO root fetch - processPackages [sora-device-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sora_device_client-1.1.0.tar.gz tmp/sora_device_client-1.1.0a0.tar.gz --markdown 20230417/s/sora-device-client/1.1.0-1.1.0a0/diff.md --exclude *.pyd
+[2023-04-17 05:15:25] INFO root fetch - processPackages [mecord-cli]: executing diffoscope
+[2023-04-17 05:15:25] INFO root fetch - processPackages [mecord-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mecord-cli-0.1.8.tar.gz tmp/mecord-cli-0.1.9.tar.gz --markdown 20230417/m/mecord-cli/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-17 05:15:26] INFO root fetch - main [MainThread]: End processing [network-scanner-kbk]: success
+[2023-04-17 05:15:26] INFO root fetch - main [MainThread]: End processing [langchain-utils]: success
+[2023-04-17 05:15:26] INFO root fetch - main [MainThread]: End processing [tmpeco]: success
+[2023-04-17 05:15:26] INFO root fetch - main [MainThread]: End processing [psd-export]: success
+[2023-04-17 05:15:27] INFO root fetch - main [MainThread]: End processing [tmpeco]: success
+[2023-04-17 05:15:27] INFO root fetch - main [MainThread]: End processing [sora-device-client]: success
+[2023-04-17 05:15:27] INFO root fetch - main [MainThread]: End processing [sora-device-client]: success
+[2023-04-17 05:15:28] INFO root fetch - main [MainThread]: End processing [mecord-cli]: success
+[2023-04-17 05:15:28] INFO root fetch - main [MainThread]: Store serial: [17733292]
