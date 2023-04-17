@@ -4062,3 +4062,57 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 04:42:52] INFO root fetch - main [MainThread]: End processing [quickgpt]: success
 [2023-04-17 04:42:52] INFO root fetch - main [MainThread]: End processing [cookiecutter-autodocs]: success
 [2023-04-17 04:42:52] INFO root fetch - main [MainThread]: Store serial: [17733007]
+[2023-04-17 04:47:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17733007]
+[2023-04-17 04:48:00] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-17 04:48:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: replit-bot
+[2023-04-17 04:48:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: modelscope
+[2023-04-17 04:48:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: network-scanner-kbk
+[2023-04-17 04:48:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cmip
+[2023-04-17 04:48:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autoflake
+[2023-04-17 04:48:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: loganmatic
+[2023-04-17 04:48:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: duckdb
+[2023-04-17 04:48:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: paitest
+[2023-04-17 04:48:00] INFO root fetch - processPackages [modelscope]: New version: [1.5.0] Old Version: [1.4.2]
+[2023-04-17 04:48:00] INFO root fetch - processPackages [replit-bot]: New version: [4.2.6] Old Version: [4.2.5]
+[2023-04-17 04:48:00] INFO root fetch - processPackages [loganmatic]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 04:48:00] INFO root fetch - processPackages [cmip]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-17 04:48:00] INFO root fetch - processPackages [network-scanner-kbk]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-17 04:48:00] INFO root fetch - processPackages [autoflake]: New version: [2.1.0] Old Version: [2.0.2]
+[2023-04-17 04:48:00] INFO root fetch - processPackages [paitest]: New version: [0.0.11] Old Version: [0.0.10]
+[2023-04-17 04:48:00] INFO root fetch - processPackages [duckdb]: New version: [0.7.2.dev1901] Old Version: [0.7.2.dev1898]
+[2023-04-17 04:48:00] INFO root fetch - processPackages [loganmatic]: Downloading https://files.pythonhosted.org/packages/32/77/a510a9c48fc512292ff5a02e52572da8f50291cea38106ef6c072f57a3f3/loganmatic-0.0.8.tar.gz
+[2023-04-17 04:48:00] INFO root fetch - processPackages [autoflake]: Downloading https://files.pythonhosted.org/packages/86/da/db0b6087baec5a92df5162188e302cac4a2f9b2739cb9f757e14b2f8cf92/autoflake-2.0.2.tar.gz
+[2023-04-17 04:48:00] INFO root fetch - processPackages [modelscope]: Downloading https://files.pythonhosted.org/packages/0e/c2/14a086cdb8c0d2a627b7b51918b2ebeb8852171f7f3fa3b70ea0e9ff5bd9/modelscope-1.4.2.tar.gz
+[2023-04-17 04:48:00] INFO root fetch - processPackages [network-scanner-kbk]: Downloading https://files.pythonhosted.org/packages/4a/c2/aad2efd1337a8ed4b13621061dc81f9d6596ded4c7af9fa38501fa98da73/network_scanner_kbk-0.0.7.tar.gz
+[2023-04-17 04:48:00] INFO root fetch - processPackages [paitest]: Downloading https://files.pythonhosted.org/packages/f1/31/121ba595ba53f3db8041950997cd32ff412133938ffa345cac46325e3a5e/paitest-0.0.10.tar.gz
+[2023-04-17 04:48:00] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/95/63/8cb07bc073627fb4365c5841d30531bde8f1a88cf5d0c155ec9bc6b1ca7a/duckdb-0.7.2.dev1898-cp37-cp37m-macosx_10_9_x86_64.whl
+[2023-04-17 04:48:00] INFO root fetch - processPackages [replit-bot]: Downloading https://files.pythonhosted.org/packages/f4/50/f25d722bafbc580a6444f428df85f2c604d539bde69993aa9bce5d5199e9/replit-bot-4.2.6.tar.gz
+[2023-04-17 04:48:00] INFO root fetch - processPackages [cmip]: Downloading https://files.pythonhosted.org/packages/5d/8f/e74db412699ac00595f85ab4492e357fece7a67efbfa7d22c3c664ad018c/cmip-0.0.5.tar.gz
+[2023-04-17 04:48:00] INFO root fetch - processPackages [network-scanner-kbk]: executing diffoscope
+[2023-04-17 04:48:00] INFO root fetch - processPackages [network-scanner-kbk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/network_scanner_kbk-0.0.6.tar.gz tmp/network_scanner_kbk-0.0.7.tar.gz --markdown 20230417/n/network-scanner-kbk/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-17 04:48:00] WARNING root fetch - processPackages [duckdb]: Skipping package: exceeds size limit 14272921>=10485760
+[2023-04-17 04:48:00] INFO root fetch - main [MainThread]: End processing [duckdb] error
+[2023-04-17 04:48:00] INFO root fetch - processPackages [autoflake]: Downloading https://files.pythonhosted.org/packages/d6/a5/5d1b00a253fe8e794a11635abf4b5fb543922f74ada99fb6b206d8dd6991/autoflake-2.1.0.tar.gz
+[2023-04-17 04:48:00] INFO root fetch - processPackages [cmip]: executing diffoscope
+[2023-04-17 04:48:00] INFO root fetch - processPackages [cmip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmip-0.0.4.tar.gz tmp/cmip-0.0.5.tar.gz --markdown 20230417/c/cmip/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-17 04:48:00] INFO root fetch - processPackages [replit-bot]: executing diffoscope
+[2023-04-17 04:48:00] INFO root fetch - processPackages [replit-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/replit-bot-4.2.5.tar.gz tmp/replit-bot-4.2.6.tar.gz --markdown 20230417/r/replit-bot/4.2.5-4.2.6/diff.md --exclude *.pyd
+[2023-04-17 04:48:00] INFO root fetch - processPackages [loganmatic]: Downloading https://files.pythonhosted.org/packages/a2/fc/daf242b01547accd09532cd57c864195c8e9622f41889420138589c7ddd7/loganmatic-0.0.9.tar.gz
+[2023-04-17 04:48:00] INFO root fetch - processPackages [modelscope]: Downloading https://files.pythonhosted.org/packages/08/d0/6f42f0f32685f80a0c3d1a2defa092c4784b0a7ffc45381a9bfdb958eef9/modelscope-1.5.0.tar.gz
+[2023-04-17 04:48:00] INFO root fetch - processPackages [autoflake]: executing diffoscope
+[2023-04-17 04:48:00] INFO root fetch - processPackages [autoflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoflake-2.0.2.tar.gz tmp/autoflake-2.1.0.tar.gz --markdown 20230417/a/autoflake/2.0.2-2.1.0/diff.md --exclude *.pyd
+[2023-04-17 04:48:00] INFO root fetch - processPackages [loganmatic]: executing diffoscope
+[2023-04-17 04:48:00] INFO root fetch - processPackages [loganmatic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loganmatic-0.0.8.tar.gz tmp/loganmatic-0.0.9.tar.gz --markdown 20230417/l/loganmatic/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 04:48:00] INFO root fetch - processPackages [paitest]: Downloading https://files.pythonhosted.org/packages/f8/b3/25ec9c1b765e6fc2ba0dba4af03b3fe3fb735e431b3f97cd640a06e32a6b/paitest-0.0.11-py3-none-any.whl
+[2023-04-17 04:48:00] INFO root fetch - processPackages [modelscope]: executing diffoscope
+[2023-04-17 04:48:00] INFO root fetch - processPackages [modelscope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelscope-1.4.2.tar.gz tmp/modelscope-1.5.0.tar.gz --markdown 20230417/m/modelscope/1.4.2-1.5.0/diff.md --exclude *.pyd
+[2023-04-17 04:48:01] INFO root fetch - processPackages [paitest]: executing diffoscope
+[2023-04-17 04:48:01] INFO root fetch - processPackages [paitest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paitest-0.0.10.tar.gz tmp/paitest-0.0.11-py3-none-any.whl.zip --markdown 20230417/p/paitest/0.0.10-0.0.11/diff.md --exclude *.pyd
+[2023-04-17 04:48:01] INFO root fetch - main [MainThread]: End processing [network-scanner-kbk]: success
+[2023-04-17 04:48:02] INFO root fetch - main [MainThread]: End processing [cmip]: success
+[2023-04-17 04:48:02] INFO root fetch - main [MainThread]: End processing [loganmatic]: success
+[2023-04-17 04:48:02] INFO root fetch - main [MainThread]: End processing [replit-bot]: success
+[2023-04-17 04:48:02] INFO root fetch - main [MainThread]: End processing [autoflake]: success
+[2023-04-17 04:48:02] INFO root fetch - main [MainThread]: End processing [paitest]: success
+[2023-04-17 04:48:52] INFO root fetch - main [MainThread]: End processing [modelscope]: success
+[2023-04-17 04:48:52] INFO root fetch - main [MainThread]: Store serial: [17733029]
