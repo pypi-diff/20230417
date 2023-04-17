@@ -17094,3 +17094,75 @@ EOFError: EOF read where object expected
 [2023-04-17 17:44:01] INFO root fetch - main [MainThread]: End processing [spleaf]: success
 [2023-04-17 17:44:02] INFO root fetch - main [MainThread]: End processing [pyplasm]: success
 [2023-04-17 17:44:02] INFO root fetch - main [MainThread]: Store serial: [17740843]
+[2023-04-17 17:49:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17740843]
+[2023-04-17 17:49:13] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-17 17:49:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: enstools-compression
+[2023-04-17 17:49:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sliderule
+[2023-04-17 17:49:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: surquest-fastapi-utils
+[2023-04-17 17:49:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lupin-danquin
+[2023-04-17 17:49:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xdat
+[2023-04-17 17:49:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: deetlist
+[2023-04-17 17:49:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mirrorbot
+[2023-04-17 17:49:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PyStorCLI2
+[2023-04-17 17:49:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ga4gh.vrs
+[2023-04-17 17:49:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PyStorCLI2
+[2023-04-17 17:49:13] INFO root fetch - processPackages [PyStorCLI2]: New version: [0.6.2.dev13] Old Version: [0.6.2]
+[2023-04-17 17:49:13] INFO root fetch - processPackages [mirrorbot]: New version: [1.0] Old Version: [0.9]
+[2023-04-17 17:49:13] INFO root fetch - processPackages [PyStorCLI2]: New version: [0.6.2.dev13] Old Version: [0.6.2]
+[2023-04-17 17:49:13] INFO root fetch - processPackages [enstools-compression]: New version: [2023.4] Old Version: [2023.1]
+[2023-04-17 17:49:13] INFO root fetch - processPackages [surquest-fastapi-utils]: New version: [0.2.1] Old Version: [0.2.0rc1]
+[2023-04-17 17:49:13] INFO root fetch - processPackages [deetlist]: New version: [1.2] Old Version: [1.0]
+[2023-04-17 17:49:13] INFO root fetch - processPackages [lupin-danquin]: New version: [1.0.2.dev4] Old Version: [1.0.2.dev2]
+[2023-04-17 17:49:13] INFO root fetch - processPackages [xdat]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-04-17 17:49:13] INFO root fetch - processPackages [sliderule]: New version: [3.0.6] Old Version: [3.0.5]
+[2023-04-17 17:49:13] INFO root fetch - processPackages [ga4gh.vrs]: New version: [0.9.0.dev0] Old Version: [0.8a0]
+[2023-04-17 17:49:13] INFO root fetch - processPackages [mirrorbot]: executing diffoscope
+[2023-04-17 17:49:13] INFO root fetch - processPackages [mirrorbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mirrorbot-0.9.tar.gz tmp/mirrorbot-1.0.tar.gz --markdown 20230417/m/mirrorbot/0.9-1.0/diff.md --exclude *.pyd
+[2023-04-17 17:49:13] INFO root fetch - processPackages [PyStorCLI2]: Downloading https://files.pythonhosted.org/packages/12/8c/4d33816205be08730efdb3ea56f47e47f7363218fc5feb46d2d2ffc58f74/PyStorCLI2-0.6.2.tar.gz
+[2023-04-17 17:49:13] INFO root fetch - processPackages [PyStorCLI2]: Downloading https://files.pythonhosted.org/packages/12/8c/4d33816205be08730efdb3ea56f47e47f7363218fc5feb46d2d2ffc58f74/PyStorCLI2-0.6.2.tar.gz
+[2023-04-17 17:49:13] INFO root fetch - processPackages [enstools-compression]: Downloading https://files.pythonhosted.org/packages/fa/92/048b8456bb5e1b07c43cb86cd84552076647bf1374f3693e84d6f9f63b13/enstools-compression-2023.1.tar.gz
+[2023-04-17 17:49:13] INFO root fetch - processPackages [deetlist]: Downloading https://files.pythonhosted.org/packages/50/3f/211d4721eb581708e780ea013665c15f2c5bafa8760b6afc9f0ccbde38ff/deetlist-1.0.tar.gz
+[2023-04-17 17:49:13] INFO root fetch - processPackages [surquest-fastapi-utils]: Downloading https://files.pythonhosted.org/packages/9e/d6/c03abe067bff55ce597bfc2fcf57c71cb1538881add729cda187f38aacb5/surquest_fastapi_utils-0.2.0rc1.tar.gz
+[2023-04-17 17:49:13] INFO root fetch - processPackages [ga4gh.vrs]: Downloading https://files.pythonhosted.org/packages/1b/b0/03860b80207d39a6fa3d120fe28c49d6918e7dce62911be505a0ea2c3fbe/ga4gh.vrs-0.8a0.tar.gz
+[2023-04-17 17:49:13] INFO root fetch - processPackages [sliderule]: Downloading https://files.pythonhosted.org/packages/7e/d8/a8241b729e6547ebaf0d11b9a46a8de6db3a02ce1f64e6718e67d9a17705/sliderule-3.0.5.tar.gz
+[2023-04-17 17:49:13] INFO root fetch - processPackages [lupin-danquin]: Downloading https://files.pythonhosted.org/packages/37/cd/054e913fdc9d15d4057e70e6fd4af3defbf602f4138e8af15cff935dfcda/lupin-danquin-1.0.2.dev4.tar.gz
+[2023-04-17 17:49:13] INFO root fetch - processPackages [xdat]: executing diffoscope
+[2023-04-17 17:49:13] INFO root fetch - processPackages [xdat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xdat-0.1.98.tar.gz tmp/xdat-0.1.99.tar.gz --markdown 20230417/x/xdat/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-04-17 17:49:13] INFO root fetch - processPackages [PyStorCLI2]: executing diffoscope
+[2023-04-17 17:49:13] INFO root fetch - processPackages [PyStorCLI2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyStorCLI2-0.6.2.tar.gz tmp/PyStorCLI2-0.6.2.dev13.tar.gz --markdown 20230417/P/PyStorCLI2/0.6.2-0.6.2.dev13/diff.md --exclude *.pyd
+[2023-04-17 17:49:13] INFO root fetch - processPackages [PyStorCLI2]: executing diffoscope
+[2023-04-17 17:49:13] INFO root fetch - processPackages [PyStorCLI2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyStorCLI2-0.6.2.tar.gz tmp/PyStorCLI2-0.6.2.dev13.tar.gz --markdown 20230417/P/PyStorCLI2/0.6.2-0.6.2.dev13/diff.md --exclude *.pyd
+[2023-04-17 17:49:13] INFO root fetch - processPackages [lupin-danquin]: executing diffoscope
+[2023-04-17 17:49:13] INFO root fetch - processPackages [lupin-danquin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lupin-danquin-1.0.2.dev2.tar.gz tmp/lupin-danquin-1.0.2.dev4.tar.gz --markdown 20230417/l/lupin-danquin/1.0.2.dev2-1.0.2.dev4/diff.md --exclude *.pyd
+[2023-04-17 17:49:14] INFO root fetch - processPackages [enstools-compression]: Downloading https://files.pythonhosted.org/packages/a6/9c/419e69604f03e2e5ee2ec6d1f904f08405a126825dcfe9cde7af351cc623/enstools-compression-2023.4.tar.gz
+[2023-04-17 17:49:14] INFO root fetch - processPackages [surquest-fastapi-utils]: Downloading https://files.pythonhosted.org/packages/22/c2/d5a6ec52c68c4fc5553f868c5f0bc69b6ab1e95d9763251b0163589265ab/surquest_fastapi_utils-0.2.1.tar.gz
+[2023-04-17 17:49:14] INFO root fetch - processPackages [sliderule]: Downloading https://files.pythonhosted.org/packages/4c/11/31d2270d967a653e7a847bf014e16d0f45def2ed7db90f8236ff5e4aa9af/sliderule-3.0.6.tar.gz
+[2023-04-17 17:49:14] INFO root fetch - processPackages [deetlist]: Downloading https://files.pythonhosted.org/packages/13/e0/fb2e1c62d376e8d67662b3b82f1cf520997e152dd2f30331e58065a9718d/deetlist-1.2.tar.gz
+[2023-04-17 17:49:14] INFO root fetch - processPackages [enstools-compression]: executing diffoscope
+[2023-04-17 17:49:14] INFO root fetch - processPackages [enstools-compression]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enstools-compression-2023.1.tar.gz tmp/enstools-compression-2023.4.tar.gz --markdown 20230417/e/enstools-compression/2023.1-2023.4/diff.md --exclude *.pyd
+[2023-04-17 17:49:14] INFO root fetch - processPackages [surquest-fastapi-utils]: executing diffoscope
+[2023-04-17 17:49:14] INFO root fetch - processPackages [surquest-fastapi-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surquest_fastapi_utils-0.2.0rc1.tar.gz tmp/surquest_fastapi_utils-0.2.1.tar.gz --markdown 20230417/s/surquest-fastapi-utils/0.2.0rc1-0.2.1/diff.md --exclude *.pyd
+[2023-04-17 17:49:14] INFO root fetch - processPackages [sliderule]: executing diffoscope
+[2023-04-17 17:49:14] INFO root fetch - processPackages [sliderule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sliderule-3.0.5.tar.gz tmp/sliderule-3.0.6.tar.gz --markdown 20230417/s/sliderule/3.0.5-3.0.6/diff.md --exclude *.pyd
+[2023-04-17 17:49:14] WARNING root fetch - processPackages [ga4gh.vrs]: Skipping package: exceeds size limit 17060020>=10485760
+[2023-04-17 17:49:14] INFO root fetch - processPackages [ga4gh.vrs]: Start processing: datastructuregioday
+[2023-04-17 17:49:14] INFO root fetch - main [MainThread]: End processing [ga4gh.vrs] error
+[2023-04-17 17:49:14] INFO root fetch - processPackages [deetlist]: executing diffoscope
+[2023-04-17 17:49:14] INFO root fetch - processPackages [deetlist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deetlist-1.0.tar.gz tmp/deetlist-1.2.tar.gz --markdown 20230417/d/deetlist/1.0-1.2/diff.md --exclude *.pyd
+[2023-04-17 17:49:14] WARNING root fetch - processPackages [datastructuregioday]: Skipping, unable to determine old version
+[2023-04-17 17:49:14] INFO root fetch - processPackages [datastructuregioday]: Start processing: djangocms-blog-agenda
+[2023-04-17 17:49:14] INFO root fetch - main [MainThread]: End processing [datastructuregioday] error
+[2023-04-17 17:49:14] INFO root fetch - processPackages [djangocms-blog-agenda]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-17 17:49:14] INFO root fetch - processPackages [djangocms-blog-agenda]: executing diffoscope
+[2023-04-17 17:49:14] INFO root fetch - processPackages [djangocms-blog-agenda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangocms-blog-agenda-0.2.1.tar.gz tmp/djangocms-blog-agenda-0.2.2.tar.gz --markdown 20230417/d/djangocms-blog-agenda/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-17 17:49:15] INFO root fetch - main [MainThread]: End processing [lupin-danquin]: success
+[2023-04-17 17:49:15] INFO root fetch - main [MainThread]: End processing [mirrorbot]: success
+[2023-04-17 17:49:15] INFO root fetch - main [MainThread]: End processing [deetlist]: success
+[2023-04-17 17:49:15] INFO root fetch - main [MainThread]: End processing [enstools-compression]: success
+[2023-04-17 17:49:16] INFO root fetch - main [MainThread]: End processing [djangocms-blog-agenda]: success
+[2023-04-17 17:49:16] INFO root fetch - main [MainThread]: End processing [surquest-fastapi-utils]: success
+[2023-04-17 17:49:16] INFO root fetch - main [MainThread]: End processing [sliderule]: success
+[2023-04-17 17:49:17] INFO root fetch - main [MainThread]: End processing [xdat]: success
+[2023-04-17 17:49:18] INFO root fetch - main [MainThread]: End processing [PyStorCLI2]: success
+[2023-04-17 17:49:20] INFO root fetch - main [MainThread]: End processing [PyStorCLI2]: success
+[2023-04-17 17:49:20] INFO root fetch - main [MainThread]: Store serial: [17740883]
