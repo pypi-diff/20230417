@@ -23298,3 +23298,54 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-17 23:30:34] INFO root fetch - main [MainThread]: End processing [sphinx-airflow-theme]: success
 [2023-04-17 23:30:37] INFO root fetch - main [MainThread]: End processing [psat-server-web]: success
 [2023-04-17 23:30:37] INFO root fetch - main [MainThread]: Store serial: [17744816]
+[2023-04-17 23:35:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17744816]
+[2023-04-17 23:35:46] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-17 23:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kcli
+[2023-04-17 23:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quantumcomputingsim
+[2023-04-17 23:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flake8-checker
+[2023-04-17 23:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: damo
+[2023-04-17 23:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quantumcomputingsim
+[2023-04-17 23:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: df2onehot
+[2023-04-17 23:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: solace-pubsubplus
+[2023-04-17 23:35:46] INFO root fetch - processPackages [quantumcomputingsim]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-04-17 23:35:46] INFO root fetch - processPackages [flake8-checker]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-17 23:35:46] INFO root fetch - processPackages [df2onehot]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-17 23:35:46] INFO root fetch - processPackages [quantumcomputingsim]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-04-17 23:35:46] INFO root fetch - processPackages [damo]: New version: [1.7.7] Old Version: [1.7.6]
+[2023-04-17 23:35:46] INFO root fetch - processPackages [kcli]: New version: [99.0.202304172130] Old Version: [99.0.202304171325]
+[2023-04-17 23:35:46] INFO root fetch - processPackages [solace-pubsubplus]: New version: [1.5.0] Old Version: [1.4.1]
+[2023-04-17 23:35:46] INFO root fetch - processPackages [quantumcomputingsim]: Downloading https://files.pythonhosted.org/packages/39/fc/f62ef23527f84535188eb83bcd447ed31eb96aa5738c6514e3acd297b605/quantumcomputingsim-1.0.5.tar.gz
+[2023-04-17 23:35:46] INFO root fetch - processPackages [quantumcomputingsim]: Downloading https://files.pythonhosted.org/packages/39/fc/f62ef23527f84535188eb83bcd447ed31eb96aa5738c6514e3acd297b605/quantumcomputingsim-1.0.5.tar.gz
+[2023-04-17 23:35:46] INFO root fetch - processPackages [damo]: Downloading https://files.pythonhosted.org/packages/3e/ff/8e0516a4e86fc8e1cb207c3b5a61e039cfca2a673ee5d1be53d6c17552f3/damo-1.7.6.tar.gz
+[2023-04-17 23:35:46] INFO root fetch - processPackages [flake8-checker]: Downloading https://files.pythonhosted.org/packages/c4/d5/dc3a957923f1dce9ad15a2f6a8b9cc29893d76f9af228d899a758400d296/flake8-checker-0.0.1.tar.gz
+[2023-04-17 23:35:46] INFO root fetch - processPackages [df2onehot]: Downloading https://files.pythonhosted.org/packages/ed/7f/10badb7b2d858a2ac4dc033c690cc5ede19da51f8c7c56e3dc9d5d19cc62/df2onehot-1.0.2.tar.gz
+[2023-04-17 23:35:46] INFO root fetch - processPackages [solace-pubsubplus]: Downloading https://files.pythonhosted.org/packages/16/04/a1e1dcf8a004c4b462c3ec055c939599a68b491b1443eaa659e219741aaf/solace_pubsubplus-1.4.1-py36-none-win_amd64.whl
+[2023-04-17 23:35:46] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/50/d0/11df28905bcf71b41b66d495b6dab653ea9ede62261e1409fa11cdc16929/kcli-99.0.202304172130-py3-none-any.whl
+[2023-04-17 23:35:46] INFO root fetch - processPackages [damo]: Downloading https://files.pythonhosted.org/packages/07/1c/597e8408262371df74109b5392ddcd37f75f4fc6604c970f831be9828e6c/damo-1.7.7.tar.gz
+[2023-04-17 23:35:46] INFO root fetch - processPackages [quantumcomputingsim]: Downloading https://files.pythonhosted.org/packages/58/db/5aa8e15253009981e36919afa2f0db32c669699fe0e39053e052689f5e62/quantumcomputingsim-1.0.6.tar.gz
+[2023-04-17 23:35:46] INFO root fetch - processPackages [quantumcomputingsim]: Downloading https://files.pythonhosted.org/packages/58/db/5aa8e15253009981e36919afa2f0db32c669699fe0e39053e052689f5e62/quantumcomputingsim-1.0.6.tar.gz
+[2023-04-17 23:35:46] INFO root fetch - processPackages [flake8-checker]: Downloading https://files.pythonhosted.org/packages/48/2f/f401ad39af656af861c626ddd5cbbefde217a9950c247ab0e0261aee2c4c/flake8-checker-0.0.2.tar.gz
+[2023-04-17 23:35:46] INFO root fetch - processPackages [df2onehot]: Downloading https://files.pythonhosted.org/packages/dd/3a/803bee79885aaf16b7df20ccf7ec2e837d3fbe0f9c65d64b1b2fad39d86e/df2onehot-1.0.3.tar.gz
+[2023-04-17 23:35:46] INFO root fetch - processPackages [damo]: executing diffoscope
+[2023-04-17 23:35:46] INFO root fetch - processPackages [damo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/damo-1.7.6.tar.gz tmp/damo-1.7.7.tar.gz --markdown 20230417/d/damo/1.7.6-1.7.7/diff.md --exclude *.pyd
+[2023-04-17 23:35:46] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-04-17 23:35:46] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202304171325-py3-none-any.whl.zip tmp/kcli-99.0.202304172130-py3-none-any.whl.zip --markdown 20230417/k/kcli/99.0.202304171325-99.0.202304172130/diff.md --exclude *.pyd
+[2023-04-17 23:35:46] INFO root fetch - processPackages [quantumcomputingsim]: executing diffoscope
+[2023-04-17 23:35:46] INFO root fetch - processPackages [quantumcomputingsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantumcomputingsim-1.0.5.tar.gz tmp/quantumcomputingsim-1.0.6.tar.gz --markdown 20230417/q/quantumcomputingsim/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-04-17 23:35:47] INFO root fetch - processPackages [quantumcomputingsim]: executing diffoscope
+[2023-04-17 23:35:47] INFO root fetch - processPackages [quantumcomputingsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantumcomputingsim-1.0.5.tar.gz tmp/quantumcomputingsim-1.0.6.tar.gz --markdown 20230417/q/quantumcomputingsim/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-04-17 23:35:47] INFO root fetch - processPackages [df2onehot]: executing diffoscope
+[2023-04-17 23:35:47] INFO root fetch - processPackages [df2onehot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/df2onehot-1.0.2.tar.gz tmp/df2onehot-1.0.3.tar.gz --markdown 20230417/d/df2onehot/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-17 23:35:47] INFO root fetch - processPackages [flake8-checker]: executing diffoscope
+[2023-04-17 23:35:47] INFO root fetch - processPackages [flake8-checker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flake8-checker-0.0.1.tar.gz tmp/flake8-checker-0.0.2.tar.gz --markdown 20230417/f/flake8-checker/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-17 23:35:47] INFO root fetch - processPackages [solace-pubsubplus]: Downloading https://files.pythonhosted.org/packages/cb/25/258e7a1435174a96e1e9ece8d54e4bdfbd64b7b7897c116ff48e7715be94/solace_pubsubplus-1.5.0-py36-none-win_amd64.whl
+[2023-04-17 23:35:47] INFO root fetch - processPackages [solace-pubsubplus]: executing diffoscope
+[2023-04-17 23:35:47] INFO root fetch - processPackages [solace-pubsubplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solace_pubsubplus-1.4.1-py36-none-win_amd64.whl.zip tmp/solace_pubsubplus-1.5.0-py36-none-win_amd64.whl.zip --markdown 20230417/s/solace-pubsubplus/1.4.1-1.5.0/diff.md --exclude *.pyd
+[2023-04-17 23:35:48] INFO root fetch - main [MainThread]: End processing [quantumcomputingsim]: success
+[2023-04-17 23:35:48] INFO root fetch - main [MainThread]: End processing [df2onehot]: success
+[2023-04-17 23:35:48] INFO root fetch - main [MainThread]: End processing [flake8-checker]: success
+[2023-04-17 23:35:48] INFO root fetch - main [MainThread]: End processing [quantumcomputingsim]: success
+[2023-04-17 23:35:49] INFO root fetch - main [MainThread]: End processing [damo]: success
+[2023-04-17 23:35:54] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-04-17 23:35:55] INFO root fetch - main [MainThread]: End processing [solace-pubsubplus]: success
+[2023-04-17 23:35:55] INFO root fetch - main [MainThread]: Store serial: [17744843]
