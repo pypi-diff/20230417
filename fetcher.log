@@ -9001,3 +9001,90 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 11:18:54] INFO root fetch - main [MainThread]: End processing [dipex]: success
 [2023-04-17 11:18:56] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
 [2023-04-17 11:18:56] INFO root fetch - main [MainThread]: Store serial: [17736057]
+[2023-04-17 11:27:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17736057]
+[2023-04-17 11:28:03] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-17 11:28:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-mapper
+[2023-04-17 11:28:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdktf
+[2023-04-17 11:28:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: port-pulumi
+[2023-04-17 11:28:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scs-analysis
+[2023-04-17 11:28:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openhexa.sdk
+[2023-04-17 11:28:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: processpiper
+[2023-04-17 11:28:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: digital-eval
+[2023-04-17 11:28:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: robothub-oak
+[2023-04-17 11:28:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: canals
+[2023-04-17 11:28:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: huscy.bookings
+[2023-04-17 11:28:03] INFO root fetch - processPackages [django-mapper]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-04-17 11:28:03] INFO root fetch - processPackages [digital-eval]: New version: [1.5.0] Old Version: [1.2.1]
+[2023-04-17 11:28:03] INFO root fetch - processPackages [processpiper]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-17 11:28:03] WARNING root fetch - processPackages [openhexa.sdk]: Skipping, unable to determine old version
+[2023-04-17 11:28:03] INFO root fetch - processPackages [openhexa.sdk]: Start processing: kondo-ml
+[2023-04-17 11:28:03] INFO root fetch - main [MainThread]: End processing [openhexa.sdk] error
+[2023-04-17 11:28:03] INFO root fetch - processPackages [scs-analysis]: New version: [2.0.0] Old Version: [1.1.63]
+[2023-04-17 11:28:03] INFO root fetch - processPackages [port-pulumi]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-04-17 11:28:03] INFO root fetch - processPackages [robothub-oak]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-04-17 11:28:03] INFO root fetch - processPackages [canals]: New version: [0.0.2] Old Version: [0.0.1rc6]
+[2023-04-17 11:28:03] INFO root fetch - processPackages [huscy.bookings]: New version: [0.4.1a12] Old Version: [0.4.1a11]
+[2023-04-17 11:28:03] INFO root fetch - processPackages [cdktf]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-04-17 11:28:03] INFO root fetch - processPackages [kondo-ml]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-17 11:28:03] INFO root fetch - processPackages [kondo-ml]: Downloading https://files.pythonhosted.org/packages/e4/2b/69bacb9026b7525eab466d86bb912bd46baa0f18950fdee35ab5bcdc79b7/kondo_ml-0.0.5.tar.gz
+[2023-04-17 11:28:03] INFO root fetch - processPackages [processpiper]: Downloading https://files.pythonhosted.org/packages/45/c2/5e0784c32c4d5955c08252ad5dd7ef5d54399df7283077beefb8bb2403c0/processpiper-0.1.0.tar.gz
+[2023-04-17 11:28:03] INFO root fetch - processPackages [digital-eval]: Downloading https://files.pythonhosted.org/packages/e8/2b/3c93fd6a5964f99030ff60b72bedf90586e83fcedede79dcc5368fcf341a/digital-eval-1.2.1.tar.gz
+[2023-04-17 11:28:03] INFO root fetch - processPackages [port-pulumi]: Downloading https://files.pythonhosted.org/packages/2e/fc/cd666812606b3922392cbbb4d6822ebc3b551befa4a6fce643323a2dcd96/port_pulumi-0.9.2.tar.gz
+[2023-04-17 11:28:03] INFO root fetch - processPackages [huscy.bookings]: Downloading https://files.pythonhosted.org/packages/67/4e/435f2c5b37db510438e5a08505fbdea16aecfd854a111af598390f3e9c74/huscy.bookings-0.4.1a11.tar.gz
+[2023-04-17 11:28:03] INFO root fetch - processPackages [canals]: Downloading https://files.pythonhosted.org/packages/39/b3/6eb8e6159364354cb4c1ed593d959fdb394c481780e3461041bd559a1d8a/canals-0.0.1rc6.tar.gz
+[2023-04-17 11:28:03] INFO root fetch - processPackages [cdktf]: Downloading https://files.pythonhosted.org/packages/87/b3/c146d54086d890741cc9d05c63504e1386b268ef8cbc52d9aa78c1080aa3/cdktf-0.9.3.tar.gz
+[2023-04-17 11:28:03] INFO root fetch - processPackages [robothub-oak]: Downloading https://files.pythonhosted.org/packages/7a/1a/ff9c89e3703f90e6b6e326d58aaa447f3c62ac6e613fced1b2370243d23a/robothub_oak-1.0.3.tar.gz
+[2023-04-17 11:28:03] INFO root fetch - processPackages [scs-analysis]: Downloading https://files.pythonhosted.org/packages/a0/54/2b6c8be3af6451e2268876844d1ca36b76c7a336f27272ea6624ba4e3069/scs-analysis-1.1.63.tar.gz
+[2023-04-17 11:28:03] INFO root fetch - processPackages [port-pulumi]: executing diffoscope
+[2023-04-17 11:28:03] INFO root fetch - processPackages [port-pulumi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/port_pulumi-0.9.1.tar.gz tmp/port_pulumi-0.9.2.tar.gz --markdown 20230417/p/port-pulumi/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-04-17 11:28:03] INFO root fetch - processPackages [django-mapper]: Downloading https://files.pythonhosted.org/packages/4a/59/80ae21b959dbac04de3e38f28ddad108ec66b2cbaf1674ba2c2d74f4dae2/django-mapper-1.1.1.tar.gz
+[2023-04-17 11:28:03] INFO root fetch - processPackages [kondo-ml]: Downloading https://files.pythonhosted.org/packages/0a/c5/7fc46f1713bedafccb0bdf4c1f7217c4bb55d97f1a82fb8fe04fc47a0dc4/kondo_ml-0.0.6.tar.gz
+[2023-04-17 11:28:04] INFO root fetch - processPackages [processpiper]: Downloading https://files.pythonhosted.org/packages/e0/ab/7cbf4da26777f7e43fc4f4b2ee688937b6a886c33dee30816374851cd448/processpiper-0.2.0.tar.gz
+[2023-04-17 11:28:04] INFO root fetch - processPackages [django-mapper]: executing diffoscope
+[2023-04-17 11:28:04] INFO root fetch - processPackages [django-mapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-mapper-1.1.0.tar.gz tmp/django-mapper-1.1.1.tar.gz --markdown 20230417/d/django-mapper/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-04-17 11:28:04] INFO root fetch - processPackages [processpiper]: executing diffoscope
+[2023-04-17 11:28:04] INFO root fetch - processPackages [processpiper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/processpiper-0.1.0.tar.gz tmp/processpiper-0.2.0.tar.gz --markdown 20230417/p/processpiper/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-04-17 11:28:04] INFO root fetch - processPackages [canals]: Downloading https://files.pythonhosted.org/packages/46/2f/2fe2f0576d2a614cd8429466888396119eac7c9779eefdec3e1c100733b2/canals-0.0.2.tar.gz
+[2023-04-17 11:28:04] INFO root fetch - processPackages [digital-eval]: Downloading https://files.pythonhosted.org/packages/ec/e6/ce10c73fc44866a91ac689f22990f0862757d22b83f49085e70666a35285/digital-eval-1.5.0.tar.gz
+[2023-04-17 11:28:04] INFO root fetch - processPackages [huscy.bookings]: Downloading https://files.pythonhosted.org/packages/d7/1d/3359ca691417ceb75777ec34e0158bf5808cbb9364dbcf438a7607fe90b6/huscy.bookings-0.4.1a12.tar.gz
+[2023-04-17 11:28:04] INFO root fetch - processPackages [scs-analysis]: Downloading https://files.pythonhosted.org/packages/59/7b/debf09064b31361387f9a8471700ddfca49c4c2e54975224aa5bb7346ad4/scs-analysis-2.0.0.tar.gz
+[2023-04-17 11:28:04] INFO root fetch - processPackages [kondo-ml]: executing diffoscope
+[2023-04-17 11:28:04] INFO root fetch - processPackages [kondo-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kondo_ml-0.0.5.tar.gz tmp/kondo_ml-0.0.6.tar.gz --markdown 20230417/k/kondo-ml/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-17 11:28:04] INFO root fetch - processPackages [canals]: executing diffoscope
+[2023-04-17 11:28:04] INFO root fetch - processPackages [canals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/canals-0.0.1rc6.tar.gz tmp/canals-0.0.2.tar.gz --markdown 20230417/c/canals/0.0.1rc6-0.0.2/diff.md --exclude *.pyd
+[2023-04-17 11:28:04] INFO root fetch - processPackages [robothub-oak]: Downloading https://files.pythonhosted.org/packages/c0/89/491fd030a3910a348cd496eff16a56dcecd5ba24e0d92ecf02b00764c7d2/robothub_oak-1.0.4.tar.gz
+[2023-04-17 11:28:04] INFO root fetch - processPackages [digital-eval]: executing diffoscope
+[2023-04-17 11:28:04] INFO root fetch - processPackages [digital-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digital-eval-1.2.1.tar.gz tmp/digital-eval-1.5.0.tar.gz --markdown 20230417/d/digital-eval/1.2.1-1.5.0/diff.md --exclude *.pyd
+[2023-04-17 11:28:04] INFO root fetch - processPackages [scs-analysis]: executing diffoscope
+[2023-04-17 11:28:04] INFO root fetch - processPackages [scs-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scs-analysis-1.1.63.tar.gz tmp/scs-analysis-2.0.0.tar.gz --markdown 20230417/s/scs-analysis/1.1.63-2.0.0/diff.md --exclude *.pyd
+[2023-04-17 11:28:04] INFO root fetch - processPackages [robothub-oak]: executing diffoscope
+[2023-04-17 11:28:04] INFO root fetch - processPackages [robothub-oak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robothub_oak-1.0.3.tar.gz tmp/robothub_oak-1.0.4.tar.gz --markdown 20230417/r/robothub-oak/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-04-17 11:28:04] INFO root fetch - processPackages [huscy.bookings]: executing diffoscope
+[2023-04-17 11:28:04] INFO root fetch - processPackages [huscy.bookings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huscy.bookings-0.4.1a11.tar.gz tmp/huscy.bookings-0.4.1a12.tar.gz --markdown 20230417/h/huscy.bookings/0.4.1a11-0.4.1a12/diff.md --exclude *.pyd
+[2023-04-17 11:28:04] INFO root fetch - processPackages [cdktf]: Downloading https://files.pythonhosted.org/packages/80/8d/cbc9ef418f046a8c17f614889aba72b6e668540a2966498bef6f1dbb3a10/cdktf-0.9.4.tar.gz
+[2023-04-17 11:28:04] INFO root fetch - processPackages [cdktf]: executing diffoscope
+[2023-04-17 11:28:04] INFO root fetch - processPackages [cdktf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-0.9.3.tar.gz tmp/cdktf-0.9.4.tar.gz --markdown 20230417/c/cdktf/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-04-17 11:28:05] INFO root fetch - processPackages [django-mapper]: Start processing: mfrc522-python
+[2023-04-17 11:28:05] INFO root fetch - main [MainThread]: End processing [django-mapper]: success
+[2023-04-17 11:28:05] INFO root fetch - processPackages [mfrc522-python]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-17 11:28:05] INFO root fetch - processPackages [mfrc522-python]: Downloading https://files.pythonhosted.org/packages/5e/bd/41029dbf7d727c16a7c6de502533adb6bace6e177090daf2062402d229de/mfrc522-python-0.0.3.tar.gz
+[2023-04-17 11:28:05] INFO root fetch - processPackages [robothub-oak]: Start processing: unicat
+[2023-04-17 11:28:05] INFO root fetch - main [MainThread]: End processing [robothub-oak]: success
+[2023-04-17 11:28:05] INFO root fetch - processPackages [unicat]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-17 11:28:05] INFO root fetch - processPackages [mfrc522-python]: executing diffoscope
+[2023-04-17 11:28:05] INFO root fetch - processPackages [mfrc522-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mfrc522-python-0.0.2.tar.gz tmp/mfrc522-python-0.0.3.tar.gz --markdown 20230417/m/mfrc522-python/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-17 11:28:05] INFO root fetch - main [MainThread]: End processing [canals]: success
+[2023-04-17 11:28:06] INFO root fetch - main [MainThread]: End processing [kondo-ml]: success
+[2023-04-17 11:28:06] INFO root fetch - processPackages [unicat]: Downloading https://files.pythonhosted.org/packages/00/c4/ac463f2e35f66861b2f3a7612883f7e9d507efa9c79e729689850efa97a1/unicat-0.2.1.tar.gz
+[2023-04-17 11:28:06] INFO root fetch - main [MainThread]: End processing [processpiper]: success
+[2023-04-17 11:28:06] INFO root fetch - main [MainThread]: End processing [huscy.bookings]: success
+[2023-04-17 11:28:06] INFO root fetch - main [MainThread]: End processing [port-pulumi]: success
+[2023-04-17 11:28:06] INFO root fetch - main [MainThread]: End processing [digital-eval]: success
+[2023-04-17 11:28:06] INFO root fetch - main [MainThread]: End processing [scs-analysis]: success
+[2023-04-17 11:28:06] INFO root fetch - main [MainThread]: End processing [mfrc522-python]: success
+[2023-04-17 11:28:07] INFO root fetch - processPackages [unicat]: Downloading https://files.pythonhosted.org/packages/eb/fc/55ce6d6445a6da085ec80fcc503051d0289003f2d38df30491edfe1a0525/unicat-0.2.2.tar.gz
+[2023-04-17 11:28:07] INFO root fetch - main [MainThread]: End processing [cdktf]: success
+[2023-04-17 11:28:08] INFO root fetch - processPackages [unicat]: executing diffoscope
+[2023-04-17 11:28:08] INFO root fetch - processPackages [unicat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unicat-0.2.1.tar.gz tmp/unicat-0.2.2.tar.gz --markdown 20230417/u/unicat/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-17 11:29:02] INFO root fetch - main [MainThread]: End processing [unicat]: success
+[2023-04-17 11:29:02] INFO root fetch - main [MainThread]: Store serial: [17736098]
