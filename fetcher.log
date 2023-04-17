@@ -7087,3 +7087,78 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 09:12:51] INFO root fetch - main [MainThread]: End processing [hatch-jupyter-builder]: success
 [2023-04-17 09:12:51] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
 [2023-04-17 09:12:51] INFO root fetch - main [MainThread]: Store serial: [17734767]
+[2023-04-17 09:17:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17734767]
+[2023-04-17 09:18:00] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-17 09:18:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-04-17 09:18:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyQt6-Frameless-Window
+[2023-04-17 09:18:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: github-rest-api
+[2023-04-17 09:18:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yhgit
+[2023-04-17 09:18:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tfq-nightly
+[2023-04-17 09:18:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-cradmin
+[2023-04-17 09:18:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Dokos
+[2023-04-17 09:18:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: metisse
+[2023-04-17 09:18:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dexom-python
+[2023-04-17 09:18:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: yhgit
+[2023-04-17 09:18:00] INFO root fetch - processPackages [github-rest-api]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-17 09:18:00] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-04-17 09:18:00] INFO root fetch - processPackages [metisse]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-17 09:18:00] INFO root fetch - processPackages [PyQt6-Frameless-Window]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-17 09:18:00] INFO root fetch - processPackages [yhgit]: New version: [2.8.9] Old Version: [2.8.8]
+[2023-04-17 09:18:00] INFO root fetch - processPackages [yhgit]: New version: [2.8.9] Old Version: [2.8.8]
+[2023-04-17 09:18:00] INFO root fetch - processPackages [Dokos]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-04-17 09:18:00] INFO root fetch - processPackages [dexom-python]: New version: [1.0.1] Old Version: [1.0]
+[2023-04-17 09:18:00] INFO root fetch - processPackages [tfq-nightly]: New version: [0.7.3.dev20230416] Old Version: [0.7.3.dev20230415]
+[2023-04-17 09:18:00] INFO root fetch - processPackages [django-cradmin]: New version: [9.2.0] Old Version: [9.1.0]
+[2023-04-17 09:18:00] INFO root fetch - processPackages [yhgit]: executing diffoscope
+[2023-04-17 09:18:00] INFO root fetch - processPackages [yhgit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yhgit-2.8.8.tar.gz tmp/yhgit-2.8.9.tar.gz --markdown 20230417/y/yhgit/2.8.8-2.8.9/diff.md --exclude *.pyd
+[2023-04-17 09:18:00] INFO root fetch - processPackages [yhgit]: executing diffoscope
+[2023-04-17 09:18:00] INFO root fetch - processPackages [yhgit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yhgit-2.8.8.tar.gz tmp/yhgit-2.8.9.tar.gz --markdown 20230417/y/yhgit/2.8.8-2.8.9/diff.md --exclude *.pyd
+[2023-04-17 09:18:00] INFO root fetch - processPackages [github-rest-api]: executing diffoscope
+[2023-04-17 09:18:00] INFO root fetch - processPackages [github-rest-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/github_rest_api-0.8.0.tar.gz tmp/github_rest_api-0.9.0.tar.gz --markdown 20230417/g/github-rest-api/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-17 09:18:00] INFO root fetch - processPackages [metisse]: Downloading https://files.pythonhosted.org/packages/1d/e8/a3ce14ea0b0413bc44c362154fc43599f356cb1a3820541f2e88b4001fd1/metisse-0.0.1.tar.gz
+[2023-04-17 09:18:00] INFO root fetch - processPackages [dexom-python]: Downloading https://files.pythonhosted.org/packages/71/45/ade6514677ef01e36c18f1d04b6d539c74c4fc622d3653015c15e51f6316/dexom_python-1.0.tar.gz
+[2023-04-17 09:18:00] INFO root fetch - processPackages [PyQt6-Frameless-Window]: Downloading https://files.pythonhosted.org/packages/04/b4/9f515646fa059e4c0cac0226269a67ce8e3ad001dc8ad6dd1ba395d91ac0/PyQt6-Frameless-Window-0.1.0.tar.gz
+[2023-04-17 09:18:00] INFO root fetch - processPackages [Dokos]: Downloading https://files.pythonhosted.org/packages/25/02/516e07cd61a9a2b2b43a53369d71e8140c6cb099d81277e8c6082946ea50/dokos-1.0.3.tar.gz
+[2023-04-17 09:18:00] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-04-17 09:18:00] INFO root fetch - processPackages [django-cradmin]: Downloading https://files.pythonhosted.org/packages/96/50/052526ab62f57083d4dd75575b1c54b757b4f69a1947e6a2670d133fca68/django-cradmin-9.1.0.tar.gz
+[2023-04-17 09:18:00] INFO root fetch - processPackages [tfq-nightly]: Downloading https://files.pythonhosted.org/packages/75/41/9ce890d561c8444848d45659cf68fab9393f6e6b9efed94cbd72b6be615f/tfq_nightly-0.7.3.dev20230415-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-17 09:18:01] INFO root fetch - processPackages [dexom-python]: Downloading https://files.pythonhosted.org/packages/60/1a/781d1059c294daa8591a56d0e59eb8cdf7d227ad953381e1daff584a9395/dexom_python-1.0.1.tar.gz
+[2023-04-17 09:18:01] WARNING root fetch - processPackages [tfq-nightly]: Skipping package: exceeds size limit 10819848>=10485760
+[2023-04-17 09:18:01] INFO root fetch - processPackages [tfq-nightly]: Start processing: flowmachine
+[2023-04-17 09:18:01] INFO root fetch - main [MainThread]: End processing [tfq-nightly] error
+[2023-04-17 09:18:01] INFO root fetch - processPackages [PyQt6-Frameless-Window]: Downloading https://files.pythonhosted.org/packages/5d/9c/6baa8076f8350ab78aca4f0a9cd403117b1fdd123bcd0d171a54c3da2f26/PyQt6-Frameless-Window-0.1.1.tar.gz
+[2023-04-17 09:18:01] INFO root fetch - processPackages [Dokos]: Downloading https://files.pythonhosted.org/packages/58/f6/a36a6759040fcaf943ed57bb33f6747bfe406bc4f1216c0cf050644e6689/dokos-1.0.4.tar.gz
+[2023-04-17 09:18:01] INFO root fetch - processPackages [flowmachine]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2023-04-17 09:18:01] INFO root fetch - processPackages [flowmachine]: executing diffoscope
+[2023-04-17 09:18:01] INFO root fetch - processPackages [flowmachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowmachine-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowmachine-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20230417/f/flowmachine/1.9.4.post0.dev70-1.9.4.post0.dev76/diff.md --exclude *.pyd
+[2023-04-17 09:18:01] INFO root fetch - processPackages [dexom-python]: executing diffoscope
+[2023-04-17 09:18:01] INFO root fetch - processPackages [dexom-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dexom_python-1.0.tar.gz tmp/dexom_python-1.0.1.tar.gz --markdown 20230417/d/dexom-python/1.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-17 09:18:01] INFO root fetch - processPackages [PyQt6-Frameless-Window]: executing diffoscope
+[2023-04-17 09:18:01] INFO root fetch - processPackages [PyQt6-Frameless-Window]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQt6-Frameless-Window-0.1.0.tar.gz tmp/PyQt6-Frameless-Window-0.1.1.tar.gz --markdown 20230417/P/PyQt6-Frameless-Window/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-17 09:18:01] INFO root fetch - processPackages [Dokos]: executing diffoscope
+[2023-04-17 09:18:01] INFO root fetch - processPackages [Dokos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dokos-1.0.3.tar.gz tmp/dokos-1.0.4.tar.gz --markdown 20230417/D/Dokos/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-04-17 09:18:01] INFO root fetch - processPackages [metisse]: Downloading https://files.pythonhosted.org/packages/a6/dc/b09b218fd74c8f266e7853a82eb1c45904ab83cdef4b9bf91302fabe512a/metisse-0.0.2.tar.gz
+[2023-04-17 09:18:01] INFO root fetch - processPackages [django-cradmin]: Downloading https://files.pythonhosted.org/packages/23/85/f38ba4732c972a67d52a04b76e82d47209993d7df27ad891360ebf61c88b/django-cradmin-9.2.0.tar.gz
+[2023-04-17 09:18:02] INFO root fetch - processPackages [metisse]: executing diffoscope
+[2023-04-17 09:18:02] INFO root fetch - processPackages [metisse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metisse-0.0.1.tar.gz tmp/metisse-0.0.2.tar.gz --markdown 20230417/m/metisse/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-17 09:18:02] INFO root fetch - processPackages [django-cradmin]: executing diffoscope
+[2023-04-17 09:18:02] INFO root fetch - processPackages [django-cradmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-cradmin-9.1.0.tar.gz tmp/django-cradmin-9.2.0.tar.gz --markdown 20230417/d/django-cradmin/9.1.0-9.2.0/diff.md --exclude *.pyd
+[2023-04-17 09:18:02] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-04-17 09:18:02] INFO root fetch - processPackages [github-rest-api]: Start processing: pygptj
+[2023-04-17 09:18:02] INFO root fetch - main [MainThread]: End processing [github-rest-api]: success
+[2023-04-17 09:18:02] INFO root fetch - main [MainThread]: End processing [yhgit]: success
+[2023-04-17 09:18:02] INFO root fetch - processPackages [pygptj]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-17 09:18:02] INFO root fetch - main [MainThread]: End processing [yhgit]: success
+[2023-04-17 09:18:02] INFO root fetch - processPackages [pygptj]: executing diffoscope
+[2023-04-17 09:18:02] INFO root fetch - processPackages [pygptj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygptj-1.0.2.tar.gz tmp/pygptj-1.0.3.tar.gz --markdown 20230417/p/pygptj/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-17 09:18:03] INFO root fetch - main [MainThread]: End processing [PyQt6-Frameless-Window]: success
+[2023-04-17 09:18:03] INFO root fetch - main [MainThread]: End processing [Dokos]: success
+[2023-04-17 09:18:03] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-04-17 09:18:03] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230417/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-04-17 09:18:03] INFO root fetch - main [MainThread]: End processing [dexom-python]: success
+[2023-04-17 09:18:03] INFO root fetch - main [MainThread]: End processing [metisse]: success
+[2023-04-17 09:18:04] INFO root fetch - main [MainThread]: End processing [flowmachine]: success
+[2023-04-17 09:18:06] INFO root fetch - main [MainThread]: End processing [pygptj]: success
+[2023-04-17 09:18:07] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-04-17 09:18:18] INFO root fetch - main [MainThread]: End processing [django-cradmin]: success
+[2023-04-17 09:18:18] INFO root fetch - main [MainThread]: Store serial: [17734796]
