@@ -19955,3 +19955,91 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-17 20:17:44] INFO root fetch - main [MainThread]: End processing [torchio]: success
 [2023-04-17 20:17:44] INFO root fetch - main [MainThread]: End processing [steamship-langchain]: success
 [2023-04-17 20:17:44] INFO root fetch - main [MainThread]: Store serial: [17742562]
+[2023-04-17 20:22:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17742562]
+[2023-04-17 20:22:53] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-17 20:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: serverless-sdk
+[2023-04-17 20:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pygtkspellcheck
+[2023-04-17 20:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ttkDesigner
+[2023-04-17 20:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sqlalchemy-extras
+[2023-04-17 20:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flet-core
+[2023-04-17 20:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flet
+[2023-04-17 20:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ArmaQDL
+[2023-04-17 20:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flet-pyodide
+[2023-04-17 20:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: coco_types
+[2023-04-17 20:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sphinxcontrib-exceltable
+[2023-04-17 20:22:53] INFO root fetch - processPackages [sqlalchemy-extras]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-04-17 20:22:53] INFO root fetch - processPackages [ArmaQDL]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-04-17 20:22:53] WARNING root fetch - processPackages [ttkDesigner]: Skipping, unable to determine old version
+[2023-04-17 20:22:53] INFO root fetch - processPackages [ttkDesigner]: Start processing: xh-dict-utils
+[2023-04-17 20:22:53] INFO root fetch - main [MainThread]: End processing [ttkDesigner] error
+[2023-04-17 20:22:54] INFO root fetch - processPackages [xh-dict-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 20:22:54] INFO root fetch - processPackages [ArmaQDL]: executing diffoscope
+[2023-04-17 20:22:54] INFO root fetch - processPackages [ArmaQDL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/armaqdl-0.5.0.tar.gz tmp/armaqdl-0.6.0.tar.gz --markdown 20230417/A/ArmaQDL/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-04-17 20:22:54] INFO root fetch - processPackages [pygtkspellcheck]: New version: [5.0.2] Old Version: [5.0.1]
+[2023-04-17 20:22:54] INFO root fetch - processPackages [sqlalchemy-extras]: executing diffoscope
+[2023-04-17 20:22:54] INFO root fetch - processPackages [sqlalchemy-extras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy_extras-2.0.1.tar.gz tmp/sqlalchemy_extras-2.0.2.tar.gz --markdown 20230417/s/sqlalchemy-extras/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-04-17 20:22:54] INFO root fetch - processPackages [serverless-sdk]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-04-17 20:22:54] INFO root fetch - processPackages [flet-core]: New version: [0.6.0.dev1322] Old Version: [0.6.0.dev1312]
+[2023-04-17 20:22:54] INFO root fetch - processPackages [coco_types]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-17 20:22:54] INFO root fetch - processPackages [sphinxcontrib-exceltable]: New version: [0.3.0.dev0] Old Version: [0.2.2]
+[2023-04-17 20:22:54] INFO root fetch - processPackages [flet-pyodide]: New version: [0.6.0.dev1322] Old Version: [0.6.0.dev1312]
+[2023-04-17 20:22:54] INFO root fetch - processPackages [xh-dict-utils]: executing diffoscope
+[2023-04-17 20:22:54] INFO root fetch - processPackages [xh-dict-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xh-dict-utils-0.0.8.tar.gz tmp/xh-dict-utils-0.0.9.tar.gz --markdown 20230417/x/xh-dict-utils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 20:22:54] INFO root fetch - processPackages [flet]: New version: [0.6.0.dev1322] Old Version: [0.6.0.dev1312]
+[2023-04-17 20:22:54] INFO root fetch - processPackages [pygtkspellcheck]: Downloading https://files.pythonhosted.org/packages/35/ff/a8ae7652ce2b6e86159441068792afeb133cf89b884d5eccaa1c962c49fe/pygtkspellcheck-5.0.1.tar.gz
+[2023-04-17 20:22:54] INFO root fetch - processPackages [coco_types]: Downloading https://files.pythonhosted.org/packages/9a/73/93127a8486adb29d1a44ea6aa63034d3e14ed45f589bf8d90f5b5a645858/coco_types-0.0.4.tar.gz
+[2023-04-17 20:22:54] INFO root fetch - processPackages [sphinxcontrib-exceltable]: Downloading https://files.pythonhosted.org/packages/dd/61/a5e56415dd6f2054f499536a903044071a6600d9a4e693ace8fe2a36d9fd/sphinxcontrib-exceltable-0.2.2.tar.gz
+[2023-04-17 20:22:54] INFO root fetch - processPackages [flet-core]: Downloading https://files.pythonhosted.org/packages/6a/48/278236bf996d224985c917cc9c4cb311dc614767744befa7b2f585d1b958/flet_core-0.6.0.dev1322.tar.gz
+[2023-04-17 20:22:54] INFO root fetch - processPackages [flet]: Downloading https://files.pythonhosted.org/packages/44/69/f8608c649a0ca15636cda3f1ada7e090a5087fcb777fcf9fe438d318a447/flet-0.6.0.dev1322.tar.gz
+[2023-04-17 20:22:54] INFO root fetch - processPackages [coco_types]: Downloading https://files.pythonhosted.org/packages/56/23/ed3c17f9a9df3fd8f634d785c76789dbb6fbfd20c020a8f9fd5e3600c480/coco_types-0.0.5.tar.gz
+[2023-04-17 20:22:54] INFO root fetch - processPackages [flet-pyodide]: Downloading https://files.pythonhosted.org/packages/5c/37/d84de9d985b80e453fb39406dcfb4dfb15378939ae63cb3b2ffbd57232aa/flet_pyodide-0.6.0.dev1322.tar.gz
+[2023-04-17 20:22:54] INFO root fetch - processPackages [pygtkspellcheck]: Downloading https://files.pythonhosted.org/packages/35/86/b2b69f35ddbbc67420823b2819e7a820ae5b8114138d365e536d93b01897/pygtkspellcheck-5.0.2.tar.gz
+[2023-04-17 20:22:54] INFO root fetch - processPackages [flet-core]: executing diffoscope
+[2023-04-17 20:22:54] INFO root fetch - processPackages [flet-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_core-0.6.0.dev1312.tar.gz tmp/flet_core-0.6.0.dev1322.tar.gz --markdown 20230417/f/flet-core/0.6.0.dev1312-0.6.0.dev1322/diff.md --exclude *.pyd
+[2023-04-17 20:22:54] INFO root fetch - processPackages [sphinxcontrib-exceltable]: Downloading https://files.pythonhosted.org/packages/cb/95/88e0dbe7ae13e264a46c2e14f8f0873df40f1e672a872e36ef58e5e6b097/sphinxcontrib-exceltable-0.3.0.dev0.tar.gz
+[2023-04-17 20:22:54] INFO root fetch - processPackages [serverless-sdk]: Downloading https://files.pythonhosted.org/packages/64/95/e9b4fcd70c461fbc487c82f7255b319a5881d7304e871fe5fffde40ca76a/serverless-sdk-0.4.1.tar.gz
+[2023-04-17 20:22:54] INFO root fetch - processPackages [coco_types]: executing diffoscope
+[2023-04-17 20:22:54] INFO root fetch - processPackages [flet-pyodide]: executing diffoscope
+[2023-04-17 20:22:54] INFO root fetch - processPackages [coco_types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coco_types-0.0.4.tar.gz tmp/coco_types-0.0.5.tar.gz --markdown 20230417/c/coco_types/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-17 20:22:54] INFO root fetch - processPackages [flet-pyodide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_pyodide-0.6.0.dev1312.tar.gz tmp/flet_pyodide-0.6.0.dev1322.tar.gz --markdown 20230417/f/flet-pyodide/0.6.0.dev1312-0.6.0.dev1322/diff.md --exclude *.pyd
+[2023-04-17 20:22:54] INFO root fetch - processPackages [pygtkspellcheck]: executing diffoscope
+[2023-04-17 20:22:54] INFO root fetch - processPackages [pygtkspellcheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygtkspellcheck-5.0.1.tar.gz tmp/pygtkspellcheck-5.0.2.tar.gz --markdown 20230417/p/pygtkspellcheck/5.0.1-5.0.2/diff.md --exclude *.pyd
+[2023-04-17 20:22:54] INFO root fetch - processPackages [sphinxcontrib-exceltable]: executing diffoscope
+[2023-04-17 20:22:54] INFO root fetch - processPackages [sphinxcontrib-exceltable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinxcontrib-exceltable-0.2.2.tar.gz tmp/sphinxcontrib-exceltable-0.3.0.dev0.tar.gz --markdown 20230417/s/sphinxcontrib-exceltable/0.2.2-0.3.0.dev0/diff.md --exclude *.pyd
+[2023-04-17 20:22:54] INFO root fetch - processPackages [serverless-sdk]: executing diffoscope
+[2023-04-17 20:22:54] INFO root fetch - processPackages [serverless-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serverless-sdk-0.4.0.tar.gz tmp/serverless-sdk-0.4.1.tar.gz --markdown 20230417/s/serverless-sdk/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-04-17 20:22:54] INFO root fetch - processPackages [flet]: executing diffoscope
+[2023-04-17 20:22:54] INFO root fetch - processPackages [flet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet-0.6.0.dev1312.tar.gz tmp/flet-0.6.0.dev1322.tar.gz --markdown 20230417/f/flet/0.6.0.dev1312-0.6.0.dev1322/diff.md --exclude *.pyd
+[2023-04-17 20:22:55] INFO root fetch - processPackages [sqlalchemy-extras]: Start processing: syse
+[2023-04-17 20:22:55] INFO root fetch - main [MainThread]: End processing [sqlalchemy-extras]: success
+[2023-04-17 20:22:55] INFO root fetch - processPackages [ArmaQDL]: Start processing: oarepo-vocabularies
+[2023-04-17 20:22:55] INFO root fetch - main [MainThread]: End processing [ArmaQDL]: success
+[2023-04-17 20:22:55] INFO root fetch - processPackages [xh-dict-utils]: Start processing: class-file-Nikolay
+[2023-04-17 20:22:55] INFO root fetch - main [MainThread]: End processing [xh-dict-utils]: success
+[2023-04-17 20:22:55] WARNING root fetch - processPackages [class-file-Nikolay]: Skipping, unable to determine old version
+[2023-04-17 20:22:55] INFO root fetch - processPackages [class-file-Nikolay]: Start processing: class-filess
+[2023-04-17 20:22:55] INFO root fetch - main [MainThread]: End processing [class-file-Nikolay] error
+[2023-04-17 20:22:55] INFO root fetch - processPackages [class-filess]: New version: [0.3] Old Version: [0.1]
+[2023-04-17 20:22:55] INFO root fetch - processPackages [syse]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 20:22:55] INFO root fetch - processPackages [oarepo-vocabularies]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-17 20:22:55] INFO root fetch - processPackages [class-filess]: Downloading https://files.pythonhosted.org/packages/29/80/ec0c79f1fc0b831ed98b8ae30644e997bd6343cb9a7e1046a6c0d9b588c0/class_filess-0.1.tar.gz
+[2023-04-17 20:22:55] INFO root fetch - processPackages [syse]: Downloading https://files.pythonhosted.org/packages/b6/a9/888685befe5b47dcee2df1c17d07d0a9e6eedf2c9306fe4743ba7f1c0531/syse-0.0.8.tar.gz
+[2023-04-17 20:22:55] INFO root fetch - processPackages [oarepo-vocabularies]: executing diffoscope
+[2023-04-17 20:22:55] INFO root fetch - processPackages [oarepo-vocabularies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-vocabularies-1.0.8.tar.gz tmp/oarepo-vocabularies-1.0.9.tar.gz --markdown 20230417/o/oarepo-vocabularies/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-17 20:22:55] INFO root fetch - main [MainThread]: End processing [flet-pyodide]: success
+[2023-04-17 20:22:55] INFO root fetch - processPackages [syse]: Downloading https://files.pythonhosted.org/packages/90/ab/63e82dd27fe22bd2c01efc755ddd37c123b876574e4b7cb4911b488a115a/syse-0.0.9.tar.gz
+[2023-04-17 20:22:56] INFO root fetch - processPackages [class-filess]: Downloading https://files.pythonhosted.org/packages/e5/f5/b70a8885799d13d07edfc75d48fbab36ebc08cf2fafb1cdc595095a69b62/class_filess-0.3.tar.gz
+[2023-04-17 20:22:56] INFO root fetch - main [MainThread]: End processing [coco_types]: success
+[2023-04-17 20:22:56] INFO root fetch - processPackages [syse]: executing diffoscope
+[2023-04-17 20:22:56] INFO root fetch - processPackages [syse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syse-0.0.8.tar.gz tmp/syse-0.0.9.tar.gz --markdown 20230417/s/syse/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 20:22:56] INFO root fetch - main [MainThread]: End processing [pygtkspellcheck]: success
+[2023-04-17 20:22:56] INFO root fetch - processPackages [class-filess]: executing diffoscope
+[2023-04-17 20:22:56] INFO root fetch - processPackages [class-filess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/class_filess-0.1.tar.gz tmp/class_filess-0.3.tar.gz --markdown 20230417/c/class-filess/0.1-0.3/diff.md --exclude *.pyd
+[2023-04-17 20:22:56] INFO root fetch - main [MainThread]: End processing [sphinxcontrib-exceltable]: success
+[2023-04-17 20:22:56] INFO root fetch - main [MainThread]: End processing [serverless-sdk]: success
+[2023-04-17 20:22:57] INFO root fetch - main [MainThread]: End processing [oarepo-vocabularies]: success
+[2023-04-17 20:22:57] INFO root fetch - main [MainThread]: End processing [class-filess]: success
+[2023-04-17 20:22:57] INFO root fetch - main [MainThread]: End processing [flet]: success
+[2023-04-17 20:22:57] INFO root fetch - main [MainThread]: End processing [syse]: success
+[2023-04-17 20:22:58] INFO root fetch - main [MainThread]: End processing [flet-core]: success
+[2023-04-17 20:22:58] INFO root fetch - main [MainThread]: Store serial: [17742614]
