@@ -5727,3 +5727,43 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 07:25:16] INFO root fetch - main [MainThread]: End processing [flowclient]: success
 [2023-04-17 07:25:16] INFO root fetch - main [MainThread]: End processing [flowmachine]: success
 [2023-04-17 07:25:16] INFO root fetch - main [MainThread]: Store serial: [17733930]
+[2023-04-17 07:30:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17733930]
+[2023-04-17 07:30:25] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-17 07:30:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: LibCode
+[2023-04-17 07:30:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: accurating
+[2023-04-17 07:30:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pymediawikidocker
+[2023-04-17 07:30:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rasa-gen
+[2023-04-17 07:30:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jaxrie
+[2023-04-17 07:30:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hiddifypanel
+[2023-04-17 07:30:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: otoe
+[2023-04-17 07:30:25] INFO root fetch - processPackages [accurating]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-04-17 07:30:25] INFO root fetch - processPackages [LibCode]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-04-17 07:30:25] INFO root fetch - processPackages [pymediawikidocker]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-17 07:30:25] INFO root fetch - processPackages [hiddifypanel]: New version: [4.0.0.dev6] Old Version: [4.0.0.dev5]
+[2023-04-17 07:30:25] INFO root fetch - processPackages [jaxrie]: New version: [9] Old Version: [8]
+[2023-04-17 07:30:25] WARNING root fetch - processPackages [rasa-gen]: Skipping, unable to determine old version
+[2023-04-17 07:30:25] INFO root fetch - processPackages [otoe]: New version: [0.0.7a0] Old Version: [0.0.7.post4]
+[2023-04-17 07:30:25] INFO root fetch - main [MainThread]: End processing [rasa-gen] error
+[2023-04-17 07:30:25] INFO root fetch - processPackages [jaxrie]: executing diffoscope
+[2023-04-17 07:30:25] INFO root fetch - processPackages [jaxrie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxrie-8.tar.gz tmp/jaxrie-9.tar.gz --markdown 20230417/j/jaxrie/8-9/diff.md --exclude *.pyd
+[2023-04-17 07:30:25] INFO root fetch - processPackages [pymediawikidocker]: executing diffoscope
+[2023-04-17 07:30:25] INFO root fetch - processPackages [pymediawikidocker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymediawikidocker-0.9.8.tar.gz tmp/pymediawikidocker-0.9.9.tar.gz --markdown 20230417/p/pymediawikidocker/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-17 07:30:25] INFO root fetch - processPackages [LibCode]: Downloading https://files.pythonhosted.org/packages/6b/8d/3b2d624dbc5f18a53704fed4b79f82cbbe817b53ac592a1aa8adecc9a63f/LibCode-1.1.0.tar.gz
+[2023-04-17 07:30:25] INFO root fetch - processPackages [otoe]: Downloading https://files.pythonhosted.org/packages/11/02/a052e9283b0bfc5648780c3bce774742514c94beb14fdc50beb8c7491b41/otoe-0.0.7a0.tar.gz
+[2023-04-17 07:30:25] INFO root fetch - processPackages [accurating]: Downloading https://files.pythonhosted.org/packages/9f/1f/41d334e428f2fe29c223b61ee9ffd593bd01509534962da3d4a052186bbe/accurating-0.4.3.tar.gz
+[2023-04-17 07:30:26] INFO root fetch - processPackages [otoe]: executing diffoscope
+[2023-04-17 07:30:26] INFO root fetch - processPackages [otoe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otoe-0.0.7.post4.tar.gz tmp/otoe-0.0.7a0.tar.gz --markdown 20230417/o/otoe/0.0.7.post4-0.0.7a0/diff.md --exclude *.pyd
+[2023-04-17 07:30:26] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-04-17 07:30:26] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-4.0.0.dev5-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/hiddifypanel-4.0.0.dev6-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230417/h/hiddifypanel/4.0.0.dev5-4.0.0.dev6/diff.md --exclude *.pyd
+[2023-04-17 07:30:26] INFO root fetch - processPackages [LibCode]: Downloading https://files.pythonhosted.org/packages/5d/60/5f9bb6e245b2d3fa77f0eaf5fa2a0a6c4173f96d60386b9667e7f7b6c97d/LibCode-1.2.0.tar.gz
+[2023-04-17 07:30:26] INFO root fetch - processPackages [accurating]: executing diffoscope
+[2023-04-17 07:30:26] INFO root fetch - processPackages [accurating]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accurating-0.4.2.tar.gz tmp/accurating-0.4.3.tar.gz --markdown 20230417/a/accurating/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-04-17 07:30:26] INFO root fetch - processPackages [LibCode]: executing diffoscope
+[2023-04-17 07:30:26] INFO root fetch - processPackages [LibCode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LibCode-1.1.0.tar.gz tmp/LibCode-1.2.0.tar.gz --markdown 20230417/L/LibCode/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-04-17 07:30:26] INFO root fetch - main [MainThread]: End processing [jaxrie]: success
+[2023-04-17 07:30:27] INFO root fetch - main [MainThread]: End processing [otoe]: success
+[2023-04-17 07:30:27] INFO root fetch - main [MainThread]: End processing [accurating]: success
+[2023-04-17 07:30:27] INFO root fetch - main [MainThread]: End processing [pymediawikidocker]: success
+[2023-04-17 07:30:27] INFO root fetch - main [MainThread]: End processing [LibCode]: success
+[2023-04-17 07:30:44] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-04-17 07:30:44] INFO root fetch - main [MainThread]: Store serial: [17733959]
