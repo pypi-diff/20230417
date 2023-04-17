@@ -7954,3 +7954,102 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 10:22:13] INFO root fetch - main [MainThread]: End processing [lightningchart]: success
 [2023-04-17 10:22:13] INFO root fetch - main [MainThread]: End processing [pydflow]: success
 [2023-04-17 10:22:13] INFO root fetch - main [MainThread]: Store serial: [17735420]
+[2023-04-17 10:27:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17735420]
+[2023-04-17 10:27:23] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-04-17 10:27:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flowclient
+[2023-04-17 10:27:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flowmachine
+[2023-04-17 10:27:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flowetl
+[2023-04-17 10:27:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: RobertCommonBasic
+[2023-04-17 10:27:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kpops
+[2023-04-17 10:27:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: DLMS-SPODES
+[2023-04-17 10:27:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lnbits
+[2023-04-17 10:27:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lattice-graph-manipulation
+[2023-04-17 10:27:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: josiann
+[2023-04-17 10:27:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PrettyGit
+[2023-04-17 10:27:23] INFO root fetch - processPackages [RobertCommonBasic]: New version: [0.1.35] Old Version: [0.1.34]
+[2023-04-17 10:27:23] INFO root fetch - processPackages [lattice-graph-manipulation]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-17 10:27:23] INFO root fetch - processPackages [kpops]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-04-17 10:27:23] INFO root fetch - processPackages [josiann]: New version: [1.1.3rc2] Old Version: [1.1.3rc1]
+[2023-04-17 10:27:23] WARNING root fetch - processPackages [lnbits]: Skipping, unable to determine old version
+[2023-04-17 10:27:23] INFO root fetch - processPackages [lnbits]: Start processing: HaoCalculator
+[2023-04-17 10:27:23] INFO root fetch - main [MainThread]: End processing [lnbits] error
+[2023-04-17 10:27:23] INFO root fetch - processPackages [DLMS-SPODES]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-04-17 10:27:23] INFO root fetch - processPackages [PrettyGit]: New version: [23.0.3] Old Version: [23.0.2]
+[2023-04-17 10:27:23] INFO root fetch - processPackages [flowetl]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2023-04-17 10:27:23] INFO root fetch - processPackages [flowclient]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2023-04-17 10:27:23] INFO root fetch - processPackages [flowmachine]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2023-04-17 10:27:23] WARNING root fetch - processPackages [HaoCalculator]: Skipping, unable to determine old version
+[2023-04-17 10:27:23] INFO root fetch - processPackages [HaoCalculator]: Start processing: always-updates
+[2023-04-17 10:27:23] INFO root fetch - main [MainThread]: End processing [HaoCalculator] error
+[2023-04-17 10:27:23] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-04-17 10:27:23] INFO root fetch - processPackages [RobertCommonBasic]: Downloading https://files.pythonhosted.org/packages/16/9d/6df84aac7a043b681106bfe07eaeb65dbde867171d12968295a77864521d/RobertCommonBasic-0.1.34.tar.gz
+[2023-04-17 10:27:23] INFO root fetch - processPackages [lattice-graph-manipulation]: Downloading https://files.pythonhosted.org/packages/8b/cb/a3c533abe2537b152c40b1283a8994eaa33d1aa8aafe011d13e8f1bfaa97/Lattice-Graph-Manipulation-0.1.0.tar.gz
+[2023-04-17 10:27:23] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-04-17 10:27:23] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230417/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-04-17 10:27:23] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/97/e2/60be495fca055220080de90e294b2c16ad5a60ea6485cdee969131f05bf4/DLMS_SPODES-0.8.3.tar.gz
+[2023-04-17 10:27:24] INFO root fetch - processPackages [josiann]: Downloading https://files.pythonhosted.org/packages/6c/55/fdd49a9b13a54e4056138606ed31cd92cf40ec5983bebc940183bfbd98ce/josiann-1.1.3rc2.tar.gz
+[2023-04-17 10:27:24] INFO root fetch - processPackages [kpops]: Downloading https://files.pythonhosted.org/packages/aa/fc/7398b9853c6e90c86e7512ed8c29cef571da7d881c5f97562c6a582ba82b/kpops-1.1.0.tar.gz
+[2023-04-17 10:27:24] INFO root fetch - processPackages [PrettyGit]: Downloading https://files.pythonhosted.org/packages/d2/14/961d948595d090483aaaead5858cd882b9b428eb7d3c927d57a30cbe0ebd/prettygit-23.0.3.tar.gz
+[2023-04-17 10:27:24] INFO root fetch - processPackages [josiann]: executing diffoscope
+[2023-04-17 10:27:24] INFO root fetch - processPackages [josiann]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/josiann-1.1.3rc1.tar.gz tmp/josiann-1.1.3rc2.tar.gz --markdown 20230417/j/josiann/1.1.3rc1-1.1.3rc2/diff.md --exclude *.pyd
+[2023-04-17 10:27:24] INFO root fetch - processPackages [PrettyGit]: executing diffoscope
+[2023-04-17 10:27:24] INFO root fetch - processPackages [PrettyGit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prettygit-23.0.2.tar.gz tmp/prettygit-23.0.3.tar.gz --markdown 20230417/P/PrettyGit/23.0.2-23.0.3/diff.md --exclude *.pyd
+[2023-04-17 10:27:24] INFO root fetch - processPackages [flowmachine]: executing diffoscope
+[2023-04-17 10:27:24] INFO root fetch - processPackages [flowmachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowmachine-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowmachine-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20230417/f/flowmachine/1.9.4.post0.dev70-1.9.4.post0.dev76/diff.md --exclude *.pyd
+[2023-04-17 10:27:24] INFO root fetch - processPackages [lattice-graph-manipulation]: Downloading https://files.pythonhosted.org/packages/95/53/9fc3eb3ebcd9719a3328fa1b19a2316ad6c396c045089068180bae5db34e/Lattice-Graph-Manipulation-0.1.1.tar.gz
+[2023-04-17 10:27:24] INFO root fetch - processPackages [flowetl]: executing diffoscope
+[2023-04-17 10:27:24] INFO root fetch - processPackages [flowetl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowetl-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowetl-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20230417/f/flowetl/1.9.4.post0.dev70-1.9.4.post0.dev76/diff.md --exclude *.pyd
+[2023-04-17 10:27:24] INFO root fetch - processPackages [flowclient]: executing diffoscope
+[2023-04-17 10:27:24] INFO root fetch - processPackages [flowclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowclient-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowclient-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20230417/f/flowclient/1.9.4.post0.dev70-1.9.4.post0.dev76/diff.md --exclude *.pyd
+[2023-04-17 10:27:24] INFO root fetch - processPackages [RobertCommonBasic]: Downloading https://files.pythonhosted.org/packages/ab/c6/0a451799656cff8feda00a846531acb742dd075536fad78352a4f69de7b8/RobertCommonBasic-0.1.35.tar.gz
+[2023-04-17 10:27:24] INFO root fetch - processPackages [lattice-graph-manipulation]: executing diffoscope
+[2023-04-17 10:27:24] INFO root fetch - processPackages [lattice-graph-manipulation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Lattice-Graph-Manipulation-0.1.0.tar.gz tmp/Lattice-Graph-Manipulation-0.1.1.tar.gz --markdown 20230417/l/lattice-graph-manipulation/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-17 10:27:24] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/78/a8/0e1e9fd1aa9750b28e12462781d408863affaeb92dbdb8c020b6d3078e67/DLMS_SPODES-0.9.0.tar.gz
+[2023-04-17 10:27:24] INFO root fetch - processPackages [RobertCommonBasic]: executing diffoscope
+[2023-04-17 10:27:24] INFO root fetch - processPackages [RobertCommonBasic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RobertCommonBasic-0.1.34.tar.gz tmp/RobertCommonBasic-0.1.35.tar.gz --markdown 20230417/R/RobertCommonBasic/0.1.34-0.1.35/diff.md --exclude *.pyd
+[2023-04-17 10:27:24] INFO root fetch - processPackages [kpops]: Downloading https://files.pythonhosted.org/packages/25/02/7b658de51f119a16a37508f06d7a0b5164e5269c71c9b0d68a90b87f004f/kpops-1.1.1.tar.gz
+[2023-04-17 10:27:24] INFO root fetch - processPackages [kpops]: executing diffoscope
+[2023-04-17 10:27:24] INFO root fetch - processPackages [kpops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kpops-1.1.0.tar.gz tmp/kpops-1.1.1.tar.gz --markdown 20230417/k/kpops/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-04-17 10:27:24] INFO root fetch - processPackages [DLMS-SPODES]: executing diffoscope
+[2023-04-17 10:27:24] INFO root fetch - processPackages [DLMS-SPODES]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES-0.8.3.tar.gz tmp/DLMS_SPODES-0.9.0.tar.gz --markdown 20230417/D/DLMS-SPODES/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-04-17 10:27:25] INFO root fetch - processPackages [always-updates]: Start processing: HawaData
+[2023-04-17 10:27:25] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-04-17 10:27:25] INFO root fetch - processPackages [HawaData]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-04-17 10:27:25] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/13/55/14cbea8e3d99e19628df8fa5472515a5d9aed8a141253cfc17d113476b03/HawaData-0.2.9.tar.gz
+[2023-04-17 10:27:25] INFO root fetch - processPackages [PrettyGit]: Start processing: dbt-exasol
+[2023-04-17 10:27:25] INFO root fetch - main [MainThread]: End processing [PrettyGit]: success
+[2023-04-17 10:27:25] INFO root fetch - processPackages [dbt-exasol]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-04-17 10:27:25] INFO root fetch - processPackages [josiann]: Start processing: licant
+[2023-04-17 10:27:25] INFO root fetch - main [MainThread]: End processing [josiann]: success
+[2023-04-17 10:27:25] INFO root fetch - processPackages [licant]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-04-17 10:27:25] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/0b/cb/30b28a2e89a19b2e1f833f1c6c330a4dcaadc32b278f1a0fd1172fe0f2b7/HawaData-0.3.0.tar.gz
+[2023-04-17 10:27:25] INFO root fetch - processPackages [flowetl]: Start processing: squad-sagemaker-db-connector
+[2023-04-17 10:27:25] INFO root fetch - main [MainThread]: End processing [flowetl]: success
+[2023-04-17 10:27:25] INFO root fetch - processPackages [HawaData]: executing diffoscope
+[2023-04-17 10:27:25] INFO root fetch - processPackages [HawaData]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HawaData-0.2.9.tar.gz tmp/HawaData-0.3.0.tar.gz --markdown 20230417/H/HawaData/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-04-17 10:27:25] INFO root fetch - processPackages [flowclient]: Start processing: RobertCommonIO
+[2023-04-17 10:27:25] INFO root fetch - main [MainThread]: End processing [flowclient]: success
+[2023-04-17 10:27:25] WARNING root fetch - processPackages [squad-sagemaker-db-connector]: Skipping, unable to determine old version
+[2023-04-17 10:27:25] INFO root fetch - processPackages [licant]: Downloading https://files.pythonhosted.org/packages/a4/03/da39ec21bccfdc6826548129e079cfec919f26568f3afd498a8f09cd9ef2/licant-1.9.4.tar.gz
+[2023-04-17 10:27:25] INFO root fetch - main [MainThread]: End processing [squad-sagemaker-db-connector] error
+[2023-04-17 10:27:25] INFO root fetch - processPackages [dbt-exasol]: Downloading https://files.pythonhosted.org/packages/4f/fe/74c6f08bfed4f6e2d0df76543237da012dbe54a8045499bcd84ba215b134/dbt_exasol-1.4.0.tar.gz
+[2023-04-17 10:27:26] INFO root fetch - processPackages [dbt-exasol]: executing diffoscope
+[2023-04-17 10:27:26] INFO root fetch - processPackages [dbt-exasol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_exasol-1.3.0.tar.gz tmp/dbt_exasol-1.4.0.tar.gz --markdown 20230417/d/dbt-exasol/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-04-17 10:27:26] INFO root fetch - processPackages [RobertCommonIO]: New version: [0.1.36] Old Version: [0.1.35]
+[2023-04-17 10:27:26] INFO root fetch - processPackages [RobertCommonIO]: Downloading https://files.pythonhosted.org/packages/d6/f5/1423981b873580259a3a4d7cf0bf55e37fd930b7e0ce2c4893dceb984e17/RobertCommonIO-0.1.35.tar.gz
+[2023-04-17 10:27:26] INFO root fetch - main [MainThread]: End processing [lattice-graph-manipulation]: success
+[2023-04-17 10:27:26] INFO root fetch - processPackages [licant]: Downloading https://files.pythonhosted.org/packages/27/e3/3e41a64aee497cd80dcf72fd93f80675f0bc418a321d1f1ca44632a48aa3/licant-1.9.5.tar.gz
+[2023-04-17 10:27:26] INFO root fetch - main [MainThread]: End processing [kpops]: success
+[2023-04-17 10:27:26] INFO root fetch - processPackages [RobertCommonIO]: Downloading https://files.pythonhosted.org/packages/0d/57/7b75aeb002a0aa78e3d2ac21ffa19f453234a77a2a5ef57b7e83c9afdf70/RobertCommonIO-0.1.36.tar.gz
+[2023-04-17 10:27:26] INFO root fetch - processPackages [RobertCommonIO]: executing diffoscope
+[2023-04-17 10:27:26] INFO root fetch - processPackages [RobertCommonIO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RobertCommonIO-0.1.35.tar.gz tmp/RobertCommonIO-0.1.36.tar.gz --markdown 20230417/R/RobertCommonIO/0.1.35-0.1.36/diff.md --exclude *.pyd
+[2023-04-17 10:27:26] INFO root fetch - processPackages [licant]: executing diffoscope
+[2023-04-17 10:27:26] INFO root fetch - processPackages [licant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/licant-1.9.4.tar.gz tmp/licant-1.9.5.tar.gz --markdown 20230417/l/licant/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-04-17 10:27:26] INFO root fetch - main [MainThread]: End processing [flowmachine]: success
+[2023-04-17 10:27:27] INFO root fetch - main [MainThread]: End processing [HawaData]: success
+[2023-04-17 10:27:27] INFO root fetch - main [MainThread]: End processing [RobertCommonBasic]: success
+[2023-04-17 10:27:27] INFO root fetch - main [MainThread]: End processing [dbt-exasol]: success
+[2023-04-17 10:27:27] INFO root fetch - main [MainThread]: End processing [licant]: success
+[2023-04-17 10:27:28] INFO root fetch - main [MainThread]: End processing [RobertCommonIO]: success
+[2023-04-17 10:27:28] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
+[2023-04-17 10:27:28] INFO root fetch - main [MainThread]: Store serial: [17735476]
