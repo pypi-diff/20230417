@@ -21396,3 +21396,158 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-17 21:41:06] INFO root fetch - main [MainThread]: End processing [icat-iml]: success
 [2023-04-17 21:41:06] INFO root fetch - main [MainThread]: End processing [saltgang]: success
 [2023-04-17 21:41:06] INFO root fetch - main [MainThread]: Store serial: [17743506]
+[2023-04-17 21:46:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17743506]
+[2023-04-17 21:46:15] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-04-17 21:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dimod
+[2023-04-17 21:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Simba-UW-tf-dev
+[2023-04-17 21:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-pos-payment-method-cashdro
+[2023-04-17 21:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dol
+[2023-04-17 21:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TheSilent
+[2023-04-17 21:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: support-dev
+[2023-04-17 21:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: i2
+[2023-04-17 21:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo13-addon-maintenance-plan
+[2023-04-17 21:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mpservice
+[2023-04-17 21:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mypy-boto3-dynamodb
+[2023-04-17 21:46:16] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-17 21:46:16] INFO root fetch - processPackages [dimod]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-17 21:46:16] INFO root fetch - processPackages [Simba-UW-tf-dev]: New version: [1.56.4] Old Version: [1.56.3]
+[2023-04-17 21:46:16] INFO root fetch - processPackages [odoo13-addon-maintenance-plan]: New version: [13.0.1.9.0] Old Version: [13.0.1.8.1.dev2]
+[2023-04-17 21:46:16] WARNING root fetch - processPackages [support-dev]: Skipping, unable to determine old version
+[2023-04-17 21:46:16] INFO root fetch - processPackages [mpservice]: New version: [0.9.9.post1] Old Version: [0.9.9]
+[2023-04-17 21:46:16] INFO root fetch - processPackages [support-dev]: Start processing: mypy-boto3-appflow
+[2023-04-17 21:46:16] INFO root fetch - main [MainThread]: End processing [support-dev] error
+[2023-04-17 21:46:16] INFO root fetch - processPackages [odoo14-addon-pos-payment-method-cashdro]: New version: [14.0.1.0.1.dev4] Old Version: [14.0.1.0.1.dev2]
+[2023-04-17 21:46:16] INFO root fetch - processPackages [i2]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-17 21:46:16] INFO root fetch - processPackages [dol]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-04-17 21:46:16] INFO root fetch - processPackages [mypy-boto3-dynamodb]: New version: [1.26.97.post1] Old Version: [1.26.97]
+[2023-04-17 21:46:16] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-04-17 21:46:16] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230417/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-17 21:46:16] INFO root fetch - processPackages [Simba-UW-tf-dev]: executing diffoscope
+[2023-04-17 21:46:16] INFO root fetch - processPackages [Simba-UW-tf-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Simba-UW-tf-dev-1.56.3.tar.gz tmp/Simba-UW-tf-dev-1.56.4.tar.gz --markdown 20230417/S/Simba-UW-tf-dev/1.56.3-1.56.4/diff.md --exclude *.pyd
+[2023-04-17 21:46:16] INFO root fetch - processPackages [dimod]: Downloading https://files.pythonhosted.org/packages/76/58/645a597eed11830b92a2e2f18a2b34609d89fb54cac0770e6665dee4fced/dimod-0.9.8.tar.gz
+[2023-04-17 21:46:16] INFO root fetch - processPackages [mypy-boto3-appflow]: New version: [1.26.78] Old Version: [1.26.53]
+[2023-04-17 21:46:16] INFO root fetch - processPackages [odoo13-addon-maintenance-plan]: Downloading https://files.pythonhosted.org/packages/ae/9b/d227d239df7b70fc70f3d87cd7d8516cfab0afd0cc38e15a2367f313f115/odoo13_addon_maintenance_plan-13.0.1.8.1.dev2-py3-none-any.whl
+[2023-04-17 21:46:16] INFO root fetch - processPackages [odoo14-addon-pos-payment-method-cashdro]: Downloading https://files.pythonhosted.org/packages/0c/f7/c3a8a715e89e58d82490f283227657c03e57e2ffc10d80d57b9cb2352ee4/odoo14_addon_pos_payment_method_cashdro-14.0.1.0.1.dev2-py3-none-any.whl
+[2023-04-17 21:46:16] INFO root fetch - processPackages [dol]: Downloading https://files.pythonhosted.org/packages/ca/4a/8b3ea3c301d23fc29b9dc4b0961ff15d18cbb97d3e1a68397e3af340077d/dol-0.1.98.tar.gz
+[2023-04-17 21:46:16] INFO root fetch - processPackages [i2]: Downloading https://files.pythonhosted.org/packages/51/20/bca65a210e23666e5c36c23449c164e4577bc577bed71b0c5283d0d11e47/i2-0.0.98.tar.gz
+[2023-04-17 21:46:16] INFO root fetch - processPackages [mypy-boto3-dynamodb]: Downloading https://files.pythonhosted.org/packages/0c/00/c47091cf35ff3c591e94c1ac2f6a38cb48763584e63e47238127ea79ed3b/mypy-boto3-dynamodb-1.26.97.tar.gz
+[2023-04-17 21:46:16] INFO root fetch - processPackages [mypy-boto3-appflow]: Downloading https://files.pythonhosted.org/packages/02/45/0779af46d436e5afb84f5ebd6fa7337a2efde0a9a7ad75af2ed9f026f944/mypy-boto3-appflow-1.26.53.tar.gz
+[2023-04-17 21:46:16] INFO root fetch - processPackages [mpservice]: executing diffoscope
+[2023-04-17 21:46:16] INFO root fetch - processPackages [mpservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpservice-0.9.9.tar.gz tmp/mpservice-0.9.9.post1.tar.gz --markdown 20230417/m/mpservice/0.9.9-0.9.9.post1/diff.md --exclude *.pyd
+[2023-04-17 21:46:16] INFO root fetch - processPackages [odoo13-addon-maintenance-plan]: Downloading https://files.pythonhosted.org/packages/b5/c4/81be482bc548edd738b935563a52dcb2770673526dcba56c8ba3f0e56dae/odoo13_addon_maintenance_plan-13.0.1.9.0-py3-none-any.whl
+[2023-04-17 21:46:16] INFO root fetch - processPackages [i2]: Downloading https://files.pythonhosted.org/packages/66/2a/3f837ef0d597497c19c5f4903a61f79c5d96045bde741358a73871d5311d/i2-0.0.99.tar.gz
+[2023-04-17 21:46:16] INFO root fetch - processPackages [dol]: Downloading https://files.pythonhosted.org/packages/6f/21/71e7389816fcb2eaef9a689b287a1892994811398bf622e15dccee9768f9/dol-0.1.99.tar.gz
+[2023-04-17 21:46:16] INFO root fetch - processPackages [mypy-boto3-appflow]: Downloading https://files.pythonhosted.org/packages/ca/0c/102bc02405c6496eb04ce0d44b79ab8497048502319aaa51e20cb3ab40c0/mypy-boto3-appflow-1.26.78.tar.gz
+[2023-04-17 21:46:16] INFO root fetch - processPackages [i2]: executing diffoscope
+[2023-04-17 21:46:16] INFO root fetch - processPackages [i2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/i2-0.0.98.tar.gz tmp/i2-0.0.99.tar.gz --markdown 20230417/i/i2/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-17 21:46:16] INFO root fetch - processPackages [dol]: executing diffoscope
+[2023-04-17 21:46:16] INFO root fetch - processPackages [dol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dol-0.1.98.tar.gz tmp/dol-0.1.99.tar.gz --markdown 20230417/d/dol/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-04-17 21:46:16] INFO root fetch - processPackages [odoo14-addon-pos-payment-method-cashdro]: Downloading https://files.pythonhosted.org/packages/f8/14/5585fcbcfa17d4d9597e9facc6d8332c1c9f226ab362ee36bee91bbc840b/odoo14_addon_pos_payment_method_cashdro-14.0.1.0.1.dev4-py3-none-any.whl
+[2023-04-17 21:46:16] INFO root fetch - processPackages [mypy-boto3-appflow]: executing diffoscope
+[2023-04-17 21:46:16] INFO root fetch - processPackages [mypy-boto3-appflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-appflow-1.26.53.tar.gz tmp/mypy-boto3-appflow-1.26.78.tar.gz --markdown 20230417/m/mypy-boto3-appflow/1.26.53-1.26.78/diff.md --exclude *.pyd
+[2023-04-17 21:46:16] INFO root fetch - processPackages [mypy-boto3-dynamodb]: Downloading https://files.pythonhosted.org/packages/41/4e/556eb29a2ee2d8cf413c2ef0cf19061c89c29087f32ad002e08b1fa18e7d/mypy-boto3-dynamodb-1.26.97.post1.tar.gz
+[2023-04-17 21:46:16] INFO root fetch - processPackages [odoo13-addon-maintenance-plan]: executing diffoscope
+[2023-04-17 21:46:16] INFO root fetch - processPackages [odoo13-addon-maintenance-plan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_maintenance_plan-13.0.1.8.1.dev2-py3-none-any.whl.zip tmp/odoo13_addon_maintenance_plan-13.0.1.9.0-py3-none-any.whl.zip --markdown 20230417/o/odoo13-addon-maintenance-plan/13.0.1.8.1.dev2-13.0.1.9.0/diff.md --exclude *.pyd
+[2023-04-17 21:46:16] INFO root fetch - processPackages [odoo14-addon-pos-payment-method-cashdro]: executing diffoscope
+[2023-04-17 21:46:16] INFO root fetch - processPackages [odoo14-addon-pos-payment-method-cashdro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_pos_payment_method_cashdro-14.0.1.0.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_pos_payment_method_cashdro-14.0.1.0.1.dev4-py3-none-any.whl.zip --markdown 20230417/o/odoo14-addon-pos-payment-method-cashdro/14.0.1.0.1.dev2-14.0.1.0.1.dev4/diff.md --exclude *.pyd
+[2023-04-17 21:46:16] INFO root fetch - processPackages [dimod]: Downloading https://files.pythonhosted.org/packages/ad/78/2ad2a1953daba92bde62f5c0750d0bd0ea504800e351e637c16059665652/dimod-0.9.9.tar.gz
+[2023-04-17 21:46:16] INFO root fetch - processPackages [mypy-boto3-dynamodb]: executing diffoscope
+[2023-04-17 21:46:16] INFO root fetch - processPackages [mypy-boto3-dynamodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-dynamodb-1.26.97.tar.gz tmp/mypy-boto3-dynamodb-1.26.97.post1.tar.gz --markdown 20230417/m/mypy-boto3-dynamodb/1.26.97-1.26.97.post1/diff.md --exclude *.pyd
+[2023-04-17 21:46:17] INFO root fetch - processPackages [dimod]: executing diffoscope
+[2023-04-17 21:46:17] INFO root fetch - processPackages [dimod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dimod-0.9.8.tar.gz tmp/dimod-0.9.9.tar.gz --markdown 20230417/d/dimod/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-17 21:46:18] INFO root fetch - processPackages [TheSilent]: Start processing: mypy-boto3-internetmonitor
+[2023-04-17 21:46:18] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-04-17 21:46:18] INFO root fetch - processPackages [mypy-boto3-internetmonitor]: New version: [1.26.80] Old Version: [1.26.115]
+[2023-04-17 21:46:18] INFO root fetch - processPackages [mpservice]: Start processing: mypy-boto3-iotwireless
+[2023-04-17 21:46:18] INFO root fetch - main [MainThread]: End processing [mpservice]: success
+[2023-04-17 21:46:18] INFO root fetch - processPackages [mypy-boto3-iotwireless]: New version: [1.26.78] Old Version: [1.26.17]
+[2023-04-17 21:46:18] INFO root fetch - processPackages [mypy-boto3-internetmonitor]: Downloading https://files.pythonhosted.org/packages/8a/c1/60314507b35000cd8b8e79fc01eeb02dbab41af7499fe17b48d5432e6ef1/mypy-boto3-internetmonitor-1.26.115.tar.gz
+[2023-04-17 21:46:18] INFO root fetch - processPackages [i2]: Start processing: mypy-boto3-drs
+[2023-04-17 21:46:18] INFO root fetch - main [MainThread]: End processing [i2]: success
+[2023-04-17 21:46:18] INFO root fetch - processPackages [odoo13-addon-maintenance-plan]: Start processing: mypy-boto3-lambda
+[2023-04-17 21:46:18] INFO root fetch - main [MainThread]: End processing [odoo13-addon-maintenance-plan]: success
+[2023-04-17 21:46:18] INFO root fetch - processPackages [mypy-boto3-iotwireless]: Downloading https://files.pythonhosted.org/packages/75/e3/6c16d0a4a340f9dc990927b34864e6bd207f87b056fd0d42ed6eddcfea6c/mypy-boto3-iotwireless-1.26.17.tar.gz
+[2023-04-17 21:46:18] INFO root fetch - processPackages [mypy-boto3-drs]: New version: [1.26.80] Old Version: [1.26.17]
+[2023-04-17 21:46:18] INFO root fetch - processPackages [odoo14-addon-pos-payment-method-cashdro]: Start processing: mypy-boto3-emr-serverless
+[2023-04-17 21:46:18] INFO root fetch - main [MainThread]: End processing [odoo14-addon-pos-payment-method-cashdro]: success
+[2023-04-17 21:46:18] INFO root fetch - processPackages [mypy-boto3-internetmonitor]: Downloading https://files.pythonhosted.org/packages/ea/55/0de1cbaee08313ba6687136a4cdeecfc099dcff29d4310d97be1763e69d4/mypy-boto3-internetmonitor-1.26.80.tar.gz
+[2023-04-17 21:46:18] INFO root fetch - processPackages [mypy-boto3-emr-serverless]: New version: [1.26.44] Old Version: [1.26.12]
+[2023-04-17 21:46:18] INFO root fetch - processPackages [mypy-boto3-drs]: Downloading https://files.pythonhosted.org/packages/3b/ec/a557258169589109e53e28998c300afdee4f8934ee840f42252d6b1b7fe7/mypy-boto3-drs-1.26.17.tar.gz
+[2023-04-17 21:46:18] INFO root fetch - processPackages [mypy-boto3-lambda]: New version: [1.26.80] Old Version: [1.26.55]
+[2023-04-17 21:46:18] INFO root fetch - processPackages [mypy-boto3-emr-serverless]: Downloading https://files.pythonhosted.org/packages/a4/1e/446e14b2d7e7a0ccbf13c11f183b545f1434c888ea97c389036e47faaa61/mypy-boto3-emr-serverless-1.26.12.tar.gz
+[2023-04-17 21:46:18] INFO root fetch - processPackages [mypy-boto3-iotwireless]: Downloading https://files.pythonhosted.org/packages/39/92/3b282db974366d2ea5a7b3aa493dfa349588b76bba643c1f6070497de29c/mypy-boto3-iotwireless-1.26.78.tar.gz
+[2023-04-17 21:46:18] INFO root fetch - processPackages [mypy-boto3-lambda]: Downloading https://files.pythonhosted.org/packages/23/29/1b165b9abe63802aa0b6901f94bc4fd8818340a1c2108afd1e30dff50435/mypy-boto3-lambda-1.26.55.tar.gz
+[2023-04-17 21:46:18] INFO root fetch - processPackages [mypy-boto3-internetmonitor]: executing diffoscope
+[2023-04-17 21:46:18] INFO root fetch - processPackages [mypy-boto3-internetmonitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-internetmonitor-1.26.115.tar.gz tmp/mypy-boto3-internetmonitor-1.26.80.tar.gz --markdown 20230417/m/mypy-boto3-internetmonitor/1.26.115-1.26.80/diff.md --exclude *.pyd
+[2023-04-17 21:46:19] INFO root fetch - processPackages [mypy-boto3-iotwireless]: executing diffoscope
+[2023-04-17 21:46:19] INFO root fetch - processPackages [mypy-boto3-iotwireless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-iotwireless-1.26.17.tar.gz tmp/mypy-boto3-iotwireless-1.26.78.tar.gz --markdown 20230417/m/mypy-boto3-iotwireless/1.26.17-1.26.78/diff.md --exclude *.pyd
+[2023-04-17 21:46:19] INFO root fetch - processPackages [mypy-boto3-drs]: Downloading https://files.pythonhosted.org/packages/e4/50/7e54820812f300ba274eacfb477dabcfd14bf394352a9375535a8d0e2b9d/mypy-boto3-drs-1.26.80.tar.gz
+[2023-04-17 21:46:19] INFO root fetch - processPackages [mypy-boto3-emr-serverless]: Downloading https://files.pythonhosted.org/packages/0e/6f/3367fe60921d90a15a441f073f505be85c10947d03fc37ed61c6e1f69f6a/mypy-boto3-emr-serverless-1.26.44.tar.gz
+[2023-04-17 21:46:19] INFO root fetch - processPackages [mypy-boto3-emr-serverless]: executing diffoscope
+[2023-04-17 21:46:19] INFO root fetch - processPackages [mypy-boto3-emr-serverless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-emr-serverless-1.26.12.tar.gz tmp/mypy-boto3-emr-serverless-1.26.44.tar.gz --markdown 20230417/m/mypy-boto3-emr-serverless/1.26.12-1.26.44/diff.md --exclude *.pyd
+[2023-04-17 21:46:19] INFO root fetch - processPackages [mypy-boto3-lambda]: Downloading https://files.pythonhosted.org/packages/fd/0e/b8b3db9055387b8e34fd51090a6c47cc8efb668ab77082b2587f01c139f5/mypy-boto3-lambda-1.26.80.tar.gz
+[2023-04-17 21:46:19] INFO root fetch - processPackages [mypy-boto3-drs]: executing diffoscope
+[2023-04-17 21:46:19] INFO root fetch - processPackages [mypy-boto3-drs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-drs-1.26.17.tar.gz tmp/mypy-boto3-drs-1.26.80.tar.gz --markdown 20230417/m/mypy-boto3-drs/1.26.17-1.26.80/diff.md --exclude *.pyd
+[2023-04-17 21:46:19] INFO root fetch - processPackages [mypy-boto3-lambda]: executing diffoscope
+[2023-04-17 21:46:19] INFO root fetch - processPackages [mypy-boto3-lambda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-lambda-1.26.55.tar.gz tmp/mypy-boto3-lambda-1.26.80.tar.gz --markdown 20230417/m/mypy-boto3-lambda/1.26.55-1.26.80/diff.md --exclude *.pyd
+[2023-04-17 21:46:19] INFO root fetch - processPackages [dol]: Start processing: mypy-boto3
+[2023-04-17 21:46:19] INFO root fetch - main [MainThread]: End processing [dol]: success
+[2023-04-17 21:46:19] INFO root fetch - processPackages [mypy-boto3]: New version: [1.26.99] Old Version: [1.26.98]
+[2023-04-17 21:46:19] INFO root fetch - processPackages [mypy-boto3-appflow]: Start processing: GrowtopiaTools
+[2023-04-17 21:46:19] INFO root fetch - main [MainThread]: End processing [mypy-boto3-appflow]: success
+[2023-04-17 21:46:20] WARNING root fetch - processPackages [GrowtopiaTools]: Skipping, unable to determine old version
+[2023-04-17 21:46:20] INFO root fetch - processPackages [GrowtopiaTools]: Start processing: boto3-stubs
+[2023-04-17 21:46:20] INFO root fetch - main [MainThread]: End processing [GrowtopiaTools] error
+[2023-04-17 21:46:20] INFO root fetch - processPackages [boto3-stubs]: New version: [1.26.99] Old Version: [1.26.98]
+[2023-04-17 21:46:20] INFO root fetch - processPackages [mypy-boto3]: Downloading https://files.pythonhosted.org/packages/d5/b3/b7add8ef42166b4b6fe8070c7809196e841899fae0741fbab7f1135a68d0/mypy-boto3-1.26.98.tar.gz
+[2023-04-17 21:46:20] INFO root fetch - processPackages [mypy-boto3]: Downloading https://files.pythonhosted.org/packages/81/43/73d34fd042cd1ac9b681ac1fd409840a1e5f0082a2cc009605bd1dcf20f5/mypy-boto3-1.26.99.tar.gz
+[2023-04-17 21:46:20] INFO root fetch - processPackages [mypy-boto3-dynamodb]: Start processing: boto3-stubs-lite
+[2023-04-17 21:46:20] INFO root fetch - main [MainThread]: End processing [mypy-boto3-dynamodb]: success
+[2023-04-17 21:46:20] INFO root fetch - processPackages [boto3-stubs]: Downloading https://files.pythonhosted.org/packages/5b/57/dabc8ee7c1ea46b18a76ac91d2886b6637914ee5505abaea53f246e0834f/boto3-stubs-1.26.98.tar.gz
+[2023-04-17 21:46:20] INFO root fetch - processPackages [mypy-boto3]: executing diffoscope
+[2023-04-17 21:46:20] INFO root fetch - processPackages [mypy-boto3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-1.26.98.tar.gz tmp/mypy-boto3-1.26.99.tar.gz --markdown 20230417/m/mypy-boto3/1.26.98-1.26.99/diff.md --exclude *.pyd
+[2023-04-17 21:46:20] INFO root fetch - processPackages [boto3-stubs-lite]: New version: [1.26.99] Old Version: [1.26.98]
+[2023-04-17 21:46:20] INFO root fetch - processPackages [mypy-boto3-emr-serverless]: Start processing: kaflow
+[2023-04-17 21:46:20] INFO root fetch - main [MainThread]: End processing [mypy-boto3-emr-serverless]: success
+[2023-04-17 21:46:20] INFO root fetch - processPackages [mypy-boto3-drs]: Start processing: sabctools
+[2023-04-17 21:46:20] INFO root fetch - main [MainThread]: End processing [mypy-boto3-drs]: success
+[2023-04-17 21:46:20] INFO root fetch - processPackages [kaflow]: New version: [0.2.0] Old Version: [0.1.4]
+[2023-04-17 21:46:20] INFO root fetch - processPackages [sabctools]: New version: [7.0.0] Old Version: [6.1.2]
+[2023-04-17 21:46:20] INFO root fetch - processPackages [boto3-stubs]: Downloading https://files.pythonhosted.org/packages/47/b8/8410b925ba42498e88d5a4524e93639247a1d0fadb51ec4e7e0130cbc6d8/boto3-stubs-1.26.99.tar.gz
+[2023-04-17 21:46:20] INFO root fetch - processPackages [mypy-boto3-internetmonitor]: Start processing: diffusers-unchained
+[2023-04-17 21:46:20] INFO root fetch - main [MainThread]: End processing [mypy-boto3-internetmonitor]: success
+[2023-04-17 21:46:20] INFO root fetch - processPackages [boto3-stubs]: executing diffoscope
+[2023-04-17 21:46:20] INFO root fetch - processPackages [boto3-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boto3-stubs-1.26.98.tar.gz tmp/boto3-stubs-1.26.99.tar.gz --markdown 20230417/b/boto3-stubs/1.26.98-1.26.99/diff.md --exclude *.pyd
+[2023-04-17 21:46:20] INFO root fetch - processPackages [mypy-boto3-lambda]: Start processing: fluxrpc
+[2023-04-17 21:46:20] INFO root fetch - main [MainThread]: End processing [mypy-boto3-lambda]: success
+[2023-04-17 21:46:20] INFO root fetch - main [MainThread]: End processing [mypy-boto3-iotwireless]: success
+[2023-04-17 21:46:20] INFO root fetch - processPackages [kaflow]: Downloading https://files.pythonhosted.org/packages/d2/73/bc39da9b7224285f9ed3cafe5c25044326092a5d4404f8b7dbcc665d9885/kaflow-0.1.4.tar.gz
+[2023-04-17 21:46:20] INFO root fetch - processPackages [diffusers-unchained]: New version: [0.9.0] Old Version: [0.7.0]
+[2023-04-17 21:46:21] INFO root fetch - processPackages [fluxrpc]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-17 21:46:21] INFO root fetch - processPackages [boto3-stubs-lite]: Downloading https://files.pythonhosted.org/packages/03/38/d650a2736258e070c5460a889b9b8ba1ced51d29cf6b09c17f1582eb6e40/boto3-stubs-lite-1.26.98.tar.gz
+[2023-04-17 21:46:21] INFO root fetch - processPackages [kaflow]: Downloading https://files.pythonhosted.org/packages/7e/01/80a7454ba72f4100a9622b7ae027d466c22c642e1cf8b9ad1ce864bd39bc/kaflow-0.2.0.tar.gz
+[2023-04-17 21:46:21] INFO root fetch - processPackages [sabctools]: executing diffoscope
+[2023-04-17 21:46:21] INFO root fetch - processPackages [sabctools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sabctools-6.1.2.tar.gz tmp/sabctools-7.0.0.tar.gz --markdown 20230417/s/sabctools/6.1.2-7.0.0/diff.md --exclude *.pyd
+[2023-04-17 21:46:21] INFO root fetch - processPackages [diffusers-unchained]: Downloading https://files.pythonhosted.org/packages/fe/3f/9ab67e9e6afce794a49a518b550624969543931454d928617d721b917555/diffusers-unchained-0.7.0.tar.gz
+[2023-04-17 21:46:21] INFO root fetch - processPackages [fluxrpc]: Downloading https://files.pythonhosted.org/packages/e1/dd/7eadc8be49f311ea5d4db3dacd8059e8b9674ebd22cee9559186efc6348b/fluxrpc-0.9.8.tar.gz
+[2023-04-17 21:46:21] INFO root fetch - processPackages [kaflow]: executing diffoscope
+[2023-04-17 21:46:21] INFO root fetch - processPackages [kaflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaflow-0.1.4.tar.gz tmp/kaflow-0.2.0.tar.gz --markdown 20230417/k/kaflow/0.1.4-0.2.0/diff.md --exclude *.pyd
+[2023-04-17 21:46:21] INFO root fetch - processPackages [boto3-stubs-lite]: Downloading https://files.pythonhosted.org/packages/40/77/05b803ffd38643d059c7254b8adbf5dba05fb83975f15d0b8696d5a2a98b/boto3-stubs-lite-1.26.99.tar.gz
+[2023-04-17 21:46:21] INFO root fetch - processPackages [fluxrpc]: Downloading https://files.pythonhosted.org/packages/5a/cd/2c87061fd7b06e2d022ec861d54298ecd288342673adb0bebd46acaf038f/fluxrpc-0.9.9.tar.gz
+[2023-04-17 21:46:21] INFO root fetch - processPackages [fluxrpc]: executing diffoscope
+[2023-04-17 21:46:21] INFO root fetch - processPackages [fluxrpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fluxrpc-0.9.8.tar.gz tmp/fluxrpc-0.9.9.tar.gz --markdown 20230417/f/fluxrpc/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-17 21:46:21] INFO root fetch - processPackages [boto3-stubs-lite]: executing diffoscope
+[2023-04-17 21:46:21] INFO root fetch - processPackages [boto3-stubs-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boto3-stubs-lite-1.26.98.tar.gz tmp/boto3-stubs-lite-1.26.99.tar.gz --markdown 20230417/b/boto3-stubs-lite/1.26.98-1.26.99/diff.md --exclude *.pyd
+[2023-04-17 21:46:21] INFO root fetch - processPackages [diffusers-unchained]: Downloading https://files.pythonhosted.org/packages/aa/c5/5a14548eb2ae7d9856daf81c8eed7f3c3b4a8c350996280115b037e0882c/diffusers-unchained-0.9.0.tar.gz
+[2023-04-17 21:46:21] INFO root fetch - main [MainThread]: End processing [mypy-boto3]: success
+[2023-04-17 21:46:21] INFO root fetch - processPackages [diffusers-unchained]: executing diffoscope
+[2023-04-17 21:46:21] INFO root fetch - processPackages [diffusers-unchained]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diffusers-unchained-0.7.0.tar.gz tmp/diffusers-unchained-0.9.0.tar.gz --markdown 20230417/d/diffusers-unchained/0.7.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-17 21:46:21] INFO root fetch - main [MainThread]: End processing [dimod]: success
+[2023-04-17 21:46:22] INFO root fetch - main [MainThread]: End processing [boto3-stubs]: success
+[2023-04-17 21:46:22] INFO root fetch - main [MainThread]: End processing [kaflow]: success
+[2023-04-17 21:46:22] INFO root fetch - main [MainThread]: End processing [sabctools]: success
+[2023-04-17 21:46:23] INFO root fetch - main [MainThread]: End processing [fluxrpc]: success
+[2023-04-17 21:46:23] INFO root fetch - main [MainThread]: End processing [boto3-stubs-lite]: success
+[2023-04-17 21:46:24] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
+[2023-04-17 21:46:27] INFO root fetch - main [MainThread]: End processing [diffusers-unchained]: success
+[2023-04-17 21:46:27] INFO root fetch - main [MainThread]: Store serial: [17743608]
