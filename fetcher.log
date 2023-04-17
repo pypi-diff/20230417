@@ -16605,3 +16605,130 @@ EOFError: EOF read where object expected
 [2023-04-17 17:22:09] INFO root fetch - main [MainThread]: End processing [underactuated]: success
 [2023-04-17 17:22:10] INFO root fetch - main [MainThread]: End processing [protobuf-to-pydantic]: success
 [2023-04-17 17:22:10] INFO root fetch - main [MainThread]: Store serial: [17740556]
+[2023-04-17 17:27:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17740556]
+[2023-04-17 17:27:21] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-04-17 17:27:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mymlcustomtools
+[2023-04-17 17:27:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oz-defender
+[2023-04-17 17:27:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: maxbot
+[2023-04-17 17:27:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pygameHat
+[2023-04-17 17:27:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yellowdog-python-examples
+[2023-04-17 17:27:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lenskappa
+[2023-04-17 17:27:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cf-units
+[2023-04-17 17:27:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: get-certificate-chain
+[2023-04-17 17:27:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: comet-ml
+[2023-04-17 17:27:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: alteryx-open-src-update-checker
+[2023-04-17 17:27:21] INFO root fetch - processPackages [get-certificate-chain]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-17 17:27:21] INFO root fetch - processPackages [yellowdog-python-examples]: New version: [5.0.3] Old Version: [5.0.2]
+[2023-04-17 17:27:21] INFO root fetch - processPackages [pygameHat]: New version: [1.1.0.2] Old Version: [1.1.0.1]
+[2023-04-17 17:27:21] WARNING root fetch - processPackages [oz-defender]: Skipping, unable to determine old version
+[2023-04-17 17:27:21] INFO root fetch - processPackages [oz-defender]: Start processing: mymlcustomtools
+[2023-04-17 17:27:21] INFO root fetch - main [MainThread]: End processing [oz-defender] error
+[2023-04-17 17:27:21] WARNING root fetch - processPackages [maxbot]: Skipping, unable to determine old version
+[2023-04-17 17:27:21] INFO root fetch - processPackages [mymlcustomtools]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-17 17:27:21] INFO root fetch - processPackages [maxbot]: Start processing: pddl-plus-parser
+[2023-04-17 17:27:21] INFO root fetch - main [MainThread]: End processing [maxbot] error
+[2023-04-17 17:27:21] INFO root fetch - processPackages [alteryx-open-src-update-checker]: New version: [3.1.0] Old Version: [3.0.1]
+[2023-04-17 17:27:21] INFO root fetch - processPackages [mymlcustomtools]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-17 17:27:21] INFO root fetch - processPackages [lenskappa]: New version: [0.5.7] Old Version: [0.5.6]
+[2023-04-17 17:27:21] INFO root fetch - processPackages [yellowdog-python-examples]: executing diffoscope
+[2023-04-17 17:27:21] INFO root fetch - processPackages [cf-units]: New version: [3.2.0] Old Version: [3.1.1]
+[2023-04-17 17:27:21] INFO root fetch - processPackages [yellowdog-python-examples]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yellowdog-python-examples-5.0.2.tar.gz tmp/yellowdog-python-examples-5.0.3.tar.gz --markdown 20230417/y/yellowdog-python-examples/5.0.2-5.0.3/diff.md --exclude *.pyd
+[2023-04-17 17:27:21] INFO root fetch - processPackages [pddl-plus-parser]: New version: [3.3.0] Old Version: [3.2.2]
+[2023-04-17 17:27:21] INFO root fetch - processPackages [comet-ml]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-04-17 17:27:21] INFO root fetch - processPackages [get-certificate-chain]: Downloading https://files.pythonhosted.org/packages/ff/7e/7c5c053186ee687b19b812357d837849f9a31bfc8c6a7cdc2b338840525c/get_certificate_chain-0.1.0.tar.gz
+[2023-04-17 17:27:21] INFO root fetch - processPackages [mymlcustomtools]: Downloading https://files.pythonhosted.org/packages/c5/7d/31117a47d16c8e5a459803d3689b95a475b8c37ed9eb62b02206de9de82f/mymlcustomtools-0.0.5.tar.gz
+[2023-04-17 17:27:21] INFO root fetch - processPackages [mymlcustomtools]: Downloading https://files.pythonhosted.org/packages/c5/7d/31117a47d16c8e5a459803d3689b95a475b8c37ed9eb62b02206de9de82f/mymlcustomtools-0.0.5.tar.gz
+[2023-04-17 17:27:21] INFO root fetch - processPackages [pddl-plus-parser]: executing diffoscope
+[2023-04-17 17:27:21] INFO root fetch - processPackages [pddl-plus-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pddl-plus-parser-3.2.2.tar.gz tmp/pddl-plus-parser-3.3.0.tar.gz --markdown 20230417/p/pddl-plus-parser/3.2.2-3.3.0/diff.md --exclude *.pyd
+[2023-04-17 17:27:21] INFO root fetch - processPackages [pygameHat]: Downloading https://files.pythonhosted.org/packages/d7/23/19f456d38c1ae3c638724079172e72041cfb589f153744d66aba76ae8a02/pygameHat-1.1.0.1.tar.gz
+[2023-04-17 17:27:21] INFO root fetch - processPackages [cf-units]: Downloading https://files.pythonhosted.org/packages/93/b5/771532869bbe4eb960cb809c11a58c08b5e72a39a08082a5e056a8ab1130/cf-units-3.1.1.tar.gz
+[2023-04-17 17:27:21] INFO root fetch - processPackages [alteryx-open-src-update-checker]: Downloading https://files.pythonhosted.org/packages/76/30/918fe2723a66b286c84a069a19f14e770847c8b2f03bb35ba21e38d7b1ac/alteryx_open_src_update_checker-3.0.1.tar.gz
+[2023-04-17 17:27:21] INFO root fetch - processPackages [lenskappa]: Downloading https://files.pythonhosted.org/packages/40/b1/4d462bb28ea937733d5fb5ab647967c367dc5a4fb70f162679574bf283b3/lenskappa-0.5.6.tar.gz
+[2023-04-17 17:27:21] INFO root fetch - processPackages [comet-ml]: Downloading https://files.pythonhosted.org/packages/fb/d1/5b364541fde741bc08ab30b76b39bd9dceaf41e597c7878d897b2397d984/comet_ml-3.9.0.tar.gz
+[2023-04-17 17:27:21] WARNING root fetch - processPackages [lenskappa]: Skipping package: exceeds size limit 11008742>=10485760
+[2023-04-17 17:27:21] INFO root fetch - processPackages [lenskappa]: Start processing: terka
+[2023-04-17 17:27:21] INFO root fetch - main [MainThread]: End processing [lenskappa] error
+[2023-04-17 17:27:21] INFO root fetch - processPackages [get-certificate-chain]: Downloading https://files.pythonhosted.org/packages/4a/d7/7b0bbebf0df76bff6619edb86c0d44e7aae2c6abde718fa85d2d6705f671/get_certificate_chain-0.1.1.tar.gz
+[2023-04-17 17:27:21] INFO root fetch - processPackages [terka]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-04-17 17:27:21] INFO root fetch - processPackages [mymlcustomtools]: Downloading https://files.pythonhosted.org/packages/05/f5/a4a5d3436870cdbd304d01568d12aceca0a3366bfb3d57cd599392007c60/mymlcustomtools-0.0.6.tar.gz
+[2023-04-17 17:27:21] INFO root fetch - processPackages [mymlcustomtools]: Downloading https://files.pythonhosted.org/packages/05/f5/a4a5d3436870cdbd304d01568d12aceca0a3366bfb3d57cd599392007c60/mymlcustomtools-0.0.6.tar.gz
+[2023-04-17 17:27:21] INFO root fetch - processPackages [pygameHat]: Downloading https://files.pythonhosted.org/packages/e5/5f/c1346b58023997df65e0494b5122bbe09d225dc64fde936142e230c5bb57/pygameHat-1.1.0.2.tar.gz
+[2023-04-17 17:27:21] INFO root fetch - processPackages [get-certificate-chain]: executing diffoscope
+[2023-04-17 17:27:21] INFO root fetch - processPackages [get-certificate-chain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/get_certificate_chain-0.1.0.tar.gz tmp/get_certificate_chain-0.1.1.tar.gz --markdown 20230417/g/get-certificate-chain/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-17 17:27:21] INFO root fetch - processPackages [alteryx-open-src-update-checker]: Downloading https://files.pythonhosted.org/packages/d2/85/7d842756316453f33365e4cfcbf05331e333c80e8cf1494b2bc568b40411/alteryx_open_src_update_checker-3.1.0.tar.gz
+[2023-04-17 17:27:21] INFO root fetch - processPackages [cf-units]: Downloading https://files.pythonhosted.org/packages/5a/f4/1d9aa224fe8f70034e9ea524d1dac511b0976bae6a82d664bd4e84ed026c/cf-units-3.2.0.tar.gz
+[2023-04-17 17:27:21] INFO root fetch - processPackages [terka]: Downloading https://files.pythonhosted.org/packages/78/23/3b7eed0940469b194812ed4c26db77acc8a9b2903871b6567140a05cb401/terka-1.6.1.tar.gz
+[2023-04-17 17:27:21] INFO root fetch - processPackages [mymlcustomtools]: executing diffoscope
+[2023-04-17 17:27:21] INFO root fetch - processPackages [mymlcustomtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mymlcustomtools-0.0.5.tar.gz tmp/mymlcustomtools-0.0.6.tar.gz --markdown 20230417/m/mymlcustomtools/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-17 17:27:21] INFO root fetch - processPackages [mymlcustomtools]: executing diffoscope
+[2023-04-17 17:27:21] INFO root fetch - processPackages [mymlcustomtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mymlcustomtools-0.0.5.tar.gz tmp/mymlcustomtools-0.0.6.tar.gz --markdown 20230417/m/mymlcustomtools/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-17 17:27:21] INFO root fetch - processPackages [comet-ml]: Downloading https://files.pythonhosted.org/packages/17/97/9f1e153f6b4df253f5eea38e51f9be34256bc8bf0d363d01a1ffc2d2d668/comet_ml-3.9.1.tar.gz
+[2023-04-17 17:27:21] INFO root fetch - processPackages [pygameHat]: executing diffoscope
+[2023-04-17 17:27:21] INFO root fetch - processPackages [pygameHat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygameHat-1.1.0.1.tar.gz tmp/pygameHat-1.1.0.2.tar.gz --markdown 20230417/p/pygameHat/1.1.0.1-1.1.0.2/diff.md --exclude *.pyd
+[2023-04-17 17:27:21] INFO root fetch - processPackages [alteryx-open-src-update-checker]: executing diffoscope
+[2023-04-17 17:27:21] INFO root fetch - processPackages [alteryx-open-src-update-checker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alteryx_open_src_update_checker-3.0.1.tar.gz tmp/alteryx_open_src_update_checker-3.1.0.tar.gz --markdown 20230417/a/alteryx-open-src-update-checker/3.0.1-3.1.0/diff.md --exclude *.pyd
+[2023-04-17 17:27:21] INFO root fetch - processPackages [cf-units]: executing diffoscope
+[2023-04-17 17:27:21] INFO root fetch - processPackages [cf-units]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cf-units-3.1.1.tar.gz tmp/cf-units-3.2.0.tar.gz --markdown 20230417/c/cf-units/3.1.1-3.2.0/diff.md --exclude *.pyd
+[2023-04-17 17:27:21] INFO root fetch - processPackages [comet-ml]: executing diffoscope
+[2023-04-17 17:27:21] INFO root fetch - processPackages [comet-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comet_ml-3.9.0.tar.gz tmp/comet_ml-3.9.1.tar.gz --markdown 20230417/c/comet-ml/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-04-17 17:27:21] INFO root fetch - processPackages [terka]: executing diffoscope
+[2023-04-17 17:27:21] INFO root fetch - processPackages [terka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terka-1.6.0.tar.gz tmp/terka-1.6.1.tar.gz --markdown 20230417/t/terka/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2023-04-17 17:27:22] INFO root fetch - processPackages [yellowdog-python-examples]: Start processing: python-datamodel
+[2023-04-17 17:27:22] INFO root fetch - main [MainThread]: End processing [yellowdog-python-examples]: success
+[2023-04-17 17:27:22] INFO root fetch - processPackages [python-datamodel]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-04-17 17:27:23] INFO root fetch - processPackages [get-certificate-chain]: Start processing: renovosolutions.aws-cdk-aws-ipam
+[2023-04-17 17:27:23] INFO root fetch - main [MainThread]: End processing [get-certificate-chain]: success
+[2023-04-17 17:27:23] INFO root fetch - processPackages [python-datamodel]: Downloading https://files.pythonhosted.org/packages/83/c6/816478244fc34eb0b6e38bf94fb86fd6c3afb3d540db761c85dafc47cabf/python_datamodel-0.3.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-17 17:27:23] INFO root fetch - processPackages [renovosolutions.aws-cdk-aws-ipam]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-04-17 17:27:23] INFO root fetch - processPackages [renovosolutions.aws-cdk-aws-ipam]: executing diffoscope
+[2023-04-17 17:27:23] INFO root fetch - processPackages [renovosolutions.aws-cdk-aws-ipam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-aws-ipam-0.1.98.tar.gz tmp/renovosolutions.aws-cdk-aws-ipam-0.1.99.tar.gz --markdown 20230417/r/renovosolutions.aws-cdk-aws-ipam/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-04-17 17:27:23] INFO root fetch - processPackages [mymlcustomtools]: Start processing: bimdata-api-client
+[2023-04-17 17:27:23] INFO root fetch - main [MainThread]: End processing [mymlcustomtools]: success
+[2023-04-17 17:27:23] INFO root fetch - processPackages [mymlcustomtools]: Start processing: openmetadata-ingestion
+[2023-04-17 17:27:23] INFO root fetch - main [MainThread]: End processing [mymlcustomtools]: success
+[2023-04-17 17:27:23] INFO root fetch - processPackages [pygameHat]: Start processing: maxbot
+[2023-04-17 17:27:23] INFO root fetch - main [MainThread]: End processing [pygameHat]: success
+[2023-04-17 17:27:23] WARNING root fetch - processPackages [maxbot]: Skipping, unable to determine old version
+[2023-04-17 17:27:23] INFO root fetch - processPackages [maxbot]: Start processing: mirrorbot
+[2023-04-17 17:27:23] INFO root fetch - main [MainThread]: End processing [maxbot] error
+[2023-04-17 17:27:23] INFO root fetch - processPackages [alteryx-open-src-update-checker]: Start processing: HTTP-PyServer
+[2023-04-17 17:27:23] INFO root fetch - main [MainThread]: End processing [alteryx-open-src-update-checker]: success
+[2023-04-17 17:27:23] INFO root fetch - processPackages [python-datamodel]: executing diffoscope
+[2023-04-17 17:27:23] INFO root fetch - processPackages [python-datamodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_datamodel-0.3.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/python_datamodel-0.3.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230417/p/python-datamodel/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-04-17 17:27:23] INFO root fetch - processPackages [openmetadata-ingestion]: New version: [1.0.0.0.dev3] Old Version: [1.0.0.0.dev2]
+[2023-04-17 17:27:23] INFO root fetch - processPackages [bimdata-api-client]: New version: [9.9.0] Old Version: [9.8.1]
+[2023-04-17 17:27:23] INFO root fetch - processPackages [mirrorbot]: New version: [1.0] Old Version: [0.9]
+[2023-04-17 17:27:23] INFO root fetch - processPackages [HTTP-PyServer]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-17 17:27:23] INFO root fetch - processPackages [bimdata-api-client]: Downloading https://files.pythonhosted.org/packages/2f/7a/025bd38858b44925fac4abf2105445c93da1a5221e526c5a3f6388951530/bimdata-api-client-9.8.1.tar.gz
+[2023-04-17 17:27:23] INFO root fetch - processPackages [mirrorbot]: Downloading https://files.pythonhosted.org/packages/d0/32/3a70526670dc10e126490186f74f2478fc7663d311e01b97450774890025/mirrorbot-0.9.tar.gz
+[2023-04-17 17:27:23] INFO root fetch - processPackages [terka]: Start processing: planetarypy
+[2023-04-17 17:27:23] INFO root fetch - main [MainThread]: End processing [terka]: success
+[2023-04-17 17:27:23] INFO root fetch - processPackages [HTTP-PyServer]: Downloading https://files.pythonhosted.org/packages/4b/18/70d3b66ed6423fcfdc28adcda1e9715c7a6d8a0a02dea9790d0fd19ce842/HTTP-PyServer-0.0.3.tar.gz
+[2023-04-17 17:27:23] INFO root fetch - processPackages [planetarypy]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-17 17:27:23] INFO root fetch - processPackages [openmetadata-ingestion]: Downloading https://files.pythonhosted.org/packages/f1/b7/f7e662556aa40c5907e5fc9e483500a0fbc6ca27e0db640b71047b3079cb/openmetadata-ingestion-1.0.0.0.dev3.tar.gz
+[2023-04-17 17:27:23] INFO root fetch - processPackages [openmetadata-ingestion]: executing diffoscope
+[2023-04-17 17:27:23] INFO root fetch - processPackages [mirrorbot]: Downloading https://files.pythonhosted.org/packages/80/cf/dc7263754c657475e107a8d622d2737737ab02d2afdcebc1d769e8cbeadd/mirrorbot-1.0.tar.gz
+[2023-04-17 17:27:23] INFO root fetch - processPackages [openmetadata-ingestion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmetadata-ingestion-1.0.0.0.dev2.tar.gz tmp/openmetadata-ingestion-1.0.0.0.dev3.tar.gz --markdown 20230417/o/openmetadata-ingestion/1.0.0.0.dev2-1.0.0.0.dev3/diff.md --exclude *.pyd
+[2023-04-17 17:27:23] INFO root fetch - processPackages [HTTP-PyServer]: Downloading https://files.pythonhosted.org/packages/18/c2/09d41388bad96f43e6456e40ed52a408140a92b46146a8c566af1f7d53cc/HTTP-PyServer-0.0.4.tar.gz
+[2023-04-17 17:27:23] INFO root fetch - processPackages [planetarypy]: Downloading https://files.pythonhosted.org/packages/1a/24/3f5674778363caaeee10fa16c761a224fed410ae5c0d02a3c17ca4e37144/planetarypy-0.8.0.tar.gz
+[2023-04-17 17:27:23] INFO root fetch - processPackages [bimdata-api-client]: Downloading https://files.pythonhosted.org/packages/04/d6/f16eeffb47cb62e83c3459330ab4b2f40e6502e16df942ccd8185cf05998/bimdata-api-client-9.9.0.tar.gz
+[2023-04-17 17:27:24] INFO root fetch - main [MainThread]: End processing [comet-ml]: success
+[2023-04-17 17:27:24] INFO root fetch - processPackages [mirrorbot]: executing diffoscope
+[2023-04-17 17:27:24] INFO root fetch - processPackages [mirrorbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mirrorbot-0.9.tar.gz tmp/mirrorbot-1.0.tar.gz --markdown 20230417/m/mirrorbot/0.9-1.0/diff.md --exclude *.pyd
+[2023-04-17 17:27:24] INFO root fetch - processPackages [HTTP-PyServer]: executing diffoscope
+[2023-04-17 17:27:24] INFO root fetch - processPackages [HTTP-PyServer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HTTP-PyServer-0.0.3.tar.gz tmp/HTTP-PyServer-0.0.4.tar.gz --markdown 20230417/H/HTTP-PyServer/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-17 17:27:24] INFO root fetch - processPackages [bimdata-api-client]: executing diffoscope
+[2023-04-17 17:27:24] INFO root fetch - processPackages [bimdata-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bimdata-api-client-9.8.1.tar.gz tmp/bimdata-api-client-9.9.0.tar.gz --markdown 20230417/b/bimdata-api-client/9.8.1-9.9.0/diff.md --exclude *.pyd
+[2023-04-17 17:27:24] INFO root fetch - main [MainThread]: End processing [pddl-plus-parser]: success
+[2023-04-17 17:27:24] INFO root fetch - processPackages [planetarypy]: Downloading https://files.pythonhosted.org/packages/b9/8a/0501c85429a67c118dfd5a60ff6bca1fc0e04d41d7163d284fa9184d27c6/planetarypy-0.9.0.tar.gz
+[2023-04-17 17:27:24] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-aws-ipam]: success
+[2023-04-17 17:27:24] INFO root fetch - main [MainThread]: End processing [cf-units]: success
+[2023-04-17 17:27:24] INFO root fetch - processPackages [planetarypy]: executing diffoscope
+[2023-04-17 17:27:24] INFO root fetch - processPackages [planetarypy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planetarypy-0.8.0.tar.gz tmp/planetarypy-0.9.0.tar.gz --markdown 20230417/p/planetarypy/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-17 17:27:25] INFO root fetch - main [MainThread]: End processing [HTTP-PyServer]: success
+[2023-04-17 17:27:25] INFO root fetch - main [MainThread]: End processing [mirrorbot]: success
+[2023-04-17 17:27:26] INFO root fetch - main [MainThread]: End processing [planetarypy]: success
+[2023-04-17 17:27:28] INFO root fetch - main [MainThread]: End processing [python-datamodel]: success
+[2023-04-17 17:27:30] INFO root fetch - main [MainThread]: End processing [bimdata-api-client]: success
+[2023-04-17 17:27:42] INFO root fetch - main [MainThread]: End processing [openmetadata-ingestion]: success
+[2023-04-17 17:27:42] INFO root fetch - main [MainThread]: Store serial: [17740635]
