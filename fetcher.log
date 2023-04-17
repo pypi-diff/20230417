@@ -11966,3 +11966,72 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-04-17 14:08:54] INFO root fetch - main [MainThread]: End processing [inductiva]: success
 [2023-04-17 14:08:56] INFO root fetch - main [MainThread]: End processing [astronomer-providers]: success
 [2023-04-17 14:08:56] INFO root fetch - main [MainThread]: Store serial: [17737783]
+[2023-04-17 14:14:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17737783]
+[2023-04-17 14:14:06] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-17 14:14:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: from-m3u8-get-video
+[2023-04-17 14:14:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: huble
+[2023-04-17 14:14:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sosin
+[2023-04-17 14:14:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: btrack
+[2023-04-17 14:14:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kornia-moons
+[2023-04-17 14:14:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: notebook-doc
+[2023-04-17 14:14:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: foursight
+[2023-04-17 14:14:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: combadge
+[2023-04-17 14:14:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: valmi-connector-lib
+[2023-04-17 14:14:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tradernet-sdk
+[2023-04-17 14:14:06] INFO root fetch - processPackages [huble]: New version: [0.2.283] Old Version: [0.2.282]
+[2023-04-17 14:14:06] INFO root fetch - processPackages [combadge]: New version: [0.1.0rc4] Old Version: [0.1.0rc3]
+[2023-04-17 14:14:06] INFO root fetch - processPackages [valmi-connector-lib]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-17 14:14:06] WARNING root fetch - processPackages [sosin]: Skipping, unable to determine old version
+[2023-04-17 14:14:06] INFO root fetch - processPackages [sosin]: Start processing: arith-vr
+[2023-04-17 14:14:06] INFO root fetch - main [MainThread]: End processing [sosin] error
+[2023-04-17 14:14:06] WARNING root fetch - processPackages [from-m3u8-get-video]: Skipping, unable to determine old version
+[2023-04-17 14:14:06] INFO root fetch - processPackages [from-m3u8-get-video]: Start processing: simauth
+[2023-04-17 14:14:06] INFO root fetch - main [MainThread]: End processing [from-m3u8-get-video] error
+[2023-04-17 14:14:06] INFO root fetch - processPackages [btrack]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-04-17 14:14:06] INFO root fetch - processPackages [notebook-doc]: New version: [0.2.0] Old Version: [0.1.6]
+[2023-04-17 14:14:06] INFO root fetch - processPackages [kornia-moons]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-04-17 14:14:06] INFO root fetch - processPackages [combadge]: executing diffoscope
+[2023-04-17 14:14:06] INFO root fetch - processPackages [combadge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/combadge-0.1.0rc3.tar.gz tmp/combadge-0.1.0rc4.tar.gz --markdown 20230417/c/combadge/0.1.0rc3-0.1.0rc4/diff.md --exclude *.pyd
+[2023-04-17 14:14:06] INFO root fetch - processPackages [tradernet-sdk]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-04-17 14:14:06] INFO root fetch - processPackages [foursight]: New version: [3.4.0.1b0] Old Version: [3.3.2.2b1]
+[2023-04-17 14:14:07] INFO root fetch - processPackages [huble]: executing diffoscope
+[2023-04-17 14:14:07] INFO root fetch - processPackages [huble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huble-0.2.282.tar.gz tmp/huble-0.2.283.tar.gz --markdown 20230417/h/huble/0.2.282-0.2.283/diff.md --exclude *.pyd
+[2023-04-17 14:14:07] WARNING root fetch - processPackages [simauth]: Skipping, unable to determine old version
+[2023-04-17 14:14:07] INFO root fetch - processPackages [simauth]: Start processing: somenergia-dag-utils
+[2023-04-17 14:14:07] INFO root fetch - main [MainThread]: End processing [simauth] error
+[2023-04-17 14:14:07] INFO root fetch - processPackages [valmi-connector-lib]: Downloading https://files.pythonhosted.org/packages/29/44/f4efa2dd2ee58dfc0cb70936699533ce3149698de515f6e2d10e9bb0078a/valmi_connector_lib-0.1.4.tar.gz
+[2023-04-17 14:14:07] WARNING root fetch - processPackages [arith-vr]: Skipping, unable to determine old version
+[2023-04-17 14:14:07] INFO root fetch - main [MainThread]: End processing [arith-vr] error
+[2023-04-17 14:14:07] WARNING root fetch - processPackages [somenergia-dag-utils]: Skipping, unable to determine old version
+[2023-04-17 14:14:07] INFO root fetch - main [MainThread]: End processing [somenergia-dag-utils] error
+[2023-04-17 14:14:07] INFO root fetch - processPackages [btrack]: Downloading https://files.pythonhosted.org/packages/75/81/e0fd3b8779a2c42260b097dee45e5fc56ead1c926373e00dcba21b0b3bb5/btrack-0.5.1.tar.gz
+[2023-04-17 14:14:07] INFO root fetch - processPackages [tradernet-sdk]: Downloading https://files.pythonhosted.org/packages/bb/ab/5c696661dab5f8cc5bf50de1063c2a559452f1362362bda5a2c89663f8b7/tradernet_sdk-0.3.3.tar.gz
+[2023-04-17 14:14:07] INFO root fetch - processPackages [notebook-doc]: Downloading https://files.pythonhosted.org/packages/fd/21/477cca431d8443770ada31786637626e6a7687950c513dfd069746451f18/notebook-doc-0.1.6.tar.gz
+[2023-04-17 14:14:07] INFO root fetch - processPackages [foursight]: Downloading https://files.pythonhosted.org/packages/dd/98/5b827adf1e8cbb55698d21a3b56ac40936580ad4b279a5f0abd8ca9826a2/foursight-3.3.2.2b1.tar.gz
+[2023-04-17 14:14:07] INFO root fetch - processPackages [kornia-moons]: Downloading https://files.pythonhosted.org/packages/60/00/37dc1a85b159e35dd237e5a37b64608ec1e6e03b3d060f26217feb2060b2/kornia_moons-0.2.4.tar.gz
+[2023-04-17 14:14:07] INFO root fetch - processPackages [valmi-connector-lib]: executing diffoscope
+[2023-04-17 14:14:07] INFO root fetch - processPackages [valmi-connector-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valmi_connector_lib-0.1.3.tar.gz tmp/valmi_connector_lib-0.1.4.tar.gz --markdown 20230417/v/valmi-connector-lib/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-17 14:14:07] INFO root fetch - processPackages [tradernet-sdk]: Downloading https://files.pythonhosted.org/packages/af/4d/c8cf1bf2a04c2ed8b07842d2d8d6f28ce390a4decec1319691e6c1a2a3b3/tradernet_sdk-0.3.4.tar.gz
+[2023-04-17 14:14:07] INFO root fetch - processPackages [notebook-doc]: Downloading https://files.pythonhosted.org/packages/7e/7f/c290521589b62e99bacf461b0418d025740cfdf59b1f623bb7c29e21d25f/notebook-doc-0.2.0.tar.gz
+[2023-04-17 14:14:07] INFO root fetch - processPackages [btrack]: Downloading https://files.pythonhosted.org/packages/f2/40/1cc9630884905f79bc387122278b94e59464d6520ba424c711c22c93d710/btrack-0.5.2.tar.gz
+[2023-04-17 14:14:07] INFO root fetch - processPackages [kornia-moons]: Downloading https://files.pythonhosted.org/packages/89/06/224590a8107687cdf8ba6d346438449a15c78d3912109b2198f350208c20/kornia_moons-0.2.5.tar.gz
+[2023-04-17 14:14:07] INFO root fetch - processPackages [foursight]: Downloading https://files.pythonhosted.org/packages/e8/a1/171412144b17b9c781b0ab1e51ffc64ac11afdea2cd784cae87fd8bd6518/foursight-3.4.0.1b0.tar.gz
+[2023-04-17 14:14:07] INFO root fetch - processPackages [tradernet-sdk]: executing diffoscope
+[2023-04-17 14:14:07] INFO root fetch - processPackages [tradernet-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tradernet_sdk-0.3.3.tar.gz tmp/tradernet_sdk-0.3.4.tar.gz --markdown 20230417/t/tradernet-sdk/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-04-17 14:14:07] INFO root fetch - processPackages [notebook-doc]: executing diffoscope
+[2023-04-17 14:14:07] INFO root fetch - processPackages [notebook-doc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notebook-doc-0.1.6.tar.gz tmp/notebook-doc-0.2.0.tar.gz --markdown 20230417/n/notebook-doc/0.1.6-0.2.0/diff.md --exclude *.pyd
+[2023-04-17 14:14:07] INFO root fetch - processPackages [kornia-moons]: executing diffoscope
+[2023-04-17 14:14:07] INFO root fetch - processPackages [kornia-moons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kornia_moons-0.2.4.tar.gz tmp/kornia_moons-0.2.5.tar.gz --markdown 20230417/k/kornia-moons/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-04-17 14:14:07] INFO root fetch - processPackages [foursight]: executing diffoscope
+[2023-04-17 14:14:07] INFO root fetch - processPackages [foursight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight-3.3.2.2b1.tar.gz tmp/foursight-3.4.0.1b0.tar.gz --markdown 20230417/f/foursight/3.3.2.2b1-3.4.0.1b0/diff.md --exclude *.pyd
+[2023-04-17 14:14:07] INFO root fetch - processPackages [btrack]: executing diffoscope
+[2023-04-17 14:14:07] INFO root fetch - processPackages [btrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/btrack-0.5.1.tar.gz tmp/btrack-0.5.2.tar.gz --markdown 20230417/b/btrack/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-04-17 14:14:08] INFO root fetch - main [MainThread]: End processing [combadge]: success
+[2023-04-17 14:14:08] INFO root fetch - main [MainThread]: End processing [valmi-connector-lib]: success
+[2023-04-17 14:14:08] INFO root fetch - main [MainThread]: End processing [huble]: success
+[2023-04-17 14:14:08] INFO root fetch - main [MainThread]: End processing [notebook-doc]: success
+[2023-04-17 14:14:09] INFO root fetch - main [MainThread]: End processing [tradernet-sdk]: success
+[2023-04-17 14:14:09] INFO root fetch - main [MainThread]: End processing [kornia-moons]: success
+[2023-04-17 14:14:09] INFO root fetch - main [MainThread]: End processing [btrack]: success
+[2023-04-17 14:14:11] INFO root fetch - main [MainThread]: End processing [foursight]: success
+[2023-04-17 14:14:11] INFO root fetch - main [MainThread]: Store serial: [17737834]
