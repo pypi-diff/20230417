@@ -23224,3 +23224,77 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-17 23:25:13] INFO root fetch - main [MainThread]: End processing [light-labyrinth]: success
 [2023-04-17 23:25:20] INFO root fetch - main [MainThread]: End processing [secure-web3]: success
 [2023-04-17 23:25:20] INFO root fetch - main [MainThread]: Store serial: [17744770]
+[2023-04-17 23:30:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17744770]
+[2023-04-17 23:30:30] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-17 23:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sphinx-airflow-theme
+[2023-04-17 23:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tap-messagebird
+[2023-04-17 23:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: secure-web3
+[2023-04-17 23:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: haystack-human-tool
+[2023-04-17 23:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pykasso
+[2023-04-17 23:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: granny
+[2023-04-17 23:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: amarps
+[2023-04-17 23:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: exsource-tools
+[2023-04-17 23:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: haystack-human-tool
+[2023-04-17 23:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mpsiemlib
+[2023-04-17 23:30:30] INFO root fetch - processPackages [sphinx-airflow-theme]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 23:30:30] INFO root fetch - processPackages [tap-messagebird]: New version: [0.0.6a1] Old Version: [0.0.5]
+[2023-04-17 23:30:30] WARNING root fetch - processPackages [haystack-human-tool]: Skipping, unable to determine old version
+[2023-04-17 23:30:30] INFO root fetch - processPackages [secure-web3]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-04-17 23:30:30] INFO root fetch - processPackages [haystack-human-tool]: Start processing: ovos-vad-plugin-precise
+[2023-04-17 23:30:30] INFO root fetch - main [MainThread]: End processing [haystack-human-tool] error
+[2023-04-17 23:30:30] INFO root fetch - processPackages [pykasso]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-17 23:30:30] WARNING root fetch - processPackages [exsource-tools]: Skipping, unable to determine old version
+[2023-04-17 23:30:30] INFO root fetch - processPackages [exsource-tools]: Start processing: ovos-vad-plugin-precise
+[2023-04-17 23:30:30] INFO root fetch - main [MainThread]: End processing [exsource-tools] error
+[2023-04-17 23:30:30] INFO root fetch - processPackages [amarps]: New version: [0.18.0] Old Version: [0.17.0]
+[2023-04-17 23:30:30] WARNING root fetch - processPackages [haystack-human-tool]: Skipping, unable to determine old version
+[2023-04-17 23:30:30] INFO root fetch - processPackages [haystack-human-tool]: Start processing: psat-server-web
+[2023-04-17 23:30:30] INFO root fetch - main [MainThread]: End processing [haystack-human-tool] error
+[2023-04-17 23:30:30] INFO root fetch - processPackages [granny]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-04-17 23:30:30] WARNING root fetch - processPackages [mpsiemlib]: Skipping, unable to determine old version
+[2023-04-17 23:30:30] INFO root fetch - main [MainThread]: End processing [mpsiemlib] error
+[2023-04-17 23:30:30] INFO root fetch - processPackages [ovos-vad-plugin-precise]: New version: [0.0.1a5] Old Version: [0.0.1a4]
+[2023-04-17 23:30:30] INFO root fetch - processPackages [ovos-vad-plugin-precise]: New version: [0.0.1a5] Old Version: [0.0.1a4]
+[2023-04-17 23:30:30] INFO root fetch - processPackages [psat-server-web]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 23:30:30] INFO root fetch - processPackages [psat-server-web]: executing diffoscope
+[2023-04-17 23:30:30] INFO root fetch - processPackages [psat-server-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psat-server-web-0.0.8.tar.gz tmp/psat-server-web-0.0.9.tar.gz --markdown 20230417/p/psat-server-web/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 23:30:30] INFO root fetch - processPackages [ovos-vad-plugin-precise]: Downloading https://files.pythonhosted.org/packages/bd/23/f7ef5776a09032fb4f45229012be47e31a341800530814fc62bbc3588fd7/ovos-vad-plugin-precise-0.0.1a4.tar.gz
+[2023-04-17 23:30:30] INFO root fetch - processPackages [ovos-vad-plugin-precise]: Downloading https://files.pythonhosted.org/packages/bd/23/f7ef5776a09032fb4f45229012be47e31a341800530814fc62bbc3588fd7/ovos-vad-plugin-precise-0.0.1a4.tar.gz
+[2023-04-17 23:30:30] INFO root fetch - processPackages [tap-messagebird]: Downloading https://files.pythonhosted.org/packages/e9/3f/2c17d2248f39bf390e7cb9b28a6986b34c92fba2c8cd81246f954758a396/tap_messagebird-0.0.5.tar.gz
+[2023-04-17 23:30:30] INFO root fetch - processPackages [pykasso]: Downloading https://files.pythonhosted.org/packages/58/10/96059683198778aa6310c8a76695d4f9cae37238a6f695b9315e730270e1/pykasso-0.1.2.tar.gz
+[2023-04-17 23:30:30] INFO root fetch - processPackages [sphinx-airflow-theme]: Downloading https://files.pythonhosted.org/packages/6a/dc/3a3d684db16e939bb18741abb2100f1a18f8b15833ccf1db20c1b375d08d/sphinx_airflow_theme-0.0.8-py3-none-any.whl
+[2023-04-17 23:30:30] INFO root fetch - processPackages [amarps]: Downloading https://files.pythonhosted.org/packages/ec/d6/32c8a70a23bb4e7946ff3602ddeba2f9425eb3fc550aabf2891f85883ba5/amarps-0.18.0.tar.gz
+[2023-04-17 23:30:30] INFO root fetch - processPackages [secure-web3]: Downloading https://files.pythonhosted.org/packages/60/6e/22b93b8f1919b476f4bad768a6d76e91386baf72eaee1b9aedbc44a780a9/secure_web3-1.3.2.tar.gz
+[2023-04-17 23:30:30] INFO root fetch - processPackages [granny]: Downloading https://files.pythonhosted.org/packages/f9/dc/5e2b3d846e07a28177abbb1eda0e1a01ad847e4e2cd01a4a78640106bbc1/granny-1.3.0.tar.gz
+[2023-04-17 23:30:30] INFO root fetch - processPackages [secure-web3]: executing diffoscope
+[2023-04-17 23:30:30] INFO root fetch - processPackages [secure-web3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secure_web3-1.3.1.tar.gz tmp/secure_web3-1.3.2.tar.gz --markdown 20230417/s/secure-web3/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-04-17 23:30:30] INFO root fetch - processPackages [amarps]: executing diffoscope
+[2023-04-17 23:30:30] INFO root fetch - processPackages [amarps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amarps-0.17.0.tar.gz tmp/amarps-0.18.0.tar.gz --markdown 20230417/a/amarps/0.17.0-0.18.0/diff.md --exclude *.pyd
+[2023-04-17 23:30:30] INFO root fetch - processPackages [tap-messagebird]: Downloading https://files.pythonhosted.org/packages/bf/5f/d361e60b681bb91c1c8d70af92c84bf17aba27ff4627b9a5428c71306284/tap_messagebird-0.0.6a1.tar.gz
+[2023-04-17 23:30:31] INFO root fetch - processPackages [ovos-vad-plugin-precise]: Downloading https://files.pythonhosted.org/packages/b1/c3/85e14ec3d008f89442a30b21b52ebcc2398c9f4d124da12f049b36b002fd/ovos-vad-plugin-precise-0.0.1a5.tar.gz
+[2023-04-17 23:30:31] INFO root fetch - processPackages [ovos-vad-plugin-precise]: Downloading https://files.pythonhosted.org/packages/b1/c3/85e14ec3d008f89442a30b21b52ebcc2398c9f4d124da12f049b36b002fd/ovos-vad-plugin-precise-0.0.1a5.tar.gz
+[2023-04-17 23:30:31] INFO root fetch - processPackages [tap-messagebird]: executing diffoscope
+[2023-04-17 23:30:31] INFO root fetch - processPackages [tap-messagebird]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap_messagebird-0.0.5.tar.gz tmp/tap_messagebird-0.0.6a1.tar.gz --markdown 20230417/t/tap-messagebird/0.0.5-0.0.6a1/diff.md --exclude *.pyd
+[2023-04-17 23:30:31] INFO root fetch - processPackages [pykasso]: Downloading https://files.pythonhosted.org/packages/28/d7/648d2db25b6e5fa8f737822f5f5b26944f68787f119952b920877aca5b3b/pykasso-0.1.3.tar.gz
+[2023-04-17 23:30:31] INFO root fetch - processPackages [sphinx-airflow-theme]: Downloading https://files.pythonhosted.org/packages/8f/74/301e7cd3021c6a6e0afc6f6c820eee24428d00d469709a194884ebc2c49a/sphinx_airflow_theme-0.0.9-py3-none-any.whl
+[2023-04-17 23:30:31] INFO root fetch - processPackages [pykasso]: executing diffoscope
+[2023-04-17 23:30:31] INFO root fetch - processPackages [pykasso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pykasso-0.1.2.tar.gz tmp/pykasso-0.1.3.tar.gz --markdown 20230417/p/pykasso/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-17 23:30:31] INFO root fetch - processPackages [ovos-vad-plugin-precise]: executing diffoscope
+[2023-04-17 23:30:31] INFO root fetch - processPackages [ovos-vad-plugin-precise]: executing diffoscope
+[2023-04-17 23:30:31] INFO root fetch - processPackages [ovos-vad-plugin-precise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos-vad-plugin-precise-0.0.1a4.tar.gz tmp/ovos-vad-plugin-precise-0.0.1a5.tar.gz --markdown 20230417/o/ovos-vad-plugin-precise/0.0.1a4-0.0.1a5/diff.md --exclude *.pyd
+[2023-04-17 23:30:31] INFO root fetch - processPackages [ovos-vad-plugin-precise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos-vad-plugin-precise-0.0.1a4.tar.gz tmp/ovos-vad-plugin-precise-0.0.1a5.tar.gz --markdown 20230417/o/ovos-vad-plugin-precise/0.0.1a4-0.0.1a5/diff.md --exclude *.pyd
+[2023-04-17 23:30:31] INFO root fetch - processPackages [sphinx-airflow-theme]: executing diffoscope
+[2023-04-17 23:30:31] INFO root fetch - processPackages [sphinx-airflow-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx_airflow_theme-0.0.8-py3-none-any.whl.zip tmp/sphinx_airflow_theme-0.0.9-py3-none-any.whl.zip --markdown 20230417/s/sphinx-airflow-theme/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 23:30:32] INFO root fetch - main [MainThread]: End processing [amarps]: success
+[2023-04-17 23:30:32] INFO root fetch - main [MainThread]: End processing [tap-messagebird]: success
+[2023-04-17 23:30:32] INFO root fetch - main [MainThread]: End processing [ovos-vad-plugin-precise]: success
+[2023-04-17 23:30:32] INFO root fetch - processPackages [granny]: Downloading https://files.pythonhosted.org/packages/69/5d/f2091b17d184197e9466fbc3c28a2cd5f1b4068ecfbaecb49197ae9213d7/granny-1.4.0.tar.gz
+[2023-04-17 23:30:32] INFO root fetch - main [MainThread]: End processing [secure-web3]: success
+[2023-04-17 23:30:32] INFO root fetch - main [MainThread]: End processing [pykasso]: success
+[2023-04-17 23:30:32] INFO root fetch - main [MainThread]: End processing [ovos-vad-plugin-precise]: success
+[2023-04-17 23:30:32] INFO root fetch - processPackages [granny]: executing diffoscope
+[2023-04-17 23:30:32] INFO root fetch - processPackages [granny]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/granny-1.3.0.tar.gz tmp/granny-1.4.0.tar.gz --markdown 20230417/g/granny/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-04-17 23:30:34] INFO root fetch - main [MainThread]: End processing [granny]: success
+[2023-04-17 23:30:34] INFO root fetch - main [MainThread]: End processing [sphinx-airflow-theme]: success
+[2023-04-17 23:30:37] INFO root fetch - main [MainThread]: End processing [psat-server-web]: success
+[2023-04-17 23:30:37] INFO root fetch - main [MainThread]: Store serial: [17744816]
