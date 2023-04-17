@@ -7438,3 +7438,86 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 09:44:44] INFO root fetch - main [MainThread]: End processing [shelephant]: success
 [2023-04-17 09:44:53] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
 [2023-04-17 09:44:53] INFO root fetch - main [MainThread]: Store serial: [17735024]
+[2023-04-17 09:49:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17735024]
+[2023-04-17 09:50:01] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-17 09:50:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bp-query-tool
+[2023-04-17 09:50:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tensor-parallel
+[2023-04-17 09:50:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: je-assert-lib-dev
+[2023-04-17 09:50:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyflyby
+[2023-04-17 09:50:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tf-nightly-cpu
+[2023-04-17 09:50:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: stockpy-learn
+[2023-04-17 09:50:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kmerator
+[2023-04-17 09:50:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gmltools
+[2023-04-17 09:50:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: indykite-sdk-python
+[2023-04-17 09:50:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: arxiv-bot
+[2023-04-17 09:50:01] WARNING root fetch - processPackages [bp-query-tool]: Skipping, unable to determine old version
+[2023-04-17 09:50:01] INFO root fetch - processPackages [bp-query-tool]: Start processing: odoo14-addon-l10n-es-vat-book
+[2023-04-17 09:50:01] INFO root fetch - main [MainThread]: End processing [bp-query-tool] error
+[2023-04-17 09:50:01] INFO root fetch - processPackages [kmerator]: New version: [0.7.4b0] Old Version: [0.7.3b0]
+[2023-04-17 09:50:01] INFO root fetch - processPackages [odoo14-addon-l10n-es-vat-book]: New version: [14.0.2.7.1.dev1] Old Version: [14.0.2.7.1]
+[2023-04-17 09:50:02] INFO root fetch - processPackages [kmerator]: executing diffoscope
+[2023-04-17 09:50:02] INFO root fetch - processPackages [kmerator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kmerator-0.7.3b0.tar.gz tmp/kmerator-0.7.4b0.tar.gz --markdown 20230417/k/kmerator/0.7.3b0-0.7.4b0/diff.md --exclude *.pyd
+[2023-04-17 09:50:02] INFO root fetch - processPackages [je-assert-lib-dev]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-17 09:50:02] INFO root fetch - processPackages [pyflyby]: New version: [1.8.3] Old Version: [1.8.2]
+[2023-04-17 09:50:02] INFO root fetch - processPackages [tensor-parallel]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-04-17 09:50:02] INFO root fetch - processPackages [arxiv-bot]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-17 09:50:02] INFO root fetch - processPackages [gmltools]: New version: [0.0.60] Old Version: [0.0.59]
+[2023-04-17 09:50:02] INFO root fetch - processPackages [stockpy-learn]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-17 09:50:02] INFO root fetch - processPackages [indykite-sdk-python]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-04-17 09:50:02] INFO root fetch - processPackages [odoo14-addon-l10n-es-vat-book]: executing diffoscope
+[2023-04-17 09:50:02] INFO root fetch - processPackages [odoo14-addon-l10n-es-vat-book]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_es_vat_book-14.0.2.7.1-py3-none-any.whl.zip tmp/odoo14_addon_l10n_es_vat_book-14.0.2.7.1.dev1-py3-none-any.whl.zip --markdown 20230417/o/odoo14-addon-l10n-es-vat-book/14.0.2.7.1-14.0.2.7.1.dev1/diff.md --exclude *.pyd
+[2023-04-17 09:50:02] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.13.0.dev20230417] Old Version: [2.13.0.dev20230416]
+[2023-04-17 09:50:02] INFO root fetch - processPackages [tensor-parallel]: Downloading https://files.pythonhosted.org/packages/1f/8b/c16a11c3ecdda53ebb71aec674b5b176d45ecf050c4f911a9bb94ead5cab/tensor_parallel-1.2.1.tar.gz
+[2023-04-17 09:50:02] INFO root fetch - processPackages [pyflyby]: Downloading https://files.pythonhosted.org/packages/c4/64/ebfa8c862bffee93d3f7baab199dbfcb5dad3ef560cc03137c21d924b95a/pyflyby-1.8.2.tar.gz
+[2023-04-17 09:50:02] INFO root fetch - processPackages [je-assert-lib-dev]: Downloading https://files.pythonhosted.org/packages/e6/5f/9ff8a370b9cd09639dd93d654a066a8560cbf6f55b923dd402c06636ef7c/je_assert_lib_dev-0.0.1.tar.gz
+[2023-04-17 09:50:02] INFO root fetch - processPackages [gmltools]: Downloading https://files.pythonhosted.org/packages/5c/83/95d98124cefda9170da6adf24d710154d51bb01bedf2a5c95dc211f9c36e/gmltools-0.0.59.tar.gz
+[2023-04-17 09:50:02] INFO root fetch - processPackages [indykite-sdk-python]: Downloading https://files.pythonhosted.org/packages/50/f3/0a2a0a7f8486f219a6a319ede3c2de5288cb2e115cd7139571b4cd724d82/indykite-sdk-python-1.8.0.tar.gz
+[2023-04-17 09:50:02] INFO root fetch - processPackages [stockpy-learn]: Downloading https://files.pythonhosted.org/packages/b5/2e/141a28bac4ef8cec59ba0824bb7b56999b7732269dac5b055f6dabdd94ab/stockpy-learn-0.1.8.tar.gz
+[2023-04-17 09:50:02] INFO root fetch - processPackages [tensor-parallel]: Downloading https://files.pythonhosted.org/packages/7d/51/3fc56405c5e5476901ca7efb6a03d771898e4061d050f8172939eab2e943/tensor_parallel-1.2.2.tar.gz
+[2023-04-17 09:50:02] INFO root fetch - processPackages [arxiv-bot]: Downloading https://files.pythonhosted.org/packages/c7/b2/aa3cb9b587737b39a1c791699d9a0260d86628a0b2ca747d53f8130e534a/arxiv_bot-0.0.5.tar.gz
+[2023-04-17 09:50:02] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/69/f3/ab13a78b8d4294d0e6a8c5e2c286780e025b6f07fe03f26b366bb0cd5260/tf_nightly_cpu-2.13.0.dev20230417-cp39-cp39-win_amd64.whl
+[2023-04-17 09:50:02] INFO root fetch - processPackages [gmltools]: Downloading https://files.pythonhosted.org/packages/28/79/d36b46660105bc828932bae565dc5823a2548595fdaffd249843650ea354/gmltools-0.0.60.tar.gz
+[2023-04-17 09:50:02] INFO root fetch - processPackages [tensor-parallel]: executing diffoscope
+[2023-04-17 09:50:02] INFO root fetch - processPackages [tensor-parallel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensor_parallel-1.2.1.tar.gz tmp/tensor_parallel-1.2.2.tar.gz --markdown 20230417/t/tensor-parallel/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-04-17 09:50:02] INFO root fetch - processPackages [pyflyby]: Downloading https://files.pythonhosted.org/packages/45/e5/43454e6ddab7119ba3c0132eae41424458fda468ae9dce24a6890fc32cc6/pyflyby-1.8.3.tar.gz
+[2023-04-17 09:50:02] INFO root fetch - processPackages [arxiv-bot]: executing diffoscope
+[2023-04-17 09:50:02] INFO root fetch - processPackages [arxiv-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arxiv_bot-0.0.4.tar.gz tmp/arxiv_bot-0.0.5.tar.gz --markdown 20230417/a/arxiv-bot/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-17 09:50:02] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-04-17 09:50:02] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.13.0.dev20230416-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.13.0.dev20230417-cp39-cp39-win_amd64.whl.zip --markdown 20230417/t/tf-nightly-cpu/2.13.0.dev20230416-2.13.0.dev20230417/diff.md --exclude *.pyd
+[2023-04-17 09:50:02] INFO root fetch - processPackages [gmltools]: executing diffoscope
+[2023-04-17 09:50:02] INFO root fetch - processPackages [gmltools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmltools-0.0.59.tar.gz tmp/gmltools-0.0.60.tar.gz --markdown 20230417/g/gmltools/0.0.59-0.0.60/diff.md --exclude *.pyd
+[2023-04-17 09:50:02] INFO root fetch - processPackages [indykite-sdk-python]: Downloading https://files.pythonhosted.org/packages/1d/24/d3c0f1913c780f3c300d6d0606ce03543a97b03f19a6fc0be3c53e1b8774/indykite-sdk-python-1.9.0.tar.gz
+[2023-04-17 09:50:02] INFO root fetch - processPackages [pyflyby]: executing diffoscope
+[2023-04-17 09:50:02] INFO root fetch - processPackages [pyflyby]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyflyby-1.8.2.tar.gz tmp/pyflyby-1.8.3.tar.gz --markdown 20230417/p/pyflyby/1.8.2-1.8.3/diff.md --exclude *.pyd
+[2023-04-17 09:50:02] INFO root fetch - processPackages [stockpy-learn]: Downloading https://files.pythonhosted.org/packages/35/56/69f9c890f8cf1bf5673c3be476c03bbd6daaa6fb35392b269cc5028677c9/stockpy-learn-0.1.9.tar.gz
+[2023-04-17 09:50:02] INFO root fetch - processPackages [indykite-sdk-python]: executing diffoscope
+[2023-04-17 09:50:02] INFO root fetch - processPackages [indykite-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indykite-sdk-python-1.8.0.tar.gz tmp/indykite-sdk-python-1.9.0.tar.gz --markdown 20230417/i/indykite-sdk-python/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-04-17 09:50:02] INFO root fetch - processPackages [stockpy-learn]: executing diffoscope
+[2023-04-17 09:50:02] INFO root fetch - processPackages [stockpy-learn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stockpy-learn-0.1.8.tar.gz tmp/stockpy-learn-0.1.9.tar.gz --markdown 20230417/s/stockpy-learn/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-17 09:50:03] INFO root fetch - processPackages [je-assert-lib-dev]: Downloading https://files.pythonhosted.org/packages/49/8b/da48394645afd1ca9055041a077e12849f3a936f899aeeffd8fd0e17442b/je_assert_lib_dev-0.0.2.tar.gz
+[2023-04-17 09:50:03] INFO root fetch - processPackages [je-assert-lib-dev]: executing diffoscope
+[2023-04-17 09:50:03] INFO root fetch - processPackages [je-assert-lib-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_assert_lib_dev-0.0.1.tar.gz tmp/je_assert_lib_dev-0.0.2.tar.gz --markdown 20230417/j/je-assert-lib-dev/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-17 09:50:03] INFO root fetch - processPackages [kmerator]: Start processing: bamsalvage
+[2023-04-17 09:50:03] INFO root fetch - main [MainThread]: End processing [kmerator]: success
+[2023-04-17 09:50:03] INFO root fetch - processPackages [bamsalvage]: New version: [0.1.2] Old Version: [0.0.1]
+[2023-04-17 09:50:04] INFO root fetch - processPackages [bamsalvage]: executing diffoscope
+[2023-04-17 09:50:04] INFO root fetch - processPackages [bamsalvage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bamsalvage-0.0.1.tar.gz tmp/bamsalvage-0.1.2-py3-none-any.whl.zip --markdown 20230417/b/bamsalvage/0.0.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-17 09:50:04] INFO root fetch - processPackages [odoo14-addon-l10n-es-vat-book]: Start processing: fastapi-startapp
+[2023-04-17 09:50:04] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-es-vat-book]: success
+[2023-04-17 09:50:04] INFO root fetch - processPackages [fastapi-startapp]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-17 09:50:04] INFO root fetch - processPackages [tf-nightly-cpu]: Start processing: chatgpt-pre-commit-hooks
+[2023-04-17 09:50:04] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-04-17 09:50:04] INFO root fetch - processPackages [fastapi-startapp]: executing diffoscope
+[2023-04-17 09:50:04] INFO root fetch - processPackages [fastapi-startapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-startapp-0.1.1.tar.gz tmp/fastapi-startapp-0.1.2.tar.gz --markdown 20230417/f/fastapi-startapp/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-17 09:50:04] ERROR root fetch - processPackages [chatgpt-pre-commit-hooks]: Unable to get metadata: No such project 'chatgpt-pre-commit-hooks'
+[2023-04-17 09:50:04] INFO root fetch - main [MainThread]: End processing [chatgpt-pre-commit-hooks] error
+[2023-04-17 09:50:04] INFO root fetch - main [MainThread]: End processing [gmltools]: success
+[2023-04-17 09:50:04] INFO root fetch - main [MainThread]: End processing [arxiv-bot]: success
+[2023-04-17 09:50:04] INFO root fetch - main [MainThread]: End processing [tensor-parallel]: success
+[2023-04-17 09:50:05] INFO root fetch - main [MainThread]: End processing [bamsalvage]: success
+[2023-04-17 09:50:05] INFO root fetch - main [MainThread]: End processing [fastapi-startapp]: success
+[2023-04-17 09:50:05] INFO root fetch - main [MainThread]: End processing [indykite-sdk-python]: success
+[2023-04-17 09:50:05] INFO root fetch - main [MainThread]: End processing [pyflyby]: success
+[2023-04-17 09:50:05] INFO root fetch - main [MainThread]: End processing [stockpy-learn]: success
+[2023-04-17 09:50:12] INFO root fetch - main [MainThread]: End processing [je-assert-lib-dev]: success
+[2023-04-17 09:50:12] INFO root fetch - main [MainThread]: Store serial: [17735060]
