@@ -7350,3 +7350,56 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 09:34:10] INFO root fetch - main [MainThread]: End processing [tonplay-sdk]: success
 [2023-04-17 09:34:21] INFO root fetch - main [MainThread]: End processing [django-cradmin]: success
 [2023-04-17 09:34:21] INFO root fetch - main [MainThread]: Store serial: [17734976]
+[2023-04-17 09:39:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17734976]
+[2023-04-17 09:39:30] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-17 09:39:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ifd-python
+[2023-04-17 09:39:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pydantic-resolve
+[2023-04-17 09:39:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: smartwheel-core
+[2023-04-17 09:39:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quarchpy
+[2023-04-17 09:39:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kmerator
+[2023-04-17 09:39:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: probabilistic-word-embeddings
+[2023-04-17 09:39:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tinybird-cdk
+[2023-04-17 09:39:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: NikeCA
+[2023-04-17 09:39:30] INFO root fetch - processPackages [smartwheel-core]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-17 09:39:30] INFO root fetch - processPackages [smartwheel-core]: executing diffoscope
+[2023-04-17 09:39:30] INFO root fetch - processPackages [smartwheel-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartwheel-core-0.0.2.tar.gz tmp/smartwheel-core-0.0.3.tar.gz --markdown 20230417/s/smartwheel-core/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-17 09:39:30] INFO root fetch - processPackages [kmerator]: New version: [0.7.4b0] Old Version: [0.7.3b0]
+[2023-04-17 09:39:30] INFO root fetch - processPackages [pydantic-resolve]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-04-17 09:39:30] INFO root fetch - processPackages [quarchpy]: New version: [2.1.9.dev3] Old Version: [2.1.9.dev2]
+[2023-04-17 09:39:30] INFO root fetch - processPackages [tinybird-cdk]: New version: [0.16.6] Old Version: [0.16.5]
+[2023-04-17 09:39:30] INFO root fetch - processPackages [probabilistic-word-embeddings]: New version: [1.0.0] Old Version: [0.9.2]
+[2023-04-17 09:39:30] INFO root fetch - processPackages [NikeCA]: New version: [0.1.55] Old Version: [0.1.54]
+[2023-04-17 09:39:30] INFO root fetch - processPackages [ifd-python]: New version: [7.6.1] Old Version: [7.6]
+[2023-04-17 09:39:30] INFO root fetch - processPackages [pydantic-resolve]: Downloading https://files.pythonhosted.org/packages/65/b0/feba58e456dc064f4542fba709069a4ea59c0d1333c1154a8c6830535187/pydantic_resolve-0.4.0.tar.gz
+[2023-04-17 09:39:30] INFO root fetch - processPackages [kmerator]: Downloading https://files.pythonhosted.org/packages/84/ba/d216567a37b3cab74a6a48645d95ddca65c0f48250e642703f4b80f27f7e/kmerator-0.7.3b0.tar.gz
+[2023-04-17 09:39:30] INFO root fetch - processPackages [quarchpy]: Downloading https://files.pythonhosted.org/packages/4c/58/57c71932b71449bc466e74bd8478a30bedf723227a6aa33c2934896c2345/quarchpy-2.1.9.dev2-py2.py3-none-any.whl
+[2023-04-17 09:39:30] INFO root fetch - processPackages [probabilistic-word-embeddings]: Downloading https://files.pythonhosted.org/packages/77/3f/6c0a2b34a716ec0fa14fdb94bda53bef248e32a9f4244d0c3bde86316495/probabilistic-word-embeddings-0.9.2.tar.gz
+[2023-04-17 09:39:30] INFO root fetch - processPackages [NikeCA]: Downloading https://files.pythonhosted.org/packages/52/81/82173a1433daee16cfc6681c618cbb543aba001184abf829f8dc48cb59d3/NikeCA-0.1.54.tar.gz
+[2023-04-17 09:39:31] INFO root fetch - processPackages [tinybird-cdk]: Downloading https://files.pythonhosted.org/packages/a4/b3/106131d2ffae67849146ec47f14930f794d64c2b8f2547627efada1d991f/tinybird-cdk-0.16.6.tar.gz
+[2023-04-17 09:39:31] INFO root fetch - processPackages [pydantic-resolve]: Downloading https://files.pythonhosted.org/packages/45/40/7fba5d031871f9f4c8d3dd713f7b62e1d2a266d14a01ecf3dc01df1d6293/pydantic_resolve-0.4.1.tar.gz
+[2023-04-17 09:39:31] INFO root fetch - processPackages [NikeCA]: Downloading https://files.pythonhosted.org/packages/74/f2/1fc961cf34aacb0c14e640524a93aa248b0fe80efcef58ff98f33606a7c8/NikeCA-0.1.55.tar.gz
+[2023-04-17 09:39:31] INFO root fetch - processPackages [probabilistic-word-embeddings]: Downloading https://files.pythonhosted.org/packages/53/7b/970207c243fc807050f2b2e4dcec99d6bb0a9276a430ec5179567fdb7da5/probabilistic_word_embeddings-1.0.0.tar.gz
+[2023-04-17 09:39:31] INFO root fetch - processPackages [kmerator]: Downloading https://files.pythonhosted.org/packages/f0/97/3ec12ef363d58c7049c91d83318d2e8297698db9ec8fe9f1350eb09efd6d/kmerator-0.7.4b0.tar.gz
+[2023-04-17 09:39:31] INFO root fetch - processPackages [tinybird-cdk]: executing diffoscope
+[2023-04-17 09:39:31] INFO root fetch - processPackages [tinybird-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinybird-cdk-0.16.5.tar.gz tmp/tinybird-cdk-0.16.6.tar.gz --markdown 20230417/t/tinybird-cdk/0.16.5-0.16.6/diff.md --exclude *.pyd
+[2023-04-17 09:39:31] WARNING root fetch - processPackages [quarchpy]: Skipping package: exceeds size limit 34469980>=10485760
+[2023-04-17 09:39:31] INFO root fetch - main [MainThread]: End processing [quarchpy] error
+[2023-04-17 09:39:31] INFO root fetch - processPackages [pydantic-resolve]: executing diffoscope
+[2023-04-17 09:39:31] INFO root fetch - processPackages [pydantic-resolve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_resolve-0.4.0.tar.gz tmp/pydantic_resolve-0.4.1.tar.gz --markdown 20230417/p/pydantic-resolve/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-04-17 09:39:31] INFO root fetch - processPackages [ifd-python]: Downloading https://files.pythonhosted.org/packages/fd/59/39f0065ab99de5380e6dcccb33e3a61142fe31be7a0b0efd305608c86d1d/ifd_python-7.6.1.tar.gz
+[2023-04-17 09:39:31] INFO root fetch - processPackages [NikeCA]: executing diffoscope
+[2023-04-17 09:39:31] INFO root fetch - processPackages [NikeCA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NikeCA-0.1.54.tar.gz tmp/NikeCA-0.1.55.tar.gz --markdown 20230417/N/NikeCA/0.1.54-0.1.55/diff.md --exclude *.pyd
+[2023-04-17 09:39:31] INFO root fetch - processPackages [probabilistic-word-embeddings]: executing diffoscope
+[2023-04-17 09:39:31] INFO root fetch - processPackages [probabilistic-word-embeddings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/probabilistic-word-embeddings-0.9.2.tar.gz tmp/probabilistic_word_embeddings-1.0.0.tar.gz --markdown 20230417/p/probabilistic-word-embeddings/0.9.2-1.0.0/diff.md --exclude *.pyd
+[2023-04-17 09:39:31] INFO root fetch - processPackages [kmerator]: executing diffoscope
+[2023-04-17 09:39:31] INFO root fetch - processPackages [kmerator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kmerator-0.7.3b0.tar.gz tmp/kmerator-0.7.4b0.tar.gz --markdown 20230417/k/kmerator/0.7.3b0-0.7.4b0/diff.md --exclude *.pyd
+[2023-04-17 09:39:31] INFO root fetch - processPackages [ifd-python]: executing diffoscope
+[2023-04-17 09:39:31] INFO root fetch - processPackages [ifd-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ifd_python-7.6.tar.gz tmp/ifd_python-7.6.1.tar.gz --markdown 20230417/i/ifd-python/7.6-7.6.1/diff.md --exclude *.pyd
+[2023-04-17 09:39:32] INFO root fetch - main [MainThread]: End processing [tinybird-cdk]: success
+[2023-04-17 09:39:32] INFO root fetch - main [MainThread]: End processing [smartwheel-core]: success
+[2023-04-17 09:39:32] INFO root fetch - main [MainThread]: End processing [pydantic-resolve]: success
+[2023-04-17 09:39:32] INFO root fetch - main [MainThread]: End processing [probabilistic-word-embeddings]: success
+[2023-04-17 09:39:32] INFO root fetch - main [MainThread]: End processing [kmerator]: success
+[2023-04-17 09:39:32] INFO root fetch - main [MainThread]: End processing [NikeCA]: success
+[2023-04-17 09:39:32] INFO root fetch - main [MainThread]: End processing [ifd-python]: success
+[2023-04-17 09:39:32] INFO root fetch - main [MainThread]: Store serial: [17735009]
