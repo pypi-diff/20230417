@@ -15559,3 +15559,195 @@ EOFError: EOF read where object expected
 [2023-04-17 16:44:38] INFO root fetch - main [MainThread]: End processing [cc12703-uiautomator2]: success
 [2023-04-17 16:44:47] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-04-17 16:44:47] INFO root fetch - main [MainThread]: Store serial: [17739867]
+[2023-04-17 16:49:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17739867]
+[2023-04-17 16:49:57] INFO root fetch - main [MainThread]: Found 32 changed packages
+[2023-04-17 16:49:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pdstools
+[2023-04-17 16:49:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dxsp
+[2023-04-17 16:49:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fsleyes-widgets
+[2023-04-17 16:49:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: disvide
+[2023-04-17 16:49:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: etiq
+[2023-04-17 16:49:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nucliadb
+[2023-04-17 16:49:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nucliadb-client
+[2023-04-17 16:49:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nucliadb-dataset
+[2023-04-17 16:49:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nucliadb-models
+[2023-04-17 16:49:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nucliadb-protos
+[2023-04-17 16:49:57] INFO root fetch - processPackages [pdstools]: New version: [3.1.3] Old Version: [3.1.2]
+[2023-04-17 16:49:57] INFO root fetch - processPackages [nucliadb]: New version: [2.7.0.post171] Old Version: [2.7.0.post170]
+[2023-04-17 16:49:57] INFO root fetch - processPackages [nucliadb-dataset]: New version: [2.7.0.post171] Old Version: [2.7.0.post170]
+[2023-04-17 16:49:57] INFO root fetch - processPackages [nucliadb-models]: New version: [2.7.0.post171] Old Version: [2.7.0.post170]
+[2023-04-17 16:49:57] INFO root fetch - processPackages [nucliadb-client]: New version: [2.7.0.post171] Old Version: [2.7.0.post170]
+[2023-04-17 16:49:57] INFO root fetch - processPackages [nucliadb-protos]: New version: [2.7.0.post171] Old Version: [2.7.0.post170]
+[2023-04-17 16:49:57] INFO root fetch - processPackages [pdstools]: executing diffoscope
+[2023-04-17 16:49:57] INFO root fetch - processPackages [pdstools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdstools-3.1.2.tar.gz tmp/pdstools-3.1.3.tar.gz --markdown 20230417/p/pdstools/3.1.2-3.1.3/diff.md --exclude *.pyd
+[2023-04-17 16:49:57] INFO root fetch - processPackages [etiq]: New version: [1.3.8b1] Old Version: [1.3.7.2b1]
+[2023-04-17 16:49:57] INFO root fetch - processPackages [disvide]: New version: [0.4.1] Old Version: [0.4]
+[2023-04-17 16:49:57] INFO root fetch - processPackages [dxsp]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-04-17 16:49:57] INFO root fetch - processPackages [fsleyes-widgets]: New version: [0.9.0] Old Version: [0.8.4]
+[2023-04-17 16:49:57] INFO root fetch - processPackages [nucliadb-client]: Downloading https://files.pythonhosted.org/packages/01/00/7d6b32f8bb1b06b8112c4ecd454ba792f8654d04a12319e781f77ef19d78/nucliadb_client-2.7.0.post171-py3-none-any.whl
+[2023-04-17 16:49:57] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/f5/61/331b993cab5b81acf257f3e2590966df79e9fe675e921fd88541e90fbf33/nucliadb_dataset-2.7.0.post171-py3-none-any.whl
+[2023-04-17 16:49:57] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/c9/e8/029b7db294e8f820726d6a1e1805904aae28ef309e67d854ec493cd82e0c/nucliadb_models-2.7.0.post171-py3-none-any.whl
+[2023-04-17 16:49:57] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/2f/81/ccaad3d1c07fa23ea832d2461b63946b7e1bd71a7dcf68cbc77514a881d8/nucliadb_protos-2.7.0.post171-py3-none-any.whl
+[2023-04-17 16:49:57] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/f6/cb/72e4ed2c8dcaa8491e35451340c784c6589b28c9220f2babecf94e4428ce/nucliadb-2.7.0.post171-py3-none-any.whl
+[2023-04-17 16:49:57] INFO root fetch - processPackages [etiq]: Downloading https://files.pythonhosted.org/packages/42/cf/8396b849dd5335a7d6de8bc7e37f15a67f475945bd488800fd08fdd67f65/etiq-1.3.7.2b1-cp39-cp39-win_amd64.whl
+[2023-04-17 16:49:57] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2023-04-17 16:49:57] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-2.7.0.post170-py3-none-any.whl.zip tmp/nucliadb_dataset-2.7.0.post171-py3-none-any.whl.zip --markdown 20230417/n/nucliadb-dataset/2.7.0.post170-2.7.0.post171/diff.md --exclude *.pyd
+[2023-04-17 16:49:57] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2023-04-17 16:49:57] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-2.7.0.post170-py3-none-any.whl.zip tmp/nucliadb_models-2.7.0.post171-py3-none-any.whl.zip --markdown 20230417/n/nucliadb-models/2.7.0.post170-2.7.0.post171/diff.md --exclude *.pyd
+[2023-04-17 16:49:57] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2023-04-17 16:49:57] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-2.7.0.post170-py3-none-any.whl.zip tmp/nucliadb_protos-2.7.0.post171-py3-none-any.whl.zip --markdown 20230417/n/nucliadb-protos/2.7.0.post170-2.7.0.post171/diff.md --exclude *.pyd
+[2023-04-17 16:49:57] INFO root fetch - processPackages [nucliadb-client]: executing diffoscope
+[2023-04-17 16:49:57] INFO root fetch - processPackages [nucliadb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_client-2.7.0.post170-py3-none-any.whl.zip tmp/nucliadb_client-2.7.0.post171-py3-none-any.whl.zip --markdown 20230417/n/nucliadb-client/2.7.0.post170-2.7.0.post171/diff.md --exclude *.pyd
+[2023-04-17 16:49:57] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2023-04-17 16:49:57] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-2.7.0.post170-py3-none-any.whl.zip tmp/nucliadb-2.7.0.post171-py3-none-any.whl.zip --markdown 20230417/n/nucliadb/2.7.0.post170-2.7.0.post171/diff.md --exclude *.pyd
+[2023-04-17 16:49:57] INFO root fetch - processPackages [disvide]: Downloading https://files.pythonhosted.org/packages/93/cf/af5caf66f81cc6639894dc54b2554c673b16238fae7c5951b4fcb674ba36/disvide-0.4.1.tar.gz
+[2023-04-17 16:49:57] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/f1/be/9758f69aa3b3b74febbbc8acb1fe9c1f2558d053477de1b5ed7e071d353c/dxsp-1.2.5.tar.gz
+[2023-04-17 16:49:57] INFO root fetch - processPackages [fsleyes-widgets]: executing diffoscope
+[2023-04-17 16:49:57] INFO root fetch - processPackages [fsleyes-widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsleyes-widgets-0.8.4.tar.gz tmp/fsleyes-widgets-0.9.0.tar.gz --markdown 20230417/f/fsleyes-widgets/0.8.4-0.9.0/diff.md --exclude *.pyd
+[2023-04-17 16:49:57] INFO root fetch - processPackages [disvide]: executing diffoscope
+[2023-04-17 16:49:57] INFO root fetch - processPackages [disvide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/disvide-0.4.tar.gz tmp/disvide-0.4.1.tar.gz --markdown 20230417/d/disvide/0.4-0.4.1/diff.md --exclude *.pyd
+[2023-04-17 16:49:57] INFO root fetch - processPackages [dxsp]: executing diffoscope
+[2023-04-17 16:49:57] INFO root fetch - processPackages [dxsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxsp-1.2.4.tar.gz tmp/dxsp-1.2.5.tar.gz --markdown 20230417/d/dxsp/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-04-17 16:49:58] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: nucliadb-sdk
+[2023-04-17 16:49:58] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2023-04-17 16:49:58] INFO root fetch - processPackages [nucliadb-sdk]: New version: [2.7.0.post171] Old Version: [2.7.0.post170]
+[2023-04-17 16:49:59] INFO root fetch - processPackages [nucliadb-models]: Start processing: nucliadb-utils
+[2023-04-17 16:49:59] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2023-04-17 16:49:59] INFO root fetch - processPackages [nucliadb-utils]: New version: [2.7.0.post171] Old Version: [2.7.0.post170]
+[2023-04-17 16:49:59] INFO root fetch - processPackages [pdstools]: Start processing: idem-azure
+[2023-04-17 16:49:59] INFO root fetch - main [MainThread]: End processing [pdstools]: success
+[2023-04-17 16:49:59] INFO root fetch - processPackages [dxsp]: Start processing: veetility
+[2023-04-17 16:49:59] INFO root fetch - main [MainThread]: End processing [dxsp]: success
+[2023-04-17 16:49:59] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/e6/a1/7ca7b356d87acad613342206c1c72bc1ee75c2cf26fce6f6d56ad99cca0a/nucliadb_sdk-2.7.0.post171-py3-none-any.whl
+[2023-04-17 16:49:59] INFO root fetch - processPackages [nucliadb-client]: Start processing: spams-bin
+[2023-04-17 16:49:59] INFO root fetch - main [MainThread]: End processing [nucliadb-client]: success
+[2023-04-17 16:49:59] INFO root fetch - processPackages [idem-azure]: New version: [0.3.2.1] Old Version: [0.3.2]
+[2023-04-17 16:49:59] INFO root fetch - processPackages [veetility]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-17 16:49:59] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2023-04-17 16:49:59] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-2.7.0.post170-py3-none-any.whl.zip tmp/nucliadb_sdk-2.7.0.post171-py3-none-any.whl.zip --markdown 20230417/n/nucliadb-sdk/2.7.0.post170-2.7.0.post171/diff.md --exclude *.pyd
+[2023-04-17 16:49:59] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/0c/c7/7a88267d5c81bf2ff63bd9fbb17e9744e99f304976f8da94a885572da26b/nucliadb_utils-2.7.0.post171-py3-none-any.whl
+[2023-04-17 16:49:59] INFO root fetch - processPackages [spams-bin]: New version: [2.6.6] Old Version: [2.6.5]
+[2023-04-17 16:49:59] INFO root fetch - processPackages [etiq]: Downloading https://files.pythonhosted.org/packages/93/ca/32d1f2118634c8d8b8cb9013ee1fba2edcc899208b9c33ee6c6fc31431ee/etiq-1.3.8b1-cp39-cp39-win_amd64.whl
+[2023-04-17 16:49:59] INFO root fetch - processPackages [nucliadb-protos]: Start processing: doji-core
+[2023-04-17 16:49:59] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2023-04-17 16:49:59] INFO root fetch - processPackages [idem-azure]: Downloading https://files.pythonhosted.org/packages/2c/73/df018ab9a827335387d23e70ca0b667d58a59ff4909bd1e54b16c7890273/idem-azure-0.3.2.tar.gz
+[2023-04-17 16:49:59] INFO root fetch - processPackages [doji-core]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-17 16:49:59] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2023-04-17 16:49:59] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-2.7.0.post170-py3-none-any.whl.zip tmp/nucliadb_utils-2.7.0.post171-py3-none-any.whl.zip --markdown 20230417/n/nucliadb-utils/2.7.0.post170-2.7.0.post171/diff.md --exclude *.pyd
+[2023-04-17 16:49:59] INFO root fetch - processPackages [disvide]: Start processing: dbxconfig
+[2023-04-17 16:49:59] INFO root fetch - main [MainThread]: End processing [disvide]: success
+[2023-04-17 16:49:59] INFO root fetch - processPackages [veetility]: Downloading https://files.pythonhosted.org/packages/dc/cf/4772d523e1caa972a6184c0058fe3637ebc539109c8d11d8e5cdfee00baf/veetility-0.1.8.tar.gz
+[2023-04-17 16:49:59] INFO root fetch - processPackages [spams-bin]: Downloading https://files.pythonhosted.org/packages/1e/06/df05bb7a44ae8890596fa39b58ce62c2cf64617b115bbaf702819079ac84/spams-bin-2.6.5.tar.gz
+[2023-04-17 16:49:59] INFO root fetch - processPackages [dbxconfig]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-04-17 16:49:59] INFO root fetch - processPackages [doji-core]: Downloading https://files.pythonhosted.org/packages/13/b0/529974058f17e3af9f8bfcab70fc9433d6806855991aa8231fb2864dd5e5/doji_core-0.1.4.tar.gz
+[2023-04-17 16:49:59] INFO root fetch - processPackages [doji-core]: executing diffoscope
+[2023-04-17 16:49:59] INFO root fetch - processPackages [doji-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doji_core-0.1.3.tar.gz tmp/doji_core-0.1.4.tar.gz --markdown 20230417/d/doji-core/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-17 16:49:59] INFO root fetch - processPackages [idem-azure]: Downloading https://files.pythonhosted.org/packages/d2/c9/390a8e559ecc42910800ce0b6e4b81817ce67c7ff73dccc75821c1a1deba/idem-azure-0.3.2.1.tar.gz
+[2023-04-17 16:49:59] INFO root fetch - processPackages [dbxconfig]: Downloading https://files.pythonhosted.org/packages/14/a0/85d36911f003c32789814973b4e3929c6f2c6d9f192bf5c8ffd768e8ad21/dbxconfig-1.0.3.tar.gz
+[2023-04-17 16:49:59] INFO root fetch - processPackages [veetility]: Downloading https://files.pythonhosted.org/packages/e4/27/6bf604a25bb2458a80de6e113a5e7478938a23d9c7100bad80dac3b5e3c8/veetility-0.1.9.tar.gz
+[2023-04-17 16:49:59] INFO root fetch - processPackages [idem-azure]: executing diffoscope
+[2023-04-17 16:49:59] INFO root fetch - processPackages [idem-azure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idem-azure-0.3.2.tar.gz tmp/idem-azure-0.3.2.1.tar.gz --markdown 20230417/i/idem-azure/0.3.2-0.3.2.1/diff.md --exclude *.pyd
+[2023-04-17 16:49:59] INFO root fetch - processPackages [dbxconfig]: Downloading https://files.pythonhosted.org/packages/4f/6a/3852163dd382529d118e953791702d9d52d868e40ead50637730e2742353/dbxconfig-1.0.4.tar.gz
+[2023-04-17 16:50:00] INFO root fetch - processPackages [etiq]: executing diffoscope
+[2023-04-17 16:50:00] INFO root fetch - processPackages [etiq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etiq-1.3.7.2b1-cp39-cp39-win_amd64.whl.zip tmp/etiq-1.3.8b1-cp39-cp39-win_amd64.whl.zip --markdown 20230417/e/etiq/1.3.7.2b1-1.3.8b1/diff.md --exclude *.pyd
+[2023-04-17 16:50:00] INFO root fetch - processPackages [veetility]: executing diffoscope
+[2023-04-17 16:50:00] INFO root fetch - processPackages [veetility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veetility-0.1.8.tar.gz tmp/veetility-0.1.9.tar.gz --markdown 20230417/v/veetility/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-17 16:50:00] INFO root fetch - processPackages [dbxconfig]: executing diffoscope
+[2023-04-17 16:50:00] INFO root fetch - processPackages [dbxconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbxconfig-1.0.3.tar.gz tmp/dbxconfig-1.0.4.tar.gz --markdown 20230417/d/dbxconfig/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-04-17 16:50:00] INFO root fetch - processPackages [spams-bin]: Downloading https://files.pythonhosted.org/packages/ab/df/0d6e556f358ad363f2fabf06f524456f5dbf73240aaa1b6075a63131cb51/spams-bin-2.6.6.tar.gz
+[2023-04-17 16:50:00] INFO root fetch - processPackages [spams-bin]: executing diffoscope
+[2023-04-17 16:50:00] INFO root fetch - processPackages [spams-bin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spams-bin-2.6.5.tar.gz tmp/spams-bin-2.6.6.tar.gz --markdown 20230417/s/spams-bin/2.6.5-2.6.6/diff.md --exclude *.pyd
+[2023-04-17 16:50:00] INFO root fetch - processPackages [nucliadb-sdk]: Start processing: PyStorCLI2
+[2023-04-17 16:50:00] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2023-04-17 16:50:00] INFO root fetch - processPackages [PyStorCLI2]: New version: [0.6.2.dev13] Old Version: [0.6.1.dev6]
+[2023-04-17 16:50:00] INFO root fetch - processPackages [PyStorCLI2]: Downloading https://files.pythonhosted.org/packages/34/ad/f5c5cd1af4d2baef37ac0f25c8af44fa0f7f06b9d7c9d9766bb8ad58ac1f/PyStorCLI2-0.6.1.dev6.tar.gz
+[2023-04-17 16:50:00] INFO root fetch - processPackages [nucliadb-utils]: Start processing: mymlcustomtools
+[2023-04-17 16:50:00] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2023-04-17 16:50:01] WARNING root fetch - processPackages [mymlcustomtools]: Skipping, unable to determine old version
+[2023-04-17 16:50:01] INFO root fetch - processPackages [mymlcustomtools]: Start processing: Files.com
+[2023-04-17 16:50:01] INFO root fetch - main [MainThread]: End processing [mymlcustomtools] error
+[2023-04-17 16:50:01] INFO root fetch - processPackages [doji-core]: Start processing: etiq-spark
+[2023-04-17 16:50:01] INFO root fetch - main [MainThread]: End processing [doji-core]: success
+[2023-04-17 16:50:01] INFO root fetch - processPackages [Files.com]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-04-17 16:50:01] WARNING root fetch - processPackages [etiq-spark]: Skipping, unable to determine old version
+[2023-04-17 16:50:01] INFO root fetch - processPackages [etiq-spark]: Start processing: btrack
+[2023-04-17 16:50:01] INFO root fetch - main [MainThread]: End processing [etiq-spark] error
+[2023-04-17 16:50:01] INFO root fetch - processPackages [btrack]: New version: [0.5.4] Old Version: [0.5.2]
+[2023-04-17 16:50:01] INFO root fetch - processPackages [PyStorCLI2]: Downloading https://files.pythonhosted.org/packages/0b/37/c828ed018a6ddf02639b61478c745dc41e15a1439f95227c6cb186053960/PyStorCLI2-0.6.2.dev13.tar.gz
+[2023-04-17 16:50:01] INFO root fetch - processPackages [nucliadb]: Start processing: mlimputer
+[2023-04-17 16:50:01] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2023-04-17 16:50:01] INFO root fetch - processPackages [Files.com]: Downloading https://files.pythonhosted.org/packages/94/53/fbdfda733dea9c814dc2617b3c6ff721e4e11d756b49b2d6dc317f00d5c3/Files.com-1.0.98.tar.gz
+[2023-04-17 16:50:01] INFO root fetch - processPackages [PyStorCLI2]: executing diffoscope
+[2023-04-17 16:50:01] INFO root fetch - processPackages [PyStorCLI2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyStorCLI2-0.6.1.dev6.tar.gz tmp/PyStorCLI2-0.6.2.dev13.tar.gz --markdown 20230417/P/PyStorCLI2/0.6.1.dev6-0.6.2.dev13/diff.md --exclude *.pyd
+[2023-04-17 16:50:01] INFO root fetch - processPackages [mlimputer]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-17 16:50:01] INFO root fetch - processPackages [veetility]: Start processing: getphylo
+[2023-04-17 16:50:01] INFO root fetch - main [MainThread]: End processing [veetility]: success
+[2023-04-17 16:50:01] INFO root fetch - processPackages [dbxconfig]: Start processing: bigdl-dllib-spark3
+[2023-04-17 16:50:01] INFO root fetch - main [MainThread]: End processing [dbxconfig]: success
+[2023-04-17 16:50:01] INFO root fetch - processPackages [bigdl-dllib-spark3]: New version: [2.3.0b20230416] Old Version: [2.3.0b20230414]
+[2023-04-17 16:50:01] INFO root fetch - processPackages [getphylo]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-17 16:50:01] INFO root fetch - processPackages [btrack]: Downloading https://files.pythonhosted.org/packages/63/42/65c249de58f73b09918f6ee6bc797e1c24b79662e5e712f96b7314aad866/btrack-0.5.4.tar.gz
+[2023-04-17 16:50:01] INFO root fetch - processPackages [mlimputer]: Downloading https://files.pythonhosted.org/packages/c6/6d/9b14652d69b438a5a6ba9c0a91d0f8613dac0e7b487cdd0e499c94e9d602/mlimputer-1.0.0-py3-none-any.whl
+[2023-04-17 16:50:01] INFO root fetch - processPackages [btrack]: executing diffoscope
+[2023-04-17 16:50:01] INFO root fetch - processPackages [btrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/btrack-0.5.2.tar.gz tmp/btrack-0.5.4.tar.gz --markdown 20230417/b/btrack/0.5.2-0.5.4/diff.md --exclude *.pyd
+[2023-04-17 16:50:01] INFO root fetch - processPackages [bigdl-dllib-spark3]: Downloading https://files.pythonhosted.org/packages/67/8c/bb8e8c23745e4db45ada3fb21e910d6171efa9384c2c6bf9416519805e7a/bigdl-dllib-spark3-2.3.0b20230414.tar.gz
+[2023-04-17 16:50:01] INFO root fetch - processPackages [Files.com]: Downloading https://files.pythonhosted.org/packages/3b/2c/ec980b43b6c82499f9f9442e06cf2b0e489d114398d6098f2a9049a19767/Files.com-1.0.99.tar.gz
+[2023-04-17 16:50:01] INFO root fetch - processPackages [getphylo]: Downloading https://files.pythonhosted.org/packages/88/e2/9f07e84fc8cc9877f4cb765a481ee2368557af09317fde21ac354f7cc96b/getphylo-0.0.1-py3-none-any.whl
+[2023-04-17 16:50:01] WARNING root fetch - processPackages [bigdl-dllib-spark3]: Skipping package: exceeds size limit 61251919>=10485760
+[2023-04-17 16:50:01] INFO root fetch - processPackages [bigdl-dllib-spark3]: Start processing: sqlstrings
+[2023-04-17 16:50:01] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark3] error
+[2023-04-17 16:50:01] INFO root fetch - processPackages [mlimputer]: Downloading https://files.pythonhosted.org/packages/e0/5c/e56a5bfd2f11ea5edda3189e1620cf3913a744c13d133bb1f777b89fb37e/mlimputer-1.0.1-py3-none-any.whl
+[2023-04-17 16:50:01] INFO root fetch - processPackages [sqlstrings]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-17 16:50:01] INFO root fetch - processPackages [mlimputer]: executing diffoscope
+[2023-04-17 16:50:01] INFO root fetch - processPackages [mlimputer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlimputer-1.0.0-py3-none-any.whl.zip tmp/mlimputer-1.0.1-py3-none-any.whl.zip --markdown 20230417/m/mlimputer/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-17 16:50:02] INFO root fetch - processPackages [Files.com]: executing diffoscope
+[2023-04-17 16:50:02] INFO root fetch - processPackages [Files.com]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Files.com-1.0.98.tar.gz tmp/Files.com-1.0.99.tar.gz --markdown 20230417/F/Files.com/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-04-17 16:50:02] INFO root fetch - processPackages [spams-bin]: Start processing: crowdstrike-falconpy
+[2023-04-17 16:50:02] INFO root fetch - main [MainThread]: End processing [spams-bin]: success
+[2023-04-17 16:50:02] INFO root fetch - processPackages [sqlstrings]: Downloading https://files.pythonhosted.org/packages/93/48/a192f4f99f05724f99404826014488309c301591b32604a2465cde52f927/sqlstrings-0.0.5.tar.gz
+[2023-04-17 16:50:02] INFO root fetch - processPackages [crowdstrike-falconpy]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-04-17 16:50:02] INFO root fetch - processPackages [sqlstrings]: executing diffoscope
+[2023-04-17 16:50:02] INFO root fetch - processPackages [sqlstrings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlstrings-0.0.4.tar.gz tmp/sqlstrings-0.0.5.tar.gz --markdown 20230417/s/sqlstrings/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-17 16:50:02] INFO root fetch - processPackages [getphylo]: Downloading https://files.pythonhosted.org/packages/57/00/d46427ad248d0910481b099b03c541c3d3f9f649a929d372eff41213a68c/getphylo-0.0.2.tar.gz
+[2023-04-17 16:50:02] INFO root fetch - processPackages [getphylo]: executing diffoscope
+[2023-04-17 16:50:02] INFO root fetch - processPackages [getphylo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getphylo-0.0.1-py3-none-any.whl.zip tmp/getphylo-0.0.2.tar.gz --markdown 20230417/g/getphylo/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-17 16:50:02] INFO root fetch - processPackages [crowdstrike-falconpy]: Downloading https://files.pythonhosted.org/packages/84/6b/194fa10670b8f31fd39dd61ed454806cd1b5b3d5b02b945b1ee3705e5a56/crowdstrike-falconpy-1.2.8.tar.gz
+[2023-04-17 16:50:02] INFO root fetch - processPackages [etiq]: Start processing: etl-csm
+[2023-04-17 16:50:02] INFO root fetch - main [MainThread]: End processing [etiq]: success
+[2023-04-17 16:50:02] INFO root fetch - processPackages [etl-csm]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-17 16:50:02] INFO root fetch - processPackages [crowdstrike-falconpy]: Downloading https://files.pythonhosted.org/packages/1a/45/a347e47878e59285f814ba3dfef9474f5beb8bd1e332199549995cd7f19b/crowdstrike-falconpy-1.2.9.tar.gz
+[2023-04-17 16:50:03] INFO root fetch - processPackages [crowdstrike-falconpy]: executing diffoscope
+[2023-04-17 16:50:03] INFO root fetch - processPackages [crowdstrike-falconpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crowdstrike-falconpy-1.2.8.tar.gz tmp/crowdstrike-falconpy-1.2.9.tar.gz --markdown 20230417/c/crowdstrike-falconpy/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-04-17 16:50:03] INFO root fetch - processPackages [etl-csm]: Downloading https://files.pythonhosted.org/packages/3c/76/2346be706a856a1d9bdcd509ad9b3fc55fce3fcbaaa507b61657853024ee/etl_csm-0.1.4.tar.gz
+[2023-04-17 16:50:03] INFO root fetch - processPackages [etl-csm]: executing diffoscope
+[2023-04-17 16:50:03] INFO root fetch - processPackages [etl-csm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etl_csm-0.1.3.tar.gz tmp/etl_csm-0.1.4.tar.gz --markdown 20230417/e/etl-csm/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-17 16:50:03] INFO root fetch - processPackages [mlimputer]: Start processing: bigdl-orca-spark3
+[2023-04-17 16:50:03] INFO root fetch - main [MainThread]: End processing [mlimputer]: success
+[2023-04-17 16:50:03] INFO root fetch - processPackages [bigdl-orca-spark3]: New version: [2.3.0b20230416] Old Version: [2.3.0b20230414]
+[2023-04-17 16:50:03] INFO root fetch - processPackages [sqlstrings]: Start processing: bigdl-friesian-spark3
+[2023-04-17 16:50:03] INFO root fetch - main [MainThread]: End processing [sqlstrings]: success
+[2023-04-17 16:50:03] INFO root fetch - processPackages [bigdl-friesian-spark3]: New version: [2.3.0b20230416] Old Version: [2.3.0b20230414]
+[2023-04-17 16:50:03] INFO root fetch - processPackages [getphylo]: Start processing: bigdl-chronos-spark3
+[2023-04-17 16:50:03] INFO root fetch - main [MainThread]: End processing [getphylo]: success
+[2023-04-17 16:50:03] INFO root fetch - processPackages [bigdl-chronos-spark3]: New version: [2.3.0b20230416] Old Version: [2.3.0b20230414]
+[2023-04-17 16:50:03] INFO root fetch - processPackages [bigdl-orca-spark3]: Downloading https://files.pythonhosted.org/packages/20/97/ad008f38fd7cc17a0a79f51bf86d8bc913626c29be078afa078d0280fa8c/bigdl_orca_spark3-2.3.0b20230414-py3-none-manylinux1_x86_64.whl
+[2023-04-17 16:50:03] INFO root fetch - processPackages [bigdl-friesian-spark3]: executing diffoscope
+[2023-04-17 16:50:03] INFO root fetch - processPackages [bigdl-friesian-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark3-2.3.0b20230414-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark3-2.3.0b20230416-py3-none-manylinux1_x86_64.whl.zip --markdown 20230417/b/bigdl-friesian-spark3/2.3.0b20230414-2.3.0b20230416/diff.md --exclude *.pyd
+[2023-04-17 16:50:03] INFO root fetch - processPackages [bigdl-chronos-spark3]: executing diffoscope
+[2023-04-17 16:50:03] INFO root fetch - processPackages [bigdl-chronos-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark3-2.3.0b20230414-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark3-2.3.0b20230416-py3-none-manylinux1_x86_64.whl.zip --markdown 20230417/b/bigdl-chronos-spark3/2.3.0b20230414-2.3.0b20230416/diff.md --exclude *.pyd
+[2023-04-17 16:50:04] INFO root fetch - processPackages [idem-azure]: Start processing: bigdl-spark3
+[2023-04-17 16:50:04] INFO root fetch - main [MainThread]: End processing [idem-azure]: success
+[2023-04-17 16:50:04] WARNING root fetch - processPackages [bigdl-orca-spark3]: Skipping package: exceeds size limit 20208923>=10485760
+[2023-04-17 16:50:04] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark3] error
+[2023-04-17 16:50:04] INFO root fetch - processPackages [bigdl-spark3]: New version: [2.3.0b20230416] Old Version: [2.3.0b20230414]
+[2023-04-17 16:50:04] INFO root fetch - main [MainThread]: End processing [etl-csm]: success
+[2023-04-17 16:50:04] INFO root fetch - processPackages [bigdl-spark3]: executing diffoscope
+[2023-04-17 16:50:04] INFO root fetch - processPackages [bigdl-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark3-2.3.0b20230414-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark3-2.3.0b20230416-py3-none-manylinux1_x86_64.whl.zip --markdown 20230417/b/bigdl-spark3/2.3.0b20230414-2.3.0b20230416/diff.md --exclude *.pyd
+[2023-04-17 16:50:04] INFO root fetch - main [MainThread]: End processing [fsleyes-widgets]: success
+[2023-04-17 16:50:04] INFO root fetch - main [MainThread]: End processing [Files.com]: success
+[2023-04-17 16:50:05] INFO root fetch - main [MainThread]: End processing [crowdstrike-falconpy]: success
+[2023-04-17 16:50:05] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark3]: success
+[2023-04-17 16:50:05] INFO root fetch - main [MainThread]: End processing [bigdl-spark3]: success
+[2023-04-17 16:50:05] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark3]: success
+[2023-04-17 16:50:05] INFO root fetch - main [MainThread]: End processing [PyStorCLI2]: success
+[2023-04-17 16:50:12] INFO root fetch - main [MainThread]: End processing [btrack]: success
+[2023-04-17 16:50:12] INFO root fetch - main [MainThread]: Store serial: [17740006]
