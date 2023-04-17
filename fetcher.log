@@ -20111,3 +20111,86 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-17 20:28:14] INFO root fetch - main [MainThread]: End processing [btrack]: success
 [2023-04-17 20:28:14] INFO root fetch - main [MainThread]: End processing [psutil]: success
 [2023-04-17 20:28:14] INFO root fetch - main [MainThread]: Store serial: [17742679]
+[2023-04-17 20:33:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17742679]
+[2023-04-17 20:33:25] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-17 20:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: slideflow
+[2023-04-17 20:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: itkwasm
+[2023-04-17 20:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: activitysim
+[2023-04-17 20:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ttkDesigner
+[2023-04-17 20:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: consistency-models
+[2023-04-17 20:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: androidspyeye
+[2023-04-17 20:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: steam-market-history
+[2023-04-17 20:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: f4
+[2023-04-17 20:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tap-pulumi-cloud
+[2023-04-17 20:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: oecd-toolbox
+[2023-04-17 20:33:25] INFO root fetch - processPackages [ttkDesigner]: New version: [0.30.0a8] Old Version: [0.30.0a7]
+[2023-04-17 20:33:25] WARNING root fetch - processPackages [consistency-models]: Skipping, unable to determine old version
+[2023-04-17 20:33:25] INFO root fetch - processPackages [activitysim]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-04-17 20:33:25] INFO root fetch - processPackages [consistency-models]: Start processing: plone.restapi
+[2023-04-17 20:33:25] INFO root fetch - processPackages [itkwasm]: New version: [1.0b94] Old Version: [1.0b93]
+[2023-04-17 20:33:25] INFO root fetch - processPackages [slideflow]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-04-17 20:33:25] WARNING root fetch - processPackages [androidspyeye]: Skipping, unable to determine old version
+[2023-04-17 20:33:25] INFO root fetch - main [MainThread]: End processing [consistency-models] error
+[2023-04-17 20:33:25] INFO root fetch - processPackages [androidspyeye]: Start processing: netsuite-python
+[2023-04-17 20:33:25] INFO root fetch - main [MainThread]: End processing [androidspyeye] error
+[2023-04-17 20:33:25] WARNING root fetch - processPackages [tap-pulumi-cloud]: Skipping, unable to determine old version
+[2023-04-17 20:33:25] INFO root fetch - processPackages [steam-market-history]: New version: [3.0.5] Old Version: [3.0.4]
+[2023-04-17 20:33:25] INFO root fetch - processPackages [tap-pulumi-cloud]: Start processing: sparkpipelineframework.testing
+[2023-04-17 20:33:25] INFO root fetch - processPackages [oecd-toolbox]: New version: [0.3.37] Old Version: [0.3.35]
+[2023-04-17 20:33:25] INFO root fetch - main [MainThread]: End processing [tap-pulumi-cloud] error
+[2023-04-17 20:33:25] INFO root fetch - processPackages [f4]: New version: [0.5.0] Old Version: [0.4.3]
+[2023-04-17 20:33:25] INFO root fetch - processPackages [ttkDesigner]: Downloading https://files.pythonhosted.org/packages/d8/88/27c75b7b0f84d8dc43937299a3161d0a1bc100bd8df5cdede2fbf0aa266c/ttkDesigner-0.30.0a8.tar.gz
+[2023-04-17 20:33:25] INFO root fetch - processPackages [plone.restapi]: New version: [8.9.1] Old Version: [8.9.0]
+[2023-04-17 20:33:25] INFO root fetch - processPackages [netsuite-python]: New version: [1.4.0] Old Version: [1.3.8]
+[2023-04-17 20:33:25] INFO root fetch - processPackages [sparkpipelineframework.testing]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-04-17 20:33:25] INFO root fetch - processPackages [activitysim]: Downloading https://files.pythonhosted.org/packages/47/a2/9b9e7660c6c7f9b26dd6cadcea7aa6254307282e2957cdc8c5ea3c3e1301/activitysim-1.2.0.tar.gz
+[2023-04-17 20:33:25] INFO root fetch - processPackages [slideflow]: Downloading https://files.pythonhosted.org/packages/43/63/995d94539bfb895a1f01acc59be671449ede09cb28ff97eee2ae6658bbf2/slideflow-2.0.1-py3-none-any.whl
+[2023-04-17 20:33:25] INFO root fetch - processPackages [itkwasm]: Downloading https://files.pythonhosted.org/packages/b5/f3/0f7c784a82ea68f56df2cc5c7a3935b4e7acfd71ee86ba1b8dffc4b2ffd9/itkwasm-1.0b93.tar.gz
+[2023-04-17 20:33:25] INFO root fetch - processPackages [oecd-toolbox]: Downloading https://files.pythonhosted.org/packages/15/b5/5bca26a8dad74dbf7c1ad252dce5dfc347e9700a21d4024dbb18498d141d/oecd_toolbox-0.3.35.tar.gz
+[2023-04-17 20:33:25] INFO root fetch - processPackages [f4]: Downloading https://files.pythonhosted.org/packages/8e/01/2f1eef5131115786033865e6129c280e282087303a9adc504e9ff7fe1d69/f4-0.4.3.tar.gz
+[2023-04-17 20:33:25] INFO root fetch - processPackages [ttkDesigner]: executing diffoscope
+[2023-04-17 20:33:25] INFO root fetch - processPackages [ttkDesigner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ttkDesigner-0.30.0a7.tar.gz tmp/ttkDesigner-0.30.0a8.tar.gz --markdown 20230417/t/ttkDesigner/0.30.0a7-0.30.0a8/diff.md --exclude *.pyd
+[2023-04-17 20:33:25] INFO root fetch - processPackages [plone.restapi]: Downloading https://files.pythonhosted.org/packages/6d/e8/e32eb898d045619683790f432ac985e414f02b7acdf3035d4b2e7d92a046/plone.restapi-8.9.0.tar.gz
+[2023-04-17 20:33:25] INFO root fetch - processPackages [netsuite-python]: Downloading https://files.pythonhosted.org/packages/e8/33/f8360d136c6a564c095be82fbe85e62ac7e53ca3e7b6eaaba6fa11b2e0e7/netsuite_python-1.3.8.tar.gz
+[2023-04-17 20:33:25] WARNING root fetch - processPackages [activitysim]: Skipping package: exceeds size limit 87678305>=10485760
+[2023-04-17 20:33:25] INFO root fetch - processPackages [activitysim]: Start processing: moto
+[2023-04-17 20:33:25] INFO root fetch - main [MainThread]: End processing [activitysim] error
+[2023-04-17 20:33:25] INFO root fetch - processPackages [sparkpipelineframework.testing]: Downloading https://files.pythonhosted.org/packages/65/25/92bf5a3440660e122ab7517e1cae073f7743dbb9df7f4b315ca88599bfb4/sparkpipelineframework.testing-1.1.8.tar.gz
+[2023-04-17 20:33:25] INFO root fetch - processPackages [moto]: New version: [4.1.8.dev9] Old Version: [4.1.8.dev8]
+[2023-04-17 20:33:25] INFO root fetch - processPackages [steam-market-history]: Downloading https://files.pythonhosted.org/packages/a1/44/7d97d81c46d96f6a2a80c6ecad8b8ee68b7041fdf543c9d210855b251946/steam_market_history-3.0.5.tar.gz
+[2023-04-17 20:33:25] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-04-17 20:33:25] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.8.dev8.tar.gz tmp/moto-4.1.8.dev9.tar.gz --markdown 20230417/m/moto/4.1.8.dev8-4.1.8.dev9/diff.md --exclude *.pyd
+[2023-04-17 20:33:25] INFO root fetch - processPackages [oecd-toolbox]: Downloading https://files.pythonhosted.org/packages/c0/88/7ecb33c8b02e53cb8e33f6c802232cee170b7c5d40777e4dfa7f853fc0fd/oecd_toolbox-0.3.37.tar.gz
+[2023-04-17 20:33:25] INFO root fetch - processPackages [f4]: Downloading https://files.pythonhosted.org/packages/6a/38/40e3f11ee4427ab22130dc98d0075b5568d7cd6de76a8ba161302fc32a51/f4-0.5.0.tar.gz
+[2023-04-17 20:33:25] INFO root fetch - processPackages [netsuite-python]: Downloading https://files.pythonhosted.org/packages/6d/31/675d68f6ba48a763bf839dddbea8b03fe50cea92944fdb1630511fd20bce/netsuite_python-1.4.0.tar.gz
+[2023-04-17 20:33:25] INFO root fetch - processPackages [slideflow]: Downloading https://files.pythonhosted.org/packages/a6/0f/375cf93c6afcb1bdbc377f8f3355bde28e5bad07f33e64c5ecdda31f274e/slideflow-2.0.2-py3-none-any.whl
+[2023-04-17 20:33:25] INFO root fetch - processPackages [steam-market-history]: executing diffoscope
+[2023-04-17 20:33:25] INFO root fetch - processPackages [steam-market-history]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steam_market_history-3.0.4.tar.gz tmp/steam_market_history-3.0.5.tar.gz --markdown 20230417/s/steam-market-history/3.0.4-3.0.5/diff.md --exclude *.pyd
+[2023-04-17 20:33:25] INFO root fetch - processPackages [itkwasm]: Downloading https://files.pythonhosted.org/packages/03/70/780bce97b687dfb0d122bca3be42b14443fd59054a113bc2b3b711fa7ced/itkwasm-1.0b94.tar.gz
+[2023-04-17 20:33:26] INFO root fetch - processPackages [f4]: executing diffoscope
+[2023-04-17 20:33:26] INFO root fetch - processPackages [f4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/f4-0.4.3.tar.gz tmp/f4-0.5.0.tar.gz --markdown 20230417/f/f4/0.4.3-0.5.0/diff.md --exclude *.pyd
+[2023-04-17 20:33:26] INFO root fetch - processPackages [oecd-toolbox]: executing diffoscope
+[2023-04-17 20:33:26] INFO root fetch - processPackages [oecd-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oecd_toolbox-0.3.35.tar.gz tmp/oecd_toolbox-0.3.37.tar.gz --markdown 20230417/o/oecd-toolbox/0.3.35-0.3.37/diff.md --exclude *.pyd
+[2023-04-17 20:33:26] INFO root fetch - processPackages [netsuite-python]: executing diffoscope
+[2023-04-17 20:33:26] INFO root fetch - processPackages [netsuite-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netsuite_python-1.3.8.tar.gz tmp/netsuite_python-1.4.0.tar.gz --markdown 20230417/n/netsuite-python/1.3.8-1.4.0/diff.md --exclude *.pyd
+[2023-04-17 20:33:26] INFO root fetch - processPackages [itkwasm]: executing diffoscope
+[2023-04-17 20:33:26] INFO root fetch - processPackages [itkwasm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itkwasm-1.0b93.tar.gz tmp/itkwasm-1.0b94.tar.gz --markdown 20230417/i/itkwasm/1.0b93-1.0b94/diff.md --exclude *.pyd
+[2023-04-17 20:33:26] INFO root fetch - processPackages [slideflow]: executing diffoscope
+[2023-04-17 20:33:26] INFO root fetch - processPackages [slideflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slideflow-2.0.1-py3-none-any.whl.zip tmp/slideflow-2.0.2-py3-none-any.whl.zip --markdown 20230417/s/slideflow/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-04-17 20:33:26] INFO root fetch - processPackages [sparkpipelineframework.testing]: Downloading https://files.pythonhosted.org/packages/30/6d/59ffac4e1ebc7684f5b7fdcf29df90d1566d8a22c1aec7901a90647d839f/sparkpipelineframework.testing-1.1.9.tar.gz
+[2023-04-17 20:33:26] INFO root fetch - processPackages [plone.restapi]: Downloading https://files.pythonhosted.org/packages/33/68/6801f068e5c970b2e51849ae5831a9c2172d1179cfbfdb656bdcf249b4bf/plone.restapi-8.9.1.tar.gz
+[2023-04-17 20:33:26] INFO root fetch - processPackages [sparkpipelineframework.testing]: executing diffoscope
+[2023-04-17 20:33:26] INFO root fetch - processPackages [sparkpipelineframework.testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparkpipelineframework.testing-1.1.8.tar.gz tmp/sparkpipelineframework.testing-1.1.9.tar.gz --markdown 20230417/s/sparkpipelineframework.testing/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-04-17 20:33:27] INFO root fetch - main [MainThread]: End processing [ttkDesigner]: success
+[2023-04-17 20:33:27] INFO root fetch - main [MainThread]: End processing [oecd-toolbox]: success
+[2023-04-17 20:33:27] INFO root fetch - processPackages [plone.restapi]: executing diffoscope
+[2023-04-17 20:33:27] INFO root fetch - processPackages [plone.restapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plone.restapi-8.9.0.tar.gz tmp/plone.restapi-8.9.1.tar.gz --markdown 20230417/p/plone.restapi/8.9.0-8.9.1/diff.md --exclude *.pyd
+[2023-04-17 20:33:27] INFO root fetch - main [MainThread]: End processing [steam-market-history]: success
+[2023-04-17 20:33:27] INFO root fetch - main [MainThread]: End processing [netsuite-python]: success
+[2023-04-17 20:33:27] INFO root fetch - main [MainThread]: End processing [f4]: success
+[2023-04-17 20:33:28] INFO root fetch - main [MainThread]: End processing [itkwasm]: success
+[2023-04-17 20:33:29] INFO root fetch - main [MainThread]: End processing [sparkpipelineframework.testing]: success
+[2023-04-17 20:33:30] INFO root fetch - main [MainThread]: End processing [slideflow]: success
+[2023-04-17 20:33:34] INFO root fetch - main [MainThread]: End processing [plone.restapi]: success
+[2023-04-17 20:33:59] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-04-17 20:33:59] INFO root fetch - main [MainThread]: Store serial: [17742722]
