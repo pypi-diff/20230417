@@ -19355,3 +19355,98 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-17 19:45:37] INFO root fetch - main [MainThread]: End processing [pyplasm]: success
 [2023-04-17 19:45:58] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-04-17 19:45:58] INFO root fetch - main [MainThread]: Store serial: [17742173]
+[2023-04-17 19:51:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17742173]
+[2023-04-17 19:51:07] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-17 19:51:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hcli
+[2023-04-17 19:51:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coiled
+[2023-04-17 19:51:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: optimum-habana
+[2023-04-17 19:51:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: watchtower-browser-testing
+[2023-04-17 19:51:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: btrack
+[2023-04-17 19:51:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tum-esm-utils
+[2023-04-17 19:51:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xh-dict-utils
+[2023-04-17 19:51:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: py_authorization
+[2023-04-17 19:51:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: monod
+[2023-04-17 19:51:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: prince
+[2023-04-17 19:51:07] INFO root fetch - processPackages [btrack]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-04-17 19:51:07] INFO root fetch - processPackages [watchtower-browser-testing]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-17 19:51:07] INFO root fetch - processPackages [xh-dict-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 19:51:07] INFO root fetch - processPackages [xh-dict-utils]: executing diffoscope
+[2023-04-17 19:51:07] INFO root fetch - processPackages [xh-dict-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xh-dict-utils-0.0.8.tar.gz tmp/xh-dict-utils-0.0.9.tar.gz --markdown 20230417/x/xh-dict-utils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 19:51:07] INFO root fetch - processPackages [optimum-habana]: New version: [1.5.0] Old Version: [1.4.2]
+[2023-04-17 19:51:07] INFO root fetch - processPackages [watchtower-browser-testing]: executing diffoscope
+[2023-04-17 19:51:07] INFO root fetch - processPackages [watchtower-browser-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchtower_browser_testing-0.3.8.tar.gz tmp/watchtower_browser_testing-0.3.9.tar.gz --markdown 20230417/w/watchtower-browser-testing/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-17 19:51:07] INFO root fetch - processPackages [hcli]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-17 19:51:07] INFO root fetch - processPackages [py_authorization]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-04-17 19:51:07] INFO root fetch - processPackages [tum-esm-utils]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-04-17 19:51:07] INFO root fetch - processPackages [monod]: New version: [0.2.6.0] Old Version: [0.2.5.0]
+[2023-04-17 19:51:07] INFO root fetch - processPackages [prince]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-04-17 19:51:07] INFO root fetch - processPackages [btrack]: Downloading https://files.pythonhosted.org/packages/3a/c4/0bcea9ce0f3d0511eaa4cce157d2346465cad027b0a35ba6ad94131a71cb/btrack-0.5.6.tar.gz
+[2023-04-17 19:51:07] INFO root fetch - processPackages [hcli]: Downloading https://files.pythonhosted.org/packages/7e/d6/9cab5b42a42d91870beadd1071e8974b72cae99b242509da7e3f5e358182/hcli-1.0.8.tar.gz
+[2023-04-17 19:51:07] INFO root fetch - processPackages [coiled]: New version: [0.5.9.post0.dev8] Old Version: [0.5.9.post0.dev7]
+[2023-04-17 19:51:07] INFO root fetch - processPackages [tum-esm-utils]: Downloading https://files.pythonhosted.org/packages/6e/5b/84b1e885f22b557f9c6a58d4713a7424829f5ea3c44c3d6f2433bc8021ad/tum_esm_utils-1.3.0.tar.gz
+[2023-04-17 19:51:07] INFO root fetch - processPackages [monod]: Downloading https://files.pythonhosted.org/packages/b7/69/0e02b01ceab7827e2ebaefb01f949d235c1d1aff2f226eaec1c46ac67f11/monod-0.2.5.0.tar.gz
+[2023-04-17 19:51:07] INFO root fetch - processPackages [py_authorization]: Downloading https://files.pythonhosted.org/packages/de/ad/74f41d9932cbe2d9762462f51a8e3847420997164f374a41354e07bd6fb1/py_authorization-1.3.0.tar.gz
+[2023-04-17 19:51:07] INFO root fetch - processPackages [optimum-habana]: Downloading https://files.pythonhosted.org/packages/6d/9b/907b3da5bff5be5c53e9be876032a53ccd02e3ccf505a0bc6e409ece485a/optimum-habana-1.4.2.tar.gz
+[2023-04-17 19:51:07] INFO root fetch - processPackages [prince]: Downloading https://files.pythonhosted.org/packages/20/7d/52da375fe09db5d8d44708f57d6f3e5c60f6aa30e952f7c6d83c85446460/prince-0.8.3.tar.gz
+[2023-04-17 19:51:07] INFO root fetch - processPackages [btrack]: executing diffoscope
+[2023-04-17 19:51:07] INFO root fetch - processPackages [btrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/btrack-0.5.5.tar.gz tmp/btrack-0.5.6.tar.gz --markdown 20230417/b/btrack/0.5.5-0.5.6/diff.md --exclude *.pyd
+[2023-04-17 19:51:08] INFO root fetch - processPackages [monod]: Downloading https://files.pythonhosted.org/packages/f3/7f/ace79c1a1c87a098352c429bbe281d623ac7c41b9223c9ab1b298a629de0/monod-0.2.6.0.tar.gz
+[2023-04-17 19:51:08] INFO root fetch - processPackages [optimum-habana]: Downloading https://files.pythonhosted.org/packages/1d/30/b6196654cf144718656cee1546048f8214db8c33b55105badee00015dd3a/optimum-habana-1.5.0.tar.gz
+[2023-04-17 19:51:08] INFO root fetch - processPackages [tum-esm-utils]: Downloading https://files.pythonhosted.org/packages/66/22/70ab06cc547b34292cdafcbc6e82b58bc33362794f5e075aaa7ebf36b7ec/tum_esm_utils-1.4.0.tar.gz
+[2023-04-17 19:51:08] INFO root fetch - processPackages [py_authorization]: Downloading https://files.pythonhosted.org/packages/6a/2c/0689614259b42f81494008995aeda2d8cec39a5029918ef4bbef7752f461/py_authorization-1.4.0.tar.gz
+[2023-04-17 19:51:08] INFO root fetch - processPackages [hcli]: Downloading https://files.pythonhosted.org/packages/3f/71/077b43e086520b8178696bc3883823caf204f5770f4310ba068827b2ade0/hcli-1.0.9.tar.gz
+[2023-04-17 19:51:08] INFO root fetch - processPackages [prince]: Downloading https://files.pythonhosted.org/packages/6b/b3/f75ebfb9886bcbb05ca47cb403dd13dc064d168f15a6f3d7e0cd3b6861c4/prince-0.9.0.tar.gz
+[2023-04-17 19:51:08] INFO root fetch - processPackages [optimum-habana]: executing diffoscope
+[2023-04-17 19:51:08] INFO root fetch - processPackages [monod]: executing diffoscope
+[2023-04-17 19:51:08] INFO root fetch - processPackages [optimum-habana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optimum-habana-1.4.2.tar.gz tmp/optimum-habana-1.5.0.tar.gz --markdown 20230417/o/optimum-habana/1.4.2-1.5.0/diff.md --exclude *.pyd
+[2023-04-17 19:51:08] INFO root fetch - processPackages [monod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monod-0.2.5.0.tar.gz tmp/monod-0.2.6.0.tar.gz --markdown 20230417/m/monod/0.2.5.0-0.2.6.0/diff.md --exclude *.pyd
+[2023-04-17 19:51:08] INFO root fetch - processPackages [tum-esm-utils]: executing diffoscope
+[2023-04-17 19:51:08] INFO root fetch - processPackages [tum-esm-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tum_esm_utils-1.3.0.tar.gz tmp/tum_esm_utils-1.4.0.tar.gz --markdown 20230417/t/tum-esm-utils/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-04-17 19:51:08] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-04-17 19:51:08] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.5.9.post0.dev7.tar.gz tmp/coiled-0.5.9.post0.dev8.tar.gz --markdown 20230417/c/coiled/0.5.9.post0.dev7-0.5.9.post0.dev8/diff.md --exclude *.pyd
+[2023-04-17 19:51:08] INFO root fetch - processPackages [py_authorization]: executing diffoscope
+[2023-04-17 19:51:08] INFO root fetch - processPackages [py_authorization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_authorization-1.3.0.tar.gz tmp/py_authorization-1.4.0.tar.gz --markdown 20230417/p/py_authorization/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-04-17 19:51:08] INFO root fetch - processPackages [prince]: executing diffoscope
+[2023-04-17 19:51:08] INFO root fetch - processPackages [prince]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prince-0.8.3.tar.gz tmp/prince-0.9.0.tar.gz --markdown 20230417/p/prince/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-04-17 19:51:08] INFO root fetch - processPackages [hcli]: executing diffoscope
+[2023-04-17 19:51:08] INFO root fetch - processPackages [hcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcli-1.0.8.tar.gz tmp/hcli-1.0.9.tar.gz --markdown 20230417/h/hcli/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-17 19:51:08] INFO root fetch - processPackages [xh-dict-utils]: Start processing: OnlySnarf
+[2023-04-17 19:51:08] INFO root fetch - main [MainThread]: End processing [xh-dict-utils]: success
+[2023-04-17 19:51:08] INFO root fetch - processPackages [watchtower-browser-testing]: Start processing: redscrap
+[2023-04-17 19:51:08] INFO root fetch - main [MainThread]: End processing [watchtower-browser-testing]: success
+[2023-04-17 19:51:09] INFO root fetch - processPackages [OnlySnarf]: New version: [4.4.13] Old Version: [4.4.12]
+[2023-04-17 19:51:09] INFO root fetch - processPackages [redscrap]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-17 19:51:09] INFO root fetch - processPackages [OnlySnarf]: Downloading https://files.pythonhosted.org/packages/27/f0/0ebd28db9341e743e7328a0cdbf7278a2e002892c84ae081d9e0d142e4c8/OnlySnarf-4.4.12.tar.gz
+[2023-04-17 19:51:09] INFO root fetch - processPackages [redscrap]: Downloading https://files.pythonhosted.org/packages/73/26/8d60bcf2c04a43bc4ee191ee39110c5af5db89251a911f3f5c13a518e2db/redscrap-0.0.3-py3-none-any.whl
+[2023-04-17 19:51:09] INFO root fetch - processPackages [OnlySnarf]: Downloading https://files.pythonhosted.org/packages/40/db/48cbbb4a8867894053514d9864346d7fdf01198621509a522d23d1068832/OnlySnarf-4.4.13.tar.gz
+[2023-04-17 19:51:09] INFO root fetch - processPackages [redscrap]: executing diffoscope
+[2023-04-17 19:51:09] INFO root fetch - processPackages [redscrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redscrap-0.0.2-py3-none-any.whl.zip tmp/redscrap-0.0.3-py3-none-any.whl.zip --markdown 20230417/r/redscrap/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-17 19:51:09] INFO root fetch - processPackages [monod]: Start processing: jeff-api
+[2023-04-17 19:51:09] INFO root fetch - main [MainThread]: End processing [monod]: success
+[2023-04-17 19:51:09] INFO root fetch - processPackages [OnlySnarf]: executing diffoscope
+[2023-04-17 19:51:09] INFO root fetch - processPackages [OnlySnarf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OnlySnarf-4.4.12.tar.gz tmp/OnlySnarf-4.4.13.tar.gz --markdown 20230417/O/OnlySnarf/4.4.12-4.4.13/diff.md --exclude *.pyd
+[2023-04-17 19:51:09] INFO root fetch - processPackages [jeff-api]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-04-17 19:51:09] INFO root fetch - processPackages [hcli]: Start processing: xh-dict-utils
+[2023-04-17 19:51:09] INFO root fetch - main [MainThread]: End processing [hcli]: success
+[2023-04-17 19:51:09] INFO root fetch - processPackages [prince]: Start processing: coiled
+[2023-04-17 19:51:09] INFO root fetch - main [MainThread]: End processing [prince]: success
+[2023-04-17 19:51:09] INFO root fetch - processPackages [xh-dict-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 19:51:09] INFO root fetch - processPackages [coiled]: New version: [0.5.9.post0.dev8] Old Version: [0.5.9.post0.dev7]
+[2023-04-17 19:51:09] INFO root fetch - processPackages [jeff-api]: Downloading https://files.pythonhosted.org/packages/9f/2f/a68dac6e6d0a1f460ae2ab9c3abb7d6ceda4c2721005be174c87939decdc/jeff_api-1.2.5.tar.gz
+[2023-04-17 19:51:09] INFO root fetch - main [MainThread]: End processing [py_authorization]: success
+[2023-04-17 19:51:09] INFO root fetch - processPackages [xh-dict-utils]: executing diffoscope
+[2023-04-17 19:51:09] INFO root fetch - processPackages [xh-dict-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xh-dict-utils-0.0.8.tar.gz tmp/xh-dict-utils-0.0.9.tar.gz --markdown 20230417/x/xh-dict-utils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 19:51:10] INFO root fetch - main [MainThread]: End processing [optimum-habana]: success
+[2023-04-17 19:51:10] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-04-17 19:51:10] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.5.9.post0.dev7.tar.gz tmp/coiled-0.5.9.post0.dev8.tar.gz --markdown 20230417/c/coiled/0.5.9.post0.dev7-0.5.9.post0.dev8/diff.md --exclude *.pyd
+[2023-04-17 19:51:10] INFO root fetch - processPackages [jeff-api]: executing diffoscope
+[2023-04-17 19:51:10] INFO root fetch - processPackages [jeff-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jeff_api-1.2.4.tar.gz tmp/jeff_api-1.2.5.tar.gz --markdown 20230417/j/jeff-api/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-04-17 19:51:10] INFO root fetch - main [MainThread]: End processing [tum-esm-utils]: success
+[2023-04-17 19:51:11] INFO root fetch - main [MainThread]: End processing [redscrap]: success
+[2023-04-17 19:51:11] INFO root fetch - main [MainThread]: End processing [xh-dict-utils]: success
+[2023-04-17 19:51:11] INFO root fetch - main [MainThread]: End processing [jeff-api]: success
+[2023-04-17 19:51:11] INFO root fetch - main [MainThread]: End processing [OnlySnarf]: success
+[2023-04-17 19:51:12] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-04-17 19:51:13] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-04-17 19:51:17] INFO root fetch - main [MainThread]: End processing [btrack]: success
+[2023-04-17 19:51:17] INFO root fetch - main [MainThread]: Store serial: [17742220]
