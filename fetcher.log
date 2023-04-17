@@ -5323,3 +5323,44 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 06:34:46] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark2]: success
 [2023-04-17 06:34:55] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark2]: success
 [2023-04-17 06:34:55] INFO root fetch - main [MainThread]: Store serial: [17733731]
+[2023-04-17 06:39:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17733731]
+[2023-04-17 06:40:04] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-17 06:40:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: exodusutils
+[2023-04-17 06:40:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flowclient
+[2023-04-17 06:40:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flowetl
+[2023-04-17 06:40:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flowmachine
+[2023-04-17 06:40:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: provider-switch
+[2023-04-17 06:40:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: onepasswd
+[2023-04-17 06:40:04] INFO root fetch - processPackages [exodusutils]: New version: [0.3.9] Old Version: [0.3.7]
+[2023-04-17 06:40:04] INFO root fetch - processPackages [flowclient]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2023-04-17 06:40:04] INFO root fetch - processPackages [provider-switch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 06:40:04] INFO root fetch - processPackages [onepasswd]: New version: [0.2.4rc2] Old Version: [0.2.4rc1]
+[2023-04-17 06:40:04] INFO root fetch - processPackages [flowmachine]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2023-04-17 06:40:04] INFO root fetch - processPackages [flowetl]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2023-04-17 06:40:04] INFO root fetch - processPackages [exodusutils]: executing diffoscope
+[2023-04-17 06:40:04] INFO root fetch - processPackages [exodusutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exodusutils-0.3.7.tar.gz tmp/exodusutils-0.3.9.tar.gz --markdown 20230417/e/exodusutils/0.3.7-0.3.9/diff.md --exclude *.pyd
+[2023-04-17 06:40:04] INFO root fetch - processPackages [flowclient]: Downloading https://files.pythonhosted.org/packages/6e/37/bfddd70659fed8e7ba3a486ccedc2b55d3a84bf6338dbd6fda2fc4b2d415/flowclient-1.9.4.post0.dev70-py3-none-any.whl
+[2023-04-17 06:40:04] INFO root fetch - processPackages [flowmachine]: Downloading https://files.pythonhosted.org/packages/ff/bf/14ac068a066254bcc3b11ea0939b748a8b86f4e7e01bff260e84c6428c02/flowmachine-1.9.4.post0.dev70-py3-none-any.whl
+[2023-04-17 06:40:04] INFO root fetch - processPackages [flowetl]: Downloading https://files.pythonhosted.org/packages/7d/68/60330ef4aed6e6a0e8c8f1474a60a9868ed4e2bf928a79eae26c2becd5cb/flowetl-1.9.4.post0.dev70-py3-none-any.whl
+[2023-04-17 06:40:04] INFO root fetch - processPackages [onepasswd]: Downloading https://files.pythonhosted.org/packages/7f/5b/ed0b34c247133eb0f6920147218a20d9b2a8609e90c71aa0c4fa70093568/onepasswd-0.2.4rc1.tar.gz
+[2023-04-17 06:40:04] INFO root fetch - processPackages [provider-switch]: executing diffoscope
+[2023-04-17 06:40:04] INFO root fetch - processPackages [provider-switch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/provider-switch-0.0.8.tar.gz tmp/provider-switch-0.0.9.tar.gz --markdown 20230417/p/provider-switch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 06:40:04] INFO root fetch - processPackages [flowclient]: Downloading https://files.pythonhosted.org/packages/3e/ea/cf6edcf54b4b9f2c2c6149b4a6c3d8c57011245b7036b7468a43028bb1db/flowclient-1.9.4.post0.dev76-py3-none-any.whl
+[2023-04-17 06:40:04] INFO root fetch - processPackages [onepasswd]: Downloading https://files.pythonhosted.org/packages/79/be/e71af233599a1e24f2e1d728132fb642f01d528ba34746010270b05eaea9/onepasswd-0.2.4rc2.tar.gz
+[2023-04-17 06:40:04] INFO root fetch - processPackages [flowmachine]: Downloading https://files.pythonhosted.org/packages/25/d8/7f2f3ed6764c57835d2e49a0547b3be72952a62e845b2f82cfb00d4847df/flowmachine-1.9.4.post0.dev76-py3-none-any.whl
+[2023-04-17 06:40:04] INFO root fetch - processPackages [flowetl]: Downloading https://files.pythonhosted.org/packages/aa/29/1fe11f39e3155139661660c2caf8caf80ccb6e0fce150e201a56d2aaf812/flowetl-1.9.4.post0.dev76-py3-none-any.whl
+[2023-04-17 06:40:04] INFO root fetch - processPackages [flowclient]: executing diffoscope
+[2023-04-17 06:40:04] INFO root fetch - processPackages [onepasswd]: executing diffoscope
+[2023-04-17 06:40:04] INFO root fetch - processPackages [flowclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowclient-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowclient-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20230417/f/flowclient/1.9.4.post0.dev70-1.9.4.post0.dev76/diff.md --exclude *.pyd
+[2023-04-17 06:40:04] INFO root fetch - processPackages [onepasswd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onepasswd-0.2.4rc1.tar.gz tmp/onepasswd-0.2.4rc2.tar.gz --markdown 20230417/o/onepasswd/0.2.4rc1-0.2.4rc2/diff.md --exclude *.pyd
+[2023-04-17 06:40:04] INFO root fetch - processPackages [flowetl]: executing diffoscope
+[2023-04-17 06:40:04] INFO root fetch - processPackages [flowetl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowetl-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowetl-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20230417/f/flowetl/1.9.4.post0.dev70-1.9.4.post0.dev76/diff.md --exclude *.pyd
+[2023-04-17 06:40:04] INFO root fetch - processPackages [flowmachine]: executing diffoscope
+[2023-04-17 06:40:04] INFO root fetch - processPackages [flowmachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowmachine-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowmachine-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20230417/f/flowmachine/1.9.4.post0.dev70-1.9.4.post0.dev76/diff.md --exclude *.pyd
+[2023-04-17 06:40:05] INFO root fetch - main [MainThread]: End processing [exodusutils]: success
+[2023-04-17 06:40:05] INFO root fetch - main [MainThread]: End processing [provider-switch]: success
+[2023-04-17 06:40:06] INFO root fetch - main [MainThread]: End processing [onepasswd]: success
+[2023-04-17 06:40:06] INFO root fetch - main [MainThread]: End processing [flowclient]: success
+[2023-04-17 06:40:06] INFO root fetch - main [MainThread]: End processing [flowetl]: success
+[2023-04-17 06:40:07] INFO root fetch - main [MainThread]: End processing [flowmachine]: success
+[2023-04-17 06:40:07] INFO root fetch - main [MainThread]: Store serial: [17733746]
