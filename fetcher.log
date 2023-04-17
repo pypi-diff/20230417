@@ -3452,3 +3452,143 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 03:34:44] INFO root fetch - main [MainThread]: End processing [svgelements]: success
 [2023-04-17 03:34:52] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
 [2023-04-17 03:34:52] INFO root fetch - main [MainThread]: Store serial: [17732626]
+[2023-04-17 03:39:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17732626]
+[2023-04-17 03:40:01] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-04-17 03:40:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbdev-sphinx
+[2023-04-17 03:40:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: network-scanner-kbk
+[2023-04-17 03:40:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbdev-django
+[2023-04-17 03:40:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: buildbot
+[2023-04-17 03:40:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: buildbot-badges
+[2023-04-17 03:40:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: buildbot-console-view
+[2023-04-17 03:40:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: buildbot-grid-view
+[2023-04-17 03:40:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: buildbot-pkg
+[2023-04-17 03:40:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: buildbot-react-console-view
+[2023-04-17 03:40:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: buildbot-react-grid-view
+[2023-04-17 03:40:01] INFO root fetch - processPackages [network-scanner-kbk]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-17 03:40:01] INFO root fetch - processPackages [buildbot]: New version: [3.8.0] Old Version: [3.7.0]
+[2023-04-17 03:40:01] WARNING root fetch - processPackages [buildbot-react-console-view]: Skipping, unable to determine old version
+[2023-04-17 03:40:01] INFO root fetch - processPackages [buildbot-react-console-view]: Start processing: buildbot-waterfall-view
+[2023-04-17 03:40:01] WARNING root fetch - processPackages [buildbot-react-grid-view]: Skipping, unable to determine old version
+[2023-04-17 03:40:01] INFO root fetch - main [MainThread]: End processing [buildbot-react-console-view] error
+[2023-04-17 03:40:01] INFO root fetch - processPackages [buildbot-react-grid-view]: Start processing: buildbot-worker
+[2023-04-17 03:40:01] INFO root fetch - main [MainThread]: End processing [buildbot-react-grid-view] error
+[2023-04-17 03:40:01] INFO root fetch - processPackages [buildbot-badges]: New version: [3.8.0] Old Version: [3.7.0]
+[2023-04-17 03:40:01] INFO root fetch - processPackages [buildbot-console-view]: New version: [3.8.0] Old Version: [3.7.0]
+[2023-04-17 03:40:01] INFO root fetch - processPackages [buildbot-pkg]: New version: [3.8.0] Old Version: [3.7.0]
+[2023-04-17 03:40:01] INFO root fetch - processPackages [buildbot-grid-view]: New version: [3.8.0] Old Version: [3.7.0]
+[2023-04-17 03:40:01] INFO root fetch - processPackages [buildbot-waterfall-view]: New version: [3.8.0] Old Version: [3.7.0]
+[2023-04-17 03:40:01] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-17 03:40:01] INFO root fetch - processPackages [buildbot-worker]: New version: [3.8.0] Old Version: [3.7.0]
+[2023-04-17 03:40:01] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-17 03:40:01] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-04-17 03:40:01] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230417/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-17 03:40:01] INFO root fetch - processPackages [buildbot-console-view]: Downloading https://files.pythonhosted.org/packages/49/d4/7c478489d51a1c2c857789ad5072d78405f4048c5c5dd7f03e9f373f9d96/buildbot-console-view-3.7.0.tar.gz
+[2023-04-17 03:40:01] INFO root fetch - processPackages [buildbot]: Downloading https://files.pythonhosted.org/packages/ac/8e/d0d5e4999687d175c4c51c47ae2a7442063c8bda9b2fc02804c70d968fb2/buildbot-3.7.0.tar.gz
+[2023-04-17 03:40:01] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-04-17 03:40:01] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230417/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-17 03:40:01] INFO root fetch - processPackages [buildbot-pkg]: Downloading https://files.pythonhosted.org/packages/72/d5/a96fe7e97004d145ca42501c22213a7dd5e90611b47691529a25e3ff05e6/buildbot-pkg-3.7.0.tar.gz
+[2023-04-17 03:40:01] INFO root fetch - processPackages [network-scanner-kbk]: Downloading https://files.pythonhosted.org/packages/42/c3/a9f2b3cfb02b803bd7d25005314e1fc0afbc14a4a762c90560540d73f940/network_scanner_kbk-0.0.6.tar.gz
+[2023-04-17 03:40:01] INFO root fetch - processPackages [buildbot-waterfall-view]: Downloading https://files.pythonhosted.org/packages/a7/7b/ebf2ca140d27f0d9e50c196c7fcda4cae1f84c1a7dbb21ed501491d018da/buildbot-waterfall-view-3.7.0.tar.gz
+[2023-04-17 03:40:01] INFO root fetch - processPackages [buildbot-worker]: Downloading https://files.pythonhosted.org/packages/f6/ba/664f21dec8777aa1b423ee7b2ea37f99d21f03261a080c4ec1fdd17346cc/buildbot-worker-3.7.0.tar.gz
+[2023-04-17 03:40:01] INFO root fetch - processPackages [buildbot-badges]: Downloading https://files.pythonhosted.org/packages/32/6f/e7eb20491d1e27d132ad365117bb436225dad73f7c19cc310e9c56f27eb7/buildbot-badges-3.7.0.tar.gz
+[2023-04-17 03:40:01] INFO root fetch - processPackages [buildbot-grid-view]: Downloading https://files.pythonhosted.org/packages/a4/d4/2fdffedff33e86ad1853d7f3c2f7150026460f09d97d9f9e78b3b38ea991/buildbot-grid-view-3.7.0.tar.gz
+[2023-04-17 03:40:01] INFO root fetch - processPackages [network-scanner-kbk]: executing diffoscope
+[2023-04-17 03:40:01] INFO root fetch - processPackages [network-scanner-kbk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/network_scanner_kbk-0.0.5.tar.gz tmp/network_scanner_kbk-0.0.6.tar.gz --markdown 20230417/n/network-scanner-kbk/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-17 03:40:02] INFO root fetch - processPackages [buildbot-console-view]: Downloading https://files.pythonhosted.org/packages/b7/16/dd698fef3841110e5505c2470a347633c45038c576df0a62214d7833013c/buildbot-console-view-3.8.0.tar.gz
+[2023-04-17 03:40:02] INFO root fetch - processPackages [buildbot-pkg]: Downloading https://files.pythonhosted.org/packages/90/03/119641d50685490139588c6679b5a2f563390e882c5ba63ad36d9daadb22/buildbot-pkg-3.8.0.tar.gz
+[2023-04-17 03:40:02] INFO root fetch - processPackages [buildbot-waterfall-view]: Downloading https://files.pythonhosted.org/packages/67/41/25aacbe1ede133223cb3a16348e652f3ec5522c570b3c0678d32134c3d8b/buildbot-waterfall-view-3.8.0.tar.gz
+[2023-04-17 03:40:02] INFO root fetch - processPackages [buildbot-worker]: Downloading https://files.pythonhosted.org/packages/f6/fa/f5bbf1ba7dc273c43756bedd5a6ee1ed3e53750d8e61eb6b6b1ef13ab410/buildbot-worker-3.8.0.tar.gz
+[2023-04-17 03:40:02] INFO root fetch - processPackages [buildbot-badges]: Downloading https://files.pythonhosted.org/packages/7c/e3/5e86d494a33ea5c53a23dd08d1b84299d140fb8219595ca1fff33df21954/buildbot-badges-3.8.0.tar.gz
+[2023-04-17 03:40:02] INFO root fetch - processPackages [buildbot-grid-view]: Downloading https://files.pythonhosted.org/packages/d5/82/476f572ebcbacb7828b575c0084b10d540a6c65944850dc006e18f4fc433/buildbot-grid-view-3.8.0.tar.gz
+[2023-04-17 03:40:02] INFO root fetch - processPackages [buildbot-console-view]: executing diffoscope
+[2023-04-17 03:40:02] INFO root fetch - processPackages [buildbot-console-view]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buildbot-console-view-3.7.0.tar.gz tmp/buildbot-console-view-3.8.0.tar.gz --markdown 20230417/b/buildbot-console-view/3.7.0-3.8.0/diff.md --exclude *.pyd
+[2023-04-17 03:40:02] INFO root fetch - processPackages [buildbot-pkg]: executing diffoscope
+[2023-04-17 03:40:02] INFO root fetch - processPackages [buildbot-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buildbot-pkg-3.7.0.tar.gz tmp/buildbot-pkg-3.8.0.tar.gz --markdown 20230417/b/buildbot-pkg/3.7.0-3.8.0/diff.md --exclude *.pyd
+[2023-04-17 03:40:02] INFO root fetch - processPackages [buildbot-waterfall-view]: executing diffoscope
+[2023-04-17 03:40:02] INFO root fetch - processPackages [buildbot-waterfall-view]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buildbot-waterfall-view-3.7.0.tar.gz tmp/buildbot-waterfall-view-3.8.0.tar.gz --markdown 20230417/b/buildbot-waterfall-view/3.7.0-3.8.0/diff.md --exclude *.pyd
+[2023-04-17 03:40:02] INFO root fetch - processPackages [buildbot-worker]: executing diffoscope
+[2023-04-17 03:40:02] INFO root fetch - processPackages [buildbot-badges]: executing diffoscope
+[2023-04-17 03:40:02] INFO root fetch - processPackages [buildbot-worker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buildbot-worker-3.7.0.tar.gz tmp/buildbot-worker-3.8.0.tar.gz --markdown 20230417/b/buildbot-worker/3.7.0-3.8.0/diff.md --exclude *.pyd
+[2023-04-17 03:40:02] INFO root fetch - processPackages [buildbot-grid-view]: executing diffoscope
+[2023-04-17 03:40:02] INFO root fetch - processPackages [buildbot-badges]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buildbot-badges-3.7.0.tar.gz tmp/buildbot-badges-3.8.0.tar.gz --markdown 20230417/b/buildbot-badges/3.7.0-3.8.0/diff.md --exclude *.pyd
+[2023-04-17 03:40:02] INFO root fetch - processPackages [buildbot-grid-view]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buildbot-grid-view-3.7.0.tar.gz tmp/buildbot-grid-view-3.8.0.tar.gz --markdown 20230417/b/buildbot-grid-view/3.7.0-3.8.0/diff.md --exclude *.pyd
+[2023-04-17 03:40:02] INFO root fetch - processPackages [buildbot]: Downloading https://files.pythonhosted.org/packages/68/e1/519e91b0a09a11f7e15ebf4a0e73e45bf8299ee4a763be9b38ca9ebe5e8c/buildbot-3.8.0.tar.gz
+[2023-04-17 03:40:02] INFO root fetch - processPackages [buildbot]: executing diffoscope
+[2023-04-17 03:40:02] INFO root fetch - processPackages [buildbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buildbot-3.7.0.tar.gz tmp/buildbot-3.8.0.tar.gz --markdown 20230417/b/buildbot/3.7.0-3.8.0/diff.md --exclude *.pyd
+[2023-04-17 03:40:03] INFO root fetch - processPackages [nbdev-sphinx]: Start processing: buildbot-wsgi-dashboards
+[2023-04-17 03:40:03] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-04-17 03:40:03] INFO root fetch - processPackages [buildbot-wsgi-dashboards]: New version: [3.8.0] Old Version: [3.7.0]
+[2023-04-17 03:40:03] INFO root fetch - processPackages [buildbot-pkg]: Start processing: proactive
+[2023-04-17 03:40:03] INFO root fetch - main [MainThread]: End processing [buildbot-pkg]: success
+[2023-04-17 03:40:03] INFO root fetch - processPackages [network-scanner-kbk]: Start processing: buildbot-www
+[2023-04-17 03:40:03] INFO root fetch - main [MainThread]: End processing [network-scanner-kbk]: success
+[2023-04-17 03:40:03] INFO root fetch - processPackages [proactive]: New version: [8.4.11] Old Version: [8.4.10]
+[2023-04-17 03:40:03] INFO root fetch - processPackages [buildbot-www]: New version: [v0.9.0b9] Old Version: [3.8.0]
+[2023-04-17 03:40:03] INFO root fetch - processPackages [proactive]: Downloading https://files.pythonhosted.org/packages/36/67/8f2441cbc911f3a57a2168b0e419b0751450a04c18791e6ba642af1085d8/proactive-8.4.10.zip
+[2023-04-17 03:40:03] INFO root fetch - processPackages [buildbot-badges]: Start processing: buildbot-www-react
+[2023-04-17 03:40:03] INFO root fetch - main [MainThread]: End processing [buildbot-badges]: success
+[2023-04-17 03:40:03] INFO root fetch - processPackages [buildbot-www-react]: New version: [3.8.0] Old Version: [3.7.0]
+[2023-04-17 03:40:03] INFO root fetch - processPackages [buildbot-www]: Downloading https://files.pythonhosted.org/packages/46/fc/9f42b4c1f4b577e3db2d3bf5853310b163b8fe83a354fa5a3e4e12e6b065/buildbot-www-3.8.0.tar.gz
+[2023-04-17 03:40:03] INFO root fetch - processPackages [buildbot-console-view]: Start processing: py4web
+[2023-04-17 03:40:03] INFO root fetch - main [MainThread]: End processing [buildbot-console-view]: success
+[2023-04-17 03:40:03] INFO root fetch - processPackages [py4web]: New version: [1.20230416.2] Old Version: [1.20230416.1]
+[2023-04-17 03:40:03] INFO root fetch - processPackages [buildbot-grid-view]: Start processing: nbdev-apl
+[2023-04-17 03:40:03] INFO root fetch - main [MainThread]: End processing [buildbot-grid-view]: success
+[2023-04-17 03:40:03] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.718] Old Version: [0.0.717]
+[2023-04-17 03:40:03] INFO root fetch - processPackages [buildbot-wsgi-dashboards]: Downloading https://files.pythonhosted.org/packages/c0/8f/eaa69dd6c3aca935c8d8169e4120579017d5ebe147e52ccb3cac2249c492/buildbot-wsgi-dashboards-3.7.0.tar.gz
+[2023-04-17 03:40:03] INFO root fetch - processPackages [buildbot-www-react]: Downloading https://files.pythonhosted.org/packages/72/0f/1bb5552089b701ee265b2af1f8ae00a7f6c80503bebdad3733c9ac6b7009/buildbot-www-react-3.7.0.tar.gz
+[2023-04-17 03:40:03] INFO root fetch - processPackages [nbdev-django]: Start processing: lattice-graph-manipulation
+[2023-04-17 03:40:03] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-04-17 03:40:03] INFO root fetch - processPackages [py4web]: Downloading https://files.pythonhosted.org/packages/44/3a/dd23ec35e7f6f024db94fdcf09008ad3319d25e71f8852f11db96fc6c553/py4web-1.20230416.2.tar.gz
+[2023-04-17 03:40:03] WARNING root fetch - processPackages [lattice-graph-manipulation]: Skipping, unable to determine old version
+[2023-04-17 03:40:03] INFO root fetch - processPackages [lattice-graph-manipulation]: Start processing: proactive-jupyter-kernel
+[2023-04-17 03:40:03] INFO root fetch - main [MainThread]: End processing [lattice-graph-manipulation] error
+[2023-04-17 03:40:03] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/9a/b7/cd8912bf4cb5bbccb53802784f0f113fe711cb93547ca487ccc28e79b413/nbdev-apl-0.0.718.tar.gz
+[2023-04-17 03:40:03] INFO root fetch - processPackages [buildbot-www]: Downloading https://files.pythonhosted.org/packages/62/20/5d2ac3982e94bf7b559a88d7397cc8a4d83e55b5ff71a1cce7081a71af43/buildbot-www-v0.9.0b9.tar.gz
+[2023-04-17 03:40:04] INFO root fetch - processPackages [proactive-jupyter-kernel]: New version: [13.1.1.2212191832.dev0] Old Version: [13.1.1.2212191149.dev0]
+[2023-04-17 03:40:04] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-04-17 03:40:04] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.717.tar.gz tmp/nbdev-apl-0.0.718.tar.gz --markdown 20230417/n/nbdev-apl/0.0.717-0.0.718/diff.md --exclude *.pyd
+[2023-04-17 03:40:04] INFO root fetch - processPackages [py4web]: executing diffoscope
+[2023-04-17 03:40:04] INFO root fetch - processPackages [buildbot-wsgi-dashboards]: Downloading https://files.pythonhosted.org/packages/b3/af/314658ace09c1be6ac5b355f3d2712b41b5c7758263d34064b50987f96c0/buildbot-wsgi-dashboards-3.8.0.tar.gz
+[2023-04-17 03:40:04] INFO root fetch - processPackages [py4web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py4web-1.20230416.1.tar.gz tmp/py4web-1.20230416.2.tar.gz --markdown 20230417/p/py4web/1.20230416.1-1.20230416.2/diff.md --exclude *.pyd
+[2023-04-17 03:40:04] INFO root fetch - processPackages [proactive-jupyter-kernel]: executing diffoscope
+[2023-04-17 03:40:04] INFO root fetch - processPackages [proactive-jupyter-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip --markdown 20230417/p/proactive-jupyter-kernel/13.1.1.2212191149.dev0-13.1.1.2212191832.dev0/diff.md --exclude *.pyd
+[2023-04-17 03:40:04] INFO root fetch - processPackages [buildbot-wsgi-dashboards]: executing diffoscope
+[2023-04-17 03:40:04] INFO root fetch - processPackages [buildbot-wsgi-dashboards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buildbot-wsgi-dashboards-3.7.0.tar.gz tmp/buildbot-wsgi-dashboards-3.8.0.tar.gz --markdown 20230417/b/buildbot-wsgi-dashboards/3.7.0-3.8.0/diff.md --exclude *.pyd
+[2023-04-17 03:40:04] INFO root fetch - processPackages [buildbot-www-react]: Downloading https://files.pythonhosted.org/packages/03/0a/dd186a23ada5fdcefc3a311ae839703258f35a855a255fb39a2dfe6df24c/buildbot-www-react-3.8.0.tar.gz
+[2023-04-17 03:40:04] WARNING root fetch - processPackages [proactive]: Skipping package: exceeds size limit 18979361>=10485760
+[2023-04-17 03:40:04] INFO root fetch - processPackages [proactive]: Start processing: prettyqt
+[2023-04-17 03:40:04] INFO root fetch - main [MainThread]: End processing [proactive] error
+[2023-04-17 03:40:04] INFO root fetch - processPackages [buildbot-www]: executing diffoscope
+[2023-04-17 03:40:04] INFO root fetch - processPackages [buildbot-www]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buildbot-www-3.8.0.tar.gz tmp/buildbot-www-v0.9.0b9.tar.gz --markdown 20230417/b/buildbot-www/3.8.0-v0.9.0b9/diff.md --exclude *.pyd
+[2023-04-17 03:40:04] INFO root fetch - processPackages [buildbot-www-react]: executing diffoscope
+[2023-04-17 03:40:04] INFO root fetch - processPackages [buildbot-www-react]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buildbot-www-react-3.7.0.tar.gz tmp/buildbot-www-react-3.8.0.tar.gz --markdown 20230417/b/buildbot-www-react/3.7.0-3.8.0/diff.md --exclude *.pyd
+[2023-04-17 03:40:04] INFO root fetch - processPackages [prettyqt]: New version: [1.6.0] Old Version: [1.5.0]
+[2023-04-17 03:40:04] INFO root fetch - processPackages [prettyqt]: executing diffoscope
+[2023-04-17 03:40:04] INFO root fetch - processPackages [prettyqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prettyqt-1.5.0.tar.gz tmp/prettyqt-1.6.0.tar.gz --markdown 20230417/p/prettyqt/1.5.0-1.6.0/diff.md --exclude *.pyd
+[2023-04-17 03:40:05] INFO root fetch - processPackages [nbdev-apl]: Start processing: pyfredapi
+[2023-04-17 03:40:05] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-04-17 03:40:05] INFO root fetch - processPackages [pyfredapi]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-04-17 03:40:05] INFO root fetch - processPackages [buildbot-wsgi-dashboards]: Start processing: regis
+[2023-04-17 03:40:05] INFO root fetch - main [MainThread]: End processing [buildbot-wsgi-dashboards]: success
+[2023-04-17 03:40:05] INFO root fetch - processPackages [buildbot-waterfall-view]: Start processing: pylumber
+[2023-04-17 03:40:05] INFO root fetch - main [MainThread]: End processing [buildbot-waterfall-view]: success
+[2023-04-17 03:40:05] INFO root fetch - processPackages [pyfredapi]: Downloading https://files.pythonhosted.org/packages/2c/93/b94dc51dce1d9888f27165b4d3bf22bbd560b2bef8c0b595f3349a0cb3b4/pyfredapi-0.5.3.tar.gz
+[2023-04-17 03:40:05] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel]: success
+[2023-04-17 03:40:05] INFO root fetch - processPackages [regis]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-17 03:40:05] WARNING root fetch - processPackages [pylumber]: Skipping, unable to determine old version
+[2023-04-17 03:40:05] INFO root fetch - main [MainThread]: End processing [pylumber] error
+[2023-04-17 03:40:05] INFO root fetch - main [MainThread]: End processing [buildbot-worker]: success
+[2023-04-17 03:40:05] INFO root fetch - processPackages [pyfredapi]: Downloading https://files.pythonhosted.org/packages/eb/19/fc9a2291c5c459fe48f73b25c2178be86e69e1be80cd0b2978448ee0491f/pyfredapi-0.5.4.tar.gz
+[2023-04-17 03:40:06] INFO root fetch - processPackages [pyfredapi]: executing diffoscope
+[2023-04-17 03:40:06] INFO root fetch - processPackages [pyfredapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfredapi-0.5.3.tar.gz tmp/pyfredapi-0.5.4.tar.gz --markdown 20230417/p/pyfredapi/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-04-17 03:40:06] INFO root fetch - processPackages [regis]: executing diffoscope
+[2023-04-17 03:40:06] INFO root fetch - processPackages [regis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/regis-0.1.8.tar.gz tmp/regis-0.1.9.tar.gz --markdown 20230417/r/regis/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-17 03:40:06] INFO root fetch - main [MainThread]: End processing [py4web]: success
+[2023-04-17 03:40:06] INFO root fetch - main [MainThread]: End processing [buildbot-www-react]: success
+[2023-04-17 03:40:07] INFO root fetch - main [MainThread]: End processing [pyfredapi]: success
+[2023-04-17 03:40:07] INFO root fetch - main [MainThread]: End processing [regis]: success
+[2023-04-17 03:40:11] INFO root fetch - main [MainThread]: End processing [buildbot-www]: success
+[2023-04-17 03:40:12] INFO root fetch - main [MainThread]: End processing [buildbot]: success
+[2023-04-17 03:40:14] INFO root fetch - main [MainThread]: End processing [prettyqt]: success
+[2023-04-17 03:40:14] INFO root fetch - main [MainThread]: Store serial: [17732704]
