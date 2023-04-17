@@ -18683,3 +18683,56 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-17 19:06:15] INFO root fetch - processPackages [dovado-rtl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dovado-rtl-0.9.8.tar.gz tmp/dovado-rtl-0.9.9.tar.gz --markdown 20230417/d/dovado-rtl/0.9.8-0.9.9/diff.md --exclude *.pyd
 [2023-04-17 19:06:24] INFO root fetch - main [MainThread]: End processing [dovado-rtl]: success
 [2023-04-17 19:06:24] INFO root fetch - main [MainThread]: Store serial: [17741757]
+[2023-04-17 19:11:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17741757]
+[2023-04-17 19:11:33] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-17 19:11:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: naampy
+[2023-04-17 19:11:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hello-world-norwegianwood
+[2023-04-17 19:11:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cf-wesgrh
+[2023-04-17 19:11:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: astrohack
+[2023-04-17 19:11:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lqs-client
+[2023-04-17 19:11:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: led-list
+[2023-04-17 19:11:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: robusta-cli
+[2023-04-17 19:11:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dovado-rtl
+[2023-04-17 19:11:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vollseg-napari-trackmate
+[2023-04-17 19:11:33] INFO root fetch - processPackages [vollseg-napari-trackmate]: New version: [2.1.7] Old Version: [2.1.6]
+[2023-04-17 19:11:33] INFO root fetch - processPackages [dovado-rtl]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-17 19:11:33] INFO root fetch - processPackages [astrohack]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-17 19:11:33] INFO root fetch - processPackages [naampy]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-04-17 19:11:33] WARNING root fetch - processPackages [cf-wesgrh]: Skipping, unable to determine old version
+[2023-04-17 19:11:33] WARNING root fetch - processPackages [hello-world-norwegianwood]: Skipping, unable to determine old version
+[2023-04-17 19:11:33] INFO root fetch - main [MainThread]: End processing [cf-wesgrh] error
+[2023-04-17 19:11:33] INFO root fetch - main [MainThread]: End processing [hello-world-norwegianwood] error
+[2023-04-17 19:11:33] INFO root fetch - processPackages [led-list]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-04-17 19:11:33] INFO root fetch - processPackages [lqs-client]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 19:11:33] INFO root fetch - processPackages [robusta-cli]: New version: [0.9.9] Old Version: [0.9.7]
+[2023-04-17 19:11:33] INFO root fetch - processPackages [dovado-rtl]: executing diffoscope
+[2023-04-17 19:11:33] INFO root fetch - processPackages [dovado-rtl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dovado-rtl-0.9.8.tar.gz tmp/dovado-rtl-0.9.9.tar.gz --markdown 20230417/d/dovado-rtl/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-17 19:11:33] INFO root fetch - processPackages [vollseg-napari-trackmate]: Downloading https://files.pythonhosted.org/packages/98/b9/b93d44d140fd3a31ac7c1f820ddc3c9e05b622dc2af6647b84bcc776e0db/vollseg-napari-trackmate-2.1.7.tar.gz
+[2023-04-17 19:11:33] INFO root fetch - processPackages [led-list]: Downloading https://files.pythonhosted.org/packages/65/90/2d1a81fa0e48ff87b4e9f2dd6cc440e31cdd35a46e2a3e0d1ac6a1308972/led_list-0.5.2.tar.gz
+[2023-04-17 19:11:33] INFO root fetch - processPackages [astrohack]: Downloading https://files.pythonhosted.org/packages/0d/35/e75644cae27ffc4107f6a454e6760aa4a7da1cb01e5e4ad0d06f25e58a79/astrohack-0.0.5.tar.gz
+[2023-04-17 19:11:33] INFO root fetch - processPackages [lqs-client]: Downloading https://files.pythonhosted.org/packages/bb/44/dce2040a4aa1094c1e10697e3696707add36f50aaa03b48f89264ccc2560/lqs-client-0.0.8.tar.gz
+[2023-04-17 19:11:34] INFO root fetch - processPackages [led-list]: Downloading https://files.pythonhosted.org/packages/d6/d2/913545d058e078e1c45b3db11152ba0a3081e3a9854c9a417091b2be0732/led_list-0.5.3.tar.gz
+[2023-04-17 19:11:34] INFO root fetch - processPackages [robusta-cli]: executing diffoscope
+[2023-04-17 19:11:34] INFO root fetch - processPackages [robusta-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robusta-cli-0.9.7.tar.gz tmp/robusta-cli-0.9.9.tar.gz --markdown 20230417/r/robusta-cli/0.9.7-0.9.9/diff.md --exclude *.pyd
+[2023-04-17 19:11:34] INFO root fetch - processPackages [astrohack]: Downloading https://files.pythonhosted.org/packages/ec/6a/b661254372637b31f57e70ea7a2db311defb3a1ea802699107c02dda30b8/astrohack-0.0.6.tar.gz
+[2023-04-17 19:11:34] INFO root fetch - processPackages [naampy]: Downloading https://files.pythonhosted.org/packages/2c/2e/78fb0dd446f618f3de5ea160195c2e6e73d764eba1a04950f109b4d9b703/naampy-0.5.0.tar.gz
+[2023-04-17 19:11:34] INFO root fetch - processPackages [vollseg-napari-trackmate]: executing diffoscope
+[2023-04-17 19:11:34] INFO root fetch - processPackages [vollseg-napari-trackmate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vollseg-napari-trackmate-2.1.6.tar.gz tmp/vollseg-napari-trackmate-2.1.7.tar.gz --markdown 20230417/v/vollseg-napari-trackmate/2.1.6-2.1.7/diff.md --exclude *.pyd
+[2023-04-17 19:11:34] INFO root fetch - processPackages [led-list]: executing diffoscope
+[2023-04-17 19:11:34] INFO root fetch - processPackages [led-list]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/led_list-0.5.2.tar.gz tmp/led_list-0.5.3.tar.gz --markdown 20230417/l/led-list/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-04-17 19:11:34] INFO root fetch - processPackages [astrohack]: executing diffoscope
+[2023-04-17 19:11:34] INFO root fetch - processPackages [astrohack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astrohack-0.0.5.tar.gz tmp/astrohack-0.0.6.tar.gz --markdown 20230417/a/astrohack/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-17 19:11:34] INFO root fetch - processPackages [lqs-client]: Downloading https://files.pythonhosted.org/packages/dc/32/a9a01fcb52142805a5445865dc380be7baea859e5cf80d3c5d7ddaa016f5/lqs-client-0.0.9.tar.gz
+[2023-04-17 19:11:34] INFO root fetch - processPackages [lqs-client]: executing diffoscope
+[2023-04-17 19:11:34] INFO root fetch - processPackages [lqs-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lqs-client-0.0.8.tar.gz tmp/lqs-client-0.0.9.tar.gz --markdown 20230417/l/lqs-client/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 19:11:34] INFO root fetch - processPackages [naampy]: Downloading https://files.pythonhosted.org/packages/07/d8/35d111eea80a5def08040216ee027246e6ed016431484c6e0e2acb08064b/naampy-0.6.0.tar.gz
+[2023-04-17 19:11:34] INFO root fetch - processPackages [naampy]: executing diffoscope
+[2023-04-17 19:11:34] INFO root fetch - processPackages [naampy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naampy-0.5.0.tar.gz tmp/naampy-0.6.0.tar.gz --markdown 20230417/n/naampy/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-04-17 19:11:35] INFO root fetch - main [MainThread]: End processing [led-list]: success
+[2023-04-17 19:11:35] INFO root fetch - main [MainThread]: End processing [vollseg-napari-trackmate]: success
+[2023-04-17 19:11:35] INFO root fetch - main [MainThread]: End processing [lqs-client]: success
+[2023-04-17 19:11:35] INFO root fetch - main [MainThread]: End processing [astrohack]: success
+[2023-04-17 19:11:36] INFO root fetch - main [MainThread]: End processing [robusta-cli]: success
+[2023-04-17 19:11:37] INFO root fetch - main [MainThread]: End processing [naampy]: success
+[2023-04-17 19:11:42] INFO root fetch - main [MainThread]: End processing [dovado-rtl]: success
+[2023-04-17 19:11:42] INFO root fetch - main [MainThread]: Store serial: [17741790]
