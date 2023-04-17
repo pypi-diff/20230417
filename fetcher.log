@@ -3280,3 +3280,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 03:17:59] INFO root fetch - main [MainThread]: End processing [scotthsieh-projen-statemachine]: success
 [2023-04-17 03:19:07] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
 [2023-04-17 03:19:07] INFO root fetch - main [MainThread]: Store serial: [17732531]
+[2023-04-17 03:24:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17732531]
+[2023-04-17 03:24:17] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-17 03:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: indiek-mockdb
+[2023-04-17 03:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-organizations
+[2023-04-17 03:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rapidocr-pdf
+[2023-04-17 03:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PartehDB
+[2023-04-17 03:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: CrossPy
+[2023-04-17 03:24:17] WARNING root fetch - processPackages [indiek-mockdb]: Skipping, unable to determine old version
+[2023-04-17 03:24:17] INFO root fetch - main [MainThread]: End processing [indiek-mockdb] error
+[2023-04-17 03:24:17] WARNING root fetch - processPackages [rapidocr-pdf]: Skipping, unable to determine old version
+[2023-04-17 03:24:17] INFO root fetch - main [MainThread]: End processing [rapidocr-pdf] error
+[2023-04-17 03:24:17] INFO root fetch - processPackages [PartehDB]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-17 03:24:17] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-04-17 03:24:17] INFO root fetch - processPackages [CrossPy]: New version: [0.0.0a3.dev9] Old Version: [0.0.0a3.dev8]
+[2023-04-17 03:24:17] INFO root fetch - processPackages [PartehDB]: Downloading https://files.pythonhosted.org/packages/72/a1/d7694ed59683f2f074588fb95196e01d7d3bf36789820dabf1f5dcd93256/PartehDB-1.0.1.tar.gz
+[2023-04-17 03:24:18] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/c4/ec/fa2c14031b7b9ce22e4b044c652dd13a1a81769141fcd90e55c9eeb24d66/pepperize.cdk-organizations-0.7.98.tar.gz
+[2023-04-17 03:24:18] INFO root fetch - processPackages [CrossPy]: Downloading https://files.pythonhosted.org/packages/ec/b8/e5ab99de223845d8d356f63f407518017a5afb79c4313f7c29026f449ba8/CrossPy-0.0.0a3.dev8.tar.gz
+[2023-04-17 03:24:18] INFO root fetch - processPackages [PartehDB]: Downloading https://files.pythonhosted.org/packages/7e/01/7002d738f4ea5a3e9990d6a018167de33d2b1e71b5c4d9715d70e2243717/PartehDB-1.0.2.tar.gz
+[2023-04-17 03:24:18] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/12/45/1106cc30844f7f4d96f7898a6ef3647d24a597c297bab995920a5915750e/pepperize.cdk-organizations-0.7.99.tar.gz
+[2023-04-17 03:24:18] INFO root fetch - processPackages [CrossPy]: Downloading https://files.pythonhosted.org/packages/42/3c/bb73b16a9d09ec4ec2e611a065b0b1308508085441750f46083f95b884c7/CrossPy-0.0.0a3.dev9.tar.gz
+[2023-04-17 03:24:18] INFO root fetch - processPackages [PartehDB]: executing diffoscope
+[2023-04-17 03:24:18] INFO root fetch - processPackages [PartehDB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PartehDB-1.0.1.tar.gz tmp/PartehDB-1.0.2.tar.gz --markdown 20230417/P/PartehDB/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-17 03:24:18] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-04-17 03:24:18] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230417/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-04-17 03:24:18] INFO root fetch - processPackages [CrossPy]: executing diffoscope
+[2023-04-17 03:24:18] INFO root fetch - processPackages [CrossPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CrossPy-0.0.0a3.dev8.tar.gz tmp/CrossPy-0.0.0a3.dev9.tar.gz --markdown 20230417/C/CrossPy/0.0.0a3.dev8-0.0.0a3.dev9/diff.md --exclude *.pyd
+[2023-04-17 03:24:19] INFO root fetch - main [MainThread]: End processing [PartehDB]: success
+[2023-04-17 03:24:19] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-04-17 03:24:19] INFO root fetch - main [MainThread]: End processing [CrossPy]: success
+[2023-04-17 03:24:19] INFO root fetch - main [MainThread]: Store serial: [17732552]
