@@ -6541,3 +6541,73 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 08:34:30] INFO root fetch - main [MainThread]: End processing [CrawlersTools]: success
 [2023-04-17 08:35:34] INFO root fetch - main [MainThread]: End processing [neutron-cinema]: success
 [2023-04-17 08:35:34] INFO root fetch - main [MainThread]: Store serial: [17734448]
+[2023-04-17 08:40:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17734448]
+[2023-04-17 08:40:51] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-17 08:40:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-treebeard
+[2023-04-17 08:40:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: twtvt
+[2023-04-17 08:40:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: langchain-serve
+[2023-04-17 08:40:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cst-modeling3d
+[2023-04-17 08:40:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: navalmartin-mir-vision-utils
+[2023-04-17 08:40:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: deltastore
+[2023-04-17 08:40:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pygptj
+[2023-04-17 08:40:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: taichu-serve
+[2023-04-17 08:40:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: chemotools
+[2023-04-17 08:40:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: function-tool
+[2023-04-17 08:40:51] INFO root fetch - processPackages [navalmartin-mir-vision-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 08:40:51] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.4.dev9] Old Version: [0.0.4.dev8]
+[2023-04-17 08:40:51] INFO root fetch - processPackages [taichu-serve]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-04-17 08:40:51] INFO root fetch - processPackages [twtvt]: New version: [2023.4.17] Old Version: [2023.4.15.post3]
+[2023-04-17 08:40:51] WARNING root fetch - processPackages [deltastore]: Skipping, unable to determine old version
+[2023-04-17 08:40:51] INFO root fetch - processPackages [deltastore]: Start processing: ethome-ml
+[2023-04-17 08:40:51] INFO root fetch - main [MainThread]: End processing [deltastore] error
+[2023-04-17 08:40:51] INFO root fetch - processPackages [cst-modeling3d]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-04-17 08:40:51] INFO root fetch - processPackages [django-treebeard]: New version: [4.7] Old Version: [4.6.1]
+[2023-04-17 08:40:51] INFO root fetch - processPackages [pygptj]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-17 08:40:51] INFO root fetch - processPackages [chemotools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 08:40:51] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-04-17 08:40:51] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.4.dev8.tar.gz tmp/langchain-serve-0.0.4.dev9.tar.gz --markdown 20230417/l/langchain-serve/0.0.4.dev8-0.0.4.dev9/diff.md --exclude *.pyd
+[2023-04-17 08:40:51] WARNING root fetch - processPackages [function-tool]: Skipping, unable to determine old version
+[2023-04-17 08:40:51] INFO root fetch - processPackages [function-tool]: Start processing: wagtailmenus
+[2023-04-17 08:40:51] INFO root fetch - main [MainThread]: End processing [function-tool] error
+[2023-04-17 08:40:51] INFO root fetch - processPackages [ethome-ml]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-04-17 08:40:51] INFO root fetch - processPackages [django-treebeard]: Downloading https://files.pythonhosted.org/packages/72/26/5b5f6161bdd16615f2b87083995a634a7270c1523a143a09665a7e177a77/django-treebeard-4.6.1.tar.gz
+[2023-04-17 08:40:51] INFO root fetch - processPackages [navalmartin-mir-vision-utils]: Downloading https://files.pythonhosted.org/packages/10/43/0faf2ce040c31ec3d5fbec3455704388d1de1f395388b47123317288da72/navalmartin_mir_vision_utils-0.0.8.tar.gz
+[2023-04-17 08:40:51] INFO root fetch - processPackages [cst-modeling3d]: Downloading https://files.pythonhosted.org/packages/91/b1/24eee5eefe97e5ab6f5c8577d90efcec8779a44058f3373486dd78b63cc3/cst_modeling3d-0.2.2.tar.gz
+[2023-04-17 08:40:51] INFO root fetch - processPackages [wagtailmenus]: New version: [3.1.7] Old Version: [3.1.5]
+[2023-04-17 08:40:51] INFO root fetch - processPackages [pygptj]: Downloading https://files.pythonhosted.org/packages/8a/a0/dcdf211106cd509ead3c44e973fa4ba0cce15feb56903c35e30aec52b733/pygptj-1.0.3.tar.gz
+[2023-04-17 08:40:51] INFO root fetch - processPackages [ethome-ml]: Downloading https://files.pythonhosted.org/packages/99/97/3c6b7054cf15f5b4ff89afc0767b68d180e51eb6b98d7fff9fea309e60dc/ethome-ml-0.5.4.tar.gz
+[2023-04-17 08:40:51] INFO root fetch - processPackages [twtvt]: Downloading https://files.pythonhosted.org/packages/c6/fb/09e97884f39e6b0d4dc468069d2f70fa57b98fe0c51d9fb818561c4d699b/twtvt-2023.4.17.tar.gz
+[2023-04-17 08:40:51] INFO root fetch - processPackages [taichu-serve]: Downloading https://files.pythonhosted.org/packages/90/af/410ff692d3fa7647c43474e38e2d0cdc56bc98c7ff775b513e6e1b5fb55c/taichu-serve-2.0.3.tar.gz
+[2023-04-17 08:40:51] INFO root fetch - processPackages [wagtailmenus]: Downloading https://files.pythonhosted.org/packages/0d/fb/c180ec553a7494763275cc83003082aadaee7469f14dc42b3975ca5bd5d3/wagtailmenus-3.1.5.tar.gz
+[2023-04-17 08:40:52] INFO root fetch - processPackages [chemotools]: executing diffoscope
+[2023-04-17 08:40:52] INFO root fetch - processPackages [chemotools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chemotools-0.0.8.tar.gz tmp/chemotools-0.0.9.tar.gz --markdown 20230417/c/chemotools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 08:40:52] INFO root fetch - processPackages [cst-modeling3d]: Downloading https://files.pythonhosted.org/packages/73/ec/805387266e6e80dd9635ff2cbf8c18ff30a63461e9fc17b93afef777d551/cst_modeling3d-0.2.3.tar.gz
+[2023-04-17 08:40:52] INFO root fetch - processPackages [pygptj]: executing diffoscope
+[2023-04-17 08:40:52] INFO root fetch - processPackages [pygptj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygptj-1.0.2.tar.gz tmp/pygptj-1.0.3.tar.gz --markdown 20230417/p/pygptj/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-17 08:40:52] WARNING root fetch - processPackages [ethome-ml]: Skipping package: exceeds size limit 16165961>=10485760
+[2023-04-17 08:40:52] INFO root fetch - main [MainThread]: End processing [ethome-ml] error
+[2023-04-17 08:40:52] INFO root fetch - processPackages [django-treebeard]: Downloading https://files.pythonhosted.org/packages/43/0b/fd5e6b2cfe0ad81f745c128abfbfa68b64d45e57840f9c3cd7139b943d7a/django-treebeard-4.7.tar.gz
+[2023-04-17 08:40:52] INFO root fetch - processPackages [twtvt]: executing diffoscope
+[2023-04-17 08:40:52] INFO root fetch - processPackages [twtvt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twtvt-2023.4.15.post3.tar.gz tmp/twtvt-2023.4.17.tar.gz --markdown 20230417/t/twtvt/2023.4.15.post3-2023.4.17/diff.md --exclude *.pyd
+[2023-04-17 08:40:52] INFO root fetch - processPackages [taichu-serve]: executing diffoscope
+[2023-04-17 08:40:52] INFO root fetch - processPackages [taichu-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taichu-serve-2.0.2.tar.gz tmp/taichu-serve-2.0.3.tar.gz --markdown 20230417/t/taichu-serve/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-04-17 08:40:52] INFO root fetch - processPackages [wagtailmenus]: Downloading https://files.pythonhosted.org/packages/22/f3/4134b965ffdd5cf05921a630622cd7d4ff155da02ca90d16d81b895019ba/wagtailmenus-3.1.7.tar.gz
+[2023-04-17 08:40:52] INFO root fetch - processPackages [cst-modeling3d]: executing diffoscope
+[2023-04-17 08:40:52] INFO root fetch - processPackages [cst-modeling3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cst_modeling3d-0.2.2.tar.gz tmp/cst_modeling3d-0.2.3.tar.gz --markdown 20230417/c/cst-modeling3d/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-04-17 08:40:52] INFO root fetch - processPackages [navalmartin-mir-vision-utils]: Downloading https://files.pythonhosted.org/packages/33/82/0632f8ba98948950c674aefdba1e9cae6ee975dd3eedc20360ba647945ff/navalmartin_mir_vision_utils-0.0.9.tar.gz
+[2023-04-17 08:40:52] INFO root fetch - processPackages [wagtailmenus]: executing diffoscope
+[2023-04-17 08:40:52] INFO root fetch - processPackages [wagtailmenus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtailmenus-3.1.5.tar.gz tmp/wagtailmenus-3.1.7.tar.gz --markdown 20230417/w/wagtailmenus/3.1.5-3.1.7/diff.md --exclude *.pyd
+[2023-04-17 08:40:52] INFO root fetch - processPackages [django-treebeard]: executing diffoscope
+[2023-04-17 08:40:52] INFO root fetch - processPackages [django-treebeard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-treebeard-4.6.1.tar.gz tmp/django-treebeard-4.7.tar.gz --markdown 20230417/d/django-treebeard/4.6.1-4.7/diff.md --exclude *.pyd
+[2023-04-17 08:40:52] INFO root fetch - processPackages [navalmartin-mir-vision-utils]: executing diffoscope
+[2023-04-17 08:40:52] INFO root fetch - processPackages [navalmartin-mir-vision-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/navalmartin_mir_vision_utils-0.0.8.tar.gz tmp/navalmartin_mir_vision_utils-0.0.9.tar.gz --markdown 20230417/n/navalmartin-mir-vision-utils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 08:40:53] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-04-17 08:40:53] INFO root fetch - main [MainThread]: End processing [chemotools]: success
+[2023-04-17 08:40:53] INFO root fetch - main [MainThread]: End processing [taichu-serve]: success
+[2023-04-17 08:40:53] INFO root fetch - main [MainThread]: End processing [twtvt]: success
+[2023-04-17 08:40:53] INFO root fetch - main [MainThread]: End processing [cst-modeling3d]: success
+[2023-04-17 08:40:53] INFO root fetch - main [MainThread]: End processing [pygptj]: success
+[2023-04-17 08:40:54] INFO root fetch - main [MainThread]: End processing [navalmartin-mir-vision-utils]: success
+[2023-04-17 08:40:54] INFO root fetch - main [MainThread]: End processing [wagtailmenus]: success
+[2023-04-17 08:40:55] INFO root fetch - main [MainThread]: End processing [django-treebeard]: success
+[2023-04-17 08:40:55] INFO root fetch - main [MainThread]: Store serial: [17734507]
