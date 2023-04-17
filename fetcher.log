@@ -5519,3 +5519,65 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 07:00:57] INFO root fetch - main [MainThread]: End processing [py4web]: success
 [2023-04-17 07:00:58] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk]: success
 [2023-04-17 07:00:58] INFO root fetch - main [MainThread]: Store serial: [17733830]
+[2023-04-17 07:06:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17733830]
+[2023-04-17 07:06:07] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-17 07:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py4web
+[2023-04-17 07:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rapid-pe
+[2023-04-17 07:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flowetl
+[2023-04-17 07:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flowmachine
+[2023-04-17 07:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flowclient
+[2023-04-17 07:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: streamlink-serverless
+[2023-04-17 07:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: otoe
+[2023-04-17 07:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: multi-model-server
+[2023-04-17 07:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cherryblossom
+[2023-04-17 07:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: datumaro
+[2023-04-17 07:06:07] INFO root fetch - processPackages [py4web]: New version: [1.20230416.3] Old Version: [1.20230416.2]
+[2023-04-17 07:06:07] INFO root fetch - processPackages [rapid-pe]: New version: [0.0.7.dev20230417] Old Version: [0.0.7.dev20230416]
+[2023-04-17 07:06:07] INFO root fetch - processPackages [otoe]: New version: [0.0.7.post2] Old Version: [0.0.7.post1]
+[2023-04-17 07:06:07] INFO root fetch - processPackages [datumaro]: New version: [1.2.0rc2] Old Version: [1.2.0rc1]
+[2023-04-17 07:06:07] INFO root fetch - processPackages [cherryblossom]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-17 07:06:07] INFO root fetch - processPackages [streamlink-serverless]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 07:06:07] INFO root fetch - processPackages [multi-model-server]: New version: [1.1.8b20230417] Old Version: [1.1.8b20230416]
+[2023-04-17 07:06:07] INFO root fetch - processPackages [flowmachine]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2023-04-17 07:06:07] INFO root fetch - processPackages [flowetl]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2023-04-17 07:06:07] INFO root fetch - processPackages [flowclient]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2023-04-17 07:06:07] INFO root fetch - processPackages [flowetl]: executing diffoscope
+[2023-04-17 07:06:07] INFO root fetch - processPackages [flowetl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowetl-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowetl-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20230417/f/flowetl/1.9.4.post0.dev70-1.9.4.post0.dev76/diff.md --exclude *.pyd
+[2023-04-17 07:06:07] INFO root fetch - processPackages [cherryblossom]: Downloading https://files.pythonhosted.org/packages/00/eb/2c0d6ba439ab07073e8a6bfc28a70e55d62336d4149168687ceeeb0f4130/cherryblossom-0.0.6.tar.gz
+[2023-04-17 07:06:07] INFO root fetch - processPackages [flowmachine]: executing diffoscope
+[2023-04-17 07:06:07] INFO root fetch - processPackages [flowmachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowmachine-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowmachine-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20230417/f/flowmachine/1.9.4.post0.dev70-1.9.4.post0.dev76/diff.md --exclude *.pyd
+[2023-04-17 07:06:07] INFO root fetch - processPackages [flowclient]: executing diffoscope
+[2023-04-17 07:06:07] INFO root fetch - processPackages [flowclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowclient-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowclient-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20230417/f/flowclient/1.9.4.post0.dev70-1.9.4.post0.dev76/diff.md --exclude *.pyd
+[2023-04-17 07:06:07] INFO root fetch - processPackages [py4web]: Downloading https://files.pythonhosted.org/packages/cb/39/7f2f8ad6cc9795f1bc49cb033256dc4b660791f4a06d959052742f13487c/py4web-1.20230416.3.tar.gz
+[2023-04-17 07:06:07] INFO root fetch - processPackages [streamlink-serverless]: Downloading https://files.pythonhosted.org/packages/f4/69/e3e142be5d3593c1d6a272ce94c57e2901afd267b86a3f2a39962f38dbea/streamlink-serverless-0.0.8.tar.gz
+[2023-04-17 07:06:07] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/0f/c7/221efe9e40e004fab57d93b5dea286350820fec1f730832721d82515a992/rapid_pe-0.0.7.dev20230417.tar.gz
+[2023-04-17 07:06:07] INFO root fetch - processPackages [otoe]: Downloading https://files.pythonhosted.org/packages/24/b8/28d2df5d318952e6d194865caa92c99ef078412327f477920062f8a45a35/otoe-0.0.7.post2.tar.gz
+[2023-04-17 07:06:07] INFO root fetch - processPackages [multi-model-server]: Downloading https://files.pythonhosted.org/packages/4a/2c/4b52e660b80e38d640de331e4fb8a0a3fafbf7df969665f9ace37fc285a9/multi_model_server-1.1.8b20230417-py2.py3-none-any.whl
+[2023-04-17 07:06:07] INFO root fetch - processPackages [datumaro]: Downloading https://files.pythonhosted.org/packages/38/3c/ff8ef40bd87364ebc0048f29e4886d955fce1c50db24bd34011c1afb18c6/datumaro-1.2.0rc2.tar.gz
+[2023-04-17 07:06:07] INFO root fetch - processPackages [otoe]: executing diffoscope
+[2023-04-17 07:06:07] INFO root fetch - processPackages [otoe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otoe-0.0.7.post1.tar.gz tmp/otoe-0.0.7.post2.tar.gz --markdown 20230417/o/otoe/0.0.7.post1-0.0.7.post2/diff.md --exclude *.pyd
+[2023-04-17 07:06:07] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2023-04-17 07:06:07] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.0.7.dev20230416.tar.gz tmp/rapid_pe-0.0.7.dev20230417.tar.gz --markdown 20230417/r/rapid-pe/0.0.7.dev20230416-0.0.7.dev20230417/diff.md --exclude *.pyd
+[2023-04-17 07:06:07] INFO root fetch - processPackages [cherryblossom]: Downloading https://files.pythonhosted.org/packages/d9/7f/74ebe713559273afcc048567f84de7056a48976257c41d8c1747268e88dc/cherryblossom-0.0.7.tar.gz
+[2023-04-17 07:06:07] INFO root fetch - processPackages [datumaro]: executing diffoscope
+[2023-04-17 07:06:07] INFO root fetch - processPackages [datumaro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datumaro-1.2.0rc1.tar.gz tmp/datumaro-1.2.0rc2.tar.gz --markdown 20230417/d/datumaro/1.2.0rc1-1.2.0rc2/diff.md --exclude *.pyd
+[2023-04-17 07:06:07] INFO root fetch - processPackages [cherryblossom]: executing diffoscope
+[2023-04-17 07:06:07] INFO root fetch - processPackages [cherryblossom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cherryblossom-0.0.6.tar.gz tmp/cherryblossom-0.0.7.tar.gz --markdown 20230417/c/cherryblossom/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-17 07:06:08] INFO root fetch - processPackages [streamlink-serverless]: Downloading https://files.pythonhosted.org/packages/38/68/27939e4527aa4f820fff11a0801161189ae3d676ebeb80bf700ba94779ee/streamlink-serverless-0.0.9.tar.gz
+[2023-04-17 07:06:08] INFO root fetch - processPackages [streamlink-serverless]: executing diffoscope
+[2023-04-17 07:06:08] INFO root fetch - processPackages [streamlink-serverless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlink-serverless-0.0.8.tar.gz tmp/streamlink-serverless-0.0.9.tar.gz --markdown 20230417/s/streamlink-serverless/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 07:06:08] INFO root fetch - main [MainThread]: End processing [flowetl]: success
+[2023-04-17 07:06:08] INFO root fetch - main [MainThread]: End processing [flowclient]: success
+[2023-04-17 07:06:08] INFO root fetch - processPackages [multi-model-server]: executing diffoscope
+[2023-04-17 07:06:08] INFO root fetch - processPackages [multi-model-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multi_model_server-1.1.8b20230416-py2.py3-none-any.whl.zip tmp/multi_model_server-1.1.8b20230417-py2.py3-none-any.whl.zip --markdown 20230417/m/multi-model-server/1.1.8b20230416-1.1.8b20230417/diff.md --exclude *.pyd
+[2023-04-17 07:06:08] INFO root fetch - processPackages [py4web]: executing diffoscope
+[2023-04-17 07:06:08] INFO root fetch - processPackages [py4web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py4web-1.20230416.2.tar.gz tmp/py4web-1.20230416.3.tar.gz --markdown 20230417/p/py4web/1.20230416.2-1.20230416.3/diff.md --exclude *.pyd
+[2023-04-17 07:06:08] INFO root fetch - main [MainThread]: End processing [otoe]: success
+[2023-04-17 07:06:09] INFO root fetch - main [MainThread]: End processing [cherryblossom]: success
+[2023-04-17 07:06:09] INFO root fetch - main [MainThread]: End processing [streamlink-serverless]: success
+[2023-04-17 07:06:09] INFO root fetch - main [MainThread]: End processing [flowmachine]: success
+[2023-04-17 07:06:10] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2023-04-17 07:06:12] INFO root fetch - main [MainThread]: End processing [datumaro]: success
+[2023-04-17 07:06:24] INFO root fetch - main [MainThread]: End processing [py4web]: success
+[2023-04-17 07:08:57] INFO root fetch - main [MainThread]: End processing [multi-model-server]: success
+[2023-04-17 07:08:57] INFO root fetch - main [MainThread]: Store serial: [17733855]
