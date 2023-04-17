@@ -22616,3 +22616,85 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-17 22:52:55] INFO root fetch - main [MainThread]: End processing [nef-pipelines]: success
 [2023-04-17 22:53:01] INFO root fetch - main [MainThread]: End processing [pyplasm]: success
 [2023-04-17 22:53:01] INFO root fetch - main [MainThread]: Store serial: [17744327]
+[2023-04-17 22:58:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17744327]
+[2023-04-17 22:58:10] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-17 22:58:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: usgs-libcomcat
+[2023-04-17 22:58:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: simple-jwt-decode
+[2023-04-17 22:58:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quantumcomputingsim
+[2023-04-17 22:58:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hledger-lots
+[2023-04-17 22:58:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: planetmint-driver
+[2023-04-17 22:58:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytubemusic
+[2023-04-17 22:58:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dr-sdk-lotr
+[2023-04-17 22:58:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pysparkler
+[2023-04-17 22:58:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: eule
+[2023-04-17 22:58:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: DiamondCoin
+[2023-04-17 22:58:10] INFO root fetch - processPackages [hledger-lots]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-17 22:58:10] INFO root fetch - processPackages [dr-sdk-lotr]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-17 22:58:10] INFO root fetch - processPackages [pytubemusic]: New version: [0.1.0] Old Version: [0.0.1a4]
+[2023-04-17 22:58:10] INFO root fetch - processPackages [planetmint-driver]: New version: [0.9.4] Old Version: [0.9.1]
+[2023-04-17 22:58:10] INFO root fetch - processPackages [simple-jwt-decode]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-04-17 22:58:10] WARNING root fetch - processPackages [quantumcomputingsim]: Skipping, unable to determine old version
+[2023-04-17 22:58:10] INFO root fetch - processPackages [quantumcomputingsim]: Start processing: mymlcustomtools
+[2023-04-17 22:58:10] INFO root fetch - processPackages [usgs-libcomcat]: New version: [2.0.21] Old Version: [2.0.20]
+[2023-04-17 22:58:10] INFO root fetch - main [MainThread]: End processing [quantumcomputingsim] error
+[2023-04-17 22:58:10] INFO root fetch - processPackages [pysparkler]: New version: [0.5.dev1681764938] Old Version: [0.4.dev1681762692]
+[2023-04-17 22:58:10] WARNING root fetch - processPackages [DiamondCoin]: Skipping, unable to determine old version
+[2023-04-17 22:58:10] INFO root fetch - processPackages [DiamondCoin]: Start processing: DiamondCoin
+[2023-04-17 22:58:10] INFO root fetch - main [MainThread]: End processing [DiamondCoin] error
+[2023-04-17 22:58:10] INFO root fetch - processPackages [mymlcustomtools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 22:58:10] WARNING root fetch - processPackages [DiamondCoin]: Skipping, unable to determine old version
+[2023-04-17 22:58:10] INFO root fetch - processPackages [DiamondCoin]: Start processing: meshed
+[2023-04-17 22:58:10] INFO root fetch - main [MainThread]: End processing [DiamondCoin] error
+[2023-04-17 22:58:10] INFO root fetch - processPackages [eule]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-04-17 22:58:10] INFO root fetch - processPackages [mymlcustomtools]: executing diffoscope
+[2023-04-17 22:58:10] INFO root fetch - processPackages [mymlcustomtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mymlcustomtools-0.0.8.tar.gz tmp/mymlcustomtools-0.0.9.tar.gz --markdown 20230417/m/mymlcustomtools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 22:58:10] INFO root fetch - processPackages [pytubemusic]: Downloading https://files.pythonhosted.org/packages/33/a1/d03cb0feded7113492863023d85b1ace20688f409b2c5abfe2b59b3d1fd6/pytubemusic-0.0.1a4.tar.gz
+[2023-04-17 22:58:10] INFO root fetch - processPackages [meshed]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-04-17 22:58:10] INFO root fetch - processPackages [hledger-lots]: Downloading https://files.pythonhosted.org/packages/78/3a/bcb04a4228975f64e9a078c06560e9e92ec2719f38133955f67032e38291/hledger_lots-0.1.3.tar.gz
+[2023-04-17 22:58:10] INFO root fetch - processPackages [pysparkler]: Downloading https://files.pythonhosted.org/packages/b3/97/feaaceedffc35b70309dba6de7e634bb0bb33f2e6990acc56a013b0e9293/pysparkler-0.5.dev1681764938.tar.gz
+[2023-04-17 22:58:10] INFO root fetch - processPackages [planetmint-driver]: Downloading https://files.pythonhosted.org/packages/ae/ea/65b81a14a9adea381085b5439324c09b4ad122707ea8cbabc6c3acdb0692/planetmint_driver-0.9.1.tar.gz
+[2023-04-17 22:58:10] INFO root fetch - processPackages [usgs-libcomcat]: Downloading https://files.pythonhosted.org/packages/61/75/fd04a0078de9d9864c38c011bc071fc9439df06cf8e3c2a96bfb5ec8e093/usgs-libcomcat-2.0.20.tar.gz
+[2023-04-17 22:58:10] INFO root fetch - processPackages [eule]: Downloading https://files.pythonhosted.org/packages/7f/20/f4244dd87391750d173f1cf9e21e6a51d7032bf6f0de2d17e87169600d09/eule-0.3.2.tar.gz
+[2023-04-17 22:58:10] INFO root fetch - processPackages [simple-jwt-decode]: Downloading https://files.pythonhosted.org/packages/c1/e5/ee1276a1963bdea06f7188c176b6e9a6e7a2af0c0aabe0e68f3f55335ca3/simple_jwt_decode-0.8.0.tar.gz
+[2023-04-17 22:58:10] INFO root fetch - processPackages [meshed]: Downloading https://files.pythonhosted.org/packages/ec/66/ec18e469de7a31199ec17594f774aa629498f1f4b963deea16117918bef2/meshed-0.1.98.tar.gz
+[2023-04-17 22:58:10] INFO root fetch - processPackages [pysparkler]: executing diffoscope
+[2023-04-17 22:58:10] INFO root fetch - processPackages [pysparkler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysparkler-0.4.dev1681762692.tar.gz tmp/pysparkler-0.5.dev1681764938.tar.gz --markdown 20230417/p/pysparkler/0.4.dev1681762692-0.5.dev1681764938/diff.md --exclude *.pyd
+[2023-04-17 22:58:10] INFO root fetch - processPackages [dr-sdk-lotr]: Downloading https://files.pythonhosted.org/packages/21/8f/98aa2755498a470de9db9d5fee65caa7d86e05f39c2e435f4e175abcbdda/dr-sdk-lotr-0.0.4.tar.gz
+[2023-04-17 22:58:10] INFO root fetch - processPackages [hledger-lots]: Downloading https://files.pythonhosted.org/packages/4d/ff/88d98f749b3f04327e46ec16fae8eff3fdce13c4e54864794100e9813438/hledger_lots-0.1.4.tar.gz
+[2023-04-17 22:58:10] INFO root fetch - processPackages [pytubemusic]: Downloading https://files.pythonhosted.org/packages/15/b0/8afdd3285b49782495ead917a2853c8b8eec548e0ec00e302f9957aeccfe/pytubemusic-0.1.0.tar.gz
+[2023-04-17 22:58:11] INFO root fetch - processPackages [eule]: Downloading https://files.pythonhosted.org/packages/f7/0f/33a8e2471f02c3c5cd816c61def9664222081e5ed256b46160160ac9b620/eule-0.3.3.tar.gz
+[2023-04-17 22:58:11] INFO root fetch - processPackages [usgs-libcomcat]: Downloading https://files.pythonhosted.org/packages/30/9c/afa3a9ff4115cc3bfe71754898b0b3c44d059b2053870f8798b2923f607d/usgs-libcomcat-2.0.21.tar.gz
+[2023-04-17 22:58:11] INFO root fetch - processPackages [simple-jwt-decode]: executing diffoscope
+[2023-04-17 22:58:11] INFO root fetch - processPackages [simple-jwt-decode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_jwt_decode-0.7.0.tar.gz tmp/simple_jwt_decode-0.8.0.tar.gz --markdown 20230417/s/simple-jwt-decode/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-04-17 22:58:11] INFO root fetch - processPackages [dr-sdk-lotr]: executing diffoscope
+[2023-04-17 22:58:11] INFO root fetch - processPackages [dr-sdk-lotr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dr-sdk-lotr-0.0.3.tar.gz tmp/dr-sdk-lotr-0.0.4.tar.gz --markdown 20230417/d/dr-sdk-lotr/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-17 22:58:11] INFO root fetch - processPackages [hledger-lots]: executing diffoscope
+[2023-04-17 22:58:11] INFO root fetch - processPackages [hledger-lots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hledger_lots-0.1.3.tar.gz tmp/hledger_lots-0.1.4.tar.gz --markdown 20230417/h/hledger-lots/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-17 22:58:11] INFO root fetch - processPackages [pytubemusic]: executing diffoscope
+[2023-04-17 22:58:11] INFO root fetch - processPackages [pytubemusic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytubemusic-0.0.1a4.tar.gz tmp/pytubemusic-0.1.0.tar.gz --markdown 20230417/p/pytubemusic/0.0.1a4-0.1.0/diff.md --exclude *.pyd
+[2023-04-17 22:58:11] INFO root fetch - processPackages [planetmint-driver]: Downloading https://files.pythonhosted.org/packages/22/18/b4614735d3bae2ad74060790413d45d42ccb1e9fd4b018a8224fc6db96a1/planetmint_driver-0.9.4.tar.gz
+[2023-04-17 22:58:11] INFO root fetch - processPackages [eule]: executing diffoscope
+[2023-04-17 22:58:11] INFO root fetch - processPackages [eule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eule-0.3.2.tar.gz tmp/eule-0.3.3.tar.gz --markdown 20230417/e/eule/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-04-17 22:58:11] INFO root fetch - processPackages [planetmint-driver]: executing diffoscope
+[2023-04-17 22:58:11] INFO root fetch - processPackages [planetmint-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planetmint_driver-0.9.1.tar.gz tmp/planetmint_driver-0.9.4.tar.gz --markdown 20230417/p/planetmint-driver/0.9.1-0.9.4/diff.md --exclude *.pyd
+[2023-04-17 22:58:11] INFO root fetch - processPackages [meshed]: Downloading https://files.pythonhosted.org/packages/52/c3/21e2c03ab6607bd25fb9f6efb994798b3e75db906daf491bf961ee733450/meshed-0.1.99.tar.gz
+[2023-04-17 22:58:11] INFO root fetch - processPackages [meshed]: executing diffoscope
+[2023-04-17 22:58:11] INFO root fetch - processPackages [meshed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meshed-0.1.98.tar.gz tmp/meshed-0.1.99.tar.gz --markdown 20230417/m/meshed/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-04-17 22:58:11] INFO root fetch - processPackages [mymlcustomtools]: Start processing: kicad-package-manager
+[2023-04-17 22:58:11] INFO root fetch - main [MainThread]: End processing [mymlcustomtools]: success
+[2023-04-17 22:58:12] INFO root fetch - processPackages [kicad-package-manager]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 22:58:12] INFO root fetch - processPackages [usgs-libcomcat]: executing diffoscope
+[2023-04-17 22:58:12] INFO root fetch - processPackages [usgs-libcomcat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usgs-libcomcat-2.0.20.tar.gz tmp/usgs-libcomcat-2.0.21.tar.gz --markdown 20230417/u/usgs-libcomcat/2.0.20-2.0.21/diff.md --exclude *.pyd
+[2023-04-17 22:58:12] INFO root fetch - main [MainThread]: End processing [simple-jwt-decode]: success
+[2023-04-17 22:58:12] INFO root fetch - processPackages [kicad-package-manager]: executing diffoscope
+[2023-04-17 22:58:12] INFO root fetch - processPackages [kicad-package-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kicad_package_manager-0.0.8.tar.gz tmp/kicad_package_manager-0.0.9.tar.gz --markdown 20230417/k/kicad-package-manager/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 22:58:12] INFO root fetch - main [MainThread]: End processing [pysparkler]: success
+[2023-04-17 22:58:12] INFO root fetch - main [MainThread]: End processing [eule]: success
+[2023-04-17 22:58:12] INFO root fetch - main [MainThread]: End processing [pytubemusic]: success
+[2023-04-17 22:58:12] INFO root fetch - main [MainThread]: End processing [dr-sdk-lotr]: success
+[2023-04-17 22:58:13] INFO root fetch - main [MainThread]: End processing [hledger-lots]: success
+[2023-04-17 22:58:13] INFO root fetch - main [MainThread]: End processing [kicad-package-manager]: success
+[2023-04-17 22:58:14] INFO root fetch - main [MainThread]: End processing [meshed]: success
+[2023-04-17 22:58:14] INFO root fetch - main [MainThread]: End processing [planetmint-driver]: success
+[2023-04-17 22:58:18] INFO root fetch - main [MainThread]: End processing [usgs-libcomcat]: success
+[2023-04-17 22:58:18] INFO root fetch - main [MainThread]: Store serial: [17744381]
