@@ -4704,3 +4704,29 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 05:31:15] INFO root fetch - main [MainThread]: End processing [trex-apis]: success
 [2023-04-17 05:31:15] INFO root fetch - main [MainThread]: End processing [trex-model]: success
 [2023-04-17 05:31:15] INFO root fetch - main [MainThread]: Store serial: [17733390]
+[2023-04-17 05:36:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17733390]
+[2023-04-17 05:36:23] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-17 05:36:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vhdx-2-zvol
+[2023-04-17 05:36:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: HTMLDocumentGenerator
+[2023-04-17 05:36:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tvault
+[2023-04-17 05:36:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: edge-logger
+[2023-04-17 05:36:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: p-ttauto-crawler
+[2023-04-17 05:36:23] INFO root fetch - processPackages [vhdx-2-zvol]: New version: [0.4.4.3] Old Version: [0.4.4.2]
+[2023-04-17 05:36:23] INFO root fetch - processPackages [p-ttauto-crawler]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-17 05:36:23] WARNING root fetch - processPackages [edge-logger]: Skipping, unable to determine old version
+[2023-04-17 05:36:23] INFO root fetch - main [MainThread]: End processing [edge-logger] error
+[2023-04-17 05:36:23] INFO root fetch - processPackages [tvault]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-17 05:36:23] WARNING root fetch - processPackages [HTMLDocumentGenerator]: Skipping, unable to determine old version
+[2023-04-17 05:36:23] INFO root fetch - main [MainThread]: End processing [HTMLDocumentGenerator] error
+[2023-04-17 05:36:23] INFO root fetch - processPackages [p-ttauto-crawler]: executing diffoscope
+[2023-04-17 05:36:23] INFO root fetch - processPackages [p-ttauto-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p-ttauto-crawler-0.0.6.tar.gz tmp/p-ttauto-crawler-0.0.7.tar.gz --markdown 20230417/p/p-ttauto-crawler/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-17 05:36:23] INFO root fetch - processPackages [vhdx-2-zvol]: executing diffoscope
+[2023-04-17 05:36:23] INFO root fetch - processPackages [vhdx-2-zvol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vhdx_2_zvol-0.4.4.2.tar.gz tmp/vhdx_2_zvol-0.4.4.3.tar.gz --markdown 20230417/v/vhdx-2-zvol/0.4.4.2-0.4.4.3/diff.md --exclude *.pyd
+[2023-04-17 05:36:24] INFO root fetch - processPackages [tvault]: Downloading https://files.pythonhosted.org/packages/22/50/22c832a08f788361a0c0e51e5ec1655f740be7721abc4ec93d77a88bb831/tvault-0.3.8-py3-none-any.whl
+[2023-04-17 05:36:24] INFO root fetch - processPackages [tvault]: Downloading https://files.pythonhosted.org/packages/91/3a/2f839dd15e7319702e9154c3c760a667a47392352ba5ff3ff1693f7b9072/tvault-0.3.9-py3-none-any.whl
+[2023-04-17 05:36:24] INFO root fetch - processPackages [tvault]: executing diffoscope
+[2023-04-17 05:36:24] INFO root fetch - processPackages [tvault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tvault-0.3.8-py3-none-any.whl.zip tmp/tvault-0.3.9-py3-none-any.whl.zip --markdown 20230417/t/tvault/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-17 05:36:24] INFO root fetch - main [MainThread]: End processing [p-ttauto-crawler]: success
+[2023-04-17 05:36:24] INFO root fetch - main [MainThread]: End processing [vhdx-2-zvol]: success
+[2023-04-17 05:36:25] INFO root fetch - main [MainThread]: End processing [tvault]: success
+[2023-04-17 05:36:25] INFO root fetch - main [MainThread]: Store serial: [17733424]
