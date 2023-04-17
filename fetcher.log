@@ -7247,3 +7247,46 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 09:23:32] INFO root fetch - main [MainThread]: End processing [dqrobotics]: success
 [2023-04-17 09:23:35] INFO root fetch - main [MainThread]: End processing [z4d-certified-devices]: success
 [2023-04-17 09:23:35] INFO root fetch - main [MainThread]: Store serial: [17734883]
+[2023-04-17 09:28:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17734883]
+[2023-04-17 09:28:44] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-17 09:28:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: msaBase
+[2023-04-17 09:28:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PySide2-Frameless-Window
+[2023-04-17 09:28:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bluepyefe
+[2023-04-17 09:28:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cg
+[2023-04-17 09:28:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gt-dependency-track
+[2023-04-17 09:28:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fastapi-startapp
+[2023-04-17 09:28:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pytest-result-sender
+[2023-04-17 09:28:44] INFO root fetch - processPackages [PySide2-Frameless-Window]: New version: [0.1.0] Old Version: [0.0.5]
+[2023-04-17 09:28:44] INFO root fetch - processPackages [msaBase]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 09:28:44] INFO root fetch - processPackages [gt-dependency-track]: New version: [0.0.5] Old Version: [0.0.3]
+[2023-04-17 09:28:44] WARNING root fetch - processPackages [fastapi-startapp]: Skipping, unable to determine old version
+[2023-04-17 09:28:44] INFO root fetch - main [MainThread]: End processing [fastapi-startapp] error
+[2023-04-17 09:28:44] INFO root fetch - processPackages [bluepyefe]: New version: [2.2.49] Old Version: [2.2.48]
+[2023-04-17 09:28:44] INFO root fetch - processPackages [cg]: New version: [27.3.1] Old Version: [27.3.0]
+[2023-04-17 09:28:44] WARNING root fetch - processPackages [pytest-result-sender]: Skipping, unable to determine old version
+[2023-04-17 09:28:44] INFO root fetch - main [MainThread]: End processing [pytest-result-sender] error
+[2023-04-17 09:28:44] INFO root fetch - processPackages [msaBase]: Downloading https://files.pythonhosted.org/packages/76/9a/a27e686785e6b54482d58445355935f687e11cd0a044f803310195bbc129/msaBase-0.0.8.tar.gz
+[2023-04-17 09:28:44] INFO root fetch - processPackages [PySide2-Frameless-Window]: Downloading https://files.pythonhosted.org/packages/e6/a0/9d749994e1fac3a87d7b62a6a17490101ebdc098b1d0bd93c1ba571bdcfb/PySide2-Frameless-Window-0.0.5.tar.gz
+[2023-04-17 09:28:44] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/c0/5e/8b179b92d4e8233c46ba66e6969dd188dd576d9a19e3dc2bafe225603622/cg-27.3.0.tar.gz
+[2023-04-17 09:28:44] INFO root fetch - processPackages [gt-dependency-track]: Downloading https://files.pythonhosted.org/packages/a5/61/d8a9108b83cb014054be46950b3a8e1b7c240a1b825970d70a01daea12f6/gt_dependency_track-0.0.3.tar.gz
+[2023-04-17 09:28:44] INFO root fetch - processPackages [bluepyefe]: Downloading https://files.pythonhosted.org/packages/be/2f/aa92ed3c30baed1b09b0dccd18aec992d6125bc668593954df70d29eed36/bluepyefe-2.2.49.tar.gz
+[2023-04-17 09:28:45] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/70/59/bbf5b84fbb79f32dc50763d000df5206fd1d4936bd4e048a7bd8de44c204/cg-27.3.1.tar.gz
+[2023-04-17 09:28:45] INFO root fetch - processPackages [msaBase]: Downloading https://files.pythonhosted.org/packages/fd/c7/eaf57b5462f098d2e330245249477745d1619240fbb8ea59ece12e03eeff/msaBase-0.0.9.tar.gz
+[2023-04-17 09:28:45] INFO root fetch - processPackages [msaBase]: executing diffoscope
+[2023-04-17 09:28:45] INFO root fetch - processPackages [msaBase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msaBase-0.0.8.tar.gz tmp/msaBase-0.0.9.tar.gz --markdown 20230417/m/msaBase/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 09:28:45] INFO root fetch - processPackages [PySide2-Frameless-Window]: Downloading https://files.pythonhosted.org/packages/d4/cc/8a464a8e1821d26a0901d66eb8698062bc5166cc5538b87134006ef124f6/PySide2-Frameless-Window-0.1.0.tar.gz
+[2023-04-17 09:28:45] INFO root fetch - processPackages [bluepyefe]: executing diffoscope
+[2023-04-17 09:28:45] INFO root fetch - processPackages [bluepyefe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluepyefe-2.2.48.tar.gz tmp/bluepyefe-2.2.49.tar.gz --markdown 20230417/b/bluepyefe/2.2.48-2.2.49/diff.md --exclude *.pyd
+[2023-04-17 09:28:45] INFO root fetch - processPackages [PySide2-Frameless-Window]: executing diffoscope
+[2023-04-17 09:28:45] INFO root fetch - processPackages [PySide2-Frameless-Window]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySide2-Frameless-Window-0.0.5.tar.gz tmp/PySide2-Frameless-Window-0.1.0.tar.gz --markdown 20230417/P/PySide2-Frameless-Window/0.0.5-0.1.0/diff.md --exclude *.pyd
+[2023-04-17 09:28:45] INFO root fetch - processPackages [gt-dependency-track]: Downloading https://files.pythonhosted.org/packages/ee/39/ad91a7a2d3ad2478ca3a72cb12006865374953d2424f2183f936409b7dc4/gt_dependency_track-0.0.5.tar.gz
+[2023-04-17 09:28:45] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-04-17 09:28:45] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-27.3.0.tar.gz tmp/cg-27.3.1.tar.gz --markdown 20230417/c/cg/27.3.0-27.3.1/diff.md --exclude *.pyd
+[2023-04-17 09:28:46] INFO root fetch - processPackages [gt-dependency-track]: executing diffoscope
+[2023-04-17 09:28:46] INFO root fetch - processPackages [gt-dependency-track]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gt_dependency_track-0.0.3.tar.gz tmp/gt_dependency_track-0.0.5.tar.gz --markdown 20230417/g/gt-dependency-track/0.0.3-0.0.5/diff.md --exclude *.pyd
+[2023-04-17 09:28:46] INFO root fetch - main [MainThread]: End processing [PySide2-Frameless-Window]: success
+[2023-04-17 09:28:46] INFO root fetch - main [MainThread]: End processing [bluepyefe]: success
+[2023-04-17 09:28:46] INFO root fetch - main [MainThread]: End processing [msaBase]: success
+[2023-04-17 09:28:55] INFO root fetch - main [MainThread]: End processing [gt-dependency-track]: success
+[2023-04-17 09:28:58] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-04-17 09:28:58] INFO root fetch - main [MainThread]: Store serial: [17734922]
