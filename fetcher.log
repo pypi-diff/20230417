@@ -11610,3 +11610,91 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-04-17 13:41:40] INFO root fetch - main [MainThread]: End processing [dcicutils]: success
 [2023-04-17 13:41:44] INFO root fetch - main [MainThread]: End processing [polars]: success
 [2023-04-17 13:41:44] INFO root fetch - main [MainThread]: Store serial: [17737588]
+[2023-04-17 13:46:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17737588]
+[2023-04-17 13:46:53] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-17 13:46:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wonder-sdk
+[2023-04-17 13:46:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: edwh-bundler-plugin
+[2023-04-17 13:46:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edwh-pipcompile-plugin
+[2023-04-17 13:46:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dwh-oppfolging
+[2023-04-17 13:46:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Weblate
+[2023-04-17 13:46:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hdpws
+[2023-04-17 13:46:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: polars-lts-cpu
+[2023-04-17 13:46:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: polars-u64-idx
+[2023-04-17 13:46:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: read-rapidpe
+[2023-04-17 13:46:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: satori-ci
+[2023-04-17 13:46:53] INFO root fetch - processPackages [edwh-bundler-plugin]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-17 13:46:53] INFO root fetch - processPackages [satori-ci]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-04-17 13:46:53] INFO root fetch - processPackages [satori-ci]: executing diffoscope
+[2023-04-17 13:46:53] INFO root fetch - processPackages [satori-ci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satori-ci-1.1.8.tar.gz tmp/satori-ci-1.1.9.tar.gz --markdown 20230417/s/satori-ci/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-04-17 13:46:53] INFO root fetch - processPackages [wonder-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-17 13:46:53] INFO root fetch - processPackages [edwh-pipcompile-plugin]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-17 13:46:53] INFO root fetch - processPackages [dwh-oppfolging]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 13:46:53] INFO root fetch - processPackages [hdpws]: New version: [0.6.2] Old Version: [0.4.2]
+[2023-04-17 13:46:53] WARNING root fetch - processPackages [read-rapidpe]: Skipping, unable to determine old version
+[2023-04-17 13:46:53] INFO root fetch - processPackages [read-rapidpe]: Start processing: sydney-py
+[2023-04-17 13:46:53] INFO root fetch - main [MainThread]: End processing [read-rapidpe] error
+[2023-04-17 13:46:53] INFO root fetch - processPackages [polars-lts-cpu]: New version: [0.17.4] Old Version: [0.17.3]
+[2023-04-17 13:46:53] INFO root fetch - processPackages [Weblate]: New version: [4.9.1] Old Version: [4.9]
+[2023-04-17 13:46:53] INFO root fetch - processPackages [edwh-bundler-plugin]: executing diffoscope
+[2023-04-17 13:46:53] INFO root fetch - processPackages [edwh-bundler-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edwh_bundler_plugin-0.1.2.tar.gz tmp/edwh_bundler_plugin-0.1.3.tar.gz --markdown 20230417/e/edwh-bundler-plugin/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-17 13:46:53] INFO root fetch - processPackages [polars-u64-idx]: New version: [0.17.4] Old Version: [0.17.3]
+[2023-04-17 13:46:53] INFO root fetch - processPackages [sydney-py]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-17 13:46:53] INFO root fetch - processPackages [edwh-pipcompile-plugin]: Downloading https://files.pythonhosted.org/packages/1a/a0/5d9b1f21bccfcf8f57ae471ff4416f4f43f7c8400668831a51c34897d1c8/edwh_pipcompile_plugin-0.1.3.tar.gz
+[2023-04-17 13:46:53] INFO root fetch - processPackages [hdpws]: Downloading https://files.pythonhosted.org/packages/d3/83/68ec9762f23f330a73bef9fadfca694bfae9792c9e9b80d2cf8d752054a0/hdpws-0.4.2.tar.gz
+[2023-04-17 13:46:53] INFO root fetch - processPackages [Weblate]: Downloading https://files.pythonhosted.org/packages/1b/80/53ffb6a7757a493a187be7be0aa67e0606254c4f1eebdaff087cb49f09a2/Weblate-4.9.tar.gz
+[2023-04-17 13:46:53] INFO root fetch - processPackages [dwh-oppfolging]: Downloading https://files.pythonhosted.org/packages/bd/7e/5b047e6145691fd94030b91144fa2afefbfdc63cb48e64510f7889eb3d1e/dwh_oppfolging-0.0.8.tar.gz
+[2023-04-17 13:46:53] INFO root fetch - processPackages [sydney-py]: Downloading https://files.pythonhosted.org/packages/41/59/a01e40de0b79cb9e5b9753aff2023c3bc23107a4bff38286eebbd3e6c14a/sydney_py-0.8.0.tar.gz
+[2023-04-17 13:46:53] INFO root fetch - processPackages [polars-lts-cpu]: Downloading https://files.pythonhosted.org/packages/6e/73/dd828905d724d30a66c59a6f876880ca1c95255ec7b850260f0458af772b/polars_lts_cpu-0.17.4.tar.gz
+[2023-04-17 13:46:53] INFO root fetch - processPackages [wonder-sdk]: executing diffoscope
+[2023-04-17 13:46:53] INFO root fetch - processPackages [wonder-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wonder-sdk-0.1.8.tar.gz tmp/wonder-sdk-0.1.9.tar.gz --markdown 20230417/w/wonder-sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-17 13:46:53] INFO root fetch - processPackages [polars-u64-idx]: Downloading https://files.pythonhosted.org/packages/83/9f/588bfed666649caeef78510b193284b909dc42f23a0e3bda2626fcc84505/polars_u64_idx-0.17.4.tar.gz
+[2023-04-17 13:46:54] INFO root fetch - processPackages [edwh-pipcompile-plugin]: Downloading https://files.pythonhosted.org/packages/06/65/bc17d69fe4bc68f36efffeacd062e7bd5dd5707233809895720a5db695a3/edwh_pipcompile_plugin-0.1.4.tar.gz
+[2023-04-17 13:46:54] INFO root fetch - processPackages [hdpws]: Downloading https://files.pythonhosted.org/packages/12/97/35a6f9ff54a60d76080c55558b95832e36cc85a2d8d5e5c228846f3807de/hdpws-0.6.2.tar.gz
+[2023-04-17 13:46:54] INFO root fetch - processPackages [dwh-oppfolging]: Downloading https://files.pythonhosted.org/packages/d7/53/d6168fd1cf2cce707cc3d8f9c54f278c6cb5a0b20d7af3d70b4516681c1b/dwh_oppfolging-0.0.9.tar.gz
+[2023-04-17 13:46:54] INFO root fetch - processPackages [edwh-pipcompile-plugin]: executing diffoscope
+[2023-04-17 13:46:54] INFO root fetch - processPackages [edwh-pipcompile-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edwh_pipcompile_plugin-0.1.3.tar.gz tmp/edwh_pipcompile_plugin-0.1.4.tar.gz --markdown 20230417/e/edwh-pipcompile-plugin/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-17 13:46:54] INFO root fetch - processPackages [polars-u64-idx]: executing diffoscope
+[2023-04-17 13:46:54] INFO root fetch - processPackages [polars-u64-idx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars_u64_idx-0.17.3.tar.gz tmp/polars_u64_idx-0.17.4.tar.gz --markdown 20230417/p/polars-u64-idx/0.17.3-0.17.4/diff.md --exclude *.pyd
+[2023-04-17 13:46:54] INFO root fetch - processPackages [hdpws]: executing diffoscope
+[2023-04-17 13:46:54] INFO root fetch - processPackages [hdpws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdpws-0.4.2.tar.gz tmp/hdpws-0.6.2.tar.gz --markdown 20230417/h/hdpws/0.4.2-0.6.2/diff.md --exclude *.pyd
+[2023-04-17 13:46:54] INFO root fetch - processPackages [polars-lts-cpu]: executing diffoscope
+[2023-04-17 13:46:54] INFO root fetch - processPackages [polars-lts-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars_lts_cpu-0.17.3.tar.gz tmp/polars_lts_cpu-0.17.4.tar.gz --markdown 20230417/p/polars-lts-cpu/0.17.3-0.17.4/diff.md --exclude *.pyd
+[2023-04-17 13:46:54] INFO root fetch - processPackages [sydney-py]: Downloading https://files.pythonhosted.org/packages/02/41/7735e426c92193839cadff24522495dba9bc888c317f6013433a4fa188c7/sydney_py-0.9.0.tar.gz
+[2023-04-17 13:46:54] INFO root fetch - processPackages [dwh-oppfolging]: executing diffoscope
+[2023-04-17 13:46:54] INFO root fetch - processPackages [dwh-oppfolging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dwh_oppfolging-0.0.8.tar.gz tmp/dwh_oppfolging-0.0.9.tar.gz --markdown 20230417/d/dwh-oppfolging/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 13:46:54] INFO root fetch - processPackages [sydney-py]: executing diffoscope
+[2023-04-17 13:46:54] INFO root fetch - processPackages [sydney-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sydney_py-0.8.0.tar.gz tmp/sydney_py-0.9.0.tar.gz --markdown 20230417/s/sydney-py/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-17 13:46:54] WARNING root fetch - processPackages [Weblate]: Skipping package: exceeds size limit 25286022>=10485760
+[2023-04-17 13:46:54] INFO root fetch - processPackages [Weblate]: Start processing: brds
+[2023-04-17 13:46:54] INFO root fetch - main [MainThread]: End processing [Weblate] error
+[2023-04-17 13:46:54] INFO root fetch - processPackages [brds]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-17 13:46:54] INFO root fetch - processPackages [brds]: Downloading https://files.pythonhosted.org/packages/69/45/4567834c4063c6215c84c76159331a5d3c97cc101dc28fba4366c4c08bdc/brds-0.3.0.tar.gz
+[2023-04-17 13:46:55] INFO root fetch - processPackages [brds]: Downloading https://files.pythonhosted.org/packages/32/db/5088289ffae726aa10dc6952015024a88c405ef0ada57675749de192a79d/brds-0.3.1.tar.gz
+[2023-04-17 13:46:55] INFO root fetch - processPackages [brds]: executing diffoscope
+[2023-04-17 13:46:55] INFO root fetch - processPackages [brds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brds-0.3.0.tar.gz tmp/brds-0.3.1.tar.gz --markdown 20230417/b/brds/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-17 13:46:55] INFO root fetch - processPackages [edwh-bundler-plugin]: Start processing: customvalidator
+[2023-04-17 13:46:55] INFO root fetch - main [MainThread]: End processing [edwh-bundler-plugin]: success
+[2023-04-17 13:46:55] INFO root fetch - processPackages [customvalidator]: New version: [0.4] Old Version: [0.3]
+[2023-04-17 13:46:55] INFO root fetch - processPackages [satori-ci]: Start processing: sgex
+[2023-04-17 13:46:55] INFO root fetch - main [MainThread]: End processing [satori-ci]: success
+[2023-04-17 13:46:55] INFO root fetch - processPackages [customvalidator]: executing diffoscope
+[2023-04-17 13:46:55] INFO root fetch - processPackages [customvalidator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/customvalidator-0.3.tar.gz tmp/customvalidator-0.4.tar.gz --markdown 20230417/c/customvalidator/0.3-0.4/diff.md --exclude *.pyd
+[2023-04-17 13:46:55] INFO root fetch - processPackages [sgex]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-04-17 13:46:55] INFO root fetch - processPackages [wonder-sdk]: Start processing: colabcloud
+[2023-04-17 13:46:55] INFO root fetch - main [MainThread]: End processing [wonder-sdk]: success
+[2023-04-17 13:46:55] INFO root fetch - processPackages [sgex]: Downloading https://files.pythonhosted.org/packages/05/37/c6c6ff1887ccc6e0dcaa7942564efb49555b904e6952010c71f5f203a01c/sgex-0.6.2.tar.gz
+[2023-04-17 13:46:55] WARNING root fetch - processPackages [colabcloud]: Skipping, unable to determine old version
+[2023-04-17 13:46:55] INFO root fetch - main [MainThread]: End processing [colabcloud] error
+[2023-04-17 13:46:55] INFO root fetch - main [MainThread]: End processing [edwh-pipcompile-plugin]: success
+[2023-04-17 13:46:55] INFO root fetch - processPackages [sgex]: Downloading https://files.pythonhosted.org/packages/f8/ef/ac2b401c8aa45f25d471ea6af09f2c727c4402a4f361a2ae3b319c265fdc/sgex-0.6.3.tar.gz
+[2023-04-17 13:46:56] INFO root fetch - main [MainThread]: End processing [dwh-oppfolging]: success
+[2023-04-17 13:46:56] INFO root fetch - main [MainThread]: End processing [sydney-py]: success
+[2023-04-17 13:46:56] INFO root fetch - processPackages [sgex]: executing diffoscope
+[2023-04-17 13:46:56] INFO root fetch - processPackages [sgex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sgex-0.6.2.tar.gz tmp/sgex-0.6.3.tar.gz --markdown 20230417/s/sgex/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-04-17 13:46:56] INFO root fetch - main [MainThread]: End processing [hdpws]: success
+[2023-04-17 13:46:56] INFO root fetch - main [MainThread]: End processing [brds]: success
+[2023-04-17 13:46:56] INFO root fetch - main [MainThread]: End processing [customvalidator]: success
+[2023-04-17 13:46:57] INFO root fetch - main [MainThread]: End processing [sgex]: success
+[2023-04-17 13:47:13] INFO root fetch - main [MainThread]: End processing [polars-lts-cpu]: success
+[2023-04-17 13:47:16] INFO root fetch - main [MainThread]: End processing [polars-u64-idx]: success
+[2023-04-17 13:47:16] INFO root fetch - main [MainThread]: Store serial: [17737649]
