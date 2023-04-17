@@ -19854,3 +19854,104 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-17 20:12:25] INFO root fetch - main [MainThread]: End processing [pyplasm]: success
 [2023-04-17 20:12:31] INFO root fetch - main [MainThread]: End processing [ethyca-fides]: success
 [2023-04-17 20:12:31] INFO root fetch - main [MainThread]: Store serial: [17742489]
+[2023-04-17 20:17:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17742489]
+[2023-04-17 20:17:40] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-04-17 20:17:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ethereal
+[2023-04-17 20:17:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: y-class-files
+[2023-04-17 20:17:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xia-engine-terraform-gcs
+[2023-04-17 20:17:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: class-files
+[2023-04-17 20:17:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: micropython-si7021
+[2023-04-17 20:17:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: interlinking
+[2023-04-17 20:17:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PyE2
+[2023-04-17 20:17:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jeff-api
+[2023-04-17 20:17:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ethereal
+[2023-04-17 20:17:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: 360monitoringcli
+[2023-04-17 20:17:40] INFO root fetch - processPackages [jeff-api]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-04-17 20:17:40] WARNING root fetch - processPackages [xia-engine-terraform-gcs]: Skipping, unable to determine old version
+[2023-04-17 20:17:40] INFO root fetch - processPackages [class-files]: New version: [0.2] Old Version: [0.1]
+[2023-04-17 20:17:40] INFO root fetch - processPackages [xia-engine-terraform-gcs]: Start processing: pyTermTk
+[2023-04-17 20:17:40] INFO root fetch - main [MainThread]: End processing [xia-engine-terraform-gcs] error
+[2023-04-17 20:17:40] INFO root fetch - processPackages [ethereal]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-17 20:17:40] WARNING root fetch - processPackages [micropython-si7021]: Skipping, unable to determine old version
+[2023-04-17 20:17:40] INFO root fetch - processPackages [ethereal]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-17 20:17:40] INFO root fetch - processPackages [micropython-si7021]: Start processing: xh-dict-utils
+[2023-04-17 20:17:40] INFO root fetch - main [MainThread]: End processing [micropython-si7021] error
+[2023-04-17 20:17:40] INFO root fetch - processPackages [y-class-files]: New version: [0.4] Old Version: [0.3]
+[2023-04-17 20:17:40] INFO root fetch - processPackages [jeff-api]: executing diffoscope
+[2023-04-17 20:17:40] INFO root fetch - processPackages [PyE2]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-04-17 20:17:40] INFO root fetch - processPackages [jeff-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jeff_api-1.2.8.tar.gz tmp/jeff_api-1.2.9.tar.gz --markdown 20230417/j/jeff-api/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-04-17 20:17:40] INFO root fetch - processPackages [interlinking]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-17 20:17:40] INFO root fetch - processPackages [360monitoringcli]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-17 20:17:40] INFO root fetch - processPackages [xh-dict-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 20:17:40] INFO root fetch - processPackages [pyTermTk]: New version: [0.9.0a62] Old Version: [0.9.0a56]
+[2023-04-17 20:17:40] INFO root fetch - processPackages [class-files]: executing diffoscope
+[2023-04-17 20:17:40] INFO root fetch - processPackages [class-files]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/class_files-0.1.tar.gz tmp/class_files-0.2.tar.gz --markdown 20230417/c/class-files/0.1-0.2/diff.md --exclude *.pyd
+[2023-04-17 20:17:40] INFO root fetch - processPackages [ethereal]: Downloading https://files.pythonhosted.org/packages/db/6c/a7e3cb1628b46abafe8a35ab023694feff4e12cbce200395aa3825b035a1/ethereal-0.1.2.tar.gz
+[2023-04-17 20:17:40] INFO root fetch - processPackages [ethereal]: Downloading https://files.pythonhosted.org/packages/db/6c/a7e3cb1628b46abafe8a35ab023694feff4e12cbce200395aa3825b035a1/ethereal-0.1.2.tar.gz
+[2023-04-17 20:17:40] INFO root fetch - processPackages [y-class-files]: Downloading https://files.pythonhosted.org/packages/a6/49/753124e4a2b94a9b33573638d0cbce705e927928a8c1a14ae0520f9696ac/y_class_files-0.3.tar.gz
+[2023-04-17 20:17:40] INFO root fetch - processPackages [xh-dict-utils]: executing diffoscope
+[2023-04-17 20:17:40] INFO root fetch - processPackages [xh-dict-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xh-dict-utils-0.0.8.tar.gz tmp/xh-dict-utils-0.0.9.tar.gz --markdown 20230417/x/xh-dict-utils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 20:17:40] INFO root fetch - processPackages [360monitoringcli]: Downloading https://files.pythonhosted.org/packages/5b/f2/4964db4b65c2ade1be78195a688e31b34589cd6771c8c29d517cfeec95ed/360monitoringcli-1.0.8.tar.gz
+[2023-04-17 20:17:40] INFO root fetch - processPackages [PyE2]: Downloading https://files.pythonhosted.org/packages/fe/5d/a267b3e0ab6bc00b55b3278a6be7a3f364945e5862320ab0e82f69f5d452/pye2-0.3.3.tar.gz
+[2023-04-17 20:17:40] INFO root fetch - processPackages [pyTermTk]: Downloading https://files.pythonhosted.org/packages/75/5c/de0a01268aca4e293afd0f3034da418a422a4063208fe6a2d89fa1efc89e/pyTermTk-0.9.0a56.tar.gz
+[2023-04-17 20:17:41] INFO root fetch - processPackages [interlinking]: Downloading https://files.pythonhosted.org/packages/e2/1b/a2bca1888069a30757d6a1b2d7d5bb6f3636bedcaddb0c20d1f9e089d63d/interlinking-0.0.4.tar.gz
+[2023-04-17 20:17:41] INFO root fetch - processPackages [y-class-files]: Downloading https://files.pythonhosted.org/packages/2a/49/4684524c2bebe25ddb89edeaee15d89cd664eaaf0c38c7fe1f01adaad7f9/y_class_files-0.4.tar.gz
+[2023-04-17 20:17:41] INFO root fetch - processPackages [360monitoringcli]: Downloading https://files.pythonhosted.org/packages/69/c7/b1da8279267b50a6b52d454bd04d9db575c3a2f712f6873283756f02f87d/360monitoringcli-1.0.9.tar.gz
+[2023-04-17 20:17:41] INFO root fetch - processPackages [ethereal]: Downloading https://files.pythonhosted.org/packages/44/06/6aee21441a49900c86fa01106dcc2e374e6bf854fb35d69e07745ae73f49/ethereal-0.1.3.tar.gz
+[2023-04-17 20:17:41] INFO root fetch - processPackages [ethereal]: Downloading https://files.pythonhosted.org/packages/44/06/6aee21441a49900c86fa01106dcc2e374e6bf854fb35d69e07745ae73f49/ethereal-0.1.3.tar.gz
+[2023-04-17 20:17:41] INFO root fetch - processPackages [PyE2]: Downloading https://files.pythonhosted.org/packages/f2/32/70e90fe8067936f0539944c1dad707f0b05a037e94edb9bbbcdbf9d6cf9c/pye2-0.3.4.tar.gz
+[2023-04-17 20:17:41] INFO root fetch - processPackages [360monitoringcli]: executing diffoscope
+[2023-04-17 20:17:41] INFO root fetch - processPackages [360monitoringcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/360monitoringcli-1.0.8.tar.gz tmp/360monitoringcli-1.0.9.tar.gz --markdown 20230417/3/360monitoringcli/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-17 20:17:41] INFO root fetch - processPackages [interlinking]: executing diffoscope
+[2023-04-17 20:17:41] INFO root fetch - processPackages [interlinking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/interlinking-0.0.3.tar.gz tmp/interlinking-0.0.4.tar.gz --markdown 20230417/i/interlinking/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-17 20:17:41] INFO root fetch - processPackages [y-class-files]: executing diffoscope
+[2023-04-17 20:17:41] INFO root fetch - processPackages [y-class-files]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/y_class_files-0.3.tar.gz tmp/y_class_files-0.4.tar.gz --markdown 20230417/y/y-class-files/0.3-0.4/diff.md --exclude *.pyd
+[2023-04-17 20:17:41] INFO root fetch - processPackages [ethereal]: executing diffoscope
+[2023-04-17 20:17:41] INFO root fetch - processPackages [ethereal]: executing diffoscope
+[2023-04-17 20:17:41] INFO root fetch - processPackages [ethereal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ethereal-0.1.2.tar.gz tmp/ethereal-0.1.3.tar.gz --markdown 20230417/e/ethereal/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-17 20:17:41] INFO root fetch - processPackages [ethereal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ethereal-0.1.2.tar.gz tmp/ethereal-0.1.3.tar.gz --markdown 20230417/e/ethereal/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-17 20:17:41] INFO root fetch - processPackages [PyE2]: executing diffoscope
+[2023-04-17 20:17:41] INFO root fetch - processPackages [PyE2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pye2-0.3.3.tar.gz tmp/pye2-0.3.4.tar.gz --markdown 20230417/P/PyE2/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-04-17 20:17:41] INFO root fetch - processPackages [pyTermTk]: Downloading https://files.pythonhosted.org/packages/05/bd/fe036dd7372cea97065d98f1d5d8c3f6453fa7fcb653d07550c359f9a113/pyTermTk-0.9.0a62.tar.gz
+[2023-04-17 20:17:41] INFO root fetch - processPackages [jeff-api]: Start processing: pyds-cli
+[2023-04-17 20:17:41] INFO root fetch - main [MainThread]: End processing [jeff-api]: success
+[2023-04-17 20:17:41] INFO root fetch - processPackages [pyds-cli]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-04-17 20:17:41] INFO root fetch - processPackages [class-files]: Start processing: orso
+[2023-04-17 20:17:41] INFO root fetch - main [MainThread]: End processing [class-files]: success
+[2023-04-17 20:17:42] INFO root fetch - processPackages [orso]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 20:17:42] INFO root fetch - processPackages [pyds-cli]: executing diffoscope
+[2023-04-17 20:17:42] INFO root fetch - processPackages [pyds-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyds-cli-0.1.6.tar.gz tmp/pyds-cli-0.1.7.tar.gz --markdown 20230417/p/pyds-cli/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-04-17 20:17:42] INFO root fetch - processPackages [orso]: executing diffoscope
+[2023-04-17 20:17:42] INFO root fetch - processPackages [orso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orso-0.0.8.tar.gz tmp/orso-0.0.9.tar.gz --markdown 20230417/o/orso/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 20:17:42] INFO root fetch - processPackages [pyTermTk]: executing diffoscope
+[2023-04-17 20:17:42] INFO root fetch - processPackages [pyTermTk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyTermTk-0.9.0a56.tar.gz tmp/pyTermTk-0.9.0a62.tar.gz --markdown 20230417/p/pyTermTk/0.9.0a56-0.9.0a62/diff.md --exclude *.pyd
+[2023-04-17 20:17:42] INFO root fetch - processPackages [xh-dict-utils]: Start processing: torchio
+[2023-04-17 20:17:42] INFO root fetch - main [MainThread]: End processing [xh-dict-utils]: success
+[2023-04-17 20:17:42] INFO root fetch - processPackages [y-class-files]: Start processing: watchtower-browser-testing
+[2023-04-17 20:17:42] INFO root fetch - main [MainThread]: End processing [y-class-files]: success
+[2023-04-17 20:17:42] INFO root fetch - processPackages [watchtower-browser-testing]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-17 20:17:42] INFO root fetch - processPackages [torchio]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-04-17 20:17:42] INFO root fetch - processPackages [interlinking]: Start processing: steamship-langchain
+[2023-04-17 20:17:42] INFO root fetch - main [MainThread]: End processing [interlinking]: success
+[2023-04-17 20:17:42] INFO root fetch - processPackages [watchtower-browser-testing]: executing diffoscope
+[2023-04-17 20:17:42] INFO root fetch - processPackages [watchtower-browser-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchtower_browser_testing-0.3.8.tar.gz tmp/watchtower_browser_testing-0.3.9.tar.gz --markdown 20230417/w/watchtower-browser-testing/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-17 20:17:42] INFO root fetch - main [MainThread]: End processing [ethereal]: success
+[2023-04-17 20:17:42] INFO root fetch - processPackages [steamship-langchain]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 20:17:42] INFO root fetch - processPackages [torchio]: Downloading https://files.pythonhosted.org/packages/9b/69/b58b66561e8176365a303b8219c82d9c89794cb859fd3016becb83eef879/torchio-0.8.3.tar.gz
+[2023-04-17 20:17:43] INFO root fetch - processPackages [steamship-langchain]: Downloading https://files.pythonhosted.org/packages/28/9b/7d30260ef422e30d955c8e4ebaea1b7da8fe8e82ed497d0e37cfe71a5062/steamship-langchain-0.0.8.tar.gz
+[2023-04-17 20:17:43] INFO root fetch - main [MainThread]: End processing [ethereal]: success
+[2023-04-17 20:17:43] INFO root fetch - main [MainThread]: End processing [360monitoringcli]: success
+[2023-04-17 20:17:43] INFO root fetch - processPackages [torchio]: Downloading https://files.pythonhosted.org/packages/88/e5/73aa50869bc13b0bcdadfdfcca91db2b14e358555bcb94519ee0410b0ae8/torchio-0.9.0.tar.gz
+[2023-04-17 20:17:43] INFO root fetch - processPackages [steamship-langchain]: Downloading https://files.pythonhosted.org/packages/d3/e8/99fd7d90895f3d224f2fe3210c59f541a6187cc6e3aab13e92fa5e2da113/steamship-langchain-0.0.9.tar.gz
+[2023-04-17 20:17:43] INFO root fetch - main [MainThread]: End processing [orso]: success
+[2023-04-17 20:17:43] INFO root fetch - processPackages [steamship-langchain]: executing diffoscope
+[2023-04-17 20:17:43] INFO root fetch - processPackages [steamship-langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steamship-langchain-0.0.8.tar.gz tmp/steamship-langchain-0.0.9.tar.gz --markdown 20230417/s/steamship-langchain/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 20:17:43] INFO root fetch - main [MainThread]: End processing [PyE2]: success
+[2023-04-17 20:17:43] INFO root fetch - processPackages [torchio]: executing diffoscope
+[2023-04-17 20:17:43] INFO root fetch - processPackages [torchio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchio-0.8.3.tar.gz tmp/torchio-0.9.0.tar.gz --markdown 20230417/t/torchio/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-04-17 20:17:43] INFO root fetch - main [MainThread]: End processing [pyds-cli]: success
+[2023-04-17 20:17:43] INFO root fetch - main [MainThread]: End processing [watchtower-browser-testing]: success
+[2023-04-17 20:17:44] INFO root fetch - main [MainThread]: End processing [pyTermTk]: success
+[2023-04-17 20:17:44] INFO root fetch - main [MainThread]: End processing [torchio]: success
+[2023-04-17 20:17:44] INFO root fetch - main [MainThread]: End processing [steamship-langchain]: success
+[2023-04-17 20:17:44] INFO root fetch - main [MainThread]: Store serial: [17742562]
