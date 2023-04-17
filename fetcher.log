@@ -3129,3 +3129,44 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 03:02:19] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-intl-en]: success
 [2023-04-17 03:02:21] INFO root fetch - main [MainThread]: End processing [tccli-intl-en]: success
 [2023-04-17 03:02:21] INFO root fetch - main [MainThread]: Store serial: [17732434]
+[2023-04-17 03:07:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17732434]
+[2023-04-17 03:07:30] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-17 03:07:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pymodd
+[2023-04-17 03:07:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deepi-yolo
+[2023-04-17 03:07:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cherryblossom
+[2023-04-17 03:07:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytest-frappe
+[2023-04-17 03:07:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chdb
+[2023-04-17 03:07:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyagrum-nightly
+[2023-04-17 03:07:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: loganmatic
+[2023-04-17 03:07:30] INFO root fetch - processPackages [pymodd]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-04-17 03:07:30] INFO root fetch - processPackages [pytest-frappe]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-17 03:07:30] INFO root fetch - processPackages [cherryblossom]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-17 03:07:30] WARNING root fetch - processPackages [deepi-yolo]: Skipping, unable to determine old version
+[2023-04-17 03:07:30] INFO root fetch - main [MainThread]: End processing [deepi-yolo] error
+[2023-04-17 03:07:30] WARNING root fetch - processPackages [loganmatic]: Skipping, unable to determine old version
+[2023-04-17 03:07:30] INFO root fetch - main [MainThread]: End processing [loganmatic] error
+[2023-04-17 03:07:30] INFO root fetch - processPackages [chdb]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-04-17 03:07:30] INFO root fetch - processPackages [cherryblossom]: Downloading https://files.pythonhosted.org/packages/3c/4a/ca1c45ccc16ad716a6478698666925c8521a2bf1299cbbf212e28ba66a84/cherryblossom-0.0.2.tar.gz
+[2023-04-17 03:07:30] INFO root fetch - processPackages [pytest-frappe]: Downloading https://files.pythonhosted.org/packages/92/30/17feb3e0fa629ae3f74ec4d82ceceeecbc9bf814fe801f07bc0d64404b52/pytest-frappe-0.0.4.tar.gz
+[2023-04-17 03:07:30] INFO root fetch - processPackages [chdb]: Downloading https://files.pythonhosted.org/packages/30/b5/7d4bb875fee6938b5e554f899cb5839c503ac7b72335e264aac319c4d80c/chdb-0.4.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-17 03:07:30] INFO root fetch - processPackages [pymodd]: Downloading https://files.pythonhosted.org/packages/0c/d3/80b87ece0a53405cf3d6d150529bc5f1330c80e049bdf59d870e4a5ec442/pymodd-0.2.2.tar.gz
+[2023-04-17 03:07:30] INFO root fetch - processPackages [pytest-frappe]: executing diffoscope
+[2023-04-17 03:07:30] INFO root fetch - processPackages [pytest-frappe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-frappe-0.0.3.tar.gz tmp/pytest-frappe-0.0.4.tar.gz --markdown 20230417/p/pytest-frappe/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-17 03:07:30] INFO root fetch - processPackages [pyagrum-nightly]: New version: [1.7.1.9.dev202304171681314159] Old Version: [1.7.1.9.dev202304161681314159]
+[2023-04-17 03:07:30] INFO root fetch - processPackages [pymodd]: Downloading https://files.pythonhosted.org/packages/4a/48/e68b8a7f8a2d29d26fe1161ef3f6c5fc23068b353d67f83e132b199740df/pymodd-0.3.0.tar.gz
+[2023-04-17 03:07:30] INFO root fetch - processPackages [cherryblossom]: Downloading https://files.pythonhosted.org/packages/3a/1d/3eb89439fc9ece1733999e2436767f8d8d94d129931cbb0c8f993122416c/cherryblossom-0.0.3.tar.gz
+[2023-04-17 03:07:30] INFO root fetch - processPackages [pymodd]: executing diffoscope
+[2023-04-17 03:07:30] INFO root fetch - processPackages [pymodd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymodd-0.2.2.tar.gz tmp/pymodd-0.3.0.tar.gz --markdown 20230417/p/pymodd/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-04-17 03:07:30] WARNING root fetch - processPackages [chdb]: Skipping package: exceeds size limit 107170127>=10485760
+[2023-04-17 03:07:30] INFO root fetch - main [MainThread]: End processing [chdb] error
+[2023-04-17 03:07:30] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/b0/09/12e41f15f1932502469c7e8d440a1e8646928c22cf02d75791a20edc5f75/pyAgrum_nightly-1.7.1.9.dev202304161681314159-cp39-cp39-win_amd64.whl
+[2023-04-17 03:07:30] INFO root fetch - processPackages [cherryblossom]: executing diffoscope
+[2023-04-17 03:07:30] INFO root fetch - processPackages [cherryblossom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cherryblossom-0.0.2.tar.gz tmp/cherryblossom-0.0.3.tar.gz --markdown 20230417/c/cherryblossom/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-17 03:07:31] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/ae/a4/be6369563bdbd700af96f23e992b56fab8f525fd814e55d5715f8a70ab70/pyAgrum_nightly-1.7.1.9.dev202304171681314159-cp39-cp39-win_amd64.whl
+[2023-04-17 03:07:31] INFO root fetch - main [MainThread]: End processing [pytest-frappe]: success
+[2023-04-17 03:07:31] INFO root fetch - processPackages [pyagrum-nightly]: executing diffoscope
+[2023-04-17 03:07:31] INFO root fetch - processPackages [pyagrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.7.1.9.dev202304161681314159-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.7.1.9.dev202304171681314159-cp39-cp39-win_amd64.whl.zip --markdown 20230417/p/pyagrum-nightly/1.7.1.9.dev202304161681314159-1.7.1.9.dev202304171681314159/diff.md --exclude *.pyd
+[2023-04-17 03:07:31] INFO root fetch - main [MainThread]: End processing [cherryblossom]: success
+[2023-04-17 03:07:32] INFO root fetch - main [MainThread]: End processing [pymodd]: success
+[2023-04-17 03:07:32] INFO root fetch - main [MainThread]: End processing [pyagrum-nightly]: success
+[2023-04-17 03:07:32] INFO root fetch - main [MainThread]: Store serial: [17732475]
