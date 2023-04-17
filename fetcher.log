@@ -18505,3 +18505,76 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-17 18:55:01] INFO root fetch - main [MainThread]: End processing [OctoBot-Commons]: success
 [2023-04-17 18:55:11] INFO root fetch - main [MainThread]: End processing [arelle-release]: success
 [2023-04-17 18:55:11] INFO root fetch - main [MainThread]: Store serial: [17741638]
+[2023-04-17 19:00:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17741638]
+[2023-04-17 19:00:20] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-17 19:00:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tinymovr
+[2023-04-17 19:00:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nmodl-preprocessor
+[2023-04-17 19:00:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jocassid-commons
+[2023-04-17 19:00:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pymathematics
+[2023-04-17 19:00:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: modeci-mdf
+[2023-04-17 19:00:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: msal
+[2023-04-17 19:00:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tarvis-btb
+[2023-04-17 19:00:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: docarray
+[2023-04-17 19:00:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ramodels
+[2023-04-17 19:00:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rexify
+[2023-04-17 19:00:20] WARNING root fetch - processPackages [nmodl-preprocessor]: Skipping, unable to determine old version
+[2023-04-17 19:00:20] INFO root fetch - processPackages [nmodl-preprocessor]: Start processing: python-liquid
+[2023-04-17 19:00:20] INFO root fetch - main [MainThread]: End processing [nmodl-preprocessor] error
+[2023-04-17 19:00:20] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-04-17 19:00:20] INFO root fetch - processPackages [python-liquid]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-04-17 19:00:20] INFO root fetch - processPackages [rexify]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-17 19:00:20] INFO root fetch - processPackages [tinymovr]: New version: [1.3.0] Old Version: [1.2.8]
+[2023-04-17 19:00:20] INFO root fetch - processPackages [modeci-mdf]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-04-17 19:00:20] INFO root fetch - processPackages [pymathematics]: New version: [2023.4.17] Old Version: [2023.4.16.1]
+[2023-04-17 19:00:20] WARNING root fetch - processPackages [tarvis-btb]: Skipping, unable to determine old version
+[2023-04-17 19:00:20] INFO root fetch - processPackages [tarvis-btb]: Start processing: jeff-api
+[2023-04-17 19:00:20] INFO root fetch - processPackages [jocassid-commons]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-17 19:00:20] INFO root fetch - main [MainThread]: End processing [tarvis-btb] error
+[2023-04-17 19:00:20] INFO root fetch - processPackages [python-liquid]: executing diffoscope
+[2023-04-17 19:00:20] INFO root fetch - processPackages [python-liquid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-liquid-1.8.1.tar.gz tmp/python_liquid-1.9.0.tar.gz --markdown 20230417/p/python-liquid/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-04-17 19:00:20] INFO root fetch - processPackages [msal]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-04-17 19:00:20] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-04-17 19:00:20] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230417/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-04-17 19:00:20] INFO root fetch - processPackages [rexify]: executing diffoscope
+[2023-04-17 19:00:20] INFO root fetch - processPackages [rexify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rexify-0.1.8.tar.gz tmp/rexify-0.1.9.tar.gz --markdown 20230417/r/rexify/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-17 19:00:20] INFO root fetch - processPackages [jeff-api]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-04-17 19:00:20] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-04-17 19:00:20] INFO root fetch - processPackages [tinymovr]: Downloading https://files.pythonhosted.org/packages/17/54/76433c1924f9dd02269a5cffedde24d60e1ea70f597ea3e5611b2daa4053/tinymovr-1.2.8.tar.gz
+[2023-04-17 19:00:20] INFO root fetch - processPackages [jeff-api]: executing diffoscope
+[2023-04-17 19:00:20] INFO root fetch - processPackages [jeff-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jeff_api-1.2.1.tar.gz tmp/jeff_api-1.2.2.tar.gz --markdown 20230417/j/jeff-api/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-04-17 19:00:20] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-04-17 19:00:20] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230417/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-04-17 19:00:20] INFO root fetch - processPackages [modeci-mdf]: Downloading https://files.pythonhosted.org/packages/91/41/1c65d958698c3a261bf905e22f4e99f5d52d08ffd073399abbfcaa2a5fa8/modeci-mdf-0.4.4.tar.gz
+[2023-04-17 19:00:20] INFO root fetch - processPackages [jocassid-commons]: Downloading https://files.pythonhosted.org/packages/34/93/2e33cdaa7a452575f6e76b1993555920f53fb6262e0674cce992ff56e4c3/jocassid_commons-0.0.5.tar.gz
+[2023-04-17 19:00:20] INFO root fetch - processPackages [msal]: Downloading https://files.pythonhosted.org/packages/60/6c/62cc536190b963a74aeb2973ee0c18a6aa202535503369153f94b90c0998/msal-1.8.0.tar.gz
+[2023-04-17 19:00:20] INFO root fetch - processPackages [pymathematics]: Downloading https://files.pythonhosted.org/packages/cf/d9/e197e34a867001b2afe9c98bb97591fbd81eff3ee676e07abb4386d9eeec/pymathematics-2023.4.17.tar.gz
+[2023-04-17 19:00:21] INFO root fetch - processPackages [jocassid-commons]: Downloading https://files.pythonhosted.org/packages/3d/f0/88fe2d7d6a5b016479aa05229d55a1bf6487fad14dc47308378ffdb149b4/jocassid_commons-0.0.6.tar.gz
+[2023-04-17 19:00:21] INFO root fetch - processPackages [tinymovr]: Downloading https://files.pythonhosted.org/packages/04/0c/6b9d0b9e047ca11d5b0fe3f4a3ae3f189399adff5ef3f0751e95904ecf63/tinymovr-1.3.0.tar.gz
+[2023-04-17 19:00:21] INFO root fetch - processPackages [pymathematics]: executing diffoscope
+[2023-04-17 19:00:21] INFO root fetch - processPackages [pymathematics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymathematics-2023.4.16.1.tar.gz tmp/pymathematics-2023.4.17.tar.gz --markdown 20230417/p/pymathematics/2023.4.16.1-2023.4.17/diff.md --exclude *.pyd
+[2023-04-17 19:00:21] INFO root fetch - processPackages [modeci-mdf]: Downloading https://files.pythonhosted.org/packages/ed/49/47e41d71a8f0dc5750f389c235b54594e5e2b1bda0224eeecdeefd50ea41/modeci-mdf-0.4.5.tar.gz
+[2023-04-17 19:00:21] INFO root fetch - processPackages [msal]: Downloading https://files.pythonhosted.org/packages/29/7e/41c593ecf49978b3885413ef3d2d711453a6ebdc7eb28e062d910d9dd785/msal-1.9.0.tar.gz
+[2023-04-17 19:00:21] INFO root fetch - processPackages [jocassid-commons]: executing diffoscope
+[2023-04-17 19:00:21] INFO root fetch - processPackages [jocassid-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jocassid_commons-0.0.5.tar.gz tmp/jocassid_commons-0.0.6.tar.gz --markdown 20230417/j/jocassid-commons/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-17 19:00:21] INFO root fetch - processPackages [tinymovr]: executing diffoscope
+[2023-04-17 19:00:21] INFO root fetch - processPackages [tinymovr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinymovr-1.2.8.tar.gz tmp/tinymovr-1.3.0.tar.gz --markdown 20230417/t/tinymovr/1.2.8-1.3.0/diff.md --exclude *.pyd
+[2023-04-17 19:00:21] INFO root fetch - processPackages [msal]: executing diffoscope
+[2023-04-17 19:00:21] INFO root fetch - processPackages [msal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msal-1.8.0.tar.gz tmp/msal-1.9.0.tar.gz --markdown 20230417/m/msal/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-04-17 19:00:21] INFO root fetch - processPackages [modeci-mdf]: executing diffoscope
+[2023-04-17 19:00:21] INFO root fetch - processPackages [modeci-mdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modeci-mdf-0.4.4.tar.gz tmp/modeci-mdf-0.4.5.tar.gz --markdown 20230417/m/modeci-mdf/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-04-17 19:00:22] INFO root fetch - processPackages [jeff-api]: Start processing: nbsite
+[2023-04-17 19:00:22] INFO root fetch - main [MainThread]: End processing [jeff-api]: success
+[2023-04-17 19:00:22] INFO root fetch - processPackages [nbsite]: New version: [0.8.0rc9] Old Version: [0.8.0rc8]
+[2023-04-17 19:00:22] INFO root fetch - processPackages [nbsite]: executing diffoscope
+[2023-04-17 19:00:22] INFO root fetch - processPackages [nbsite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbsite-0.8.0rc8.tar.gz tmp/nbsite-0.8.0rc9.tar.gz --markdown 20230417/n/nbsite/0.8.0rc8-0.8.0rc9/diff.md --exclude *.pyd
+[2023-04-17 19:00:22] INFO root fetch - main [MainThread]: End processing [pymathematics]: success
+[2023-04-17 19:00:22] INFO root fetch - main [MainThread]: End processing [rexify]: success
+[2023-04-17 19:00:22] INFO root fetch - main [MainThread]: End processing [jocassid-commons]: success
+[2023-04-17 19:00:22] INFO root fetch - main [MainThread]: End processing [msal]: success
+[2023-04-17 19:00:22] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-04-17 19:00:22] INFO root fetch - main [MainThread]: End processing [tinymovr]: success
+[2023-04-17 19:00:23] INFO root fetch - main [MainThread]: End processing [nbsite]: success
+[2023-04-17 19:00:24] INFO root fetch - main [MainThread]: End processing [modeci-mdf]: success
+[2023-04-17 19:00:25] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-04-17 19:00:59] INFO root fetch - main [MainThread]: End processing [python-liquid]: success
+[2023-04-17 19:00:59] INFO root fetch - main [MainThread]: Store serial: [17741691]
