@@ -6611,3 +6611,53 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 08:40:54] INFO root fetch - main [MainThread]: End processing [wagtailmenus]: success
 [2023-04-17 08:40:55] INFO root fetch - main [MainThread]: End processing [django-treebeard]: success
 [2023-04-17 08:40:55] INFO root fetch - main [MainThread]: Store serial: [17734507]
+[2023-04-17 08:45:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17734507]
+[2023-04-17 08:46:04] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-17 08:46:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: EMPOL-GUI
+[2023-04-17 08:46:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pylebai
+[2023-04-17 08:46:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sitesniffer
+[2023-04-17 08:46:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cg
+[2023-04-17 08:46:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: langchain-serve
+[2023-04-17 08:46:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mop-utils
+[2023-04-17 08:46:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sqapi
+[2023-04-17 08:46:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: CamoTSS
+[2023-04-17 08:46:04] INFO root fetch - processPackages [EMPOL-GUI]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-04-17 08:46:04] INFO root fetch - processPackages [CamoTSS]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-17 08:46:04] INFO root fetch - processPackages [mop-utils]: New version: [1.8] Old Version: [1.7]
+[2023-04-17 08:46:04] WARNING root fetch - processPackages [sqapi]: Skipping, unable to determine old version
+[2023-04-17 08:46:04] INFO root fetch - processPackages [pylebai]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-17 08:46:04] INFO root fetch - main [MainThread]: End processing [sqapi] error
+[2023-04-17 08:46:04] INFO root fetch - processPackages [sitesniffer]: New version: [0.4] Old Version: [0.3.2]
+[2023-04-17 08:46:04] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.5.dev2] Old Version: [0.0.4.dev9]
+[2023-04-17 08:46:04] INFO root fetch - processPackages [cg]: New version: [27.2.9] Old Version: [27.2.8]
+[2023-04-17 08:46:04] INFO root fetch - processPackages [EMPOL-GUI]: Downloading https://files.pythonhosted.org/packages/ad/ac/033d10a251c32bc47ba6a6e27de675c549e442734747276e9b720640c85c/EMPOL_GUI-1.2.0.tar.gz
+[2023-04-17 08:46:04] INFO root fetch - processPackages [mop-utils]: Downloading https://files.pythonhosted.org/packages/49/df/56c317c0d9e3f5eac980363e10acb03ef4d617f99e8d42c287a2e54422f9/mop_utils-1.7.tar.gz
+[2023-04-17 08:46:04] INFO root fetch - processPackages [CamoTSS]: Downloading https://files.pythonhosted.org/packages/bf/89/5dd692a70a948fc379fceaa5d9be9ba2675acd517eac70dd6c7dd34c2939/CamoTSS-0.1.5.tar.gz
+[2023-04-17 08:46:04] INFO root fetch - processPackages [pylebai]: Downloading https://files.pythonhosted.org/packages/39/04/63f53f4c3f32d001a60962996720d289a886446d16ca2b102d0465b2bfd4/pylebai-1.0.8-pp38-pypy38_pp73-manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+[2023-04-17 08:46:04] INFO root fetch - processPackages [sitesniffer]: Downloading https://files.pythonhosted.org/packages/8a/13/a6486a8a93a01c940e838f2e2548297d9a4fb0b7d28de24920376109bb60/sitesniffer-0.3.2.tar.gz
+[2023-04-17 08:46:04] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/65/22/7cb072fc91d77f824f5d0f855dcef70afbbc8dba1ceb9e3a959f0e8fab00/langchain-serve-0.0.5.dev2.tar.gz
+[2023-04-17 08:46:04] INFO root fetch - processPackages [EMPOL-GUI]: executing diffoscope
+[2023-04-17 08:46:04] INFO root fetch - processPackages [EMPOL-GUI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EMPOL_GUI-1.1.0.tar.gz tmp/EMPOL_GUI-1.2.0.tar.gz --markdown 20230417/E/EMPOL-GUI/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-04-17 08:46:04] INFO root fetch - processPackages [mop-utils]: Downloading https://files.pythonhosted.org/packages/51/80/87d208a3a0539257bc9de02190d6b7611a3e95739f281fc8ce61056efa11/mop_utils-1.8.tar.gz
+[2023-04-17 08:46:04] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-04-17 08:46:04] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-27.2.8.tar.gz tmp/cg-27.2.9.tar.gz --markdown 20230417/c/cg/27.2.8-27.2.9/diff.md --exclude *.pyd
+[2023-04-17 08:46:04] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-04-17 08:46:04] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.4.dev9.tar.gz tmp/langchain-serve-0.0.5.dev2.tar.gz --markdown 20230417/l/langchain-serve/0.0.4.dev9-0.0.5.dev2/diff.md --exclude *.pyd
+[2023-04-17 08:46:04] INFO root fetch - processPackages [sitesniffer]: Downloading https://files.pythonhosted.org/packages/54/55/df51b3d42e38ab46f1246fe43d8647f3baea7b5bff07fc8d01f3669f2cfc/sitesniffer-0.4.tar.gz
+[2023-04-17 08:46:04] INFO root fetch - processPackages [mop-utils]: executing diffoscope
+[2023-04-17 08:46:04] INFO root fetch - processPackages [mop-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mop_utils-1.7.tar.gz tmp/mop_utils-1.8.tar.gz --markdown 20230417/m/mop-utils/1.7-1.8/diff.md --exclude *.pyd
+[2023-04-17 08:46:04] INFO root fetch - processPackages [sitesniffer]: executing diffoscope
+[2023-04-17 08:46:04] INFO root fetch - processPackages [sitesniffer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sitesniffer-0.3.2.tar.gz tmp/sitesniffer-0.4.tar.gz --markdown 20230417/s/sitesniffer/0.3.2-0.4/diff.md --exclude *.pyd
+[2023-04-17 08:46:05] INFO root fetch - processPackages [pylebai]: Downloading https://files.pythonhosted.org/packages/71/27/26c3d81460d00fe753045d1b935b8623f6e9953872fa4953a8577a2e8b1b/pylebai-1.0.9-pp38-pypy38_pp73-manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+[2023-04-17 08:46:05] INFO root fetch - processPackages [CamoTSS]: executing diffoscope
+[2023-04-17 08:46:05] INFO root fetch - processPackages [CamoTSS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CamoTSS-0.1.4.tar.gz tmp/CamoTSS-0.1.5.tar.gz --markdown 20230417/C/CamoTSS/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-17 08:46:05] INFO root fetch - processPackages [pylebai]: executing diffoscope
+[2023-04-17 08:46:05] INFO root fetch - processPackages [pylebai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylebai-1.0.8-pp38-pypy38_pp73-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip tmp/pylebai-1.0.9-pp38-pypy38_pp73-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip --markdown 20230417/p/pylebai/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-17 08:46:05] INFO root fetch - main [MainThread]: End processing [EMPOL-GUI]: success
+[2023-04-17 08:46:05] INFO root fetch - main [MainThread]: End processing [mop-utils]: success
+[2023-04-17 08:46:06] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-04-17 08:46:06] INFO root fetch - main [MainThread]: End processing [sitesniffer]: success
+[2023-04-17 08:46:10] INFO root fetch - main [MainThread]: End processing [CamoTSS]: success
+[2023-04-17 08:46:16] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-04-17 08:46:21] INFO root fetch - main [MainThread]: End processing [pylebai]: success
+[2023-04-17 08:46:21] INFO root fetch - main [MainThread]: Store serial: [17734535]
