@@ -4544,3 +4544,62 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 05:15:27] INFO root fetch - main [MainThread]: End processing [sora-device-client]: success
 [2023-04-17 05:15:28] INFO root fetch - main [MainThread]: End processing [mecord-cli]: success
 [2023-04-17 05:15:28] INFO root fetch - main [MainThread]: Store serial: [17733292]
+[2023-04-17 05:20:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17733292]
+[2023-04-17 05:20:36] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-17 05:20:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: firemon-api
+[2023-04-17 05:20:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: carefree-drawboard
+[2023-04-17 05:20:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vhdx-2-zvol
+[2023-04-17 05:20:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tmpeco
+[2023-04-17 05:20:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nb-log
+[2023-04-17 05:20:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: evoxbench
+[2023-04-17 05:20:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kiln-connect
+[2023-04-17 05:20:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dinohub-seedwork-be
+[2023-04-17 05:20:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gt-defect-dojo
+[2023-04-17 05:20:36] WARNING root fetch - processPackages [firemon-api]: Skipping, unable to determine old version
+[2023-04-17 05:20:36] INFO root fetch - main [MainThread]: End processing [firemon-api] error
+[2023-04-17 05:20:36] INFO root fetch - processPackages [carefree-drawboard]: New version: [0.0.0a2] Old Version: [0.0.0a1]
+[2023-04-17 05:20:36] INFO root fetch - processPackages [tmpeco]: New version: [1.4] Old Version: [1.3]
+[2023-04-17 05:20:36] INFO root fetch - processPackages [gt-defect-dojo]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-17 05:20:36] INFO root fetch - processPackages [dinohub-seedwork-be]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-17 05:20:36] INFO root fetch - processPackages [vhdx-2-zvol]: New version: [0.4.4.3] Old Version: [0.4.4.2]
+[2023-04-17 05:20:36] INFO root fetch - processPackages [kiln-connect]: New version: [1.0.0.dev4] Old Version: [1.0.0.dev3]
+[2023-04-17 05:20:36] INFO root fetch - processPackages [evoxbench]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-17 05:20:36] INFO root fetch - processPackages [nb-log]: New version: [8.3] Old Version: [8.2]
+[2023-04-17 05:20:36] INFO root fetch - processPackages [carefree-drawboard]: Downloading https://files.pythonhosted.org/packages/03/73/78224edb8b15f1475bd29d504dc5c3a280fa32c13dce7696e4dc18ade738/carefree-drawboard-0.0.0a1.tar.gz
+[2023-04-17 05:20:37] INFO root fetch - processPackages [gt-defect-dojo]: Downloading https://files.pythonhosted.org/packages/f8/79/8875a0042768cf6bb4c37f189a3dabe5012a4ae215e8e201d1e558f09e81/gt_defect_dojo-0.0.3.tar.gz
+[2023-04-17 05:20:37] INFO root fetch - processPackages [tmpeco]: Downloading https://files.pythonhosted.org/packages/cd/b6/7d985687db9d8ef24b7f913ccab38c9974790179605acae8d39a81d67286/tmpeco-1.4.tar.gz
+[2023-04-17 05:20:37] INFO root fetch - processPackages [vhdx-2-zvol]: Downloading https://files.pythonhosted.org/packages/e0/f0/d2882a419ce5c725bae02b52833ab1b280162832dbb379177e9e2c83853e/vhdx_2_zvol-0.4.4.3.tar.gz
+[2023-04-17 05:20:37] INFO root fetch - processPackages [evoxbench]: Downloading https://files.pythonhosted.org/packages/55/7a/2011263617c393494641de57177389aa4983362a8d80896d5dbb616d2725/evoxbench-1.0.2.tar.gz
+[2023-04-17 05:20:37] INFO root fetch - processPackages [kiln-connect]: Downloading https://files.pythonhosted.org/packages/60/9d/8e5d3a18cd62d9adf68dc6c7dd5e140c9280c496c99aa6ea6fc2a77689f1/kiln_connect-1.0.0.dev3.tar.gz
+[2023-04-17 05:20:37] INFO root fetch - processPackages [dinohub-seedwork-be]: Downloading https://files.pythonhosted.org/packages/4c/46/d1887f78ab55b1b70017664e8a938e6744c93233a84d21e028aea8a6a379/dinohub_seedwork_be-0.1.8.tar.gz
+[2023-04-17 05:20:37] INFO root fetch - processPackages [nb-log]: Downloading https://files.pythonhosted.org/packages/e5/b0/d1a47de240e6bb06067015e84bdd73282333618db01db8410deac435e1d9/nb_log-8.3.tar.gz
+[2023-04-17 05:20:37] INFO root fetch - processPackages [tmpeco]: executing diffoscope
+[2023-04-17 05:20:37] INFO root fetch - processPackages [tmpeco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmpeco-1.3.tar.gz tmp/tmpeco-1.4.tar.gz --markdown 20230417/t/tmpeco/1.3-1.4/diff.md --exclude *.pyd
+[2023-04-17 05:20:37] INFO root fetch - processPackages [vhdx-2-zvol]: executing diffoscope
+[2023-04-17 05:20:37] INFO root fetch - processPackages [vhdx-2-zvol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vhdx_2_zvol-0.4.4.2.tar.gz tmp/vhdx_2_zvol-0.4.4.3.tar.gz --markdown 20230417/v/vhdx-2-zvol/0.4.4.2-0.4.4.3/diff.md --exclude *.pyd
+[2023-04-17 05:20:37] INFO root fetch - processPackages [carefree-drawboard]: Downloading https://files.pythonhosted.org/packages/9b/40/f19f8f68ec944c396576fd3a789d03c480ab02e578c07ef01fc803a84d7d/carefree-drawboard-0.0.0a2.tar.gz
+[2023-04-17 05:20:37] INFO root fetch - processPackages [evoxbench]: Downloading https://files.pythonhosted.org/packages/5c/7f/db367f6c3e229fd8f42b0c2e71130216a15a411ebbdb727be4ab3b198c61/evoxbench-1.0.3.tar.gz
+[2023-04-17 05:20:37] INFO root fetch - processPackages [dinohub-seedwork-be]: Downloading https://files.pythonhosted.org/packages/c7/f0/83f951a0ce5587c272db2365405ce0774dee3aaa3ce05609cb806a402d92/dinohub_seedwork_be-0.1.9.tar.gz
+[2023-04-17 05:20:37] INFO root fetch - processPackages [nb-log]: executing diffoscope
+[2023-04-17 05:20:37] INFO root fetch - processPackages [nb-log]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nb_log-8.2.tar.gz tmp/nb_log-8.3.tar.gz --markdown 20230417/n/nb-log/8.2-8.3/diff.md --exclude *.pyd
+[2023-04-17 05:20:37] INFO root fetch - processPackages [kiln-connect]: Downloading https://files.pythonhosted.org/packages/af/72/20c010db450dfd65cff8e1e24d0b7c4107d18eb2246c60c8073fec0eba86/kiln_connect-1.0.0.dev4.tar.gz
+[2023-04-17 05:20:37] INFO root fetch - processPackages [gt-defect-dojo]: Downloading https://files.pythonhosted.org/packages/1f/57/481511e177f4a6a9bc9684d491bb68a6c7f8086d9d20b9b80f89217528a9/gt_defect_dojo-0.0.4.tar.gz
+[2023-04-17 05:20:37] INFO root fetch - processPackages [carefree-drawboard]: executing diffoscope
+[2023-04-17 05:20:37] INFO root fetch - processPackages [carefree-drawboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carefree-drawboard-0.0.0a1.tar.gz tmp/carefree-drawboard-0.0.0a2.tar.gz --markdown 20230417/c/carefree-drawboard/0.0.0a1-0.0.0a2/diff.md --exclude *.pyd
+[2023-04-17 05:20:37] INFO root fetch - processPackages [evoxbench]: executing diffoscope
+[2023-04-17 05:20:37] INFO root fetch - processPackages [evoxbench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evoxbench-1.0.2.tar.gz tmp/evoxbench-1.0.3.tar.gz --markdown 20230417/e/evoxbench/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-17 05:20:37] INFO root fetch - processPackages [dinohub-seedwork-be]: executing diffoscope
+[2023-04-17 05:20:37] INFO root fetch - processPackages [dinohub-seedwork-be]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dinohub_seedwork_be-0.1.8.tar.gz tmp/dinohub_seedwork_be-0.1.9.tar.gz --markdown 20230417/d/dinohub-seedwork-be/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-17 05:20:37] INFO root fetch - processPackages [kiln-connect]: executing diffoscope
+[2023-04-17 05:20:37] INFO root fetch - processPackages [kiln-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiln_connect-1.0.0.dev3.tar.gz tmp/kiln_connect-1.0.0.dev4.tar.gz --markdown 20230417/k/kiln-connect/1.0.0.dev3-1.0.0.dev4/diff.md --exclude *.pyd
+[2023-04-17 05:20:37] INFO root fetch - processPackages [gt-defect-dojo]: executing diffoscope
+[2023-04-17 05:20:37] INFO root fetch - processPackages [gt-defect-dojo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gt_defect_dojo-0.0.3.tar.gz tmp/gt_defect_dojo-0.0.4.tar.gz --markdown 20230417/g/gt-defect-dojo/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-17 05:20:38] INFO root fetch - main [MainThread]: End processing [vhdx-2-zvol]: success
+[2023-04-17 05:20:38] INFO root fetch - main [MainThread]: End processing [tmpeco]: success
+[2023-04-17 05:20:38] INFO root fetch - main [MainThread]: End processing [nb-log]: success
+[2023-04-17 05:20:39] INFO root fetch - main [MainThread]: End processing [dinohub-seedwork-be]: success
+[2023-04-17 05:20:39] INFO root fetch - main [MainThread]: End processing [evoxbench]: success
+[2023-04-17 05:20:41] INFO root fetch - main [MainThread]: End processing [carefree-drawboard]: success
+[2023-04-17 05:20:41] INFO root fetch - main [MainThread]: End processing [gt-defect-dojo]: success
+[2023-04-17 05:20:42] INFO root fetch - main [MainThread]: End processing [kiln-connect]: success
+[2023-04-17 05:20:42] INFO root fetch - main [MainThread]: Store serial: [17733338]
