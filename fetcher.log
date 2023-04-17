@@ -928,3 +928,92 @@
 [2023-04-17 02:02:13] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
 [2023-04-17 02:03:13] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-04-17 02:03:13] INFO root fetch - main [MainThread]: Store serial: [17731193]
+[2023-04-17 02:08:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17731193]
+[2023-04-17 02:08:21] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-17 02:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jaxutils-nightly
+[2023-04-17 02:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tccli
+[2023-04-17 02:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torchlayers-nightly
+[2023-04-17 02:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: blocklib
+[2023-04-17 02:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: frc-apriltags
+[2023-04-17 02:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zhcode
+[2023-04-17 02:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: to-cloud-run
+[2023-04-17 02:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-common
+[2023-04-17 02:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-aws-discord-notifiers
+[2023-04-17 02:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: openbb-nightly
+[2023-04-17 02:08:21] INFO root fetch - processPackages [zhcode]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-17 02:08:21] INFO root fetch - processPackages [to-cloud-run]: New version: [1.4] Old Version: [1.3]
+[2023-04-17 02:08:21] INFO root fetch - processPackages [frc-apriltags]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-04-17 02:08:21] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 02:08:21] INFO root fetch - processPackages [blocklib]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-17 02:08:21] INFO root fetch - processPackages [openbb-nightly]: New version: [3.0.0rc2.dev20230416] Old Version: [3.0.0rc2.dev20230415]
+[2023-04-17 02:08:21] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-04-17 02:08:21] INFO root fetch - processPackages [torchlayers-nightly]: New version: [1681603652] Old Version: [1681517208]
+[2023-04-17 02:08:21] INFO root fetch - processPackages [tccli]: New version: [3.0.99.1] Old Version: [3.0.98.1]
+[2023-04-17 02:08:21] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20230417] Old Version: [0.0.8.dev20230416]
+[2023-04-17 02:08:21] INFO root fetch - processPackages [frc-apriltags]: Downloading https://files.pythonhosted.org/packages/ac/5b/5021798d481caac2180faca5792c903fb3db7c387beeafb7685d9b111e71/frc_apriltags-1.2.0-py3-none-any.whl
+[2023-04-17 02:08:21] INFO root fetch - processPackages [blocklib]: Downloading https://files.pythonhosted.org/packages/a9/18/0f6c5034ad43d0c7d726916a428f194e5fefc5590036a3f4a962dcc5b016/blocklib-0.1.8.tar.gz
+[2023-04-17 02:08:21] INFO root fetch - processPackages [zhcode]: Downloading https://files.pythonhosted.org/packages/94/57/9af655409cea02846d73fb84ff64eb9dbb1494729571a0eb3f0ffc5094d0/zhcode-0.0.2.tar.gz
+[2023-04-17 02:08:22] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2023-04-17 02:08:22] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20230417/c/cdk-common/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-04-17 02:08:22] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: executing diffoscope
+[2023-04-17 02:08:22] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aws-discord-notifiers-0.0.8.tar.gz tmp/cdk-aws-discord-notifiers-0.0.9.tar.gz --markdown 20230417/c/cdk-aws-discord-notifiers/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 02:08:22] INFO root fetch - processPackages [to-cloud-run]: Downloading https://files.pythonhosted.org/packages/79/65/bdd3b28666cf4b0c544f395a70b04cf1d550be5632da5bbc1d94aa09f5b3/to-cloud-run-1.4.tar.gz
+[2023-04-17 02:08:22] INFO root fetch - processPackages [tccli]: Downloading https://files.pythonhosted.org/packages/d5/c0/3ba1e7e48c25d80695e0216e1e772ed1492bdb76a0d81d9ddca3443d1353/tccli-3.0.98.1.tar.gz
+[2023-04-17 02:08:22] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/b5/a0/3e4b0d291423f3b5b8cdb8f04929eb50be807deaf349e919b66ca7619108/jaxutils-nightly-0.0.8.dev20230416.tar.gz
+[2023-04-17 02:08:22] INFO root fetch - processPackages [zhcode]: executing diffoscope
+[2023-04-17 02:08:22] INFO root fetch - processPackages [zhcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhcode-0.0.1.tar.gz tmp/zhcode-0.0.2.tar.gz --markdown 20230417/z/zhcode/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-17 02:08:22] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/ba/fa/f7655ffadb184b4527e4c240fbbf6c9a02717f5582c4ccc2a738d8b51211/openbb_nightly-3.0.0rc2.dev20230416.tar.gz
+[2023-04-17 02:08:22] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/51/5b/60844e891c41612c718e4ef3aa26de50199ff493ddada098a3d08fef2ce8/torchlayers-nightly-1681603652.tar.gz
+[2023-04-17 02:08:22] INFO root fetch - processPackages [to-cloud-run]: executing diffoscope
+[2023-04-17 02:08:22] INFO root fetch - processPackages [to-cloud-run]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/to-cloud-run-1.3.tar.gz tmp/to-cloud-run-1.4.tar.gz --markdown 20230417/t/to-cloud-run/1.3-1.4/diff.md --exclude *.pyd
+[2023-04-17 02:08:22] INFO root fetch - processPackages [blocklib]: Downloading https://files.pythonhosted.org/packages/0e/b9/9edfbde594498c9d2bd6c885a750e902e8b45e2da49e001e445fc8409721/blocklib-0.1.9.tar.gz
+[2023-04-17 02:08:22] INFO root fetch - processPackages [frc-apriltags]: Downloading https://files.pythonhosted.org/packages/95/0b/7083dff394e6a72d06133ee65cecf178c5de66cb7e6405d143e63a81be1e/frc_apriltags-1.3.0-py3-none-any.whl
+[2023-04-17 02:08:22] INFO root fetch - processPackages [torchlayers-nightly]: executing diffoscope
+[2023-04-17 02:08:22] INFO root fetch - processPackages [torchlayers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchlayers-nightly-1681517208.tar.gz tmp/torchlayers-nightly-1681603652.tar.gz --markdown 20230417/t/torchlayers-nightly/1681517208-1681603652/diff.md --exclude *.pyd
+[2023-04-17 02:08:22] INFO root fetch - processPackages [blocklib]: executing diffoscope
+[2023-04-17 02:08:22] INFO root fetch - processPackages [blocklib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blocklib-0.1.8.tar.gz tmp/blocklib-0.1.9.tar.gz --markdown 20230417/b/blocklib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-17 02:08:22] INFO root fetch - processPackages [openbb-nightly]: executing diffoscope
+[2023-04-17 02:08:22] INFO root fetch - processPackages [openbb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_nightly-3.0.0rc2.dev20230415.tar.gz tmp/openbb_nightly-3.0.0rc2.dev20230416.tar.gz --markdown 20230417/o/openbb-nightly/3.0.0rc2.dev20230415-3.0.0rc2.dev20230416/diff.md --exclude *.pyd
+[2023-04-17 02:08:22] INFO root fetch - processPackages [tccli]: Downloading https://files.pythonhosted.org/packages/f6/c1/6e489190b9983c2b5d4a0260a36bcfb8647ee614634e4992013766cbc5cc/tccli-3.0.99.1.tar.gz
+[2023-04-17 02:08:22] INFO root fetch - processPackages [frc-apriltags]: executing diffoscope
+[2023-04-17 02:08:22] INFO root fetch - processPackages [frc-apriltags]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frc_apriltags-1.2.0-py3-none-any.whl.zip tmp/frc_apriltags-1.3.0-py3-none-any.whl.zip --markdown 20230417/f/frc-apriltags/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-04-17 02:08:22] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/aa/98/136e7394462992b87ea54aa07f66365de1bd6b6b06d2cd82aa1251dac4bc/jaxutils-nightly-0.0.8.dev20230417.tar.gz
+[2023-04-17 02:08:22] INFO root fetch - processPackages [tccli]: executing diffoscope
+[2023-04-17 02:08:22] INFO root fetch - processPackages [tccli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tccli-3.0.98.1.tar.gz tmp/tccli-3.0.99.1.tar.gz --markdown 20230417/t/tccli/3.0.98.1-3.0.99.1/diff.md --exclude *.pyd
+[2023-04-17 02:08:22] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2023-04-17 02:08:22] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20230416.tar.gz tmp/jaxutils-nightly-0.0.8.dev20230417.tar.gz --markdown 20230417/j/jaxutils-nightly/0.0.8.dev20230416-0.0.8.dev20230417/diff.md --exclude *.pyd
+[2023-04-17 02:08:23] INFO root fetch - processPackages [to-cloud-run]: Start processing: bevy
+[2023-04-17 02:08:23] INFO root fetch - main [MainThread]: End processing [to-cloud-run]: success
+[2023-04-17 02:08:23] INFO root fetch - processPackages [bevy]: New version: [2.0.0b2] Old Version: [2.0.0b1]
+[2023-04-17 02:08:23] INFO root fetch - processPackages [cdk-common]: Start processing: cdklabs.codepipeline-extensions
+[2023-04-17 02:08:23] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2023-04-17 02:08:23] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-17 02:08:23] INFO root fetch - processPackages [zhcode]: Start processing: constructs
+[2023-04-17 02:08:23] INFO root fetch - main [MainThread]: End processing [zhcode]: success
+[2023-04-17 02:08:23] INFO root fetch - processPackages [constructs]: New version: [3.4.99] Old Version: [3.4.98]
+[2023-04-17 02:08:23] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: Downloading https://files.pythonhosted.org/packages/df/6c/78f1bfa2ffc81709ec21b0077aff92b7460ad1f071d595e2d767653cedc0/cdklabs.codepipeline-extensions-0.0.98.tar.gz
+[2023-04-17 02:08:23] INFO root fetch - processPackages [torchlayers-nightly]: Start processing: pipeline-optimizer
+[2023-04-17 02:08:23] INFO root fetch - main [MainThread]: End processing [torchlayers-nightly]: success
+[2023-04-17 02:08:23] INFO root fetch - processPackages [bevy]: Downloading https://files.pythonhosted.org/packages/02/4c/9ce33f8da05bf05c909b8f87e176519369e21c3d8896576838a8a33faa9c/bevy-2.0.0b2.tar.gz
+[2023-04-17 02:08:23] INFO root fetch - processPackages [constructs]: executing diffoscope
+[2023-04-17 02:08:23] INFO root fetch - processPackages [constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/constructs-3.4.98.tar.gz tmp/constructs-3.4.99.tar.gz --markdown 20230417/c/constructs/3.4.98-3.4.99/diff.md --exclude *.pyd
+[2023-04-17 02:08:23] INFO root fetch - processPackages [blocklib]: Start processing: cdk-events-notify
+[2023-04-17 02:08:23] INFO root fetch - main [MainThread]: End processing [blocklib]: success
+[2023-04-17 02:08:23] WARNING root fetch - processPackages [cdklabs.codepipeline-extensions]: Skipping package: exceeds size limit 12637726>=10485760
+[2023-04-17 02:08:23] INFO root fetch - main [MainThread]: End processing [cdklabs.codepipeline-extensions] error
+[2023-04-17 02:08:23] WARNING root fetch - processPackages [pipeline-optimizer]: Skipping, unable to determine old version
+[2023-04-17 02:08:23] INFO root fetch - main [MainThread]: End processing [pipeline-optimizer] error
+[2023-04-17 02:08:23] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-04-17 02:08:24] INFO root fetch - main [MainThread]: End processing [frc-apriltags]: success
+[2023-04-17 02:08:24] INFO root fetch - processPackages [bevy]: executing diffoscope
+[2023-04-17 02:08:24] INFO root fetch - processPackages [bevy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bevy-2.0.0b1.tar.gz tmp/bevy-2.0.0b2.tar.gz --markdown 20230417/b/bevy/2.0.0b1-2.0.0b2/diff.md --exclude *.pyd
+[2023-04-17 02:08:24] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2023-04-17 02:08:24] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.0.98.tar.gz tmp/cdk-events-notify-2.0.99.tar.gz --markdown 20230417/c/cdk-events-notify/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-04-17 02:08:24] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2023-04-17 02:08:25] INFO root fetch - main [MainThread]: End processing [cdk-aws-discord-notifiers]: success
+[2023-04-17 02:08:25] INFO root fetch - main [MainThread]: End processing [constructs]: success
+[2023-04-17 02:08:25] INFO root fetch - main [MainThread]: End processing [bevy]: success
+[2023-04-17 02:08:25] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2023-04-17 02:08:27] INFO root fetch - main [MainThread]: End processing [tccli]: success
+[2023-04-17 02:08:34] INFO root fetch - main [MainThread]: End processing [openbb-nightly]: success
+[2023-04-17 02:08:34] INFO root fetch - main [MainThread]: Store serial: [17731239]
