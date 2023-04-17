@@ -9650,3 +9650,137 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 11:56:16] INFO root fetch - main [MainThread]: End processing [dcm-processor]: success
 [2023-04-17 11:56:17] INFO root fetch - main [MainThread]: End processing [hbshare]: success
 [2023-04-17 11:56:17] INFO root fetch - main [MainThread]: Store serial: [17736394]
+[2023-04-17 12:01:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17736394]
+[2023-04-17 12:01:27] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-04-17 12:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: newsworthycharts
+[2023-04-17 12:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flowmachine
+[2023-04-17 12:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flowetl
+[2023-04-17 12:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: inels-mqtt-new
+[2023-04-17 12:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flowclient
+[2023-04-17 12:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hindi
+[2023-04-17 12:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: py-spacy-redact-message
+[2023-04-17 12:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: py-spacy-redact-message
+[2023-04-17 12:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PrSpiders
+[2023-04-17 12:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: probabilistic-word-embeddings
+[2023-04-17 12:01:27] INFO root fetch - processPackages [newsworthycharts]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-04-17 12:01:27] WARNING root fetch - processPackages [hindi]: Skipping, unable to determine old version
+[2023-04-17 12:01:27] INFO root fetch - processPackages [hindi]: Start processing: khoj-assistant
+[2023-04-17 12:01:27] INFO root fetch - main [MainThread]: End processing [hindi] error
+[2023-04-17 12:01:27] INFO root fetch - processPackages [py-spacy-redact-message]: New version: [0.0.28] Old Version: [0.0.27]
+[2023-04-17 12:01:27] INFO root fetch - processPackages [py-spacy-redact-message]: New version: [0.0.28] Old Version: [0.0.27]
+[2023-04-17 12:01:27] INFO root fetch - processPackages [PrSpiders]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-04-17 12:01:27] INFO root fetch - processPackages [probabilistic-word-embeddings]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-04-17 12:01:27] INFO root fetch - processPackages [flowmachine]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2023-04-17 12:01:27] INFO root fetch - processPackages [inels-mqtt-new]: New version: [0.2.9a2] Old Version: [0.2.9a1]
+[2023-04-17 12:01:27] INFO root fetch - processPackages [flowetl]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2023-04-17 12:01:28] INFO root fetch - processPackages [flowclient]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2023-04-17 12:01:28] INFO root fetch - processPackages [khoj-assistant]: New version: [0.6.1.dev5] Old Version: [0.6.1.dev3]
+[2023-04-17 12:01:28] INFO root fetch - processPackages [flowmachine]: executing diffoscope
+[2023-04-17 12:01:28] INFO root fetch - processPackages [flowmachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowmachine-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowmachine-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20230417/f/flowmachine/1.9.4.post0.dev70-1.9.4.post0.dev76/diff.md --exclude *.pyd
+[2023-04-17 12:01:28] INFO root fetch - processPackages [flowetl]: executing diffoscope
+[2023-04-17 12:01:28] INFO root fetch - processPackages [flowetl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowetl-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowetl-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20230417/f/flowetl/1.9.4.post0.dev70-1.9.4.post0.dev76/diff.md --exclude *.pyd
+[2023-04-17 12:01:28] INFO root fetch - processPackages [py-spacy-redact-message]: Downloading https://files.pythonhosted.org/packages/51/c4/58b464652f76c31ed7b9b0681a01ae2b2e4f34461b32e4086f873e5f3f18/py_spacy_redact_message-0.0.27.tar.gz
+[2023-04-17 12:01:28] INFO root fetch - processPackages [py-spacy-redact-message]: Downloading https://files.pythonhosted.org/packages/51/c4/58b464652f76c31ed7b9b0681a01ae2b2e4f34461b32e4086f873e5f3f18/py_spacy_redact_message-0.0.27.tar.gz
+[2023-04-17 12:01:28] INFO root fetch - processPackages [flowclient]: executing diffoscope
+[2023-04-17 12:01:28] INFO root fetch - processPackages [flowclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowclient-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowclient-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20230417/f/flowclient/1.9.4.post0.dev70-1.9.4.post0.dev76/diff.md --exclude *.pyd
+[2023-04-17 12:01:28] INFO root fetch - processPackages [probabilistic-word-embeddings]: Downloading https://files.pythonhosted.org/packages/c3/a7/7a843d5f9f8e9c9b240002da7475b3dad5c1438fe3b53c586043586d1a61/probabilistic_word_embeddings-1.1.0.tar.gz
+[2023-04-17 12:01:28] INFO root fetch - processPackages [PrSpiders]: Downloading https://files.pythonhosted.org/packages/43/49/7a730275c1a7c5a0240d5e2ea2a95bbadf988b95150ed1d4db3b3aa68328/PrSpiders-0.3.0.tar.gz
+[2023-04-17 12:01:28] INFO root fetch - processPackages [inels-mqtt-new]: Downloading https://files.pythonhosted.org/packages/f3/b4/aad26ab80dde8799302dbe662e01e1fe40a55a40eba4691be5a5ebcc58a7/inels-mqtt-new-0.2.9a1.tar.gz
+[2023-04-17 12:01:28] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/46/a3/95f6ed9bbaf1b283b2b75c8f57947b99adf41c7a1e589d9a563e680cc04c/khoj_assistant-0.6.1.dev5.tar.gz
+[2023-04-17 12:01:28] INFO root fetch - processPackages [newsworthycharts]: executing diffoscope
+[2023-04-17 12:01:28] INFO root fetch - processPackages [newsworthycharts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/newsworthycharts-1.9.1.tar.gz tmp/newsworthycharts-1.9.2.tar.gz --markdown 20230417/n/newsworthycharts/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-04-17 12:01:28] INFO root fetch - processPackages [PrSpiders]: executing diffoscope
+[2023-04-17 12:01:28] INFO root fetch - processPackages [PrSpiders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PrSpiders-0.2.9.tar.gz tmp/PrSpiders-0.3.0.tar.gz --markdown 20230417/P/PrSpiders/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-04-17 12:01:28] INFO root fetch - processPackages [probabilistic-word-embeddings]: executing diffoscope
+[2023-04-17 12:01:28] INFO root fetch - processPackages [probabilistic-word-embeddings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/probabilistic_word_embeddings-1.0.0.tar.gz tmp/probabilistic_word_embeddings-1.1.0.tar.gz --markdown 20230417/p/probabilistic-word-embeddings/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-04-17 12:01:28] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2023-04-17 12:01:28] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-0.6.1.dev3.tar.gz tmp/khoj_assistant-0.6.1.dev5.tar.gz --markdown 20230417/k/khoj-assistant/0.6.1.dev3-0.6.1.dev5/diff.md --exclude *.pyd
+[2023-04-17 12:01:28] INFO root fetch - processPackages [py-spacy-redact-message]: Downloading https://files.pythonhosted.org/packages/f6/5a/c612638ec533c68b4209e81af32b7a53b1847228d4e72c4bdd0ebd0872b8/py_spacy_redact_message-0.0.28.tar.gz
+[2023-04-17 12:01:28] INFO root fetch - processPackages [py-spacy-redact-message]: Downloading https://files.pythonhosted.org/packages/f6/5a/c612638ec533c68b4209e81af32b7a53b1847228d4e72c4bdd0ebd0872b8/py_spacy_redact_message-0.0.28.tar.gz
+[2023-04-17 12:01:28] INFO root fetch - processPackages [inels-mqtt-new]: Downloading https://files.pythonhosted.org/packages/a6/7a/baead4901c82cd855d0c5606eadd3c032b5e97b8d81da9cd7c40919e99f4/inels-mqtt-new-0.2.9a2.tar.gz
+[2023-04-17 12:01:28] INFO root fetch - processPackages [py-spacy-redact-message]: executing diffoscope
+[2023-04-17 12:01:28] INFO root fetch - processPackages [py-spacy-redact-message]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_spacy_redact_message-0.0.27.tar.gz tmp/py_spacy_redact_message-0.0.28.tar.gz --markdown 20230417/p/py-spacy-redact-message/0.0.27-0.0.28/diff.md --exclude *.pyd
+[2023-04-17 12:01:28] INFO root fetch - processPackages [py-spacy-redact-message]: executing diffoscope
+[2023-04-17 12:01:28] INFO root fetch - processPackages [py-spacy-redact-message]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_spacy_redact_message-0.0.27.tar.gz tmp/py_spacy_redact_message-0.0.28.tar.gz --markdown 20230417/p/py-spacy-redact-message/0.0.27-0.0.28/diff.md --exclude *.pyd
+[2023-04-17 12:01:28] INFO root fetch - processPackages [inels-mqtt-new]: executing diffoscope
+[2023-04-17 12:01:28] INFO root fetch - processPackages [inels-mqtt-new]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inels-mqtt-new-0.2.9a1.tar.gz tmp/inels-mqtt-new-0.2.9a2.tar.gz --markdown 20230417/i/inels-mqtt-new/0.2.9a1-0.2.9a2/diff.md --exclude *.pyd
+[2023-04-17 12:01:30] INFO root fetch - processPackages [flowclient]: Start processing: i3dFeatureExtraction
+[2023-04-17 12:01:30] INFO root fetch - main [MainThread]: End processing [flowclient]: success
+[2023-04-17 12:01:30] INFO root fetch - processPackages [newsworthycharts]: Start processing: imggencli
+[2023-04-17 12:01:30] INFO root fetch - main [MainThread]: End processing [newsworthycharts]: success
+[2023-04-17 12:01:30] INFO root fetch - processPackages [i3dFeatureExtraction]: New version: [0.2] Old Version: [0.1]
+[2023-04-17 12:01:30] INFO root fetch - processPackages [imggencli]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-04-17 12:01:30] INFO root fetch - processPackages [py-spacy-redact-message]: Start processing: kondo-ml
+[2023-04-17 12:01:30] INFO root fetch - main [MainThread]: End processing [py-spacy-redact-message]: success
+[2023-04-17 12:01:30] INFO root fetch - processPackages [py-spacy-redact-message]: Start processing: review-bot
+[2023-04-17 12:01:30] INFO root fetch - main [MainThread]: End processing [py-spacy-redact-message]: success
+[2023-04-17 12:01:30] INFO root fetch - processPackages [kondo-ml]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-17 12:01:30] INFO root fetch - processPackages [review-bot]: New version: [0.0.dev3] Old Version: [0.0.dev2]
+[2023-04-17 12:01:30] INFO root fetch - processPackages [flowetl]: Start processing: vsui-client
+[2023-04-17 12:01:30] INFO root fetch - main [MainThread]: End processing [flowetl]: success
+[2023-04-17 12:01:30] INFO root fetch - processPackages [i3dFeatureExtraction]: Downloading https://files.pythonhosted.org/packages/ef/7e/e60703dfbb65270ceb6dea86198cc808753d17d084a615872ad56f05ff60/i3dFeatureExtraction-0.1-py3-none-any.whl
+[2023-04-17 12:01:30] INFO root fetch - processPackages [vsui-client]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-04-17 12:01:30] INFO root fetch - processPackages [imggencli]: Downloading https://files.pythonhosted.org/packages/dc/65/e7b3a2f8cfa425cd9ff29b8f9eda583fdd36f570af9a71e25110e3d01924/imggencli-1.2.4.tar.gz
+[2023-04-17 12:01:30] INFO root fetch - processPackages [kondo-ml]: Downloading https://files.pythonhosted.org/packages/b4/39/69a67df5f772d3e10376d4aaf6cae72c9f577a04f449d1237536eeb97857/kondo_ml-0.0.7.tar.gz
+[2023-04-17 12:01:30] INFO root fetch - processPackages [review-bot]: Downloading https://files.pythonhosted.org/packages/9b/d1/c1243fe168c05a776793d36cf449bf3c93cd2c31ef3fa333b3890c767928/review-bot-0.0.dev2.tar.gz
+[2023-04-17 12:01:30] INFO root fetch - processPackages [imggencli]: executing diffoscope
+[2023-04-17 12:01:30] INFO root fetch - processPackages [imggencli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imggencli-1.2.3.tar.gz tmp/imggencli-1.2.4.tar.gz --markdown 20230417/i/imggencli/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-04-17 12:01:30] INFO root fetch - processPackages [vsui-client]: Downloading https://files.pythonhosted.org/packages/8c/e9/5c72d78eacc339e17aec35fbca6c9c7372feceb8d0e2dcfca67b048739a8/vsui_client-1.1.5.tar.gz
+[2023-04-17 12:01:30] INFO root fetch - processPackages [kondo-ml]: executing diffoscope
+[2023-04-17 12:01:30] INFO root fetch - processPackages [kondo-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kondo_ml-0.0.6.tar.gz tmp/kondo_ml-0.0.7.tar.gz --markdown 20230417/k/kondo-ml/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-17 12:01:30] INFO root fetch - processPackages [i3dFeatureExtraction]: Downloading https://files.pythonhosted.org/packages/3e/15/eb1995b6d8bd7a7e7d953fa1fc78acbf96f26d2a3d2475c68a63890a8bad/i3dFeatureExtraction-0.2-py3-none-any.whl
+[2023-04-17 12:01:30] INFO root fetch - processPackages [vsui-client]: executing diffoscope
+[2023-04-17 12:01:30] INFO root fetch - processPackages [vsui-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vsui_client-1.1.4.tar.gz tmp/vsui_client-1.1.5.tar.gz --markdown 20230417/v/vsui-client/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-04-17 12:01:30] INFO root fetch - processPackages [i3dFeatureExtraction]: executing diffoscope
+[2023-04-17 12:01:30] INFO root fetch - processPackages [i3dFeatureExtraction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/i3dFeatureExtraction-0.1-py3-none-any.whl.zip tmp/i3dFeatureExtraction-0.2-py3-none-any.whl.zip --markdown 20230417/i/i3dFeatureExtraction/0.1-0.2/diff.md --exclude *.pyd
+[2023-04-17 12:01:30] INFO root fetch - processPackages [review-bot]: Downloading https://files.pythonhosted.org/packages/be/c1/17db5a2558f2e02d25d61a7abf65fd7d0fadef2130b0c807ae75f719a0a8/review-bot-0.0.dev3.tar.gz
+[2023-04-17 12:01:30] INFO root fetch - processPackages [review-bot]: executing diffoscope
+[2023-04-17 12:01:30] INFO root fetch - processPackages [review-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/review-bot-0.0.dev2.tar.gz tmp/review-bot-0.0.dev3.tar.gz --markdown 20230417/r/review-bot/0.0.dev2-0.0.dev3/diff.md --exclude *.pyd
+[2023-04-17 12:01:31] INFO root fetch - processPackages [flowmachine]: Start processing: metisse
+[2023-04-17 12:01:31] INFO root fetch - main [MainThread]: End processing [flowmachine]: success
+[2023-04-17 12:01:31] INFO root fetch - processPackages [metisse]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-17 12:01:31] INFO root fetch - processPackages [inels-mqtt-new]: Start processing: glview
+[2023-04-17 12:01:31] INFO root fetch - main [MainThread]: End processing [inels-mqtt-new]: success
+[2023-04-17 12:01:31] INFO root fetch - processPackages [glview]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-04-17 12:01:31] INFO root fetch - processPackages [probabilistic-word-embeddings]: Start processing: dcm-processor
+[2023-04-17 12:01:31] INFO root fetch - main [MainThread]: End processing [probabilistic-word-embeddings]: success
+[2023-04-17 12:01:31] INFO root fetch - processPackages [dcm-processor]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-17 12:01:31] INFO root fetch - processPackages [metisse]: Downloading https://files.pythonhosted.org/packages/1b/5d/2ff55112a7f363ab632a88c6533fad82449ef35908696aa0de20db2aa587/metisse-0.0.3.tar.gz
+[2023-04-17 12:01:31] INFO root fetch - processPackages [dcm-processor]: Downloading https://files.pythonhosted.org/packages/d7/a8/6fa56666e2b968989308194cf132d2bf9aa1558dd0f969eea84141323d9a/dcm-processor-1.0.1.tar.gz
+[2023-04-17 12:01:31] INFO root fetch - processPackages [glview]: Downloading https://files.pythonhosted.org/packages/e7/b0/cf49b932a379a2daa7e7058a5098563333d80b28201651aa8031c97176e7/glview-1.5.1.tar.gz
+[2023-04-17 12:01:31] INFO root fetch - processPackages [imggencli]: Start processing: dstack
+[2023-04-17 12:01:31] INFO root fetch - main [MainThread]: End processing [imggencli]: success
+[2023-04-17 12:01:31] INFO root fetch - processPackages [vsui-client]: Start processing: mage-ai
+[2023-04-17 12:01:31] INFO root fetch - main [MainThread]: End processing [vsui-client]: success
+[2023-04-17 12:01:31] INFO root fetch - processPackages [dstack]: New version: [0.7rc1] Old Version: [0.7.2]
+[2023-04-17 12:01:31] INFO root fetch - processPackages [mage-ai]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-04-17 12:01:31] INFO root fetch - processPackages [PrSpiders]: Start processing: dettectinator
+[2023-04-17 12:01:31] INFO root fetch - main [MainThread]: End processing [PrSpiders]: success
+[2023-04-17 12:01:31] INFO root fetch - processPackages [glview]: executing diffoscope
+[2023-04-17 12:01:31] INFO root fetch - processPackages [glview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glview-1.5.0.tar.gz tmp/glview-1.5.1.tar.gz --markdown 20230417/g/glview/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-04-17 12:01:31] INFO root fetch - processPackages [dstack]: Downloading https://files.pythonhosted.org/packages/ef/42/5a2fb84e3f1b1e2759ce05d8c669b06563d8e4c2987d24a5e66758088474/dstack-0.7.2.tar.gz
+[2023-04-17 12:01:31] INFO root fetch - processPackages [dettectinator]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-04-17 12:01:32] INFO root fetch - main [MainThread]: End processing [i3dFeatureExtraction]: success
+[2023-04-17 12:01:32] INFO root fetch - processPackages [dettectinator]: Downloading https://files.pythonhosted.org/packages/9b/f9/0079e1bce04208a2dc22ddaa4f245c86408e0bd3025c752457d25251890e/dettectinator-1.1.0.tar.gz
+[2023-04-17 12:01:32] INFO root fetch - processPackages [metisse]: executing diffoscope
+[2023-04-17 12:01:32] INFO root fetch - processPackages [metisse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metisse-0.0.2.tar.gz tmp/metisse-0.0.3.tar.gz --markdown 20230417/m/metisse/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-17 12:01:32] INFO root fetch - processPackages [mage-ai]: executing diffoscope
+[2023-04-17 12:01:32] INFO root fetch - processPackages [mage-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mage-ai-0.8.8.tar.gz tmp/mage-ai-0.8.9.tar.gz --markdown 20230417/m/mage-ai/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-04-17 12:01:32] INFO root fetch - main [MainThread]: End processing [review-bot]: success
+[2023-04-17 12:01:32] INFO root fetch - processPackages [dstack]: Downloading https://files.pythonhosted.org/packages/08/5c/761124343e4ea0fc0572537a0aebf4af7d60a318d1b370a3229bd2655f52/dstack-0.7rc1.tar.gz
+[2023-04-17 12:01:32] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2023-04-17 12:01:32] INFO root fetch - processPackages [dettectinator]: Downloading https://files.pythonhosted.org/packages/6e/1a/8aedebcbce847d439e3ca36e40266e2398a2800ac65deafd5898628d168e/dettectinator-1.1.1.tar.gz
+[2023-04-17 12:01:32] INFO root fetch - processPackages [dcm-processor]: executing diffoscope
+[2023-04-17 12:01:32] INFO root fetch - processPackages [dcm-processor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcm-processor-1.0.0.tar.gz tmp/dcm-processor-1.0.1.tar.gz --markdown 20230417/d/dcm-processor/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-17 12:01:32] INFO root fetch - processPackages [dstack]: executing diffoscope
+[2023-04-17 12:01:32] INFO root fetch - processPackages [dstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dstack-0.7.2.tar.gz tmp/dstack-0.7rc1.tar.gz --markdown 20230417/d/dstack/0.7.2-0.7rc1/diff.md --exclude *.pyd
+[2023-04-17 12:01:32] INFO root fetch - main [MainThread]: End processing [kondo-ml]: success
+[2023-04-17 12:01:32] INFO root fetch - processPackages [dettectinator]: executing diffoscope
+[2023-04-17 12:01:32] INFO root fetch - processPackages [dettectinator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dettectinator-1.1.0.tar.gz tmp/dettectinator-1.1.1.tar.gz --markdown 20230417/d/dettectinator/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-04-17 12:01:33] INFO root fetch - main [MainThread]: End processing [glview]: success
+[2023-04-17 12:01:33] INFO root fetch - main [MainThread]: End processing [dettectinator]: success
+[2023-04-17 12:01:34] INFO root fetch - main [MainThread]: End processing [dcm-processor]: success
+[2023-04-17 12:01:35] INFO root fetch - main [MainThread]: End processing [dstack]: success
+[2023-04-17 12:01:36] INFO root fetch - main [MainThread]: End processing [metisse]: success
+[2023-04-17 12:01:44] INFO root fetch - main [MainThread]: End processing [mage-ai]: success
+[2023-04-17 12:01:44] INFO root fetch - main [MainThread]: Store serial: [17736462]
