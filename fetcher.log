@@ -17441,3 +17441,110 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 18:00:59] INFO root fetch - main [MainThread]: End processing [pysurvive] error
 [2023-04-17 18:00:59] INFO root fetch - main [MainThread]: End processing [prettyqt]: success
 [2023-04-17 18:00:59] INFO root fetch - main [MainThread]: Store serial: [17740999]
+[2023-04-17 18:06:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17740999]
+[2023-04-17 18:06:16] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-04-17 18:06:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fabrictestbed-extensions
+[2023-04-17 18:06:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyplasm
+[2023-04-17 18:06:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arcanum-newspaper-segmentation-client
+[2023-04-17 18:06:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: web3client
+[2023-04-17 18:06:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aprsd-mqtt-plugin
+[2023-04-17 18:06:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pysparkler
+[2023-04-17 18:06:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jina
+[2023-04-17 18:06:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fedot-ind
+[2023-04-17 18:06:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: opentaskpy
+[2023-04-17 18:06:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ecs-composex
+[2023-04-17 18:06:16] INFO root fetch - processPackages [web3client]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-04-17 18:06:16] INFO root fetch - processPackages [web3client]: executing diffoscope
+[2023-04-17 18:06:16] INFO root fetch - processPackages [web3client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web3client-1.1.3.tar.gz tmp/web3client-1.1.4.tar.gz --markdown 20230417/w/web3client/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-04-17 18:06:16] INFO root fetch - processPackages [arcanum-newspaper-segmentation-client]: New version: [1.6.6] Old Version: [1.6.5]
+[2023-04-17 18:06:16] WARNING root fetch - processPackages [aprsd-mqtt-plugin]: Skipping, unable to determine old version
+[2023-04-17 18:06:16] INFO root fetch - processPackages [aprsd-mqtt-plugin]: Start processing: pyprembly
+[2023-04-17 18:06:16] INFO root fetch - main [MainThread]: End processing [aprsd-mqtt-plugin] error
+[2023-04-17 18:06:16] ERROR root fetch - processPackages [fedot-ind]: Unable to get metadata: No such project 'fedot-ind'
+[2023-04-17 18:06:16] INFO root fetch - processPackages [fedot-ind]: Start processing: anoens
+[2023-04-17 18:06:16] INFO root fetch - main [MainThread]: End processing [fedot-ind] error
+[2023-04-17 18:06:16] INFO root fetch - processPackages [pysparkler]: New version: [0.4.dev1681747316] Old Version: [0.4.dev1681497870]
+[2023-04-17 18:06:16] INFO root fetch - processPackages [pyplasm]: New version: [3.0.8] Old Version: [3.0.7]
+[2023-04-17 18:06:16] INFO root fetch - processPackages [fabrictestbed-extensions]: New version: [1.4.2rc5] Old Version: [1.4.2rc4]
+[2023-04-17 18:06:16] INFO root fetch - processPackages [ecs-composex]: New version: [0.9.2] Old Version: [0.8.9]
+[2023-04-17 18:06:16] INFO root fetch - processPackages [opentaskpy]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-04-17 18:06:16] INFO root fetch - processPackages [jina]: New version: [3.9.3.dev9] Old Version: [3.9.3.dev8]
+[2023-04-17 18:06:16] INFO root fetch - processPackages [pyprembly]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-17 18:06:16] WARNING root fetch - processPackages [anoens]: Skipping, unable to determine old version
+[2023-04-17 18:06:16] INFO root fetch - processPackages [anoens]: Start processing: ign-pdal-tools
+[2023-04-17 18:06:16] INFO root fetch - main [MainThread]: End processing [anoens] error
+[2023-04-17 18:06:17] INFO root fetch - processPackages [ign-pdal-tools]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-04-17 18:06:17] INFO root fetch - processPackages [fabrictestbed-extensions]: Downloading https://files.pythonhosted.org/packages/80/e1/8041c300c1b9b4582328f6025c968ed9747f13ec418c5e6e874e693d0422/fabrictestbed-extensions-1.4.2rc4.tar.gz
+[2023-04-17 18:06:17] INFO root fetch - processPackages [opentaskpy]: Downloading https://files.pythonhosted.org/packages/f3/fa/97f274fa7ee9af8bb0679d139e06958c21482227a63862d80e0d9ae01bad/opentaskpy-0.8.0.tar.gz
+[2023-04-17 18:06:17] INFO root fetch - processPackages [pyprembly]: Downloading https://files.pythonhosted.org/packages/9b/48/a1bab62f6bc3d34addf1897cd0cdb34f3ecc69222c5c0dfdb92b67b8aba1/pyprembly-0.0.3.tar.gz
+[2023-04-17 18:06:17] INFO root fetch - processPackages [pysparkler]: Downloading https://files.pythonhosted.org/packages/66/d9/ffd743b4052a8ca1ee1d99b222739392ffc226e45dfd92a5614e079a283d/pysparkler-0.4.dev1681747316.tar.gz
+[2023-04-17 18:06:17] INFO root fetch - processPackages [arcanum-newspaper-segmentation-client]: Downloading https://files.pythonhosted.org/packages/dc/b4/be204cb678e3bb2f4433a29928148705d7eefee8cc2f9dcd4062dabd6425/arcanum-newspaper-segmentation-client-1.6.6.tar.gz
+[2023-04-17 18:06:17] INFO root fetch - processPackages [pyplasm]: Downloading https://files.pythonhosted.org/packages/44/7c/d44cb19fc6cfb215d11f1b567fb37670c212574a499737181904344685df/pyplasm-3.0.8-cp39-none-win_amd64.whl
+[2023-04-17 18:06:17] INFO root fetch - processPackages [pysparkler]: executing diffoscope
+[2023-04-17 18:06:17] INFO root fetch - processPackages [pysparkler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysparkler-0.4.dev1681497870.tar.gz tmp/pysparkler-0.4.dev1681747316.tar.gz --markdown 20230417/p/pysparkler/0.4.dev1681497870-0.4.dev1681747316/diff.md --exclude *.pyd
+[2023-04-17 18:06:17] INFO root fetch - processPackages [ecs-composex]: executing diffoscope
+[2023-04-17 18:06:17] INFO root fetch - processPackages [ecs-composex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecs_composex-0.8.9.tar.gz tmp/ecs_composex-0.9.2.tar.gz --markdown 20230417/e/ecs-composex/0.8.9-0.9.2/diff.md --exclude *.pyd
+[2023-04-17 18:06:17] INFO root fetch - processPackages [ign-pdal-tools]: Downloading https://files.pythonhosted.org/packages/0a/28/270134d1361dac09df521c6711349fd181fa3839b91e134231b9bc61750a/ign-pdal-tools-0.5.0.tar.gz
+[2023-04-17 18:06:17] INFO root fetch - processPackages [arcanum-newspaper-segmentation-client]: executing diffoscope
+[2023-04-17 18:06:17] INFO root fetch - processPackages [arcanum-newspaper-segmentation-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcanum-newspaper-segmentation-client-1.6.5.tar.gz tmp/arcanum-newspaper-segmentation-client-1.6.6.tar.gz --markdown 20230417/a/arcanum-newspaper-segmentation-client/1.6.5-1.6.6/diff.md --exclude *.pyd
+[2023-04-17 18:06:17] INFO root fetch - processPackages [jina]: executing diffoscope
+[2023-04-17 18:06:17] INFO root fetch - processPackages [jina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jina-3.9.3.dev8.tar.gz tmp/jina-3.9.3.dev9.tar.gz --markdown 20230417/j/jina/3.9.3.dev8-3.9.3.dev9/diff.md --exclude *.pyd
+[2023-04-17 18:06:17] INFO root fetch - processPackages [fabrictestbed-extensions]: Downloading https://files.pythonhosted.org/packages/c5/d0/0bcee67aa33b2c54d23856713a0f2f089c685480db28dc40e5aef1ccf93d/fabrictestbed-extensions-1.4.2rc5.tar.gz
+[2023-04-17 18:06:17] INFO root fetch - processPackages [pyplasm]: executing diffoscope
+[2023-04-17 18:06:17] INFO root fetch - processPackages [pyplasm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyplasm-3.0.7-cp39-none-win_amd64.whl.zip tmp/pyplasm-3.0.8-cp39-none-win_amd64.whl.zip --markdown 20230417/p/pyplasm/3.0.7-3.0.8/diff.md --exclude *.pyd
+[2023-04-17 18:06:17] INFO root fetch - processPackages [pyprembly]: Downloading https://files.pythonhosted.org/packages/d4/f8/e0acccacee40dab02b83633ca3948b7da6ab3b6cc74a4fd7e38aff335f6f/pyprembly-0.0.4-py3-none-any.whl
+[2023-04-17 18:06:17] INFO root fetch - processPackages [opentaskpy]: Downloading https://files.pythonhosted.org/packages/95/1e/6b8dd6ec46cda589e45847dd943cee9ebe864c0966e9314a3e01546c9b9a/opentaskpy-0.8.1.tar.gz
+[2023-04-17 18:06:17] INFO root fetch - processPackages [fabrictestbed-extensions]: executing diffoscope
+[2023-04-17 18:06:17] INFO root fetch - processPackages [fabrictestbed-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabrictestbed-extensions-1.4.2rc4.tar.gz tmp/fabrictestbed-extensions-1.4.2rc5.tar.gz --markdown 20230417/f/fabrictestbed-extensions/1.4.2rc4-1.4.2rc5/diff.md --exclude *.pyd
+[2023-04-17 18:06:17] INFO root fetch - processPackages [pyprembly]: executing diffoscope
+[2023-04-17 18:06:17] INFO root fetch - processPackages [pyprembly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyprembly-0.0.3.tar.gz tmp/pyprembly-0.0.4-py3-none-any.whl.zip --markdown 20230417/p/pyprembly/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-17 18:06:17] INFO root fetch - processPackages [opentaskpy]: executing diffoscope
+[2023-04-17 18:06:17] INFO root fetch - processPackages [opentaskpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentaskpy-0.8.0.tar.gz tmp/opentaskpy-0.8.1.tar.gz --markdown 20230417/o/opentaskpy/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-04-17 18:06:17] INFO root fetch - processPackages [ign-pdal-tools]: Downloading https://files.pythonhosted.org/packages/39/68/00c2b0dcbdd81c5a8e027fc750a462f8ffe86fe4ba405fc7d428e2204866/ign-pdal-tools-0.5.1.tar.gz
+[2023-04-17 18:06:17] INFO root fetch - processPackages [ign-pdal-tools]: executing diffoscope
+[2023-04-17 18:06:17] INFO root fetch - processPackages [ign-pdal-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ign-pdal-tools-0.5.0.tar.gz tmp/ign-pdal-tools-0.5.1.tar.gz --markdown 20230417/i/ign-pdal-tools/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-04-17 18:06:18] INFO root fetch - processPackages [web3client]: Start processing: novalabs-backtest
+[2023-04-17 18:06:18] INFO root fetch - main [MainThread]: End processing [web3client]: success
+[2023-04-17 18:06:18] INFO root fetch - processPackages [novalabs-backtest]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-04-17 18:06:18] INFO root fetch - processPackages [novalabs-backtest]: Downloading https://files.pythonhosted.org/packages/96/78/bf32843b4206d90b939c0d91d6b366a4a9e043e6880f825526946237e001/novalabs-backtest-1.1.8.tar.gz
+[2023-04-17 18:06:18] INFO root fetch - processPackages [arcanum-newspaper-segmentation-client]: Start processing: amazon-braket-algorithm-library
+[2023-04-17 18:06:18] INFO root fetch - main [MainThread]: End processing [arcanum-newspaper-segmentation-client]: success
+[2023-04-17 18:06:18] INFO root fetch - processPackages [amazon-braket-algorithm-library]: New version: [1.3.1.post0] Old Version: [1.3.1]
+[2023-04-17 18:06:18] INFO root fetch - processPackages [pysparkler]: Start processing: hydromt-sfincs
+[2023-04-17 18:06:18] INFO root fetch - main [MainThread]: End processing [pysparkler]: success
+[2023-04-17 18:06:18] INFO root fetch - processPackages [novalabs-backtest]: Downloading https://files.pythonhosted.org/packages/a2/38/1bb46fca8aa87d5375b99b0927a732739b47b6f4d60dfa183990acf5110f/novalabs-backtest-1.1.9.tar.gz
+[2023-04-17 18:06:19] INFO root fetch - processPackages [hydromt-sfincs]: New version: [1.0.0] Old Version: [0.2.1]
+[2023-04-17 18:06:19] INFO root fetch - processPackages [amazon-braket-algorithm-library]: Downloading https://files.pythonhosted.org/packages/ba/2f/3e965878b6bd0c38d2be054a9be95336a0580854adb7d552bbd1c6865484/amazon-braket-algorithm-library-1.3.1.tar.gz
+[2023-04-17 18:06:19] INFO root fetch - processPackages [novalabs-backtest]: executing diffoscope
+[2023-04-17 18:06:19] INFO root fetch - processPackages [novalabs-backtest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/novalabs-backtest-1.1.8.tar.gz tmp/novalabs-backtest-1.1.9.tar.gz --markdown 20230417/n/novalabs-backtest/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-04-17 18:06:19] INFO root fetch - processPackages [ign-pdal-tools]: Start processing: djangocms-blog-agenda
+[2023-04-17 18:06:19] INFO root fetch - main [MainThread]: End processing [ign-pdal-tools]: success
+[2023-04-17 18:06:19] INFO root fetch - processPackages [djangocms-blog-agenda]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-04-17 18:06:19] INFO root fetch - processPackages [hydromt-sfincs]: Downloading https://files.pythonhosted.org/packages/60/e1/f69ef2daa80cb6f8ab78ea25e024f7cca967211105f91763c7744d5804b4/hydromt_sfincs-0.2.1.tar.gz
+[2023-04-17 18:06:19] INFO root fetch - processPackages [amazon-braket-algorithm-library]: Downloading https://files.pythonhosted.org/packages/44/38/e6ae19c1f7d8694cede4d2d898e58e0e7addc297faa84420a2e83e97ab85/amazon-braket-algorithm-library-1.3.1.post0.tar.gz
+[2023-04-17 18:06:19] INFO root fetch - processPackages [pyprembly]: Start processing: openassetio
+[2023-04-17 18:06:19] INFO root fetch - main [MainThread]: End processing [pyprembly]: success
+[2023-04-17 18:06:19] INFO root fetch - main [MainThread]: End processing [fabrictestbed-extensions]: success
+[2023-04-17 18:06:19] INFO root fetch - main [MainThread]: End processing [opentaskpy]: success
+[2023-04-17 18:06:19] INFO root fetch - processPackages [djangocms-blog-agenda]: Downloading https://files.pythonhosted.org/packages/1b/e0/84bb25b99726e955a13ecdd440f339efb00787fa8b98f20fa9b8bea00bd4/djangocms-blog-agenda-0.3.0.tar.gz
+[2023-04-17 18:06:19] INFO root fetch - processPackages [openassetio]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-04-17 18:06:19] INFO root fetch - processPackages [amazon-braket-algorithm-library]: executing diffoscope
+[2023-04-17 18:06:19] INFO root fetch - processPackages [amazon-braket-algorithm-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon-braket-algorithm-library-1.3.1.tar.gz tmp/amazon-braket-algorithm-library-1.3.1.post0.tar.gz --markdown 20230417/a/amazon-braket-algorithm-library/1.3.1-1.3.1.post0/diff.md --exclude *.pyd
+[2023-04-17 18:06:19] INFO root fetch - processPackages [djangocms-blog-agenda]: executing diffoscope
+[2023-04-17 18:06:19] INFO root fetch - processPackages [djangocms-blog-agenda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangocms-blog-agenda-0.2.2.tar.gz tmp/djangocms-blog-agenda-0.3.0.tar.gz --markdown 20230417/d/djangocms-blog-agenda/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-04-17 18:06:19] INFO root fetch - processPackages [hydromt-sfincs]: Downloading https://files.pythonhosted.org/packages/26/20/5d8c52930ebc8b5625b001780638c36045a93315aff48f7690612c2884af/hydromt_sfincs-1.0.0.tar.gz
+[2023-04-17 18:06:19] INFO root fetch - processPackages [openassetio]: Downloading https://files.pythonhosted.org/packages/8d/0e/f1d63b267285d7aaa36801df023cf5ac0893b48a166ade6690d89b407b3d/openassetio-1.0.0a8-cp39-cp39-win_amd64.whl
+[2023-04-17 18:06:19] INFO root fetch - processPackages [hydromt-sfincs]: executing diffoscope
+[2023-04-17 18:06:19] INFO root fetch - processPackages [hydromt-sfincs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydromt_sfincs-0.2.1.tar.gz tmp/hydromt_sfincs-1.0.0.tar.gz --markdown 20230417/h/hydromt-sfincs/0.2.1-1.0.0/diff.md --exclude *.pyd
+[2023-04-17 18:06:20] INFO root fetch - processPackages [openassetio]: Downloading https://files.pythonhosted.org/packages/b8/4b/92308ea70581209ecff9d93a4aa7f15c7d2f8db1ea35d66345c7970aae78/openassetio-1.0.0a9-cp39-cp39-win_amd64.whl
+[2023-04-17 18:06:20] INFO root fetch - main [MainThread]: End processing [novalabs-backtest]: success
+[2023-04-17 18:06:20] INFO root fetch - processPackages [openassetio]: executing diffoscope
+[2023-04-17 18:06:20] INFO root fetch - processPackages [openassetio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openassetio-1.0.0a8-cp39-cp39-win_amd64.whl.zip tmp/openassetio-1.0.0a9-cp39-cp39-win_amd64.whl.zip --markdown 20230417/o/openassetio/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-04-17 18:06:20] INFO root fetch - main [MainThread]: End processing [djangocms-blog-agenda]: success
+[2023-04-17 18:06:20] INFO root fetch - main [MainThread]: End processing [amazon-braket-algorithm-library]: success
+[2023-04-17 18:06:20] INFO root fetch - main [MainThread]: End processing [hydromt-sfincs]: success
+[2023-04-17 18:06:21] INFO root fetch - main [MainThread]: End processing [openassetio]: success
+[2023-04-17 18:06:21] INFO root fetch - main [MainThread]: End processing [jina]: success
+[2023-04-17 18:06:23] INFO root fetch - main [MainThread]: End processing [ecs-composex]: success
+[2023-04-17 18:06:26] INFO root fetch - main [MainThread]: End processing [pyplasm]: success
+[2023-04-17 18:06:26] INFO root fetch - main [MainThread]: Store serial: [17741073]
