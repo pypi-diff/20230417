@@ -7403,3 +7403,38 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 09:39:32] INFO root fetch - main [MainThread]: End processing [NikeCA]: success
 [2023-04-17 09:39:32] INFO root fetch - main [MainThread]: End processing [ifd-python]: success
 [2023-04-17 09:39:32] INFO root fetch - main [MainThread]: Store serial: [17735009]
+[2023-04-17 09:44:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17735009]
+[2023-04-17 09:44:41] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-17 09:44:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastapi-startapp
+[2023-04-17 09:44:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bx-py-utils
+[2023-04-17 09:44:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shelephant
+[2023-04-17 09:44:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-contest-template
+[2023-04-17 09:44:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: keras-nightly
+[2023-04-17 09:44:41] INFO root fetch - processPackages [shelephant]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-04-17 09:44:41] INFO root fetch - processPackages [fastapi-startapp]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-17 09:44:41] INFO root fetch - processPackages [python-contest-template]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-17 09:44:41] INFO root fetch - processPackages [bx-py-utils]: New version: [9] Old Version: [8]
+[2023-04-17 09:44:41] INFO root fetch - processPackages [keras-nightly]: New version: [2.9.0.dev2022033107] Old Version: [2.9.0.dev2022033007]
+[2023-04-17 09:44:41] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2023-04-17 09:44:41] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip --markdown 20230417/k/keras-nightly/2.9.0.dev2022033007-2.9.0.dev2022033107/diff.md --exclude *.pyd
+[2023-04-17 09:44:41] INFO root fetch - processPackages [shelephant]: Downloading https://files.pythonhosted.org/packages/2d/a4/eb89174621cb4db480e5ee671940c1839e2aa2d7672091785663efee5de7/shelephant-0.8.1.tar.gz
+[2023-04-17 09:44:41] INFO root fetch - processPackages [fastapi-startapp]: Downloading https://files.pythonhosted.org/packages/9d/94/3b56cd76ebaedee90e4e905a61dede523d61c9447d75abaece473b980836/fastapi-startapp-0.1.1.tar.gz
+[2023-04-17 09:44:41] INFO root fetch - processPackages [python-contest-template]: Downloading https://files.pythonhosted.org/packages/d0/79/6f9a86b2cf0c660749f0bfa8923ec06de8bb0de5b634b153df61c38a506b/python_contest_template-0.0.3.tar.gz
+[2023-04-17 09:44:41] INFO root fetch - processPackages [bx-py-utils]: Downloading https://files.pythonhosted.org/packages/da/e7/01deec84ecdd7d25cf04338edf473528fd673363a6e159058b65e051eb1c/bx_py_utils-8.tar.gz
+[2023-04-17 09:44:42] INFO root fetch - processPackages [python-contest-template]: executing diffoscope
+[2023-04-17 09:44:42] INFO root fetch - processPackages [python-contest-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_contest_template-0.0.2.tar.gz tmp/python_contest_template-0.0.3.tar.gz --markdown 20230417/p/python-contest-template/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-17 09:44:42] INFO root fetch - processPackages [fastapi-startapp]: Downloading https://files.pythonhosted.org/packages/5a/88/50ca388be132e8095b4e02e7baaf7dff0acfb8a29558cc77cce601cee504/fastapi-startapp-0.1.2.tar.gz
+[2023-04-17 09:44:42] INFO root fetch - processPackages [bx-py-utils]: Downloading https://files.pythonhosted.org/packages/d6/8c/032d7aeb097a01b342559ef69422a284dca168947c68470f75b3ca26e1d2/bx_py_utils-9.tar.gz
+[2023-04-17 09:44:42] INFO root fetch - processPackages [shelephant]: Downloading https://files.pythonhosted.org/packages/93/46/ce850f729de093ce798c0d10e2125a344d87d2cf42e56b9380fbf5578cef/shelephant-0.9.0.tar.gz
+[2023-04-17 09:44:42] INFO root fetch - processPackages [bx-py-utils]: executing diffoscope
+[2023-04-17 09:44:42] INFO root fetch - processPackages [bx-py-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bx_py_utils-8.tar.gz tmp/bx_py_utils-9.tar.gz --markdown 20230417/b/bx-py-utils/8-9/diff.md --exclude *.pyd
+[2023-04-17 09:44:42] INFO root fetch - processPackages [fastapi-startapp]: executing diffoscope
+[2023-04-17 09:44:42] INFO root fetch - processPackages [fastapi-startapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-startapp-0.1.1.tar.gz tmp/fastapi-startapp-0.1.2.tar.gz --markdown 20230417/f/fastapi-startapp/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-17 09:44:42] INFO root fetch - processPackages [shelephant]: executing diffoscope
+[2023-04-17 09:44:42] INFO root fetch - processPackages [shelephant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shelephant-0.8.1.tar.gz tmp/shelephant-0.9.0.tar.gz --markdown 20230417/s/shelephant/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-04-17 09:44:43] INFO root fetch - main [MainThread]: End processing [python-contest-template]: success
+[2023-04-17 09:44:43] INFO root fetch - main [MainThread]: End processing [fastapi-startapp]: success
+[2023-04-17 09:44:43] INFO root fetch - main [MainThread]: End processing [bx-py-utils]: success
+[2023-04-17 09:44:44] INFO root fetch - main [MainThread]: End processing [shelephant]: success
+[2023-04-17 09:44:53] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2023-04-17 09:44:53] INFO root fetch - main [MainThread]: Store serial: [17735024]
