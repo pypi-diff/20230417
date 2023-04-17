@@ -8320,3 +8320,102 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 10:44:15] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2023-04-17 10:45:13] INFO root fetch - main [MainThread]: End processing [jenkins-job-builder]: success
 [2023-04-17 10:45:13] INFO root fetch - main [MainThread]: Store serial: [17735627]
+[2023-04-17 10:50:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17735627]
+[2023-04-17 10:50:23] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-04-17 10:50:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: biren-perf-pkg-birenchrisshi
+[2023-04-17 10:50:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: packagename-jarne
+[2023-04-17 10:50:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tfdata
+[2023-04-17 10:50:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mirrorbot
+[2023-04-17 10:50:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: checkov
+[2023-04-17 10:50:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pgx
+[2023-04-17 10:50:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flawmop-fishdish
+[2023-04-17 10:50:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wodoo
+[2023-04-17 10:50:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: oc-cdtapi
+[2023-04-17 10:50:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: oc-cdtapi
+[2023-04-17 10:50:23] INFO root fetch - processPackages [packagename-jarne]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-17 10:50:23] WARNING root fetch - processPackages [biren-perf-pkg-birenchrisshi]: Skipping, unable to determine old version
+[2023-04-17 10:50:23] INFO root fetch - processPackages [biren-perf-pkg-birenchrisshi]: Start processing: cagen
+[2023-04-17 10:50:23] INFO root fetch - main [MainThread]: End processing [biren-perf-pkg-birenchrisshi] error
+[2023-04-17 10:50:23] INFO root fetch - processPackages [tfdata]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-04-17 10:50:23] INFO root fetch - processPackages [oc-cdtapi]: New version: [3.8.2.20230417085139] Old Version: [3.8.2.20230417085132]
+[2023-04-17 10:50:23] INFO root fetch - processPackages [pgx]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-17 10:50:23] INFO root fetch - processPackages [flawmop-fishdish]: New version: [0.4.0] Old Version: [0.2.0]
+[2023-04-17 10:50:23] INFO root fetch - processPackages [oc-cdtapi]: New version: [3.8.2.20230417085139] Old Version: [3.8.2.20230417085132]
+[2023-04-17 10:50:23] INFO root fetch - processPackages [mirrorbot]: New version: [0.4] Old Version: [0.3]
+[2023-04-17 10:50:23] INFO root fetch - processPackages [cagen]: New version: [0.2.0a7] Old Version: [0.2.0a6]
+[2023-04-17 10:50:23] INFO root fetch - processPackages [wodoo]: New version: [0.3.99] Old Version: [0.3.96]
+[2023-04-17 10:50:23] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-04-17 10:50:23] INFO root fetch - processPackages [oc-cdtapi]: Downloading https://files.pythonhosted.org/packages/06/b1/2b4fdab08116d9b9eb0de0143bae52fbef8732a1a465c6562092895e52d8/oc_cdtapi-3.8.2.20230417085132-py3-none-any.whl
+[2023-04-17 10:50:23] INFO root fetch - processPackages [oc-cdtapi]: Downloading https://files.pythonhosted.org/packages/06/b1/2b4fdab08116d9b9eb0de0143bae52fbef8732a1a465c6562092895e52d8/oc_cdtapi-3.8.2.20230417085132-py3-none-any.whl
+[2023-04-17 10:50:23] INFO root fetch - processPackages [flawmop-fishdish]: Downloading https://files.pythonhosted.org/packages/c1/65/1a2450bbea0f42b809ca1af8c07cd62404577a3524eed895c1d6b207d29f/flawmop-fishdish-0.4.0.tar.gz
+[2023-04-17 10:50:23] INFO root fetch - processPackages [packagename-jarne]: Downloading https://files.pythonhosted.org/packages/fb/b6/4a433b000e9d483a1591c539d1759af07cc08692173b91a9f2166dd452f3/packagename_jarne-0.1.0.tar.gz
+[2023-04-17 10:50:23] INFO root fetch - processPackages [tfdata]: Downloading https://files.pythonhosted.org/packages/b3/ac/76e6d532639e461ae21639df2d9b8a2e4b2d762ab89ab7187c9829e8882c/tfdata-0.5.2.tar.gz
+[2023-04-17 10:50:23] INFO root fetch - processPackages [cagen]: Downloading https://files.pythonhosted.org/packages/10/b6/f63f0e526f0edb1105e9c73433de6492b83e02f4cd2a9e8f2fffc1597820/cagen-0.2.0a7.tar.gz
+[2023-04-17 10:50:23] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-04-17 10:50:23] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230417/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-04-17 10:50:23] INFO root fetch - processPackages [flawmop-fishdish]: executing diffoscope
+[2023-04-17 10:50:23] INFO root fetch - processPackages [flawmop-fishdish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flawmop-fishdish-0.2.0.tar.gz tmp/flawmop-fishdish-0.4.0.tar.gz --markdown 20230417/f/flawmop-fishdish/0.2.0-0.4.0/diff.md --exclude *.pyd
+[2023-04-17 10:50:23] INFO root fetch - processPackages [mirrorbot]: Downloading https://files.pythonhosted.org/packages/88/5f/7c1b5d0a903a869d8b61f73a74fd5b5764d0169f458d0c9207b29a7913ac/mirrorbot-0.4.tar.gz
+[2023-04-17 10:50:23] INFO root fetch - processPackages [pgx]: Downloading https://files.pythonhosted.org/packages/65/f7/b3ff3d9db1a38efaf8d70c205a7b4ef62ccac7175e9f298267d67b8992b6/pgx-0.3.1.tar.gz
+[2023-04-17 10:50:23] INFO root fetch - processPackages [mirrorbot]: executing diffoscope
+[2023-04-17 10:50:23] INFO root fetch - processPackages [mirrorbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mirrorbot-0.3.tar.gz tmp/mirrorbot-0.4.tar.gz --markdown 20230417/m/mirrorbot/0.3-0.4/diff.md --exclude *.pyd
+[2023-04-17 10:50:23] INFO root fetch - processPackages [cagen]: executing diffoscope
+[2023-04-17 10:50:23] INFO root fetch - processPackages [cagen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cagen-0.2.0a6.tar.gz tmp/cagen-0.2.0a7.tar.gz --markdown 20230417/c/cagen/0.2.0a6-0.2.0a7/diff.md --exclude *.pyd
+[2023-04-17 10:50:23] INFO root fetch - processPackages [wodoo]: executing diffoscope
+[2023-04-17 10:50:23] INFO root fetch - processPackages [wodoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wodoo-0.3.96.tar.gz tmp/wodoo-0.3.99.tar.gz --markdown 20230417/w/wodoo/0.3.96-0.3.99/diff.md --exclude *.pyd
+[2023-04-17 10:50:23] INFO root fetch - processPackages [pgx]: executing diffoscope
+[2023-04-17 10:50:23] INFO root fetch - processPackages [pgx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgx-0.3.0.tar.gz tmp/pgx-0.3.1.tar.gz --markdown 20230417/p/pgx/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-17 10:50:23] INFO root fetch - processPackages [packagename-jarne]: Downloading https://files.pythonhosted.org/packages/6f/f5/50770560403a02177b5443018887129d6e04420001a3de74f578184270d0/packagename_jarne-0.1.1.tar.gz
+[2023-04-17 10:50:23] INFO root fetch - processPackages [oc-cdtapi]: Downloading https://files.pythonhosted.org/packages/f4/a3/420a9e5ebbde0ca25c43631e61aa3af15798416eefc8c2dae99431902cdb/oc_cdtapi-3.8.2.20230417085139-py2-none-any.whl
+[2023-04-17 10:50:23] INFO root fetch - processPackages [oc-cdtapi]: Downloading https://files.pythonhosted.org/packages/f4/a3/420a9e5ebbde0ca25c43631e61aa3af15798416eefc8c2dae99431902cdb/oc_cdtapi-3.8.2.20230417085139-py2-none-any.whl
+[2023-04-17 10:50:23] INFO root fetch - processPackages [packagename-jarne]: executing diffoscope
+[2023-04-17 10:50:23] INFO root fetch - processPackages [packagename-jarne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packagename_jarne-0.1.0.tar.gz tmp/packagename_jarne-0.1.1.tar.gz --markdown 20230417/p/packagename-jarne/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-17 10:50:23] INFO root fetch - processPackages [tfdata]: Downloading https://files.pythonhosted.org/packages/da/4e/5e45dffd3eab88cfc797282499316f0dbf6a9e5b6302aa9855940009e8f2/tfdata-0.5.3.tar.gz
+[2023-04-17 10:50:23] INFO root fetch - processPackages [oc-cdtapi]: executing diffoscope
+[2023-04-17 10:50:23] INFO root fetch - processPackages [oc-cdtapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oc_cdtapi-3.8.2.20230417085132-py3-none-any.whl.zip tmp/oc_cdtapi-3.8.2.20230417085139-py2-none-any.whl.zip --markdown 20230417/o/oc-cdtapi/3.8.2.20230417085132-3.8.2.20230417085139/diff.md --exclude *.pyd
+[2023-04-17 10:50:23] INFO root fetch - processPackages [oc-cdtapi]: executing diffoscope
+[2023-04-17 10:50:23] INFO root fetch - processPackages [oc-cdtapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oc_cdtapi-3.8.2.20230417085132-py3-none-any.whl.zip tmp/oc_cdtapi-3.8.2.20230417085139-py2-none-any.whl.zip --markdown 20230417/o/oc-cdtapi/3.8.2.20230417085132-3.8.2.20230417085139/diff.md --exclude *.pyd
+[2023-04-17 10:50:23] INFO root fetch - processPackages [tfdata]: executing diffoscope
+[2023-04-17 10:50:23] INFO root fetch - processPackages [tfdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfdata-0.5.2.tar.gz tmp/tfdata-0.5.3.tar.gz --markdown 20230417/t/tfdata/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-04-17 10:50:25] INFO root fetch - processPackages [packagename-jarne]: Start processing: CurrenTime
+[2023-04-17 10:50:25] INFO root fetch - main [MainThread]: End processing [packagename-jarne]: success
+[2023-04-17 10:50:25] INFO root fetch - processPackages [flawmop-fishdish]: Start processing: vsui-client
+[2023-04-17 10:50:25] INFO root fetch - main [MainThread]: End processing [flawmop-fishdish]: success
+[2023-04-17 10:50:25] INFO root fetch - processPackages [vsui-client]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-04-17 10:50:25] WARNING root fetch - processPackages [CurrenTime]: Skipping, unable to determine old version
+[2023-04-17 10:50:25] INFO root fetch - processPackages [CurrenTime]: Start processing: supervisely
+[2023-04-17 10:50:25] INFO root fetch - main [MainThread]: End processing [CurrenTime] error
+[2023-04-17 10:50:25] INFO root fetch - processPackages [supervisely]: New version: [6.9.2] Old Version: [6.9.1]
+[2023-04-17 10:50:25] INFO root fetch - processPackages [tfdata]: Start processing: scslat
+[2023-04-17 10:50:25] INFO root fetch - main [MainThread]: End processing [tfdata]: success
+[2023-04-17 10:50:25] INFO root fetch - processPackages [oc-cdtapi]: Start processing: je-api-testka-dev
+[2023-04-17 10:50:25] INFO root fetch - main [MainThread]: End processing [oc-cdtapi]: success
+[2023-04-17 10:50:25] INFO root fetch - processPackages [scslat]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-04-17 10:50:25] INFO root fetch - processPackages [vsui-client]: Downloading https://files.pythonhosted.org/packages/81/08/530b2db97d04af1f079de1bfb8def43e1c92c75efca7a1a969a80482bcf2/vsui_client-1.1.2.tar.gz
+[2023-04-17 10:50:25] INFO root fetch - main [MainThread]: End processing [cagen]: success
+[2023-04-17 10:50:25] INFO root fetch - main [MainThread]: End processing [oc-cdtapi]: success
+[2023-04-17 10:50:25] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/5a/d1c5e1830d747d899ac781f368bbd65eb9c02eaf0faf98d318a7dd8cce53/supervisely-6.9.1.tar.gz
+[2023-04-17 10:50:25] INFO root fetch - processPackages [je-api-testka-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 10:50:25] INFO root fetch - processPackages [scslat]: Downloading https://files.pythonhosted.org/packages/67/d4/ec4c2ee13cbd352bada566c2b6d918982ba92235af720db77e6166fb00cb/scslat-0.2.0.tar.gz
+[2023-04-17 10:50:25] INFO root fetch - processPackages [vsui-client]: Downloading https://files.pythonhosted.org/packages/84/75/bcc84eede864ea7b7e71431c0e09cd998cd5172e3e784b1c908deea8a97c/vsui_client-1.1.3.tar.gz
+[2023-04-17 10:50:25] INFO root fetch - processPackages [vsui-client]: executing diffoscope
+[2023-04-17 10:50:25] INFO root fetch - processPackages [vsui-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vsui_client-1.1.2.tar.gz tmp/vsui_client-1.1.3.tar.gz --markdown 20230417/v/vsui-client/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-04-17 10:50:25] INFO root fetch - processPackages [je-api-testka-dev]: Downloading https://files.pythonhosted.org/packages/13/bd/b792d5c14daeeb3cc55dc2946bf16d0873af7ca6d7dd87055d02a693cc16/je_api_testka_dev-0.0.8.tar.gz
+[2023-04-17 10:50:25] INFO root fetch - processPackages [scslat]: Downloading https://files.pythonhosted.org/packages/e0/af/bec1845e95e843ad4db4bc0c9c792c660824f3a1719007b55520e3300e94/scslat-0.2.1.tar.gz
+[2023-04-17 10:50:26] INFO root fetch - processPackages [scslat]: executing diffoscope
+[2023-04-17 10:50:26] INFO root fetch - processPackages [scslat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scslat-0.2.0.tar.gz tmp/scslat-0.2.1.tar.gz --markdown 20230417/s/scslat/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-04-17 10:50:26] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/56/78987e56220fcb935013105de97143fb9371ba9732a7dcdcb9451350a28f/supervisely-6.9.2.tar.gz
+[2023-04-17 10:50:26] INFO root fetch - processPackages [supervisely]: executing diffoscope
+[2023-04-17 10:50:26] INFO root fetch - processPackages [supervisely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supervisely-6.9.1.tar.gz tmp/supervisely-6.9.2.tar.gz --markdown 20230417/s/supervisely/6.9.1-6.9.2/diff.md --exclude *.pyd
+[2023-04-17 10:50:26] INFO root fetch - processPackages [je-api-testka-dev]: Downloading https://files.pythonhosted.org/packages/56/33/3fdf0251bbc6a8adb02966cc117dca9766627058cc5f140be419573d9256/je_api_testka_dev-0.0.9.tar.gz
+[2023-04-17 10:50:26] INFO root fetch - processPackages [je-api-testka-dev]: executing diffoscope
+[2023-04-17 10:50:26] INFO root fetch - processPackages [je-api-testka-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_api_testka_dev-0.0.8.tar.gz tmp/je_api_testka_dev-0.0.9.tar.gz --markdown 20230417/j/je-api-testka-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 10:50:26] INFO root fetch - main [MainThread]: End processing [mirrorbot]: success
+[2023-04-17 10:50:26] INFO root fetch - main [MainThread]: End processing [vsui-client]: success
+[2023-04-17 10:50:27] INFO root fetch - main [MainThread]: End processing [scslat]: success
+[2023-04-17 10:50:27] INFO root fetch - main [MainThread]: End processing [wodoo]: success
+[2023-04-17 10:50:27] INFO root fetch - main [MainThread]: End processing [je-api-testka-dev]: success
+[2023-04-17 10:50:28] INFO root fetch - main [MainThread]: End processing [supervisely]: success
+[2023-04-17 10:50:29] INFO root fetch - main [MainThread]: End processing [pgx]: success
+[2023-04-17 10:51:09] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-04-17 10:51:09] INFO root fetch - main [MainThread]: Store serial: [17735690]
