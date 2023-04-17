@@ -20373,3 +20373,88 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-17 20:45:07] INFO root fetch - main [MainThread]: End processing [ml-starter]: success
 [2023-04-17 20:45:09] INFO root fetch - main [MainThread]: End processing [evals]: success
 [2023-04-17 20:45:09] INFO root fetch - main [MainThread]: Store serial: [17742862]
+[2023-04-17 20:50:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17742862]
+[2023-04-17 20:50:19] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-17 20:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: udi-interface
+[2023-04-17 20:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: toml-cli
+[2023-04-17 20:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ipfskvs
+[2023-04-17 20:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gpt3discord
+[2023-04-17 20:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: np2mcpl
+[2023-04-17 20:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xh-dict-utils
+[2023-04-17 20:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: quantconnect-stubs
+[2023-04-17 20:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pydefenderultra
+[2023-04-17 20:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: yangsuite-netconf
+[2023-04-17 20:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: large-image
+[2023-04-17 20:50:19] INFO root fetch - processPackages [xh-dict-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 20:50:19] INFO root fetch - processPackages [ipfskvs]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-17 20:50:19] INFO root fetch - processPackages [gpt3discord]: New version: [9.1] Old Version: [9.0.4]
+[2023-04-17 20:50:19] WARNING root fetch - processPackages [pydefenderultra]: Skipping, unable to determine old version
+[2023-04-17 20:50:19] INFO root fetch - processPackages [pydefenderultra]: Start processing: girder-large-image
+[2023-04-17 20:50:19] INFO root fetch - main [MainThread]: End processing [pydefenderultra] error
+[2023-04-17 20:50:19] INFO root fetch - processPackages [quantconnect-stubs]: New version: [9998] Old Version: [9997]
+[2023-04-17 20:50:19] WARNING root fetch - processPackages [np2mcpl]: Skipping, unable to determine old version
+[2023-04-17 20:50:19] INFO root fetch - processPackages [np2mcpl]: Start processing: girder-large-image-annotation
+[2023-04-17 20:50:19] INFO root fetch - main [MainThread]: End processing [np2mcpl] error
+[2023-04-17 20:50:19] INFO root fetch - processPackages [toml-cli]: New version: [0.4.2] Old Version: [0.4.0]
+[2023-04-17 20:50:19] INFO root fetch - processPackages [yangsuite-netconf]: New version: [1.17.8.post0.dev38] Old Version: [1.17.8.post0.dev14]
+[2023-04-17 20:50:19] INFO root fetch - processPackages [udi-interface]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-04-17 20:50:19] INFO root fetch - processPackages [large-image]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-04-17 20:50:19] INFO root fetch - processPackages [quantconnect-stubs]: executing diffoscope
+[2023-04-17 20:50:19] INFO root fetch - processPackages [xh-dict-utils]: executing diffoscope
+[2023-04-17 20:50:19] INFO root fetch - processPackages [quantconnect-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantconnect-stubs-9997.tar.gz tmp/quantconnect-stubs-9998.tar.gz --markdown 20230417/q/quantconnect-stubs/9997-9998/diff.md --exclude *.pyd
+[2023-04-17 20:50:19] INFO root fetch - processPackages [xh-dict-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xh-dict-utils-0.0.8.tar.gz tmp/xh-dict-utils-0.0.9.tar.gz --markdown 20230417/x/xh-dict-utils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 20:50:19] INFO root fetch - processPackages [girder-large-image]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-04-17 20:50:19] INFO root fetch - processPackages [girder-large-image-annotation]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-04-17 20:50:19] INFO root fetch - processPackages [ipfskvs]: Downloading https://files.pythonhosted.org/packages/26/ab/c985a31153871b5f6ea5bf590b3f5d2244a646572fcc047874c0c7cc402b/ipfskvs-0.0.6.tar.gz
+[2023-04-17 20:50:19] INFO root fetch - processPackages [yangsuite-netconf]: Downloading https://files.pythonhosted.org/packages/5a/11/5aa11b2dcc9e791c0582581b5c467a630fa98da3812520696e34debc9360/yangsuite_netconf-1.17.8.post0.dev14-py3-none-any.whl
+[2023-04-17 20:50:19] INFO root fetch - processPackages [udi-interface]: Downloading https://files.pythonhosted.org/packages/c0/51/dfe91ad763bae4f37bcc702efca1a0203ac20555622342538c7577e89325/udi_interface-3.0.8.tar.gz
+[2023-04-17 20:50:19] INFO root fetch - processPackages [gpt3discord]: executing diffoscope
+[2023-04-17 20:50:19] INFO root fetch - processPackages [gpt3discord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt3discord-9.0.4.tar.gz tmp/gpt3discord-9.1.tar.gz --markdown 20230417/g/gpt3discord/9.0.4-9.1/diff.md --exclude *.pyd
+[2023-04-17 20:50:19] INFO root fetch - processPackages [girder-large-image]: Downloading https://files.pythonhosted.org/packages/a1/de/9259311e8ad31f3131b016ae68dbee28c3a85340a5611063ba07e130f4dd/girder-large-image-1.9.1.dev6.tar.gz
+[2023-04-17 20:50:19] INFO root fetch - processPackages [large-image]: Downloading https://files.pythonhosted.org/packages/0e/97/f50d98f73951f053a140a085b971b043dc16e80844122ca59d5c2feeab13/large-image-1.9.1.dev6.tar.gz
+[2023-04-17 20:50:19] INFO root fetch - processPackages [toml-cli]: Downloading https://files.pythonhosted.org/packages/b0/a0/95cde9897eea8cb76fa7f5e3cbe34cb23ed0e6ca57df37add66e96fd6af3/toml_cli-0.4.2.tar.gz
+[2023-04-17 20:50:19] INFO root fetch - processPackages [girder-large-image-annotation]: Downloading https://files.pythonhosted.org/packages/c3/18/d99bf917c38c2bfe8e73289ba285a6777b5180e575625de79a961576422c/girder-large-image-annotation-1.9.1.dev6.tar.gz
+[2023-04-17 20:50:19] INFO root fetch - processPackages [ipfskvs]: executing diffoscope
+[2023-04-17 20:50:19] INFO root fetch - processPackages [ipfskvs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipfskvs-0.0.5.tar.gz tmp/ipfskvs-0.0.6.tar.gz --markdown 20230417/i/ipfskvs/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-17 20:50:20] INFO root fetch - processPackages [toml-cli]: executing diffoscope
+[2023-04-17 20:50:20] INFO root fetch - processPackages [toml-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toml_cli-0.4.0.tar.gz tmp/toml_cli-0.4.2.tar.gz --markdown 20230417/t/toml-cli/0.4.0-0.4.2/diff.md --exclude *.pyd
+[2023-04-17 20:50:20] INFO root fetch - processPackages [large-image]: Downloading https://files.pythonhosted.org/packages/22/c4/18264ad18d3664df703883e2fb520f69d307805c93779d26bdaab792bb0b/large-image-1.9.1.dev8.tar.gz
+[2023-04-17 20:50:20] INFO root fetch - processPackages [girder-large-image-annotation]: Downloading https://files.pythonhosted.org/packages/ca/57/fbf65f3374926f7df27919c0c3d3a4d433f93e014e2405e5aaec1aa92a23/girder-large-image-annotation-1.9.1.dev8.tar.gz
+[2023-04-17 20:50:20] INFO root fetch - processPackages [girder-large-image]: Downloading https://files.pythonhosted.org/packages/f9/12/4dfe66c1b3eae390e20ba6a8e5537d1e114e878fe6346c8b5dbb5b9efdcc/girder-large-image-1.9.1.dev8.tar.gz
+[2023-04-17 20:50:20] INFO root fetch - processPackages [udi-interface]: Downloading https://files.pythonhosted.org/packages/2e/af/c1c23f937e0bea436329e585e4e5531273c5cdd6021816fe805c9fa33136/udi_interface-3.0.9.tar.gz
+[2023-04-17 20:50:20] INFO root fetch - processPackages [girder-large-image]: executing diffoscope
+[2023-04-17 20:50:20] INFO root fetch - processPackages [girder-large-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-large-image-1.9.1.dev6.tar.gz tmp/girder-large-image-1.9.1.dev8.tar.gz --markdown 20230417/g/girder-large-image/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-04-17 20:50:20] INFO root fetch - processPackages [girder-large-image-annotation]: executing diffoscope
+[2023-04-17 20:50:20] INFO root fetch - processPackages [girder-large-image-annotation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-large-image-annotation-1.9.1.dev6.tar.gz tmp/girder-large-image-annotation-1.9.1.dev8.tar.gz --markdown 20230417/g/girder-large-image-annotation/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-04-17 20:50:20] INFO root fetch - processPackages [large-image]: executing diffoscope
+[2023-04-17 20:50:20] INFO root fetch - processPackages [large-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-1.9.1.dev6.tar.gz tmp/large-image-1.9.1.dev8.tar.gz --markdown 20230417/l/large-image/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-04-17 20:50:20] INFO root fetch - processPackages [udi-interface]: executing diffoscope
+[2023-04-17 20:50:20] INFO root fetch - processPackages [udi-interface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udi_interface-3.0.8.tar.gz tmp/udi_interface-3.0.9.tar.gz --markdown 20230417/u/udi-interface/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-04-17 20:50:21] INFO root fetch - processPackages [ipfskvs]: Start processing: large-image-converter
+[2023-04-17 20:50:21] INFO root fetch - main [MainThread]: End processing [ipfskvs]: success
+[2023-04-17 20:50:21] INFO root fetch - processPackages [xh-dict-utils]: Start processing: large-image-tasks
+[2023-04-17 20:50:21] INFO root fetch - main [MainThread]: End processing [xh-dict-utils]: success
+[2023-04-17 20:50:21] INFO root fetch - main [MainThread]: End processing [toml-cli]: success
+[2023-04-17 20:50:21] INFO root fetch - processPackages [large-image-converter]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-04-17 20:50:21] INFO root fetch - processPackages [large-image-tasks]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-04-17 20:50:21] INFO root fetch - processPackages [large-image-converter]: Downloading https://files.pythonhosted.org/packages/4e/e5/c672f0ad384f9f05d26e1baecedc8293d6d88840e5b9d9b43d657e8bfe20/large-image-converter-1.9.1.dev6.tar.gz
+[2023-04-17 20:50:21] INFO root fetch - processPackages [large-image-tasks]: Downloading https://files.pythonhosted.org/packages/d2/92/d072fa606a4761eb667b0efc0ba4137c9f9b34386f41757c597cdeff49d5/large-image-tasks-1.9.1.dev6.tar.gz
+[2023-04-17 20:50:21] INFO root fetch - processPackages [yangsuite-netconf]: Downloading https://files.pythonhosted.org/packages/c3/c4/8fabf796659e4d33c93f7df316b463e07342c195578fd0359b017bdfa0c2/yangsuite_netconf-1.17.8.post0.dev38-py3-none-any.whl
+[2023-04-17 20:50:21] INFO root fetch - main [MainThread]: End processing [large-image]: success
+[2023-04-17 20:50:21] INFO root fetch - main [MainThread]: End processing [girder-large-image]: success
+[2023-04-17 20:50:21] INFO root fetch - processPackages [large-image-tasks]: Downloading https://files.pythonhosted.org/packages/59/66/7de5976597497ff75f76e9d1e817dc755ed82ff85669b1f9613d1b27c9e8/large-image-tasks-1.9.1.dev8.tar.gz
+[2023-04-17 20:50:21] INFO root fetch - main [MainThread]: End processing [udi-interface]: success
+[2023-04-17 20:50:21] INFO root fetch - processPackages [large-image-converter]: Downloading https://files.pythonhosted.org/packages/2d/90/b675b694e3b2886568e691207cf7a9f742a43b89fe6b6c1877548391d231/large-image-converter-1.9.1.dev8.tar.gz
+[2023-04-17 20:50:21] INFO root fetch - main [MainThread]: End processing [girder-large-image-annotation]: success
+[2023-04-17 20:50:21] INFO root fetch - processPackages [large-image-converter]: executing diffoscope
+[2023-04-17 20:50:21] INFO root fetch - processPackages [large-image-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-converter-1.9.1.dev6.tar.gz tmp/large-image-converter-1.9.1.dev8.tar.gz --markdown 20230417/l/large-image-converter/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-04-17 20:50:21] INFO root fetch - processPackages [large-image-tasks]: executing diffoscope
+[2023-04-17 20:50:21] INFO root fetch - processPackages [large-image-tasks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-tasks-1.9.1.dev6.tar.gz tmp/large-image-tasks-1.9.1.dev8.tar.gz --markdown 20230417/l/large-image-tasks/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-04-17 20:50:22] INFO root fetch - main [MainThread]: End processing [gpt3discord]: success
+[2023-04-17 20:50:22] INFO root fetch - main [MainThread]: End processing [large-image-tasks]: success
+[2023-04-17 20:50:22] INFO root fetch - main [MainThread]: End processing [large-image-converter]: success
+[2023-04-17 20:50:23] INFO root fetch - processPackages [yangsuite-netconf]: executing diffoscope
+[2023-04-17 20:50:23] INFO root fetch - processPackages [yangsuite-netconf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yangsuite_netconf-1.17.8.post0.dev14-py3-none-any.whl.zip tmp/yangsuite_netconf-1.17.8.post0.dev38-py3-none-any.whl.zip --markdown 20230417/y/yangsuite-netconf/1.17.8.post0.dev14-1.17.8.post0.dev38/diff.md --exclude *.pyd
+[2023-04-17 20:50:24] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
+[2023-04-17 20:50:29] INFO root fetch - main [MainThread]: End processing [yangsuite-netconf]: success
+[2023-04-17 20:50:29] INFO root fetch - main [MainThread]: Store serial: [17742922]
