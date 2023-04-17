@@ -8053,3 +8053,74 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 10:27:28] INFO root fetch - main [MainThread]: End processing [RobertCommonIO]: success
 [2023-04-17 10:27:28] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
 [2023-04-17 10:27:28] INFO root fetch - main [MainThread]: Store serial: [17735476]
+[2023-04-17 10:32:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17735476]
+[2023-04-17 10:32:37] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-17 10:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CurrenTime
+[2023-04-17 10:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: EMPOL-GUI
+[2023-04-17 10:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: checkov
+[2023-04-17 10:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: goastpy
+[2023-04-17 10:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: MLandPattern
+[2023-04-17 10:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xh-dict-utils
+[2023-04-17 10:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: RobertCommonDriver
+[2023-04-17 10:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dxsp
+[2023-04-17 10:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: friendly-id
+[2023-04-17 10:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: josiann
+[2023-04-17 10:32:37] INFO root fetch - processPackages [CurrenTime]: New version: [1.0.0] Old Version: [0.1.1]
+[2023-04-17 10:32:37] INFO root fetch - processPackages [goastpy]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-17 10:32:37] INFO root fetch - processPackages [EMPOL-GUI]: New version: [2.2.4] Old Version: [2.2.3]
+[2023-04-17 10:32:37] INFO root fetch - processPackages [RobertCommonDriver]: New version: [0.1.37] Old Version: [0.1.35]
+[2023-04-17 10:32:37] INFO root fetch - processPackages [friendly-id]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-04-17 10:32:37] INFO root fetch - processPackages [josiann]: New version: [1.1.3rc4] Old Version: [1.1.3rc2]
+[2023-04-17 10:32:37] INFO root fetch - processPackages [xh-dict-utils]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-17 10:32:37] INFO root fetch - processPackages [MLandPattern]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-17 10:32:37] INFO root fetch - processPackages [dxsp]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-04-17 10:32:37] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-04-17 10:32:37] INFO root fetch - processPackages [CurrenTime]: Downloading https://files.pythonhosted.org/packages/99/ba/07209693356d0b53c12782d3df87387fa6a116d89c62108b1d2036cc9330/currentime-0.1.1.tar.gz
+[2023-04-17 10:32:37] INFO root fetch - processPackages [RobertCommonDriver]: Downloading https://files.pythonhosted.org/packages/64/8a/a63a4a75d6a261841dfb88dac49625234556df6b103dfb117e437ef7d85b/RobertCommonDriver-0.1.35.tar.gz
+[2023-04-17 10:32:37] INFO root fetch - processPackages [EMPOL-GUI]: Downloading https://files.pythonhosted.org/packages/3d/7f/685e8b5cd4be9749700896367039f9312360f4eaaec4bf49eaf4880cb836/EMPOL_GUI-2.2.3.tar.gz
+[2023-04-17 10:32:37] INFO root fetch - processPackages [friendly-id]: Downloading https://files.pythonhosted.org/packages/d9/b5/3ddff8c07a458f8c28cb6ba20b80c780eab2e7403881cc478fb2fed0c210/friendly-id-0.2.2.tar.gz
+[2023-04-17 10:32:37] INFO root fetch - processPackages [xh-dict-utils]: Downloading https://files.pythonhosted.org/packages/00/4d/de6b07c7c222491a1ad15d260289a4d3f882f9380bc077ad4cb58fa3fcfd/xh-dict-utils-0.0.6.tar.gz
+[2023-04-17 10:32:37] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/7f/aa/14117db283392f85f4b48a69d93b25955c81c791ddde391afc24c4e08f26/dxsp-1.2.3.tar.gz
+[2023-04-17 10:32:37] INFO root fetch - processPackages [josiann]: Downloading https://files.pythonhosted.org/packages/7c/7b/91dc2daab5b37cdd9b477366e3256457966767a766ced728c2dd4e24d093/josiann-1.1.3rc4.tar.gz
+[2023-04-17 10:32:37] INFO root fetch - processPackages [MLandPattern]: Downloading https://files.pythonhosted.org/packages/5b/95/0caffecb1dbe4e417e7c5a9ff466dc8f37f6673d509e3043e4f2096107f1/MLandPattern-0.1.5.tar.gz
+[2023-04-17 10:32:37] INFO root fetch - processPackages [xh-dict-utils]: executing diffoscope
+[2023-04-17 10:32:37] INFO root fetch - processPackages [xh-dict-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xh-dict-utils-0.0.5.tar.gz tmp/xh-dict-utils-0.0.6.tar.gz --markdown 20230417/x/xh-dict-utils/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-17 10:32:37] INFO root fetch - processPackages [dxsp]: executing diffoscope
+[2023-04-17 10:32:37] INFO root fetch - processPackages [dxsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxsp-1.2.2.tar.gz tmp/dxsp-1.2.3.tar.gz --markdown 20230417/d/dxsp/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-04-17 10:32:37] INFO root fetch - processPackages [goastpy]: Downloading https://files.pythonhosted.org/packages/c6/a7/88f852de435b5dfc288cf42471a8a936a29318afa86288243d17de9795ee/goastpy-0.1.5.tar.gz
+[2023-04-17 10:32:37] INFO root fetch - processPackages [MLandPattern]: executing diffoscope
+[2023-04-17 10:32:37] INFO root fetch - processPackages [MLandPattern]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MLandPattern-0.1.4.tar.gz tmp/MLandPattern-0.1.5.tar.gz --markdown 20230417/M/MLandPattern/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-17 10:32:37] INFO root fetch - processPackages [CurrenTime]: Downloading https://files.pythonhosted.org/packages/26/d7/c3cdcf2c1746922801dd9bbd18be3b30495fec575c23be446b41759b925e/currentime-1.0.0.tar.gz
+[2023-04-17 10:32:37] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-04-17 10:32:37] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230417/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-04-17 10:32:37] INFO root fetch - processPackages [EMPOL-GUI]: Downloading https://files.pythonhosted.org/packages/64/53/0f0c28ded6ba5b398a0a85d534e03968476e8b12005f18af60575e22f9ce/EMPOL_GUI-2.2.4.tar.gz
+[2023-04-17 10:32:38] INFO root fetch - processPackages [goastpy]: executing diffoscope
+[2023-04-17 10:32:38] INFO root fetch - processPackages [goastpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goastpy-0.1.4.tar.gz tmp/goastpy-0.1.5.tar.gz --markdown 20230417/g/goastpy/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-17 10:32:38] INFO root fetch - processPackages [josiann]: executing diffoscope
+[2023-04-17 10:32:38] INFO root fetch - processPackages [josiann]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/josiann-1.1.3rc2.tar.gz tmp/josiann-1.1.3rc4.tar.gz --markdown 20230417/j/josiann/1.1.3rc2-1.1.3rc4/diff.md --exclude *.pyd
+[2023-04-17 10:32:38] INFO root fetch - processPackages [EMPOL-GUI]: executing diffoscope
+[2023-04-17 10:32:38] INFO root fetch - processPackages [EMPOL-GUI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EMPOL_GUI-2.2.3.tar.gz tmp/EMPOL_GUI-2.2.4.tar.gz --markdown 20230417/E/EMPOL-GUI/2.2.3-2.2.4/diff.md --exclude *.pyd
+[2023-04-17 10:32:38] INFO root fetch - processPackages [RobertCommonDriver]: Downloading https://files.pythonhosted.org/packages/59/7b/cc4ed6542b5b433e0d40793b0e396634c7d74ba42eda9869c37e69dc4271/RobertCommonDriver-0.1.37.tar.gz
+[2023-04-17 10:32:38] INFO root fetch - processPackages [friendly-id]: Downloading https://files.pythonhosted.org/packages/a5/ab/81da7b34a89b1f0ed8e896d011f777e355b737bf38a31a113199b58f8c43/friendly-id-0.3.0.tar.gz
+[2023-04-17 10:32:38] INFO root fetch - processPackages [CurrenTime]: executing diffoscope
+[2023-04-17 10:32:38] INFO root fetch - processPackages [CurrenTime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/currentime-0.1.1.tar.gz tmp/currentime-1.0.0.tar.gz --markdown 20230417/C/CurrenTime/0.1.1-1.0.0/diff.md --exclude *.pyd
+[2023-04-17 10:32:38] INFO root fetch - processPackages [friendly-id]: executing diffoscope
+[2023-04-17 10:32:38] INFO root fetch - processPackages [friendly-id]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/friendly-id-0.2.2.tar.gz tmp/friendly-id-0.3.0.tar.gz --markdown 20230417/f/friendly-id/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-04-17 10:32:38] INFO root fetch - processPackages [RobertCommonDriver]: executing diffoscope
+[2023-04-17 10:32:38] INFO root fetch - processPackages [RobertCommonDriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RobertCommonDriver-0.1.35.tar.gz tmp/RobertCommonDriver-0.1.37.tar.gz --markdown 20230417/R/RobertCommonDriver/0.1.35-0.1.37/diff.md --exclude *.pyd
+[2023-04-17 10:32:39] INFO root fetch - processPackages [MLandPattern]: Start processing: EMPOL-GUI
+[2023-04-17 10:32:39] INFO root fetch - main [MainThread]: End processing [MLandPattern]: success
+[2023-04-17 10:32:39] INFO root fetch - processPackages [EMPOL-GUI]: New version: [2.2.4] Old Version: [2.2.3]
+[2023-04-17 10:32:39] INFO root fetch - main [MainThread]: End processing [CurrenTime]: success
+[2023-04-17 10:32:39] INFO root fetch - main [MainThread]: End processing [dxsp]: success
+[2023-04-17 10:32:39] INFO root fetch - processPackages [EMPOL-GUI]: executing diffoscope
+[2023-04-17 10:32:39] INFO root fetch - processPackages [EMPOL-GUI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EMPOL_GUI-2.2.3.tar.gz tmp/EMPOL_GUI-2.2.4.tar.gz --markdown 20230417/E/EMPOL-GUI/2.2.3-2.2.4/diff.md --exclude *.pyd
+[2023-04-17 10:32:39] INFO root fetch - main [MainThread]: End processing [goastpy]: success
+[2023-04-17 10:32:39] INFO root fetch - main [MainThread]: End processing [xh-dict-utils]: success
+[2023-04-17 10:32:39] INFO root fetch - main [MainThread]: End processing [EMPOL-GUI]: success
+[2023-04-17 10:32:40] INFO root fetch - main [MainThread]: End processing [friendly-id]: success
+[2023-04-17 10:32:40] INFO root fetch - main [MainThread]: End processing [josiann]: success
+[2023-04-17 10:32:40] INFO root fetch - main [MainThread]: End processing [EMPOL-GUI]: success
+[2023-04-17 10:32:43] INFO root fetch - main [MainThread]: End processing [RobertCommonDriver]: success
+[2023-04-17 10:33:34] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-04-17 10:33:34] INFO root fetch - main [MainThread]: Store serial: [17735508]
