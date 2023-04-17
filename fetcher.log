@@ -4943,3 +4943,50 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 06:02:52] INFO root fetch - main [MainThread]: End processing [discordwrap]: success
 [2023-04-17 06:02:52] INFO root fetch - main [MainThread]: End processing [EmaCalc]: success
 [2023-04-17 06:02:52] INFO root fetch - main [MainThread]: Store serial: [17733553]
+[2023-04-17 06:07:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17733553]
+[2023-04-17 06:08:00] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-17 06:08:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nzshm-common
+[2023-04-17 06:08:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-image-complete
+[2023-04-17 06:08:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-fieldservice
+[2023-04-17 06:08:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: accurating
+[2023-04-17 06:08:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: to-cloud-run
+[2023-04-17 06:08:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odbc2orm
+[2023-04-17 06:08:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cloudsnorkel.cdk-github-runners
+[2023-04-17 06:08:00] INFO root fetch - processPackages [python-image-complete]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-17 06:08:00] INFO root fetch - processPackages [nzshm-common]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-04-17 06:08:00] WARNING root fetch - processPackages [odbc2orm]: Skipping, unable to determine old version
+[2023-04-17 06:08:00] INFO root fetch - processPackages [accurating]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-04-17 06:08:00] INFO root fetch - main [MainThread]: End processing [odbc2orm] error
+[2023-04-17 06:08:00] INFO root fetch - processPackages [odoo14-addon-fieldservice]: New version: [14.0.1.9.0] Old Version: [14.0.1.8.1.dev2]
+[2023-04-17 06:08:00] INFO root fetch - processPackages [to-cloud-run]: New version: [1.6] Old Version: [1.5]
+[2023-04-17 06:08:00] INFO root fetch - processPackages [cloudsnorkel.cdk-github-runners]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-04-17 06:08:00] INFO root fetch - processPackages [python-image-complete]: Downloading https://files.pythonhosted.org/packages/3b/d5/0031279b3a12480367d9ba57b8e6fd040e42e4e7e5e64f0afb3e0ae9174c/python-image-complete-0.0.4.tar.gz
+[2023-04-17 06:08:01] INFO root fetch - processPackages [odoo14-addon-fieldservice]: Downloading https://files.pythonhosted.org/packages/e9/0a/4f403fad2559da21b84ccd3f022dd4377bd624888854366878da08ecd357/odoo14_addon_fieldservice-14.0.1.8.1.dev2-py3-none-any.whl
+[2023-04-17 06:08:01] INFO root fetch - processPackages [accurating]: Downloading https://files.pythonhosted.org/packages/9c/a9/7068b8807a09d5da6d27e6797f6e1d8bfb7b3ae1dc45a4fcfffb0920540d/accurating-0.4.0.tar.gz
+[2023-04-17 06:08:01] INFO root fetch - processPackages [nzshm-common]: Downloading https://files.pythonhosted.org/packages/5a/a8/e0365c7916c543b637be1647c5064eb55403c34a98d6a7005e7840a37f70/nzshm-common-0.4.0.tar.gz
+[2023-04-17 06:08:01] INFO root fetch - processPackages [to-cloud-run]: Downloading https://files.pythonhosted.org/packages/ed/03/624b7a7ca9614969a61cf6c17d2f582c50b4707fe395e97a7fe3ab867f83/to-cloud-run-1.6.tar.gz
+[2023-04-17 06:08:01] INFO root fetch - processPackages [cloudsnorkel.cdk-github-runners]: Downloading https://files.pythonhosted.org/packages/62/5a/eaed007e79edb35f790ea31fd984d823f1c52bed6d6ff5f9fff7d0a573e5/cloudsnorkel.cdk-github-runners-0.9.4.tar.gz
+[2023-04-17 06:08:01] INFO root fetch - processPackages [python-image-complete]: Downloading https://files.pythonhosted.org/packages/77/49/001b5e7aee32e04fe11caf414e717f7a0000e9285c732c95cb71b7102a76/python-image-complete-0.0.5.tar.gz
+[2023-04-17 06:08:01] INFO root fetch - processPackages [to-cloud-run]: executing diffoscope
+[2023-04-17 06:08:01] INFO root fetch - processPackages [to-cloud-run]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/to-cloud-run-1.5.tar.gz tmp/to-cloud-run-1.6.tar.gz --markdown 20230417/t/to-cloud-run/1.5-1.6/diff.md --exclude *.pyd
+[2023-04-17 06:08:01] INFO root fetch - processPackages [accurating]: Downloading https://files.pythonhosted.org/packages/a6/3b/21c4bd398e2ed06ea3b4ec3f705840b0b853d3f8e17bf802d13170cd23b5/accurating-0.4.1.tar.gz
+[2023-04-17 06:08:01] INFO root fetch - processPackages [nzshm-common]: Downloading https://files.pythonhosted.org/packages/ec/95/fbed95b17e4109a75c75085572260eb07724bafe906c0647a2362fdccf73/nzshm_common-0.5.0.tar.gz
+[2023-04-17 06:08:01] INFO root fetch - processPackages [python-image-complete]: executing diffoscope
+[2023-04-17 06:08:01] INFO root fetch - processPackages [python-image-complete]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-image-complete-0.0.4.tar.gz tmp/python-image-complete-0.0.5.tar.gz --markdown 20230417/p/python-image-complete/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-17 06:08:01] INFO root fetch - processPackages [accurating]: executing diffoscope
+[2023-04-17 06:08:01] INFO root fetch - processPackages [accurating]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accurating-0.4.0.tar.gz tmp/accurating-0.4.1.tar.gz --markdown 20230417/a/accurating/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-04-17 06:08:01] INFO root fetch - processPackages [cloudsnorkel.cdk-github-runners]: Downloading https://files.pythonhosted.org/packages/69/1d/4a3541d85f8fece4de35e5d852a6b143474ee4a6b7847ce7909190f220e3/cloudsnorkel.cdk-github-runners-0.9.5.tar.gz
+[2023-04-17 06:08:01] INFO root fetch - processPackages [nzshm-common]: executing diffoscope
+[2023-04-17 06:08:01] INFO root fetch - processPackages [nzshm-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nzshm-common-0.4.0.tar.gz tmp/nzshm_common-0.5.0.tar.gz --markdown 20230417/n/nzshm-common/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-04-17 06:08:01] INFO root fetch - processPackages [odoo14-addon-fieldservice]: Downloading https://files.pythonhosted.org/packages/3d/74/ca80c19c22d228dc8ed506d3f593667c03000d63f4bac7c7c02685ea3c2a/odoo14_addon_fieldservice-14.0.1.9.0-py3-none-any.whl
+[2023-04-17 06:08:01] INFO root fetch - processPackages [cloudsnorkel.cdk-github-runners]: executing diffoscope
+[2023-04-17 06:08:01] INFO root fetch - processPackages [cloudsnorkel.cdk-github-runners]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudsnorkel.cdk-github-runners-0.9.4.tar.gz tmp/cloudsnorkel.cdk-github-runners-0.9.5.tar.gz --markdown 20230417/c/cloudsnorkel.cdk-github-runners/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-04-17 06:08:01] INFO root fetch - processPackages [odoo14-addon-fieldservice]: executing diffoscope
+[2023-04-17 06:08:01] INFO root fetch - processPackages [odoo14-addon-fieldservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_fieldservice-14.0.1.8.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_fieldservice-14.0.1.9.0-py3-none-any.whl.zip --markdown 20230417/o/odoo14-addon-fieldservice/14.0.1.8.1.dev2-14.0.1.9.0/diff.md --exclude *.pyd
+[2023-04-17 06:08:02] INFO root fetch - main [MainThread]: End processing [to-cloud-run]: success
+[2023-04-17 06:08:02] INFO root fetch - main [MainThread]: End processing [python-image-complete]: success
+[2023-04-17 06:08:02] INFO root fetch - main [MainThread]: End processing [accurating]: success
+[2023-04-17 06:08:02] INFO root fetch - main [MainThread]: End processing [nzshm-common]: success
+[2023-04-17 06:08:03] INFO root fetch - main [MainThread]: End processing [odoo14-addon-fieldservice]: success
+[2023-04-17 06:08:04] INFO root fetch - main [MainThread]: End processing [cloudsnorkel.cdk-github-runners]: success
+[2023-04-17 06:08:04] INFO root fetch - main [MainThread]: Store serial: [17733575]
