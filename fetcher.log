@@ -21219,3 +21219,70 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-17 21:25:02] INFO root fetch - main [MainThread]: End processing [botocore]: success
 [2023-04-17 21:25:22] INFO root fetch - main [MainThread]: End processing [sparkautomapper.fhir]: success
 [2023-04-17 21:25:22] INFO root fetch - main [MainThread]: Store serial: [17743403]
+[2023-04-17 21:30:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17743403]
+[2023-04-17 21:30:32] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-17 21:30:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: invokify
+[2023-04-17 21:30:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aws-sam-cli
+[2023-04-17 21:30:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: easy-mvp
+[2023-04-17 21:30:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: slideflow
+[2023-04-17 21:30:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oking
+[2023-04-17 21:30:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aesara-nightly
+[2023-04-17 21:30:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: neet-cli
+[2023-04-17 21:30:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: es7s
+[2023-04-17 21:30:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Simba-UW-tf-dev
+[2023-04-17 21:30:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pybeef
+[2023-04-17 21:30:32] INFO root fetch - processPackages [slideflow]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-04-17 21:30:32] INFO root fetch - processPackages [pybeef]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-17 21:30:32] INFO root fetch - processPackages [Simba-UW-tf-dev]: New version: [1.56.4] Old Version: [1.56.3]
+[2023-04-17 21:30:32] INFO root fetch - processPackages [invokify]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-17 21:30:32] INFO root fetch - processPackages [easy-mvp]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-17 21:30:32] INFO root fetch - processPackages [aesara-nightly]: New version: [2.8.9.post118] Old Version: [2.8.9.post117]
+[2023-04-17 21:30:32] WARNING root fetch - processPackages [neet-cli]: Skipping, unable to determine old version
+[2023-04-17 21:30:32] INFO root fetch - processPackages [neet-cli]: Start processing: ansible-core
+[2023-04-17 21:30:32] INFO root fetch - main [MainThread]: End processing [neet-cli] error
+[2023-04-17 21:30:32] INFO root fetch - processPackages [aws-sam-cli]: New version: [1.9.0] Old Version: [1.80.0]
+[2023-04-17 21:30:32] INFO root fetch - processPackages [slideflow]: executing diffoscope
+[2023-04-17 21:30:32] INFO root fetch - processPackages [es7s]: New version: [3.6.0.dev0] Old Version: [3.5.0.dev0]
+[2023-04-17 21:30:32] INFO root fetch - processPackages [slideflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slideflow-2.0.1-py3-none-any.whl.zip tmp/slideflow-2.0.2-py3-none-any.whl.zip --markdown 20230417/s/slideflow/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-04-17 21:30:32] INFO root fetch - processPackages [ansible-core]: New version: [2.15.0b3] Old Version: [2.15.0b2]
+[2023-04-17 21:30:32] INFO root fetch - processPackages [oking]: New version: [4.1.94] Old Version: [4.1.93]
+[2023-04-17 21:30:32] INFO root fetch - processPackages [pybeef]: Downloading https://files.pythonhosted.org/packages/f1/7e/5c9c987640ddc98299bee2b774f719a7529acaf7fb4c466fc88557de609a/pybeef-0.0.1-py3-none-any.whl
+[2023-04-17 21:30:32] INFO root fetch - processPackages [aws-sam-cli]: Downloading https://files.pythonhosted.org/packages/70/77/8f466d5d084a127f8ba1f9f2944f3032e372e7b5ab664e0af5ec33446826/aws-sam-cli-1.80.0.tar.gz
+[2023-04-17 21:30:32] INFO root fetch - processPackages [easy-mvp]: Downloading https://files.pythonhosted.org/packages/55/b5/510aad6885123567cc541f651ccd0404470e968486779d04031c55524bec/easy_mvp-0.1.1.tar.gz
+[2023-04-17 21:30:32] INFO root fetch - processPackages [aesara-nightly]: Downloading https://files.pythonhosted.org/packages/bc/5b/a75b866373e933c4a8dd109b42189bf0e9c72ef23c5dd5931d3f4d554c10/aesara-nightly-2.8.9.post117.tar.gz
+[2023-04-17 21:30:32] INFO root fetch - processPackages [es7s]: Downloading https://files.pythonhosted.org/packages/d4/9b/638089077ce7b31286a1c6ea6d58552b2cb0e3f363a26c290e6de2ea308b/es7s-3.5.0.dev0.tar.gz
+[2023-04-17 21:30:32] INFO root fetch - processPackages [ansible-core]: Downloading https://files.pythonhosted.org/packages/bb/af/f8e24b238894f9e3dc9659574bc406068688e33a276af33de24ad8d614a8/ansible-core-2.15.0b2.tar.gz
+[2023-04-17 21:30:32] INFO root fetch - processPackages [oking]: Downloading https://files.pythonhosted.org/packages/a9/42/e04601ee56dabf5c2de0e55802a91d8667a5a8de43a31e2c886901903fab/oking-4.1.93.tar.gz
+[2023-04-17 21:30:32] INFO root fetch - processPackages [Simba-UW-tf-dev]: Downloading https://files.pythonhosted.org/packages/55/04/ef9fb419252e5e2c97c5ac55721a3ad2ae588f69e69fe720ae9c21af0725/Simba-UW-tf-dev-1.56.4.tar.gz
+[2023-04-17 21:30:32] INFO root fetch - processPackages [invokify]: Downloading https://files.pythonhosted.org/packages/fc/c5/034241243b3a9f1bcd551b263f1878787c2e32d426473c749785d14c1f10/invokify-0.1.2.tar.gz
+[2023-04-17 21:30:32] WARNING root fetch - processPackages [oking]: Skipping package: exceeds size limit 82459134>=10485760
+[2023-04-17 21:30:32] INFO root fetch - main [MainThread]: End processing [oking] error
+[2023-04-17 21:30:32] INFO root fetch - processPackages [pybeef]: Downloading https://files.pythonhosted.org/packages/14/7b/ef36fc5ff79d287ccd6c2e40fa8bbb5ca50549239fcae3f41a77f2913730/pybeef-0.0.2-py3-none-any.whl
+[2023-04-17 21:30:32] INFO root fetch - processPackages [Simba-UW-tf-dev]: executing diffoscope
+[2023-04-17 21:30:32] INFO root fetch - processPackages [Simba-UW-tf-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Simba-UW-tf-dev-1.56.3.tar.gz tmp/Simba-UW-tf-dev-1.56.4.tar.gz --markdown 20230417/S/Simba-UW-tf-dev/1.56.3-1.56.4/diff.md --exclude *.pyd
+[2023-04-17 21:30:32] INFO root fetch - processPackages [invokify]: executing diffoscope
+[2023-04-17 21:30:32] INFO root fetch - processPackages [invokify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invokify-0.1.1.tar.gz tmp/invokify-0.1.2.tar.gz --markdown 20230417/i/invokify/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-17 21:30:32] WARNING root fetch - processPackages [ansible-core]: Skipping package: exceeds size limit 10961075>=10485760
+[2023-04-17 21:30:32] INFO root fetch - main [MainThread]: End processing [ansible-core] error
+[2023-04-17 21:30:32] INFO root fetch - processPackages [pybeef]: executing diffoscope
+[2023-04-17 21:30:32] INFO root fetch - processPackages [pybeef]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybeef-0.0.1-py3-none-any.whl.zip tmp/pybeef-0.0.2-py3-none-any.whl.zip --markdown 20230417/p/pybeef/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-17 21:30:32] INFO root fetch - processPackages [easy-mvp]: Downloading https://files.pythonhosted.org/packages/e9/96/226545550548337c356f2845b48f48e9bb52bd4ca6e20510f4e3d0f99a63/easy_mvp-0.1.2.tar.gz
+[2023-04-17 21:30:32] INFO root fetch - processPackages [aws-sam-cli]: Downloading https://files.pythonhosted.org/packages/8e/09/60d46eac8dc6ddae92dd2cb060368f950675fd7ceead7796fe8652121e0a/aws-sam-cli-1.9.0.tar.gz
+[2023-04-17 21:30:32] INFO root fetch - processPackages [es7s]: Downloading https://files.pythonhosted.org/packages/19/8b/f0ecc6844615f1d6585d48b9c2cc1f4e21bd25b8cf7a8d0aa0f8912bc159/es7s-3.6.0.dev0.tar.gz
+[2023-04-17 21:30:33] INFO root fetch - processPackages [easy-mvp]: executing diffoscope
+[2023-04-17 21:30:33] INFO root fetch - processPackages [easy-mvp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_mvp-0.1.1.tar.gz tmp/easy_mvp-0.1.2.tar.gz --markdown 20230417/e/easy-mvp/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-17 21:30:33] INFO root fetch - processPackages [es7s]: executing diffoscope
+[2023-04-17 21:30:33] INFO root fetch - processPackages [es7s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/es7s-3.5.0.dev0.tar.gz tmp/es7s-3.6.0.dev0.tar.gz --markdown 20230417/e/es7s/3.5.0.dev0-3.6.0.dev0/diff.md --exclude *.pyd
+[2023-04-17 21:30:33] WARNING root fetch - processPackages [aws-sam-cli]: Skipping package: exceeds size limit 11785570>=10485760
+[2023-04-17 21:30:33] INFO root fetch - main [MainThread]: End processing [aws-sam-cli] error
+[2023-04-17 21:30:33] INFO root fetch - processPackages [aesara-nightly]: Downloading https://files.pythonhosted.org/packages/29/7e/5d6d0fa9a83261b9bb5142e2d7196ed6ba5845c2759bc431599a604a525b/aesara-nightly-2.8.9.post118.tar.gz
+[2023-04-17 21:30:33] INFO root fetch - main [MainThread]: End processing [invokify]: success
+[2023-04-17 21:30:33] INFO root fetch - main [MainThread]: End processing [pybeef]: success
+[2023-04-17 21:30:34] INFO root fetch - main [MainThread]: End processing [easy-mvp]: success
+[2023-04-17 21:30:34] INFO root fetch - main [MainThread]: End processing [es7s]: success
+[2023-04-17 21:30:35] INFO root fetch - processPackages [aesara-nightly]: executing diffoscope
+[2023-04-17 21:30:35] INFO root fetch - processPackages [aesara-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aesara-nightly-2.8.9.post117.tar.gz tmp/aesara-nightly-2.8.9.post118.tar.gz --markdown 20230417/a/aesara-nightly/2.8.9.post117-2.8.9.post118/diff.md --exclude *.pyd
+[2023-04-17 21:30:36] INFO root fetch - main [MainThread]: End processing [slideflow]: success
+[2023-04-17 21:30:38] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
+[2023-04-17 21:30:40] INFO root fetch - main [MainThread]: End processing [aesara-nightly]: success
+[2023-04-17 21:30:40] INFO root fetch - main [MainThread]: Store serial: [17743436]
