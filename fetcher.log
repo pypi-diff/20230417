@@ -10333,3 +10333,136 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 12:36:18] INFO root fetch - main [MainThread]: End processing [pycti]: success
 [2023-04-17 12:36:18] INFO root fetch - main [MainThread]: End processing [home-assistant-chip-clusters]: success
 [2023-04-17 12:36:18] INFO root fetch - main [MainThread]: Store serial: [17736833]
+[2023-04-17 12:41:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17736833]
+[2023-04-17 12:41:28] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-17 12:41:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: huscy.subject-notes
+[2023-04-17 12:41:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: paddypy
+[2023-04-17 12:41:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: valmi-connector-lib
+[2023-04-17 12:41:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zython
+[2023-04-17 12:41:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: icap-commons
+[2023-04-17 12:41:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cm-two
+[2023-04-17 12:41:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wonder-sdk
+[2023-04-17 12:41:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: python-liquid
+[2023-04-17 12:41:28] INFO root fetch - processPackages [zython]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-04-17 12:41:28] INFO root fetch - processPackages [huscy.subject-notes]: New version: [0.1.0a2] Old Version: [0.1.0a1]
+[2023-04-17 12:41:28] INFO root fetch - processPackages [cm-two]: New version: [2.2.67] Old Version: [2.2.66]
+[2023-04-17 12:41:28] WARNING root fetch - processPackages [icap-commons]: Skipping, unable to determine old version
+[2023-04-17 12:41:28] INFO root fetch - main [MainThread]: End processing [icap-commons] error
+[2023-04-17 12:41:28] WARNING root fetch - processPackages [valmi-connector-lib]: Skipping, unable to determine old version
+[2023-04-17 12:41:28] INFO root fetch - main [MainThread]: End processing [valmi-connector-lib] error
+[2023-04-17 12:41:28] INFO root fetch - processPackages [paddypy]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-17 12:41:28] INFO root fetch - processPackages [wonder-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-17 12:41:28] INFO root fetch - processPackages [huscy.subject-notes]: executing diffoscope
+[2023-04-17 12:41:28] INFO root fetch - processPackages [huscy.subject-notes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huscy.subject_notes-0.1.0a1.tar.gz tmp/huscy.subject_notes-0.1.0a2.tar.gz --markdown 20230417/h/huscy.subject-notes/0.1.0a1-0.1.0a2/diff.md --exclude *.pyd
+[2023-04-17 12:41:28] INFO root fetch - processPackages [python-liquid]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-04-17 12:41:28] INFO root fetch - processPackages [wonder-sdk]: executing diffoscope
+[2023-04-17 12:41:28] INFO root fetch - processPackages [wonder-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wonder-sdk-0.1.8.tar.gz tmp/wonder-sdk-0.1.9.tar.gz --markdown 20230417/w/wonder-sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-17 12:41:28] INFO root fetch - processPackages [paddypy]: Downloading https://files.pythonhosted.org/packages/ba/cb/e5b1715fcaff9635e6357c97de3a287202a65dd3a5010d60d1835cad079f/paddypy-0.0.6.tar.gz
+[2023-04-17 12:41:28] INFO root fetch - processPackages [zython]: Downloading https://files.pythonhosted.org/packages/29/ee/9fe7b57cb93b59cd1c0ce8f5176d7ea2f4c030b01848f55fc72873129a01/zython-0.3.1-py3-none-any.whl
+[2023-04-17 12:41:28] INFO root fetch - processPackages [cm-two]: Downloading https://files.pythonhosted.org/packages/79/94/7be3af111720d3d7dc5292ef10ec5bbef742ea9088320564119f606bb844/cm_two-2.2.66-py3-none-any.whl
+[2023-04-17 12:41:28] INFO root fetch - processPackages [python-liquid]: Downloading https://files.pythonhosted.org/packages/b0/a2/426ee3ac68cf742b0cb526bc395383b3abecf448ad061683cab75251cb33/python-liquid-1.8.1.tar.gz
+[2023-04-17 12:41:29] INFO root fetch - processPackages [zython]: Downloading https://files.pythonhosted.org/packages/ba/a9/f7dd51e17fab9fd8a029fc3369ef308ae9eee6636ed8a222435a338b7b47/zython-0.4.0-py3-none-any.whl
+[2023-04-17 12:41:29] INFO root fetch - processPackages [cm-two]: Downloading https://files.pythonhosted.org/packages/21/ca/9aef503cd6c42c4ad835740ba579f937af6eb7b48415fe6ec59fd25d7ace/cm_two-2.2.67-py3-none-any.whl
+[2023-04-17 12:41:29] INFO root fetch - processPackages [paddypy]: Downloading https://files.pythonhosted.org/packages/d6/f4/a901704290f0a64872639458e06b8eb62ee0f8663ee8f1207ab05170f491/paddypy-0.0.7.tar.gz
+[2023-04-17 12:41:29] INFO root fetch - processPackages [zython]: executing diffoscope
+[2023-04-17 12:41:29] INFO root fetch - processPackages [zython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zython-0.3.1-py3-none-any.whl.zip tmp/zython-0.4.0-py3-none-any.whl.zip --markdown 20230417/z/zython/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-04-17 12:41:29] INFO root fetch - processPackages [paddypy]: executing diffoscope
+[2023-04-17 12:41:29] INFO root fetch - processPackages [paddypy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paddypy-0.0.6.tar.gz tmp/paddypy-0.0.7.tar.gz --markdown 20230417/p/paddypy/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-17 12:41:29] INFO root fetch - processPackages [cm-two]: executing diffoscope
+[2023-04-17 12:41:29] INFO root fetch - processPackages [cm-two]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cm_two-2.2.66-py3-none-any.whl.zip tmp/cm_two-2.2.67-py3-none-any.whl.zip --markdown 20230417/c/cm-two/2.2.66-2.2.67/diff.md --exclude *.pyd
+[2023-04-17 12:41:29] INFO root fetch - processPackages [python-liquid]: Downloading https://files.pythonhosted.org/packages/65/e3/579796faa030b712894b0f694f91bdf036c4402c69554d7c315058d15acf/python_liquid-1.9.0.tar.gz
+[2023-04-17 12:41:29] INFO root fetch - processPackages [python-liquid]: executing diffoscope
+[2023-04-17 12:41:29] INFO root fetch - processPackages [python-liquid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-liquid-1.8.1.tar.gz tmp/python_liquid-1.9.0.tar.gz --markdown 20230417/p/python-liquid/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-04-17 12:41:29] INFO root fetch - main [MainThread]: End processing [huscy.subject-notes]: success
+[2023-04-17 12:41:29] INFO root fetch - main [MainThread]: End processing [wonder-sdk]: success
+[2023-04-17 12:41:30] ERROR root fetch - processPackages [cm-two]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid continuation byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid continuation byte
+
+[2023-04-17 12:41:30] INFO root fetch - main [MainThread]: End processing [cm-two] error
+[2023-04-17 12:41:30] INFO root fetch - main [MainThread]: End processing [paddypy]: success
+[2023-04-17 12:41:30] INFO root fetch - main [MainThread]: End processing [zython]: success
+[2023-04-17 12:42:06] INFO root fetch - main [MainThread]: End processing [python-liquid]: success
+[2023-04-17 12:42:06] INFO root fetch - main [MainThread]: Store serial: [17736873]
