@@ -3310,3 +3310,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 03:24:19] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
 [2023-04-17 03:24:19] INFO root fetch - main [MainThread]: End processing [CrossPy]: success
 [2023-04-17 03:24:19] INFO root fetch - main [MainThread]: Store serial: [17732552]
+[2023-04-17 03:29:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17732552]
+[2023-04-17 03:29:28] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-17 03:29:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: panel
+[2023-04-17 03:29:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: symdexer
+[2023-04-17 03:29:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pepperize.cdk-organizations
+[2023-04-17 03:29:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: p-ttauto-crawler
+[2023-04-17 03:29:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: napari-vodex
+[2023-04-17 03:29:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: explainaboard-api-client
+[2023-04-17 03:29:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ipfs-kvs
+[2023-04-17 03:29:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: satgpt
+[2023-04-17 03:29:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nbdev-stdlib
+[2023-04-17 03:29:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk-lambda-layer-zip
+[2023-04-17 03:29:28] INFO root fetch - processPackages [p-ttauto-crawler]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-17 03:29:28] INFO root fetch - processPackages [symdexer]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-04-17 03:29:28] INFO root fetch - processPackages [napari-vodex]: New version: [1.0.12] Old Version: [1.0.11]
+[2023-04-17 03:29:28] WARNING root fetch - processPackages [ipfs-kvs]: Skipping, unable to determine old version
+[2023-04-17 03:29:28] INFO root fetch - processPackages [panel]: New version: [1.0.0b9] Old Version: [1.0.0b8]
+[2023-04-17 03:29:28] INFO root fetch - processPackages [explainaboard-api-client]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-04-17 03:29:28] INFO root fetch - main [MainThread]: End processing [ipfs-kvs] error
+[2023-04-17 03:29:28] INFO root fetch - processPackages [satgpt]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-17 03:29:28] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-17 03:29:28] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-04-17 03:29:28] INFO root fetch - processPackages [cdk-lambda-layer-zip]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-04-17 03:29:28] INFO root fetch - processPackages [panel]: Downloading https://files.pythonhosted.org/packages/82/cd/5c3589614bd7d434187d91ec69d6d3a7efd54282dd676f0da56ee1776ce2/panel-1.0.0b8.tar.gz
+[2023-04-17 03:29:28] WARNING root fetch - processPackages [panel]: Skipping package: exceeds size limit 25160245>=10485760
+[2023-04-17 03:29:28] INFO root fetch - main [MainThread]: End processing [panel] error
+[2023-04-17 03:29:28] INFO root fetch - processPackages [cdk-lambda-layer-zip]: executing diffoscope
+[2023-04-17 03:29:28] INFO root fetch - processPackages [cdk-lambda-layer-zip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-zip-2.0.98.tar.gz tmp/cdk-lambda-layer-zip-2.0.99.tar.gz --markdown 20230417/c/cdk-lambda-layer-zip/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-04-17 03:29:28] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-04-17 03:29:28] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230417/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-04-17 03:29:28] INFO root fetch - processPackages [napari-vodex]: Downloading https://files.pythonhosted.org/packages/1b/f4/2c0777c2494ddbeb6c384bf14d1461480cc3d4085e58d11170f03b86e1d9/napari-vodex-1.0.11.tar.gz
+[2023-04-17 03:29:28] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-04-17 03:29:28] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230417/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-17 03:29:28] INFO root fetch - processPackages [symdexer]: Downloading https://files.pythonhosted.org/packages/12/50/62f4096b6e1cd4872219fdd8800916543deaa8bf12688b7decca9b2bd83f/symdexer-0.2.5.tar.gz
+[2023-04-17 03:29:28] INFO root fetch - processPackages [satgpt]: Downloading https://files.pythonhosted.org/packages/d6/4d/cbcff3616d102112c603684aad97e238e09f4ece058584ca41933fc198f1/satgpt-0.0.4.tar.gz
+[2023-04-17 03:29:28] INFO root fetch - processPackages [symdexer]: executing diffoscope
+[2023-04-17 03:29:28] INFO root fetch - processPackages [symdexer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symdexer-0.2.4.tar.gz tmp/symdexer-0.2.5.tar.gz --markdown 20230417/s/symdexer/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-04-17 03:29:28] INFO root fetch - processPackages [satgpt]: executing diffoscope
+[2023-04-17 03:29:28] INFO root fetch - processPackages [satgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satgpt-0.0.3.tar.gz tmp/satgpt-0.0.4.tar.gz --markdown 20230417/s/satgpt/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-17 03:29:28] INFO root fetch - processPackages [p-ttauto-crawler]: Downloading https://files.pythonhosted.org/packages/1c/b3/5125d3eed28b8278a69cde126e7a58075c147f7c1b479d51902e2597673c/p-ttauto-crawler-0.0.7.tar.gz
+[2023-04-17 03:29:28] INFO root fetch - processPackages [explainaboard-api-client]: Downloading https://files.pythonhosted.org/packages/8b/62/4970f25a37f730fb7bd8583acb8d6ce0db60d5267fa534a2f9365a36fd2a/explainaboard-api-client-0.4.3.tar.gz
+[2023-04-17 03:29:28] INFO root fetch - processPackages [p-ttauto-crawler]: executing diffoscope
+[2023-04-17 03:29:28] INFO root fetch - processPackages [p-ttauto-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p-ttauto-crawler-0.0.6.tar.gz tmp/p-ttauto-crawler-0.0.7.tar.gz --markdown 20230417/p/p-ttauto-crawler/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-17 03:29:28] INFO root fetch - processPackages [explainaboard-api-client]: executing diffoscope
+[2023-04-17 03:29:28] INFO root fetch - processPackages [explainaboard-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/explainaboard-api-client-0.4.2.tar.gz tmp/explainaboard-api-client-0.4.3.tar.gz --markdown 20230417/e/explainaboard-api-client/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-04-17 03:29:28] INFO root fetch - processPackages [napari-vodex]: Downloading https://files.pythonhosted.org/packages/d5/8d/ccf19d91671b20296a353aacfa1dfb8a5467321a2c350c789031a2a08c2e/napari-vodex-1.0.12.tar.gz
+[2023-04-17 03:29:28] INFO root fetch - processPackages [napari-vodex]: executing diffoscope
+[2023-04-17 03:29:28] INFO root fetch - processPackages [napari-vodex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-vodex-1.0.11.tar.gz tmp/napari-vodex-1.0.12.tar.gz --markdown 20230417/n/napari-vodex/1.0.11-1.0.12/diff.md --exclude *.pyd
+[2023-04-17 03:29:29] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-04-17 03:29:29] INFO root fetch - main [MainThread]: End processing [p-ttauto-crawler]: success
+[2023-04-17 03:29:30] INFO root fetch - main [MainThread]: End processing [satgpt]: success
+[2023-04-17 03:29:30] INFO root fetch - main [MainThread]: End processing [symdexer]: success
+[2023-04-17 03:29:30] INFO root fetch - main [MainThread]: End processing [napari-vodex]: success
+[2023-04-17 03:29:30] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-zip]: success
+[2023-04-17 03:29:31] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-04-17 03:29:31] INFO root fetch - main [MainThread]: End processing [explainaboard-api-client]: success
+[2023-04-17 03:29:31] INFO root fetch - main [MainThread]: Store serial: [17732585]
