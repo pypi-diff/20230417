@@ -18247,3 +18247,95 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 18:44:25] INFO root fetch - main [MainThread]: End processing [django-rq-scheduler]: success
 [2023-04-17 18:44:28] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-04-17 18:44:28] INFO root fetch - main [MainThread]: Store serial: [17741518]
+[2023-04-17 18:49:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17741518]
+[2023-04-17 18:49:37] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-04-17 18:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py3status
+[2023-04-17 18:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ramodels
+[2023-04-17 18:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eth-decoder
+[2023-04-17 18:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: smthforthetest1337
+[2023-04-17 18:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: y-class-files
+[2023-04-17 18:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cl-file
+[2023-04-17 18:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: class-file
+[2023-04-17 18:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: oar-docker
+[2023-04-17 18:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: seawolf
+[2023-04-17 18:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: chemotools
+[2023-04-17 18:49:37] INFO root fetch - processPackages [oar-docker]: New version: [1.6.4.dev0] Old Version: [1.6.3.dev0]
+[2023-04-17 18:49:38] INFO root fetch - processPackages [chemotools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 18:49:38] INFO root fetch - processPackages [oar-docker]: executing diffoscope
+[2023-04-17 18:49:38] INFO root fetch - processPackages [oar-docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oar-docker-1.6.3.dev0.tar.gz tmp/oar-docker-1.6.4.dev0.tar.gz --markdown 20230417/o/oar-docker/1.6.3.dev0-1.6.4.dev0/diff.md --exclude *.pyd
+[2023-04-17 18:49:38] WARNING root fetch - processPackages [cl-file]: Skipping, unable to determine old version
+[2023-04-17 18:49:38] WARNING root fetch - processPackages [eth-decoder]: Skipping, unable to determine old version
+[2023-04-17 18:49:38] INFO root fetch - processPackages [cl-file]: Start processing: gptcache
+[2023-04-17 18:49:38] INFO root fetch - main [MainThread]: End processing [cl-file] error
+[2023-04-17 18:49:38] INFO root fetch - processPackages [eth-decoder]: Start processing: datarobot-early-access
+[2023-04-17 18:49:38] WARNING root fetch - processPackages [class-file]: Skipping, unable to determine old version
+[2023-04-17 18:49:38] WARNING root fetch - processPackages [y-class-files]: Skipping, unable to determine old version
+[2023-04-17 18:49:38] WARNING root fetch - processPackages [smthforthetest1337]: Skipping, unable to determine old version
+[2023-04-17 18:49:38] INFO root fetch - processPackages [chemotools]: executing diffoscope
+[2023-04-17 18:49:38] INFO root fetch - main [MainThread]: End processing [eth-decoder] error
+[2023-04-17 18:49:38] INFO root fetch - processPackages [class-file]: Start processing: wikimedia-spicerack
+[2023-04-17 18:49:38] INFO root fetch - processPackages [seawolf]: New version: [0.1.1] Old Version: [0.1]
+[2023-04-17 18:49:38] INFO root fetch - processPackages [y-class-files]: Start processing: mod-seq2seq-conn
+[2023-04-17 18:49:38] INFO root fetch - processPackages [smthforthetest1337]: Start processing: sampo
+[2023-04-17 18:49:38] INFO root fetch - processPackages [chemotools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chemotools-0.0.8.tar.gz tmp/chemotools-0.0.9.tar.gz --markdown 20230417/c/chemotools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 18:49:38] INFO root fetch - main [MainThread]: End processing [class-file] error
+[2023-04-17 18:49:38] INFO root fetch - processPackages [py3status]: New version: [3.9] Old Version: [3.8]
+[2023-04-17 18:49:38] INFO root fetch - main [MainThread]: End processing [y-class-files] error
+[2023-04-17 18:49:38] INFO root fetch - main [MainThread]: End processing [smthforthetest1337] error
+[2023-04-17 18:49:38] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-04-17 18:49:38] INFO root fetch - processPackages [gptcache]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-17 18:49:38] INFO root fetch - processPackages [sampo]: New version: [0.1.1.99] Old Version: [0.1.1.98]
+[2023-04-17 18:49:38] INFO root fetch - processPackages [gptcache]: executing diffoscope
+[2023-04-17 18:49:38] INFO root fetch - processPackages [gptcache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptcache-0.1.8.tar.gz tmp/gptcache-0.1.9.tar.gz --markdown 20230417/g/gptcache/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-17 18:49:38] INFO root fetch - processPackages [datarobot-early-access]: New version: [3.2.0.2023.4.3] Old Version: [3.2.0.2023.4.17]
+[2023-04-17 18:49:38] INFO root fetch - processPackages [sampo]: executing diffoscope
+[2023-04-17 18:49:38] INFO root fetch - processPackages [mod-seq2seq-conn]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-17 18:49:38] INFO root fetch - processPackages [sampo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sampo-0.1.1.98.tar.gz tmp/sampo-0.1.1.99.tar.gz --markdown 20230417/s/sampo/0.1.1.98-0.1.1.99/diff.md --exclude *.pyd
+[2023-04-17 18:49:38] INFO root fetch - processPackages [wikimedia-spicerack]: New version: [6.4.2] Old Version: [6.4.1]
+[2023-04-17 18:49:38] INFO root fetch - processPackages [seawolf]: Downloading https://files.pythonhosted.org/packages/14/5c/aa2207701bd874175a2e8e442eb472cbb40420618276c5b5af3fe8ecf55f/seawolf-0.1.tar.gz
+[2023-04-17 18:49:38] INFO root fetch - processPackages [py3status]: executing diffoscope
+[2023-04-17 18:49:38] INFO root fetch - processPackages [py3status]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3status-3.8.tar.gz tmp/py3status-3.9-py3-none-any.whl.zip --markdown 20230417/p/py3status/3.8-3.9/diff.md --exclude *.pyd
+[2023-04-17 18:49:38] INFO root fetch - processPackages [datarobot-early-access]: Downloading https://files.pythonhosted.org/packages/bf/e5/106c11418f9a378a9725ebe5874eec83e630db0cdc7f13a596cbc8bda361/datarobot_early_access-3.2.0.2023.4.17.tar.gz
+[2023-04-17 18:49:38] INFO root fetch - processPackages [mod-seq2seq-conn]: Downloading https://files.pythonhosted.org/packages/2f/71/59e537488449e1f0ccbeb0769a82c054819cfc77015284fd324653b75fa8/mod_seq2seq_conn-0.0.1.tar.gz
+[2023-04-17 18:49:38] INFO root fetch - processPackages [wikimedia-spicerack]: Downloading https://files.pythonhosted.org/packages/89/80/e7af7c673b607d26156881c8f476eef3d19410b5a22becfa21df3766d780/wikimedia-spicerack-6.4.1.tar.gz
+[2023-04-17 18:49:38] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-04-17 18:49:38] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230417/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-04-17 18:49:38] INFO root fetch - processPackages [seawolf]: Downloading https://files.pythonhosted.org/packages/ef/e7/573116bddd17436aba763a8ea3227d156f95997edfc344bf7d62b348325c/seawolf-0.1.1.tar.gz
+[2023-04-17 18:49:38] INFO root fetch - processPackages [mod-seq2seq-conn]: Downloading https://files.pythonhosted.org/packages/6f/b8/0527404f656ba27d8224b65af352ed75add67580c3deefada8b0156f8a1e/mod_seq2seq_conn-0.0.2.tar.gz
+[2023-04-17 18:49:38] INFO root fetch - processPackages [datarobot-early-access]: Downloading https://files.pythonhosted.org/packages/9c/ad/2f969e6951f964f420c211fc81f135e11b4391de5b689f00edf3fb21dd0d/datarobot_early_access-3.2.0.2023.4.3.tar.gz
+[2023-04-17 18:49:38] INFO root fetch - processPackages [seawolf]: executing diffoscope
+[2023-04-17 18:49:38] INFO root fetch - processPackages [seawolf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seawolf-0.1.tar.gz tmp/seawolf-0.1.1.tar.gz --markdown 20230417/s/seawolf/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-04-17 18:49:38] INFO root fetch - processPackages [mod-seq2seq-conn]: executing diffoscope
+[2023-04-17 18:49:38] INFO root fetch - processPackages [mod-seq2seq-conn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mod_seq2seq_conn-0.0.1.tar.gz tmp/mod_seq2seq_conn-0.0.2.tar.gz --markdown 20230417/m/mod-seq2seq-conn/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-17 18:49:38] INFO root fetch - processPackages [wikimedia-spicerack]: Downloading https://files.pythonhosted.org/packages/12/a5/9020db4e65ab7212440fdec531e7ca433ea54e37f905f9444a71d69c1613/wikimedia-spicerack-6.4.2.tar.gz
+[2023-04-17 18:49:38] INFO root fetch - processPackages [wikimedia-spicerack]: executing diffoscope
+[2023-04-17 18:49:38] INFO root fetch - processPackages [wikimedia-spicerack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wikimedia-spicerack-6.4.1.tar.gz tmp/wikimedia-spicerack-6.4.2.tar.gz --markdown 20230417/w/wikimedia-spicerack/6.4.1-6.4.2/diff.md --exclude *.pyd
+[2023-04-17 18:49:38] INFO root fetch - processPackages [datarobot-early-access]: executing diffoscope
+[2023-04-17 18:49:38] INFO root fetch - processPackages [datarobot-early-access]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datarobot_early_access-3.2.0.2023.4.17.tar.gz tmp/datarobot_early_access-3.2.0.2023.4.3.tar.gz --markdown 20230417/d/datarobot-early-access/3.2.0.2023.4.17-3.2.0.2023.4.3/diff.md --exclude *.pyd
+[2023-04-17 18:49:39] INFO root fetch - processPackages [chemotools]: Start processing: crispr-library-prep
+[2023-04-17 18:49:39] INFO root fetch - main [MainThread]: End processing [chemotools]: success
+[2023-04-17 18:49:39] WARNING root fetch - processPackages [crispr-library-prep]: Skipping, unable to determine old version
+[2023-04-17 18:49:39] INFO root fetch - processPackages [crispr-library-prep]: Start processing: quantconnect-stubs
+[2023-04-17 18:49:39] INFO root fetch - main [MainThread]: End processing [crispr-library-prep] error
+[2023-04-17 18:49:40] INFO root fetch - processPackages [ramodels]: Start processing: localstack-core
+[2023-04-17 18:49:40] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-04-17 18:49:40] INFO root fetch - processPackages [quantconnect-stubs]: New version: [9998] Old Version: [9997]
+[2023-04-17 18:49:40] INFO root fetch - processPackages [localstack-core]: New version: [2.0.3.dev20230417142558] Old Version: [2.0.2.dev20230417163958]
+[2023-04-17 18:49:40] INFO root fetch - main [MainThread]: End processing [sampo]: success
+[2023-04-17 18:49:40] INFO root fetch - processPackages [quantconnect-stubs]: Downloading https://files.pythonhosted.org/packages/c1/05/f15c16a3f852decfd032ce1688dfdf02fd7289f1780742453533e8c55209/quantconnect-stubs-9997.tar.gz
+[2023-04-17 18:49:40] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/0f/50/372676483176605c06986aa10a4f426ab23e82f14a1f18b71c89af8687f4/localstack-core-2.0.2.dev20230417163958.tar.gz
+[2023-04-17 18:49:40] INFO root fetch - main [MainThread]: End processing [gptcache]: success
+[2023-04-17 18:49:40] INFO root fetch - main [MainThread]: End processing [mod-seq2seq-conn]: success
+[2023-04-17 18:49:40] INFO root fetch - main [MainThread]: End processing [oar-docker]: success
+[2023-04-17 18:49:40] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-04-17 18:49:40] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.0.2.dev20230417163958.tar.gz tmp/localstack-core-2.0.3.dev20230417142558.tar.gz --markdown 20230417/l/localstack-core/2.0.2.dev20230417163958-2.0.3.dev20230417142558/diff.md --exclude *.pyd
+[2023-04-17 18:49:40] INFO root fetch - main [MainThread]: End processing [seawolf]: success
+[2023-04-17 18:49:40] INFO root fetch - processPackages [quantconnect-stubs]: Downloading https://files.pythonhosted.org/packages/b7/4c/71e6bb724f14efcd8865f2aa692528a4c45877c58f5cf8c964a8e0fc0e74/quantconnect-stubs-9998.tar.gz
+[2023-04-17 18:49:41] INFO root fetch - processPackages [quantconnect-stubs]: executing diffoscope
+[2023-04-17 18:49:41] INFO root fetch - processPackages [quantconnect-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantconnect-stubs-9997.tar.gz tmp/quantconnect-stubs-9998.tar.gz --markdown 20230417/q/quantconnect-stubs/9997-9998/diff.md --exclude *.pyd
+[2023-04-17 18:49:41] INFO root fetch - main [MainThread]: End processing [datarobot-early-access]: success
+[2023-04-17 18:49:42] INFO root fetch - main [MainThread]: End processing [py3status]: success
+[2023-04-17 18:49:42] INFO root fetch - main [MainThread]: End processing [wikimedia-spicerack]: success
+[2023-04-17 18:49:46] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
+[2023-04-17 18:49:46] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-04-17 18:49:46] INFO root fetch - main [MainThread]: Store serial: [17741584]
