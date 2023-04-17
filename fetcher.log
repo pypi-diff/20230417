@@ -23088,3 +23088,87 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-17 23:14:03] INFO root fetch - main [MainThread]: End processing [kittycad]: success
 [2023-04-17 23:14:07] INFO root fetch - main [MainThread]: End processing [btrack]: success
 [2023-04-17 23:14:07] INFO root fetch - main [MainThread]: Store serial: [17744610]
+[2023-04-17 23:19:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17744610]
+[2023-04-17 23:19:16] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-17 23:19:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hond
+[2023-04-17 23:19:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: forwarderd
+[2023-04-17 23:19:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: restsuite
+[2023-04-17 23:19:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hcs-cli
+[2023-04-17 23:19:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: SmartsheetFunctions
+[2023-04-17 23:19:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: magyar
+[2023-04-17 23:19:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: simple-jwt-decode
+[2023-04-17 23:19:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: time-tracker
+[2023-04-17 23:19:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ddtrace
+[2023-04-17 23:19:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: RapidNomad
+[2023-04-17 23:19:16] INFO root fetch - processPackages [forwarderd]: New version: [9] Old Version: [8]
+[2023-04-17 23:19:16] INFO root fetch - processPackages [hcs-cli]: New version: [0.1.29] Old Version: [0.1.28]
+[2023-04-17 23:19:16] INFO root fetch - processPackages [hond]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-04-17 23:19:16] INFO root fetch - processPackages [time-tracker]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-04-17 23:19:16] INFO root fetch - processPackages [restsuite]: New version: [0.1.7.1] Old Version: [0.1.7]
+[2023-04-17 23:19:16] WARNING root fetch - processPackages [RapidNomad]: Skipping, unable to determine old version
+[2023-04-17 23:19:16] INFO root fetch - processPackages [magyar]: New version: [2.9.4] Old Version: [2.9.3]
+[2023-04-17 23:19:16] INFO root fetch - processPackages [RapidNomad]: Start processing: meltanolabs-target-snowflake
+[2023-04-17 23:19:16] INFO root fetch - processPackages [SmartsheetFunctions]: New version: [0.0.5.4] Old Version: [0.0.5.3]
+[2023-04-17 23:19:16] INFO root fetch - main [MainThread]: End processing [RapidNomad] error
+[2023-04-17 23:19:16] INFO root fetch - processPackages [simple-jwt-decode]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-17 23:19:16] INFO root fetch - processPackages [meltanolabs-target-snowflake]: New version: [0.1.1a1] Old Version: [0.0.2]
+[2023-04-17 23:19:16] INFO root fetch - processPackages [ddtrace]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-04-17 23:19:16] INFO root fetch - processPackages [restsuite]: Downloading https://files.pythonhosted.org/packages/d2/79/1563225437174b5fcfe28d9b8b0acfad637f1907b00f8f67404721d6b91b/restsuite-0.1.7.tar.gz
+[2023-04-17 23:19:16] INFO root fetch - processPackages [hcs-cli]: Downloading https://files.pythonhosted.org/packages/48/16/8d2688b7f023ad288dcd51ce9b8844fc586c172aa90dd9729c6667361922/hcs-cli-0.1.28.tar.gz
+[2023-04-17 23:19:16] INFO root fetch - processPackages [simple-jwt-decode]: Downloading https://files.pythonhosted.org/packages/1a/3a/233a7c82ab7e2a29770d8a8ec27c72b943a5507ac3603664fdb81f0a887b/simple_jwt_decode-0.9.0.tar.gz
+[2023-04-17 23:19:16] INFO root fetch - processPackages [meltanolabs-target-snowflake]: Downloading https://files.pythonhosted.org/packages/a1/06/1fe6729b5d0bc8f9fe4e1c3f7de1afd69eecfcb775a4f46f6c1c9de01014/meltanolabs_target_snowflake-0.0.2.tar.gz
+[2023-04-17 23:19:16] INFO root fetch - processPackages [time-tracker]: Downloading https://files.pythonhosted.org/packages/f4/83/2ac78ba651a2ef1300266568459cfd043d5fbd243ca76d8e62015f5bdbed/time-tracker-0.2.0.tar.gz
+[2023-04-17 23:19:17] INFO root fetch - processPackages [SmartsheetFunctions]: Downloading https://files.pythonhosted.org/packages/86/20/44c9bba491374493b287546659cbc1c3e00bb9543516f9ddce1a43ef04f3/SmartsheetFunctions-0.0.5.4.tar.gz
+[2023-04-17 23:19:17] INFO root fetch - processPackages [simple-jwt-decode]: executing diffoscope
+[2023-04-17 23:19:17] INFO root fetch - processPackages [simple-jwt-decode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_jwt_decode-0.8.0.tar.gz tmp/simple_jwt_decode-0.9.0.tar.gz --markdown 20230417/s/simple-jwt-decode/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-17 23:19:17] INFO root fetch - processPackages [SmartsheetFunctions]: executing diffoscope
+[2023-04-17 23:19:17] INFO root fetch - processPackages [SmartsheetFunctions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SmartsheetFunctions-0.0.5.3.tar.gz tmp/SmartsheetFunctions-0.0.5.4.tar.gz --markdown 20230417/S/SmartsheetFunctions/0.0.5.3-0.0.5.4/diff.md --exclude *.pyd
+[2023-04-17 23:19:17] INFO root fetch - processPackages [hond]: Downloading https://files.pythonhosted.org/packages/21/21/c095acafb9c008e1a40bc1c7597bafdf0661fd57d73a69479e04eaa64942/hond-2.0.3.tar.gz
+[2023-04-17 23:19:17] INFO root fetch - processPackages [hcs-cli]: Downloading https://files.pythonhosted.org/packages/d1/05/d5fcd11a8c3991190d3644ee8ee7282b6e247201a1639fe336e8f4e6951e/hcs-cli-0.1.29.tar.gz
+[2023-04-17 23:19:17] INFO root fetch - processPackages [forwarderd]: executing diffoscope
+[2023-04-17 23:19:17] INFO root fetch - processPackages [forwarderd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forwarderd-8.tar.gz tmp/forwarderd-9.tar.gz --markdown 20230417/f/forwarderd/8-9/diff.md --exclude *.pyd
+[2023-04-17 23:19:17] INFO root fetch - processPackages [ddtrace]: Downloading https://files.pythonhosted.org/packages/21/1a/5d9375e10951c5aeb4fe1d8c7ce546d69e4cd6536ac63226f4dd8a7ba36c/ddtrace-1.9.4.tar.gz
+[2023-04-17 23:19:17] INFO root fetch - processPackages [magyar]: Downloading https://files.pythonhosted.org/packages/ec/53/683b371adbcc4892bab6bc684fc5bb2e65848e039dffceabac01234a893f/magyar-2.9.4.tar.gz
+[2023-04-17 23:19:17] INFO root fetch - processPackages [hcs-cli]: executing diffoscope
+[2023-04-17 23:19:17] INFO root fetch - processPackages [hcs-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcs-cli-0.1.28.tar.gz tmp/hcs-cli-0.1.29.tar.gz --markdown 20230417/h/hcs-cli/0.1.28-0.1.29/diff.md --exclude *.pyd
+[2023-04-17 23:19:17] INFO root fetch - processPackages [restsuite]: Downloading https://files.pythonhosted.org/packages/bb/06/448bee691efa1248c3a1ad4bc7c6bde35bca256e719ba555ef6d10bbec51/restsuite-0.1.7.1.tar.gz
+[2023-04-17 23:19:17] INFO root fetch - processPackages [time-tracker]: Downloading https://files.pythonhosted.org/packages/57/d4/fba89ea870822225a13754a7813878bc24f258ec2ba68156a603f2fec1d9/time_tracker-0.3.0.tar.gz
+[2023-04-17 23:19:17] INFO root fetch - processPackages [hond]: executing diffoscope
+[2023-04-17 23:19:17] INFO root fetch - processPackages [hond]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hond-2.0.2.tar.gz tmp/hond-2.0.3.tar.gz --markdown 20230417/h/hond/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-04-17 23:19:17] INFO root fetch - processPackages [magyar]: executing diffoscope
+[2023-04-17 23:19:17] INFO root fetch - processPackages [magyar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magyar-2.9.3.tar.gz tmp/magyar-2.9.4.tar.gz --markdown 20230417/m/magyar/2.9.3-2.9.4/diff.md --exclude *.pyd
+[2023-04-17 23:19:17] INFO root fetch - processPackages [restsuite]: executing diffoscope
+[2023-04-17 23:19:17] INFO root fetch - processPackages [meltanolabs-target-snowflake]: Downloading https://files.pythonhosted.org/packages/c3/67/a07e7dca99286b62d707ed9a530b04d8bc17368386878bcb1a3226700872/meltanolabs_target_snowflake-0.1.1a1.tar.gz
+[2023-04-17 23:19:17] INFO root fetch - processPackages [restsuite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/restsuite-0.1.7.tar.gz tmp/restsuite-0.1.7.1.tar.gz --markdown 20230417/r/restsuite/0.1.7-0.1.7.1/diff.md --exclude *.pyd
+[2023-04-17 23:19:17] INFO root fetch - processPackages [time-tracker]: executing diffoscope
+[2023-04-17 23:19:17] INFO root fetch - processPackages [time-tracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/time-tracker-0.2.0.tar.gz tmp/time_tracker-0.3.0.tar.gz --markdown 20230417/t/time-tracker/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-04-17 23:19:17] INFO root fetch - processPackages [meltanolabs-target-snowflake]: executing diffoscope
+[2023-04-17 23:19:17] INFO root fetch - processPackages [meltanolabs-target-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meltanolabs_target_snowflake-0.0.2.tar.gz tmp/meltanolabs_target_snowflake-0.1.1a1.tar.gz --markdown 20230417/m/meltanolabs-target-snowflake/0.0.2-0.1.1a1/diff.md --exclude *.pyd
+[2023-04-17 23:19:17] INFO root fetch - processPackages [ddtrace]: Downloading https://files.pythonhosted.org/packages/14/f5/795b94efa7e39d2ba0615ced082881ff874c2716015ae566b6238aa45e32/ddtrace-1.9.5.tar.gz
+[2023-04-17 23:19:18] INFO root fetch - processPackages [ddtrace]: executing diffoscope
+[2023-04-17 23:19:18] INFO root fetch - processPackages [ddtrace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddtrace-1.9.4.tar.gz tmp/ddtrace-1.9.5.tar.gz --markdown 20230417/d/ddtrace/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-04-17 23:19:18] INFO root fetch - processPackages [simple-jwt-decode]: Start processing: znh5md
+[2023-04-17 23:19:18] INFO root fetch - main [MainThread]: End processing [simple-jwt-decode]: success
+[2023-04-17 23:19:18] INFO root fetch - processPackages [forwarderd]: Start processing: sesg
+[2023-04-17 23:19:18] INFO root fetch - main [MainThread]: End processing [forwarderd]: success
+[2023-04-17 23:19:18] INFO root fetch - processPackages [znh5md]: New version: [0.1.6a0] Old Version: [0.1.6]
+[2023-04-17 23:19:18] INFO root fetch - processPackages [sesg]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-17 23:19:18] INFO root fetch - main [MainThread]: End processing [SmartsheetFunctions]: success
+[2023-04-17 23:19:18] INFO root fetch - processPackages [znh5md]: Downloading https://files.pythonhosted.org/packages/03/18/089f9273e5a81c4564a8819ab626860d92b084fe5a8d46e3a7217a00a582/znh5md-0.1.6.tar.gz
+[2023-04-17 23:19:18] INFO root fetch - main [MainThread]: End processing [time-tracker]: success
+[2023-04-17 23:19:18] INFO root fetch - main [MainThread]: End processing [restsuite]: success
+[2023-04-17 23:19:18] INFO root fetch - processPackages [sesg]: Downloading https://files.pythonhosted.org/packages/e0/7f/23e629c7c1eb696c64918638f95ab1cc3418eef5b7342c38ff97ec41fd23/sesg-0.0.1.tar.gz
+[2023-04-17 23:19:18] INFO root fetch - main [MainThread]: End processing [magyar]: success
+[2023-04-17 23:19:19] INFO root fetch - main [MainThread]: End processing [meltanolabs-target-snowflake]: success
+[2023-04-17 23:19:19] INFO root fetch - processPackages [znh5md]: Downloading https://files.pythonhosted.org/packages/a1/22/c4179929275d435ac51a23bdef4233d8b95d61a12633bb01344059c5e7d7/znh5md-0.1.6a0.tar.gz
+[2023-04-17 23:19:19] INFO root fetch - processPackages [sesg]: Downloading https://files.pythonhosted.org/packages/85/ec/573bfc0386007cd3194ca138a76495fa0a2c93c60e8379b24eee3d22c99f/sesg-0.0.2.tar.gz
+[2023-04-17 23:19:19] INFO root fetch - processPackages [znh5md]: executing diffoscope
+[2023-04-17 23:19:19] INFO root fetch - processPackages [znh5md]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/znh5md-0.1.6.tar.gz tmp/znh5md-0.1.6a0.tar.gz --markdown 20230417/z/znh5md/0.1.6-0.1.6a0/diff.md --exclude *.pyd
+[2023-04-17 23:19:19] INFO root fetch - main [MainThread]: End processing [hond]: success
+[2023-04-17 23:19:19] INFO root fetch - processPackages [sesg]: executing diffoscope
+[2023-04-17 23:19:19] INFO root fetch - processPackages [sesg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sesg-0.0.1.tar.gz tmp/sesg-0.0.2.tar.gz --markdown 20230417/s/sesg/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-17 23:19:19] INFO root fetch - main [MainThread]: End processing [hcs-cli]: success
+[2023-04-17 23:19:20] INFO root fetch - main [MainThread]: End processing [znh5md]: success
+[2023-04-17 23:19:20] INFO root fetch - main [MainThread]: End processing [sesg]: success
+[2023-04-17 23:19:59] INFO root fetch - main [MainThread]: End processing [ddtrace]: success
+[2023-04-17 23:19:59] INFO root fetch - main [MainThread]: Store serial: [17744712]
