@@ -22985,3 +22985,106 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-17 23:08:48] INFO root fetch - main [MainThread]: End processing [camply]: success
 [2023-04-17 23:08:49] INFO root fetch - main [MainThread]: End processing [arvados-python-client]: success
 [2023-04-17 23:08:49] INFO root fetch - main [MainThread]: Store serial: [17744557]
+[2023-04-17 23:13:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17744557]
+[2023-04-17 23:13:58] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-04-17 23:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: evidence-ext
+[2023-04-17 23:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: holidays
+[2023-04-17 23:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crosstream
+[2023-04-17 23:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Tailbone
+[2023-04-17 23:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: btrack
+[2023-04-17 23:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nautobot
+[2023-04-17 23:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: autoplugin
+[2023-04-17 23:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kittycad
+[2023-04-17 23:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kevlar-system-inspector
+[2023-04-17 23:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: adafruit-circuitpython-si7021
+[2023-04-17 23:13:58] INFO root fetch - processPackages [btrack]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-04-17 23:13:58] INFO root fetch - processPackages [evidence-ext]: New version: [0.5.2a1] Old Version: [0.5.1]
+[2023-04-17 23:13:58] INFO root fetch - processPackages [autoplugin]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-17 23:13:58] INFO root fetch - processPackages [crosstream]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-04-17 23:13:58] INFO root fetch - processPackages [kittycad]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-04-17 23:13:58] INFO root fetch - processPackages [kevlar-system-inspector]: New version: [1.0.0rc8] Old Version: [1.0.0]
+[2023-04-17 23:13:58] INFO root fetch - processPackages [holidays]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-17 23:13:58] INFO root fetch - processPackages [nautobot]: New version: [2.0.0a3] Old Version: [2.0.0a2]
+[2023-04-17 23:13:58] INFO root fetch - processPackages [adafruit-circuitpython-si7021]: New version: [4.1.7] Old Version: [4.1.6]
+[2023-04-17 23:13:58] INFO root fetch - processPackages [Tailbone]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-17 23:13:58] INFO root fetch - processPackages [btrack]: executing diffoscope
+[2023-04-17 23:13:58] INFO root fetch - processPackages [btrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/btrack-0.5.5.tar.gz tmp/btrack-0.5.6.tar.gz --markdown 20230417/b/btrack/0.5.5-0.5.6/diff.md --exclude *.pyd
+[2023-04-17 23:13:58] INFO root fetch - processPackages [kevlar-system-inspector]: Downloading https://files.pythonhosted.org/packages/62/97/64a6ba01fb05523a26e469e157eca7de5e25040a4a91ac218a3677ee42a8/kevlar-system-inspector-1.0.0.tar.gz
+[2023-04-17 23:13:58] INFO root fetch - processPackages [evidence-ext]: Downloading https://files.pythonhosted.org/packages/9f/5c/b5e35ae2f42bc125ae55adf85bbdd80ede0ed106a89650e03673d4ffc11f/evidence_ext-0.5.1.tar.gz
+[2023-04-17 23:13:58] INFO root fetch - processPackages [crosstream]: Downloading https://files.pythonhosted.org/packages/7c/3c/55b0d9c592e713fa7c4925e28cefe71d60bc4e765a657d95d4bf331eb188/crosstream-2.0.0.tar.gz
+[2023-04-17 23:13:58] INFO root fetch - processPackages [adafruit-circuitpython-si7021]: Downloading https://files.pythonhosted.org/packages/c4/13/4f32df87e2b2bf9348043aafbbaa9c095533c80928caec4d253574c5b118/adafruit-circuitpython-si7021-4.1.6.tar.gz
+[2023-04-17 23:13:58] INFO root fetch - processPackages [kittycad]: Downloading https://files.pythonhosted.org/packages/a7/c1/6311c7033acae0b82da10f02f90dfe5a388d130e075adc08b434e9c70cb2/kittycad-0.3.7.tar.gz
+[2023-04-17 23:13:58] INFO root fetch - processPackages [Tailbone]: Downloading https://files.pythonhosted.org/packages/50/6f/b63e04f1e618b1f4d976e29b2185f60ed7b310a1fc1dfe6f8ae2a503598a/Tailbone-0.9.8.tar.gz
+[2023-04-17 23:13:58] INFO root fetch - processPackages [nautobot]: Downloading https://files.pythonhosted.org/packages/59/83/30d3200ba3d4394379c1335ba986f2a80c46d6fbdee3085b00f2896088a6/nautobot-2.0.0a2.tar.gz
+[2023-04-17 23:13:58] INFO root fetch - processPackages [holidays]: Downloading https://files.pythonhosted.org/packages/cc/da/7d0642a8b94ea413fc7005f4538c01475a45b420d705f57481752552ac55/holidays-0.9.8.tar.gz
+[2023-04-17 23:13:58] INFO root fetch - processPackages [autoplugin]: Downloading https://files.pythonhosted.org/packages/39/4e/8b28d6543d8a6d0a8b44e1ad29b5aca56fe9cccca149c0d5f1ec1985d120/autoplugin-0.1.1.tar.gz
+[2023-04-17 23:13:58] INFO root fetch - processPackages [kittycad]: executing diffoscope
+[2023-04-17 23:13:58] INFO root fetch - processPackages [kittycad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kittycad-0.3.6.tar.gz tmp/kittycad-0.3.7.tar.gz --markdown 20230417/k/kittycad/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-04-17 23:13:58] INFO root fetch - processPackages [evidence-ext]: Downloading https://files.pythonhosted.org/packages/08/cd/6f252bddc195107db7274bd81ca2e8e2b29d50bdbcc247cb434946e233d6/evidence_ext-0.5.2a1.tar.gz
+[2023-04-17 23:13:58] INFO root fetch - processPackages [crosstream]: Downloading https://files.pythonhosted.org/packages/45/46/c1e2aa7b2fc9d922afa3d52257fafd700cb426ad1b697ca20dc50e6a8e6f/crosstream-2.1.0.tar.gz
+[2023-04-17 23:13:58] INFO root fetch - processPackages [adafruit-circuitpython-si7021]: Downloading https://files.pythonhosted.org/packages/55/26/9e75c57475fef907107641c4dc4433f77910c5f056aa751da23d27223ffa/adafruit-circuitpython-si7021-4.1.7.tar.gz
+[2023-04-17 23:13:58] WARNING root fetch - processPackages [nautobot]: Skipping package: exceeds size limit 86772048>=10485760
+[2023-04-17 23:13:58] INFO root fetch - processPackages [nautobot]: Start processing: quantumcomputingsim
+[2023-04-17 23:13:58] INFO root fetch - main [MainThread]: End processing [nautobot] error
+[2023-04-17 23:13:58] INFO root fetch - processPackages [quantumcomputingsim]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-04-17 23:13:58] INFO root fetch - processPackages [kevlar-system-inspector]: Downloading https://files.pythonhosted.org/packages/e0/c9/3a9d5f929311198349cf59831808751f6ceeac07a9dbfab169f33dca14c3/kevlar-system-inspector-1.0.0rc8.tar.gz
+[2023-04-17 23:13:58] INFO root fetch - processPackages [holidays]: Downloading https://files.pythonhosted.org/packages/40/b0/3dfe3d3ed79087848a22de46d379462e371517571ee64668791f3d49ea29/holidays-0.9.9.tar.gz
+[2023-04-17 23:13:58] INFO root fetch - processPackages [crosstream]: executing diffoscope
+[2023-04-17 23:13:58] INFO root fetch - processPackages [crosstream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crosstream-2.0.0.tar.gz tmp/crosstream-2.1.0.tar.gz --markdown 20230417/c/crosstream/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-04-17 23:13:58] INFO root fetch - processPackages [autoplugin]: Downloading https://files.pythonhosted.org/packages/c6/82/148fd0535bac56d1f53788800a76097496f6140e6909fc4cd65daaef3cd9/autoplugin-0.1.2.tar.gz
+[2023-04-17 23:13:58] INFO root fetch - processPackages [evidence-ext]: executing diffoscope
+[2023-04-17 23:13:58] INFO root fetch - processPackages [evidence-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evidence_ext-0.5.1.tar.gz tmp/evidence_ext-0.5.2a1.tar.gz --markdown 20230417/e/evidence-ext/0.5.1-0.5.2a1/diff.md --exclude *.pyd
+[2023-04-17 23:13:58] INFO root fetch - processPackages [Tailbone]: Downloading https://files.pythonhosted.org/packages/d0/d1/c2f74adc6b3442dc7514c806d0eb884cf730fe17792970c620291f5a53a0/Tailbone-0.9.9.tar.gz
+[2023-04-17 23:13:58] INFO root fetch - processPackages [adafruit-circuitpython-si7021]: executing diffoscope
+[2023-04-17 23:13:58] INFO root fetch - processPackages [adafruit-circuitpython-si7021]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-si7021-4.1.6.tar.gz tmp/adafruit-circuitpython-si7021-4.1.7.tar.gz --markdown 20230417/a/adafruit-circuitpython-si7021/4.1.6-4.1.7/diff.md --exclude *.pyd
+[2023-04-17 23:13:58] INFO root fetch - processPackages [quantumcomputingsim]: Downloading https://files.pythonhosted.org/packages/b2/1a/6fad9743bb928dcc62a9cb8717d944c238028d80623cb511e6acbe7940cf/quantumcomputingsim-1.0.4.tar.gz
+[2023-04-17 23:13:59] INFO root fetch - processPackages [holidays]: executing diffoscope
+[2023-04-17 23:13:59] INFO root fetch - processPackages [holidays]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/holidays-0.9.8.tar.gz tmp/holidays-0.9.9.tar.gz --markdown 20230417/h/holidays/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-17 23:13:59] INFO root fetch - processPackages [kevlar-system-inspector]: executing diffoscope
+[2023-04-17 23:13:59] INFO root fetch - processPackages [kevlar-system-inspector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kevlar-system-inspector-1.0.0.tar.gz tmp/kevlar-system-inspector-1.0.0rc8.tar.gz --markdown 20230417/k/kevlar-system-inspector/1.0.0-1.0.0rc8/diff.md --exclude *.pyd
+[2023-04-17 23:13:59] INFO root fetch - processPackages [autoplugin]: executing diffoscope
+[2023-04-17 23:13:59] INFO root fetch - processPackages [autoplugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoplugin-0.1.1.tar.gz tmp/autoplugin-0.1.2.tar.gz --markdown 20230417/a/autoplugin/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-17 23:13:59] INFO root fetch - processPackages [Tailbone]: executing diffoscope
+[2023-04-17 23:13:59] INFO root fetch - processPackages [Tailbone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Tailbone-0.9.8.tar.gz tmp/Tailbone-0.9.9.tar.gz --markdown 20230417/T/Tailbone/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-17 23:13:59] INFO root fetch - processPackages [quantumcomputingsim]: executing diffoscope
+[2023-04-17 23:13:59] INFO root fetch - processPackages [quantumcomputingsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantumcomputingsim-1.0.3.tar.gz tmp/quantumcomputingsim-1.0.4.tar.gz --markdown 20230417/q/quantumcomputingsim/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-04-17 23:14:00] INFO root fetch - processPackages [evidence-ext]: Start processing: govtech-data
+[2023-04-17 23:14:00] INFO root fetch - main [MainThread]: End processing [evidence-ext]: success
+[2023-04-17 23:14:00] INFO root fetch - processPackages [govtech-data]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-17 23:14:00] INFO root fetch - processPackages [crosstream]: Start processing: tinote
+[2023-04-17 23:14:00] INFO root fetch - main [MainThread]: End processing [crosstream]: success
+[2023-04-17 23:14:00] INFO root fetch - processPackages [adafruit-circuitpython-si7021]: Start processing: types-setuptools
+[2023-04-17 23:14:00] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-si7021]: success
+[2023-04-17 23:14:00] INFO root fetch - processPackages [tinote]: New version: [1.0.0] Old Version: [0.3.2]
+[2023-04-17 23:14:00] INFO root fetch - processPackages [types-setuptools]: New version: [67.6.0.8] Old Version: [67.6.0.7]
+[2023-04-17 23:14:00] INFO root fetch - processPackages [autoplugin]: Start processing: librus-apix
+[2023-04-17 23:14:00] INFO root fetch - main [MainThread]: End processing [autoplugin]: success
+[2023-04-17 23:14:00] INFO root fetch - processPackages [librus-apix]: New version: [0.2.5] Old Version: [0.2.3]
+[2023-04-17 23:14:00] INFO root fetch - processPackages [govtech-data]: Downloading https://files.pythonhosted.org/packages/38/27/bfc2b116c599d8a7ebd76ab6512ee38a1b5d1a16499059770372bc29e6e2/govtech_data-0.1.9.tar.gz
+[2023-04-17 23:14:00] INFO root fetch - processPackages [types-setuptools]: Downloading https://files.pythonhosted.org/packages/2e/84/94effff982ffae657530e53f032a60ddc2774c09a281f07ba3ab535e9581/types-setuptools-67.6.0.7.tar.gz
+[2023-04-17 23:14:00] INFO root fetch - processPackages [tinote]: Downloading https://files.pythonhosted.org/packages/f3/b1/8fe0aa53eafac58982653ef9f2b412dcea338dd8ddb54935f87ee049c660/tinote-1.0.0.tar.gz
+[2023-04-17 23:14:00] INFO root fetch - processPackages [kevlar-system-inspector]: Start processing: sql2gpt
+[2023-04-17 23:14:00] INFO root fetch - main [MainThread]: End processing [kevlar-system-inspector]: success
+[2023-04-17 23:14:00] WARNING root fetch - processPackages [sql2gpt]: Skipping, unable to determine old version
+[2023-04-17 23:14:00] INFO root fetch - main [MainThread]: End processing [sql2gpt] error
+[2023-04-17 23:14:00] INFO root fetch - main [MainThread]: End processing [quantumcomputingsim]: success
+[2023-04-17 23:14:00] INFO root fetch - processPackages [govtech-data]: executing diffoscope
+[2023-04-17 23:14:00] INFO root fetch - processPackages [govtech-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/govtech_data-0.1.8.tar.gz tmp/govtech_data-0.1.9.tar.gz --markdown 20230417/g/govtech-data/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-17 23:14:00] INFO root fetch - processPackages [librus-apix]: Downloading https://files.pythonhosted.org/packages/6f/0d/fd95d57efe8e4fe863325782732b7d114093dbc432af6ed0fd002e73c608/librus_apix-0.2.3.tar.gz
+[2023-04-17 23:14:00] INFO root fetch - processPackages [tinote]: executing diffoscope
+[2023-04-17 23:14:00] INFO root fetch - processPackages [tinote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinote-0.3.2.tar.gz tmp/tinote-1.0.0.tar.gz --markdown 20230417/t/tinote/0.3.2-1.0.0/diff.md --exclude *.pyd
+[2023-04-17 23:14:00] INFO root fetch - processPackages [types-setuptools]: Downloading https://files.pythonhosted.org/packages/87/48/fa80b23f6524a2b1133f91b1c00151103d1f45b70195f3ca4cdfa03db723/types-setuptools-67.6.0.8.tar.gz
+[2023-04-17 23:14:00] INFO root fetch - processPackages [types-setuptools]: executing diffoscope
+[2023-04-17 23:14:00] INFO root fetch - processPackages [types-setuptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-setuptools-67.6.0.7.tar.gz tmp/types-setuptools-67.6.0.8.tar.gz --markdown 20230417/t/types-setuptools/67.6.0.7-67.6.0.8/diff.md --exclude *.pyd
+[2023-04-17 23:14:01] INFO root fetch - processPackages [librus-apix]: Downloading https://files.pythonhosted.org/packages/39/f6/f6a287642606d439bf4c31706bf8949600a8a2fca6b43b872746ad24497b/librus_apix-0.2.5.tar.gz
+[2023-04-17 23:14:01] INFO root fetch - processPackages [librus-apix]: executing diffoscope
+[2023-04-17 23:14:01] INFO root fetch - processPackages [librus-apix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/librus_apix-0.2.3.tar.gz tmp/librus_apix-0.2.5.tar.gz --markdown 20230417/l/librus-apix/0.2.3-0.2.5/diff.md --exclude *.pyd
+[2023-04-17 23:14:01] INFO root fetch - main [MainThread]: End processing [holidays]: success
+[2023-04-17 23:14:01] INFO root fetch - main [MainThread]: End processing [govtech-data]: success
+[2023-04-17 23:14:01] INFO root fetch - main [MainThread]: End processing [tinote]: success
+[2023-04-17 23:14:02] INFO root fetch - main [MainThread]: End processing [librus-apix]: success
+[2023-04-17 23:14:02] INFO root fetch - main [MainThread]: End processing [types-setuptools]: success
+[2023-04-17 23:14:03] INFO root fetch - main [MainThread]: End processing [Tailbone]: success
+[2023-04-17 23:14:03] INFO root fetch - main [MainThread]: End processing [kittycad]: success
+[2023-04-17 23:14:07] INFO root fetch - main [MainThread]: End processing [btrack]: success
+[2023-04-17 23:14:07] INFO root fetch - main [MainThread]: Store serial: [17744610]
