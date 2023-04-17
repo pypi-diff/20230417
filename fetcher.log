@@ -5767,3 +5767,56 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 07:30:27] INFO root fetch - main [MainThread]: End processing [LibCode]: success
 [2023-04-17 07:30:44] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
 [2023-04-17 07:30:44] INFO root fetch - main [MainThread]: Store serial: [17733959]
+[2023-04-17 07:35:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17733959]
+[2023-04-17 07:35:53] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-17 07:35:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MySQLPandas
+[2023-04-17 07:35:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cijoe
+[2023-04-17 07:35:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: coco-loader
+[2023-04-17 07:35:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyarmor.cli
+[2023-04-17 07:35:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyarmor.cli.core
+[2023-04-17 07:35:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: monashspa
+[2023-04-17 07:35:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lazy-env-configurator
+[2023-04-17 07:35:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: langchain-serve
+[2023-04-17 07:35:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: auto-gpt-plugin-template
+[2023-04-17 07:35:53] INFO root fetch - processPackages [monashspa]: New version: [1.9.9] Old Version: [1.9.4]
+[2023-04-17 07:35:53] INFO root fetch - processPackages [pyarmor.cli]: New version: [8.1.dev9] Old Version: [8.1.dev8]
+[2023-04-17 07:35:53] WARNING root fetch - processPackages [coco-loader]: Skipping, unable to determine old version
+[2023-04-17 07:35:53] INFO root fetch - main [MainThread]: End processing [coco-loader] error
+[2023-04-17 07:35:53] INFO root fetch - processPackages [MySQLPandas]: New version: [0.0.18] Old Version: [0.0.15]
+[2023-04-17 07:35:53] WARNING root fetch - processPackages [lazy-env-configurator]: Skipping, unable to determine old version
+[2023-04-17 07:35:53] INFO root fetch - main [MainThread]: End processing [lazy-env-configurator] error
+[2023-04-17 07:35:53] INFO root fetch - processPackages [cijoe]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-17 07:35:53] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.4.dev4] Old Version: [0.0.4.dev2]
+[2023-04-17 07:35:53] INFO root fetch - processPackages [pyarmor.cli.core]: New version: [2.1.dev9] Old Version: [2.1.dev7]
+[2023-04-17 07:35:53] WARNING root fetch - processPackages [auto-gpt-plugin-template]: Skipping, unable to determine old version
+[2023-04-17 07:35:53] INFO root fetch - main [MainThread]: End processing [auto-gpt-plugin-template] error
+[2023-04-17 07:35:53] INFO root fetch - processPackages [monashspa]: Downloading https://files.pythonhosted.org/packages/4e/43/b0c6585890bdc0f6a39532dd50fb60ea6431ded88a3cb332e9c2b31b2718/monashspa-1.9.4.tar.gz
+[2023-04-17 07:35:53] INFO root fetch - processPackages [MySQLPandas]: Downloading https://files.pythonhosted.org/packages/5b/72/3777915543c71f69e6a6308a5eb2e13b5cb3b2374379f8f46660ed9dece5/MySQLPandas-0.0.15.tar.gz
+[2023-04-17 07:35:53] INFO root fetch - processPackages [pyarmor.cli]: Downloading https://files.pythonhosted.org/packages/98/d2/09298ce4d6cef5352be9b08542f215db3eaca30cc8c47e4b3da2933b7ab7/pyarmor.cli-8.1.dev8-py2.py3-none-any.whl
+[2023-04-17 07:35:54] INFO root fetch - processPackages [pyarmor.cli.core]: Downloading https://files.pythonhosted.org/packages/fe/5e/069f9976a6869195aed73f2734abfa36eaa40462bab221439c325296d4ae/pyarmor.cli.core-2.1.dev7-cp39-none-win_amd64.whl
+[2023-04-17 07:35:54] INFO root fetch - processPackages [cijoe]: Downloading https://files.pythonhosted.org/packages/ff/e5/24cca9ceda44409f1453f273bcb51b6c426aab692430e5e07fd742564630/cijoe-0.9.8.tar.gz
+[2023-04-17 07:35:54] INFO root fetch - processPackages [MySQLPandas]: Downloading https://files.pythonhosted.org/packages/0c/8f/06f36a0655c71eb3ec4d89bf8efd46cf1f461ee9c443a4e5e0ab0c0f730f/MySQLPandas-0.0.18.tar.gz
+[2023-04-17 07:35:54] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/de/06/87eb8644d80c0c7a95cb5ad789d7a8306ad5a134d6022b00e94b959c53c6/langchain-serve-0.0.4.dev4.tar.gz
+[2023-04-17 07:35:54] INFO root fetch - processPackages [pyarmor.cli]: Downloading https://files.pythonhosted.org/packages/36/0f/2cbd9db7733fefece616834452e24550d901511718d8890e4d9b080ccd9f/pyarmor.cli-8.1.dev9-py2.py3-none-any.whl
+[2023-04-17 07:35:54] INFO root fetch - processPackages [pyarmor.cli]: executing diffoscope
+[2023-04-17 07:35:54] INFO root fetch - processPackages [pyarmor.cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli-8.1.dev8-py2.py3-none-any.whl.zip tmp/pyarmor.cli-8.1.dev9-py2.py3-none-any.whl.zip --markdown 20230417/p/pyarmor.cli/8.1.dev8-8.1.dev9/diff.md --exclude *.pyd
+[2023-04-17 07:35:54] INFO root fetch - processPackages [MySQLPandas]: executing diffoscope
+[2023-04-17 07:35:54] INFO root fetch - processPackages [MySQLPandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MySQLPandas-0.0.15.tar.gz tmp/MySQLPandas-0.0.18.tar.gz --markdown 20230417/M/MySQLPandas/0.0.15-0.0.18/diff.md --exclude *.pyd
+[2023-04-17 07:35:54] INFO root fetch - processPackages [monashspa]: Downloading https://files.pythonhosted.org/packages/c6/21/0342cd101b44d92a470f90b203f7894ec133250acdc23d49444b59d4c601/monashspa-1.9.9.tar.gz
+[2023-04-17 07:35:54] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-04-17 07:35:54] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.4.dev2.tar.gz tmp/langchain-serve-0.0.4.dev4.tar.gz --markdown 20230417/l/langchain-serve/0.0.4.dev2-0.0.4.dev4/diff.md --exclude *.pyd
+[2023-04-17 07:35:54] INFO root fetch - processPackages [pyarmor.cli.core]: Downloading https://files.pythonhosted.org/packages/2b/d1/8f7d6500a457fcda40ad3be793c4108109b0d74b58620e5862a0ec230f81/pyarmor.cli.core-2.1.dev9-cp39-none-win_amd64.whl
+[2023-04-17 07:35:54] INFO root fetch - processPackages [cijoe]: Downloading https://files.pythonhosted.org/packages/32/e8/52676e4dee5f913accc70782d7591988450337b3a2366942814342f121ae/cijoe-0.9.9.tar.gz
+[2023-04-17 07:35:54] INFO root fetch - processPackages [monashspa]: executing diffoscope
+[2023-04-17 07:35:54] INFO root fetch - processPackages [monashspa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monashspa-1.9.4.tar.gz tmp/monashspa-1.9.9.tar.gz --markdown 20230417/m/monashspa/1.9.4-1.9.9/diff.md --exclude *.pyd
+[2023-04-17 07:35:54] INFO root fetch - processPackages [cijoe]: executing diffoscope
+[2023-04-17 07:35:54] INFO root fetch - processPackages [cijoe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cijoe-0.9.8.tar.gz tmp/cijoe-0.9.9.tar.gz --markdown 20230417/c/cijoe/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-17 07:35:54] INFO root fetch - processPackages [pyarmor.cli.core]: executing diffoscope
+[2023-04-17 07:35:54] INFO root fetch - processPackages [pyarmor.cli.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.core-2.1.dev7-cp39-none-win_amd64.whl.zip tmp/pyarmor.cli.core-2.1.dev9-cp39-none-win_amd64.whl.zip --markdown 20230417/p/pyarmor.cli.core/2.1.dev7-2.1.dev9/diff.md --exclude *.pyd
+[2023-04-17 07:35:55] INFO root fetch - main [MainThread]: End processing [MySQLPandas]: success
+[2023-04-17 07:35:55] INFO root fetch - main [MainThread]: End processing [pyarmor.cli]: success
+[2023-04-17 07:35:55] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core]: success
+[2023-04-17 07:35:55] INFO root fetch - main [MainThread]: End processing [cijoe]: success
+[2023-04-17 07:35:57] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-04-17 07:35:57] INFO root fetch - main [MainThread]: End processing [monashspa]: success
+[2023-04-17 07:35:57] INFO root fetch - main [MainThread]: Store serial: [17734013]
