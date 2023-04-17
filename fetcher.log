@@ -9186,3 +9186,138 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 11:34:17] INFO root fetch - main [MainThread]: End processing [flowmachine]: success
 [2023-04-17 11:34:20] INFO root fetch - main [MainThread]: End processing [optimum]: success
 [2023-04-17 11:34:20] INFO root fetch - main [MainThread]: Store serial: [17736149]
+[2023-04-17 11:39:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17736149]
+[2023-04-17 11:39:29] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-04-17 11:39:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: digital-eval
+[2023-04-17 11:39:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: simplerabbit
+[2023-04-17 11:39:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dittoffi
+[2023-04-17 11:39:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-admin-tailwind
+[2023-04-17 11:39:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: RobertCommonDriver
+[2023-04-17 11:39:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mrx-link-core
+[2023-04-17 11:39:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dittolive
+[2023-04-17 11:39:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: imggencli
+[2023-04-17 11:39:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fig2sketch
+[2023-04-17 11:39:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: slurm-mongo
+[2023-04-17 11:39:29] INFO root fetch - processPackages [digital-eval]: New version: [1.5.1] Old Version: [1.2.1]
+[2023-04-17 11:39:30] INFO root fetch - processPackages [simplerabbit]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-17 11:39:30] INFO root fetch - processPackages [dittolive]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-17 11:39:30] INFO root fetch - processPackages [dittoffi]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-17 11:39:30] INFO root fetch - processPackages [RobertCommonDriver]: New version: [0.1.38] Old Version: [0.1.37]
+[2023-04-17 11:39:30] INFO root fetch - processPackages [imggencli]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-04-17 11:39:30] INFO root fetch - processPackages [slurm-mongo]: New version: [1.0.2] Old Version: [0.1]
+[2023-04-17 11:39:30] INFO root fetch - processPackages [django-admin-tailwind]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 11:39:30] INFO root fetch - processPackages [fig2sketch]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-04-17 11:39:30] INFO root fetch - processPackages [mrx-link-core]: New version: [1.1.0.dev1] Old Version: [1.1.0.dev0]
+[2023-04-17 11:39:30] INFO root fetch - processPackages [simplerabbit]: Downloading https://files.pythonhosted.org/packages/e5/63/4405d78dbe5f8f635c747663cc9bd081d6678bd8c99823cdeec488de23c7/simplerabbit-0.0.5.tar.gz
+[2023-04-17 11:39:30] INFO root fetch - processPackages [RobertCommonDriver]: Downloading https://files.pythonhosted.org/packages/16/bf/12f6915d1346bd4ae1257613651c79c0e4b739ef5947cd50b910444672ce/RobertCommonDriver-0.1.38.tar.gz
+[2023-04-17 11:39:30] INFO root fetch - processPackages [dittolive]: Downloading https://files.pythonhosted.org/packages/26/56/4053ce5896726b28de94d00ea014fe3a047818d53c90f92e3ef19ac28ccf/dittolive-0.0.2.tar.gz
+[2023-04-17 11:39:30] INFO root fetch - processPackages [dittoffi]: Downloading https://files.pythonhosted.org/packages/5f/0a/5dd49e109dc6afe8333c9bfadbe5d629deb08773e3b04d9b7c74c8ca6afa/dittoffi-0.0.2.tar.gz
+[2023-04-17 11:39:30] INFO root fetch - processPackages [fig2sketch]: Downloading https://files.pythonhosted.org/packages/12/08/920d1ff29630501ba87bcc1247dbff99102561524415963c686e9b6af0f9/fig2sketch-0.2.3.tar.gz
+[2023-04-17 11:39:30] INFO root fetch - processPackages [django-admin-tailwind]: Downloading https://files.pythonhosted.org/packages/b6/09/8323f66322d7f938430206d24a12560e414eefb0f13ae6db674b9b932028/django-admin-tailwind-0.0.8.tar.gz
+[2023-04-17 11:39:30] INFO root fetch - processPackages [imggencli]: Downloading https://files.pythonhosted.org/packages/65/52/121f588ff09ba0fc9b0ff2c6a0788d0b49c5a023ae35244fc886b45ea64d/imggencli-1.2.1.tar.gz
+[2023-04-17 11:39:30] INFO root fetch - processPackages [digital-eval]: Downloading https://files.pythonhosted.org/packages/67/38/6ba527e4360eb61ee99b5f4c9dc4028c55b72d80be18ffa5097682ceb16a/digital-eval-1.5.1.tar.gz
+[2023-04-17 11:39:30] INFO root fetch - processPackages [mrx-link-core]: Downloading https://files.pythonhosted.org/packages/01/42/f1134e3ecd2be4d0736f5632e030042182014246926c64f92f496f53b349/mrx_link_core-1.1.0.dev0-cp39-cp39-win_amd64.whl
+[2023-04-17 11:39:30] INFO root fetch - processPackages [digital-eval]: executing diffoscope
+[2023-04-17 11:39:30] INFO root fetch - processPackages [digital-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digital-eval-1.2.1.tar.gz tmp/digital-eval-1.5.1.tar.gz --markdown 20230417/d/digital-eval/1.2.1-1.5.1/diff.md --exclude *.pyd
+[2023-04-17 11:39:30] INFO root fetch - processPackages [simplerabbit]: Downloading https://files.pythonhosted.org/packages/07/cf/6a5abb3d23d0d79845646cbf286c8093ca67de2560b59c27b5f366e1774d/simplerabbit-0.0.6.tar.gz
+[2023-04-17 11:39:30] INFO root fetch - processPackages [slurm-mongo]: Downloading https://files.pythonhosted.org/packages/a3/cb/f939804728ed1cb97aef49ee54670b59db25c79b3e21ef6f903c121e681c/slurm_mongo-1.0.2.tar.gz
+[2023-04-17 11:39:30] INFO root fetch - processPackages [RobertCommonDriver]: executing diffoscope
+[2023-04-17 11:39:30] INFO root fetch - processPackages [RobertCommonDriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RobertCommonDriver-0.1.37.tar.gz tmp/RobertCommonDriver-0.1.38.tar.gz --markdown 20230417/R/RobertCommonDriver/0.1.37-0.1.38/diff.md --exclude *.pyd
+[2023-04-17 11:39:30] INFO root fetch - processPackages [dittolive]: Downloading https://files.pythonhosted.org/packages/4e/a1/3bf95e540430a8e04828dc043feadd0cbbeb354d132fa915107e577ce54a/dittolive-0.0.3.tar.gz
+[2023-04-17 11:39:30] INFO root fetch - processPackages [simplerabbit]: executing diffoscope
+[2023-04-17 11:39:30] INFO root fetch - processPackages [simplerabbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplerabbit-0.0.5.tar.gz tmp/simplerabbit-0.0.6.tar.gz --markdown 20230417/s/simplerabbit/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-17 11:39:30] INFO root fetch - processPackages [dittoffi]: Downloading https://files.pythonhosted.org/packages/68/6f/f500f79ab5ffb70ed4fba07fd6c2d3f0ee10e0fa2c2bad549a77d7c07e32/dittoffi-0.0.3.tar.gz
+[2023-04-17 11:39:30] INFO root fetch - processPackages [dittoffi]: executing diffoscope
+[2023-04-17 11:39:30] INFO root fetch - processPackages [dittoffi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dittoffi-0.0.2.tar.gz tmp/dittoffi-0.0.3.tar.gz --markdown 20230417/d/dittoffi/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-17 11:39:30] INFO root fetch - processPackages [slurm-mongo]: executing diffoscope
+[2023-04-17 11:39:30] INFO root fetch - processPackages [slurm-mongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slurm_mongo-0.1.tar.gz tmp/slurm_mongo-1.0.2.tar.gz --markdown 20230417/s/slurm-mongo/0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-17 11:39:30] INFO root fetch - processPackages [fig2sketch]: Downloading https://files.pythonhosted.org/packages/c3/9a/b7acda3c9aa133233eb65f4e2d4dbd77e28029c351d2f720604cfbaf7d34/fig2sketch-0.2.4.tar.gz
+[2023-04-17 11:39:30] INFO root fetch - processPackages [dittolive]: executing diffoscope
+[2023-04-17 11:39:30] INFO root fetch - processPackages [dittolive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dittolive-0.0.2.tar.gz tmp/dittolive-0.0.3.tar.gz --markdown 20230417/d/dittolive/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-17 11:39:30] INFO root fetch - processPackages [imggencli]: Downloading https://files.pythonhosted.org/packages/1f/d5/bbf6cfc440068a1c15d47a89ed30399cb8cbb90b7595d2b2d15d6e5598e3/imggencli-1.2.2.tar.gz
+[2023-04-17 11:39:30] INFO root fetch - processPackages [fig2sketch]: executing diffoscope
+[2023-04-17 11:39:30] INFO root fetch - processPackages [fig2sketch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fig2sketch-0.2.3.tar.gz tmp/fig2sketch-0.2.4.tar.gz --markdown 20230417/f/fig2sketch/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-04-17 11:39:30] INFO root fetch - processPackages [imggencli]: executing diffoscope
+[2023-04-17 11:39:30] INFO root fetch - processPackages [imggencli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imggencli-1.2.1.tar.gz tmp/imggencli-1.2.2.tar.gz --markdown 20230417/i/imggencli/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-04-17 11:39:30] INFO root fetch - processPackages [mrx-link-core]: Downloading https://files.pythonhosted.org/packages/ad/2c/d475af9f85b951f498cf18943e98c5a9f8b9601b570e7aaa95c92adc1104/mrx_link_core-1.1.0.dev1-cp39-cp39-win_amd64.whl
+[2023-04-17 11:39:30] INFO root fetch - processPackages [django-admin-tailwind]: Downloading https://files.pythonhosted.org/packages/62/fb/cfc1ac93c62410d3c39c23f4b87c6d7e625eea7f41c58a55a156f62fa209/django-admin-tailwind-0.0.9.tar.gz
+[2023-04-17 11:39:31] INFO root fetch - processPackages [mrx-link-core]: executing diffoscope
+[2023-04-17 11:39:31] INFO root fetch - processPackages [mrx-link-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrx_link_core-1.1.0.dev0-cp39-cp39-win_amd64.whl.zip tmp/mrx_link_core-1.1.0.dev1-cp39-cp39-win_amd64.whl.zip --markdown 20230417/m/mrx-link-core/1.1.0.dev0-1.1.0.dev1/diff.md --exclude *.pyd
+[2023-04-17 11:39:31] INFO root fetch - processPackages [django-admin-tailwind]: executing diffoscope
+[2023-04-17 11:39:31] INFO root fetch - processPackages [django-admin-tailwind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-admin-tailwind-0.0.8.tar.gz tmp/django-admin-tailwind-0.0.9.tar.gz --markdown 20230417/d/django-admin-tailwind/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 11:39:31] INFO root fetch - processPackages [slurm-mongo]: Start processing: aiida-core
+[2023-04-17 11:39:31] INFO root fetch - main [MainThread]: End processing [slurm-mongo]: success
+[2023-04-17 11:39:31] INFO root fetch - processPackages [aiida-core]: New version: [2.3.0] Old Version: [2.2.2]
+[2023-04-17 11:39:31] INFO root fetch - processPackages [simplerabbit]: Start processing: chatgpt4-cli
+[2023-04-17 11:39:31] INFO root fetch - main [MainThread]: End processing [simplerabbit]: success
+[2023-04-17 11:39:31] INFO root fetch - processPackages [chatgpt4-cli]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-04-17 11:39:32] INFO root fetch - processPackages [chatgpt4-cli]: Downloading https://files.pythonhosted.org/packages/55/c6/fdaa4a4703a58fd8bf2cfca450abb710be1c04356a6a7e316ee89776319a/chatgpt4-cli-1.4.8.tar.gz
+[2023-04-17 11:39:32] INFO root fetch - processPackages [aiida-core]: Downloading https://files.pythonhosted.org/packages/8a/3b/29dccad0f320d86c0ea768f7161a185491f5f5b02412a1027b17e7580cc0/aiida-core-2.2.2.tar.gz
+[2023-04-17 11:39:32] INFO root fetch - processPackages [dittolive]: Start processing: unicat
+[2023-04-17 11:39:32] INFO root fetch - main [MainThread]: End processing [dittolive]: success
+[2023-04-17 11:39:32] INFO root fetch - processPackages [unicat]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-04-17 11:39:32] INFO root fetch - processPackages [digital-eval]: Start processing: banner-storedot
+[2023-04-17 11:39:32] INFO root fetch - main [MainThread]: End processing [digital-eval]: success
+[2023-04-17 11:39:32] INFO root fetch - processPackages [banner-storedot]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-04-17 11:39:32] INFO root fetch - processPackages [imggencli]: Start processing: SimpliPyTEM
+[2023-04-17 11:39:32] INFO root fetch - main [MainThread]: End processing [imggencli]: success
+[2023-04-17 11:39:32] INFO root fetch - processPackages [SimpliPyTEM]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-04-17 11:39:32] INFO root fetch - processPackages [chatgpt4-cli]: Downloading https://files.pythonhosted.org/packages/4a/f4/154b61c4faee0a986520a1ff916ea5180a37a06176de9723f924a1014840/chatgpt4-cli-1.4.9.tar.gz
+[2023-04-17 11:39:32] INFO root fetch - processPackages [SimpliPyTEM]: Downloading https://files.pythonhosted.org/packages/df/08/fd41f4049f894583290a9bbd66f753848edc780f08cb27c668650d00cfce/SimpliPyTEM-1.0.4.tar.gz
+[2023-04-17 11:39:32] INFO root fetch - processPackages [unicat]: Downloading https://files.pythonhosted.org/packages/e9/73/08b76e77f4695d052c8ee06cda01fc7c47e68110b986de0306cf8f007b23/unicat-0.2.3.tar.gz
+[2023-04-17 11:39:32] INFO root fetch - processPackages [banner-storedot]: Downloading https://files.pythonhosted.org/packages/db/cf/a5f9fc89f889a07b7d1426d888f86fdfc50dcf513533ef1ecab18ec8fc47/banner-storedot-2.2.8.tar.gz
+[2023-04-17 11:39:32] INFO root fetch - processPackages [aiida-core]: Downloading https://files.pythonhosted.org/packages/31/15/a23102d05702ddcd514e96846cc05d21a27436f2778f89494eb5e95c66ed/aiida-core-2.3.0.tar.gz
+[2023-04-17 11:39:32] INFO root fetch - processPackages [chatgpt4-cli]: executing diffoscope
+[2023-04-17 11:39:32] INFO root fetch - processPackages [chatgpt4-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatgpt4-cli-1.4.8.tar.gz tmp/chatgpt4-cli-1.4.9.tar.gz --markdown 20230417/c/chatgpt4-cli/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-04-17 11:39:32] INFO root fetch - processPackages [dittoffi]: Start processing: xh-dict-utils
+[2023-04-17 11:39:32] INFO root fetch - main [MainThread]: End processing [dittoffi]: success
+[2023-04-17 11:39:32] INFO root fetch - processPackages [xh-dict-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 11:39:32] INFO root fetch - processPackages [fig2sketch]: Start processing: nicegui
+[2023-04-17 11:39:32] INFO root fetch - main [MainThread]: End processing [fig2sketch]: success
+[2023-04-17 11:39:32] INFO root fetch - processPackages [mrx-link-core]: Start processing: fb-python-sdk
+[2023-04-17 11:39:32] INFO root fetch - main [MainThread]: End processing [mrx-link-core]: success
+[2023-04-17 11:39:32] INFO root fetch - processPackages [nicegui]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-04-17 11:39:32] INFO root fetch - processPackages [fb-python-sdk]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-04-17 11:39:32] INFO root fetch - processPackages [aiida-core]: executing diffoscope
+[2023-04-17 11:39:32] INFO root fetch - processPackages [aiida-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiida-core-2.2.2.tar.gz tmp/aiida-core-2.3.0.tar.gz --markdown 20230417/a/aiida-core/2.2.2-2.3.0/diff.md --exclude *.pyd
+[2023-04-17 11:39:32] INFO root fetch - processPackages [banner-storedot]: Downloading https://files.pythonhosted.org/packages/0b/43/749443560714b9b39909973273c8822150a8417342bffd9df3eb79671716/banner-storedot-2.2.9.tar.gz
+[2023-04-17 11:39:32] INFO root fetch - processPackages [xh-dict-utils]: executing diffoscope
+[2023-04-17 11:39:32] INFO root fetch - processPackages [xh-dict-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xh-dict-utils-0.0.8.tar.gz tmp/xh-dict-utils-0.0.9.tar.gz --markdown 20230417/x/xh-dict-utils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 11:39:32] INFO root fetch - processPackages [banner-storedot]: executing diffoscope
+[2023-04-17 11:39:32] INFO root fetch - processPackages [banner-storedot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/banner-storedot-2.2.8.tar.gz tmp/banner-storedot-2.2.9.tar.gz --markdown 20230417/b/banner-storedot/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-04-17 11:39:32] INFO root fetch - processPackages [fb-python-sdk]: executing diffoscope
+[2023-04-17 11:39:32] INFO root fetch - processPackages [fb-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fb-python-sdk-1.0.1.tar.gz tmp/fb-python-sdk-1.1.0.tar.gz --markdown 20230417/f/fb-python-sdk/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-04-17 11:39:32] INFO root fetch - processPackages [SimpliPyTEM]: Downloading https://files.pythonhosted.org/packages/0d/02/2ec6ee44fdf3aca3ff37dcf24f1c1397d05a3484a063a7a92e69682bc7d2/SimpliPyTEM-1.0.5.tar.gz
+[2023-04-17 11:39:32] INFO root fetch - processPackages [django-admin-tailwind]: Start processing: ramodels
+[2023-04-17 11:39:32] INFO root fetch - main [MainThread]: End processing [django-admin-tailwind]: success
+[2023-04-17 11:39:32] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-04-17 11:39:32] INFO root fetch - processPackages [nicegui]: Downloading https://files.pythonhosted.org/packages/35/d9/3755a0174dff3fabe8197ca66d234865c535e6def44c59a79263aa707215/nicegui-1.2.8.tar.gz
+[2023-04-17 11:39:32] INFO root fetch - processPackages [SimpliPyTEM]: executing diffoscope
+[2023-04-17 11:39:32] INFO root fetch - processPackages [SimpliPyTEM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SimpliPyTEM-1.0.4.tar.gz tmp/SimpliPyTEM-1.0.5.tar.gz --markdown 20230417/S/SimpliPyTEM/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-04-17 11:39:32] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-04-17 11:39:32] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230417/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-04-17 11:39:33] INFO root fetch - processPackages [unicat]: executing diffoscope
+[2023-04-17 11:39:33] INFO root fetch - processPackages [unicat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unicat-0.2.2.tar.gz tmp/unicat-0.2.3.tar.gz --markdown 20230417/u/unicat/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-04-17 11:39:33] INFO root fetch - processPackages [nicegui]: executing diffoscope
+[2023-04-17 11:39:33] INFO root fetch - processPackages [nicegui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nicegui-1.2.7.tar.gz tmp/nicegui-1.2.8.tar.gz --markdown 20230417/n/nicegui/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-04-17 11:39:33] INFO root fetch - processPackages [chatgpt4-cli]: Start processing: gt-defect-dojo
+[2023-04-17 11:39:33] INFO root fetch - main [MainThread]: End processing [chatgpt4-cli]: success
+[2023-04-17 11:39:33] WARNING root fetch - processPackages [gt-defect-dojo]: Skipping, unable to determine old version
+[2023-04-17 11:39:33] INFO root fetch - processPackages [gt-defect-dojo]: Start processing: finplot
+[2023-04-17 11:39:33] INFO root fetch - main [MainThread]: End processing [gt-defect-dojo] error
+[2023-04-17 11:39:33] INFO root fetch - processPackages [finplot]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-04-17 11:39:34] INFO root fetch - main [MainThread]: End processing [xh-dict-utils]: success
+[2023-04-17 11:39:34] INFO root fetch - processPackages [finplot]: Downloading https://files.pythonhosted.org/packages/d8/83/1b9ded7bb41f766684b2e032bdfef3c8b00ac716e2fb7f5c7f94fee35c19/finplot-1.9.0.tar.gz
+[2023-04-17 11:39:34] INFO root fetch - processPackages [finplot]: Downloading https://files.pythonhosted.org/packages/a0/e8/0fb422079d92d26319c076b149da4731f9fc644a3dc219113b286a4356e6/finplot-1.9.1.tar.gz
+[2023-04-17 11:39:34] INFO root fetch - processPackages [finplot]: executing diffoscope
+[2023-04-17 11:39:34] INFO root fetch - processPackages [finplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finplot-1.9.0.tar.gz tmp/finplot-1.9.1.tar.gz --markdown 20230417/f/finplot/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-04-17 11:39:34] INFO root fetch - main [MainThread]: End processing [fb-python-sdk]: success
+[2023-04-17 11:39:34] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-04-17 11:39:34] INFO root fetch - main [MainThread]: End processing [banner-storedot]: success
+[2023-04-17 11:39:35] INFO root fetch - main [MainThread]: End processing [SimpliPyTEM]: success
+[2023-04-17 11:39:35] INFO root fetch - main [MainThread]: End processing [RobertCommonDriver]: success
+[2023-04-17 11:39:35] INFO root fetch - main [MainThread]: End processing [finplot]: success
+[2023-04-17 11:39:37] INFO root fetch - main [MainThread]: End processing [nicegui]: success
+[2023-04-17 11:39:41] INFO root fetch - main [MainThread]: End processing [aiida-core]: success
+[2023-04-17 11:40:21] INFO root fetch - main [MainThread]: End processing [unicat]: success
+[2023-04-17 11:40:21] INFO root fetch - main [MainThread]: Store serial: [17736226]
