@@ -3985,3 +3985,30 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 04:32:21] INFO root fetch - main [MainThread]: End processing [hcf-backend]: success
 [2023-04-17 04:32:21] INFO root fetch - main [MainThread]: End processing [rapidfuzz]: success
 [2023-04-17 04:32:21] INFO root fetch - main [MainThread]: Store serial: [17732910]
+[2023-04-17 04:37:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17732910]
+[2023-04-17 04:37:30] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-17 04:37:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vhdx-2-zvol
+[2023-04-17 04:37:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Montreal-Forced-Aligner
+[2023-04-17 04:37:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: carefree-drawboard
+[2023-04-17 04:37:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gt-defect-dojo
+[2023-04-17 04:37:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: loganmatic
+[2023-04-17 04:37:30] INFO root fetch - processPackages [gt-defect-dojo]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-17 04:37:30] INFO root fetch - processPackages [loganmatic]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-17 04:37:30] INFO root fetch - processPackages [vhdx-2-zvol]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-04-17 04:37:30] WARNING root fetch - processPackages [carefree-drawboard]: Skipping, unable to determine old version
+[2023-04-17 04:37:30] INFO root fetch - main [MainThread]: End processing [carefree-drawboard] error
+[2023-04-17 04:37:30] INFO root fetch - processPackages [Montreal-Forced-Aligner]: New version: [2.2.8] Old Version: [2.2.7]
+[2023-04-17 04:37:30] INFO root fetch - processPackages [gt-defect-dojo]: executing diffoscope
+[2023-04-17 04:37:30] INFO root fetch - processPackages [gt-defect-dojo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gt_defect_dojo-0.0.1.tar.gz tmp/gt_defect_dojo-0.0.2.tar.gz --markdown 20230417/g/gt-defect-dojo/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-17 04:37:30] INFO root fetch - processPackages [loganmatic]: executing diffoscope
+[2023-04-17 04:37:30] INFO root fetch - processPackages [loganmatic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loganmatic-0.0.5.tar.gz tmp/loganmatic-0.0.6.tar.gz --markdown 20230417/l/loganmatic/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-17 04:37:30] INFO root fetch - processPackages [vhdx-2-zvol]: Downloading https://files.pythonhosted.org/packages/32/de/6b7744089fc48e31aa39cd3e3231a4d9f9c4162bac74a0b60e4eec0ac7c0/vhdx_2_zvol-0.4.3.tar.gz
+[2023-04-17 04:37:31] INFO root fetch - processPackages [Montreal-Forced-Aligner]: Downloading https://files.pythonhosted.org/packages/40/27/030e5a346239e1528ab684f3f794e99244bc69fb424327a045144fd2e922/Montreal%20Forced%20Aligner-2.2.7.tar.gz
+[2023-04-17 04:37:31] INFO root fetch - processPackages [vhdx-2-zvol]: executing diffoscope
+[2023-04-17 04:37:31] INFO root fetch - processPackages [vhdx-2-zvol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vhdx_2_zvol-0.4.2.tar.gz tmp/vhdx_2_zvol-0.4.3.tar.gz --markdown 20230417/v/vhdx-2-zvol/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-04-17 04:37:31] WARNING root fetch - processPackages [Montreal-Forced-Aligner]: Skipping package: exceeds size limit 19085017>=10485760
+[2023-04-17 04:37:31] INFO root fetch - main [MainThread]: End processing [Montreal-Forced-Aligner] error
+[2023-04-17 04:37:31] INFO root fetch - main [MainThread]: End processing [loganmatic]: success
+[2023-04-17 04:37:32] INFO root fetch - main [MainThread]: End processing [vhdx-2-zvol]: success
+[2023-04-17 04:37:41] INFO root fetch - main [MainThread]: End processing [gt-defect-dojo]: success
+[2023-04-17 04:37:41] INFO root fetch - main [MainThread]: Store serial: [17732975]
