@@ -19012,3 +19012,86 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-17 19:28:13] INFO root fetch - main [MainThread]: End processing [python-jsonpath]: success
 [2023-04-17 19:28:14] INFO root fetch - main [MainThread]: End processing [ultracart-rest-sdk]: success
 [2023-04-17 19:28:14] INFO root fetch - main [MainThread]: Store serial: [17741959]
+[2023-04-17 19:33:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17741959]
+[2023-04-17 19:33:24] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-17 19:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mls-api
+[2023-04-17 19:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crazy-thursday
+[2023-04-17 19:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crispr-library-prep
+[2023-04-17 19:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: receptorctl
+[2023-04-17 19:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jsonnet
+[2023-04-17 19:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ambrogio
+[2023-04-17 19:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gpt4all-j
+[2023-04-17 19:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-extensions
+[2023-04-17 19:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyvibe
+[2023-04-17 19:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: prettyqt
+[2023-04-17 19:33:24] INFO root fetch - processPackages [crispr-library-prep]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-17 19:33:24] INFO root fetch - processPackages [prettyqt]: New version: [1.9.1] Old Version: [1.8.1]
+[2023-04-17 19:33:24] INFO root fetch - processPackages [mls-api]: New version: [2.0.0] Old Version: [1.5.0]
+[2023-04-17 19:33:24] INFO root fetch - processPackages [receptorctl]: New version: [1.3.1] Old Version: [1.3.0.dev2]
+[2023-04-17 19:33:24] INFO root fetch - processPackages [jsonnet]: New version: [v0.8.7-pre6] Old Version: [v0.8.7-pre5]
+[2023-04-17 19:33:24] WARNING root fetch - processPackages [gpt4all-j]: Skipping, unable to determine old version
+[2023-04-17 19:33:24] INFO root fetch - processPackages [ambrogio]: New version: [0.6.1] Old Version: [0.4.4]
+[2023-04-17 19:33:24] INFO root fetch - processPackages [gpt4all-j]: Start processing: jeff-api
+[2023-04-17 19:33:24] INFO root fetch - main [MainThread]: End processing [gpt4all-j] error
+[2023-04-17 19:33:24] INFO root fetch - processPackages [pyvibe]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-17 19:33:24] INFO root fetch - processPackages [jeff-api]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-04-17 19:33:24] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.4.9.1] Old Version: [2023.4.9.0]
+[2023-04-17 19:33:24] INFO root fetch - processPackages [cdk-extensions]: New version: [0.0.56] Old Version: [0.0.55]
+[2023-04-17 19:33:24] INFO root fetch - processPackages [crispr-library-prep]: Downloading https://files.pythonhosted.org/packages/fc/8f/1f06eb552c8bb9922edf050ed2687098f8d7ac47abf204b3c704569cfe93/crispr_library_prep-0.1.1.tar.gz
+[2023-04-17 19:33:24] INFO root fetch - processPackages [prettyqt]: Downloading https://files.pythonhosted.org/packages/90/b7/c5a53747168c1ccc1d26309eca89b437a5f5c027f7a8486b65463ad4770c/prettyqt-1.9.1.tar.gz
+[2023-04-17 19:33:24] INFO root fetch - processPackages [receptorctl]: Downloading https://files.pythonhosted.org/packages/a4/35/4fa92213bdf4aeaf996c7fc310993bf0cafd27f63f749d145f5355af130a/receptorctl-1.3.0.dev2.tar.gz
+[2023-04-17 19:33:24] INFO root fetch - processPackages [jsonnet]: Downloading https://files.pythonhosted.org/packages/13/8c/d0db85f2cae696f1f2620863ca5afdd7756af4b48b6498149e04d01437b3/jsonnet-v0.8.7-pre5.tar.gz
+[2023-04-17 19:33:24] INFO root fetch - processPackages [ambrogio]: Downloading https://files.pythonhosted.org/packages/4e/5d/0a45062859c159d4c1cfb25a669ee0389c7ad965bd15d4ad8d4c11b0bc64/ambrogio-0.4.4.tar.gz
+[2023-04-17 19:33:24] INFO root fetch - processPackages [pyvibe]: Downloading https://files.pythonhosted.org/packages/9d/d9/874fed28896e2ac3c7a3bf693e34c055110f2ecab0b874dc23c3a8ebd521/pyvibe-0.0.3.tar.gz
+[2023-04-17 19:33:24] INFO root fetch - processPackages [cdk-extensions]: Downloading https://files.pythonhosted.org/packages/78/bb/5106f1dc69c30288b3582701403c841315e1b7314374b198e2c4d31c41ed/cdk-extensions-0.0.55.tar.gz
+[2023-04-17 19:33:24] INFO root fetch - processPackages [jeff-api]: Downloading https://files.pythonhosted.org/packages/0e/6a/d75d8fd8835b523cef7b8a6357bb6c8149367cc5ee6b8b8a81474b3322a4/jeff_api-1.2.4.tar.gz
+[2023-04-17 19:33:24] INFO root fetch - processPackages [mls-api]: executing diffoscope
+[2023-04-17 19:33:24] INFO root fetch - processPackages [mls-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mls-api-1.5.0.tar.gz tmp/mls-api-2.0.0.tar.gz --markdown 20230417/m/mls-api/1.5.0-2.0.0/diff.md --exclude *.pyd
+[2023-04-17 19:33:25] INFO root fetch - processPackages [crispr-library-prep]: Downloading https://files.pythonhosted.org/packages/8c/e0/335153d71c38b7d805dd59bf1249169065970efe439b935e90e711a95c9b/crispr_library_prep-0.1.2.tar.gz
+[2023-04-17 19:33:25] INFO root fetch - processPackages [jeff-api]: executing diffoscope
+[2023-04-17 19:33:25] INFO root fetch - processPackages [jeff-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jeff_api-1.2.3.tar.gz tmp/jeff_api-1.2.4.tar.gz --markdown 20230417/j/jeff-api/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-04-17 19:33:25] INFO root fetch - processPackages [receptorctl]: Downloading https://files.pythonhosted.org/packages/df/ad/0ae9da79a2b3c4a74f26ab1c7f2084805dfdc0bb16fcd844fd1be29d2872/receptorctl-1.3.1.tar.gz
+[2023-04-17 19:33:25] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-04-17 19:33:25] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.4.9.0.tar.gz tmp/crazy-thursday-2023.4.9.1.tar.gz --markdown 20230417/c/crazy-thursday/2023.4.9.0-2023.4.9.1/diff.md --exclude *.pyd
+[2023-04-17 19:33:25] INFO root fetch - processPackages [ambrogio]: Downloading https://files.pythonhosted.org/packages/1d/2b/e08417e9be4205eccb7f85bf7db7d2f1187b7065d76aa001a426b4c6798f/ambrogio-0.6.1.tar.gz
+[2023-04-17 19:33:25] INFO root fetch - processPackages [crispr-library-prep]: executing diffoscope
+[2023-04-17 19:33:25] INFO root fetch - processPackages [crispr-library-prep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crispr_library_prep-0.1.1.tar.gz tmp/crispr_library_prep-0.1.2.tar.gz --markdown 20230417/c/crispr-library-prep/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-17 19:33:25] INFO root fetch - processPackages [pyvibe]: Downloading https://files.pythonhosted.org/packages/44/c3/0b8b20a1a26a1cad235df50f46e928633b371c50742599037107d61ea7be/pyvibe-0.0.4.tar.gz
+[2023-04-17 19:33:25] INFO root fetch - processPackages [jsonnet]: Downloading https://files.pythonhosted.org/packages/65/2c/3777e7c6bde1d8e180930dca3a47c4c837555428e65e5f2fc0669499f59f/jsonnet-v0.8.7-pre6.tar.gz
+[2023-04-17 19:33:25] INFO root fetch - processPackages [cdk-extensions]: Downloading https://files.pythonhosted.org/packages/3b/9d/f399b824c1f101f1a0d1af612a4986cb4ace327bf336bbdeaa9592946b71/cdk-extensions-0.0.56.tar.gz
+[2023-04-17 19:33:25] INFO root fetch - processPackages [receptorctl]: executing diffoscope
+[2023-04-17 19:33:25] INFO root fetch - processPackages [receptorctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/receptorctl-1.3.0.dev2.tar.gz tmp/receptorctl-1.3.1.tar.gz --markdown 20230417/r/receptorctl/1.3.0.dev2-1.3.1/diff.md --exclude *.pyd
+[2023-04-17 19:33:25] INFO root fetch - processPackages [ambrogio]: executing diffoscope
+[2023-04-17 19:33:25] INFO root fetch - processPackages [ambrogio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ambrogio-0.4.4.tar.gz tmp/ambrogio-0.6.1.tar.gz --markdown 20230417/a/ambrogio/0.4.4-0.6.1/diff.md --exclude *.pyd
+[2023-04-17 19:33:25] INFO root fetch - processPackages [pyvibe]: executing diffoscope
+[2023-04-17 19:33:25] INFO root fetch - processPackages [pyvibe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvibe-0.0.3.tar.gz tmp/pyvibe-0.0.4.tar.gz --markdown 20230417/p/pyvibe/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-17 19:33:25] INFO root fetch - processPackages [jsonnet]: executing diffoscope
+[2023-04-17 19:33:25] INFO root fetch - processPackages [jsonnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonnet-v0.8.7-pre5.tar.gz tmp/jsonnet-v0.8.7-pre6.tar.gz --markdown 20230417/j/jsonnet/v0.8.7-pre5-v0.8.7-pre6/diff.md --exclude *.pyd
+[2023-04-17 19:33:25] INFO root fetch - processPackages [prettyqt]: executing diffoscope
+[2023-04-17 19:33:25] INFO root fetch - processPackages [prettyqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prettyqt-1.8.1.tar.gz tmp/prettyqt-1.9.1.tar.gz --markdown 20230417/p/prettyqt/1.8.1-1.9.1/diff.md --exclude *.pyd
+[2023-04-17 19:33:25] INFO root fetch - processPackages [cdk-extensions]: executing diffoscope
+[2023-04-17 19:33:25] INFO root fetch - processPackages [cdk-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-extensions-0.0.55.tar.gz tmp/cdk-extensions-0.0.56.tar.gz --markdown 20230417/c/cdk-extensions/0.0.55-0.0.56/diff.md --exclude *.pyd
+[2023-04-17 19:33:26] INFO root fetch - processPackages [mls-api]: Start processing: renovosolutions.aws-cdk-renovo-microapi
+[2023-04-17 19:33:26] INFO root fetch - main [MainThread]: End processing [mls-api]: success
+[2023-04-17 19:33:26] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-microapi]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-17 19:33:26] INFO root fetch - processPackages [jeff-api]: Start processing: renovosolutions.aws-cdk-one-time-event
+[2023-04-17 19:33:26] INFO root fetch - main [MainThread]: End processing [jeff-api]: success
+[2023-04-17 19:33:26] INFO root fetch - processPackages [renovosolutions.aws-cdk-one-time-event]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-04-17 19:33:26] INFO root fetch - processPackages [crispr-library-prep]: Start processing: bmgen
+[2023-04-17 19:33:26] INFO root fetch - main [MainThread]: End processing [crispr-library-prep]: success
+[2023-04-17 19:33:26] WARNING root fetch - processPackages [bmgen]: Skipping, unable to determine old version
+[2023-04-17 19:33:26] INFO root fetch - main [MainThread]: End processing [bmgen] error
+[2023-04-17 19:33:26] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-microapi]: executing diffoscope
+[2023-04-17 19:33:26] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-microapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-renovo-microapi-0.0.98.tar.gz tmp/renovosolutions.aws-cdk-renovo-microapi-0.0.99.tar.gz --markdown 20230417/r/renovosolutions.aws-cdk-renovo-microapi/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-17 19:33:26] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-04-17 19:33:26] INFO root fetch - processPackages [renovosolutions.aws-cdk-one-time-event]: executing diffoscope
+[2023-04-17 19:33:26] INFO root fetch - processPackages [renovosolutions.aws-cdk-one-time-event]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-one-time-event-2.1.98.tar.gz tmp/renovosolutions.aws-cdk-one-time-event-2.1.99.tar.gz --markdown 20230417/r/renovosolutions.aws-cdk-one-time-event/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-04-17 19:33:26] INFO root fetch - main [MainThread]: End processing [pyvibe]: success
+[2023-04-17 19:33:26] INFO root fetch - main [MainThread]: End processing [ambrogio]: success
+[2023-04-17 19:33:26] INFO root fetch - main [MainThread]: End processing [receptorctl]: success
+[2023-04-17 19:33:27] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-renovo-microapi]: success
+[2023-04-17 19:33:27] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-one-time-event]: success
+[2023-04-17 19:33:28] INFO root fetch - main [MainThread]: End processing [jsonnet]: success
+[2023-04-17 19:33:28] INFO root fetch - main [MainThread]: End processing [cdk-extensions]: success
+[2023-04-17 19:33:33] INFO root fetch - main [MainThread]: End processing [prettyqt]: success
+[2023-04-17 19:33:33] INFO root fetch - main [MainThread]: Store serial: [17742000]
