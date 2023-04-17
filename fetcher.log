@@ -14079,3 +14079,123 @@ EOFError: EOF read where object expected
 [2023-04-17 15:39:48] INFO root fetch - main [MainThread]: End processing [tb-rest-client]: success
 [2023-04-17 15:39:50] INFO root fetch - main [MainThread]: End processing [edgeimpulse-api]: success
 [2023-04-17 15:39:50] INFO root fetch - main [MainThread]: Store serial: [17739013]
+[2023-04-17 15:44:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17739013]
+[2023-04-17 15:45:01] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-04-17 15:45:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: renovosolutions.aws-cdk-renovo-s3-bucket
+[2023-04-17 15:45:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chatgpt-prompt-wrapper
+[2023-04-17 15:45:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spacy-llm
+[2023-04-17 15:45:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: st-ant-menu
+[2023-04-17 15:45:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pycpep
+[2023-04-17 15:45:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pandas-upgrade
+[2023-04-17 15:45:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: renovosolutions.aws-cdk-control-tower-lifecycle-events
+[2023-04-17 15:45:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: renovosolutions.aws-cdk-aspects-security-group
+[2023-04-17 15:45:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-helpdesk-mgmt
+[2023-04-17 15:45:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xpoint
+[2023-04-17 15:45:01] INFO root fetch - processPackages [st-ant-menu]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-17 15:45:01] WARNING root fetch - processPackages [spacy-llm]: Skipping, unable to determine old version
+[2023-04-17 15:45:01] INFO root fetch - processPackages [spacy-llm]: Start processing: djangoldp-needle
+[2023-04-17 15:45:01] INFO root fetch - main [MainThread]: End processing [spacy-llm] error
+[2023-04-17 15:45:01] INFO root fetch - processPackages [renovosolutions.aws-cdk-aspects-security-group]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-04-17 15:45:01] INFO root fetch - processPackages [st-ant-menu]: executing diffoscope
+[2023-04-17 15:45:01] INFO root fetch - processPackages [st-ant-menu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_ant_menu-0.0.1-py3-none-any.whl.zip tmp/st_ant_menu-0.0.2-py3-none-any.whl.zip --markdown 20230417/s/st-ant-menu/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-17 15:45:01] WARNING root fetch - processPackages [xpoint]: Skipping, unable to determine old version
+[2023-04-17 15:45:01] INFO root fetch - processPackages [xpoint]: Start processing: seeker-agent
+[2023-04-17 15:45:01] WARNING root fetch - processPackages [pandas-upgrade]: Skipping, unable to determine old version
+[2023-04-17 15:45:01] INFO root fetch - main [MainThread]: End processing [xpoint] error
+[2023-04-17 15:45:01] INFO root fetch - processPackages [pycpep]: New version: [1.1.1] Old Version: [1.0.5]
+[2023-04-17 15:45:01] INFO root fetch - processPackages [pandas-upgrade]: Start processing: speechtotext-python
+[2023-04-17 15:45:01] INFO root fetch - main [MainThread]: End processing [pandas-upgrade] error
+[2023-04-17 15:45:01] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: New version: [16.0.1.0.0.2] Old Version: [15.0.3.5.1.5]
+[2023-04-17 15:45:01] INFO root fetch - processPackages [chatgpt-prompt-wrapper]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 15:45:01] INFO root fetch - processPackages [renovosolutions.aws-cdk-control-tower-lifecycle-events]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-04-17 15:45:01] INFO root fetch - processPackages [renovosolutions.aws-cdk-aspects-security-group]: executing diffoscope
+[2023-04-17 15:45:01] INFO root fetch - processPackages [renovosolutions.aws-cdk-aspects-security-group]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-aspects-security-group-2.1.98.tar.gz tmp/renovosolutions.aws-cdk-aspects-security-group-2.1.99.tar.gz --markdown 20230417/r/renovosolutions.aws-cdk-aspects-security-group/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-04-17 15:45:01] INFO root fetch - processPackages [djangoldp-needle]: New version: [0.1.9] Old Version: [0.1.80]
+[2023-04-17 15:45:01] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-s3-bucket]: New version: [2.2.99] Old Version: [2.2.98]
+[2023-04-17 15:45:01] ERROR root fetch - processPackages [seeker-agent]: Unable to get metadata: No such project 'seeker-agent'
+[2023-04-17 15:45:01] INFO root fetch - processPackages [seeker-agent]: Start processing: cir4mics
+[2023-04-17 15:45:01] INFO root fetch - main [MainThread]: End processing [seeker-agent] error
+[2023-04-17 15:45:01] INFO root fetch - processPackages [renovosolutions.aws-cdk-control-tower-lifecycle-events]: executing diffoscope
+[2023-04-17 15:45:01] INFO root fetch - processPackages [renovosolutions.aws-cdk-control-tower-lifecycle-events]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-control-tower-lifecycle-events-0.1.98.tar.gz tmp/renovosolutions.aws-cdk-control-tower-lifecycle-events-0.1.99.tar.gz --markdown 20230417/r/renovosolutions.aws-cdk-control-tower-lifecycle-events/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-04-17 15:45:01] WARNING root fetch - processPackages [speechtotext-python]: Skipping, unable to determine old version
+[2023-04-17 15:45:01] INFO root fetch - processPackages [speechtotext-python]: Start processing: pyntree
+[2023-04-17 15:45:01] INFO root fetch - main [MainThread]: End processing [speechtotext-python] error
+[2023-04-17 15:45:01] INFO root fetch - processPackages [pycpep]: Downloading https://files.pythonhosted.org/packages/bf/79/444f56178c664e531ac710c0c992b34decb74244d94252b8d6e11359b4a2/pycpep-1.0.5.tar.gz
+[2023-04-17 15:45:01] INFO root fetch - processPackages [djangoldp-needle]: Downloading https://files.pythonhosted.org/packages/05/eb/6e13554bdbb47f0831ad99eef90f18192c2a6032caf5795e74a5eef4c3d3/djangoldp_needle-0.1.80.tar.gz
+[2023-04-17 15:45:01] INFO root fetch - processPackages [cir4mics]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-04-17 15:45:01] INFO root fetch - processPackages [pyntree]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-04-17 15:45:01] INFO root fetch - processPackages [chatgpt-prompt-wrapper]: Downloading https://files.pythonhosted.org/packages/ff/19/65cb585972342e16ce40b5952231a60adf5b8e5600ecfa64eb44e6710408/chatgpt_prompt_wrapper-0.0.8.tar.gz
+[2023-04-17 15:45:02] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Downloading https://files.pythonhosted.org/packages/dd/85/9cdb3892b97fd85e4203ee5c6aef97bbeb8bc2d2808654783d9471c2f09b/odoo_addon_helpdesk_mgmt-16.0.1.0.0.2-py3-none-any.whl
+[2023-04-17 15:45:02] INFO root fetch - processPackages [pycpep]: Downloading https://files.pythonhosted.org/packages/5e/41/bd5da7738b3c24eb5f948b23ce3d8a76929a717efe1cca282869dacafbb6/pycpep-1.1.1.tar.gz
+[2023-04-17 15:45:02] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-s3-bucket]: executing diffoscope
+[2023-04-17 15:45:02] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-s3-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-renovo-s3-bucket-2.2.98.tar.gz tmp/renovosolutions.aws-cdk-renovo-s3-bucket-2.2.99.tar.gz --markdown 20230417/r/renovosolutions.aws-cdk-renovo-s3-bucket/2.2.98-2.2.99/diff.md --exclude *.pyd
+[2023-04-17 15:45:02] INFO root fetch - processPackages [cir4mics]: Downloading https://files.pythonhosted.org/packages/2c/99/a4ca2f3bd78a32a733002c46db680d843fcff6ac5cf951c845c6330370eb/cir4mics-0.2.4.tar.gz
+[2023-04-17 15:45:02] INFO root fetch - processPackages [pyntree]: Downloading https://files.pythonhosted.org/packages/6a/d1/cc88a5656d49b2a7bccdb49ac4ed562a9298d3876f0bd0e52549cc6e58d0/pyntree-1.1.0.tar.gz
+[2023-04-17 15:45:02] INFO root fetch - processPackages [chatgpt-prompt-wrapper]: Downloading https://files.pythonhosted.org/packages/ed/bc/7203850ccb3c526f07ae9222e2436edc693b0ca2537f5b943759bb371728/chatgpt_prompt_wrapper-0.0.9.tar.gz
+[2023-04-17 15:45:02] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: executing diffoscope
+[2023-04-17 15:45:02] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_helpdesk_mgmt-15.0.3.5.1.5-py3-none-any.whl.zip tmp/odoo_addon_helpdesk_mgmt-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230417/o/odoo-addon-helpdesk-mgmt/15.0.3.5.1.5-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-04-17 15:45:02] INFO root fetch - processPackages [djangoldp-needle]: Downloading https://files.pythonhosted.org/packages/5f/a8/f808d16ee5b9bdf280bdb0812ed247745ca69cb8c2f140d4b9aff2175da2/djangoldp_needle-0.1.9.tar.gz
+[2023-04-17 15:45:02] INFO root fetch - processPackages [pycpep]: executing diffoscope
+[2023-04-17 15:45:02] INFO root fetch - processPackages [pycpep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycpep-1.0.5.tar.gz tmp/pycpep-1.1.1.tar.gz --markdown 20230417/p/pycpep/1.0.5-1.1.1/diff.md --exclude *.pyd
+[2023-04-17 15:45:02] INFO root fetch - processPackages [chatgpt-prompt-wrapper]: executing diffoscope
+[2023-04-17 15:45:02] INFO root fetch - processPackages [chatgpt-prompt-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatgpt_prompt_wrapper-0.0.8.tar.gz tmp/chatgpt_prompt_wrapper-0.0.9.tar.gz --markdown 20230417/c/chatgpt-prompt-wrapper/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 15:45:02] INFO root fetch - processPackages [djangoldp-needle]: executing diffoscope
+[2023-04-17 15:45:02] INFO root fetch - processPackages [djangoldp-needle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_needle-0.1.80.tar.gz tmp/djangoldp_needle-0.1.9.tar.gz --markdown 20230417/d/djangoldp-needle/0.1.80-0.1.9/diff.md --exclude *.pyd
+[2023-04-17 15:45:02] INFO root fetch - processPackages [pyntree]: Downloading https://files.pythonhosted.org/packages/7e/3c/2c98182fd0884913bec72e2f6bf23a16ebd584de406009217ffa20042014/pyntree-1.1.1.tar.gz
+[2023-04-17 15:45:02] INFO root fetch - processPackages [pyntree]: executing diffoscope
+[2023-04-17 15:45:02] INFO root fetch - processPackages [pyntree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyntree-1.1.0.tar.gz tmp/pyntree-1.1.1.tar.gz --markdown 20230417/p/pyntree/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-04-17 15:45:02] INFO root fetch - processPackages [cir4mics]: Downloading https://files.pythonhosted.org/packages/78/18/f9bd84ae31c5cc5ddda5bac69704707f48275d4bc0800713a6d863063db3/cir4mics-0.2.5.tar.gz
+[2023-04-17 15:45:03] INFO root fetch - processPackages [renovosolutions.aws-cdk-aspects-security-group]: Start processing: customvalidator
+[2023-04-17 15:45:03] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-aspects-security-group]: success
+[2023-04-17 15:45:03] INFO root fetch - processPackages [customvalidator]: New version: [0.6] Old Version: [0.5]
+[2023-04-17 15:45:03] INFO root fetch - processPackages [st-ant-menu]: Start processing: lupin-danquin
+[2023-04-17 15:45:03] INFO root fetch - main [MainThread]: End processing [st-ant-menu]: success
+[2023-04-17 15:45:03] INFO root fetch - processPackages [lupin-danquin]: New version: [1.0.2.dev0] Old Version: [1.0.1]
+[2023-04-17 15:45:03] INFO root fetch - processPackages [lupin-danquin]: executing diffoscope
+[2023-04-17 15:45:03] INFO root fetch - processPackages [lupin-danquin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lupin-danquin-1.0.1.tar.gz tmp/lupin-danquin-1.0.2.dev0.tar.gz --markdown 20230417/l/lupin-danquin/1.0.1-1.0.2.dev0/diff.md --exclude *.pyd
+[2023-04-17 15:45:03] INFO root fetch - processPackages [customvalidator]: Downloading https://files.pythonhosted.org/packages/49/42/34fdb57e2c4486520069fb39e781d9ac2deac97392e70be9bb56c8b39ea9/customvalidator-0.6.tar.gz
+[2023-04-17 15:45:03] INFO root fetch - processPackages [customvalidator]: executing diffoscope
+[2023-04-17 15:45:03] INFO root fetch - processPackages [customvalidator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/customvalidator-0.5.tar.gz tmp/customvalidator-0.6.tar.gz --markdown 20230417/c/customvalidator/0.5-0.6/diff.md --exclude *.pyd
+[2023-04-17 15:45:03] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-s3-bucket]: Start processing: edgeimpulse
+[2023-04-17 15:45:03] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-renovo-s3-bucket]: success
+[2023-04-17 15:45:03] INFO root fetch - processPackages [edgeimpulse]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-17 15:45:03] INFO root fetch - processPackages [pycpep]: Start processing: PyOfficeRobot
+[2023-04-17 15:45:03] INFO root fetch - main [MainThread]: End processing [pycpep]: success
+[2023-04-17 15:45:03] INFO root fetch - processPackages [PyOfficeRobot]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-17 15:45:03] INFO root fetch - processPackages [renovosolutions.aws-cdk-control-tower-lifecycle-events]: Start processing: pyEngine2D-ddd
+[2023-04-17 15:45:03] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-control-tower-lifecycle-events]: success
+[2023-04-17 15:45:04] INFO root fetch - processPackages [edgeimpulse]: Downloading https://files.pythonhosted.org/packages/a9/8d/2cf89530cde56cb368b3f8b1848ca4c71c7e8c8f61acc7c30df0232dc727/edgeimpulse-1.0.2.tar.gz
+[2023-04-17 15:45:04] INFO root fetch - processPackages [cir4mics]: executing diffoscope
+[2023-04-17 15:45:04] INFO root fetch - processPackages [cir4mics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cir4mics-0.2.4.tar.gz tmp/cir4mics-0.2.5.tar.gz --markdown 20230417/c/cir4mics/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-04-17 15:45:04] WARNING root fetch - processPackages [pyEngine2D-ddd]: Skipping, unable to determine old version
+[2023-04-17 15:45:04] INFO root fetch - processPackages [pyEngine2D-ddd]: Start processing: dab
+[2023-04-17 15:45:04] INFO root fetch - main [MainThread]: End processing [pyEngine2D-ddd] error
+[2023-04-17 15:45:04] INFO root fetch - processPackages [PyOfficeRobot]: Downloading https://files.pythonhosted.org/packages/86/b8/19b7de2a2a2a848af360464c37fac3572f5c8d472d5f2a2cfe9d398fef33/PyOfficeRobot-0.1.2.tar.gz
+[2023-04-17 15:45:04] INFO root fetch - processPackages [dab]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-17 15:45:04] INFO root fetch - processPackages [PyOfficeRobot]: Downloading https://files.pythonhosted.org/packages/38/85/d8b9e1b23be499f689b9fe1e8d0e8ef8c3f96fa413b75cef7883e8ea2dbe/PyOfficeRobot-0.1.3.tar.gz
+[2023-04-17 15:45:04] INFO root fetch - processPackages [djangoldp-needle]: Start processing: flask-fd
+[2023-04-17 15:45:04] INFO root fetch - main [MainThread]: End processing [djangoldp-needle]: success
+[2023-04-17 15:45:04] INFO root fetch - processPackages [flask-fd]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-04-17 15:45:04] INFO root fetch - processPackages [edgeimpulse]: Downloading https://files.pythonhosted.org/packages/6a/ca/950029dab352636cd73e4b0bddf35222aadd6d9d3c1a25a29f8de3ba71c9/edgeimpulse-1.0.3.tar.gz
+[2023-04-17 15:45:04] INFO root fetch - processPackages [dab]: Downloading https://files.pythonhosted.org/packages/30/cd/88b95c7160f611bb22bf2e5491e8052f17f0a4d09498e0edc8418f572b16/dab-1.0.0.tar.gz
+[2023-04-17 15:45:04] INFO root fetch - main [MainThread]: End processing [pyntree]: success
+[2023-04-17 15:45:04] INFO root fetch - main [MainThread]: End processing [chatgpt-prompt-wrapper]: success
+[2023-04-17 15:45:04] INFO root fetch - processPackages [PyOfficeRobot]: executing diffoscope
+[2023-04-17 15:45:04] INFO root fetch - processPackages [PyOfficeRobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyOfficeRobot-0.1.2.tar.gz tmp/PyOfficeRobot-0.1.3.tar.gz --markdown 20230417/P/PyOfficeRobot/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-17 15:45:04] INFO root fetch - main [MainThread]: End processing [odoo-addon-helpdesk-mgmt]: success
+[2023-04-17 15:45:04] INFO root fetch - processPackages [flask-fd]: Downloading https://files.pythonhosted.org/packages/fb/d1/0fe795388679efbe1aedd586ff4257d490d89b4d6730e9286c1ecb83d1e4/flask-fd-1.0.4.tar.gz
+[2023-04-17 15:45:04] INFO root fetch - processPackages [edgeimpulse]: executing diffoscope
+[2023-04-17 15:45:04] INFO root fetch - processPackages [edgeimpulse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgeimpulse-1.0.2.tar.gz tmp/edgeimpulse-1.0.3.tar.gz --markdown 20230417/e/edgeimpulse/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-17 15:45:04] INFO root fetch - processPackages [dab]: Downloading https://files.pythonhosted.org/packages/77/d3/1187e2ebc7e8f6bc82fa7558e80da24eeee70d27d8f8817b7aed62fbfccc/dab-1.0.1.tar.gz
+[2023-04-17 15:45:04] INFO root fetch - processPackages [flask-fd]: executing diffoscope
+[2023-04-17 15:45:04] INFO root fetch - processPackages [flask-fd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask-fd-1.0.3.tar.gz tmp/flask-fd-1.0.4.tar.gz --markdown 20230417/f/flask-fd/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-04-17 15:45:04] INFO root fetch - processPackages [dab]: executing diffoscope
+[2023-04-17 15:45:04] INFO root fetch - processPackages [dab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dab-1.0.0.tar.gz tmp/dab-1.0.1.tar.gz --markdown 20230417/d/dab/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-17 15:45:05] INFO root fetch - main [MainThread]: End processing [customvalidator]: success
+[2023-04-17 15:45:05] INFO root fetch - main [MainThread]: End processing [lupin-danquin]: success
+[2023-04-17 15:45:05] INFO root fetch - main [MainThread]: End processing [PyOfficeRobot]: success
+[2023-04-17 15:45:06] INFO root fetch - main [MainThread]: End processing [dab]: success
+[2023-04-17 15:45:06] INFO root fetch - main [MainThread]: End processing [flask-fd]: success
+[2023-04-17 15:45:06] INFO root fetch - main [MainThread]: End processing [edgeimpulse]: success
+[2023-04-17 15:45:09] INFO root fetch - main [MainThread]: End processing [cir4mics]: success
+[2023-04-17 15:45:09] INFO root fetch - main [MainThread]: Store serial: [17739087]
