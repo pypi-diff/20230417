@@ -7671,3 +7671,94 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 10:00:46] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-04-17 10:01:14] INFO root fetch - main [MainThread]: End processing [meerkat-ml]: success
 [2023-04-17 10:01:14] INFO root fetch - main [MainThread]: Store serial: [17735203]
+[2023-04-17 10:06:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17735203]
+[2023-04-17 10:06:24] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-17 10:06:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vectice
+[2023-04-17 10:06:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: webslides
+[2023-04-17 10:06:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: EMPOL-GUI
+[2023-04-17 10:06:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flexypy
+[2023-04-17 10:06:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mukkebude
+[2023-04-17 10:06:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: NikeCA
+[2023-04-17 10:06:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyglove
+[2023-04-17 10:06:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tentaclio
+[2023-04-17 10:06:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vellumdev
+[2023-04-17 10:06:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: thinks-dash-components
+[2023-04-17 10:06:24] WARNING root fetch - processPackages [webslides]: Skipping, unable to determine old version
+[2023-04-17 10:06:24] INFO root fetch - processPackages [webslides]: Start processing: cagen
+[2023-04-17 10:06:24] INFO root fetch - main [MainThread]: End processing [webslides] error
+[2023-04-17 10:06:24] INFO root fetch - processPackages [mukkebude]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-17 10:06:24] INFO root fetch - processPackages [EMPOL-GUI]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-04-17 10:06:24] WARNING root fetch - processPackages [flexypy]: Skipping, unable to determine old version
+[2023-04-17 10:06:24] INFO root fetch - processPackages [flexypy]: Start processing: vectice
+[2023-04-17 10:06:24] INFO root fetch - main [MainThread]: End processing [flexypy] error
+[2023-04-17 10:06:24] INFO root fetch - processPackages [vectice]: New version: [23.2.1.1] Old Version: [23.2.1.0]
+[2023-04-17 10:06:24] INFO root fetch - processPackages [cagen]: New version: [0.2.0a6] Old Version: [0.2.0a5]
+[2023-04-17 10:06:24] INFO root fetch - processPackages [vellumdev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 10:06:24] INFO root fetch - processPackages [thinks-dash-components]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-04-17 10:06:24] INFO root fetch - processPackages [tentaclio]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-04-17 10:06:24] INFO root fetch - processPackages [NikeCA]: New version: [0.1.57] Old Version: [0.1.56]
+[2023-04-17 10:06:24] INFO root fetch - processPackages [vectice]: New version: [23.2.1.1] Old Version: [23.2.1.0]
+[2023-04-17 10:06:24] INFO root fetch - processPackages [pyglove]: New version: [0.3.1.dev20230417] Old Version: [0.3.1.dev20230416]
+[2023-04-17 10:06:24] INFO root fetch - processPackages [vellumdev]: Downloading https://files.pythonhosted.org/packages/52/46/41edb949a8bccc0cdf73bae4c367c1102e01908acbac7b78ec28f2205a80/vellumdev-0.0.8.tar.gz
+[2023-04-17 10:06:24] INFO root fetch - processPackages [mukkebude]: Downloading https://files.pythonhosted.org/packages/f9/4c/1c837056795a7776cf76a614a463c225ef204aa8b16f0ea03e8c9e82f935/mukkebude-0.1.1.tar.gz
+[2023-04-17 10:06:24] INFO root fetch - processPackages [vectice]: Downloading https://files.pythonhosted.org/packages/e4/c5/5ebef41d20f63ed8e0cee66235e769cb9541ca6f1d219a17eedfac0952eb/vectice-23.2.1.0.tar.gz
+[2023-04-17 10:06:24] INFO root fetch - processPackages [vectice]: Downloading https://files.pythonhosted.org/packages/e4/c5/5ebef41d20f63ed8e0cee66235e769cb9541ca6f1d219a17eedfac0952eb/vectice-23.2.1.0.tar.gz
+[2023-04-17 10:06:24] INFO root fetch - processPackages [EMPOL-GUI]: Downloading https://files.pythonhosted.org/packages/04/c5/a596e19f447f128dcf989d3f9bee8e149bde1ce0ecfcaaec33a192a92ada/EMPOL_GUI-2.2.0.tar.gz
+[2023-04-17 10:06:24] INFO root fetch - processPackages [tentaclio]: Downloading https://files.pythonhosted.org/packages/8c/a9/f3af00d2f1a5cc15e9301851e40e2191c7609958bdaee547719dd6b15598/tentaclio-1.1.0.tar.gz
+[2023-04-17 10:06:24] INFO root fetch - processPackages [NikeCA]: Downloading https://files.pythonhosted.org/packages/b4/ff/252ddd09d2d59c25d8804a68c0a56b5030e3cbe74f4fab20e94c96f31e66/NikeCA-0.1.57.tar.gz
+[2023-04-17 10:06:24] INFO root fetch - processPackages [cagen]: Downloading https://files.pythonhosted.org/packages/8f/88/e27477d3f275946b811eed23d0c869038bb130ccb790961e817be6b6e78d/cagen-0.2.0a6.tar.gz
+[2023-04-17 10:06:24] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/5b/72/f438a49afc658bb3033dc1c96c2944361f871cd4cacdaf67dd96c0e3fcc5/pyglove-0.3.1.dev20230417.tar.gz
+[2023-04-17 10:06:24] INFO root fetch - processPackages [EMPOL-GUI]: executing diffoscope
+[2023-04-17 10:06:24] INFO root fetch - processPackages [EMPOL-GUI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EMPOL_GUI-2.1.0.tar.gz tmp/EMPOL_GUI-2.2.0.tar.gz --markdown 20230417/E/EMPOL-GUI/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-04-17 10:06:24] INFO root fetch - processPackages [mukkebude]: Downloading https://files.pythonhosted.org/packages/bc/e3/c8fa8aeeda7c57c040f814663b5c112f37d46ca632edb8f2f5db8c6132ba/mukkebude-0.1.2.tar.gz
+[2023-04-17 10:06:24] INFO root fetch - processPackages [NikeCA]: executing diffoscope
+[2023-04-17 10:06:24] INFO root fetch - processPackages [NikeCA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NikeCA-0.1.56.tar.gz tmp/NikeCA-0.1.57.tar.gz --markdown 20230417/N/NikeCA/0.1.56-0.1.57/diff.md --exclude *.pyd
+[2023-04-17 10:06:24] INFO root fetch - processPackages [vellumdev]: Downloading https://files.pythonhosted.org/packages/de/51/bb0f7b3f604488a13382196efbd85af7b174fbffb00a5cece13e28d92387/vellumdev-0.0.9-py3-none-any.whl
+[2023-04-17 10:06:24] INFO root fetch - processPackages [mukkebude]: executing diffoscope
+[2023-04-17 10:06:24] INFO root fetch - processPackages [mukkebude]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mukkebude-0.1.1.tar.gz tmp/mukkebude-0.1.2.tar.gz --markdown 20230417/m/mukkebude/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-17 10:06:24] INFO root fetch - processPackages [thinks-dash-components]: Downloading https://files.pythonhosted.org/packages/82/e9/c15e9bc375e1dbbf14e83eacc93d5aabd1d93626232a48d40da2bf1cf350/thinks_dash_components-0.3.5.tar.gz
+[2023-04-17 10:06:24] INFO root fetch - processPackages [vellumdev]: executing diffoscope
+[2023-04-17 10:06:24] INFO root fetch - processPackages [vellumdev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vellumdev-0.0.8.tar.gz tmp/vellumdev-0.0.9-py3-none-any.whl.zip --markdown 20230417/v/vellumdev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 10:06:24] INFO root fetch - processPackages [thinks-dash-components]: executing diffoscope
+[2023-04-17 10:06:24] INFO root fetch - processPackages [thinks-dash-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thinks_dash_components-0.3.4.tar.gz tmp/thinks_dash_components-0.3.5.tar.gz --markdown 20230417/t/thinks-dash-components/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-04-17 10:06:24] INFO root fetch - processPackages [cagen]: executing diffoscope
+[2023-04-17 10:06:24] INFO root fetch - processPackages [cagen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cagen-0.2.0a5.tar.gz tmp/cagen-0.2.0a6.tar.gz --markdown 20230417/c/cagen/0.2.0a5-0.2.0a6/diff.md --exclude *.pyd
+[2023-04-17 10:06:24] INFO root fetch - processPackages [tentaclio]: Downloading https://files.pythonhosted.org/packages/a0/6e/989d905d49f04847730b0ba9e82f1788f69a9d78443e8c42a0172f455bc0/tentaclio-1.2.0.tar.gz
+[2023-04-17 10:06:24] INFO root fetch - processPackages [vectice]: Downloading https://files.pythonhosted.org/packages/da/f3/26a4c0be1fa00419351d6fffe32ff6e8cb76fcb89ff2c435ac24cc723894/vectice-23.2.1.1.tar.gz
+[2023-04-17 10:06:24] INFO root fetch - processPackages [vectice]: Downloading https://files.pythonhosted.org/packages/da/f3/26a4c0be1fa00419351d6fffe32ff6e8cb76fcb89ff2c435ac24cc723894/vectice-23.2.1.1.tar.gz
+[2023-04-17 10:06:24] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-04-17 10:06:24] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.3.1.dev20230416.tar.gz tmp/pyglove-0.3.1.dev20230417.tar.gz --markdown 20230417/p/pyglove/0.3.1.dev20230416-0.3.1.dev20230417/diff.md --exclude *.pyd
+[2023-04-17 10:06:24] INFO root fetch - processPackages [tentaclio]: executing diffoscope
+[2023-04-17 10:06:24] INFO root fetch - processPackages [tentaclio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tentaclio-1.1.0.tar.gz tmp/tentaclio-1.2.0.tar.gz --markdown 20230417/t/tentaclio/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-04-17 10:06:24] INFO root fetch - processPackages [vectice]: executing diffoscope
+[2023-04-17 10:06:24] INFO root fetch - processPackages [vectice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vectice-23.2.1.0.tar.gz tmp/vectice-23.2.1.1.tar.gz --markdown 20230417/v/vectice/23.2.1.0-23.2.1.1/diff.md --exclude *.pyd
+[2023-04-17 10:06:24] INFO root fetch - processPackages [vectice]: executing diffoscope
+[2023-04-17 10:06:24] INFO root fetch - processPackages [vectice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vectice-23.2.1.0.tar.gz tmp/vectice-23.2.1.1.tar.gz --markdown 20230417/v/vectice/23.2.1.0-23.2.1.1/diff.md --exclude *.pyd
+[2023-04-17 10:06:26] INFO root fetch - processPackages [EMPOL-GUI]: Start processing: connect-extension-runner
+[2023-04-17 10:06:26] INFO root fetch - main [MainThread]: End processing [EMPOL-GUI]: success
+[2023-04-17 10:06:26] INFO root fetch - processPackages [connect-extension-runner]: New version: [27.9] Old Version: [27.8]
+[2023-04-17 10:06:26] INFO root fetch - processPackages [cagen]: Start processing: gptcache
+[2023-04-17 10:06:26] INFO root fetch - main [MainThread]: End processing [cagen]: success
+[2023-04-17 10:06:26] INFO root fetch - processPackages [mukkebude]: Start processing: example-raito
+[2023-04-17 10:06:26] INFO root fetch - main [MainThread]: End processing [mukkebude]: success
+[2023-04-17 10:06:26] INFO root fetch - processPackages [gptcache]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-17 10:06:26] INFO root fetch - processPackages [connect-extension-runner]: Downloading https://files.pythonhosted.org/packages/b7/ed/a02e4a8a747cd41940435e62d52fce3167d11224d2567d65c03cdfa3f4ba/connect_extension_runner-27.8.tar.gz
+[2023-04-17 10:06:26] INFO root fetch - main [MainThread]: End processing [vellumdev]: success
+[2023-04-17 10:06:26] WARNING root fetch - processPackages [example-raito]: Skipping, unable to determine old version
+[2023-04-17 10:06:26] INFO root fetch - main [MainThread]: End processing [example-raito] error
+[2023-04-17 10:06:26] INFO root fetch - main [MainThread]: End processing [NikeCA]: success
+[2023-04-17 10:06:26] INFO root fetch - processPackages [gptcache]: Downloading https://files.pythonhosted.org/packages/48/fa/7951cf776b9e50ff1089bfadde7258031a0a38d79998521a48a3c9a40db5/gptcache-0.1.8.tar.gz
+[2023-04-17 10:06:26] INFO root fetch - processPackages [connect-extension-runner]: Downloading https://files.pythonhosted.org/packages/47/aa/2906e55e3f6e3d95b8c7007f7182c704a35f6fb92baffad108611f34ecfa/connect_extension_runner-27.9.tar.gz
+[2023-04-17 10:06:26] INFO root fetch - processPackages [connect-extension-runner]: executing diffoscope
+[2023-04-17 10:06:26] INFO root fetch - processPackages [connect-extension-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/connect_extension_runner-27.8.tar.gz tmp/connect_extension_runner-27.9.tar.gz --markdown 20230417/c/connect-extension-runner/27.8-27.9/diff.md --exclude *.pyd
+[2023-04-17 10:06:26] INFO root fetch - processPackages [gptcache]: Downloading https://files.pythonhosted.org/packages/0e/bb/72700c82969c8279118015284301ef2a13caa1a56f2533ba0476c955077f/gptcache-0.1.9.tar.gz
+[2023-04-17 10:06:26] INFO root fetch - processPackages [gptcache]: executing diffoscope
+[2023-04-17 10:06:26] INFO root fetch - processPackages [gptcache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptcache-0.1.8.tar.gz tmp/gptcache-0.1.9.tar.gz --markdown 20230417/g/gptcache/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-17 10:06:27] INFO root fetch - main [MainThread]: End processing [vectice]: success
+[2023-04-17 10:06:27] INFO root fetch - main [MainThread]: End processing [tentaclio]: success
+[2023-04-17 10:06:27] INFO root fetch - main [MainThread]: End processing [thinks-dash-components]: success
+[2023-04-17 10:06:27] INFO root fetch - main [MainThread]: End processing [connect-extension-runner]: success
+[2023-04-17 10:06:28] INFO root fetch - main [MainThread]: End processing [gptcache]: success
+[2023-04-17 10:06:28] INFO root fetch - main [MainThread]: End processing [vectice]: success
+[2023-04-17 10:06:28] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-04-17 10:06:28] INFO root fetch - main [MainThread]: Store serial: [17735253]
