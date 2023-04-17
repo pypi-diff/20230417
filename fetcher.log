@@ -4418,3 +4418,63 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 05:04:31] INFO root fetch - main [MainThread]: End processing [ml-starter]: success
 [2023-04-17 05:04:37] INFO root fetch - main [MainThread]: End processing [prettyqt]: success
 [2023-04-17 05:04:37] INFO root fetch - main [MainThread]: Store serial: [17733195]
+[2023-04-17 05:09:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17733195]
+[2023-04-17 05:09:46] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-17 05:09:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ml-starter
+[2023-04-17 05:09:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yyperf
+[2023-04-17 05:09:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SALTISE-components
+[2023-04-17 05:09:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: test-bmi
+[2023-04-17 05:09:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vhdx-2-zvol
+[2023-04-17 05:09:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tutti-client
+[2023-04-17 05:09:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bfrac
+[2023-04-17 05:09:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: botpunk-jed
+[2023-04-17 05:09:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: geomapdemo
+[2023-04-17 05:09:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: GANDLF
+[2023-04-17 05:09:46] INFO root fetch - processPackages [SALTISE-components]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-04-17 05:09:46] WARNING root fetch - processPackages [test-bmi]: Skipping, unable to determine old version
+[2023-04-17 05:09:46] INFO root fetch - processPackages [test-bmi]: Start processing: groundingdino
+[2023-04-17 05:09:46] INFO root fetch - main [MainThread]: End processing [test-bmi] error
+[2023-04-17 05:09:46] INFO root fetch - processPackages [ml-starter]: New version: [0.0.18] Old Version: [0.0.17]
+[2023-04-17 05:09:46] INFO root fetch - processPackages [vhdx-2-zvol]: New version: [0.4.4.2] Old Version: [0.4.4.1]
+[2023-04-17 05:09:46] WARNING root fetch - processPackages [botpunk-jed]: Skipping, unable to determine old version
+[2023-04-17 05:09:46] INFO root fetch - processPackages [bfrac]: New version: [0.0.5] Old Version: [0.0.3]
+[2023-04-17 05:09:46] INFO root fetch - processPackages [geomapdemo]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-17 05:09:46] INFO root fetch - main [MainThread]: End processing [botpunk-jed] error
+[2023-04-17 05:09:46] ERROR root fetch - processPackages [groundingdino]: Unable to get metadata: No such project 'groundingdino'
+[2023-04-17 05:09:46] INFO root fetch - main [MainThread]: End processing [groundingdino] error
+[2023-04-17 05:09:46] INFO root fetch - processPackages [tutti-client]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-04-17 05:09:46] INFO root fetch - processPackages [GANDLF]: New version: [0.0.16.dev20230417] Old Version: [0.0.16.dev20230416]
+[2023-04-17 05:09:46] INFO root fetch - processPackages [yyperf]: New version: [0.6.9.dev2] Old Version: [0.6.9]
+[2023-04-17 05:09:46] INFO root fetch - processPackages [ml-starter]: executing diffoscope
+[2023-04-17 05:09:46] INFO root fetch - processPackages [ml-starter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-starter-0.0.17.tar.gz tmp/ml-starter-0.0.18.tar.gz --markdown 20230417/m/ml-starter/0.0.17-0.0.18/diff.md --exclude *.pyd
+[2023-04-17 05:09:46] INFO root fetch - processPackages [geomapdemo]: Downloading https://files.pythonhosted.org/packages/5d/08/ebb60f8d9754bb12cf3455ab7705054d007439e87fb0c3aefcf2e2604830/geomapdemo-0.1.4.tar.gz
+[2023-04-17 05:09:46] INFO root fetch - processPackages [tutti-client]: Downloading https://files.pythonhosted.org/packages/d7/ff/6dc2a2ac3fdb96131ebde1210a9607650c6fc8e93ce7e2a41b846c014152/tutti-client-0.3.6.tar.gz
+[2023-04-17 05:09:46] INFO root fetch - processPackages [SALTISE-components]: Downloading https://files.pythonhosted.org/packages/7f/f1/5be3e15277d64a3b4ca2c8f5080547375a273fe57e8c3044ec39ac943851/SALTISE_components-0.2.5.tar.gz
+[2023-04-17 05:09:46] INFO root fetch - processPackages [vhdx-2-zvol]: Downloading https://files.pythonhosted.org/packages/29/0a/0f3399810c17c5dd1293b46f8a0cdd050d4d8a41b2bbaad865dbd60bca53/vhdx_2_zvol-0.4.4.2.tar.gz
+[2023-04-17 05:09:46] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/37/6c/bcf6b9503d18cdc20306cdff52ac26a6c98c67ce1afb8dd58af2c4315d9f/GANDLF-0.0.16.dev20230417.tar.gz
+[2023-04-17 05:09:46] INFO root fetch - processPackages [yyperf]: Downloading https://files.pythonhosted.org/packages/01/56/8d1cfb1ce995c585d9c70c5a9b7760fbdefdbec743e277a0d10d1c706e26/yyperf-0.6.9.tar.gz
+[2023-04-17 05:09:46] INFO root fetch - processPackages [geomapdemo]: executing diffoscope
+[2023-04-17 05:09:46] INFO root fetch - processPackages [geomapdemo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geomapdemo-0.1.3.tar.gz tmp/geomapdemo-0.1.4.tar.gz --markdown 20230417/g/geomapdemo/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-17 05:09:46] INFO root fetch - processPackages [bfrac]: Downloading https://files.pythonhosted.org/packages/34/ff/db776cde58972f7cb9aed24e02cb535ada160d629b970fc6edf7650ac0ca/bfrac-0.0.5.tar.gz
+[2023-04-17 05:09:46] WARNING root fetch - processPackages [yyperf]: Skipping package: exceeds size limit 15809435>=10485760
+[2023-04-17 05:09:46] INFO root fetch - main [MainThread]: End processing [yyperf] error
+[2023-04-17 05:09:46] INFO root fetch - processPackages [vhdx-2-zvol]: executing diffoscope
+[2023-04-17 05:09:46] INFO root fetch - processPackages [vhdx-2-zvol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vhdx_2_zvol-0.4.4.1.tar.gz tmp/vhdx_2_zvol-0.4.4.2.tar.gz --markdown 20230417/v/vhdx-2-zvol/0.4.4.1-0.4.4.2/diff.md --exclude *.pyd
+[2023-04-17 05:09:46] INFO root fetch - processPackages [GANDLF]: executing diffoscope
+[2023-04-17 05:09:46] INFO root fetch - processPackages [GANDLF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GANDLF-0.0.16.dev20230416.tar.gz tmp/GANDLF-0.0.16.dev20230417.tar.gz --markdown 20230417/G/GANDLF/0.0.16.dev20230416-0.0.16.dev20230417/diff.md --exclude *.pyd
+[2023-04-17 05:09:46] INFO root fetch - processPackages [bfrac]: executing diffoscope
+[2023-04-17 05:09:46] INFO root fetch - processPackages [bfrac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bfrac-0.0.3.tar.gz tmp/bfrac-0.0.5.tar.gz --markdown 20230417/b/bfrac/0.0.3-0.0.5/diff.md --exclude *.pyd
+[2023-04-17 05:09:47] INFO root fetch - processPackages [tutti-client]: Downloading https://files.pythonhosted.org/packages/bb/8a/445e50a5090ecebe49a0117c9ccc61c131d1d0f4db886e725c4062489958/tutti-client-0.3.7.tar.gz
+[2023-04-17 05:09:47] INFO root fetch - processPackages [tutti-client]: executing diffoscope
+[2023-04-17 05:09:47] INFO root fetch - processPackages [tutti-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tutti-client-0.3.6.tar.gz tmp/tutti-client-0.3.7.tar.gz --markdown 20230417/t/tutti-client/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-04-17 05:09:47] INFO root fetch - main [MainThread]: End processing [geomapdemo]: success
+[2023-04-17 05:09:48] INFO root fetch - main [MainThread]: End processing [vhdx-2-zvol]: success
+[2023-04-17 05:09:48] INFO root fetch - processPackages [SALTISE-components]: Downloading https://files.pythonhosted.org/packages/4f/06/bec99c39cfa3f27370714ba6fe88aba7694a893ef80e501566df34ef8afc/SALTISE_components-0.2.6.tar.gz
+[2023-04-17 05:09:48] INFO root fetch - processPackages [SALTISE-components]: executing diffoscope
+[2023-04-17 05:09:48] INFO root fetch - processPackages [SALTISE-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SALTISE_components-0.2.5.tar.gz tmp/SALTISE_components-0.2.6.tar.gz --markdown 20230417/S/SALTISE-components/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-04-17 05:09:48] INFO root fetch - main [MainThread]: End processing [bfrac]: success
+[2023-04-17 05:09:48] INFO root fetch - main [MainThread]: End processing [tutti-client]: success
+[2023-04-17 05:09:48] INFO root fetch - main [MainThread]: End processing [GANDLF]: success
+[2023-04-17 05:09:49] INFO root fetch - main [MainThread]: End processing [ml-starter]: success
+[2023-04-17 05:10:15] INFO root fetch - main [MainThread]: End processing [SALTISE-components]: success
+[2023-04-17 05:10:15] INFO root fetch - main [MainThread]: Store serial: [17733232]
