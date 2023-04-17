@@ -18736,3 +18736,95 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-17 19:11:37] INFO root fetch - main [MainThread]: End processing [naampy]: success
 [2023-04-17 19:11:42] INFO root fetch - main [MainThread]: End processing [dovado-rtl]: success
 [2023-04-17 19:11:42] INFO root fetch - main [MainThread]: Store serial: [17741790]
+[2023-04-17 19:16:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17741790]
+[2023-04-17 19:16:51] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-04-17 19:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hqdragondownload
+[2023-04-17 19:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: testrail-api-reporter
+[2023-04-17 19:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: viur-cli
+[2023-04-17 19:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: maestros
+[2023-04-17 19:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: reacher
+[2023-04-17 19:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rexify
+[2023-04-17 19:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: runish
+[2023-04-17 19:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tarvis-exchange-dydx
+[2023-04-17 19:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pepperize.cdk-lambda-deno
+[2023-04-17 19:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pipcolorlibV2
+[2023-04-17 19:16:51] INFO root fetch - processPackages [rexify]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-17 19:16:51] INFO root fetch - processPackages [viur-cli]: New version: [1.0.2] Old Version: [1.0.0rc2]
+[2023-04-17 19:16:51] WARNING root fetch - processPackages [runish]: Skipping, unable to determine old version
+[2023-04-17 19:16:51] INFO root fetch - processPackages [runish]: Start processing: crunch-cli
+[2023-04-17 19:16:51] INFO root fetch - main [MainThread]: End processing [runish] error
+[2023-04-17 19:16:51] INFO root fetch - processPackages [hqdragondownload]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-04-17 19:16:51] WARNING root fetch - processPackages [maestros]: Skipping, unable to determine old version
+[2023-04-17 19:16:51] INFO root fetch - processPackages [maestros]: Start processing: fonticon-materialdesignicons7
+[2023-04-17 19:16:51] INFO root fetch - main [MainThread]: End processing [maestros] error
+[2023-04-17 19:16:51] WARNING root fetch - processPackages [tarvis-exchange-dydx]: Skipping, unable to determine old version
+[2023-04-17 19:16:51] WARNING root fetch - processPackages [pipcolorlibV2]: Skipping, unable to determine old version
+[2023-04-17 19:16:51] INFO root fetch - processPackages [tarvis-exchange-dydx]: Start processing: syncmaster
+[2023-04-17 19:16:51] INFO root fetch - processPackages [reacher]: New version: [0.4.0] Old Version: [0.3.8]
+[2023-04-17 19:16:51] INFO root fetch - main [MainThread]: End processing [tarvis-exchange-dydx] error
+[2023-04-17 19:16:51] INFO root fetch - processPackages [pipcolorlibV2]: Start processing: fonticon-materialdesignicons6
+[2023-04-17 19:16:51] INFO root fetch - main [MainThread]: End processing [pipcolorlibV2] error
+[2023-04-17 19:16:51] INFO root fetch - processPackages [testrail-api-reporter]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-04-17 19:16:51] INFO root fetch - processPackages [pepperize.cdk-lambda-deno]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-17 19:16:51] INFO root fetch - processPackages [rexify]: executing diffoscope
+[2023-04-17 19:16:51] INFO root fetch - processPackages [rexify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rexify-0.1.8.tar.gz tmp/rexify-0.1.9.tar.gz --markdown 20230417/r/rexify/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-17 19:16:51] INFO root fetch - processPackages [syncmaster]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-17 19:16:51] INFO root fetch - processPackages [crunch-cli]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-04-17 19:16:51] WARNING root fetch - processPackages [fonticon-materialdesignicons7]: Skipping, unable to determine old version
+[2023-04-17 19:16:51] INFO root fetch - processPackages [fonticon-materialdesignicons7]: Start processing: viur-cli
+[2023-04-17 19:16:51] INFO root fetch - main [MainThread]: End processing [fonticon-materialdesignicons7] error
+[2023-04-17 19:16:51] INFO root fetch - processPackages [viur-cli]: New version: [1.0.2] Old Version: [1.0.0rc2]
+[2023-04-17 19:16:51] INFO root fetch - processPackages [viur-cli]: Downloading https://files.pythonhosted.org/packages/b1/c9/0104267ed0958cdc14adfef7b120d1c29f721976ffca47e3899b7b3751f3/viur_cli-1.0.0rc2.tar.gz
+[2023-04-17 19:16:51] INFO root fetch - processPackages [reacher]: Downloading https://files.pythonhosted.org/packages/7e/32/88bfccfba1e3dd6a6a6a4562b9f88bb592fe0873f9da397d9ac6fb9c43c5/reacher-0.3.8-py2.py3-none-any.whl
+[2023-04-17 19:16:51] INFO root fetch - processPackages [fonticon-materialdesignicons6]: New version: [6.9.96] Old Version: [6.5.95]
+[2023-04-17 19:16:51] INFO root fetch - processPackages [hqdragondownload]: Downloading https://files.pythonhosted.org/packages/65/6d/01a56ef3d48cc7ec55b46ff31c6dd583f53991eb4d6cd95e2a6f5112d970/hqdragondownload-1.1.0.tar.gz
+[2023-04-17 19:16:51] INFO root fetch - processPackages [viur-cli]: Downloading https://files.pythonhosted.org/packages/b1/c9/0104267ed0958cdc14adfef7b120d1c29f721976ffca47e3899b7b3751f3/viur_cli-1.0.0rc2.tar.gz
+[2023-04-17 19:16:51] INFO root fetch - processPackages [testrail-api-reporter]: Downloading https://files.pythonhosted.org/packages/0e/61/265589991bb01cb2e76391b0ad58d69c633e4bf78e1a281e12f717d6c639/testrail_api_reporter-1.2.8.tar.gz
+[2023-04-17 19:16:51] INFO root fetch - processPackages [pepperize.cdk-lambda-deno]: Downloading https://files.pythonhosted.org/packages/4c/97/7e7ee48e76578e376852415f8f3506f459ac0999dde2c44ae8a214009250/pepperize.cdk-lambda-deno-0.0.98.tar.gz
+[2023-04-17 19:16:51] INFO root fetch - processPackages [crunch-cli]: Downloading https://files.pythonhosted.org/packages/4c/3a/d9d3a677ecd35c747746c5548c956838e0ea15f40ab4977d619b1bbe9117/crunch-cli-0.8.1.tar.gz
+[2023-04-17 19:16:51] INFO root fetch - processPackages [syncmaster]: Downloading https://files.pythonhosted.org/packages/0c/5c/338a0f01d72100b103b5eaa5c594b35ec9dc8ea22a7e58a103cdee434446/syncmaster-0.0.3.tar.gz
+[2023-04-17 19:16:51] INFO root fetch - processPackages [fonticon-materialdesignicons6]: Downloading https://files.pythonhosted.org/packages/01/8e/8553db918e87cd4f41ec72dfeb8ce0231cf3614efcf3f62b126a5fed832c/fonticon-materialdesignicons6-6.5.95.tar.gz
+[2023-04-17 19:16:51] INFO root fetch - processPackages [reacher]: Downloading https://files.pythonhosted.org/packages/8d/30/83f5ef2b08d40cc519618ce09fc6391f798ec9b2337bfa3c8eb490e218a7/reacher-0.4.0-py2.py3-none-any.whl
+[2023-04-17 19:16:51] INFO root fetch - processPackages [viur-cli]: Downloading https://files.pythonhosted.org/packages/46/6e/1a174fe36feae37ed72ce9c5e23c2ce946bb1d100413211c47ce3a3fa451/viur_cli-1.0.2.tar.gz
+[2023-04-17 19:16:51] INFO root fetch - processPackages [viur-cli]: Downloading https://files.pythonhosted.org/packages/46/6e/1a174fe36feae37ed72ce9c5e23c2ce946bb1d100413211c47ce3a3fa451/viur_cli-1.0.2.tar.gz
+[2023-04-17 19:16:51] INFO root fetch - processPackages [hqdragondownload]: Downloading https://files.pythonhosted.org/packages/d0/a5/8b7422c82b6dd02d18f651a40e0f2e43e3846afdb3acc7f7e59f9a82615d/hqdragondownload-1.1.1.tar.gz
+[2023-04-17 19:16:51] INFO root fetch - processPackages [syncmaster]: executing diffoscope
+[2023-04-17 19:16:51] INFO root fetch - processPackages [syncmaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syncmaster-0.0.2.tar.gz tmp/syncmaster-0.0.3.tar.gz --markdown 20230417/s/syncmaster/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-17 19:16:52] INFO root fetch - processPackages [pepperize.cdk-lambda-deno]: Downloading https://files.pythonhosted.org/packages/85/5f/f687fbc9239934d25fca128989aec9e2827e117f5b840cc95329a9c1fd77/pepperize.cdk-lambda-deno-0.0.99.tar.gz
+[2023-04-17 19:16:52] INFO root fetch - processPackages [crunch-cli]: Downloading https://files.pythonhosted.org/packages/db/a1/8b8a54f092feb6cdab4bac7abee03cc49b8e0e6594a7a55a4c1fe6455114/crunch-cli-0.9.0.tar.gz
+[2023-04-17 19:16:52] INFO root fetch - processPackages [testrail-api-reporter]: Downloading https://files.pythonhosted.org/packages/2f/71/ef1340db7326d6c0f17d046c4926b397e83fc53fd56566fa6d8a2bb9d3b5/testrail_api_reporter-1.2.9.tar.gz
+[2023-04-17 19:16:52] INFO root fetch - processPackages [reacher]: executing diffoscope
+[2023-04-17 19:16:52] INFO root fetch - processPackages [reacher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reacher-0.3.8-py2.py3-none-any.whl.zip tmp/reacher-0.4.0-py2.py3-none-any.whl.zip --markdown 20230417/r/reacher/0.3.8-0.4.0/diff.md --exclude *.pyd
+[2023-04-17 19:16:52] INFO root fetch - processPackages [viur-cli]: executing diffoscope
+[2023-04-17 19:16:52] INFO root fetch - processPackages [viur-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viur_cli-1.0.0rc2.tar.gz tmp/viur_cli-1.0.2.tar.gz --markdown 20230417/v/viur-cli/1.0.0rc2-1.0.2/diff.md --exclude *.pyd
+[2023-04-17 19:16:52] INFO root fetch - processPackages [crunch-cli]: executing diffoscope
+[2023-04-17 19:16:52] INFO root fetch - processPackages [crunch-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crunch-cli-0.8.1.tar.gz tmp/crunch-cli-0.9.0.tar.gz --markdown 20230417/c/crunch-cli/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-04-17 19:16:52] INFO root fetch - processPackages [hqdragondownload]: executing diffoscope
+[2023-04-17 19:16:52] INFO root fetch - processPackages [hqdragondownload]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hqdragondownload-1.1.0.tar.gz tmp/hqdragondownload-1.1.1.tar.gz --markdown 20230417/h/hqdragondownload/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-04-17 19:16:52] INFO root fetch - processPackages [viur-cli]: executing diffoscope
+[2023-04-17 19:16:52] INFO root fetch - processPackages [viur-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viur_cli-1.0.0rc2.tar.gz tmp/viur_cli-1.0.2.tar.gz --markdown 20230417/v/viur-cli/1.0.0rc2-1.0.2/diff.md --exclude *.pyd
+[2023-04-17 19:16:52] INFO root fetch - processPackages [fonticon-materialdesignicons6]: Downloading https://files.pythonhosted.org/packages/2d/17/5ccdaaf03de6527b9cb086b63fc12f0befb0e1ed41caa7f042394b8bba0a/fonticon_materialdesignicons6-6.9.96.tar.gz
+[2023-04-17 19:16:52] INFO root fetch - processPackages [pepperize.cdk-lambda-deno]: executing diffoscope
+[2023-04-17 19:16:52] INFO root fetch - processPackages [pepperize.cdk-lambda-deno]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-lambda-deno-0.0.98.tar.gz tmp/pepperize.cdk-lambda-deno-0.0.99.tar.gz --markdown 20230417/p/pepperize.cdk-lambda-deno/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-17 19:16:52] INFO root fetch - processPackages [fonticon-materialdesignicons6]: executing diffoscope
+[2023-04-17 19:16:52] INFO root fetch - processPackages [fonticon-materialdesignicons6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fonticon-materialdesignicons6-6.5.95.tar.gz tmp/fonticon_materialdesignicons6-6.9.96.tar.gz --markdown 20230417/f/fonticon-materialdesignicons6/6.5.95-6.9.96/diff.md --exclude *.pyd
+[2023-04-17 19:16:52] INFO root fetch - processPackages [rexify]: Start processing: Metadata-Magic
+[2023-04-17 19:16:52] INFO root fetch - main [MainThread]: End processing [rexify]: success
+[2023-04-17 19:16:52] INFO root fetch - processPackages [testrail-api-reporter]: executing diffoscope
+[2023-04-17 19:16:52] INFO root fetch - processPackages [testrail-api-reporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testrail_api_reporter-1.2.8.tar.gz tmp/testrail_api_reporter-1.2.9.tar.gz --markdown 20230417/t/testrail-api-reporter/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-04-17 19:16:53] INFO root fetch - processPackages [Metadata-Magic]: New version: [0.4.1] Old Version: [0.3.2]
+[2023-04-17 19:16:53] INFO root fetch - processPackages [Metadata-Magic]: Downloading https://files.pythonhosted.org/packages/0e/84/87d58ba0fb34fa42aec834edb24f4a1709dc38c536d72a8e0ee7bcd7e303/Metadata_Magic-0.3.2-py3-none-any.whl
+[2023-04-17 19:16:53] INFO root fetch - main [MainThread]: End processing [reacher]: success
+[2023-04-17 19:16:53] INFO root fetch - processPackages [Metadata-Magic]: Downloading https://files.pythonhosted.org/packages/c8/60/a832363eb30e21c70ed98d0aa123e0713ae4a5a72070ace2d73234297640/Metadata_Magic-0.4.1-py3-none-any.whl
+[2023-04-17 19:16:53] INFO root fetch - main [MainThread]: End processing [syncmaster]: success
+[2023-04-17 19:16:53] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-lambda-deno]: success
+[2023-04-17 19:16:53] INFO root fetch - processPackages [Metadata-Magic]: executing diffoscope
+[2023-04-17 19:16:53] INFO root fetch - processPackages [Metadata-Magic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Metadata_Magic-0.3.2-py3-none-any.whl.zip tmp/Metadata_Magic-0.4.1-py3-none-any.whl.zip --markdown 20230417/M/Metadata-Magic/0.3.2-0.4.1/diff.md --exclude *.pyd
+[2023-04-17 19:16:53] INFO root fetch - main [MainThread]: End processing [hqdragondownload]: success
+[2023-04-17 19:16:53] INFO root fetch - main [MainThread]: End processing [crunch-cli]: success
+[2023-04-17 19:16:53] INFO root fetch - main [MainThread]: End processing [viur-cli]: success
+[2023-04-17 19:16:53] INFO root fetch - main [MainThread]: End processing [viur-cli]: success
+[2023-04-17 19:16:54] INFO root fetch - main [MainThread]: End processing [Metadata-Magic]: success
+[2023-04-17 19:17:05] INFO root fetch - main [MainThread]: End processing [fonticon-materialdesignicons6]: success
+[2023-04-17 19:17:29] INFO root fetch - main [MainThread]: End processing [testrail-api-reporter]: success
+[2023-04-17 19:17:29] INFO root fetch - main [MainThread]: Store serial: [17741845]
