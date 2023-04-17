@@ -8124,3 +8124,115 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 10:32:43] INFO root fetch - main [MainThread]: End processing [RobertCommonDriver]: success
 [2023-04-17 10:33:34] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-04-17 10:33:34] INFO root fetch - main [MainThread]: Store serial: [17735508]
+[2023-04-17 10:38:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17735508]
+[2023-04-17 10:38:44] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-04-17 10:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rest-framework-redesign
+[2023-04-17 10:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CurrenTime
+[2023-04-17 10:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flexypy
+[2023-04-17 10:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: garpix-profitbase
+[2023-04-17 10:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Munki-Manifest-Generator
+[2023-04-17 10:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tf-estimator-nightly
+[2023-04-17 10:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: blobtoolkit-pipeline
+[2023-04-17 10:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: blobtoolkit
+[2023-04-17 10:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: smartwheel-core
+[2023-04-17 10:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: telenvi
+[2023-04-17 10:38:44] WARNING root fetch - processPackages [rest-framework-redesign]: Skipping, unable to determine old version
+[2023-04-17 10:38:44] INFO root fetch - processPackages [rest-framework-redesign]: Start processing: few-shot-priming
+[2023-04-17 10:38:44] INFO root fetch - main [MainThread]: End processing [rest-framework-redesign] error
+[2023-04-17 10:38:44] INFO root fetch - processPackages [Munki-Manifest-Generator]: New version: [1.2.0] Old Version: [1.1.2]
+[2023-04-17 10:38:44] INFO root fetch - processPackages [CurrenTime]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-04-17 10:38:44] INFO root fetch - processPackages [flexypy]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-17 10:38:44] INFO root fetch - processPackages [blobtoolkit-pipeline]: New version: [4.1.4] Old Version: [4.1.3]
+[2023-04-17 10:38:44] INFO root fetch - processPackages [garpix-profitbase]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-04-17 10:38:44] INFO root fetch - processPackages [smartwheel-core]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-17 10:38:44] INFO root fetch - processPackages [telenvi]: New version: [5.0.3] Old Version: [5.0.2]
+[2023-04-17 10:38:44] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-04-17 10:38:44] INFO root fetch - processPackages [blobtoolkit]: New version: [4.1.4] Old Version: [4.1.3]
+[2023-04-17 10:38:44] INFO root fetch - processPackages [tf-estimator-nightly]: New version: [2.9.0.dev2022033108] Old Version: [2.9.0.dev2022033008]
+[2023-04-17 10:38:44] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-04-17 10:38:44] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230417/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-04-17 10:38:44] INFO root fetch - processPackages [flexypy]: Downloading https://files.pythonhosted.org/packages/28/dd/d62d87c75b83bf2f756c26106f493b019454efa781f2ed71e0c299d64914/flexypy-0.0.1.tar.gz
+[2023-04-17 10:38:44] INFO root fetch - processPackages [tf-estimator-nightly]: executing diffoscope
+[2023-04-17 10:38:44] INFO root fetch - processPackages [garpix-profitbase]: Downloading https://files.pythonhosted.org/packages/c0/88/d3681917ce6f31901b69086dffff7d085fb53b5723b49e2eaba28d05c630/garpix_profitbase-1.9.1.tar.gz
+[2023-04-17 10:38:44] INFO root fetch - processPackages [tf-estimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip --markdown 20230417/t/tf-estimator-nightly/2.9.0.dev2022033008-2.9.0.dev2022033108/diff.md --exclude *.pyd
+[2023-04-17 10:38:44] INFO root fetch - processPackages [blobtoolkit-pipeline]: Downloading https://files.pythonhosted.org/packages/9e/9e/a2798d597fb3bc8325be8c2c9aab5a91222c2cbbe4f4b00ebf6762c14d51/blobtoolkit-pipeline-4.1.3.tar.gz
+[2023-04-17 10:38:44] INFO root fetch - processPackages [smartwheel-core]: Downloading https://files.pythonhosted.org/packages/ad/30/7f7194af44f877ddbcf5957f492ad6763db0a456de730b443457cd685021/smartwheel-core-0.0.4.tar.gz
+[2023-04-17 10:38:44] INFO root fetch - processPackages [Munki-Manifest-Generator]: Downloading https://files.pythonhosted.org/packages/92/30/b93031261f39b36fcd7e9253c35e2be499bd1c020557df0778bc1a30288f/Munki-Manifest-Generator-1.1.2.tar.gz
+[2023-04-17 10:38:44] INFO root fetch - processPackages [telenvi]: Downloading https://files.pythonhosted.org/packages/a2/a4/f4eb6f2275291af21e675ec1054c54826f4d9786986e7ba46c6e8f8cc9f7/telenvi-5.0.2.tar.gz
+[2023-04-17 10:38:44] INFO root fetch - processPackages [blobtoolkit]: Downloading https://files.pythonhosted.org/packages/55/c4/0205331cf90c0f94e2c44c76fddca642ebc1a509f1b94cf39d86cda898b3/blobtoolkit-4.1.3.tar.gz
+[2023-04-17 10:38:44] INFO root fetch - processPackages [CurrenTime]: Downloading https://files.pythonhosted.org/packages/a0/d1/4c70853f80006eb42f2a1342de109dd6666897b0ce2ca039686c0913dd73/currentime-1.1.0.tar.gz
+[2023-04-17 10:38:45] INFO root fetch - processPackages [CurrenTime]: executing diffoscope
+[2023-04-17 10:38:45] INFO root fetch - processPackages [CurrenTime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/currentime-1.0.0.tar.gz tmp/currentime-1.1.0.tar.gz --markdown 20230417/C/CurrenTime/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-04-17 10:38:45] INFO root fetch - processPackages [flexypy]: Downloading https://files.pythonhosted.org/packages/74/7b/c4bfce39b99ce1d48b6006eda59735a4128b424a7e2a8e281168234f4cff/flexypy-0.0.2.tar.gz
+[2023-04-17 10:38:45] INFO root fetch - processPackages [flexypy]: executing diffoscope
+[2023-04-17 10:38:45] INFO root fetch - processPackages [flexypy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flexypy-0.0.1.tar.gz tmp/flexypy-0.0.2.tar.gz --markdown 20230417/f/flexypy/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-17 10:38:45] INFO root fetch - processPackages [telenvi]: Downloading https://files.pythonhosted.org/packages/bb/17/b856e081a571591b842f904b440d6e186aa521f087d104e3e8d3d06b7a0e/telenvi-5.0.3.tar.gz
+[2023-04-17 10:38:45] INFO root fetch - processPackages [smartwheel-core]: Downloading https://files.pythonhosted.org/packages/2a/07/e9002483ca08d585e4568ef89bde5d9fe8dc9c19b8980dfad9c4e7c357f8/smartwheel-core-0.0.5.tar.gz
+[2023-04-17 10:38:45] INFO root fetch - processPackages [telenvi]: executing diffoscope
+[2023-04-17 10:38:45] INFO root fetch - processPackages [telenvi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telenvi-5.0.2.tar.gz tmp/telenvi-5.0.3.tar.gz --markdown 20230417/t/telenvi/5.0.2-5.0.3/diff.md --exclude *.pyd
+[2023-04-17 10:38:45] INFO root fetch - processPackages [smartwheel-core]: executing diffoscope
+[2023-04-17 10:38:45] INFO root fetch - processPackages [smartwheel-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartwheel-core-0.0.4.tar.gz tmp/smartwheel-core-0.0.5.tar.gz --markdown 20230417/s/smartwheel-core/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-17 10:38:45] INFO root fetch - processPackages [blobtoolkit-pipeline]: Downloading https://files.pythonhosted.org/packages/ca/c5/b048e21854bec041d5f46e2a3412641381cf93839c5895a44ded9e4285d9/blobtoolkit-pipeline-4.1.4.tar.gz
+[2023-04-17 10:38:45] INFO root fetch - processPackages [Munki-Manifest-Generator]: Downloading https://files.pythonhosted.org/packages/f6/38/7a1c12cd614df45fc0025e02bbde1d6e2ecc05cf2adaf921bf3706cbcd30/Munki-Manifest-Generator-1.2.0.tar.gz
+[2023-04-17 10:38:45] INFO root fetch - processPackages [blobtoolkit]: Downloading https://files.pythonhosted.org/packages/b6/19/a774e8e9eafd0e7f9c2a0dd475639f586b9d906e239d0346d542a92a6be0/blobtoolkit-4.1.4.tar.gz
+[2023-04-17 10:38:45] INFO root fetch - processPackages [garpix-profitbase]: Downloading https://files.pythonhosted.org/packages/54/3d/955872046084a7f5a23c9514b66f263a232afaae69cb9c2bf155e1a53fef/garpix_profitbase-1.9.2.tar.gz
+[2023-04-17 10:38:45] INFO root fetch - processPackages [Munki-Manifest-Generator]: executing diffoscope
+[2023-04-17 10:38:45] INFO root fetch - processPackages [Munki-Manifest-Generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Munki-Manifest-Generator-1.1.2.tar.gz tmp/Munki-Manifest-Generator-1.2.0.tar.gz --markdown 20230417/M/Munki-Manifest-Generator/1.1.2-1.2.0/diff.md --exclude *.pyd
+[2023-04-17 10:38:45] INFO root fetch - processPackages [blobtoolkit-pipeline]: executing diffoscope
+[2023-04-17 10:38:45] INFO root fetch - processPackages [blobtoolkit-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blobtoolkit-pipeline-4.1.3.tar.gz tmp/blobtoolkit-pipeline-4.1.4.tar.gz --markdown 20230417/b/blobtoolkit-pipeline/4.1.3-4.1.4/diff.md --exclude *.pyd
+[2023-04-17 10:38:45] INFO root fetch - processPackages [blobtoolkit]: executing diffoscope
+[2023-04-17 10:38:45] INFO root fetch - processPackages [blobtoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blobtoolkit-4.1.3.tar.gz tmp/blobtoolkit-4.1.4.tar.gz --markdown 20230417/b/blobtoolkit/4.1.3-4.1.4/diff.md --exclude *.pyd
+[2023-04-17 10:38:45] INFO root fetch - processPackages [garpix-profitbase]: executing diffoscope
+[2023-04-17 10:38:45] INFO root fetch - processPackages [garpix-profitbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garpix_profitbase-1.9.1.tar.gz tmp/garpix_profitbase-1.9.2.tar.gz --markdown 20230417/g/garpix-profitbase/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-04-17 10:38:46] INFO root fetch - processPackages [CurrenTime]: Start processing: sampo
+[2023-04-17 10:38:46] INFO root fetch - main [MainThread]: End processing [CurrenTime]: success
+[2023-04-17 10:38:46] INFO root fetch - processPackages [sampo]: New version: [0.1.1.99] Old Version: [0.1.1.98]
+[2023-04-17 10:38:46] INFO root fetch - processPackages [sampo]: Downloading https://files.pythonhosted.org/packages/c0/f0/691fad5ee7a8eae5d9b71eb531e4b6d414959a5afcc9811977263994bd77/sampo-0.1.1.98.tar.gz
+[2023-04-17 10:38:47] INFO root fetch - processPackages [flexypy]: Start processing: boris-behav-obs
+[2023-04-17 10:38:47] INFO root fetch - main [MainThread]: End processing [flexypy]: success
+[2023-04-17 10:38:47] INFO root fetch - processPackages [boris-behav-obs]: New version: [8.9.8] Old Version: [8.9.6]
+[2023-04-17 10:38:47] INFO root fetch - processPackages [tf-estimator-nightly]: Start processing: josiann
+[2023-04-17 10:38:47] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
+[2023-04-17 10:38:47] INFO root fetch - processPackages [josiann]: New version: [1.1.3rc4] Old Version: [1.1.3rc2]
+[2023-04-17 10:38:47] INFO root fetch - processPackages [telenvi]: Start processing: friendly-id
+[2023-04-17 10:38:47] INFO root fetch - main [MainThread]: End processing [telenvi]: success
+[2023-04-17 10:38:47] INFO root fetch - processPackages [friendly-id]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-17 10:38:47] INFO root fetch - processPackages [Munki-Manifest-Generator]: Start processing: tff-nightly
+[2023-04-17 10:38:47] INFO root fetch - main [MainThread]: End processing [Munki-Manifest-Generator]: success
+[2023-04-17 10:38:47] INFO root fetch - processPackages [boris-behav-obs]: executing diffoscope
+[2023-04-17 10:38:47] INFO root fetch - processPackages [boris-behav-obs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boris-behav-obs-8.9.6.tar.gz tmp/boris-behav-obs-8.9.8.tar.gz --markdown 20230417/b/boris-behav-obs/8.9.6-8.9.8/diff.md --exclude *.pyd
+[2023-04-17 10:38:47] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230416] Old Version: [0.0.1.dev20230415]
+[2023-04-17 10:38:47] INFO root fetch - processPackages [garpix-profitbase]: Start processing: few-shot-priming
+[2023-04-17 10:38:47] INFO root fetch - main [MainThread]: End processing [garpix-profitbase]: success
+[2023-04-17 10:38:47] INFO root fetch - processPackages [blobtoolkit]: Start processing: nextcloudtalkbot
+[2023-04-17 10:38:47] INFO root fetch - main [MainThread]: End processing [blobtoolkit]: success
+[2023-04-17 10:38:47] INFO root fetch - processPackages [josiann]: executing diffoscope
+[2023-04-17 10:38:47] INFO root fetch - processPackages [josiann]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/josiann-1.1.3rc2.tar.gz tmp/josiann-1.1.3rc4.tar.gz --markdown 20230417/j/josiann/1.1.3rc2-1.1.3rc4/diff.md --exclude *.pyd
+[2023-04-17 10:38:47] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-04-17 10:38:47] INFO root fetch - processPackages [sampo]: Downloading https://files.pythonhosted.org/packages/28/10/7f07e18ca3b08fef3d13985a88344883d8eaf53be7daeda7186b282872a8/sampo-0.1.1.99.tar.gz
+[2023-04-17 10:38:47] INFO root fetch - processPackages [nextcloudtalkbot]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 10:38:47] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-04-17 10:38:47] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230417/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-04-17 10:38:47] INFO root fetch - processPackages [friendly-id]: Downloading https://files.pythonhosted.org/packages/0d/a8/b773121145ed91f348b616b68fbec4bf876daaafeee2d72287841382a142/friendly-id-0.3.1.tar.gz
+[2023-04-17 10:38:47] INFO root fetch - processPackages [friendly-id]: executing diffoscope
+[2023-04-17 10:38:47] INFO root fetch - processPackages [friendly-id]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/friendly-id-0.3.0.tar.gz tmp/friendly-id-0.3.1.tar.gz --markdown 20230417/f/friendly-id/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-17 10:38:47] INFO root fetch - processPackages [sampo]: executing diffoscope
+[2023-04-17 10:38:47] INFO root fetch - processPackages [sampo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sampo-0.1.1.98.tar.gz tmp/sampo-0.1.1.99.tar.gz --markdown 20230417/s/sampo/0.1.1.98-0.1.1.99/diff.md --exclude *.pyd
+[2023-04-17 10:38:47] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/1c/55/4938174c88f0ec4815e02961405c5e6ee51de87c55cd26f92ec7818ecb8e/tff_nightly-0.0.1.dev20230416-py2.py3-none-any.whl
+[2023-04-17 10:38:47] INFO root fetch - processPackages [nextcloudtalkbot]: Downloading https://files.pythonhosted.org/packages/c7/93/ef3894eae8bc05f8c8e25d3cc90108ceb2d47071634bd67614a1c3e94df3/nextcloudtalkbot-0.0.8.tar.gz
+[2023-04-17 10:38:48] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-04-17 10:38:48] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230415-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230416-py2.py3-none-any.whl.zip --markdown 20230417/t/tff-nightly/0.0.1.dev20230415-0.0.1.dev20230416/diff.md --exclude *.pyd
+[2023-04-17 10:38:48] INFO root fetch - processPackages [nextcloudtalkbot]: Downloading https://files.pythonhosted.org/packages/17/a6/3613ebeed7e2534a6b590ee3d06896c1a415d6a752927b521ff177ba7f04/nextcloudtalkbot-0.0.9.tar.gz
+[2023-04-17 10:38:48] INFO root fetch - main [MainThread]: End processing [blobtoolkit-pipeline]: success
+[2023-04-17 10:38:48] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-04-17 10:38:49] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-04-17 10:38:49] INFO root fetch - processPackages [nextcloudtalkbot]: executing diffoscope
+[2023-04-17 10:38:49] INFO root fetch - processPackages [nextcloudtalkbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nextcloudtalkbot-0.0.8.tar.gz tmp/nextcloudtalkbot-0.0.9.tar.gz --markdown 20230417/n/nextcloudtalkbot/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 10:38:49] INFO root fetch - main [MainThread]: End processing [friendly-id]: success
+[2023-04-17 10:38:49] INFO root fetch - main [MainThread]: End processing [josiann]: success
+[2023-04-17 10:38:49] INFO root fetch - main [MainThread]: End processing [boris-behav-obs]: success
+[2023-04-17 10:38:50] INFO root fetch - main [MainThread]: End processing [smartwheel-core]: success
+[2023-04-17 10:38:50] INFO root fetch - main [MainThread]: End processing [sampo]: success
+[2023-04-17 10:38:50] INFO root fetch - main [MainThread]: End processing [nextcloudtalkbot]: success
+[2023-04-17 10:38:51] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-04-17 10:38:51] INFO root fetch - main [MainThread]: Store serial: [17735584]
