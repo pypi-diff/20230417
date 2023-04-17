@@ -5218,3 +5218,44 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 06:24:24] INFO root fetch - main [MainThread]: End processing [Askpyro]: success
 [2023-04-17 06:24:24] INFO root fetch - main [MainThread]: End processing [flarespy]: success
 [2023-04-17 06:24:24] INFO root fetch - main [MainThread]: Store serial: [17733682]
+[2023-04-17 06:29:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17733682]
+[2023-04-17 06:29:32] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-17 06:29:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xh-dict-utils
+[2023-04-17 06:29:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mb-pytorch
+[2023-04-17 06:29:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quickstart-vdk
+[2023-04-17 06:29:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigdl-dllib
+[2023-04-17 06:29:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: discordwrap
+[2023-04-17 06:29:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cherryblossom
+[2023-04-17 06:29:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bigdl-orca
+[2023-04-17 06:29:33] INFO root fetch - processPackages [cherryblossom]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-17 06:29:33] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.838980405.dev9257] Old Version: [0.2.838558221.dev9256]
+[2023-04-17 06:29:33] INFO root fetch - processPackages [xh-dict-utils]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-17 06:29:33] INFO root fetch - processPackages [mb-pytorch]: New version: [1.0.202304170428] Old Version: [1.0.202304160116]
+[2023-04-17 06:29:33] INFO root fetch - processPackages [discordwrap]: New version: [0.7.0] Old Version: [0.6.2]
+[2023-04-17 06:29:33] INFO root fetch - processPackages [cherryblossom]: executing diffoscope
+[2023-04-17 06:29:33] INFO root fetch - processPackages [cherryblossom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cherryblossom-0.0.3.tar.gz tmp/cherryblossom-0.0.4.tar.gz --markdown 20230417/c/cherryblossom/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-17 06:29:33] INFO root fetch - processPackages [bigdl-dllib]: New version: [2.3.0b20230416] Old Version: [2.3.0b20230414]
+[2023-04-17 06:29:33] INFO root fetch - processPackages [discordwrap]: executing diffoscope
+[2023-04-17 06:29:33] INFO root fetch - processPackages [discordwrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discordwrap-0.6.2.tar.gz tmp/discordwrap-0.7.0.tar.gz --markdown 20230417/d/discordwrap/0.6.2-0.7.0/diff.md --exclude *.pyd
+[2023-04-17 06:29:33] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/5b/95/2e8d98a34e11a3772b0f959fe388188fe80adcd2354830f2d95c527ea957/quickstart-vdk-0.2.838980405.dev9257.tar.gz
+[2023-04-17 06:29:33] INFO root fetch - processPackages [bigdl-orca]: New version: [2.3.0b20230416] Old Version: [2.3.0b20230414]
+[2023-04-17 06:29:33] INFO root fetch - processPackages [bigdl-dllib]: Downloading https://files.pythonhosted.org/packages/aa/80/05755d03eea81a1ae14a09e7da358836ed317ad2e52f4eeb1ddeea88791f/bigdl-dllib-2.3.0b20230414.tar.gz
+[2023-04-17 06:29:33] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2023-04-17 06:29:33] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.838558221.dev9256.tar.gz tmp/quickstart-vdk-0.2.838980405.dev9257.tar.gz --markdown 20230417/q/quickstart-vdk/0.2.838558221.dev9256-0.2.838980405.dev9257/diff.md --exclude *.pyd
+[2023-04-17 06:29:33] INFO root fetch - processPackages [xh-dict-utils]: Downloading https://files.pythonhosted.org/packages/ef/ad/f8ab3ff8bf79fb1c8e35c801a62cedeac7d4d861429b2057200d8a0af54f/xh-dict-utils-0.0.3.tar.gz
+[2023-04-17 06:29:33] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/85/c6/884c40a5b64577daaa4f7f8538f90766824feb0c5eaf3205d4fedade7854/mb_pytorch-1.0.202304170428-py3-none-any.whl
+[2023-04-17 06:29:33] INFO root fetch - processPackages [xh-dict-utils]: executing diffoscope
+[2023-04-17 06:29:33] INFO root fetch - processPackages [xh-dict-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xh-dict-utils-0.0.2.tar.gz tmp/xh-dict-utils-0.0.3.tar.gz --markdown 20230417/x/xh-dict-utils/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-17 06:29:33] WARNING root fetch - processPackages [bigdl-dllib]: Skipping package: exceeds size limit 53559946>=10485760
+[2023-04-17 06:29:33] INFO root fetch - main [MainThread]: End processing [bigdl-dllib] error
+[2023-04-17 06:29:33] INFO root fetch - processPackages [bigdl-orca]: Downloading https://files.pythonhosted.org/packages/61/99/743c71d572041517e4aa58508db9661e92d5a8e20f60ada50e0530b5683e/bigdl_orca-2.3.0b20230414-py3-none-manylinux1_x86_64.whl
+[2023-04-17 06:29:33] INFO root fetch - processPackages [mb-pytorch]: executing diffoscope
+[2023-04-17 06:29:33] INFO root fetch - processPackages [mb-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_pytorch-1.0.202304160116-py3-none-any.whl.zip tmp/mb_pytorch-1.0.202304170428-py3-none-any.whl.zip --markdown 20230417/m/mb-pytorch/1.0.202304160116-1.0.202304170428/diff.md --exclude *.pyd
+[2023-04-17 06:29:33] WARNING root fetch - processPackages [bigdl-orca]: Skipping package: exceeds size limit 20371433>=10485760
+[2023-04-17 06:29:33] INFO root fetch - main [MainThread]: End processing [bigdl-orca] error
+[2023-04-17 06:29:34] INFO root fetch - main [MainThread]: End processing [discordwrap]: success
+[2023-04-17 06:29:34] INFO root fetch - main [MainThread]: End processing [cherryblossom]: success
+[2023-04-17 06:29:34] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2023-04-17 06:29:34] INFO root fetch - main [MainThread]: End processing [xh-dict-utils]: success
+[2023-04-17 06:29:34] INFO root fetch - main [MainThread]: End processing [mb-pytorch]: success
+[2023-04-17 06:29:34] INFO root fetch - main [MainThread]: Store serial: [17733700]
