@@ -3666,3 +3666,16 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 03:50:35] INFO root fetch - main [MainThread]: End processing [remin]: success
 [2023-04-17 03:50:35] INFO root fetch - main [MainThread]: End processing [inhandtest]: success
 [2023-04-17 03:50:35] INFO root fetch - main [MainThread]: Store serial: [17732726]
+[2023-04-17 03:55:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17732726]
+[2023-04-17 03:55:44] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-04-17 03:55:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gmanka-yml
+[2023-04-17 03:55:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: network-scanner-pkg
+[2023-04-17 03:55:44] WARNING root fetch - processPackages [network-scanner-pkg]: Skipping, unable to determine old version
+[2023-04-17 03:55:44] INFO root fetch - processPackages [gmanka-yml]: New version: [23.0.0] Old Version: [22.0.5]
+[2023-04-17 03:55:44] INFO root fetch - main [MainThread]: End processing [network-scanner-pkg] error
+[2023-04-17 03:55:44] INFO root fetch - processPackages [gmanka-yml]: Downloading https://files.pythonhosted.org/packages/f9/8a/0d791942a91d74b5e731041e48211b33226a4ab58c2c442a1c6e888bf432/gmanka_yml-22.0.5.tar.gz
+[2023-04-17 03:55:44] INFO root fetch - processPackages [gmanka-yml]: Downloading https://files.pythonhosted.org/packages/c8/b7/2280a4a17df657d57f3f46c7adbacadd5eac3a8faff910c285520a827aaa/gmanka_yml-23.0.0.tar.gz
+[2023-04-17 03:55:45] INFO root fetch - processPackages [gmanka-yml]: executing diffoscope
+[2023-04-17 03:55:45] INFO root fetch - processPackages [gmanka-yml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmanka_yml-22.0.5.tar.gz tmp/gmanka_yml-23.0.0.tar.gz --markdown 20230417/g/gmanka-yml/22.0.5-23.0.0/diff.md --exclude *.pyd
+[2023-04-17 03:55:46] INFO root fetch - main [MainThread]: End processing [gmanka-yml]: success
+[2023-04-17 03:55:46] INFO root fetch - main [MainThread]: Store serial: [17732735]
