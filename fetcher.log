@@ -22870,3 +22870,118 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-17 23:03:33] INFO root fetch - main [MainThread]: End processing [eule]: success
 [2023-04-17 23:03:34] INFO root fetch - main [MainThread]: End processing [tupa123]: success
 [2023-04-17 23:03:34] INFO root fetch - main [MainThread]: Store serial: [17744499]
+[2023-04-17 23:08:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17744499]
+[2023-04-17 23:08:43] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-04-17 23:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coinmetrics-api-client
+[2023-04-17 23:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: awsmate
+[2023-04-17 23:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: k4
+[2023-04-17 23:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xbridge-cli
+[2023-04-17 23:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: SmartsheetFunctions
+[2023-04-17 23:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: quantumcomputingsim
+[2023-04-17 23:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: EmoTFIDF
+[2023-04-17 23:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: oking
+[2023-04-17 23:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: google-cloud-documentai-toolbox
+[2023-04-17 23:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: NikeCA
+[2023-04-17 23:08:43] INFO root fetch - processPackages [xbridge-cli]: New version: [1.0.0b0] Old Version: [0.3.0]
+[2023-04-17 23:08:43] WARNING root fetch - processPackages [k4]: Skipping, unable to determine old version
+[2023-04-17 23:08:43] INFO root fetch - processPackages [k4]: Start processing: update-pip-packages
+[2023-04-17 23:08:43] INFO root fetch - main [MainThread]: End processing [k4] error
+[2023-04-17 23:08:43] INFO root fetch - processPackages [quantumcomputingsim]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-17 23:08:43] INFO root fetch - processPackages [EmoTFIDF]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-04-17 23:08:43] INFO root fetch - processPackages [SmartsheetFunctions]: New version: [0.0.5.3] Old Version: [0.0.5.2]
+[2023-04-17 23:08:43] INFO root fetch - processPackages [awsmate]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-04-17 23:08:43] INFO root fetch - processPackages [google-cloud-documentai-toolbox]: New version: [0.6.0a0] Old Version: [0.5.0a0]
+[2023-04-17 23:08:43] INFO root fetch - processPackages [update-pip-packages]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-17 23:08:43] INFO root fetch - processPackages [NikeCA]: New version: [0.1.60] Old Version: [0.1.59]
+[2023-04-17 23:08:43] INFO root fetch - processPackages [oking]: New version: [4.1.96] Old Version: [4.1.95]
+[2023-04-17 23:08:43] INFO root fetch - processPackages [coinmetrics-api-client]: New version: [2023.4.7.13] Old Version: [2023.4.3.16]
+[2023-04-17 23:08:43] INFO root fetch - processPackages [quantumcomputingsim]: Downloading https://files.pythonhosted.org/packages/e3/c6/0053ee667784ab8d6e4d856ca863ceba29f748a675a3fa7e762e3c23450a/quantumcomputingsim-1.0.2.tar.gz
+[2023-04-17 23:08:43] INFO root fetch - processPackages [oking]: Downloading https://files.pythonhosted.org/packages/9b/78/3b7aec6f3ed8e1121f9bf948c04aebacea12d5817275651b365f2b3f4029/oking-4.1.95.tar.gz
+[2023-04-17 23:08:43] INFO root fetch - processPackages [SmartsheetFunctions]: Downloading https://files.pythonhosted.org/packages/b4/18/1ac002e3a5e8f07f0734395b35b1fea3895656fd44a688ed8f8114ed8115/SmartsheetFunctions-0.0.5.3.tar.gz
+[2023-04-17 23:08:43] INFO root fetch - processPackages [update-pip-packages]: Downloading https://files.pythonhosted.org/packages/a1/8c/3b5650938dacf563ad8148472ff3d60f341c1c97d71b819e9c57fab9d12a/update_pip_packages-0.1.0.tar.gz
+[2023-04-17 23:08:43] INFO root fetch - processPackages [google-cloud-documentai-toolbox]: Downloading https://files.pythonhosted.org/packages/67/bf/1ee3024042e39df8dd169af39cad2033cfc6c1762b26799cd6df212c3675/google-cloud-documentai-toolbox-0.5.0a0.tar.gz
+[2023-04-17 23:08:43] INFO root fetch - processPackages [NikeCA]: Downloading https://files.pythonhosted.org/packages/db/8c/c8e8e2e2ab0e668616a6e6f02e1b73bead1074bb8ecc3f58b8d7fe3f2620/NikeCA-0.1.59.tar.gz
+[2023-04-17 23:08:43] INFO root fetch - processPackages [awsmate]: Downloading https://files.pythonhosted.org/packages/5d/21/765d560824aa70743f1583e46c2614f7cc5ae90ff26c691f968e77d12c7e/awsmate-0.2.0.tar.gz
+[2023-04-17 23:08:43] INFO root fetch - processPackages [coinmetrics-api-client]: Downloading https://files.pythonhosted.org/packages/42/f4/acc2b09ea1f7b13ff3005d4fe0e3bd0d961db41e5df5335766208697bb12/coinmetrics_api_client-2023.4.3.16.tar.gz
+[2023-04-17 23:08:43] INFO root fetch - processPackages [xbridge-cli]: Downloading https://files.pythonhosted.org/packages/eb/df/2146d616a1419f37ce047f0cd2f245595fe09ac389edbba86846bc0999d0/xbridge_cli-0.3.0.tar.gz
+[2023-04-17 23:08:44] INFO root fetch - processPackages [EmoTFIDF]: Downloading https://files.pythonhosted.org/packages/53/f8/b690d3932900ef8e99a5cd1b0ee0a446c07dab2b49a95b9102ba644f8256/EmoTFIDF-1.1.0.tar.gz
+[2023-04-17 23:08:44] WARNING root fetch - processPackages [google-cloud-documentai-toolbox]: Skipping package: exceeds size limit 14535160>=10485760
+[2023-04-17 23:08:44] INFO root fetch - processPackages [google-cloud-documentai-toolbox]: Start processing: arvados-python-client
+[2023-04-17 23:08:44] INFO root fetch - processPackages [SmartsheetFunctions]: executing diffoscope
+[2023-04-17 23:08:44] INFO root fetch - main [MainThread]: End processing [google-cloud-documentai-toolbox] error
+[2023-04-17 23:08:44] INFO root fetch - processPackages [SmartsheetFunctions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SmartsheetFunctions-0.0.5.2.tar.gz tmp/SmartsheetFunctions-0.0.5.3.tar.gz --markdown 20230417/S/SmartsheetFunctions/0.0.5.2-0.0.5.3/diff.md --exclude *.pyd
+[2023-04-17 23:08:44] WARNING root fetch - processPackages [oking]: Skipping package: exceeds size limit 82479144>=10485760
+[2023-04-17 23:08:44] INFO root fetch - processPackages [oking]: Start processing: arvados-cwl-runner
+[2023-04-17 23:08:44] INFO root fetch - main [MainThread]: End processing [oking] error
+[2023-04-17 23:08:44] INFO root fetch - processPackages [arvados-python-client]: New version: [2.6.1] Old Version: [2.6.0rc6]
+[2023-04-17 23:08:44] INFO root fetch - processPackages [arvados-cwl-runner]: New version: [2.6.1] Old Version: [2.6.0rc6]
+[2023-04-17 23:08:44] INFO root fetch - processPackages [awsmate]: Downloading https://files.pythonhosted.org/packages/e1/3e/ecaf4d9316d9ba93809d195b78a57e005f7fa25343a7925018f75a8088f0/awsmate-0.3.0.tar.gz
+[2023-04-17 23:08:44] INFO root fetch - processPackages [quantumcomputingsim]: Downloading https://files.pythonhosted.org/packages/0c/66/441c1d3684e329b04a568ccb1742866b116fc003659f180d2f8cfb5d9dba/quantumcomputingsim-1.0.3.tar.gz
+[2023-04-17 23:08:44] INFO root fetch - processPackages [update-pip-packages]: Downloading https://files.pythonhosted.org/packages/bc/ca/e15f6b7d3a8096c1a2435c86154c9e516ead9629d88c3bc8de1d503acca6/update_pip_packages-0.1.1.tar.gz
+[2023-04-17 23:08:44] INFO root fetch - processPackages [EmoTFIDF]: executing diffoscope
+[2023-04-17 23:08:44] INFO root fetch - processPackages [EmoTFIDF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EmoTFIDF-1.0.9.tar.gz tmp/EmoTFIDF-1.1.0.tar.gz --markdown 20230417/E/EmoTFIDF/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-04-17 23:08:44] INFO root fetch - processPackages [NikeCA]: Downloading https://files.pythonhosted.org/packages/0e/9f/d14b9d05078717a70d2616479987ec96578e472ea162158768802f5b3765/NikeCA-0.1.60.tar.gz
+[2023-04-17 23:08:44] INFO root fetch - processPackages [arvados-python-client]: Downloading https://files.pythonhosted.org/packages/ba/14/2be7287ba94d1410edbb215aaad1b8bcb5f1e25cfdf0b952ea4bc915816f/arvados-python-client-2.6.0rc6.tar.gz
+[2023-04-17 23:08:44] INFO root fetch - processPackages [coinmetrics-api-client]: Downloading https://files.pythonhosted.org/packages/31/9f/dabf785f6da33afd92649188e8cf4504f777d8ca5ce4d15168045f5229e2/coinmetrics_api_client-2023.4.7.13.tar.gz
+[2023-04-17 23:08:44] INFO root fetch - processPackages [arvados-cwl-runner]: Downloading https://files.pythonhosted.org/packages/f9/e2/27aa31731628c3cfb78fd1fd13ba40c1cbe1dfc2d614a2edc2a50aa2fe30/arvados-cwl-runner-2.6.0rc6.tar.gz
+[2023-04-17 23:08:44] INFO root fetch - processPackages [awsmate]: executing diffoscope
+[2023-04-17 23:08:44] INFO root fetch - processPackages [awsmate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awsmate-0.2.0.tar.gz tmp/awsmate-0.3.0.tar.gz --markdown 20230417/a/awsmate/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-04-17 23:08:44] INFO root fetch - processPackages [xbridge-cli]: Downloading https://files.pythonhosted.org/packages/9a/09/ef2bb2d9d4cdddf4dfe2331fddfbc0c7efb188dafed549d5ace54037803f/xbridge_cli-1.0.0b0.tar.gz
+[2023-04-17 23:08:44] INFO root fetch - processPackages [quantumcomputingsim]: executing diffoscope
+[2023-04-17 23:08:44] INFO root fetch - processPackages [quantumcomputingsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantumcomputingsim-1.0.2.tar.gz tmp/quantumcomputingsim-1.0.3.tar.gz --markdown 20230417/q/quantumcomputingsim/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-17 23:08:44] INFO root fetch - processPackages [update-pip-packages]: executing diffoscope
+[2023-04-17 23:08:44] INFO root fetch - processPackages [update-pip-packages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/update_pip_packages-0.1.0.tar.gz tmp/update_pip_packages-0.1.1.tar.gz --markdown 20230417/u/update-pip-packages/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-17 23:08:44] INFO root fetch - processPackages [coinmetrics-api-client]: executing diffoscope
+[2023-04-17 23:08:44] INFO root fetch - processPackages [coinmetrics-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coinmetrics_api_client-2023.4.3.16.tar.gz tmp/coinmetrics_api_client-2023.4.7.13.tar.gz --markdown 20230417/c/coinmetrics-api-client/2023.4.3.16-2023.4.7.13/diff.md --exclude *.pyd
+[2023-04-17 23:08:44] INFO root fetch - processPackages [NikeCA]: executing diffoscope
+[2023-04-17 23:08:44] INFO root fetch - processPackages [NikeCA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NikeCA-0.1.59.tar.gz tmp/NikeCA-0.1.60.tar.gz --markdown 20230417/N/NikeCA/0.1.59-0.1.60/diff.md --exclude *.pyd
+[2023-04-17 23:08:44] INFO root fetch - processPackages [xbridge-cli]: executing diffoscope
+[2023-04-17 23:08:44] INFO root fetch - processPackages [xbridge-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xbridge_cli-0.3.0.tar.gz tmp/xbridge_cli-1.0.0b0.tar.gz --markdown 20230417/x/xbridge-cli/0.3.0-1.0.0b0/diff.md --exclude *.pyd
+[2023-04-17 23:08:44] INFO root fetch - processPackages [arvados-python-client]: Downloading https://files.pythonhosted.org/packages/a3/6d/583537a59b61cdb037b1f98d36deb9d26ec293b7b974fc5b6a41b6190ff7/arvados-python-client-2.6.1.tar.gz
+[2023-04-17 23:08:44] INFO root fetch - processPackages [arvados-cwl-runner]: Downloading https://files.pythonhosted.org/packages/08/3f/a5423ef4bc0d5820dca1dacf27151b8ff53cbe6069cb024155f528a92389/arvados-cwl-runner-2.6.1.tar.gz
+[2023-04-17 23:08:44] INFO root fetch - processPackages [arvados-cwl-runner]: executing diffoscope
+[2023-04-17 23:08:44] INFO root fetch - processPackages [arvados-cwl-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arvados-cwl-runner-2.6.0rc6.tar.gz tmp/arvados-cwl-runner-2.6.1.tar.gz --markdown 20230417/a/arvados-cwl-runner/2.6.0rc6-2.6.1/diff.md --exclude *.pyd
+[2023-04-17 23:08:44] INFO root fetch - processPackages [arvados-python-client]: executing diffoscope
+[2023-04-17 23:08:44] INFO root fetch - processPackages [arvados-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arvados-python-client-2.6.0rc6.tar.gz tmp/arvados-python-client-2.6.1.tar.gz --markdown 20230417/a/arvados-python-client/2.6.0rc6-2.6.1/diff.md --exclude *.pyd
+[2023-04-17 23:08:45] INFO root fetch - processPackages [EmoTFIDF]: Start processing: arvados_fuse
+[2023-04-17 23:08:45] INFO root fetch - main [MainThread]: End processing [EmoTFIDF]: success
+[2023-04-17 23:08:45] INFO root fetch - processPackages [SmartsheetFunctions]: Start processing: crunchstat_summary
+[2023-04-17 23:08:45] INFO root fetch - main [MainThread]: End processing [SmartsheetFunctions]: success
+[2023-04-17 23:08:45] INFO root fetch - processPackages [arvados_fuse]: New version: [2.6.1] Old Version: [2.6.0rc6]
+[2023-04-17 23:08:45] INFO root fetch - processPackages [crunchstat_summary]: New version: [2.6.1] Old Version: [2.6.0rc6]
+[2023-04-17 23:08:45] INFO root fetch - processPackages [crunchstat_summary]: Downloading https://files.pythonhosted.org/packages/3d/b0/c6a62648bb845fd2cb2f2967d87761af0785f8c35bbb58dcdf9287c3fe13/crunchstat_summary-2.6.0rc6.tar.gz
+[2023-04-17 23:08:45] INFO root fetch - processPackages [update-pip-packages]: Start processing: secure-web3
+[2023-04-17 23:08:45] INFO root fetch - main [MainThread]: End processing [update-pip-packages]: success
+[2023-04-17 23:08:45] INFO root fetch - processPackages [arvados_fuse]: Downloading https://files.pythonhosted.org/packages/83/91/e8f9a8dd1067be8dcd4ac3334582cf13e429afc54077c5361710714dfa91/arvados_fuse-2.6.0rc6.tar.gz
+[2023-04-17 23:08:45] INFO root fetch - processPackages [secure-web3]: New version: [1.3.0] Old Version: [1.2.7]
+[2023-04-17 23:08:45] INFO root fetch - processPackages [quantumcomputingsim]: Start processing: pitrpatr
+[2023-04-17 23:08:45] INFO root fetch - main [MainThread]: End processing [quantumcomputingsim]: success
+[2023-04-17 23:08:45] WARNING root fetch - processPackages [pitrpatr]: Skipping, unable to determine old version
+[2023-04-17 23:08:45] INFO root fetch - processPackages [pitrpatr]: Start processing: camply
+[2023-04-17 23:08:45] INFO root fetch - main [MainThread]: End processing [pitrpatr] error
+[2023-04-17 23:08:45] INFO root fetch - main [MainThread]: End processing [NikeCA]: success
+[2023-04-17 23:08:46] INFO root fetch - processPackages [secure-web3]: Downloading https://files.pythonhosted.org/packages/bd/20/e26755b0f3e1ac79502b9db92955f7a23e7a738b1640e947952014a6d19d/secure_web3-1.2.7.tar.gz
+[2023-04-17 23:08:46] INFO root fetch - processPackages [camply]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-04-17 23:08:46] INFO root fetch - processPackages [arvados_fuse]: Downloading https://files.pythonhosted.org/packages/f4/37/21550077fa25f8efcc256f73c0ba342f5c5a979fec19596d1a51473bcf99/arvados_fuse-2.6.1.tar.gz
+[2023-04-17 23:08:46] INFO root fetch - processPackages [crunchstat_summary]: Downloading https://files.pythonhosted.org/packages/68/e5/501bb0b5972b7aab2086b986e2346aa01ad91efae02446deadf9b870f04f/crunchstat_summary-2.6.1.tar.gz
+[2023-04-17 23:08:46] INFO root fetch - processPackages [camply]: Downloading https://files.pythonhosted.org/packages/b6/1e/0f4c1cd15a9dc716c825ce9473f46b8d514cdeef6ffa87576366bf2588f5/camply-0.9.2.tar.gz
+[2023-04-17 23:08:46] INFO root fetch - processPackages [arvados_fuse]: executing diffoscope
+[2023-04-17 23:08:46] INFO root fetch - processPackages [arvados_fuse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arvados_fuse-2.6.0rc6.tar.gz tmp/arvados_fuse-2.6.1.tar.gz --markdown 20230417/a/arvados_fuse/2.6.0rc6-2.6.1/diff.md --exclude *.pyd
+[2023-04-17 23:08:46] INFO root fetch - processPackages [secure-web3]: Downloading https://files.pythonhosted.org/packages/93/0d/6e5519dc687135011bf7dcf56adf3c9def7294f81deb66224d52a9365249/secure_web3-1.3.0.tar.gz
+[2023-04-17 23:08:46] INFO root fetch - processPackages [crunchstat_summary]: executing diffoscope
+[2023-04-17 23:08:46] INFO root fetch - processPackages [crunchstat_summary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crunchstat_summary-2.6.0rc6.tar.gz tmp/crunchstat_summary-2.6.1.tar.gz --markdown 20230417/c/crunchstat_summary/2.6.0rc6-2.6.1/diff.md --exclude *.pyd
+[2023-04-17 23:08:46] INFO root fetch - processPackages [secure-web3]: executing diffoscope
+[2023-04-17 23:08:46] INFO root fetch - processPackages [secure-web3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secure_web3-1.2.7.tar.gz tmp/secure_web3-1.3.0.tar.gz --markdown 20230417/s/secure-web3/1.2.7-1.3.0/diff.md --exclude *.pyd
+[2023-04-17 23:08:46] INFO root fetch - main [MainThread]: End processing [awsmate]: success
+[2023-04-17 23:08:46] INFO root fetch - processPackages [camply]: Downloading https://files.pythonhosted.org/packages/3e/d1/4f9e81a5f74b69b8f9c95b378d56780fcddfa4ab3f0f8226c1a7a7116867/camply-0.9.3.tar.gz
+[2023-04-17 23:08:46] INFO root fetch - main [MainThread]: End processing [xbridge-cli]: success
+[2023-04-17 23:08:46] INFO root fetch - processPackages [camply]: executing diffoscope
+[2023-04-17 23:08:46] INFO root fetch - processPackages [camply]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camply-0.9.2.tar.gz tmp/camply-0.9.3.tar.gz --markdown 20230417/c/camply/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-04-17 23:08:47] INFO root fetch - main [MainThread]: End processing [coinmetrics-api-client]: success
+[2023-04-17 23:08:47] INFO root fetch - main [MainThread]: End processing [arvados_fuse]: success
+[2023-04-17 23:08:47] INFO root fetch - main [MainThread]: End processing [crunchstat_summary]: success
+[2023-04-17 23:08:47] INFO root fetch - main [MainThread]: End processing [arvados-cwl-runner]: success
+[2023-04-17 23:08:47] INFO root fetch - main [MainThread]: End processing [secure-web3]: success
+[2023-04-17 23:08:48] INFO root fetch - main [MainThread]: End processing [camply]: success
+[2023-04-17 23:08:49] INFO root fetch - main [MainThread]: End processing [arvados-python-client]: success
+[2023-04-17 23:08:49] INFO root fetch - main [MainThread]: Store serial: [17744557]
