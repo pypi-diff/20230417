@@ -14983,3 +14983,115 @@ EOFError: EOF read where object expected
 [2023-04-17 16:22:58] INFO root fetch - main [MainThread]: End processing [empaia-app-test-suite]: success
 [2023-04-17 16:22:59] INFO root fetch - main [MainThread]: End processing [SimpleIDML]: success
 [2023-04-17 16:22:59] INFO root fetch - main [MainThread]: Store serial: [17739545]
+[2023-04-17 16:28:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17739545]
+[2023-04-17 16:28:09] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-04-17 16:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neqsim
+[2023-04-17 16:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spanishconjugator
+[2023-04-17 16:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spanishconjugator
+[2023-04-17 16:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: disvide
+[2023-04-17 16:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cmip-metric
+[2023-04-17 16:28:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-fleet-vehicle-service-services
+[2023-04-17 16:28:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-models-connect
+[2023-04-17 16:28:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.cdk-dynamodb-backup
+[2023-04-17 16:28:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: indy-plenum
+[2023-04-17 16:28:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: localstack-core
+[2023-04-17 16:28:10] INFO root fetch - processPackages [cmip-metric]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-17 16:28:10] INFO root fetch - processPackages [odoo-models-connect]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-17 16:28:10] INFO root fetch - processPackages [localstack-core]: New version: [2.0.2.dev20230417135155] Old Version: [2.0.2.dev20230417070137]
+[2023-04-17 16:28:10] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-17 16:28:10] INFO root fetch - processPackages [neqsim]: New version: [2.4.8] Old Version: [2.4.7]
+[2023-04-17 16:28:10] INFO root fetch - processPackages [cmip-metric]: executing diffoscope
+[2023-04-17 16:28:10] INFO root fetch - processPackages [odoo-addon-fleet-vehicle-service-services]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.0.4]
+[2023-04-17 16:28:10] INFO root fetch - processPackages [cmip-metric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmip_metric-0.1.0.tar.gz tmp/cmip_metric-0.1.1.tar.gz --markdown 20230417/c/cmip-metric/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-17 16:28:10] WARNING root fetch - processPackages [disvide]: Skipping, unable to determine old version
+[2023-04-17 16:28:10] INFO root fetch - processPackages [disvide]: Start processing: localstack-core
+[2023-04-17 16:28:10] INFO root fetch - main [MainThread]: End processing [disvide] error
+[2023-04-17 16:28:10] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: executing diffoscope
+[2023-04-17 16:28:10] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-dynamodb-backup-0.0.98.tar.gz tmp/pepperize.cdk-dynamodb-backup-0.0.99.tar.gz --markdown 20230417/p/pepperize.cdk-dynamodb-backup/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-17 16:28:10] INFO root fetch - processPackages [odoo-models-connect]: executing diffoscope
+[2023-04-17 16:28:10] INFO root fetch - processPackages [odoo-models-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_models_connect-0.1.1.tar.gz tmp/odoo_models_connect-0.1.2.tar.gz --markdown 20230417/o/odoo-models-connect/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-17 16:28:10] INFO root fetch - processPackages [indy-plenum]: New version: [1.9.2rc1] Old Version: [1.9.2.dev879]
+[2023-04-17 16:28:10] INFO root fetch - processPackages [localstack-core]: New version: [2.0.3.dev20230417142558] Old Version: [2.0.2.dev20230417135155]
+[2023-04-17 16:28:10] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-04-17 16:28:10] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-04-17 16:28:10] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/94/2d/18eb09659e0498fad1ccd811e5436f462de215232a68502b9ab190dfaa60/localstack-core-2.0.2.dev20230417135155.tar.gz
+[2023-04-17 16:28:10] INFO root fetch - processPackages [odoo-addon-fleet-vehicle-service-services]: Downloading https://files.pythonhosted.org/packages/59/90/8be51a5c8c712c8e71df71dd56c951a4ba5d98b29fc4845602494dd1d84b/odoo_addon_fleet_vehicle_service_services-15.0.1.0.0.4-py3-none-any.whl
+[2023-04-17 16:28:10] INFO root fetch - processPackages [indy-plenum]: Downloading https://files.pythonhosted.org/packages/e1/7e/f4f7c715a57a3d05f8efa5b19e536e486805b54735c7dcbdd1394b4d0973/indy-plenum-1.9.2.dev879.tar.gz
+[2023-04-17 16:28:10] INFO root fetch - processPackages [neqsim]: Downloading https://files.pythonhosted.org/packages/5e/2d/b5fe4c8ae15d3fe74b82e5c694afa2602682131746244b60a2d5234fd276/neqsim-2.4.7.tar.gz
+[2023-04-17 16:28:10] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/94/2d/18eb09659e0498fad1ccd811e5436f462de215232a68502b9ab190dfaa60/localstack-core-2.0.2.dev20230417135155.tar.gz
+[2023-04-17 16:28:10] INFO root fetch - processPackages [odoo-addon-fleet-vehicle-service-services]: Downloading https://files.pythonhosted.org/packages/65/d8/461ca4926607dc817fc44c78b7c354d387ae229c2dc3e46d91656d1464b7/odoo_addon_fleet_vehicle_service_services-16.0.1.0.0.2-py3-none-any.whl
+[2023-04-17 16:28:10] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-04-17 16:28:10] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230417/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-04-17 16:28:10] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-04-17 16:28:10] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230417/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-04-17 16:28:10] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-04-17 16:28:10] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.0.2.dev20230417070137.tar.gz tmp/localstack-core-2.0.2.dev20230417135155.tar.gz --markdown 20230417/l/localstack-core/2.0.2.dev20230417070137-2.0.2.dev20230417135155/diff.md --exclude *.pyd
+[2023-04-17 16:28:10] INFO root fetch - processPackages [odoo-addon-fleet-vehicle-service-services]: executing diffoscope
+[2023-04-17 16:28:10] INFO root fetch - processPackages [odoo-addon-fleet-vehicle-service-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fleet_vehicle_service_services-15.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_fleet_vehicle_service_services-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230417/o/odoo-addon-fleet-vehicle-service-services/15.0.1.0.0.4-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-04-17 16:28:10] WARNING root fetch - processPackages [neqsim]: Skipping package: exceeds size limit 60976578>=10485760
+[2023-04-17 16:28:10] INFO root fetch - processPackages [neqsim]: Start processing: abch-tree-sitter-solidity
+[2023-04-17 16:28:10] INFO root fetch - main [MainThread]: End processing [neqsim] error
+[2023-04-17 16:28:10] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/18/7e/140184f0fc78039e63ccc6446059f824965975e7f6c0d5fce2754ff8ad86/localstack-core-2.0.3.dev20230417142558.tar.gz
+[2023-04-17 16:28:10] WARNING root fetch - processPackages [abch-tree-sitter-solidity]: Skipping, unable to determine old version
+[2023-04-17 16:28:10] INFO root fetch - processPackages [abch-tree-sitter-solidity]: Start processing: neuroio
+[2023-04-17 16:28:10] INFO root fetch - main [MainThread]: End processing [abch-tree-sitter-solidity] error
+[2023-04-17 16:28:11] INFO root fetch - processPackages [indy-plenum]: Downloading https://files.pythonhosted.org/packages/36/07/670ba8b376acb6d69f5fd1fc8f48e6181b365acef3e0f952b4cc47896450/indy-plenum-1.9.2rc1.tar.gz
+[2023-04-17 16:28:11] INFO root fetch - processPackages [neuroio]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-17 16:28:11] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-04-17 16:28:11] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.0.2.dev20230417135155.tar.gz tmp/localstack-core-2.0.3.dev20230417142558.tar.gz --markdown 20230417/l/localstack-core/2.0.2.dev20230417135155-2.0.3.dev20230417142558/diff.md --exclude *.pyd
+[2023-04-17 16:28:11] INFO root fetch - processPackages [cmip-metric]: Start processing: idp-engine
+[2023-04-17 16:28:11] INFO root fetch - main [MainThread]: End processing [cmip-metric]: success
+[2023-04-17 16:28:11] INFO root fetch - processPackages [neuroio]: Downloading https://files.pythonhosted.org/packages/d9/59/e0117d192c2cb8c4bc0f4f3e1fea61b7b6e3adaeedbb021c7d3a5f1ce8e8/neuroio-0.1.1.tar.gz
+[2023-04-17 16:28:11] INFO root fetch - processPackages [idp-engine]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-04-17 16:28:11] INFO root fetch - processPackages [odoo-models-connect]: Start processing: lusid-sdk
+[2023-04-17 16:28:11] INFO root fetch - main [MainThread]: End processing [odoo-models-connect]: success
+[2023-04-17 16:28:11] INFO root fetch - processPackages [neuroio]: Downloading https://files.pythonhosted.org/packages/34/c9/7ee6c87002c6b9e1815b10a166f5d13446be7dada3ec654176b913eaf7e8/neuroio-0.1.2.tar.gz
+[2023-04-17 16:28:11] INFO root fetch - processPackages [idp-engine]: Downloading https://files.pythonhosted.org/packages/c2/56/e7d7614d1395ba78fb3034c48f3858070597cddf1ee68e55ab5f2af0ca3e/idp-engine-0.9.1.tar.gz
+[2023-04-17 16:28:11] INFO root fetch - processPackages [neuroio]: executing diffoscope
+[2023-04-17 16:28:11] INFO root fetch - processPackages [neuroio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuroio-0.1.1.tar.gz tmp/neuroio-0.1.2.tar.gz --markdown 20230417/n/neuroio/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-17 16:28:11] INFO root fetch - processPackages [indy-plenum]: executing diffoscope
+[2023-04-17 16:28:11] INFO root fetch - processPackages [indy-plenum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indy-plenum-1.9.2.dev879.tar.gz tmp/indy-plenum-1.9.2rc1.tar.gz --markdown 20230417/i/indy-plenum/1.9.2.dev879-1.9.2rc1/diff.md --exclude *.pyd
+[2023-04-17 16:28:11] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: Start processing: doji-core
+[2023-04-17 16:28:11] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-dynamodb-backup]: success
+[2023-04-17 16:28:11] INFO root fetch - processPackages [doji-core]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-17 16:28:11] INFO root fetch - processPackages [lusid-sdk]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-17 16:28:11] INFO root fetch - processPackages [idp-engine]: Downloading https://files.pythonhosted.org/packages/e1/8a/29e67b33532a7e3d03c5b0b6fbd8a50d2752af3edee49e88bcb2320cb454/idp-engine-0.9.2.tar.gz
+[2023-04-17 16:28:11] INFO root fetch - processPackages [doji-core]: executing diffoscope
+[2023-04-17 16:28:11] INFO root fetch - processPackages [doji-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doji_core-0.1.2.tar.gz tmp/doji_core-0.1.3.tar.gz --markdown 20230417/d/doji-core/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-17 16:28:12] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/ee/bd/f36f827bea6fa12120fa4ab82745a2a4cbeded2f2eceab0fdf129d7011c2/lusid-sdk-1.0.8.tar.gz
+[2023-04-17 16:28:12] INFO root fetch - processPackages [idp-engine]: executing diffoscope
+[2023-04-17 16:28:12] INFO root fetch - processPackages [idp-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idp-engine-0.9.1.tar.gz tmp/idp-engine-0.9.2.tar.gz --markdown 20230417/i/idp-engine/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-04-17 16:28:12] INFO root fetch - processPackages [odoo-addon-fleet-vehicle-service-services]: Start processing: lusid-sdk-preview
+[2023-04-17 16:28:12] INFO root fetch - main [MainThread]: End processing [odoo-addon-fleet-vehicle-service-services]: success
+[2023-04-17 16:28:12] INFO root fetch - processPackages [lusid-sdk-preview]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-17 16:28:12] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/77/b1/b327438cb1c32ad37cad533190f1cc1079027ba0e0c0ac9781e354b59c9c/lusid-sdk-1.0.9.tar.gz
+[2023-04-17 16:28:12] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2023-04-17 16:28:12] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-1.0.8.tar.gz tmp/lusid-sdk-1.0.9.tar.gz --markdown 20230417/l/lusid-sdk/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-17 16:28:12] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/f6/99/ff30d6dcffe799588da8bdf9e16d71df5ec412abe45226cf2a82598a9ccc/lusid-sdk-preview-1.0.8.tar.gz
+[2023-04-17 16:28:12] INFO root fetch - processPackages [spanishconjugator]: Start processing: structio
+[2023-04-17 16:28:12] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-04-17 16:28:13] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/19/73/aed906d14f62c3db0c86e7472a26a3cad688e26d750325f532bf24de202d/lusid-sdk-preview-1.0.9.tar.gz
+[2023-04-17 16:28:13] INFO root fetch - processPackages [spanishconjugator]: Start processing: satosacontrib.perun
+[2023-04-17 16:28:13] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-04-17 16:28:13] INFO root fetch - processPackages [structio]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-04-17 16:28:13] INFO root fetch - processPackages [lusid-sdk-preview]: executing diffoscope
+[2023-04-17 16:28:13] INFO root fetch - processPackages [lusid-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-preview-1.0.8.tar.gz tmp/lusid-sdk-preview-1.0.9.tar.gz --markdown 20230417/l/lusid-sdk-preview/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-17 16:28:13] INFO root fetch - processPackages [satosacontrib.perun]: New version: [2.0.0] Old Version: [1.4.0]
+[2023-04-17 16:28:13] INFO root fetch - main [MainThread]: End processing [neuroio]: success
+[2023-04-17 16:28:13] INFO root fetch - processPackages [satosacontrib.perun]: Downloading https://files.pythonhosted.org/packages/0e/aa/1c8475cf09769a335cc0d2de1393ed32556272e62a9c84eab447c3f03c67/satosacontrib.perun-1.4.0.tar.gz
+[2023-04-17 16:28:13] INFO root fetch - processPackages [structio]: Downloading https://files.pythonhosted.org/packages/fa/6a/ccba20b86033b6cf31c5dfa642081b346f35d3d3e5583b3eeaeeae30ab23/structio-1.1.6.tar.gz
+[2023-04-17 16:28:13] INFO root fetch - processPackages [structio]: executing diffoscope
+[2023-04-17 16:28:13] INFO root fetch - processPackages [structio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/structio-1.1.5.tar.gz tmp/structio-1.1.6.tar.gz --markdown 20230417/s/structio/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-04-17 16:28:13] INFO root fetch - main [MainThread]: End processing [idp-engine]: success
+[2023-04-17 16:28:13] INFO root fetch - processPackages [satosacontrib.perun]: Downloading https://files.pythonhosted.org/packages/f2/76/b0f3aed9907b22940f07aa25285bcc5607c7ea8980dcc3fe41e81a055934/satosacontrib.perun-2.0.0.tar.gz
+[2023-04-17 16:28:13] INFO root fetch - main [MainThread]: End processing [doji-core]: success
+[2023-04-17 16:28:13] INFO root fetch - processPackages [satosacontrib.perun]: executing diffoscope
+[2023-04-17 16:28:13] INFO root fetch - processPackages [satosacontrib.perun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satosacontrib.perun-1.4.0.tar.gz tmp/satosacontrib.perun-2.0.0.tar.gz --markdown 20230417/s/satosacontrib.perun/1.4.0-2.0.0/diff.md --exclude *.pyd
+[2023-04-17 16:28:14] INFO root fetch - main [MainThread]: End processing [structio]: success
+[2023-04-17 16:28:15] INFO root fetch - main [MainThread]: End processing [satosacontrib.perun]: success
+[2023-04-17 16:28:20] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-04-17 16:28:22] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-04-17 16:28:29] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2023-04-17 16:28:32] INFO root fetch - main [MainThread]: End processing [indy-plenum]: success
+[2023-04-17 16:28:43] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
+[2023-04-17 16:28:43] INFO root fetch - main [MainThread]: Store serial: [17739614]
