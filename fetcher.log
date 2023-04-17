@@ -17166,3 +17166,80 @@ EOFError: EOF read where object expected
 [2023-04-17 17:49:18] INFO root fetch - main [MainThread]: End processing [PyStorCLI2]: success
 [2023-04-17 17:49:20] INFO root fetch - main [MainThread]: End processing [PyStorCLI2]: success
 [2023-04-17 17:49:20] INFO root fetch - main [MainThread]: Store serial: [17740883]
+[2023-04-17 17:54:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17740883]
+[2023-04-17 17:54:29] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-17 17:54:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: policyengine-us
+[2023-04-17 17:54:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nx5d
+[2023-04-17 17:54:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jsonschema
+[2023-04-17 17:54:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: power-grid-model
+[2023-04-17 17:54:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sqlalchemy-extras
+[2023-04-17 17:54:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: highrise-bot-sdk
+[2023-04-17 17:54:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sampo
+[2023-04-17 17:54:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: maxbot
+[2023-04-17 17:54:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qr-server
+[2023-04-17 17:54:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: TarkovCharacterAndLeaderboardTool
+[2023-04-17 17:54:29] INFO root fetch - processPackages [jsonschema]: New version: [4.9.1] Old Version: [4.9.0]
+[2023-04-17 17:54:29] INFO root fetch - processPackages [maxbot]: New version: [0.1.0b0.dev20230417183114] Old Version: [0.1.0b0.dev20230417182950]
+[2023-04-17 17:54:29] INFO root fetch - processPackages [sampo]: New version: [0.1.1.99] Old Version: [0.1.1.98]
+[2023-04-17 17:54:29] INFO root fetch - processPackages [jsonschema]: Downloading https://files.pythonhosted.org/packages/02/96/901e5735f16cb438eccff95b534d0bdd058237dab1ae4731b5e1e1ddc9b4/jsonschema-4.9.0.tar.gz
+[2023-04-17 17:54:29] INFO root fetch - processPackages [nx5d]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-17 17:54:29] INFO root fetch - processPackages [maxbot]: executing diffoscope
+[2023-04-17 17:54:29] INFO root fetch - processPackages [maxbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maxbot-0.1.0b0.dev20230417182950.tar.gz tmp/maxbot-0.1.0b0.dev20230417183114.tar.gz --markdown 20230417/m/maxbot/0.1.0b0.dev20230417182950-0.1.0b0.dev20230417183114/diff.md --exclude *.pyd
+[2023-04-17 17:54:29] INFO root fetch - processPackages [sqlalchemy-extras]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-04-17 17:54:29] INFO root fetch - processPackages [highrise-bot-sdk]: New version: [23.1.0b6] Old Version: [23.1.0b5]
+[2023-04-17 17:54:29] INFO root fetch - processPackages [sampo]: executing diffoscope
+[2023-04-17 17:54:29] INFO root fetch - processPackages [sampo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sampo-0.1.1.98.tar.gz tmp/sampo-0.1.1.99.tar.gz --markdown 20230417/s/sampo/0.1.1.98-0.1.1.99/diff.md --exclude *.pyd
+[2023-04-17 17:54:29] WARNING root fetch - processPackages [TarkovCharacterAndLeaderboardTool]: Skipping, unable to determine old version
+[2023-04-17 17:54:29] INFO root fetch - processPackages [TarkovCharacterAndLeaderboardTool]: Start processing: PyStorCLITUI
+[2023-04-17 17:54:29] INFO root fetch - main [MainThread]: End processing [TarkovCharacterAndLeaderboardTool] error
+[2023-04-17 17:54:29] INFO root fetch - processPackages [qr-server]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-04-17 17:54:29] INFO root fetch - processPackages [policyengine-us]: New version: [0.295.0] Old Version: [0.294.0]
+[2023-04-17 17:54:29] WARNING root fetch - processPackages [PyStorCLITUI]: Skipping, unable to determine old version
+[2023-04-17 17:54:29] INFO root fetch - processPackages [PyStorCLITUI]: Start processing: highrise-bot-sdk
+[2023-04-17 17:54:29] INFO root fetch - main [MainThread]: End processing [PyStorCLITUI] error
+[2023-04-17 17:54:30] INFO root fetch - processPackages [sqlalchemy-extras]: Downloading https://files.pythonhosted.org/packages/c6/f5/2a4b9f135d3371658781b5ab8cb242b9a303a709e24a7931ea249b5b1694/sqlalchemy_extras-2.0.1.tar.gz
+[2023-04-17 17:54:30] INFO root fetch - processPackages [highrise-bot-sdk]: New version: [23.1.0b6] Old Version: [23.1.0b5]
+[2023-04-17 17:54:30] INFO root fetch - processPackages [nx5d]: Downloading https://files.pythonhosted.org/packages/e3/10/8371deae57aefbcfc758f530ca00bb950b2df5b3b6f1aba938c5f7c8fbb5/nx5d-0.3.0.tar.gz
+[2023-04-17 17:54:30] INFO root fetch - processPackages [highrise-bot-sdk]: Downloading https://files.pythonhosted.org/packages/34/a5/1f4d6521cf6d458e417992f6321a67937bc1f56f10a8aebf4ebfd9b540cb/highrise_bot_sdk-23.1.0b5.tar.gz
+[2023-04-17 17:54:30] INFO root fetch - processPackages [power-grid-model]: New version: [1.5.0rc9152109758095] Old Version: [1.5.0rc9150505439162]
+[2023-04-17 17:54:30] INFO root fetch - processPackages [highrise-bot-sdk]: Downloading https://files.pythonhosted.org/packages/34/a5/1f4d6521cf6d458e417992f6321a67937bc1f56f10a8aebf4ebfd9b540cb/highrise_bot_sdk-23.1.0b5.tar.gz
+[2023-04-17 17:54:30] INFO root fetch - processPackages [qr-server]: Downloading https://files.pythonhosted.org/packages/da/43/453980cdbe8120c37fa6274244092186605b7fa4fe22610aa08615ee142e/qr_server-1.1.8.tar.gz
+[2023-04-17 17:54:30] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/16/92/e26509c80ce27b8caafab1252e10978770b940e92b5c5f194277c72ecdc4/policyengine-us-0.295.0.tar.gz
+[2023-04-17 17:54:30] INFO root fetch - processPackages [jsonschema]: Downloading https://files.pythonhosted.org/packages/e6/a9/569ad03b90093c956bd396a6b3151c17e6005d8ac139d9419e89339c02df/jsonschema-4.9.1.tar.gz
+[2023-04-17 17:54:30] INFO root fetch - processPackages [jsonschema]: executing diffoscope
+[2023-04-17 17:54:30] INFO root fetch - processPackages [jsonschema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonschema-4.9.0.tar.gz tmp/jsonschema-4.9.1.tar.gz --markdown 20230417/j/jsonschema/4.9.0-4.9.1/diff.md --exclude *.pyd
+[2023-04-17 17:54:30] INFO root fetch - processPackages [sqlalchemy-extras]: Downloading https://files.pythonhosted.org/packages/54/1d/a95ca89881f052729404ce3fc62fa4110921ec9016dcfffc07af1452c12c/sqlalchemy_extras-2.0.2.tar.gz
+[2023-04-17 17:54:30] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/78/56/96589e7fabd8bfd74a5b2e1cc75bc2dc25fd69ad2bff7b74efe9cb749a55/power_grid_model-1.5.0rc9150505439162-py3-none-win_amd64.whl
+[2023-04-17 17:54:30] INFO root fetch - processPackages [highrise-bot-sdk]: Downloading https://files.pythonhosted.org/packages/ac/63/f3cf8ae688463ed5228bdfbe2b53d5f9e96ba086806bde90c73aa98d394b/highrise_bot_sdk-23.1.0b6.tar.gz
+[2023-04-17 17:54:30] INFO root fetch - processPackages [highrise-bot-sdk]: Downloading https://files.pythonhosted.org/packages/ac/63/f3cf8ae688463ed5228bdfbe2b53d5f9e96ba086806bde90c73aa98d394b/highrise_bot_sdk-23.1.0b6.tar.gz
+[2023-04-17 17:54:30] INFO root fetch - processPackages [qr-server]: Downloading https://files.pythonhosted.org/packages/bb/90/84284946c5c4d2d7afb3a9119aa837784379da89d128e5518c4368167ff8/qr_server-1.1.9.tar.gz
+[2023-04-17 17:54:30] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-04-17 17:54:30] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.294.0.tar.gz tmp/policyengine-us-0.295.0.tar.gz --markdown 20230417/p/policyengine-us/0.294.0-0.295.0/diff.md --exclude *.pyd
+[2023-04-17 17:54:30] INFO root fetch - processPackages [nx5d]: Downloading https://files.pythonhosted.org/packages/ec/15/05f703363f9b3256fa93ebcac70cb35446b8a4c942318afa6a1b54e13f82/nx5d-0.3.1.tar.gz
+[2023-04-17 17:54:30] INFO root fetch - processPackages [sqlalchemy-extras]: executing diffoscope
+[2023-04-17 17:54:30] INFO root fetch - processPackages [sqlalchemy-extras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy_extras-2.0.1.tar.gz tmp/sqlalchemy_extras-2.0.2.tar.gz --markdown 20230417/s/sqlalchemy-extras/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-04-17 17:54:30] INFO root fetch - processPackages [highrise-bot-sdk]: executing diffoscope
+[2023-04-17 17:54:30] INFO root fetch - processPackages [highrise-bot-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/highrise_bot_sdk-23.1.0b5.tar.gz tmp/highrise_bot_sdk-23.1.0b6.tar.gz --markdown 20230417/h/highrise-bot-sdk/23.1.0b5-23.1.0b6/diff.md --exclude *.pyd
+[2023-04-17 17:54:30] INFO root fetch - processPackages [highrise-bot-sdk]: executing diffoscope
+[2023-04-17 17:54:30] INFO root fetch - processPackages [qr-server]: executing diffoscope
+[2023-04-17 17:54:30] INFO root fetch - processPackages [highrise-bot-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/highrise_bot_sdk-23.1.0b5.tar.gz tmp/highrise_bot_sdk-23.1.0b6.tar.gz --markdown 20230417/h/highrise-bot-sdk/23.1.0b5-23.1.0b6/diff.md --exclude *.pyd
+[2023-04-17 17:54:30] INFO root fetch - processPackages [qr-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qr_server-1.1.8.tar.gz tmp/qr_server-1.1.9.tar.gz --markdown 20230417/q/qr-server/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-04-17 17:54:30] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/02/c4/503417c810664c23f1e3aa64a1ff506a344b38a70a951d7aff85e172d5d8/power_grid_model-1.5.0rc9152109758095-py3-none-win_amd64.whl
+[2023-04-17 17:54:30] INFO root fetch - processPackages [nx5d]: executing diffoscope
+[2023-04-17 17:54:30] INFO root fetch - processPackages [nx5d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nx5d-0.3.0.tar.gz tmp/nx5d-0.3.1.tar.gz --markdown 20230417/n/nx5d/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-17 17:54:30] INFO root fetch - processPackages [power-grid-model]: executing diffoscope
+[2023-04-17 17:54:30] INFO root fetch - processPackages [power-grid-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power_grid_model-1.5.0rc9150505439162-py3-none-win_amd64.whl.zip tmp/power_grid_model-1.5.0rc9152109758095-py3-none-win_amd64.whl.zip --markdown 20230417/p/power-grid-model/1.5.0rc9150505439162-1.5.0rc9152109758095/diff.md --exclude *.pyd
+[2023-04-17 17:54:31] INFO root fetch - processPackages [sqlalchemy-extras]: Start processing: fedot-ind
+[2023-04-17 17:54:31] INFO root fetch - main [MainThread]: End processing [sqlalchemy-extras]: success
+[2023-04-17 17:54:31] WARNING root fetch - processPackages [fedot-ind]: Skipping, unable to determine old version
+[2023-04-17 17:54:31] INFO root fetch - main [MainThread]: End processing [fedot-ind] error
+[2023-04-17 17:54:31] INFO root fetch - main [MainThread]: End processing [qr-server]: success
+[2023-04-17 17:54:31] INFO root fetch - main [MainThread]: End processing [highrise-bot-sdk]: success
+[2023-04-17 17:54:31] INFO root fetch - main [MainThread]: End processing [maxbot]: success
+[2023-04-17 17:54:31] INFO root fetch - main [MainThread]: End processing [highrise-bot-sdk]: success
+[2023-04-17 17:54:32] INFO root fetch - main [MainThread]: End processing [sampo]: success
+[2023-04-17 17:54:33] INFO root fetch - main [MainThread]: End processing [nx5d]: success
+[2023-04-17 17:54:35] INFO root fetch - main [MainThread]: End processing [jsonschema]: success
+[2023-04-17 17:54:36] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
+[2023-04-17 17:55:38] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-04-17 17:55:38] INFO root fetch - main [MainThread]: Store serial: [17740941]
