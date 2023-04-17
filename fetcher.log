@@ -8236,3 +8236,87 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 10:38:50] INFO root fetch - main [MainThread]: End processing [nextcloudtalkbot]: success
 [2023-04-17 10:38:51] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
 [2023-04-17 10:38:51] INFO root fetch - main [MainThread]: Store serial: [17735584]
+[2023-04-17 10:43:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17735584]
+[2023-04-17 10:44:00] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-17 10:44:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bugbug
+[2023-04-17 10:44:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tfp-nightly
+[2023-04-17 10:44:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: EMPOL-GUI
+[2023-04-17 10:44:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ib110hw
+[2023-04-17 10:44:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jenkins-job-builder
+[2023-04-17 10:44:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: oai-tools
+[2023-04-17 10:44:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flowmachine
+[2023-04-17 10:44:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flowetl
+[2023-04-17 10:44:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: flowclient
+[2023-04-17 10:44:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: brainpylib
+[2023-04-17 10:44:00] INFO root fetch - processPackages [oai-tools]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-17 10:44:00] INFO root fetch - processPackages [EMPOL-GUI]: New version: [2.2.5] Old Version: [2.2.4]
+[2023-04-17 10:44:00] INFO root fetch - processPackages [ib110hw]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-17 10:44:00] INFO root fetch - processPackages [jenkins-job-builder]: New version: [5.0.2] Old Version: [5.0.1]
+[2023-04-17 10:44:00] INFO root fetch - processPackages [bugbug]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-17 10:44:00] INFO root fetch - processPackages [brainpylib]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-04-17 10:44:00] INFO root fetch - processPackages [flowclient]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2023-04-17 10:44:00] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2023-04-17 10:44:00] INFO root fetch - processPackages [flowmachine]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2023-04-17 10:44:00] INFO root fetch - processPackages [flowetl]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2023-04-17 10:44:00] INFO root fetch - processPackages [flowmachine]: executing diffoscope
+[2023-04-17 10:44:00] INFO root fetch - processPackages [flowmachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowmachine-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowmachine-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20230417/f/flowmachine/1.9.4.post0.dev70-1.9.4.post0.dev76/diff.md --exclude *.pyd
+[2023-04-17 10:44:00] INFO root fetch - processPackages [flowclient]: executing diffoscope
+[2023-04-17 10:44:00] INFO root fetch - processPackages [flowclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowclient-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowclient-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20230417/f/flowclient/1.9.4.post0.dev70-1.9.4.post0.dev76/diff.md --exclude *.pyd
+[2023-04-17 10:44:00] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2023-04-17 10:44:00] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20230417/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/diff.md --exclude *.pyd
+[2023-04-17 10:44:00] INFO root fetch - processPackages [flowetl]: executing diffoscope
+[2023-04-17 10:44:00] INFO root fetch - processPackages [flowetl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowetl-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowetl-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20230417/f/flowetl/1.9.4.post0.dev70-1.9.4.post0.dev76/diff.md --exclude *.pyd
+[2023-04-17 10:44:00] INFO root fetch - processPackages [jenkins-job-builder]: Downloading https://files.pythonhosted.org/packages/6b/8b/2bc2c363d69fad50196e7bb6b8462ba2230f4c949f283cd5fbb16a5252cb/jenkins-job-builder-5.0.1.tar.gz
+[2023-04-17 10:44:00] INFO root fetch - processPackages [EMPOL-GUI]: Downloading https://files.pythonhosted.org/packages/ea/35/ae33018a2db80b21e3c76dd27216e7348a18ad3ed9d9a733740c8dba8261/EMPOL_GUI-2.2.5.tar.gz
+[2023-04-17 10:44:01] INFO root fetch - processPackages [ib110hw]: Downloading https://files.pythonhosted.org/packages/f7/47/810e3ff2a63787d34d08ffc20f2182e2f8cda48a2ac928fe19989a02b462/ib110hw-0.1.2.tar.gz
+[2023-04-17 10:44:01] INFO root fetch - processPackages [brainpylib]: Downloading https://files.pythonhosted.org/packages/b2/2c/80feb3a41269b0f68c06214ba4cf46e3afb43219a1e2ce1a1110c8bf2b2f/brainpylib-0.1.7-cp39-cp39-win_amd64.whl
+[2023-04-17 10:44:01] INFO root fetch - processPackages [oai-tools]: Downloading https://files.pythonhosted.org/packages/46/53/1755afb8fc153b77e7bc0d857aeaa65d87b5f8c3587725c89cee5b3c2129/oai_tools-0.1.3.tar.gz
+[2023-04-17 10:44:01] INFO root fetch - processPackages [bugbug]: executing diffoscope
+[2023-04-17 10:44:01] INFO root fetch - processPackages [bugbug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bugbug-0.0.98.tar.gz tmp/bugbug-0.0.99.tar.gz --markdown 20230417/b/bugbug/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-17 10:44:01] INFO root fetch - processPackages [ib110hw]: executing diffoscope
+[2023-04-17 10:44:01] INFO root fetch - processPackages [ib110hw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ib110hw-0.1.1.tar.gz tmp/ib110hw-0.1.2.tar.gz --markdown 20230417/i/ib110hw/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-17 10:44:01] INFO root fetch - processPackages [EMPOL-GUI]: executing diffoscope
+[2023-04-17 10:44:01] INFO root fetch - processPackages [EMPOL-GUI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EMPOL_GUI-2.2.4.tar.gz tmp/EMPOL_GUI-2.2.5.tar.gz --markdown 20230417/E/EMPOL-GUI/2.2.4-2.2.5/diff.md --exclude *.pyd
+[2023-04-17 10:44:01] INFO root fetch - processPackages [oai-tools]: executing diffoscope
+[2023-04-17 10:44:01] INFO root fetch - processPackages [oai-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oai_tools-0.1.2.tar.gz tmp/oai_tools-0.1.3.tar.gz --markdown 20230417/o/oai-tools/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-17 10:44:01] INFO root fetch - processPackages [jenkins-job-builder]: Downloading https://files.pythonhosted.org/packages/b3/69/5c52ca511cdedbb95b674b3dacef6e80086efc5924b80a097dea3861b830/jenkins-job-builder-5.0.2.tar.gz
+[2023-04-17 10:44:01] INFO root fetch - processPackages [brainpylib]: Downloading https://files.pythonhosted.org/packages/28/ce/0331adb4da28abafe3a051692717c682a123fcdcec29a652d1fea2ffac33/brainpylib-0.1.8-cp39-cp39-win_amd64.whl
+[2023-04-17 10:44:01] INFO root fetch - processPackages [jenkins-job-builder]: executing diffoscope
+[2023-04-17 10:44:01] INFO root fetch - processPackages [jenkins-job-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jenkins-job-builder-5.0.1.tar.gz tmp/jenkins-job-builder-5.0.2.tar.gz --markdown 20230417/j/jenkins-job-builder/5.0.1-5.0.2/diff.md --exclude *.pyd
+[2023-04-17 10:44:01] INFO root fetch - processPackages [brainpylib]: executing diffoscope
+[2023-04-17 10:44:01] INFO root fetch - processPackages [brainpylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brainpylib-0.1.7-cp39-cp39-win_amd64.whl.zip tmp/brainpylib-0.1.8-cp39-cp39-win_amd64.whl.zip --markdown 20230417/b/brainpylib/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-04-17 10:44:02] INFO root fetch - processPackages [flowclient]: Start processing: fuse-client
+[2023-04-17 10:44:02] INFO root fetch - main [MainThread]: End processing [flowclient]: success
+[2023-04-17 10:44:02] INFO root fetch - processPackages [fuse-client]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-17 10:44:02] INFO root fetch - processPackages [oai-tools]: Start processing: conllup
+[2023-04-17 10:44:02] INFO root fetch - main [MainThread]: End processing [oai-tools]: success
+[2023-04-17 10:44:02] INFO root fetch - processPackages [flowetl]: Start processing: openwarehouse
+[2023-04-17 10:44:02] INFO root fetch - main [MainThread]: End processing [flowetl]: success
+[2023-04-17 10:44:02] INFO root fetch - processPackages [conllup]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-04-17 10:44:02] INFO root fetch - processPackages [EMPOL-GUI]: Start processing: gitlabci-local
+[2023-04-17 10:44:02] INFO root fetch - main [MainThread]: End processing [EMPOL-GUI]: success
+[2023-04-17 10:44:02] WARNING root fetch - processPackages [openwarehouse]: Skipping, unable to determine old version
+[2023-04-17 10:44:02] INFO root fetch - main [MainThread]: End processing [openwarehouse] error
+[2023-04-17 10:44:02] INFO root fetch - processPackages [gitlabci-local]: New version: [7.0.1] Old Version: [7.0.0]
+[2023-04-17 10:44:02] INFO root fetch - processPackages [fuse-client]: Downloading https://files.pythonhosted.org/packages/9a/21/138519c88f9d90560802d68fbffedbc6d792520df33f90f2bf7a5e7babd9/fuse-client-1.0.8.tar.gz
+[2023-04-17 10:44:03] INFO root fetch - processPackages [conllup]: Downloading https://files.pythonhosted.org/packages/7e/d0/df8693ab0c25d123f62806141a0afae6547a5386a8362accd9628f84575b/conllup-0.4.4.tar.gz
+[2023-04-17 10:44:03] INFO root fetch - processPackages [gitlabci-local]: Downloading https://files.pythonhosted.org/packages/46/e4/8c7448ff933d9e602f6faf2ff55a9a92ace521c38f3275dec955964277a0/gitlabci_local-7.0.0-py3-none-any.whl
+[2023-04-17 10:44:03] INFO root fetch - main [MainThread]: End processing [ib110hw]: success
+[2023-04-17 10:44:03] INFO root fetch - processPackages [fuse-client]: Downloading https://files.pythonhosted.org/packages/9f/28/6906364967b44d92a7e318a9dc58b01f5283fa11fb25d34ea32d97bc68d4/fuse-client-1.0.9.tar.gz
+[2023-04-17 10:44:03] INFO root fetch - main [MainThread]: End processing [brainpylib]: success
+[2023-04-17 10:44:03] INFO root fetch - processPackages [conllup]: Downloading https://files.pythonhosted.org/packages/1c/dd/780a94f3dc70c924ea40f9438588dc58f6ba16efdb8c96feb65a6cac8384/conllup-0.4.5.tar.gz
+[2023-04-17 10:44:03] INFO root fetch - processPackages [fuse-client]: executing diffoscope
+[2023-04-17 10:44:03] INFO root fetch - processPackages [fuse-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fuse-client-1.0.8.tar.gz tmp/fuse-client-1.0.9.tar.gz --markdown 20230417/f/fuse-client/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-17 10:44:03] INFO root fetch - processPackages [gitlabci-local]: Downloading https://files.pythonhosted.org/packages/26/42/73b813f8de48d9b13f06f289eca36ec9737688eb3ef6032cfeca59a9bb1b/gitlabci_local-7.0.1-py3-none-any.whl
+[2023-04-17 10:44:03] INFO root fetch - processPackages [conllup]: executing diffoscope
+[2023-04-17 10:44:03] INFO root fetch - processPackages [conllup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conllup-0.4.4.tar.gz tmp/conllup-0.4.5.tar.gz --markdown 20230417/c/conllup/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-04-17 10:44:03] INFO root fetch - processPackages [gitlabci-local]: executing diffoscope
+[2023-04-17 10:44:03] INFO root fetch - processPackages [gitlabci-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlabci_local-7.0.0-py3-none-any.whl.zip tmp/gitlabci_local-7.0.1-py3-none-any.whl.zip --markdown 20230417/g/gitlabci-local/7.0.0-7.0.1/diff.md --exclude *.pyd
+[2023-04-17 10:44:03] INFO root fetch - main [MainThread]: End processing [flowmachine]: success
+[2023-04-17 10:44:04] INFO root fetch - main [MainThread]: End processing [conllup]: success
+[2023-04-17 10:44:04] INFO root fetch - main [MainThread]: End processing [bugbug]: success
+[2023-04-17 10:44:05] INFO root fetch - main [MainThread]: End processing [gitlabci-local]: success
+[2023-04-17 10:44:07] INFO root fetch - main [MainThread]: End processing [fuse-client]: success
+[2023-04-17 10:44:15] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2023-04-17 10:45:13] INFO root fetch - main [MainThread]: End processing [jenkins-job-builder]: success
+[2023-04-17 10:45:13] INFO root fetch - main [MainThread]: Store serial: [17735627]
