@@ -15751,3 +15751,148 @@ EOFError: EOF read where object expected
 [2023-04-17 16:50:05] INFO root fetch - main [MainThread]: End processing [PyStorCLI2]: success
 [2023-04-17 16:50:12] INFO root fetch - main [MainThread]: End processing [btrack]: success
 [2023-04-17 16:50:12] INFO root fetch - main [MainThread]: Store serial: [17740006]
+[2023-04-17 16:55:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17740006]
+[2023-04-17 16:55:21] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-04-17 16:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: numerous.sdk
+[2023-04-17 16:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sherbystats
+[2023-04-17 16:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Askpyro
+[2023-04-17 16:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: perlib
+[2023-04-17 16:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyStorCLI2
+[2023-04-17 16:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: polywrap-msgpack
+[2023-04-17 16:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: enstools
+[2023-04-17 16:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pytest-frappe
+[2023-04-17 16:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pheno-utils
+[2023-04-17 16:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nonebot-plugin-bing-chat
+[2023-04-17 16:55:21] INFO root fetch - processPackages [Askpyro]: New version: [1.72] Old Version: [1.71]
+[2023-04-17 16:55:22] INFO root fetch - processPackages [pytest-frappe]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 16:55:22] INFO root fetch - processPackages [PyStorCLI2]: New version: [0.6.2.dev13] Old Version: [0.6.1.dev6]
+[2023-04-17 16:55:22] INFO root fetch - processPackages [pheno-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 16:55:22] INFO root fetch - processPackages [nonebot-plugin-bing-chat]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-04-17 16:55:22] INFO root fetch - processPackages [sherbystats]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-17 16:55:22] INFO root fetch - processPackages [pheno-utils]: executing diffoscope
+[2023-04-17 16:55:22] INFO root fetch - processPackages [pheno-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pheno-utils-0.0.8.tar.gz tmp/pheno-utils-0.0.9.tar.gz --markdown 20230417/p/pheno-utils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 16:55:22] INFO root fetch - processPackages [perlib]: New version: [2.1.5] Old Version: [2.1.4]
+[2023-04-17 16:55:22] INFO root fetch - processPackages [numerous.sdk]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-17 16:55:22] INFO root fetch - processPackages [polywrap-msgpack]: New version: [0.1.0a9] Old Version: [0.1.0a8]
+[2023-04-17 16:55:22] INFO root fetch - processPackages [enstools]: New version: [2023.4.1] Old Version: [2023.1]
+[2023-04-17 16:55:22] INFO root fetch - processPackages [Askpyro]: executing diffoscope
+[2023-04-17 16:55:22] INFO root fetch - processPackages [PyStorCLI2]: executing diffoscope
+[2023-04-17 16:55:22] INFO root fetch - processPackages [Askpyro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Askpyro-1.71.tar.gz tmp/Askpyro-1.72.tar.gz --markdown 20230417/A/Askpyro/1.71-1.72/diff.md --exclude *.pyd
+[2023-04-17 16:55:22] INFO root fetch - processPackages [PyStorCLI2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyStorCLI2-0.6.1.dev6.tar.gz tmp/PyStorCLI2-0.6.2.dev13.tar.gz --markdown 20230417/P/PyStorCLI2/0.6.1.dev6-0.6.2.dev13/diff.md --exclude *.pyd
+[2023-04-17 16:55:22] INFO root fetch - processPackages [pytest-frappe]: Downloading https://files.pythonhosted.org/packages/15/c9/e4ee1bd44adb1da445a98d946d4477a9c5a737e155858788f64cabf19ac8/pytest-frappe-0.0.9.tar.gz
+[2023-04-17 16:55:22] INFO root fetch - processPackages [nonebot-plugin-bing-chat]: Downloading https://files.pythonhosted.org/packages/7a/f6/81ad0a933597a8a11bfc171bdba6a972c22389eb81c705b45f8ee987aef3/nonebot-plugin-bing-chat-0.7.8.tar.gz
+[2023-04-17 16:55:22] INFO root fetch - processPackages [polywrap-msgpack]: Downloading https://files.pythonhosted.org/packages/64/aa/a4ed22f4b6f335769968ea42458aaccd7b2e9197af3aea3e0b41b959e52b/polywrap_msgpack-0.1.0a8.tar.gz
+[2023-04-17 16:55:22] INFO root fetch - processPackages [perlib]: Downloading https://files.pythonhosted.org/packages/bc/c5/72a7ece634e9527b13f3fd4079de3f0d3e5d24882d8264f54ade416443ea/perlib-2.1.4.tar.gz
+[2023-04-17 16:55:22] INFO root fetch - processPackages [pytest-frappe]: executing diffoscope
+[2023-04-17 16:55:22] INFO root fetch - processPackages [pytest-frappe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-frappe-0.0.8.tar.gz tmp/pytest-frappe-0.0.9.tar.gz --markdown 20230417/p/pytest-frappe/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 16:55:22] INFO root fetch - processPackages [numerous.sdk]: Downloading https://files.pythonhosted.org/packages/c5/19/eb5f9aae5084b96359e6dc09800409c59b897f0ca6465db254d85a753429/numerous.sdk-0.8.0.tar.gz
+[2023-04-17 16:55:22] INFO root fetch - processPackages [sherbystats]: Downloading https://files.pythonhosted.org/packages/4b/e0/1b81bcfe32bc029ebd9449fd226d278f66c504a40fbda9159a301bac4449/sherbystats-0.0.7.tar.gz
+[2023-04-17 16:55:22] INFO root fetch - processPackages [enstools]: Downloading https://files.pythonhosted.org/packages/e5/d8/54b7148afcf63ec7e84c6295aa2686bc4e66194acfda73c860104df4da0e/enstools-2023.4.1.tar.gz
+[2023-04-17 16:55:22] INFO root fetch - processPackages [sherbystats]: executing diffoscope
+[2023-04-17 16:55:22] INFO root fetch - processPackages [sherbystats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sherbystats-0.0.6.tar.gz tmp/sherbystats-0.0.7.tar.gz --markdown 20230417/s/sherbystats/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-17 16:55:22] INFO root fetch - processPackages [nonebot-plugin-bing-chat]: Downloading https://files.pythonhosted.org/packages/e5/1b/70d329be70a69765fd2e333596ee6d5a5708cd302621ef36cbec95aacbb5/nonebot-plugin-bing-chat-0.7.9.tar.gz
+[2023-04-17 16:55:22] INFO root fetch - processPackages [perlib]: Downloading https://files.pythonhosted.org/packages/3f/77/88f26eeae9822c74284d24d41de90f5d74ca6f3897e239553a5f7ecff0b4/perlib-2.1.5.tar.gz
+[2023-04-17 16:55:22] INFO root fetch - processPackages [enstools]: executing diffoscope
+[2023-04-17 16:55:22] INFO root fetch - processPackages [enstools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enstools-2023.1.tar.gz tmp/enstools-2023.4.1.tar.gz --markdown 20230417/e/enstools/2023.1-2023.4.1/diff.md --exclude *.pyd
+[2023-04-17 16:55:22] INFO root fetch - processPackages [perlib]: executing diffoscope
+[2023-04-17 16:55:22] INFO root fetch - processPackages [perlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perlib-2.1.4.tar.gz tmp/perlib-2.1.5.tar.gz --markdown 20230417/p/perlib/2.1.4-2.1.5/diff.md --exclude *.pyd
+[2023-04-17 16:55:22] INFO root fetch - processPackages [polywrap-msgpack]: Downloading https://files.pythonhosted.org/packages/f5/e7/9acac563c1933244fee01221e1a4a327fcdf3dc200dbb47bafd8df87b4c6/polywrap_msgpack-0.1.0a9.tar.gz
+[2023-04-17 16:55:22] INFO root fetch - processPackages [numerous.sdk]: Downloading https://files.pythonhosted.org/packages/89/b1/8a2eaf2d3b5e5114385f9f271a9de81af8376e58d63490ec17de7acb2de6/numerous.sdk-0.9.0.tar.gz
+[2023-04-17 16:55:22] INFO root fetch - processPackages [nonebot-plugin-bing-chat]: executing diffoscope
+[2023-04-17 16:55:22] INFO root fetch - processPackages [nonebot-plugin-bing-chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-bing-chat-0.7.8.tar.gz tmp/nonebot-plugin-bing-chat-0.7.9.tar.gz --markdown 20230417/n/nonebot-plugin-bing-chat/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-04-17 16:55:22] INFO root fetch - processPackages [polywrap-msgpack]: executing diffoscope
+[2023-04-17 16:55:22] INFO root fetch - processPackages [polywrap-msgpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polywrap_msgpack-0.1.0a8.tar.gz tmp/polywrap_msgpack-0.1.0a9.tar.gz --markdown 20230417/p/polywrap-msgpack/0.1.0a8-0.1.0a9/diff.md --exclude *.pyd
+[2023-04-17 16:55:23] INFO root fetch - processPackages [numerous.sdk]: executing diffoscope
+[2023-04-17 16:55:23] INFO root fetch - processPackages [numerous.sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numerous.sdk-0.8.0.tar.gz tmp/numerous.sdk-0.9.0.tar.gz --markdown 20230417/n/numerous.sdk/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-17 16:55:23] INFO root fetch - processPackages [pheno-utils]: Start processing: atlas-consortia-commons
+[2023-04-17 16:55:23] INFO root fetch - main [MainThread]: End processing [pheno-utils]: success
+[2023-04-17 16:55:23] INFO root fetch - processPackages [atlas-consortia-commons]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-17 16:55:23] INFO root fetch - processPackages [pytest-frappe]: Start processing: leadguru-jobs
+[2023-04-17 16:55:23] INFO root fetch - main [MainThread]: End processing [pytest-frappe]: success
+[2023-04-17 16:55:23] INFO root fetch - processPackages [atlas-consortia-commons]: Downloading https://files.pythonhosted.org/packages/dc/e0/4cd06d85389a71b21ea941dd9b9dbf8c4bbe6f537e2580c8e8128e0ba5f8/atlas-consortia-commons-1.0.2.tar.gz
+[2023-04-17 16:55:23] INFO root fetch - processPackages [Askpyro]: Start processing: polywrap-manifest
+[2023-04-17 16:55:23] INFO root fetch - main [MainThread]: End processing [Askpyro]: success
+[2023-04-17 16:55:23] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-04-17 16:55:23] INFO root fetch - processPackages [sherbystats]: Start processing: vanilla-violin
+[2023-04-17 16:55:23] INFO root fetch - main [MainThread]: End processing [sherbystats]: success
+[2023-04-17 16:55:23] INFO root fetch - processPackages [polywrap-manifest]: New version: [0.1.0a8] Old Version: [0.1.0a7]
+[2023-04-17 16:55:23] INFO root fetch - processPackages [vanilla-violin]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-17 16:55:23] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/58/0a/904c1f8e92c5b6adf3bf97a755cae87648f67ca82bb52bc30055558e0ce3/leadguru_jobs-0.98.0.tar.gz
+[2023-04-17 16:55:23] INFO root fetch - processPackages [atlas-consortia-commons]: Downloading https://files.pythonhosted.org/packages/75/23/9c8144ea9fcbe602d3eb89281c246cf30b3237a04ef218bbe821ebcd7677/atlas-consortia-commons-1.0.3.tar.gz
+[2023-04-17 16:55:24] INFO root fetch - processPackages [polywrap-msgpack]: Start processing: raydl
+[2023-04-17 16:55:24] INFO root fetch - main [MainThread]: End processing [polywrap-msgpack]: success
+[2023-04-17 16:55:24] INFO root fetch - processPackages [polywrap-manifest]: Downloading https://files.pythonhosted.org/packages/62/60/94225b3b5d1c6cc0aea345f15d37850dc2d1224a963ca29d228fde172f13/polywrap_manifest-0.1.0a7.tar.gz
+[2023-04-17 16:55:24] INFO root fetch - processPackages [atlas-consortia-commons]: executing diffoscope
+[2023-04-17 16:55:24] INFO root fetch - processPackages [atlas-consortia-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atlas-consortia-commons-1.0.2.tar.gz tmp/atlas-consortia-commons-1.0.3.tar.gz --markdown 20230417/a/atlas-consortia-commons/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-17 16:55:24] INFO root fetch - processPackages [vanilla-violin]: Downloading https://files.pythonhosted.org/packages/73/e0/b534a9fbd034b55bae2ddafeea46df942dc70a13b6bcc7912ad9d923dc6d/vanilla_violin-0.1.4.tar.gz
+[2023-04-17 16:55:24] INFO root fetch - processPackages [raydl]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 16:55:24] INFO root fetch - processPackages [nonebot-plugin-bing-chat]: Start processing: polywrap-core
+[2023-04-17 16:55:24] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bing-chat]: success
+[2023-04-17 16:55:24] INFO root fetch - processPackages [raydl]: Downloading https://files.pythonhosted.org/packages/94/f7/a7fdb0ec493b5a6672e2523d2e698cadc015d8df1df8e8b640bb614b0a97/raydl-0.0.8.tar.gz
+[2023-04-17 16:55:24] INFO root fetch - processPackages [polywrap-core]: New version: [0.1.0a8] Old Version: [0.1.0a7]
+[2023-04-17 16:55:24] INFO root fetch - processPackages [vanilla-violin]: Downloading https://files.pythonhosted.org/packages/bc/4c/f0bf1b454909f8d63437935e6a1f3c07b19ff15a1f026fd58be546e58122/vanilla_violin-0.1.5.tar.gz
+[2023-04-17 16:55:24] INFO root fetch - processPackages [polywrap-manifest]: Downloading https://files.pythonhosted.org/packages/7c/77/cedbff14721aa458a69c7a30b856445730a28b02b55fd934aa0743eb874b/polywrap_manifest-0.1.0a8.tar.gz
+[2023-04-17 16:55:24] INFO root fetch - processPackages [vanilla-violin]: executing diffoscope
+[2023-04-17 16:55:24] INFO root fetch - processPackages [vanilla-violin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vanilla_violin-0.1.4.tar.gz tmp/vanilla_violin-0.1.5.tar.gz --markdown 20230417/v/vanilla-violin/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-17 16:55:24] INFO root fetch - processPackages [numerous.sdk]: Start processing: pwndocapi
+[2023-04-17 16:55:24] INFO root fetch - main [MainThread]: End processing [numerous.sdk]: success
+[2023-04-17 16:55:24] INFO root fetch - processPackages [polywrap-manifest]: executing diffoscope
+[2023-04-17 16:55:24] INFO root fetch - processPackages [polywrap-manifest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polywrap_manifest-0.1.0a7.tar.gz tmp/polywrap_manifest-0.1.0a8.tar.gz --markdown 20230417/p/polywrap-manifest/0.1.0a7-0.1.0a8/diff.md --exclude *.pyd
+[2023-04-17 16:55:24] INFO root fetch - processPackages [polywrap-core]: Downloading https://files.pythonhosted.org/packages/7b/b1/1484222b63b3e1b70d597e65561606bde5651d540e5c9df28e9ab3dda02b/polywrap_core-0.1.0a7.tar.gz
+[2023-04-17 16:55:24] INFO root fetch - processPackages [raydl]: Downloading https://files.pythonhosted.org/packages/6e/d8/1deac1266bb15e81230494a0d29cab70488e0ea3a22bc5f54df21a91eb58/raydl-0.0.9.tar.gz
+[2023-04-17 16:55:24] WARNING root fetch - processPackages [pwndocapi]: Skipping, unable to determine old version
+[2023-04-17 16:55:24] INFO root fetch - processPackages [pwndocapi]: Start processing: agnmol
+[2023-04-17 16:55:24] INFO root fetch - main [MainThread]: End processing [pwndocapi] error
+[2023-04-17 16:55:24] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/e4/7f/189fe7a4dc1256297dd1956413531652ee35cd4ee527f02aa7f2d608775a/leadguru_jobs-0.99.0.tar.gz
+[2023-04-17 16:55:24] INFO root fetch - processPackages [raydl]: executing diffoscope
+[2023-04-17 16:55:24] INFO root fetch - processPackages [raydl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raydl-0.0.8.tar.gz tmp/raydl-0.0.9.tar.gz --markdown 20230417/r/raydl/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 16:55:24] INFO root fetch - processPackages [agnmol]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-17 16:55:24] INFO root fetch - processPackages [polywrap-core]: Downloading https://files.pythonhosted.org/packages/90/d2/7bf0a80d0c2cc70ceefe989729f194f3d0c8d6dfc9282c14919ee73276e0/polywrap_core-0.1.0a8.tar.gz
+[2023-04-17 16:55:24] INFO root fetch - processPackages [polywrap-core]: executing diffoscope
+[2023-04-17 16:55:24] INFO root fetch - processPackages [polywrap-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polywrap_core-0.1.0a7.tar.gz tmp/polywrap_core-0.1.0a8.tar.gz --markdown 20230417/p/polywrap-core/0.1.0a7-0.1.0a8/diff.md --exclude *.pyd
+[2023-04-17 16:55:24] INFO root fetch - processPackages [agnmol]: Downloading https://files.pythonhosted.org/packages/b2/64/b574097fbef97327d42fa8a8eb50969694fe16932562b0e0e2b9c1ffbc64/agnmol-1.0.2.tar.gz
+[2023-04-17 16:55:24] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2023-04-17 16:55:24] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20230417/l/leadguru-jobs/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-04-17 16:55:25] INFO root fetch - processPackages [agnmol]: executing diffoscope
+[2023-04-17 16:55:25] INFO root fetch - processPackages [agnmol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agnmol-1.0.1.tar.gz tmp/agnmol-1.0.2.tar.gz --markdown 20230417/a/agnmol/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-17 16:55:25] INFO root fetch - processPackages [atlas-consortia-commons]: Start processing: pooling
+[2023-04-17 16:55:25] INFO root fetch - main [MainThread]: End processing [atlas-consortia-commons]: success
+[2023-04-17 16:55:25] INFO root fetch - processPackages [pooling]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-17 16:55:25] INFO root fetch - processPackages [pooling]: Downloading https://files.pythonhosted.org/packages/0f/60/26fb3dd818d9df3c09829ec7813bff6010f65b426e1976784ae3b742b892/pooling-0.1.8.tar.gz
+[2023-04-17 16:55:25] INFO root fetch - processPackages [polywrap-manifest]: Start processing: 41datastructure
+[2023-04-17 16:55:25] INFO root fetch - main [MainThread]: End processing [polywrap-manifest]: success
+[2023-04-17 16:55:25] INFO root fetch - processPackages [enstools]: Start processing: btrack
+[2023-04-17 16:55:25] INFO root fetch - main [MainThread]: End processing [enstools]: success
+[2023-04-17 16:55:25] WARNING root fetch - processPackages [41datastructure]: Skipping, unable to determine old version
+[2023-04-17 16:55:25] INFO root fetch - processPackages [41datastructure]: Start processing: qontract-reconcile
+[2023-04-17 16:55:25] INFO root fetch - main [MainThread]: End processing [41datastructure] error
+[2023-04-17 16:55:25] INFO root fetch - processPackages [btrack]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-04-17 16:55:25] INFO root fetch - processPackages [pooling]: Downloading https://files.pythonhosted.org/packages/47/60/2ead17b381c863fb9ae8102d42a5776c1761b76640b69786b15618758339/pooling-0.1.9.tar.gz
+[2023-04-17 16:55:25] INFO root fetch - processPackages [vanilla-violin]: Start processing: polywrap-plugin
+[2023-04-17 16:55:25] INFO root fetch - main [MainThread]: End processing [vanilla-violin]: success
+[2023-04-17 16:55:25] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-04-17 16:55:25] INFO root fetch - main [MainThread]: End processing [perlib]: success
+[2023-04-17 16:55:25] INFO root fetch - main [MainThread]: End processing [raydl]: success
+[2023-04-17 16:55:25] INFO root fetch - processPackages [pooling]: executing diffoscope
+[2023-04-17 16:55:25] INFO root fetch - processPackages [pooling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pooling-0.1.8.tar.gz tmp/pooling-0.1.9.tar.gz --markdown 20230417/p/pooling/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-17 16:55:25] INFO root fetch - processPackages [polywrap-plugin]: New version: [0.1.0a7] Old Version: [0.1.0a6]
+[2023-04-17 16:55:25] INFO root fetch - processPackages [btrack]: Downloading https://files.pythonhosted.org/packages/9a/e0/e682a2d44d9fa4b8506876829a6fdcd2fd378a388a12393b6dd9a23cef66/btrack-0.5.5.tar.gz
+[2023-04-17 16:55:26] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-04-17 16:55:26] INFO root fetch - processPackages [btrack]: executing diffoscope
+[2023-04-17 16:55:26] INFO root fetch - processPackages [btrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/btrack-0.5.4.tar.gz tmp/btrack-0.5.5.tar.gz --markdown 20230417/b/btrack/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2023-04-17 16:55:26] INFO root fetch - processPackages [polywrap-plugin]: Downloading https://files.pythonhosted.org/packages/f4/97/c10b8b5ec154f879d052ed84f0e13843a1e4cb1b409a21920a29cc9d2d41/polywrap_plugin-0.1.0a6.tar.gz
+[2023-04-17 16:55:26] INFO root fetch - main [MainThread]: End processing [polywrap-core]: success
+[2023-04-17 16:55:26] INFO root fetch - main [MainThread]: End processing [agnmol]: success
+[2023-04-17 16:55:26] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2023-04-17 16:55:26] INFO root fetch - processPackages [polywrap-plugin]: Downloading https://files.pythonhosted.org/packages/b3/3c/5ba12e1bf0c9e5d66c6dab019c7fa21a48eb6897cc7e2a7f9138b9f02112/polywrap_plugin-0.1.0a7.tar.gz
+[2023-04-17 16:55:26] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-04-17 16:55:26] INFO root fetch - processPackages [polywrap-plugin]: executing diffoscope
+[2023-04-17 16:55:26] INFO root fetch - processPackages [polywrap-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polywrap_plugin-0.1.0a6.tar.gz tmp/polywrap_plugin-0.1.0a7.tar.gz --markdown 20230417/p/polywrap-plugin/0.1.0a6-0.1.0a7/diff.md --exclude *.pyd
+[2023-04-17 16:55:26] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-04-17 16:55:26] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230417/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-04-17 16:55:26] INFO root fetch - main [MainThread]: End processing [pooling]: success
+[2023-04-17 16:55:27] INFO root fetch - main [MainThread]: End processing [polywrap-plugin]: success
+[2023-04-17 16:55:30] INFO root fetch - main [MainThread]: End processing [PyStorCLI2]: success
+[2023-04-17 16:55:32] INFO root fetch - main [MainThread]: End processing [btrack]: success
+[2023-04-17 16:55:33] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-04-17 16:55:33] INFO root fetch - main [MainThread]: Store serial: [17740084]
