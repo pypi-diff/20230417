@@ -16732,3 +16732,153 @@ EOFError: EOF read where object expected
 [2023-04-17 17:27:30] INFO root fetch - main [MainThread]: End processing [bimdata-api-client]: success
 [2023-04-17 17:27:42] INFO root fetch - main [MainThread]: End processing [openmetadata-ingestion]: success
 [2023-04-17 17:27:42] INFO root fetch - main [MainThread]: Store serial: [17740635]
+[2023-04-17 17:32:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17740635]
+[2023-04-17 17:32:52] INFO root fetch - main [MainThread]: Found 26 changed packages
+[2023-04-17 17:32:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: myelectricaldatapy
+[2023-04-17 17:32:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: maxbot
+[2023-04-17 17:32:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-socketio-fork
+[2023-04-17 17:32:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fonticon-fontawesome6
+[2023-04-17 17:32:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: returnn
+[2023-04-17 17:32:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openmetadata-managed-apis
+[2023-04-17 17:32:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: shipday
+[2023-04-17 17:32:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ipfskvs
+[2023-04-17 17:32:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: maxbot
+[2023-04-17 17:32:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lightningchart
+[2023-04-17 17:32:52] INFO root fetch - processPackages [returnn]: New version: [1.20230417.154451] Old Version: [1.20230415.10040]
+[2023-04-17 17:32:52] INFO root fetch - processPackages [lightningchart]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-04-17 17:32:53] INFO root fetch - processPackages [maxbot]: New version: [0.1.0b0.dev20230417183114] Old Version: [0.1.0b0.dev20230417182950]
+[2023-04-17 17:32:53] INFO root fetch - processPackages [maxbot]: New version: [0.1.0b0.dev20230417183114] Old Version: [0.1.0b0.dev20230417182950]
+[2023-04-17 17:32:53] WARNING root fetch - processPackages [python-socketio-fork]: Skipping, unable to determine old version
+[2023-04-17 17:32:53] INFO root fetch - processPackages [python-socketio-fork]: Start processing: syncmaster
+[2023-04-17 17:32:53] INFO root fetch - main [MainThread]: End processing [python-socketio-fork] error
+[2023-04-17 17:32:53] INFO root fetch - processPackages [fonticon-fontawesome6]: New version: [6.4.0] Old Version: [6.1.1]
+[2023-04-17 17:32:53] INFO root fetch - processPackages [shipday]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-04-17 17:32:53] WARNING root fetch - processPackages [ipfskvs]: Skipping, unable to determine old version
+[2023-04-17 17:32:53] INFO root fetch - processPackages [myelectricaldatapy]: New version: [1.9.7] Old Version: [1.9.6]
+[2023-04-17 17:32:53] INFO root fetch - processPackages [ipfskvs]: Start processing: speechtotext-python
+[2023-04-17 17:32:53] INFO root fetch - processPackages [openmetadata-managed-apis]: New version: [1.0.0.0.dev3] Old Version: [1.0.0.0.dev2]
+[2023-04-17 17:32:53] INFO root fetch - main [MainThread]: End processing [ipfskvs] error
+[2023-04-17 17:32:53] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-04-17 17:32:53] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230415.10040.tar.gz tmp/returnn-1.20230417.154451.tar.gz --markdown 20230417/r/returnn/1.20230415.10040-1.20230417.154451/diff.md --exclude *.pyd
+[2023-04-17 17:32:53] INFO root fetch - processPackages [syncmaster]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-17 17:32:53] INFO root fetch - processPackages [lightningchart]: Downloading https://files.pythonhosted.org/packages/94/0b/3a76ef972b5f54f9da355ed13081e000d7482891c5528ad953c19fe70d79/lightningchart-0.3.4-py3-none-any.whl
+[2023-04-17 17:32:53] INFO root fetch - processPackages [maxbot]: Downloading https://files.pythonhosted.org/packages/81/39/2e8a89c89945d2c83739568613fb9e5318331ad10d31773dcdfa1637a19b/maxbot-0.1.0b0.dev20230417182950.tar.gz
+[2023-04-17 17:32:53] INFO root fetch - processPackages [maxbot]: Downloading https://files.pythonhosted.org/packages/81/39/2e8a89c89945d2c83739568613fb9e5318331ad10d31773dcdfa1637a19b/maxbot-0.1.0b0.dev20230417182950.tar.gz
+[2023-04-17 17:32:53] INFO root fetch - processPackages [speechtotext-python]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-04-17 17:32:53] INFO root fetch - processPackages [myelectricaldatapy]: Downloading https://files.pythonhosted.org/packages/f2/0f/a6a9c601ed720bed7a3adbb9dcb751f26a8183ee1dd1f8ef096faf1f15be/myelectricaldatapy-1.9.6.tar.gz
+[2023-04-17 17:32:53] INFO root fetch - processPackages [fonticon-fontawesome6]: Downloading https://files.pythonhosted.org/packages/9c/dd/629bff484bf1ae137a437f4e318ce9a3c092f4fe300b0a75e2330604ab6e/fonticon-fontawesome6-6.1.1.tar.gz
+[2023-04-17 17:32:53] INFO root fetch - processPackages [syncmaster]: Downloading https://files.pythonhosted.org/packages/63/9d/be974fe0d264f607baf15b6a3140496b771ec9f8cb8bfb951a488f896240/syncmaster-0.0.1.tar.gz
+[2023-04-17 17:32:53] INFO root fetch - processPackages [shipday]: Downloading https://files.pythonhosted.org/packages/07/a3/06eaa0f4cdd0377dfaa4b6f09825f9bdb0d75c6ecc9eb35d674d94002d3d/shipday-1.3.0.tar.gz
+[2023-04-17 17:32:53] INFO root fetch - processPackages [speechtotext-python]: Downloading https://files.pythonhosted.org/packages/6b/a5/49f89873de9bb15f2bb45bdffcb8b144fd1d56d524140a9de9805895b7fb/speechtotext-python-0.3.3.tar.gz
+[2023-04-17 17:32:53] INFO root fetch - processPackages [openmetadata-managed-apis]: Downloading https://files.pythonhosted.org/packages/e8/b7/60347a58b27f381b4f607713ea194025baf7d5464840a3d7814bd243c642/openmetadata_managed_apis-1.0.0.0.dev3.tar.gz
+[2023-04-17 17:32:53] INFO root fetch - processPackages [maxbot]: Downloading https://files.pythonhosted.org/packages/59/3f/46c26ed236661cb388896e4463af44730e371eeb10682fa14b1f749fc4c0/maxbot-0.1.0b0.dev20230417183114.tar.gz
+[2023-04-17 17:32:53] INFO root fetch - processPackages [maxbot]: Downloading https://files.pythonhosted.org/packages/59/3f/46c26ed236661cb388896e4463af44730e371eeb10682fa14b1f749fc4c0/maxbot-0.1.0b0.dev20230417183114.tar.gz
+[2023-04-17 17:32:53] INFO root fetch - processPackages [myelectricaldatapy]: Downloading https://files.pythonhosted.org/packages/dd/0f/f061eb07e8ddb8c2b2757fe46d193eb4c7649a482e89506ce675b6a88a56/myelectricaldatapy-1.9.7.tar.gz
+[2023-04-17 17:32:53] INFO root fetch - processPackages [shipday]: executing diffoscope
+[2023-04-17 17:32:53] INFO root fetch - processPackages [shipday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipday-1.2.0.tar.gz tmp/shipday-1.3.0.tar.gz --markdown 20230417/s/shipday/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-04-17 17:32:53] INFO root fetch - processPackages [openmetadata-managed-apis]: executing diffoscope
+[2023-04-17 17:32:53] INFO root fetch - processPackages [openmetadata-managed-apis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmetadata_managed_apis-1.0.0.0.dev2.tar.gz tmp/openmetadata_managed_apis-1.0.0.0.dev3.tar.gz --markdown 20230417/o/openmetadata-managed-apis/1.0.0.0.dev2-1.0.0.0.dev3/diff.md --exclude *.pyd
+[2023-04-17 17:32:53] INFO root fetch - processPackages [fonticon-fontawesome6]: Downloading https://files.pythonhosted.org/packages/50/a6/6662a96f5d2a117c5f698ba216799b4aa8dec0baa13c218792fa8ffab786/fonticon_fontawesome6-6.4.0.tar.gz
+[2023-04-17 17:32:53] INFO root fetch - processPackages [syncmaster]: Downloading https://files.pythonhosted.org/packages/df/2f/9292f466c017d089e792b259fe219e29e267d7a0dd079b66e6a4f9d396ec/syncmaster-0.0.2.tar.gz
+[2023-04-17 17:32:53] INFO root fetch - processPackages [maxbot]: executing diffoscope
+[2023-04-17 17:32:53] INFO root fetch - processPackages [maxbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maxbot-0.1.0b0.dev20230417182950.tar.gz tmp/maxbot-0.1.0b0.dev20230417183114.tar.gz --markdown 20230417/m/maxbot/0.1.0b0.dev20230417182950-0.1.0b0.dev20230417183114/diff.md --exclude *.pyd
+[2023-04-17 17:32:53] INFO root fetch - processPackages [maxbot]: executing diffoscope
+[2023-04-17 17:32:53] INFO root fetch - processPackages [maxbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maxbot-0.1.0b0.dev20230417182950.tar.gz tmp/maxbot-0.1.0b0.dev20230417183114.tar.gz --markdown 20230417/m/maxbot/0.1.0b0.dev20230417182950-0.1.0b0.dev20230417183114/diff.md --exclude *.pyd
+[2023-04-17 17:32:53] INFO root fetch - processPackages [speechtotext-python]: Downloading https://files.pythonhosted.org/packages/35/4c/daf5983847b0cb8c76c5b69ade1c56e5fe6ae8a6ec358903c085aef2df7f/speechtotext-python-0.3.4.tar.gz
+[2023-04-17 17:32:53] INFO root fetch - processPackages [myelectricaldatapy]: executing diffoscope
+[2023-04-17 17:32:53] INFO root fetch - processPackages [myelectricaldatapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myelectricaldatapy-1.9.6.tar.gz tmp/myelectricaldatapy-1.9.7.tar.gz --markdown 20230417/m/myelectricaldatapy/1.9.6-1.9.7/diff.md --exclude *.pyd
+[2023-04-17 17:32:53] INFO root fetch - processPackages [lightningchart]: executing diffoscope
+[2023-04-17 17:32:53] INFO root fetch - processPackages [lightningchart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightningchart-0.3.3-py3-none-any.whl.zip tmp/lightningchart-0.3.4-py3-none-any.whl.zip --markdown 20230417/l/lightningchart/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-04-17 17:32:53] INFO root fetch - processPackages [syncmaster]: executing diffoscope
+[2023-04-17 17:32:53] INFO root fetch - processPackages [syncmaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syncmaster-0.0.1.tar.gz tmp/syncmaster-0.0.2.tar.gz --markdown 20230417/s/syncmaster/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-17 17:32:53] INFO root fetch - processPackages [fonticon-fontawesome6]: executing diffoscope
+[2023-04-17 17:32:53] INFO root fetch - processPackages [fonticon-fontawesome6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fonticon-fontawesome6-6.1.1.tar.gz tmp/fonticon_fontawesome6-6.4.0.tar.gz --markdown 20230417/f/fonticon-fontawesome6/6.1.1-6.4.0/diff.md --exclude *.pyd
+[2023-04-17 17:32:53] INFO root fetch - processPackages [speechtotext-python]: executing diffoscope
+[2023-04-17 17:32:53] INFO root fetch - processPackages [speechtotext-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speechtotext-python-0.3.3.tar.gz tmp/speechtotext-python-0.3.4.tar.gz --markdown 20230417/s/speechtotext-python/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-04-17 17:32:55] INFO root fetch - processPackages [shipday]: Start processing: waveforms
+[2023-04-17 17:32:55] INFO root fetch - main [MainThread]: End processing [shipday]: success
+[2023-04-17 17:32:55] INFO root fetch - processPackages [waveforms]: New version: [1.5.84] Old Version: [1.5.83]
+[2023-04-17 17:32:55] INFO root fetch - processPackages [myelectricaldatapy]: Start processing: pyodb
+[2023-04-17 17:32:55] INFO root fetch - main [MainThread]: End processing [myelectricaldatapy]: success
+[2023-04-17 17:32:55] INFO root fetch - processPackages [maxbot]: Start processing: maxbot
+[2023-04-17 17:32:55] INFO root fetch - main [MainThread]: End processing [maxbot]: success
+[2023-04-17 17:32:56] INFO root fetch - processPackages [maxbot]: New version: [0.1.0b0.dev20230417183114] Old Version: [0.1.0b0.dev20230417182950]
+[2023-04-17 17:32:56] INFO root fetch - processPackages [speechtotext-python]: Start processing: atlas-ftag-tools
+[2023-04-17 17:32:56] INFO root fetch - main [MainThread]: End processing [speechtotext-python]: success
+[2023-04-17 17:32:56] INFO root fetch - processPackages [syncmaster]: Start processing: os-py-tests
+[2023-04-17 17:32:56] INFO root fetch - main [MainThread]: End processing [syncmaster]: success
+[2023-04-17 17:32:56] INFO root fetch - processPackages [waveforms]: executing diffoscope
+[2023-04-17 17:32:56] INFO root fetch - processPackages [waveforms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waveforms-1.5.83.tar.gz tmp/waveforms-1.5.84.tar.gz --markdown 20230417/w/waveforms/1.5.83-1.5.84/diff.md --exclude *.pyd
+[2023-04-17 17:32:56] INFO root fetch - processPackages [pyodb]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-17 17:32:56] INFO root fetch - processPackages [maxbot]: executing diffoscope
+[2023-04-17 17:32:56] INFO root fetch - processPackages [maxbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maxbot-0.1.0b0.dev20230417182950.tar.gz tmp/maxbot-0.1.0b0.dev20230417183114.tar.gz --markdown 20230417/m/maxbot/0.1.0b0.dev20230417182950-0.1.0b0.dev20230417183114/diff.md --exclude *.pyd
+[2023-04-17 17:32:56] INFO root fetch - processPackages [atlas-ftag-tools]: New version: [0.1.0] Old Version: [0.0.8]
+[2023-04-17 17:32:56] WARNING root fetch - processPackages [os-py-tests]: Skipping, unable to determine old version
+[2023-04-17 17:32:56] INFO root fetch - processPackages [os-py-tests]: Start processing: glean-cli
+[2023-04-17 17:32:56] INFO root fetch - main [MainThread]: End processing [os-py-tests] error
+[2023-04-17 17:32:56] INFO root fetch - processPackages [pyodb]: Downloading https://files.pythonhosted.org/packages/d3/70/4c3808271935f21d583010bff56a90f69bea16a45a112399e81ace10cf36/pyodb-0.1.0.tar.gz
+[2023-04-17 17:32:56] INFO root fetch - processPackages [glean-cli]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-04-17 17:32:56] INFO root fetch - processPackages [openmetadata-managed-apis]: Start processing: django-torque
+[2023-04-17 17:32:56] INFO root fetch - main [MainThread]: End processing [openmetadata-managed-apis]: success
+[2023-04-17 17:32:56] INFO root fetch - processPackages [glean-cli]: Downloading https://files.pythonhosted.org/packages/67/67/099f2321b607bfee2676f52b16066b2a19a29f81b691dca9ceda333144a9/glean-cli-0.5.5.tar.gz
+[2023-04-17 17:32:56] INFO root fetch - processPackages [atlas-ftag-tools]: Downloading https://files.pythonhosted.org/packages/7c/b6/2f983297d3b42967bf8f7ac081aeaebf2c6551afd8b57b8c971b1ff4de43/atlas-ftag-tools-0.1.0.tar.gz
+[2023-04-17 17:32:56] INFO root fetch - processPackages [pyodb]: Downloading https://files.pythonhosted.org/packages/7a/98/fb1ba4e50292fa627b6739ade80748e4ba5ae3bcf28b11dd96e6932b5add/pyodb-0.1.1.tar.gz
+[2023-04-17 17:32:56] INFO root fetch - processPackages [django-torque]: New version: [0.5.0a1] Old Version: [0.4.0]
+[2023-04-17 17:32:56] INFO root fetch - processPackages [maxbot]: Start processing: peegy
+[2023-04-17 17:32:56] INFO root fetch - main [MainThread]: End processing [maxbot]: success
+[2023-04-17 17:32:56] INFO root fetch - processPackages [atlas-ftag-tools]: executing diffoscope
+[2023-04-17 17:32:56] INFO root fetch - processPackages [atlas-ftag-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atlas-ftag-tools-0.0.8.tar.gz tmp/atlas-ftag-tools-0.1.0.tar.gz --markdown 20230417/a/atlas-ftag-tools/0.0.8-0.1.0/diff.md --exclude *.pyd
+[2023-04-17 17:32:56] INFO root fetch - processPackages [pyodb]: executing diffoscope
+[2023-04-17 17:32:56] INFO root fetch - processPackages [pyodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyodb-0.1.0.tar.gz tmp/pyodb-0.1.1.tar.gz --markdown 20230417/p/pyodb/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-17 17:32:56] INFO root fetch - processPackages [peegy]: New version: [1.3.7] Old Version: [1.3.6]
+[2023-04-17 17:32:56] INFO root fetch - processPackages [glean-cli]: Downloading https://files.pythonhosted.org/packages/62/f2/0ddbe2c1376466e2388f6d9a7c2f82651d5b0e26a802188c36f5d74a49f9/glean-cli-0.5.6.tar.gz
+[2023-04-17 17:32:56] INFO root fetch - processPackages [django-torque]: Downloading https://files.pythonhosted.org/packages/29/f9/3db170c6f1c3dabe7977ae47be996e757eafb59c11664872b0fec972aeb0/django-torque-0.4.0.tar.gz
+[2023-04-17 17:32:56] INFO root fetch - processPackages [glean-cli]: executing diffoscope
+[2023-04-17 17:32:56] INFO root fetch - processPackages [glean-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glean-cli-0.5.5.tar.gz tmp/glean-cli-0.5.6.tar.gz --markdown 20230417/g/glean-cli/0.5.5-0.5.6/diff.md --exclude *.pyd
+[2023-04-17 17:32:57] INFO root fetch - processPackages [django-torque]: Downloading https://files.pythonhosted.org/packages/0d/58/daced7daeb57c05617e3ee22ecacf4b772a28209b9d9231ed501030a5d37/django-torque-0.5.0a1.tar.gz
+[2023-04-17 17:32:57] INFO root fetch - processPackages [peegy]: Downloading https://files.pythonhosted.org/packages/9f/0c/901499c549e2610cbc6a665fd82bf9689c595d7eb7f5d572cb04ea9958a1/peegy-1.3.7.tar.gz
+[2023-04-17 17:32:57] INFO root fetch - processPackages [django-torque]: executing diffoscope
+[2023-04-17 17:32:57] INFO root fetch - processPackages [django-torque]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-torque-0.4.0.tar.gz tmp/django-torque-0.5.0a1.tar.gz --markdown 20230417/d/django-torque/0.4.0-0.5.0a1/diff.md --exclude *.pyd
+[2023-04-17 17:32:57] INFO root fetch - processPackages [peegy]: executing diffoscope
+[2023-04-17 17:32:57] INFO root fetch - processPackages [peegy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peegy-1.3.6.tar.gz tmp/peegy-1.3.7.tar.gz --markdown 20230417/p/peegy/1.3.6-1.3.7/diff.md --exclude *.pyd
+[2023-04-17 17:32:58] INFO root fetch - processPackages [atlas-ftag-tools]: Start processing: edulint
+[2023-04-17 17:32:58] INFO root fetch - main [MainThread]: End processing [atlas-ftag-tools]: success
+[2023-04-17 17:32:58] INFO root fetch - processPackages [pyodb]: Start processing: dxsp
+[2023-04-17 17:32:58] INFO root fetch - main [MainThread]: End processing [pyodb]: success
+[2023-04-17 17:32:58] INFO root fetch - processPackages [edulint]: New version: [2.5.0] Old Version: [2.4.0]
+[2023-04-17 17:32:58] INFO root fetch - processPackages [dxsp]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-04-17 17:32:58] INFO root fetch - processPackages [glean-cli]: Start processing: titan-iris
+[2023-04-17 17:32:58] INFO root fetch - main [MainThread]: End processing [glean-cli]: success
+[2023-04-17 17:32:58] INFO root fetch - processPackages [titan-iris]: New version: [0.3.9a2] Old Version: [0.3.9a1]
+[2023-04-17 17:32:58] INFO root fetch - processPackages [edulint]: executing diffoscope
+[2023-04-17 17:32:58] INFO root fetch - processPackages [edulint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edulint-2.4.0.tar.gz tmp/edulint-2.5.0.tar.gz --markdown 20230417/e/edulint/2.4.0-2.5.0/diff.md --exclude *.pyd
+[2023-04-17 17:32:58] INFO root fetch - processPackages [dxsp]: executing diffoscope
+[2023-04-17 17:32:58] INFO root fetch - processPackages [dxsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxsp-1.2.4.tar.gz tmp/dxsp-1.2.5.tar.gz --markdown 20230417/d/dxsp/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-04-17 17:32:58] INFO root fetch - processPackages [maxbot]: Start processing: flawmop-fishdish
+[2023-04-17 17:32:58] INFO root fetch - main [MainThread]: End processing [maxbot]: success
+[2023-04-17 17:32:58] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-04-17 17:32:58] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.3.9a1.tar.gz tmp/titan-iris-0.3.9a2.tar.gz --markdown 20230417/t/titan-iris/0.3.9a1-0.3.9a2/diff.md --exclude *.pyd
+[2023-04-17 17:32:58] INFO root fetch - processPackages [flawmop-fishdish]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-04-17 17:32:58] INFO root fetch - processPackages [flawmop-fishdish]: executing diffoscope
+[2023-04-17 17:32:58] INFO root fetch - processPackages [flawmop-fishdish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flawmop-fishdish-0.4.0.tar.gz tmp/flawmop-fishdish-0.5.0.tar.gz --markdown 20230417/f/flawmop-fishdish/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-04-17 17:32:59] INFO root fetch - processPackages [django-torque]: Start processing: maskdino
+[2023-04-17 17:32:59] INFO root fetch - main [MainThread]: End processing [django-torque]: success
+[2023-04-17 17:32:59] WARNING root fetch - processPackages [maskdino]: Skipping, unable to determine old version
+[2023-04-17 17:32:59] INFO root fetch - processPackages [maskdino]: Start processing: lhf
+[2023-04-17 17:32:59] INFO root fetch - main [MainThread]: End processing [maskdino] error
+[2023-04-17 17:32:59] INFO root fetch - processPackages [lhf]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-04-17 17:32:59] INFO root fetch - processPackages [lhf]: Downloading https://files.pythonhosted.org/packages/57/b4/bb20717b6f4bb9a7b96821586069bfb5162178f6d45535b4952727a0cc90/lhf-1.3.1-py3-none-manylinux_2_28_x86_64.whl
+[2023-04-17 17:32:59] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-04-17 17:33:00] INFO root fetch - processPackages [lhf]: Downloading https://files.pythonhosted.org/packages/85/d1/4496118eca6ce441372923a8227bcaf50744df629bebcd022cbe4391eae0/lhf-1.3.2-py3-none-manylinux_2_28_x86_64.whl
+[2023-04-17 17:33:00] INFO root fetch - main [MainThread]: End processing [flawmop-fishdish]: success
+[2023-04-17 17:33:00] INFO root fetch - processPackages [lhf]: executing diffoscope
+[2023-04-17 17:33:00] INFO root fetch - processPackages [lhf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lhf-1.3.1-py3-none-manylinux_2_28_x86_64.whl.zip tmp/lhf-1.3.2-py3-none-manylinux_2_28_x86_64.whl.zip --markdown 20230417/l/lhf/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-04-17 17:33:00] INFO root fetch - main [MainThread]: End processing [dxsp]: success
+[2023-04-17 17:33:00] INFO root fetch - main [MainThread]: End processing [lightningchart]: success
+[2023-04-17 17:33:00] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-04-17 17:33:00] INFO root fetch - main [MainThread]: End processing [fonticon-fontawesome6]: success
+[2023-04-17 17:33:01] INFO root fetch - main [MainThread]: End processing [waveforms]: success
+[2023-04-17 17:33:01] INFO root fetch - main [MainThread]: End processing [peegy]: success
+[2023-04-17 17:33:02] INFO root fetch - main [MainThread]: End processing [edulint]: success
+[2023-04-17 17:33:20] INFO root fetch - main [MainThread]: End processing [lhf]: success
+[2023-04-17 17:33:20] INFO root fetch - main [MainThread]: Store serial: [17740723]
