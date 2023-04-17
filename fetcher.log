@@ -16882,3 +16882,100 @@ EOFError: EOF read where object expected
 [2023-04-17 17:33:02] INFO root fetch - main [MainThread]: End processing [edulint]: success
 [2023-04-17 17:33:20] INFO root fetch - main [MainThread]: End processing [lhf]: success
 [2023-04-17 17:33:20] INFO root fetch - main [MainThread]: Store serial: [17740723]
+[2023-04-17 17:38:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17740723]
+[2023-04-17 17:38:32] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-04-17 17:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: NewsArticlesScraper
+[2023-04-17 17:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: watchtower-browser-testing
+[2023-04-17 17:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autodistill
+[2023-04-17 17:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: msmhelper
+[2023-04-17 17:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nats-client-py
+[2023-04-17 17:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: luminesce-sdk-preview
+[2023-04-17 17:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kafka-connect-watcher
+[2023-04-17 17:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: icat-iml
+[2023-04-17 17:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Adafruit-Blinka
+[2023-04-17 17:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: najia
+[2023-04-17 17:38:32] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2023-04-17 17:38:32] INFO root fetch - processPackages [watchtower-browser-testing]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-17 17:38:32] WARNING root fetch - processPackages [autodistill]: Skipping, unable to determine old version
+[2023-04-17 17:38:32] INFO root fetch - processPackages [autodistill]: Start processing: django-forbid
+[2023-04-17 17:38:32] INFO root fetch - main [MainThread]: End processing [autodistill] error
+[2023-04-17 17:38:32] INFO root fetch - processPackages [NewsArticlesScraper]: New version: [0.2] Old Version: [0.1.7]
+[2023-04-17 17:38:32] INFO root fetch - processPackages [nats-client-py]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-17 17:38:32] INFO root fetch - processPackages [najia]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-04-17 17:38:32] INFO root fetch - processPackages [kafka-connect-watcher]: New version: [0.3.1] Old Version: [0.3.0.post0]
+[2023-04-17 17:38:32] WARNING root fetch - processPackages [icat-iml]: Skipping, unable to determine old version
+[2023-04-17 17:38:32] INFO root fetch - processPackages [msmhelper]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-17 17:38:32] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2023-04-17 17:38:33] INFO root fetch - processPackages [icat-iml]: Start processing: proteinflow
+[2023-04-17 17:38:33] INFO root fetch - main [MainThread]: End processing [icat-iml] error
+[2023-04-17 17:38:33] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20230417/l/luminesce-sdk-preview/1.9.88-1.9.92/diff.md --exclude *.pyd
+[2023-04-17 17:38:33] INFO root fetch - processPackages [Adafruit-Blinka]: New version: [8.9.0] Old Version: [8.8.0]
+[2023-04-17 17:38:33] INFO root fetch - processPackages [proteinflow]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-04-17 17:38:33] INFO root fetch - processPackages [django-forbid]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-17 17:38:33] INFO root fetch - processPackages [proteinflow]: executing diffoscope
+[2023-04-17 17:38:33] INFO root fetch - processPackages [proteinflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proteinflow-1.2.7.tar.gz tmp/proteinflow-1.2.8.tar.gz --markdown 20230417/p/proteinflow/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-04-17 17:38:33] INFO root fetch - processPackages [najia]: Downloading https://files.pythonhosted.org/packages/93/6a/09b0a2abedd2d35855797d069dc3cf90cf75800aaaaa1ef501a4d6fa3a33/najia-1.2.2.tar.gz
+[2023-04-17 17:38:33] INFO root fetch - processPackages [kafka-connect-watcher]: Downloading https://files.pythonhosted.org/packages/3b/7b/fb9b6cf5adc5aeb0a81808dfe69dac0d47b4755b52da4bbc43b1b9964816/kafka_connect_watcher-0.3.0.post0.tar.gz
+[2023-04-17 17:38:33] INFO root fetch - processPackages [nats-client-py]: Downloading https://files.pythonhosted.org/packages/00/e1/ea5d2d1165feb094c9a97a90ae0438af2f678c8bbcdb28628add91253b09/nats-client-py-0.3.1.tar.gz
+[2023-04-17 17:38:33] INFO root fetch - processPackages [Adafruit-Blinka]: Downloading https://files.pythonhosted.org/packages/5d/be/736b0d863007f53570fdbabf508c712e922b4a5ad148d6fd69c9b80a4ee7/Adafruit-Blinka-8.8.0.tar.gz
+[2023-04-17 17:38:33] INFO root fetch - processPackages [msmhelper]: Downloading https://files.pythonhosted.org/packages/ac/e1/dba3d36717f59b37eaa41ac5676713a2c80659a1f2989e132f4ad06641f3/msmhelper-1.0.2.tar.gz
+[2023-04-17 17:38:33] INFO root fetch - processPackages [nats-client-py]: executing diffoscope
+[2023-04-17 17:38:33] INFO root fetch - processPackages [nats-client-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nats-client-py-0.3.0.tar.gz tmp/nats-client-py-0.3.1.tar.gz --markdown 20230417/n/nats-client-py/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-17 17:38:33] INFO root fetch - processPackages [watchtower-browser-testing]: executing diffoscope
+[2023-04-17 17:38:33] INFO root fetch - processPackages [watchtower-browser-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchtower_browser_testing-0.3.8.tar.gz tmp/watchtower_browser_testing-0.3.9.tar.gz --markdown 20230417/w/watchtower-browser-testing/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-17 17:38:33] INFO root fetch - processPackages [NewsArticlesScraper]: Downloading https://files.pythonhosted.org/packages/05/e8/3fc7ab5274d226decff944b3088adbbee45254654ac443503fabc4cbbee1/NewsArticlesScraper-0.2.tar.gz
+[2023-04-17 17:38:33] INFO root fetch - processPackages [django-forbid]: Downloading https://files.pythonhosted.org/packages/0f/cb/fedf7e56ffd5c12648ad6d5cecbe8fe39cc0242b4991f69383019f024634/django-forbid-0.0.6.tar.gz
+[2023-04-17 17:38:33] INFO root fetch - processPackages [najia]: Downloading https://files.pythonhosted.org/packages/6a/6c/e2c7daf6dd5a1d123d52656ab8841bf5a186d0d806d456fd9373ec117250/najia-1.2.3.tar.gz
+[2023-04-17 17:38:33] INFO root fetch - processPackages [NewsArticlesScraper]: executing diffoscope
+[2023-04-17 17:38:33] INFO root fetch - processPackages [NewsArticlesScraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NewsArticlesScraper-0.1.7.tar.gz tmp/NewsArticlesScraper-0.2.tar.gz --markdown 20230417/N/NewsArticlesScraper/0.1.7-0.2/diff.md --exclude *.pyd
+[2023-04-17 17:38:33] INFO root fetch - processPackages [kafka-connect-watcher]: Downloading https://files.pythonhosted.org/packages/94/a1/71a64a491f5041594b725db1b969cdd19e91fe24e212108e8f635e8e4be9/kafka_connect_watcher-0.3.1.tar.gz
+[2023-04-17 17:38:33] INFO root fetch - processPackages [najia]: executing diffoscope
+[2023-04-17 17:38:33] INFO root fetch - processPackages [najia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/najia-1.2.2.tar.gz tmp/najia-1.2.3.tar.gz --markdown 20230417/n/najia/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-04-17 17:38:33] INFO root fetch - processPackages [msmhelper]: Downloading https://files.pythonhosted.org/packages/64/7e/3e076309900cc581ca68a2d9d51ac9ae3ef33514850b8c882873f1a5a577/msmhelper-1.0.3.tar.gz
+[2023-04-17 17:38:33] INFO root fetch - processPackages [django-forbid]: executing diffoscope
+[2023-04-17 17:38:33] INFO root fetch - processPackages [django-forbid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-forbid-0.0.5.tar.gz tmp/django-forbid-0.0.6.tar.gz --markdown 20230417/d/django-forbid/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-17 17:38:33] INFO root fetch - processPackages [kafka-connect-watcher]: executing diffoscope
+[2023-04-17 17:38:33] INFO root fetch - processPackages [kafka-connect-watcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kafka_connect_watcher-0.3.0.post0.tar.gz tmp/kafka_connect_watcher-0.3.1.tar.gz --markdown 20230417/k/kafka-connect-watcher/0.3.0.post0-0.3.1/diff.md --exclude *.pyd
+[2023-04-17 17:38:33] INFO root fetch - processPackages [msmhelper]: executing diffoscope
+[2023-04-17 17:38:33] INFO root fetch - processPackages [msmhelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msmhelper-1.0.2.tar.gz tmp/msmhelper-1.0.3.tar.gz --markdown 20230417/m/msmhelper/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-17 17:38:33] INFO root fetch - processPackages [Adafruit-Blinka]: Downloading https://files.pythonhosted.org/packages/f2/4b/1270783c2a35aa5e71cd882d0dc9cffb032360c6782d3ec4435177e78a59/Adafruit-Blinka-8.9.0.tar.gz
+[2023-04-17 17:38:34] INFO root fetch - processPackages [Adafruit-Blinka]: executing diffoscope
+[2023-04-17 17:38:34] INFO root fetch - processPackages [Adafruit-Blinka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Adafruit-Blinka-8.8.0.tar.gz tmp/Adafruit-Blinka-8.9.0.tar.gz --markdown 20230417/A/Adafruit-Blinka/8.8.0-8.9.0/diff.md --exclude *.pyd
+[2023-04-17 17:38:34] INFO root fetch - processPackages [proteinflow]: Start processing: flarespy
+[2023-04-17 17:38:34] INFO root fetch - main [MainThread]: End processing [proteinflow]: success
+[2023-04-17 17:38:34] INFO root fetch - processPackages [nats-client-py]: Start processing: nanoswap.ipfs.keyvaluestore
+[2023-04-17 17:38:34] INFO root fetch - main [MainThread]: End processing [nats-client-py]: success
+[2023-04-17 17:38:34] INFO root fetch - processPackages [flarespy]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-04-17 17:38:34] INFO root fetch - processPackages [watchtower-browser-testing]: Start processing: BNumMet
+[2023-04-17 17:38:34] INFO root fetch - main [MainThread]: End processing [watchtower-browser-testing]: success
+[2023-04-17 17:38:34] WARNING root fetch - processPackages [nanoswap.ipfs.keyvaluestore]: Skipping, unable to determine old version
+[2023-04-17 17:38:34] INFO root fetch - processPackages [nanoswap.ipfs.keyvaluestore]: Start processing: v8unpack
+[2023-04-17 17:38:34] INFO root fetch - main [MainThread]: End processing [nanoswap.ipfs.keyvaluestore] error
+[2023-04-17 17:38:34] INFO root fetch - processPackages [flarespy]: executing diffoscope
+[2023-04-17 17:38:34] INFO root fetch - processPackages [flarespy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flarespy-0.6.2.tar.gz tmp/flarespy-0.6.3.tar.gz --markdown 20230417/f/flarespy/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-04-17 17:38:34] INFO root fetch - processPackages [v8unpack]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-04-17 17:38:34] INFO root fetch - processPackages [NewsArticlesScraper]: Start processing: mythic
+[2023-04-17 17:38:34] INFO root fetch - main [MainThread]: End processing [NewsArticlesScraper]: success
+[2023-04-17 17:38:34] INFO root fetch - processPackages [v8unpack]: executing diffoscope
+[2023-04-17 17:38:34] INFO root fetch - processPackages [v8unpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/v8unpack-0.9.2.tar.gz tmp/v8unpack-0.9.3.tar.gz --markdown 20230417/v/v8unpack/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-04-17 17:38:34] INFO root fetch - processPackages [BNumMet]: New version: [1.0.0.dev8] Old Version: [1.0.0.dev7]
+[2023-04-17 17:38:34] INFO root fetch - processPackages [mythic]: New version: [0.1.0rc4] Old Version: [0.1.0rc3]
+[2023-04-17 17:38:35] INFO root fetch - processPackages [BNumMet]: Downloading https://files.pythonhosted.org/packages/ce/af/ec1282e4b99516a0472c2d7d3151012f4f36e0da80d2f5b1245a8483dc0d/BNumMet-1.0.0.dev7.tar.gz
+[2023-04-17 17:38:35] INFO root fetch - processPackages [mythic]: Downloading https://files.pythonhosted.org/packages/88/c8/31b2cee25cbafc3cc21b504bf08124b550197605fb9665ec15249aa961e4/mythic-0.1.0rc3.tar.gz
+[2023-04-17 17:38:35] INFO root fetch - main [MainThread]: End processing [kafka-connect-watcher]: success
+[2023-04-17 17:38:35] INFO root fetch - main [MainThread]: End processing [django-forbid]: success
+[2023-04-17 17:38:35] INFO root fetch - processPackages [mythic]: Downloading https://files.pythonhosted.org/packages/79/e3/97545ebadae4e0220f2313569df78e3a85849e9b7c06747014c1aeab5b3a/mythic-0.1.0rc4.tar.gz
+[2023-04-17 17:38:35] INFO root fetch - processPackages [BNumMet]: Downloading https://files.pythonhosted.org/packages/34/cb/bc48ba3a1e63c2aff9297011f50bb0d8adadb5f2fe7b02a5edddc5886172/BNumMet-1.0.0.dev8.tar.gz
+[2023-04-17 17:38:35] INFO root fetch - processPackages [mythic]: executing diffoscope
+[2023-04-17 17:38:35] INFO root fetch - processPackages [mythic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mythic-0.1.0rc3.tar.gz tmp/mythic-0.1.0rc4.tar.gz --markdown 20230417/m/mythic/0.1.0rc3-0.1.0rc4/diff.md --exclude *.pyd
+[2023-04-17 17:38:35] INFO root fetch - processPackages [BNumMet]: executing diffoscope
+[2023-04-17 17:38:35] INFO root fetch - processPackages [BNumMet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BNumMet-1.0.0.dev7.tar.gz tmp/BNumMet-1.0.0.dev8.tar.gz --markdown 20230417/B/BNumMet/1.0.0.dev7-1.0.0.dev8/diff.md --exclude *.pyd
+[2023-04-17 17:38:35] INFO root fetch - main [MainThread]: End processing [flarespy]: success
+[2023-04-17 17:38:36] INFO root fetch - main [MainThread]: End processing [v8unpack]: success
+[2023-04-17 17:38:36] INFO root fetch - main [MainThread]: End processing [msmhelper]: success
+[2023-04-17 17:38:36] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2023-04-17 17:38:36] INFO root fetch - main [MainThread]: End processing [mythic]: success
+[2023-04-17 17:38:36] INFO root fetch - main [MainThread]: End processing [najia]: success
+[2023-04-17 17:38:39] INFO root fetch - main [MainThread]: End processing [Adafruit-Blinka]: success
+[2023-04-17 17:38:47] INFO root fetch - main [MainThread]: End processing [BNumMet]: success
+[2023-04-17 17:38:47] INFO root fetch - main [MainThread]: Store serial: [17740784]
