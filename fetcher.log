@@ -9945,3 +9945,66 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 12:12:11] INFO root fetch - main [MainThread]: End processing [huscy.pseudonyms]: success
 [2023-04-17 12:12:13] INFO root fetch - main [MainThread]: End processing [zigzag-dse]: success
 [2023-04-17 12:12:13] INFO root fetch - main [MainThread]: Store serial: [17736587]
+[2023-04-17 12:17:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17736587]
+[2023-04-17 12:17:22] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-17 12:17:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: imggencli
+[2023-04-17 12:17:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: papers-cli
+[2023-04-17 12:17:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: krcg
+[2023-04-17 12:17:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tat-pulsar
+[2023-04-17 12:17:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: notip
+[2023-04-17 12:17:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyoptiML
+[2023-04-17 12:17:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: netin
+[2023-04-17 12:17:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: inductor
+[2023-04-17 12:17:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: icap-commons
+[2023-04-17 12:17:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: EMPOL-MODULES
+[2023-04-17 12:17:22] INFO root fetch - processPackages [imggencli]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-04-17 12:17:22] INFO root fetch - processPackages [netin]: New version: [1.0.5.1] Old Version: [1.0.5]
+[2023-04-17 12:17:22] INFO root fetch - processPackages [papers-cli]: New version: [v1.0.1] Old Version: [v1.0]
+[2023-04-17 12:17:22] WARNING root fetch - processPackages [notip]: Skipping, unable to determine old version
+[2023-04-17 12:17:22] INFO root fetch - processPackages [notip]: Start processing: imggencli
+[2023-04-17 12:17:22] INFO root fetch - main [MainThread]: End processing [notip] error
+[2023-04-17 12:17:22] INFO root fetch - processPackages [tat-pulsar]: New version: [0.3.3] Old Version: [0.3.1]
+[2023-04-17 12:17:22] WARNING root fetch - processPackages [pyoptiML]: Skipping, unable to determine old version
+[2023-04-17 12:17:22] INFO root fetch - processPackages [pyoptiML]: Start processing: probabilistic-word-embeddings
+[2023-04-17 12:17:22] INFO root fetch - main [MainThread]: End processing [pyoptiML] error
+[2023-04-17 12:17:22] INFO root fetch - processPackages [krcg]: New version: [2.9] Old Version: [2.8]
+[2023-04-17 12:17:22] INFO root fetch - processPackages [imggencli]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-04-17 12:17:22] INFO root fetch - processPackages [probabilistic-word-embeddings]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-04-17 12:17:22] WARNING root fetch - processPackages [EMPOL-MODULES]: Skipping, unable to determine old version
+[2023-04-17 12:17:22] INFO root fetch - main [MainThread]: End processing [EMPOL-MODULES] error
+[2023-04-17 12:17:22] INFO root fetch - processPackages [inductor]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-04-17 12:17:22] INFO root fetch - processPackages [papers-cli]: executing diffoscope
+[2023-04-17 12:17:22] WARNING root fetch - processPackages [icap-commons]: Skipping, unable to determine old version
+[2023-04-17 12:17:22] INFO root fetch - processPackages [papers-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/papers-cli-v1.0.tar.gz tmp/papers-cli-v1.0.1.tar.gz --markdown 20230417/p/papers-cli/v1.0-v1.0.1/diff.md --exclude *.pyd
+[2023-04-17 12:17:22] INFO root fetch - main [MainThread]: End processing [icap-commons] error
+[2023-04-17 12:17:22] INFO root fetch - processPackages [probabilistic-word-embeddings]: executing diffoscope
+[2023-04-17 12:17:22] INFO root fetch - processPackages [probabilistic-word-embeddings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/probabilistic_word_embeddings-1.0.0.tar.gz tmp/probabilistic_word_embeddings-1.1.0.tar.gz --markdown 20230417/p/probabilistic-word-embeddings/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-04-17 12:17:22] INFO root fetch - processPackages [netin]: Downloading https://files.pythonhosted.org/packages/f8/90/18d71b88c7f563532453681f8afd272a35bd6230990c62d0274f88ea6e10/netin-1.0.5.tar.gz
+[2023-04-17 12:17:22] INFO root fetch - processPackages [krcg]: Downloading https://files.pythonhosted.org/packages/2a/7b/e8dbe21aedf0d71dddf1c534b955f2fa4ba183965ea97a7d65bbda5a799d/krcg-2.8.tar.gz
+[2023-04-17 12:17:22] INFO root fetch - processPackages [tat-pulsar]: Downloading https://files.pythonhosted.org/packages/e0/47/391591a5af0de379a21977dfe6dbe93ed4d1c750e5237a91a96368112323/tat-pulsar-0.3.1.tar.gz
+[2023-04-17 12:17:23] INFO root fetch - processPackages [inductor]: Downloading https://files.pythonhosted.org/packages/9f/28/ad902493a2c0d19c67a904d259eda2bfd39c26fd81a9eb267223119fb71e/inductor-0.2.7.tar.gz
+[2023-04-17 12:17:23] INFO root fetch - processPackages [imggencli]: Downloading https://files.pythonhosted.org/packages/97/80/5ea2042f03c3bdf0912dcc3b3531107a4b3120a95b5fddfd06fe2623e644/imggencli-1.2.6.tar.gz
+[2023-04-17 12:17:23] INFO root fetch - processPackages [imggencli]: Downloading https://files.pythonhosted.org/packages/97/80/5ea2042f03c3bdf0912dcc3b3531107a4b3120a95b5fddfd06fe2623e644/imggencli-1.2.6.tar.gz
+[2023-04-17 12:17:23] WARNING root fetch - processPackages [tat-pulsar]: Skipping package: exceeds size limit 39851383>=10485760
+[2023-04-17 12:17:23] INFO root fetch - main [MainThread]: End processing [tat-pulsar] error
+[2023-04-17 12:17:23] INFO root fetch - processPackages [netin]: Downloading https://files.pythonhosted.org/packages/1b/ae/f6865290d906bea54971845cef2f4a73cdbaa974b647a93580bbfc206600/netin-1.0.5.1.tar.gz
+[2023-04-17 12:17:23] INFO root fetch - processPackages [imggencli]: executing diffoscope
+[2023-04-17 12:17:23] INFO root fetch - processPackages [imggencli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imggencli-1.2.5.tar.gz tmp/imggencli-1.2.6.tar.gz --markdown 20230417/i/imggencli/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-04-17 12:17:23] INFO root fetch - processPackages [imggencli]: executing diffoscope
+[2023-04-17 12:17:23] INFO root fetch - processPackages [imggencli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imggencli-1.2.5.tar.gz tmp/imggencli-1.2.6.tar.gz --markdown 20230417/i/imggencli/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-04-17 12:17:23] INFO root fetch - processPackages [inductor]: Downloading https://files.pythonhosted.org/packages/0b/cc/52b7b33bd8bd675f63bcc832d619c45f3e04ab840032bb5cd1c8a7bef49b/inductor-0.2.8.tar.gz
+[2023-04-17 12:17:23] INFO root fetch - processPackages [netin]: executing diffoscope
+[2023-04-17 12:17:23] INFO root fetch - processPackages [netin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netin-1.0.5.tar.gz tmp/netin-1.0.5.1.tar.gz --markdown 20230417/n/netin/1.0.5-1.0.5.1/diff.md --exclude *.pyd
+[2023-04-17 12:17:23] INFO root fetch - processPackages [inductor]: executing diffoscope
+[2023-04-17 12:17:23] INFO root fetch - processPackages [inductor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inductor-0.2.7.tar.gz tmp/inductor-0.2.8.tar.gz --markdown 20230417/i/inductor/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-04-17 12:17:23] INFO root fetch - processPackages [krcg]: Downloading https://files.pythonhosted.org/packages/ad/ab/c2a7eba39eef250eb584dcbdf159d1dd177536b29abf8e6240d5c5163b63/krcg-2.9.tar.gz
+[2023-04-17 12:17:24] INFO root fetch - processPackages [krcg]: executing diffoscope
+[2023-04-17 12:17:24] INFO root fetch - processPackages [krcg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krcg-2.8.tar.gz tmp/krcg-2.9.tar.gz --markdown 20230417/k/krcg/2.8-2.9/diff.md --exclude *.pyd
+[2023-04-17 12:17:24] INFO root fetch - main [MainThread]: End processing [imggencli]: success
+[2023-04-17 12:17:24] INFO root fetch - main [MainThread]: End processing [imggencli]: success
+[2023-04-17 12:17:24] INFO root fetch - main [MainThread]: End processing [papers-cli]: success
+[2023-04-17 12:17:24] INFO root fetch - main [MainThread]: End processing [probabilistic-word-embeddings]: success
+[2023-04-17 12:17:25] INFO root fetch - main [MainThread]: End processing [netin]: success
+[2023-04-17 12:17:27] INFO root fetch - main [MainThread]: End processing [krcg]: success
+[2023-04-17 12:17:29] INFO root fetch - main [MainThread]: End processing [inductor]: success
+[2023-04-17 12:17:29] INFO root fetch - main [MainThread]: Store serial: [17736635]
