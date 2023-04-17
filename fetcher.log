@@ -6736,3 +6736,79 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 08:51:36] INFO root fetch - main [MainThread]: End processing [panda-client]: success
 [2023-04-17 08:51:45] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-04-17 08:51:45] INFO root fetch - main [MainThread]: Store serial: [17734572]
+[2023-04-17 08:56:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17734572]
+[2023-04-17 08:56:53] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-17 08:56:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aws-lambda-stream
+[2023-04-17 08:56:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kqcircuits
+[2023-04-17 08:56:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: railguns
+[2023-04-17 08:56:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: swmm-api
+[2023-04-17 08:56:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oc-ldap-client
+[2023-04-17 08:56:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: saltgang
+[2023-04-17 08:56:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sparrow-order-lib
+[2023-04-17 08:56:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dqrobotics
+[2023-04-17 08:56:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pipen-args
+[2023-04-17 08:56:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: flowclient
+[2023-04-17 08:56:54] INFO root fetch - processPackages [kqcircuits]: New version: [4.6.9rc1] Old Version: [4.6.13]
+[2023-04-17 08:56:54] INFO root fetch - processPackages [aws-lambda-stream]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-17 08:56:54] INFO root fetch - processPackages [railguns]: New version: [0.67] Old Version: [0.66]
+[2023-04-17 08:56:54] INFO root fetch - processPackages [saltgang]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-17 08:56:54] WARNING root fetch - processPackages [oc-ldap-client]: Skipping, unable to determine old version
+[2023-04-17 08:56:54] INFO root fetch - processPackages [oc-ldap-client]: Start processing: flowetl
+[2023-04-17 08:56:54] INFO root fetch - main [MainThread]: End processing [oc-ldap-client] error
+[2023-04-17 08:56:54] INFO root fetch - processPackages [swmm-api]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-04-17 08:56:54] INFO root fetch - processPackages [sparrow-order-lib]: New version: [0.1.9] Old Version: [0.1.82]
+[2023-04-17 08:56:54] INFO root fetch - processPackages [pipen-args]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-04-17 08:56:54] INFO root fetch - processPackages [flowclient]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2023-04-17 08:56:54] INFO root fetch - processPackages [dqrobotics]: New version: [23.4.0a0] Old Version: [22.10.0a4]
+[2023-04-17 08:56:54] INFO root fetch - processPackages [flowetl]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2023-04-17 08:56:54] INFO root fetch - processPackages [kqcircuits]: Downloading https://files.pythonhosted.org/packages/c5/0d/d02aaca65a146dd6ffb25fed0a3f6b8410d19f52995b69c1dd837162d6de/kqcircuits-4.6.13.tar.gz
+[2023-04-17 08:56:54] INFO root fetch - processPackages [saltgang]: executing diffoscope
+[2023-04-17 08:56:54] INFO root fetch - processPackages [saltgang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saltgang-0.1.8.tar.gz tmp/saltgang-0.1.9.tar.gz --markdown 20230417/s/saltgang/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-17 08:56:54] INFO root fetch - processPackages [flowclient]: executing diffoscope
+[2023-04-17 08:56:54] INFO root fetch - processPackages [flowclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowclient-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowclient-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20230417/f/flowclient/1.9.4.post0.dev70-1.9.4.post0.dev76/diff.md --exclude *.pyd
+[2023-04-17 08:56:54] INFO root fetch - processPackages [aws-lambda-stream]: Downloading https://files.pythonhosted.org/packages/22/8f/dcb5ba98230515a1199f83cfdb868fe7f1045540643bddbfe4b5e66b92be/aws_lambda_stream-1.0.8.tar.gz
+[2023-04-17 08:56:54] INFO root fetch - processPackages [sparrow-order-lib]: Downloading https://files.pythonhosted.org/packages/4f/88/439d6553e8897168caf057a9e39e4a899b282be7dbcd4d16eb04176748ee/sparrow-order-lib-0.1.82.tar.gz
+[2023-04-17 08:56:54] INFO root fetch - processPackages [railguns]: Downloading https://files.pythonhosted.org/packages/bd/f0/7cc1b0db6921773a8d1c7bbf67b86a0e984d26fd37ffa3ee4a6c491f7216/railguns-0.66.tar.gz
+[2023-04-17 08:56:54] INFO root fetch - processPackages [flowetl]: executing diffoscope
+[2023-04-17 08:56:54] INFO root fetch - processPackages [flowetl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowetl-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowetl-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20230417/f/flowetl/1.9.4.post0.dev70-1.9.4.post0.dev76/diff.md --exclude *.pyd
+[2023-04-17 08:56:54] INFO root fetch - processPackages [pipen-args]: Downloading https://files.pythonhosted.org/packages/87/5c/ced0e6e4335352a222a3c689827c0a713b31c9c9cde7cdad811290737ed9/pipen_args-0.9.5.tar.gz
+[2023-04-17 08:56:54] INFO root fetch - processPackages [swmm-api]: Downloading https://files.pythonhosted.org/packages/82/bc/e3ebd15e10d699ed9b5642a235c414ce84f5f13ee52612c5684521148a71/swmm-api-0.4.8.tar.gz
+[2023-04-17 08:56:54] INFO root fetch - processPackages [dqrobotics]: Downloading https://files.pythonhosted.org/packages/0c/48/2127827e77e0d31323f08cea36f37b5bcef9c11284496742ab3e4a890c6a/dqrobotics-22.10.0a4-cp39-cp39-win_amd64.whl
+[2023-04-17 08:56:54] INFO root fetch - processPackages [pipen-args]: executing diffoscope
+[2023-04-17 08:56:54] INFO root fetch - processPackages [pipen-args]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipen_args-0.9.4.tar.gz tmp/pipen_args-0.9.5.tar.gz --markdown 20230417/p/pipen-args/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-04-17 08:56:54] INFO root fetch - processPackages [aws-lambda-stream]: Downloading https://files.pythonhosted.org/packages/da/15/c31ca0eb5f5909e28e4231087916245fa809168fa902c34c9df8c1c94268/aws_lambda_stream-1.0.9.tar.gz
+[2023-04-17 08:56:54] INFO root fetch - processPackages [railguns]: Downloading https://files.pythonhosted.org/packages/99/1d/4e1c4e2903c64398295c9a69097fbd99e2b577a8f205a3efa2540981a801/railguns-0.67.tar.gz
+[2023-04-17 08:56:54] INFO root fetch - processPackages [kqcircuits]: Downloading https://files.pythonhosted.org/packages/28/fc/4a19bae7b5af757678d9dcca920c9357f97f9cee24781e5c76e70acacf4c/kqcircuits-4.6.9rc1.tar.gz
+[2023-04-17 08:56:54] INFO root fetch - processPackages [sparrow-order-lib]: executing diffoscope
+[2023-04-17 08:56:54] INFO root fetch - processPackages [sparrow-order-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparrow-order-lib-0.1.82.tar.gz tmp/sparrow-order-lib-0.1.9.tar.gz --markdown 20230417/s/sparrow-order-lib/0.1.82-0.1.9/diff.md --exclude *.pyd
+[2023-04-17 08:56:54] INFO root fetch - processPackages [swmm-api]: Downloading https://files.pythonhosted.org/packages/82/5d/df302736e1229719ba97cec4392d0731c337345cca86d512f1f60ffc309c/swmm-api-0.4.9.tar.gz
+[2023-04-17 08:56:54] INFO root fetch - processPackages [aws-lambda-stream]: executing diffoscope
+[2023-04-17 08:56:54] INFO root fetch - processPackages [aws-lambda-stream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_lambda_stream-1.0.8.tar.gz tmp/aws_lambda_stream-1.0.9.tar.gz --markdown 20230417/a/aws-lambda-stream/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-17 08:56:54] INFO root fetch - processPackages [railguns]: executing diffoscope
+[2023-04-17 08:56:54] INFO root fetch - processPackages [railguns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/railguns-0.66.tar.gz tmp/railguns-0.67.tar.gz --markdown 20230417/r/railguns/0.66-0.67/diff.md --exclude *.pyd
+[2023-04-17 08:56:54] INFO root fetch - processPackages [kqcircuits]: executing diffoscope
+[2023-04-17 08:56:54] INFO root fetch - processPackages [kqcircuits]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kqcircuits-4.6.13.tar.gz tmp/kqcircuits-4.6.9rc1.tar.gz --markdown 20230417/k/kqcircuits/4.6.13-4.6.9rc1/diff.md --exclude *.pyd
+[2023-04-17 08:56:54] INFO root fetch - processPackages [dqrobotics]: Downloading https://files.pythonhosted.org/packages/83/03/3d6900897505135fe52e90fb1812dce8ae2e715285b532bb391b37505261/dqrobotics-23.4.0a0-cp39-cp39-manylinux1_x86_64.whl
+[2023-04-17 08:56:54] INFO root fetch - processPackages [swmm-api]: executing diffoscope
+[2023-04-17 08:56:54] INFO root fetch - processPackages [swmm-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swmm-api-0.4.8.tar.gz tmp/swmm-api-0.4.9.tar.gz --markdown 20230417/s/swmm-api/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-04-17 08:56:54] INFO root fetch - processPackages [dqrobotics]: executing diffoscope
+[2023-04-17 08:56:54] INFO root fetch - processPackages [dqrobotics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dqrobotics-22.10.0a4-cp39-cp39-win_amd64.whl.zip tmp/dqrobotics-23.4.0a0-cp39-cp39-manylinux1_x86_64.whl.zip --markdown 20230417/d/dqrobotics/22.10.0a4-23.4.0a0/diff.md --exclude *.pyd
+[2023-04-17 08:56:55] INFO root fetch - processPackages [flowetl]: Start processing: flowmachine
+[2023-04-17 08:56:55] INFO root fetch - main [MainThread]: End processing [flowetl]: success
+[2023-04-17 08:56:55] INFO root fetch - processPackages [flowmachine]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2023-04-17 08:56:56] INFO root fetch - processPackages [pipen-args]: Start processing: sosin
+[2023-04-17 08:56:56] INFO root fetch - main [MainThread]: End processing [pipen-args]: success
+[2023-04-17 08:56:56] WARNING root fetch - processPackages [sosin]: Skipping, unable to determine old version
+[2023-04-17 08:56:56] INFO root fetch - main [MainThread]: End processing [sosin] error
+[2023-04-17 08:56:56] INFO root fetch - main [MainThread]: End processing [flowclient]: success
+[2023-04-17 08:56:56] INFO root fetch - processPackages [flowmachine]: executing diffoscope
+[2023-04-17 08:56:56] INFO root fetch - processPackages [flowmachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowmachine-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowmachine-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20230417/f/flowmachine/1.9.4.post0.dev70-1.9.4.post0.dev76/diff.md --exclude *.pyd
+[2023-04-17 08:56:56] INFO root fetch - main [MainThread]: End processing [railguns]: success
+[2023-04-17 08:56:56] INFO root fetch - main [MainThread]: End processing [dqrobotics]: success
+[2023-04-17 08:56:56] INFO root fetch - main [MainThread]: End processing [saltgang]: success
+[2023-04-17 08:56:56] INFO root fetch - main [MainThread]: End processing [swmm-api]: success
+[2023-04-17 08:56:56] INFO root fetch - main [MainThread]: End processing [aws-lambda-stream]: success
+[2023-04-17 08:56:57] INFO root fetch - main [MainThread]: End processing [kqcircuits]: success
+[2023-04-17 08:56:58] INFO root fetch - main [MainThread]: End processing [sparrow-order-lib]: success
+[2023-04-17 08:56:58] INFO root fetch - main [MainThread]: End processing [flowmachine]: success
+[2023-04-17 08:56:58] INFO root fetch - main [MainThread]: Store serial: [17734617]
