@@ -18929,3 +18929,86 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-17 19:22:45] INFO root fetch - main [MainThread]: End processing [diffusers]: success
 [2023-04-17 19:22:53] INFO root fetch - main [MainThread]: End processing [ultracart-rest-sdk]: success
 [2023-04-17 19:22:53] INFO root fetch - main [MainThread]: Store serial: [17741918]
+[2023-04-17 19:27:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17741918]
+[2023-04-17 19:28:03] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-17 19:28:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mb-pytorch
+[2023-04-17 19:28:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gpt3discord
+[2023-04-17 19:28:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: navconfig
+[2023-04-17 19:28:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: code-analyza
+[2023-04-17 19:28:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quarter-lib
+[2023-04-17 19:28:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: deltafi
+[2023-04-17 19:28:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: crispr-library-prep
+[2023-04-17 19:28:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: svgelements
+[2023-04-17 19:28:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zillion
+[2023-04-17 19:28:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: watchtower-browser-testing
+[2023-04-17 19:28:03] INFO root fetch - processPackages [mb-pytorch]: New version: [1.0.202304171628] Old Version: [1.0.202304171558]
+[2023-04-17 19:28:03] WARNING root fetch - processPackages [crispr-library-prep]: Skipping, unable to determine old version
+[2023-04-17 19:28:03] INFO root fetch - processPackages [crispr-library-prep]: Start processing: eth-libs
+[2023-04-17 19:28:03] INFO root fetch - main [MainThread]: End processing [crispr-library-prep] error
+[2023-04-17 19:28:03] INFO root fetch - processPackages [watchtower-browser-testing]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-17 19:28:03] INFO root fetch - processPackages [svgelements]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-04-17 19:28:04] INFO root fetch - processPackages [navconfig]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-04-17 19:28:04] INFO root fetch - processPackages [watchtower-browser-testing]: executing diffoscope
+[2023-04-17 19:28:04] WARNING root fetch - processPackages [code-analyza]: Skipping, unable to determine old version
+[2023-04-17 19:28:04] INFO root fetch - processPackages [quarter-lib]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-17 19:28:04] INFO root fetch - processPackages [watchtower-browser-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchtower_browser_testing-0.3.8.tar.gz tmp/watchtower_browser_testing-0.3.9.tar.gz --markdown 20230417/w/watchtower-browser-testing/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-17 19:28:04] INFO root fetch - processPackages [code-analyza]: Start processing: python-jsonpath
+[2023-04-17 19:28:04] INFO root fetch - main [MainThread]: End processing [code-analyza] error
+[2023-04-17 19:28:04] INFO root fetch - processPackages [deltafi]: New version: [0.99.8] Old Version: [0.99.7]
+[2023-04-17 19:28:04] INFO root fetch - processPackages [zillion]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-17 19:28:04] WARNING root fetch - processPackages [eth-libs]: Skipping, unable to determine old version
+[2023-04-17 19:28:04] INFO root fetch - processPackages [eth-libs]: Start processing: ultracart-rest-sdk
+[2023-04-17 19:28:04] INFO root fetch - main [MainThread]: End processing [eth-libs] error
+[2023-04-17 19:28:04] INFO root fetch - processPackages [gpt3discord]: New version: [9.1] Old Version: [9.0.4]
+[2023-04-17 19:28:04] INFO root fetch - processPackages [svgelements]: executing diffoscope
+[2023-04-17 19:28:04] INFO root fetch - processPackages [svgelements]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/svgelements-1.9.1.tar.gz tmp/svgelements-1.9.2.tar.gz --markdown 20230417/s/svgelements/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-04-17 19:28:04] INFO root fetch - processPackages [ultracart-rest-sdk]: New version: [4.0.99rc0] Old Version: [4.0.98rc0]
+[2023-04-17 19:28:04] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/38/1b/1691ded2a2d96094eb7d991204be2f99ad72725fda200dfe6ba688c38e5d/mb_pytorch-1.0.202304171628-py3-none-any.whl
+[2023-04-17 19:28:04] INFO root fetch - processPackages [python-jsonpath]: New version: [0.5.0.post1] Old Version: [0.5.0]
+[2023-04-17 19:28:04] INFO root fetch - processPackages [ultracart-rest-sdk]: executing diffoscope
+[2023-04-17 19:28:04] INFO root fetch - processPackages [ultracart-rest-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultracart_rest_sdk-4.0.98rc0.tar.gz tmp/ultracart_rest_sdk-4.0.99rc0.tar.gz --markdown 20230417/u/ultracart-rest-sdk/4.0.98rc0-4.0.99rc0/diff.md --exclude *.pyd
+[2023-04-17 19:28:04] INFO root fetch - processPackages [quarter-lib]: Downloading https://files.pythonhosted.org/packages/77/f4/d596bd0cb02e4d18f3fe583d1384faf90179c2eb9264fdc19387cac6df85/Quarter-Lib-0.0.3.tar.gz
+[2023-04-17 19:28:04] INFO root fetch - processPackages [navconfig]: Downloading https://files.pythonhosted.org/packages/2a/a7/0c1954099f8ca8ff63395710430b99bff135f9a4f11cae4223f6fea9f906/navconfig-1.1.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-17 19:28:04] INFO root fetch - processPackages [mb-pytorch]: executing diffoscope
+[2023-04-17 19:28:04] INFO root fetch - processPackages [mb-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_pytorch-1.0.202304171558-py3-none-any.whl.zip tmp/mb_pytorch-1.0.202304171628-py3-none-any.whl.zip --markdown 20230417/m/mb-pytorch/1.0.202304171558-1.0.202304171628/diff.md --exclude *.pyd
+[2023-04-17 19:28:04] INFO root fetch - processPackages [gpt3discord]: Downloading https://files.pythonhosted.org/packages/37/05/2206aa04638856656febff14ed92b412dfe23dcbf520d5ae6b2e00bb94b8/gpt3discord-9.0.4.tar.gz
+[2023-04-17 19:28:04] INFO root fetch - processPackages [python-jsonpath]: Downloading https://files.pythonhosted.org/packages/a2/e6/516091bf681b734bf544371538bad5e8809efd222cc9277d16f602665f97/python_jsonpath-0.5.0.tar.gz
+[2023-04-17 19:28:04] INFO root fetch - processPackages [zillion]: Downloading https://files.pythonhosted.org/packages/a5/c5/79361c96c0be5072f8f841738fd1e08a0bd56290c70b7d70302500993379/zillion-0.9.8.tar.gz
+[2023-04-17 19:28:04] INFO root fetch - processPackages [navconfig]: executing diffoscope
+[2023-04-17 19:28:04] INFO root fetch - processPackages [navconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/navconfig-1.1.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/navconfig-1.1.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230417/n/navconfig/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-04-17 19:28:04] INFO root fetch - processPackages [deltafi]: executing diffoscope
+[2023-04-17 19:28:04] INFO root fetch - processPackages [deltafi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deltafi-0.99.7.tar.gz tmp/deltafi-0.99.8.tar.gz --markdown 20230417/d/deltafi/0.99.7-0.99.8/diff.md --exclude *.pyd
+[2023-04-17 19:28:04] INFO root fetch - processPackages [quarter-lib]: Downloading https://files.pythonhosted.org/packages/fb/1b/bf07fb8773abdb986c89f8f01e6bab08ec2fe96b7d5062bd857ee1806e58/quarter-lib-0.0.4.tar.gz
+[2023-04-17 19:28:04] INFO root fetch - processPackages [python-jsonpath]: Downloading https://files.pythonhosted.org/packages/51/34/ad7002e36949d988bb6323620e88144dbc34da89b26defaf92099e1f28c2/python_jsonpath-0.5.0.post1.tar.gz
+[2023-04-17 19:28:04] INFO root fetch - processPackages [gpt3discord]: Downloading https://files.pythonhosted.org/packages/35/2f/7cad7be49486612c7af56839595bd1843092d25ac4d2d187a8f56624913a/gpt3discord-9.1.tar.gz
+[2023-04-17 19:28:04] INFO root fetch - processPackages [quarter-lib]: executing diffoscope
+[2023-04-17 19:28:04] INFO root fetch - processPackages [quarter-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Quarter-Lib-0.0.3.tar.gz tmp/quarter-lib-0.0.4.tar.gz --markdown 20230417/q/quarter-lib/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-17 19:28:04] INFO root fetch - processPackages [gpt3discord]: executing diffoscope
+[2023-04-17 19:28:04] INFO root fetch - processPackages [gpt3discord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt3discord-9.0.4.tar.gz tmp/gpt3discord-9.1.tar.gz --markdown 20230417/g/gpt3discord/9.0.4-9.1/diff.md --exclude *.pyd
+[2023-04-17 19:28:04] INFO root fetch - processPackages [python-jsonpath]: executing diffoscope
+[2023-04-17 19:28:04] INFO root fetch - processPackages [python-jsonpath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_jsonpath-0.5.0.tar.gz tmp/python_jsonpath-0.5.0.post1.tar.gz --markdown 20230417/p/python-jsonpath/0.5.0-0.5.0.post1/diff.md --exclude *.pyd
+[2023-04-17 19:28:04] INFO root fetch - processPackages [zillion]: Downloading https://files.pythonhosted.org/packages/d6/a2/e83dea3be4b39ed3376b78681ceaabfa74c819b0fa0d546b761c97baf276/zillion-0.9.9.tar.gz
+[2023-04-17 19:28:04] INFO root fetch - processPackages [zillion]: executing diffoscope
+[2023-04-17 19:28:04] INFO root fetch - processPackages [zillion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zillion-0.9.8.tar.gz tmp/zillion-0.9.9.tar.gz --markdown 20230417/z/zillion/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-17 19:28:05] INFO root fetch - processPackages [watchtower-browser-testing]: Start processing: mls-api
+[2023-04-17 19:28:05] INFO root fetch - main [MainThread]: End processing [watchtower-browser-testing]: success
+[2023-04-17 19:28:05] INFO root fetch - processPackages [mb-pytorch]: Start processing: crazy-thursday
+[2023-04-17 19:28:05] INFO root fetch - main [MainThread]: End processing [mb-pytorch]: success
+[2023-04-17 19:28:05] INFO root fetch - processPackages [mls-api]: New version: [2.0.0] Old Version: [1.5.0]
+[2023-04-17 19:28:05] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.4.9.1] Old Version: [2023.4.9.0]
+[2023-04-17 19:28:05] INFO root fetch - main [MainThread]: End processing [deltafi]: success
+[2023-04-17 19:28:05] INFO root fetch - main [MainThread]: End processing [quarter-lib]: success
+[2023-04-17 19:28:05] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-04-17 19:28:05] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.4.9.0.tar.gz tmp/crazy-thursday-2023.4.9.1.tar.gz --markdown 20230417/c/crazy-thursday/2023.4.9.0-2023.4.9.1/diff.md --exclude *.pyd
+[2023-04-17 19:28:05] INFO root fetch - main [MainThread]: End processing [navconfig]: success
+[2023-04-17 19:28:06] INFO root fetch - main [MainThread]: End processing [gpt3discord]: success
+[2023-04-17 19:28:06] INFO root fetch - processPackages [mls-api]: Downloading https://files.pythonhosted.org/packages/ae/fa/3e81f11ab0c92b59f09533f2268d9251d8b1b34f03d8e7ff93ea59ebc24f/mls-api-2.0.0.tar.gz
+[2023-04-17 19:28:06] INFO root fetch - processPackages [mls-api]: executing diffoscope
+[2023-04-17 19:28:06] INFO root fetch - processPackages [mls-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mls-api-1.5.0.tar.gz tmp/mls-api-2.0.0.tar.gz --markdown 20230417/m/mls-api/1.5.0-2.0.0/diff.md --exclude *.pyd
+[2023-04-17 19:28:06] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-04-17 19:28:07] INFO root fetch - main [MainThread]: End processing [mls-api]: success
+[2023-04-17 19:28:07] INFO root fetch - main [MainThread]: End processing [zillion]: success
+[2023-04-17 19:28:07] INFO root fetch - main [MainThread]: End processing [svgelements]: success
+[2023-04-17 19:28:13] INFO root fetch - main [MainThread]: End processing [python-jsonpath]: success
+[2023-04-17 19:28:14] INFO root fetch - main [MainThread]: End processing [ultracart-rest-sdk]: success
+[2023-04-17 19:28:14] INFO root fetch - main [MainThread]: Store serial: [17741959]
