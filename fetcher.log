@@ -22152,3 +22152,41 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-17 22:20:39] INFO root fetch - main [MainThread]: End processing [alnoda-wrk]: success
 [2023-04-17 22:20:46] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
 [2023-04-17 22:20:46] INFO root fetch - main [MainThread]: Store serial: [17743975]
+[2023-04-17 22:25:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17743975]
+[2023-04-17 22:25:56] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-17 22:25:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: liblxml3
+[2023-04-17 22:25:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: terka
+[2023-04-17 22:25:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: DiamondCoin
+[2023-04-17 22:25:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mpsiemlib
+[2023-04-17 22:25:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spanishconjugator
+[2023-04-17 22:25:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spanishconjugator
+[2023-04-17 22:25:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: weni-rp-apps
+[2023-04-17 22:25:56] WARNING root fetch - processPackages [DiamondCoin]: Skipping, unable to determine old version
+[2023-04-17 22:25:56] INFO root fetch - main [MainThread]: End processing [DiamondCoin] error
+[2023-04-17 22:25:56] INFO root fetch - processPackages [liblxml3]: New version: [1.4] Old Version: [0.2]
+[2023-04-17 22:25:56] INFO root fetch - processPackages [terka]: New version: [1.6.3] Old Version: [1.6.2]
+[2023-04-17 22:25:56] WARNING root fetch - processPackages [mpsiemlib]: Skipping, unable to determine old version
+[2023-04-17 22:25:56] INFO root fetch - main [MainThread]: End processing [mpsiemlib] error
+[2023-04-17 22:25:56] INFO root fetch - processPackages [weni-rp-apps]: New version: [2.4.0a0] Old Version: [2.3.2]
+[2023-04-17 22:25:56] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-04-17 22:25:56] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-04-17 22:25:56] INFO root fetch - processPackages [liblxml3]: Downloading https://files.pythonhosted.org/packages/94/65/1a5aff8906b2df92f3d20568c037f29570bc53ce7fa0d88993793b5a07e7/liblxml3-0.2.tar.gz
+[2023-04-17 22:25:56] INFO root fetch - processPackages [terka]: Downloading https://files.pythonhosted.org/packages/05/f3/ffe6d36a9cb727c32262bb616af53ffcb151c3cb2979fb2477d02d9a6409/terka-1.6.2.tar.gz
+[2023-04-17 22:25:56] INFO root fetch - processPackages [weni-rp-apps]: executing diffoscope
+[2023-04-17 22:25:56] INFO root fetch - processPackages [weni-rp-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weni_rp_apps-2.3.2.tar.gz tmp/weni_rp_apps-2.4.0a0.tar.gz --markdown 20230417/w/weni-rp-apps/2.3.2-2.4.0a0/diff.md --exclude *.pyd
+[2023-04-17 22:25:56] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-04-17 22:25:56] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230417/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-04-17 22:25:56] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-04-17 22:25:56] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230417/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-04-17 22:25:56] INFO root fetch - processPackages [liblxml3]: Downloading https://files.pythonhosted.org/packages/c8/a9/a97fed53fab6ecb4df7dbd30e2e6dc2442e47657cad8398a89094a38a968/liblxml3-1.4.tar.gz
+[2023-04-17 22:25:56] INFO root fetch - processPackages [terka]: Downloading https://files.pythonhosted.org/packages/fa/17/37aeca2ecc01b964e39f2b8103a07a6f488786186999f853475eedf47b72/terka-1.6.3.tar.gz
+[2023-04-17 22:25:56] INFO root fetch - processPackages [liblxml3]: executing diffoscope
+[2023-04-17 22:25:56] INFO root fetch - processPackages [liblxml3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liblxml3-0.2.tar.gz tmp/liblxml3-1.4.tar.gz --markdown 20230417/l/liblxml3/0.2-1.4/diff.md --exclude *.pyd
+[2023-04-17 22:25:56] INFO root fetch - processPackages [terka]: executing diffoscope
+[2023-04-17 22:25:56] INFO root fetch - processPackages [terka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terka-1.6.2.tar.gz tmp/terka-1.6.3.tar.gz --markdown 20230417/t/terka/1.6.2-1.6.3/diff.md --exclude *.pyd
+[2023-04-17 22:25:57] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-04-17 22:25:57] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-04-17 22:25:58] INFO root fetch - main [MainThread]: End processing [terka]: success
+[2023-04-17 22:25:58] INFO root fetch - main [MainThread]: End processing [weni-rp-apps]: success
+[2023-04-17 22:26:08] INFO root fetch - main [MainThread]: End processing [liblxml3]: success
+[2023-04-17 22:26:08] INFO root fetch - main [MainThread]: Store serial: [17744006]
