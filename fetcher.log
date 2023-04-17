@@ -11896,3 +11896,73 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-04-17 14:03:25] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-04-17 14:03:38] INFO root fetch - main [MainThread]: End processing [pykechain]: success
 [2023-04-17 14:03:38] INFO root fetch - main [MainThread]: Store serial: [17737747]
+[2023-04-17 14:08:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17737747]
+[2023-04-17 14:08:51] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-17 14:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: enstools-encoding
+[2023-04-17 14:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: poutils
+[2023-04-17 14:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pylookyloomonitoring
+[2023-04-17 14:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: foursight-cgap
+[2023-04-17 14:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: luminesce-sdk-preview
+[2023-04-17 14:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: windpyutils
+[2023-04-17 14:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: astronomer-providers
+[2023-04-17 14:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: erscipcard
+[2023-04-17 14:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lumen
+[2023-04-17 14:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tabledetect
+[2023-04-17 14:08:51] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2023-04-17 14:08:51] INFO root fetch - processPackages [erscipcard]: New version: [1.17.7] Old Version: [1.17.4]
+[2023-04-17 14:08:51] INFO root fetch - processPackages [enstools-encoding]: New version: [2023.4.1] Old Version: [2023.1]
+[2023-04-17 14:08:51] INFO root fetch - processPackages [poutils]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-17 14:08:51] INFO root fetch - processPackages [pylookyloomonitoring]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-17 14:08:51] INFO root fetch - processPackages [astronomer-providers]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-04-17 14:08:51] WARNING root fetch - processPackages [tabledetect]: Skipping, unable to determine old version
+[2023-04-17 14:08:51] INFO root fetch - processPackages [windpyutils]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-04-17 14:08:51] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2023-04-17 14:08:51] INFO root fetch - processPackages [tabledetect]: Start processing: inductiva
+[2023-04-17 14:08:51] INFO root fetch - main [MainThread]: End processing [tabledetect] error
+[2023-04-17 14:08:51] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20230417/l/luminesce-sdk-preview/1.9.88-1.9.92/diff.md --exclude *.pyd
+[2023-04-17 14:08:51] INFO root fetch - processPackages [lumen]: New version: [0.6.0a9] Old Version: [0.6.0a8]
+[2023-04-17 14:08:51] INFO root fetch - processPackages [foursight-cgap]: New version: [3.4.0.1b0] Old Version: [3.3.2.2b1]
+[2023-04-17 14:08:51] INFO root fetch - processPackages [inductiva]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 14:08:51] INFO root fetch - processPackages [erscipcard]: executing diffoscope
+[2023-04-17 14:08:51] INFO root fetch - processPackages [erscipcard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erscipcard-1.17.4.tar.gz tmp/erscipcard-1.17.7.tar.gz --markdown 20230417/e/erscipcard/1.17.4-1.17.7/diff.md --exclude *.pyd
+[2023-04-17 14:08:51] INFO root fetch - processPackages [inductiva]: executing diffoscope
+[2023-04-17 14:08:51] INFO root fetch - processPackages [inductiva]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inductiva-0.0.8.tar.gz tmp/inductiva-0.0.9.tar.gz --markdown 20230417/i/inductiva/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 14:08:51] INFO root fetch - processPackages [enstools-encoding]: Downloading https://files.pythonhosted.org/packages/bb/51/5a5cf7b13b43e07097823f3f1ced11d68747020cab8625363595e2b84af3/enstools-encoding-2023.1.tar.gz
+[2023-04-17 14:08:51] INFO root fetch - processPackages [poutils]: Downloading https://files.pythonhosted.org/packages/6b/06/bc7087064b2b24f9caee330a06734420e4395fe02826e2317066e623b3dd/poutils-0.8.0.tar.gz
+[2023-04-17 14:08:51] INFO root fetch - processPackages [pylookyloomonitoring]: Downloading https://files.pythonhosted.org/packages/19/99/69d0710fac1ad70ec645217cf5e74b4a0d388fdfeee66b504ba6db77ad45/pylookyloomonitoring-1.0.1.tar.gz
+[2023-04-17 14:08:51] INFO root fetch - processPackages [windpyutils]: Downloading https://files.pythonhosted.org/packages/ac/8c/2614eb99a1814611752dd6b4c0cc1ee6ebbbd0e650dcc68f90c49c452609/windpyutils-2.0.8.tar.gz
+[2023-04-17 14:08:51] INFO root fetch - processPackages [lumen]: Downloading https://files.pythonhosted.org/packages/cc/b7/3a39e8cd9fcb8a320952ad56a2707b2b460c0ca7220bcaf1a4b9c56f409e/lumen-0.6.0a8.tar.gz
+[2023-04-17 14:08:51] INFO root fetch - processPackages [astronomer-providers]: Downloading https://files.pythonhosted.org/packages/e9/3b/491aaa0cd633b3b37776ab70e3cb8d12e9feddedf54fc017fc4be50e8195/astronomer-providers-1.8.1.tar.gz
+[2023-04-17 14:08:51] INFO root fetch - processPackages [foursight-cgap]: Downloading https://files.pythonhosted.org/packages/56/8f/3e36f93b65b9e04a2b3e765b46db856aa90bc0dafea6e6e968d2de0ece3b/foursight_cgap-3.3.2.2b1.tar.gz
+[2023-04-17 14:08:51] INFO root fetch - processPackages [pylookyloomonitoring]: Downloading https://files.pythonhosted.org/packages/7f/59/e51ed24b777c3c9e476adb3f22b54d811b0ec6e96866720dd22e37711fac/pylookyloomonitoring-1.0.2.tar.gz
+[2023-04-17 14:08:51] INFO root fetch - processPackages [windpyutils]: Downloading https://files.pythonhosted.org/packages/77/34/f29f466178be699a3a4f46c4a0a4dd2b9b6aa80dee5bc8fc08b8385515a1/windpyutils-2.0.9.tar.gz
+[2023-04-17 14:08:51] INFO root fetch - processPackages [enstools-encoding]: Downloading https://files.pythonhosted.org/packages/6c/4d/f509a407195a9c69e11b6001f3a0ff5f40202f1cbf097846725a051c3495/enstools-encoding-2023.4.1.tar.gz
+[2023-04-17 14:08:51] INFO root fetch - processPackages [windpyutils]: executing diffoscope
+[2023-04-17 14:08:51] INFO root fetch - processPackages [windpyutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windpyutils-2.0.8.tar.gz tmp/windpyutils-2.0.9.tar.gz --markdown 20230417/w/windpyutils/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-04-17 14:08:51] INFO root fetch - processPackages [poutils]: Downloading https://files.pythonhosted.org/packages/7e/c9/f91546e5c9ad0f7661ef6fa72f05e357d972464ca493ef4bdfafb03b9b02/poutils-0.9.0.tar.gz
+[2023-04-17 14:08:52] INFO root fetch - processPackages [pylookyloomonitoring]: executing diffoscope
+[2023-04-17 14:08:52] INFO root fetch - processPackages [pylookyloomonitoring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylookyloomonitoring-1.0.1.tar.gz tmp/pylookyloomonitoring-1.0.2.tar.gz --markdown 20230417/p/pylookyloomonitoring/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-17 14:08:52] INFO root fetch - processPackages [astronomer-providers]: Downloading https://files.pythonhosted.org/packages/03/2d/cd7d34116a8506bd6ae9e26506f3bd20928a3fe6cf6b3cb9e17bdde34e78/astronomer-providers-1.9.0.tar.gz
+[2023-04-17 14:08:52] INFO root fetch - processPackages [enstools-encoding]: executing diffoscope
+[2023-04-17 14:08:52] INFO root fetch - processPackages [enstools-encoding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enstools-encoding-2023.1.tar.gz tmp/enstools-encoding-2023.4.1.tar.gz --markdown 20230417/e/enstools-encoding/2023.1-2023.4.1/diff.md --exclude *.pyd
+[2023-04-17 14:08:52] INFO root fetch - processPackages [lumen]: Downloading https://files.pythonhosted.org/packages/28/0f/6437832097c50fad89bbf6b0607a2891fd4345992d37099a809479c16c9a/lumen-0.6.0a9.tar.gz
+[2023-04-17 14:08:52] INFO root fetch - processPackages [foursight-cgap]: Downloading https://files.pythonhosted.org/packages/db/34/9181bf3c0f59293917b5ca6a56fbe85dffe2c1e76e95ec456a3cf35fd65e/foursight_cgap-3.4.0.1b0.tar.gz
+[2023-04-17 14:08:52] INFO root fetch - processPackages [poutils]: executing diffoscope
+[2023-04-17 14:08:52] INFO root fetch - processPackages [poutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poutils-0.8.0.tar.gz tmp/poutils-0.9.0.tar.gz --markdown 20230417/p/poutils/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-17 14:08:52] INFO root fetch - processPackages [astronomer-providers]: executing diffoscope
+[2023-04-17 14:08:52] INFO root fetch - processPackages [astronomer-providers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astronomer-providers-1.8.1.tar.gz tmp/astronomer-providers-1.9.0.tar.gz --markdown 20230417/a/astronomer-providers/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-04-17 14:08:52] INFO root fetch - processPackages [lumen]: executing diffoscope
+[2023-04-17 14:08:52] INFO root fetch - processPackages [lumen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lumen-0.6.0a8.tar.gz tmp/lumen-0.6.0a9.tar.gz --markdown 20230417/l/lumen/0.6.0a8-0.6.0a9/diff.md --exclude *.pyd
+[2023-04-17 14:08:52] INFO root fetch - processPackages [foursight-cgap]: executing diffoscope
+[2023-04-17 14:08:52] INFO root fetch - processPackages [foursight-cgap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight_cgap-3.3.2.2b1.tar.gz tmp/foursight_cgap-3.4.0.1b0.tar.gz --markdown 20230417/f/foursight-cgap/3.3.2.2b1-3.4.0.1b0/diff.md --exclude *.pyd
+[2023-04-17 14:08:53] INFO root fetch - main [MainThread]: End processing [windpyutils]: success
+[2023-04-17 14:08:53] INFO root fetch - main [MainThread]: End processing [erscipcard]: success
+[2023-04-17 14:08:53] INFO root fetch - main [MainThread]: End processing [poutils]: success
+[2023-04-17 14:08:53] INFO root fetch - main [MainThread]: End processing [pylookyloomonitoring]: success
+[2023-04-17 14:08:53] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2023-04-17 14:08:53] INFO root fetch - main [MainThread]: End processing [foursight-cgap]: success
+[2023-04-17 14:08:53] INFO root fetch - main [MainThread]: End processing [enstools-encoding]: success
+[2023-04-17 14:08:54] INFO root fetch - main [MainThread]: End processing [lumen]: success
+[2023-04-17 14:08:54] INFO root fetch - main [MainThread]: End processing [inductiva]: success
+[2023-04-17 14:08:56] INFO root fetch - main [MainThread]: End processing [astronomer-providers]: success
+[2023-04-17 14:08:56] INFO root fetch - main [MainThread]: Store serial: [17737783]
