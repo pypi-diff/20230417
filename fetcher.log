@@ -4899,3 +4899,47 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 05:57:41] INFO root fetch - main [MainThread]: End processing [exodusutils]: success
 [2023-04-17 05:57:41] INFO root fetch - main [MainThread]: End processing [meeple-cli]: success
 [2023-04-17 05:57:41] INFO root fetch - main [MainThread]: Store serial: [17733538]
+[2023-04-17 06:02:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17733538]
+[2023-04-17 06:02:50] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-17 06:02:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: to-cloud-run
+[2023-04-17 06:02:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: geotran
+[2023-04-17 06:02:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: discordwrap
+[2023-04-17 06:02:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: traclus-python
+[2023-04-17 06:02:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: geotran
+[2023-04-17 06:02:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: EmaCalc
+[2023-04-17 06:02:50] INFO root fetch - processPackages [traclus-python]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-17 06:02:50] INFO root fetch - processPackages [geotran]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-17 06:02:50] INFO root fetch - processPackages [to-cloud-run]: New version: [1.5] Old Version: [1.4]
+[2023-04-17 06:02:50] INFO root fetch - processPackages [geotran]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-17 06:02:50] INFO root fetch - processPackages [discordwrap]: New version: [0.7.0] Old Version: [0.6.2]
+[2023-04-17 06:02:50] INFO root fetch - processPackages [EmaCalc]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-04-17 06:02:50] INFO root fetch - processPackages [traclus-python]: Downloading https://files.pythonhosted.org/packages/75/f3/4d2ea26979058a1c0606eb540ccc59aee3d0989a37797f3100c04632214b/traclus-python-1.0.1.tar.gz
+[2023-04-17 06:02:50] INFO root fetch - processPackages [geotran]: Downloading https://files.pythonhosted.org/packages/32/85/4a11165444a097a04a5d5809a98a1cea0aa9a5f8c5e087c2548cac41f452/geotran-0.0.4-py3-none-any.whl
+[2023-04-17 06:02:50] INFO root fetch - processPackages [geotran]: Downloading https://files.pythonhosted.org/packages/32/85/4a11165444a097a04a5d5809a98a1cea0aa9a5f8c5e087c2548cac41f452/geotran-0.0.4-py3-none-any.whl
+[2023-04-17 06:02:50] INFO root fetch - processPackages [to-cloud-run]: Downloading https://files.pythonhosted.org/packages/a1/f4/10d8474f8f92342c9a2e6bd196e2cc05ba042462af1f597980a521e93a1c/to-cloud-run-1.5.tar.gz
+[2023-04-17 06:02:50] INFO root fetch - processPackages [EmaCalc]: Downloading https://files.pythonhosted.org/packages/45/e5/4cc9dc6edb1981f449bab63720f1c104d1485e070ea223ad54909de5ba12/EmaCalc-0.9.5.tar.gz
+[2023-04-17 06:02:50] INFO root fetch - processPackages [discordwrap]: Downloading https://files.pythonhosted.org/packages/fe/53/3928b62c1425808c4bb385a08e357c1721384765cd56d54ec89489e440a2/discordwrap-0.6.2.tar.gz
+[2023-04-17 06:02:50] INFO root fetch - processPackages [to-cloud-run]: executing diffoscope
+[2023-04-17 06:02:50] INFO root fetch - processPackages [to-cloud-run]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/to-cloud-run-1.4.tar.gz tmp/to-cloud-run-1.5.tar.gz --markdown 20230417/t/to-cloud-run/1.4-1.5/diff.md --exclude *.pyd
+[2023-04-17 06:02:50] INFO root fetch - processPackages [traclus-python]: Downloading https://files.pythonhosted.org/packages/51/eb/d1c4c260d44ddf602b061994dd70014624c78ff93d15ed966349affb2354/traclus-python-1.0.2.tar.gz
+[2023-04-17 06:02:50] INFO root fetch - processPackages [discordwrap]: Downloading https://files.pythonhosted.org/packages/00/4b/305baaa4642dfed0da97537c6a7ffc834c4fe195645953ba31fb6e0a1339/discordwrap-0.7.0.tar.gz
+[2023-04-17 06:02:50] INFO root fetch - processPackages [EmaCalc]: Downloading https://files.pythonhosted.org/packages/37/ca/0fdba2e838c3bab7292eb684d94d7de965b56eec6b500cd235a7e0b4af4d/EmaCalc-0.9.6.tar.gz
+[2023-04-17 06:02:50] INFO root fetch - processPackages [geotran]: Downloading https://files.pythonhosted.org/packages/1e/9d/9bbe49ab8361c43e2e7ce48e44c1f9162c3c7d7d6738f12561c0e9be8928/geotran-0.0.5-py3-none-any.whl
+[2023-04-17 06:02:50] INFO root fetch - processPackages [geotran]: Downloading https://files.pythonhosted.org/packages/1e/9d/9bbe49ab8361c43e2e7ce48e44c1f9162c3c7d7d6738f12561c0e9be8928/geotran-0.0.5-py3-none-any.whl
+[2023-04-17 06:02:50] INFO root fetch - processPackages [traclus-python]: executing diffoscope
+[2023-04-17 06:02:50] INFO root fetch - processPackages [traclus-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/traclus-python-1.0.1.tar.gz tmp/traclus-python-1.0.2.tar.gz --markdown 20230417/t/traclus-python/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-17 06:02:50] INFO root fetch - processPackages [geotran]: executing diffoscope
+[2023-04-17 06:02:50] INFO root fetch - processPackages [geotran]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geotran-0.0.4-py3-none-any.whl.zip tmp/geotran-0.0.5-py3-none-any.whl.zip --markdown 20230417/g/geotran/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-17 06:02:50] INFO root fetch - processPackages [EmaCalc]: executing diffoscope
+[2023-04-17 06:02:50] INFO root fetch - processPackages [EmaCalc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EmaCalc-0.9.5.tar.gz tmp/EmaCalc-0.9.6.tar.gz --markdown 20230417/E/EmaCalc/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-04-17 06:02:50] INFO root fetch - processPackages [geotran]: executing diffoscope
+[2023-04-17 06:02:50] INFO root fetch - processPackages [geotran]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geotran-0.0.4-py3-none-any.whl.zip tmp/geotran-0.0.5-py3-none-any.whl.zip --markdown 20230417/g/geotran/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-17 06:02:50] INFO root fetch - processPackages [discordwrap]: executing diffoscope
+[2023-04-17 06:02:50] INFO root fetch - processPackages [discordwrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discordwrap-0.6.2.tar.gz tmp/discordwrap-0.7.0.tar.gz --markdown 20230417/d/discordwrap/0.6.2-0.7.0/diff.md --exclude *.pyd
+[2023-04-17 06:02:51] INFO root fetch - main [MainThread]: End processing [to-cloud-run]: success
+[2023-04-17 06:02:51] INFO root fetch - main [MainThread]: End processing [traclus-python]: success
+[2023-04-17 06:02:51] INFO root fetch - main [MainThread]: End processing [geotran]: success
+[2023-04-17 06:02:52] INFO root fetch - main [MainThread]: End processing [geotran]: success
+[2023-04-17 06:02:52] INFO root fetch - main [MainThread]: End processing [discordwrap]: success
+[2023-04-17 06:02:52] INFO root fetch - main [MainThread]: End processing [EmaCalc]: success
+[2023-04-17 06:02:52] INFO root fetch - main [MainThread]: Store serial: [17733553]
