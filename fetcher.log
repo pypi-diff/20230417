@@ -9500,3 +9500,153 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 11:50:52] INFO root fetch - main [MainThread]: End processing [LbAPCommon]: success
 [2023-04-17 11:51:00] INFO root fetch - main [MainThread]: End processing [cylc-sphinx-extensions]: success
 [2023-04-17 11:51:00] INFO root fetch - main [MainThread]: Store serial: [17736323]
+[2023-04-17 11:56:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17736323]
+[2023-04-17 11:56:09] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-04-17 11:56:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: macrometa-source-bigquery
+[2023-04-17 11:56:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bmb-martlet-organization-client
+[2023-04-17 11:56:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deepdriver
+[2023-04-17 11:56:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: macrometa-source-collection
+[2023-04-17 11:56:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: metaloop-clip
+[2023-04-17 11:56:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: certora-cli-alpha-master
+[2023-04-17 11:56:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: macrometa-source-mongo
+[2023-04-17 11:56:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: macrometa-source-oracle
+[2023-04-17 11:56:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gaianet
+[2023-04-17 11:56:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: macrometa-source-snowflake
+[2023-04-17 11:56:09] INFO root fetch - processPackages [macrometa-source-bigquery]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 11:56:09] INFO root fetch - processPackages [metaloop-clip]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-17 11:56:09] INFO root fetch - processPackages [deepdriver]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-04-17 11:56:09] INFO root fetch - processPackages [bmb-martlet-organization-client]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-04-17 11:56:09] INFO root fetch - processPackages [macrometa-source-mongo]: New version: [0.0.33] Old Version: [0.0.32]
+[2023-04-17 11:56:09] INFO root fetch - processPackages [macrometa-source-collection]: New version: [0.0.21] Old Version: [0.0.20]
+[2023-04-17 11:56:09] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230417.9.51.855811] Old Version: [20230416.21.42.947623]
+[2023-04-17 11:56:09] WARNING root fetch - processPackages [gaianet]: Skipping, unable to determine old version
+[2023-04-17 11:56:09] INFO root fetch - processPackages [gaianet]: Start processing: macrometa-source-postgres
+[2023-04-17 11:56:09] INFO root fetch - processPackages [macrometa-source-oracle]: New version: [0.0.32] Old Version: [0.0.31]
+[2023-04-17 11:56:09] INFO root fetch - main [MainThread]: End processing [gaianet] error
+[2023-04-17 11:56:09] INFO root fetch - processPackages [macrometa-source-snowflake]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 11:56:09] INFO root fetch - processPackages [macrometa-source-postgres]: New version: [0.0.41] Old Version: [0.0.40]
+[2023-04-17 11:56:09] INFO root fetch - processPackages [deepdriver]: executing diffoscope
+[2023-04-17 11:56:09] INFO root fetch - processPackages [deepdriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepdriver-0.9.4.tar.gz tmp/deepdriver-0.9.5.tar.gz --markdown 20230417/d/deepdriver/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-04-17 11:56:09] INFO root fetch - processPackages [bmb-martlet-organization-client]: executing diffoscope
+[2023-04-17 11:56:09] INFO root fetch - processPackages [bmb-martlet-organization-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmb_martlet_organization_client-0.98.0-py3-none-any.whl.zip tmp/bmb_martlet_organization_client-0.99.0-py3-none-any.whl.zip --markdown 20230417/b/bmb-martlet-organization-client/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-04-17 11:56:09] INFO root fetch - processPackages [macrometa-source-bigquery]: executing diffoscope
+[2023-04-17 11:56:09] INFO root fetch - processPackages [macrometa-source-bigquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-source-bigquery-0.0.8.tar.gz tmp/macrometa-source-bigquery-0.0.9.tar.gz --markdown 20230417/m/macrometa-source-bigquery/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 11:56:09] INFO root fetch - processPackages [macrometa-source-snowflake]: executing diffoscope
+[2023-04-17 11:56:09] INFO root fetch - processPackages [macrometa-source-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-source-snowflake-0.0.8.tar.gz tmp/macrometa-source-snowflake-0.0.9.tar.gz --markdown 20230417/m/macrometa-source-snowflake/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 11:56:09] INFO root fetch - processPackages [metaloop-clip]: Downloading https://files.pythonhosted.org/packages/2e/52/f39de9e2d4dada974f8002bfe0508114e2cc397b7e1ee35a29f81de94bdb/metaloop-clip-1.0.1.tar.gz
+[2023-04-17 11:56:10] INFO root fetch - processPackages [macrometa-source-mongo]: Downloading https://files.pythonhosted.org/packages/14/e9/0a6660c3ab37d002f4d69ea4b3a371165922f56b48ea26becd61fc0b5213/macrometa-source-mongo-0.0.33.tar.gz
+[2023-04-17 11:56:10] INFO root fetch - processPackages [macrometa-source-oracle]: Downloading https://files.pythonhosted.org/packages/b5/87/c1e57985117ac003fd6ea80b1fea539de3799a0093e77b0898b82c195808/macrometa-source-oracle-0.0.32.tar.gz
+[2023-04-17 11:56:10] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/c3/88/60137b072cdf982e490cd9bfd127d6c97e99586089c77b2b32b793fbaab3/certora-cli-alpha-master-20230416.21.42.947623.tar.gz
+[2023-04-17 11:56:10] INFO root fetch - processPackages [macrometa-source-collection]: Downloading https://files.pythonhosted.org/packages/14/68/7d428f36783c5bbbf1d6f886240073587ac04ee0cabda7b348b5fecce493/macrometa-source-collection-0.0.21.tar.gz
+[2023-04-17 11:56:10] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 38007777>=10485760
+[2023-04-17 11:56:10] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: macrometa-target-bigquery
+[2023-04-17 11:56:10] INFO root fetch - processPackages [macrometa-source-mongo]: executing diffoscope
+[2023-04-17 11:56:10] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-04-17 11:56:10] INFO root fetch - processPackages [macrometa-source-postgres]: Downloading https://files.pythonhosted.org/packages/b5/b7/da88d2cfd10d0e471a460d75a380f75efedda0759f76a9e51de5a7ec6144/macrometa-source-postgres-0.0.41.tar.gz
+[2023-04-17 11:56:10] INFO root fetch - processPackages [macrometa-source-mongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-source-mongo-0.0.32.tar.gz tmp/macrometa-source-mongo-0.0.33.tar.gz --markdown 20230417/m/macrometa-source-mongo/0.0.32-0.0.33/diff.md --exclude *.pyd
+[2023-04-17 11:56:10] INFO root fetch - processPackages [macrometa-source-oracle]: executing diffoscope
+[2023-04-17 11:56:10] INFO root fetch - processPackages [macrometa-source-oracle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-source-oracle-0.0.31.tar.gz tmp/macrometa-source-oracle-0.0.32.tar.gz --markdown 20230417/m/macrometa-source-oracle/0.0.31-0.0.32/diff.md --exclude *.pyd
+[2023-04-17 11:56:10] INFO root fetch - processPackages [macrometa-target-bigquery]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-17 11:56:10] INFO root fetch - processPackages [macrometa-source-collection]: executing diffoscope
+[2023-04-17 11:56:10] INFO root fetch - processPackages [macrometa-source-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-source-collection-0.0.20.tar.gz tmp/macrometa-source-collection-0.0.21.tar.gz --markdown 20230417/m/macrometa-source-collection/0.0.20-0.0.21/diff.md --exclude *.pyd
+[2023-04-17 11:56:10] INFO root fetch - processPackages [macrometa-source-postgres]: executing diffoscope
+[2023-04-17 11:56:10] INFO root fetch - processPackages [macrometa-source-postgres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-source-postgres-0.0.40.tar.gz tmp/macrometa-source-postgres-0.0.41.tar.gz --markdown 20230417/m/macrometa-source-postgres/0.0.40-0.0.41/diff.md --exclude *.pyd
+[2023-04-17 11:56:10] INFO root fetch - processPackages [macrometa-target-bigquery]: Downloading https://files.pythonhosted.org/packages/2e/31/930aa09153360849a0d7c1fe3b955c02666bdca1a09249026a41b6a0481c/macrometa-target-bigquery-0.0.6.tar.gz
+[2023-04-17 11:56:10] INFO root fetch - processPackages [macrometa-target-bigquery]: executing diffoscope
+[2023-04-17 11:56:10] INFO root fetch - processPackages [macrometa-target-bigquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-bigquery-0.0.5.tar.gz tmp/macrometa-target-bigquery-0.0.6.tar.gz --markdown 20230417/m/macrometa-target-bigquery/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-17 11:56:10] INFO root fetch - processPackages [metaloop-clip]: Downloading https://files.pythonhosted.org/packages/27/59/7e4a8566ff3b096e2a1b6e2f6ec4aac24fa80506537fc2a0d0cf54ceb96b/metaloop-clip-1.0.2.tar.gz
+[2023-04-17 11:56:10] INFO root fetch - processPackages [metaloop-clip]: executing diffoscope
+[2023-04-17 11:56:10] INFO root fetch - processPackages [metaloop-clip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaloop-clip-1.0.1.tar.gz tmp/metaloop-clip-1.0.2.tar.gz --markdown 20230417/m/metaloop-clip/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-17 11:56:11] INFO root fetch - processPackages [macrometa-source-collection]: Start processing: pymince
+[2023-04-17 11:56:11] INFO root fetch - main [MainThread]: End processing [macrometa-source-collection]: success
+[2023-04-17 11:56:11] INFO root fetch - processPackages [pymince]: New version: [2.6.0] Old Version: [2.5.0]
+[2023-04-17 11:56:11] INFO root fetch - processPackages [macrometa-source-bigquery]: Start processing: macrometa-target-collection
+[2023-04-17 11:56:11] INFO root fetch - main [MainThread]: End processing [macrometa-source-bigquery]: success
+[2023-04-17 11:56:11] INFO root fetch - processPackages [deepdriver]: Start processing: hbshare
+[2023-04-17 11:56:11] INFO root fetch - main [MainThread]: End processing [deepdriver]: success
+[2023-04-17 11:56:11] INFO root fetch - processPackages [macrometa-source-postgres]: Start processing: assisted-service-client
+[2023-04-17 11:56:11] INFO root fetch - main [MainThread]: End processing [macrometa-source-postgres]: success
+[2023-04-17 11:56:11] INFO root fetch - processPackages [macrometa-target-collection]: New version: [0.0.55] Old Version: [0.0.54]
+[2023-04-17 11:56:11] INFO root fetch - processPackages [hbshare]: New version: [3.7.9] Old Version: [3.7.8]
+[2023-04-17 11:56:11] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2023-04-17 11:56:11] INFO root fetch - processPackages [macrometa-source-snowflake]: Start processing: macrometa-target-mongo
+[2023-04-17 11:56:11] INFO root fetch - main [MainThread]: End processing [macrometa-source-snowflake]: success
+[2023-04-17 11:56:11] INFO root fetch - processPackages [pymince]: Downloading https://files.pythonhosted.org/packages/93/0e/d98e680b34e8edcf96a7a4883357ce6444706cfbcc68d88e321703e69234/pymince-2.5.0.tar.gz
+[2023-04-17 11:56:11] INFO root fetch - processPackages [macrometa-target-mongo]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 11:56:11] INFO root fetch - processPackages [macrometa-source-mongo]: Start processing: macrometa-target-postgres
+[2023-04-17 11:56:11] INFO root fetch - main [MainThread]: End processing [macrometa-source-mongo]: success
+[2023-04-17 11:56:11] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/a5/ee/a5837c5427b0689f863021f5d65c42ff9d4ae267905a751492653198b2dc/assisted_service_client-2.9.0.post8-py3-none-any.whl
+[2023-04-17 11:56:11] INFO root fetch - processPackages [macrometa-target-bigquery]: Start processing: macrometa-target-snowflake
+[2023-04-17 11:56:11] INFO root fetch - main [MainThread]: End processing [macrometa-target-bigquery]: success
+[2023-04-17 11:56:11] INFO root fetch - processPackages [metaloop-clip]: Start processing: qtpy-frameless-window
+[2023-04-17 11:56:11] INFO root fetch - main [MainThread]: End processing [metaloop-clip]: success
+[2023-04-17 11:56:11] INFO root fetch - processPackages [macrometa-target-postgres]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 11:56:11] INFO root fetch - processPackages [macrometa-target-snowflake]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 11:56:11] INFO root fetch - processPackages [qtpy-frameless-window]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-17 11:56:11] INFO root fetch - processPackages [hbshare]: Downloading https://files.pythonhosted.org/packages/a5/a4/499d23d74887ffd4ef67553315658f683be836712d76c2899658261b95c7/hbshare-3.7.8.tar.gz
+[2023-04-17 11:56:11] INFO root fetch - processPackages [macrometa-target-mongo]: executing diffoscope
+[2023-04-17 11:56:11] INFO root fetch - processPackages [macrometa-target-mongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-mongo-0.0.8.tar.gz tmp/macrometa-target-mongo-0.0.9.tar.gz --markdown 20230417/m/macrometa-target-mongo/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 11:56:11] INFO root fetch - processPackages [macrometa-source-oracle]: Start processing: wonder-sdk
+[2023-04-17 11:56:11] INFO root fetch - main [MainThread]: End processing [macrometa-source-oracle]: success
+[2023-04-17 11:56:12] INFO root fetch - processPackages [macrometa-target-collection]: Downloading https://files.pythonhosted.org/packages/5f/59/5a106a98f348a6ec866040c8862d27cb98ae37109f4a75bf719a52c9a360/macrometa-target-collection-0.0.55.tar.gz
+[2023-04-17 11:56:12] INFO root fetch - processPackages [wonder-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-17 11:56:12] INFO root fetch - processPackages [macrometa-target-postgres]: executing diffoscope
+[2023-04-17 11:56:12] INFO root fetch - processPackages [macrometa-target-postgres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-postgres-0.0.8.tar.gz tmp/macrometa-target-postgres-0.0.9.tar.gz --markdown 20230417/m/macrometa-target-postgres/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 11:56:12] INFO root fetch - processPackages [macrometa-target-snowflake]: executing diffoscope
+[2023-04-17 11:56:12] INFO root fetch - processPackages [macrometa-target-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-snowflake-0.0.8.tar.gz tmp/macrometa-target-snowflake-0.0.9.tar.gz --markdown 20230417/m/macrometa-target-snowflake/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 11:56:12] INFO root fetch - processPackages [macrometa-target-collection]: executing diffoscope
+[2023-04-17 11:56:12] INFO root fetch - processPackages [macrometa-target-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-collection-0.0.54.tar.gz tmp/macrometa-target-collection-0.0.55.tar.gz --markdown 20230417/m/macrometa-target-collection/0.0.54-0.0.55/diff.md --exclude *.pyd
+[2023-04-17 11:56:12] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/f6/90/2599b3c134ea21c06d22f83dd1dfac6801d974b9aa0958f008fb332e5b4d/assisted_service_client-2.9.0.post9-py3-none-any.whl
+[2023-04-17 11:56:12] INFO root fetch - processPackages [qtpy-frameless-window]: Downloading https://files.pythonhosted.org/packages/fe/c6/19548e062d05d25c36f887245dd792713385f4045d84d04dfcbdf046a8a0/QtPy-Frameless-Window-0.1.1.tar.gz
+[2023-04-17 11:56:12] INFO root fetch - processPackages [wonder-sdk]: executing diffoscope
+[2023-04-17 11:56:12] INFO root fetch - processPackages [wonder-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wonder-sdk-0.1.8.tar.gz tmp/wonder-sdk-0.1.9.tar.gz --markdown 20230417/w/wonder-sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-17 11:56:12] INFO root fetch - processPackages [pymince]: Downloading https://files.pythonhosted.org/packages/ef/be/3ec3df87a22e546c5fc735072250e0e684f04756786730785bab9c4ddd0b/pymince-2.6.0.tar.gz
+[2023-04-17 11:56:12] INFO root fetch - processPackages [pymince]: executing diffoscope
+[2023-04-17 11:56:12] INFO root fetch - processPackages [hbshare]: Downloading https://files.pythonhosted.org/packages/3b/cf/d495e4794562827ff7bdac1372ab526c4beca5fa1b11cbb802d837fd27de/hbshare-3.7.9.tar.gz
+[2023-04-17 11:56:12] INFO root fetch - processPackages [pymince]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymince-2.5.0.tar.gz tmp/pymince-2.6.0.tar.gz --markdown 20230417/p/pymince/2.5.0-2.6.0/diff.md --exclude *.pyd
+[2023-04-17 11:56:12] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2023-04-17 11:56:12] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20230417/a/assisted-service-client/2.9.0.post8-2.9.0.post9/diff.md --exclude *.pyd
+[2023-04-17 11:56:12] INFO root fetch - processPackages [hbshare]: executing diffoscope
+[2023-04-17 11:56:12] INFO root fetch - processPackages [hbshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hbshare-3.7.8.tar.gz tmp/hbshare-3.7.9.tar.gz --markdown 20230417/h/hbshare/3.7.8-3.7.9/diff.md --exclude *.pyd
+[2023-04-17 11:56:12] INFO root fetch - processPackages [qtpy-frameless-window]: Downloading https://files.pythonhosted.org/packages/0b/c5/ae7355e2ca5b8b1f204421743bf00ad715650def7ab56eee8d5969b02058/QtPy-Frameless-Window-0.1.2.tar.gz
+[2023-04-17 11:56:12] INFO root fetch - processPackages [qtpy-frameless-window]: executing diffoscope
+[2023-04-17 11:56:12] INFO root fetch - processPackages [qtpy-frameless-window]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QtPy-Frameless-Window-0.1.1.tar.gz tmp/QtPy-Frameless-Window-0.1.2.tar.gz --markdown 20230417/q/qtpy-frameless-window/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-17 11:56:13] INFO root fetch - processPackages [macrometa-target-mongo]: Start processing: bhokacha
+[2023-04-17 11:56:13] INFO root fetch - main [MainThread]: End processing [macrometa-target-mongo]: success
+[2023-04-17 11:56:13] INFO root fetch - processPackages [bhokacha]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-17 11:56:13] INFO root fetch - processPackages [wonder-sdk]: Start processing: deli
+[2023-04-17 11:56:13] INFO root fetch - main [MainThread]: End processing [wonder-sdk]: success
+[2023-04-17 11:56:13] INFO root fetch - processPackages [deli]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-04-17 11:56:13] INFO root fetch - processPackages [macrometa-target-collection]: Start processing: dcm-processor
+[2023-04-17 11:56:13] INFO root fetch - main [MainThread]: End processing [macrometa-target-collection]: success
+[2023-04-17 11:56:13] INFO root fetch - processPackages [dcm-processor]: New version: [1.0.0] Old Version: [0.9.9]
+[2023-04-17 11:56:13] INFO root fetch - processPackages [macrometa-target-postgres]: Start processing: weac
+[2023-04-17 11:56:13] INFO root fetch - main [MainThread]: End processing [macrometa-target-postgres]: success
+[2023-04-17 11:56:13] INFO root fetch - processPackages [bhokacha]: Downloading https://files.pythonhosted.org/packages/fd/47/f8183ccddff29c3e231aae72d0170bbca50fbc201367811982dfe109cdbf/bhokacha-0.1.0-py3-none-any.whl
+[2023-04-17 11:56:13] INFO root fetch - processPackages [deli]: Downloading https://files.pythonhosted.org/packages/e3/63/08b9515db304c3b6c58c1961a41b17bb1a8a22006743de0d8a9754c6c97f/deli-0.1.1.tar.gz
+[2023-04-17 11:56:13] INFO root fetch - processPackages [weac]: New version: [2.3.2] Old Version: [2.3.1]
+[2023-04-17 11:56:13] INFO root fetch - processPackages [dcm-processor]: Downloading https://files.pythonhosted.org/packages/2b/82/d49f131de0270cb4ca8a69a72d4b630475feedb38b0d9f15aa775bace413/dcm-processor-0.9.9.tar.gz
+[2023-04-17 11:56:13] INFO root fetch - main [MainThread]: End processing [macrometa-target-snowflake]: success
+[2023-04-17 11:56:13] INFO root fetch - processPackages [bhokacha]: Downloading https://files.pythonhosted.org/packages/29/0c/4bcf5691db3403b353dee75e3b82ce19a34dd6c3f2abdd39ee796739267d/bhokacha-0.2.0-py3-none-any.whl
+[2023-04-17 11:56:13] INFO root fetch - processPackages [bhokacha]: executing diffoscope
+[2023-04-17 11:56:13] INFO root fetch - processPackages [bhokacha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bhokacha-0.1.0-py3-none-any.whl.zip tmp/bhokacha-0.2.0-py3-none-any.whl.zip --markdown 20230417/b/bhokacha/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-04-17 11:56:13] INFO root fetch - processPackages [weac]: Downloading https://files.pythonhosted.org/packages/7b/35/a9fad82e2533f72c42c69a67c248d688b758c972d88a2b366e62c8fcd0d6/weac-2.3.1.tar.gz
+[2023-04-17 11:56:13] INFO root fetch - main [MainThread]: End processing [qtpy-frameless-window]: success
+[2023-04-17 11:56:14] INFO root fetch - processPackages [deli]: Downloading https://files.pythonhosted.org/packages/13/a2/b93737873ebf1a739213a0962efd3abd4dc49b186018746b46438eec2e50/deli-0.2.0.tar.gz
+[2023-04-17 11:56:14] INFO root fetch - processPackages [deli]: executing diffoscope
+[2023-04-17 11:56:14] INFO root fetch - processPackages [deli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deli-0.1.1.tar.gz tmp/deli-0.2.0.tar.gz --markdown 20230417/d/deli/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-04-17 11:56:14] INFO root fetch - processPackages [weac]: Downloading https://files.pythonhosted.org/packages/e0/00/63f460084c085b7a4c04dffbe58adf32b60c9a79833637757692f471465b/weac-2.3.2.tar.gz
+[2023-04-17 11:56:14] INFO root fetch - main [MainThread]: End processing [pymince]: success
+[2023-04-17 11:56:14] INFO root fetch - processPackages [weac]: executing diffoscope
+[2023-04-17 11:56:14] INFO root fetch - processPackages [weac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weac-2.3.1.tar.gz tmp/weac-2.3.2.tar.gz --markdown 20230417/w/weac/2.3.1-2.3.2/diff.md --exclude *.pyd
+[2023-04-17 11:56:14] INFO root fetch - processPackages [dcm-processor]: Downloading https://files.pythonhosted.org/packages/e3/f1/83bb27c9b2365452fb469ce48fadd95de5af7e6b471ffb138458ab970dbb/dcm-processor-1.0.0.tar.gz
+[2023-04-17 11:56:14] INFO root fetch - main [MainThread]: End processing [bhokacha]: success
+[2023-04-17 11:56:15] INFO root fetch - main [MainThread]: End processing [deli]: success
+[2023-04-17 11:56:15] INFO root fetch - main [MainThread]: End processing [bmb-martlet-organization-client]: success
+[2023-04-17 11:56:15] INFO root fetch - processPackages [dcm-processor]: executing diffoscope
+[2023-04-17 11:56:15] INFO root fetch - processPackages [dcm-processor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcm-processor-0.9.9.tar.gz tmp/dcm-processor-1.0.0.tar.gz --markdown 20230417/d/dcm-processor/0.9.9-1.0.0/diff.md --exclude *.pyd
+[2023-04-17 11:56:15] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2023-04-17 11:56:15] INFO root fetch - main [MainThread]: End processing [weac]: success
+[2023-04-17 11:56:16] INFO root fetch - main [MainThread]: End processing [dcm-processor]: success
+[2023-04-17 11:56:17] INFO root fetch - main [MainThread]: End processing [hbshare]: success
+[2023-04-17 11:56:17] INFO root fetch - main [MainThread]: Store serial: [17736394]
