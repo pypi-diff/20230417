@@ -7583,3 +7583,91 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 09:55:23] INFO root fetch - main [MainThread]: End processing [robotathome]: success
 [2023-04-17 09:55:24] INFO root fetch - main [MainThread]: End processing [coinlib]: success
 [2023-04-17 09:55:24] INFO root fetch - main [MainThread]: Store serial: [17735156]
+[2023-04-17 10:00:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17735156]
+[2023-04-17 10:00:33] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-17 10:00:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: docx-word-instance-generator
+[2023-04-17 10:00:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CurrenTime
+[2023-04-17 10:00:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cg
+[2023-04-17 10:00:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xj-thread
+[2023-04-17 10:00:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: goastpy
+[2023-04-17 10:00:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: meerkat-ml
+[2023-04-17 10:00:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: antchain-yuqing
+[2023-04-17 10:00:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: chalkpy
+[2023-04-17 10:00:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jsepp
+[2023-04-17 10:00:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: flgo
+[2023-04-17 10:00:34] INFO root fetch - processPackages [goastpy]: New version: [0.1.3] Old Version: [0.1.1]
+[2023-04-17 10:00:34] INFO root fetch - processPackages [docx-word-instance-generator]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-04-17 10:00:34] WARNING root fetch - processPackages [CurrenTime]: Skipping, unable to determine old version
+[2023-04-17 10:00:34] INFO root fetch - processPackages [CurrenTime]: Start processing: NikeCA
+[2023-04-17 10:00:34] INFO root fetch - main [MainThread]: End processing [CurrenTime] error
+[2023-04-17 10:00:34] INFO root fetch - processPackages [meerkat-ml]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-04-17 10:00:34] INFO root fetch - processPackages [xj-thread]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-04-17 10:00:34] INFO root fetch - processPackages [flgo]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-17 10:00:34] INFO root fetch - processPackages [jsepp]: New version: [0.1.1] Old Version: [0.1]
+[2023-04-17 10:00:34] INFO root fetch - processPackages [antchain-yuqing]: New version: [1.2.3] Old Version: [1.1.9]
+[2023-04-17 10:00:34] INFO root fetch - processPackages [NikeCA]: New version: [0.1.56] Old Version: [0.1.55]
+[2023-04-17 10:00:34] INFO root fetch - processPackages [chalkpy]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-04-17 10:00:34] INFO root fetch - processPackages [cg]: New version: [27.3.2] Old Version: [27.3.1]
+[2023-04-17 10:00:34] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-04-17 10:00:34] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-1.9.8.tar.gz tmp/chalkpy-1.9.9.tar.gz --markdown 20230417/c/chalkpy/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-04-17 10:00:34] INFO root fetch - processPackages [meerkat-ml]: Downloading https://files.pythonhosted.org/packages/d3/b2/536ba68326a07bdda43dc44cfd64f482e713cdb172bda55224bd75fcb82a/meerkat-ml-0.4.7.tar.gz
+[2023-04-17 10:00:34] INFO root fetch - processPackages [docx-word-instance-generator]: Downloading https://files.pythonhosted.org/packages/d0/5b/22e0357652accc04cd7acb3bbcdd125fd22f4a5076334a52d4a544e73323/docx_word_instance_generator-0.7.0-py3-none-any.whl
+[2023-04-17 10:00:34] INFO root fetch - processPackages [flgo]: executing diffoscope
+[2023-04-17 10:00:34] INFO root fetch - processPackages [flgo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flgo-0.0.7.tar.gz tmp/flgo-0.0.8.tar.gz --markdown 20230417/f/flgo/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-17 10:00:34] INFO root fetch - processPackages [antchain-yuqing]: Downloading https://files.pythonhosted.org/packages/ac/ee/8ae53fd11804fcc4d4ff80abc9aed0db800083d5c1a70f84485631fb348d/antchain_yuqing-1.1.9.tar.gz
+[2023-04-17 10:00:34] INFO root fetch - processPackages [goastpy]: Downloading https://files.pythonhosted.org/packages/d2/16/ed7ff941268159ca7d5049fb0a5ffcb0918bf6943e52deff301f31593ccb/goastpy-0.1.3.tar.gz
+[2023-04-17 10:00:34] INFO root fetch - processPackages [jsepp]: Downloading https://files.pythonhosted.org/packages/ac/86/3dedcc137a2aae412a555b9507919029762b1d42ef5ae21411d085a5742f/jsepp-0.1.tar.gz
+[2023-04-17 10:00:34] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/60/71/9b72889b3c7332a59846bf0e7b5e5c4877a20e27ab1732c5388e61ba67d2/cg-27.3.2.tar.gz
+[2023-04-17 10:00:34] INFO root fetch - processPackages [NikeCA]: Downloading https://files.pythonhosted.org/packages/b2/84/bf87e18aec554c341ee711a1a06b0962193952a30437eccd42babfeb8bfd/NikeCA-0.1.56.tar.gz
+[2023-04-17 10:00:34] INFO root fetch - processPackages [xj-thread]: Downloading https://files.pythonhosted.org/packages/d0/40/892813003a2b082a6e0c2667824534711f1cf8fdfc940df20ba978459e48/xj_thread-1.2.98.tar.gz
+[2023-04-17 10:00:34] INFO root fetch - processPackages [goastpy]: executing diffoscope
+[2023-04-17 10:00:34] INFO root fetch - processPackages [goastpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goastpy-0.1.1.tar.gz tmp/goastpy-0.1.3.tar.gz --markdown 20230417/g/goastpy/0.1.1-0.1.3/diff.md --exclude *.pyd
+[2023-04-17 10:00:34] INFO root fetch - processPackages [NikeCA]: executing diffoscope
+[2023-04-17 10:00:34] INFO root fetch - processPackages [NikeCA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NikeCA-0.1.55.tar.gz tmp/NikeCA-0.1.56.tar.gz --markdown 20230417/N/NikeCA/0.1.55-0.1.56/diff.md --exclude *.pyd
+[2023-04-17 10:00:34] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-04-17 10:00:34] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-27.3.1.tar.gz tmp/cg-27.3.2.tar.gz --markdown 20230417/c/cg/27.3.1-27.3.2/diff.md --exclude *.pyd
+[2023-04-17 10:00:34] INFO root fetch - processPackages [antchain-yuqing]: Downloading https://files.pythonhosted.org/packages/c7/04/5b4a4fb4a81ba69662a2593c4afd20e16b1447e9fdbaad35d673aab45f21/antchain_yuqing-1.2.3.tar.gz
+[2023-04-17 10:00:34] INFO root fetch - processPackages [docx-word-instance-generator]: Downloading https://files.pythonhosted.org/packages/10/1f/66e70bfc3b97a0d8f96c55c1711a1f3fe4d839bd98108c0afc2e2bde43dc/docx_word_instance_generator-0.8.0-py3-none-any.whl
+[2023-04-17 10:00:34] INFO root fetch - processPackages [meerkat-ml]: Downloading https://files.pythonhosted.org/packages/fd/f4/294748f5496e17dc30f6ad18f720ebfacab589c26d5da45c8a358ab70473/meerkat-ml-0.4.8.tar.gz
+[2023-04-17 10:00:34] INFO root fetch - processPackages [jsepp]: Downloading https://files.pythonhosted.org/packages/87/2d/0ff371198a6f172a9282f92a2179313ca5a3ae76f231072db988084572d0/jsepp-0.1.1.tar.gz
+[2023-04-17 10:00:34] INFO root fetch - processPackages [antchain-yuqing]: executing diffoscope
+[2023-04-17 10:00:34] INFO root fetch - processPackages [antchain-yuqing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_yuqing-1.1.9.tar.gz tmp/antchain_yuqing-1.2.3.tar.gz --markdown 20230417/a/antchain-yuqing/1.1.9-1.2.3/diff.md --exclude *.pyd
+[2023-04-17 10:00:34] INFO root fetch - processPackages [docx-word-instance-generator]: executing diffoscope
+[2023-04-17 10:00:34] INFO root fetch - processPackages [docx-word-instance-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docx_word_instance_generator-0.7.0-py3-none-any.whl.zip tmp/docx_word_instance_generator-0.8.0-py3-none-any.whl.zip --markdown 20230417/d/docx-word-instance-generator/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-04-17 10:00:34] INFO root fetch - processPackages [jsepp]: executing diffoscope
+[2023-04-17 10:00:34] INFO root fetch - processPackages [jsepp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsepp-0.1.tar.gz tmp/jsepp-0.1.1.tar.gz --markdown 20230417/j/jsepp/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-04-17 10:00:34] INFO root fetch - processPackages [meerkat-ml]: executing diffoscope
+[2023-04-17 10:00:34] INFO root fetch - processPackages [meerkat-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meerkat-ml-0.4.7.tar.gz tmp/meerkat-ml-0.4.8.tar.gz --markdown 20230417/m/meerkat-ml/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2023-04-17 10:00:34] INFO root fetch - processPackages [xj-thread]: Downloading https://files.pythonhosted.org/packages/fc/75/4ed5778921ea61c4cdd8fe2c5f8b0a37873dc9cc5b9f507a3240f0380e69/xj_thread-1.2.99.tar.gz
+[2023-04-17 10:00:34] INFO root fetch - processPackages [xj-thread]: executing diffoscope
+[2023-04-17 10:00:34] INFO root fetch - processPackages [xj-thread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_thread-1.2.98.tar.gz tmp/xj_thread-1.2.99.tar.gz --markdown 20230417/x/xj-thread/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-04-17 10:00:35] INFO root fetch - processPackages [goastpy]: Start processing: RepRepBuild
+[2023-04-17 10:00:35] INFO root fetch - main [MainThread]: End processing [goastpy]: success
+[2023-04-17 10:00:35] INFO root fetch - processPackages [RepRepBuild]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-04-17 10:00:35] INFO root fetch - processPackages [RepRepBuild]: Downloading https://files.pythonhosted.org/packages/36/fe/d3b3a3aff8cdac1ac193075fdecf66c0bb28b6d1f403dc2df17a06a56a8d/RepRepBuild-0.6.0.tar.gz
+[2023-04-17 10:00:35] INFO root fetch - processPackages [docx-word-instance-generator]: Start processing: eml-rename
+[2023-04-17 10:00:35] INFO root fetch - main [MainThread]: End processing [docx-word-instance-generator]: success
+[2023-04-17 10:00:36] INFO root fetch - processPackages [eml-rename]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-04-17 10:00:36] INFO root fetch - processPackages [RepRepBuild]: Downloading https://files.pythonhosted.org/packages/49/9f/68d709caf8e47c165b84bcf43b8ac6d8964d15bf9cca0b6838b3bbb3d762/RepRepBuild-0.7.0.tar.gz
+[2023-04-17 10:00:36] INFO root fetch - processPackages [antchain-yuqing]: Start processing: chalkpy
+[2023-04-17 10:00:36] INFO root fetch - main [MainThread]: End processing [antchain-yuqing]: success
+[2023-04-17 10:00:36] INFO root fetch - processPackages [chalkpy]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-04-17 10:00:36] INFO root fetch - main [MainThread]: End processing [jsepp]: success
+[2023-04-17 10:00:36] INFO root fetch - processPackages [RepRepBuild]: executing diffoscope
+[2023-04-17 10:00:36] INFO root fetch - processPackages [RepRepBuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RepRepBuild-0.6.0.tar.gz tmp/RepRepBuild-0.7.0.tar.gz --markdown 20230417/R/RepRepBuild/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-04-17 10:00:36] INFO root fetch - processPackages [eml-rename]: Downloading https://files.pythonhosted.org/packages/df/2c/a795c7266ea0fee0ef226afc3647e560bc189c432a70bfc96b8ee673a989/eml_rename-0.2.0.tar.gz
+[2023-04-17 10:00:36] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-04-17 10:00:36] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-1.9.8.tar.gz tmp/chalkpy-1.9.9.tar.gz --markdown 20230417/c/chalkpy/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-04-17 10:00:36] INFO root fetch - main [MainThread]: End processing [flgo]: success
+[2023-04-17 10:00:36] INFO root fetch - processPackages [eml-rename]: Downloading https://files.pythonhosted.org/packages/3b/d2/e739f20c4b26bc323f2cd7b658ab91a42902377b821aa82ec1e469a6f4b1/eml_rename-0.3.0.tar.gz
+[2023-04-17 10:00:36] INFO root fetch - main [MainThread]: End processing [NikeCA]: success
+[2023-04-17 10:00:36] INFO root fetch - processPackages [eml-rename]: executing diffoscope
+[2023-04-17 10:00:36] INFO root fetch - processPackages [eml-rename]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eml_rename-0.2.0.tar.gz tmp/eml_rename-0.3.0.tar.gz --markdown 20230417/e/eml-rename/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-04-17 10:00:37] INFO root fetch - main [MainThread]: End processing [xj-thread]: success
+[2023-04-17 10:00:37] INFO root fetch - main [MainThread]: End processing [RepRepBuild]: success
+[2023-04-17 10:00:37] INFO root fetch - main [MainThread]: End processing [eml-rename]: success
+[2023-04-17 10:00:43] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-04-17 10:00:44] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-04-17 10:00:46] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-04-17 10:01:14] INFO root fetch - main [MainThread]: End processing [meerkat-ml]: success
+[2023-04-17 10:01:14] INFO root fetch - main [MainThread]: Store serial: [17735203]
