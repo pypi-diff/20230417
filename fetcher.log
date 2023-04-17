@@ -11730,3 +11730,85 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-04-17 13:52:26] INFO root fetch - main [MainThread]: End processing [Mongeasy]: success
 [2023-04-17 13:52:27] INFO root fetch - main [MainThread]: End processing [eis1600]: success
 [2023-04-17 13:52:27] INFO root fetch - main [MainThread]: Store serial: [17737664]
+[2023-04-17 13:57:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17737664]
+[2023-04-17 13:57:35] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-17 13:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torcheval-nightly
+[2023-04-17 13:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-auth-ldaps
+[2023-04-17 13:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: foursight-core
+[2023-04-17 13:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fastapi-allauth
+[2023-04-17 13:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rollbar
+[2023-04-17 13:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: junifer
+[2023-04-17 13:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: skip-django-pynotify
+[2023-04-17 13:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: satori-ci
+[2023-04-17 13:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: djform-navigation
+[2023-04-17 13:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: flaxsr
+[2023-04-17 13:57:36] INFO root fetch - processPackages [flaxsr]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-17 13:57:36] INFO root fetch - processPackages [satori-ci]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-04-17 13:57:36] INFO root fetch - processPackages [odoo-addon-auth-ldaps]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.0.5]
+[2023-04-17 13:57:36] INFO root fetch - processPackages [skip-django-pynotify]: New version: [0.5.5.2] Old Version: [0.5.5.1]
+[2023-04-17 13:57:36] INFO root fetch - processPackages [flaxsr]: executing diffoscope
+[2023-04-17 13:57:36] INFO root fetch - processPackages [junifer]: New version: [0.0.3.dev36] Old Version: [0.0.2.dev86]
+[2023-04-17 13:57:36] INFO root fetch - processPackages [flaxsr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flaxsr-0.0.1-py3-none-any.whl.zip tmp/flaxsr-0.0.2-py3-none-any.whl.zip --markdown 20230417/f/flaxsr/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-17 13:57:36] INFO root fetch - processPackages [fastapi-allauth]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-17 13:57:36] WARNING root fetch - processPackages [djform-navigation]: Skipping, unable to determine old version
+[2023-04-17 13:57:36] INFO root fetch - processPackages [djform-navigation]: Start processing: aiooss2
+[2023-04-17 13:57:36] INFO root fetch - main [MainThread]: End processing [djform-navigation] error
+[2023-04-17 13:57:36] INFO root fetch - processPackages [rollbar]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-17 13:57:36] INFO root fetch - processPackages [torcheval-nightly]: New version: [2023.4.9] Old Version: [2023.4.8]
+[2023-04-17 13:57:36] INFO root fetch - processPackages [foursight-core]: New version: [4.1.0.1b0] Old Version: [3.3.2.2b1]
+[2023-04-17 13:57:36] INFO root fetch - processPackages [aiooss2]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-04-17 13:57:36] INFO root fetch - processPackages [satori-ci]: executing diffoscope
+[2023-04-17 13:57:36] INFO root fetch - processPackages [satori-ci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satori-ci-1.1.8.tar.gz tmp/satori-ci-1.1.9.tar.gz --markdown 20230417/s/satori-ci/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-04-17 13:57:36] INFO root fetch - processPackages [odoo-addon-auth-ldaps]: Downloading https://files.pythonhosted.org/packages/fb/a2/5d4ffb4507c0f0427847ca4ae5d2f89f85ae645d30893c19f0ec783f99f8/odoo_addon_auth_ldaps-15.0.1.0.0.5-py3-none-any.whl
+[2023-04-17 13:57:36] INFO root fetch - processPackages [foursight-core]: Downloading https://files.pythonhosted.org/packages/3c/0f/e3916e1b7ba2c389c69c20f734ab97f46679f90235fed375eb5dd4b2b7e8/foursight_core-3.3.2.2b1.tar.gz
+[2023-04-17 13:57:36] INFO root fetch - processPackages [skip-django-pynotify]: Downloading https://files.pythonhosted.org/packages/33/7f/f0368459de989a171ae8f5d3c13ce8030ddc1644d6d46f253edd67fca31d/skip-django-pynotify-0.5.5.1.tar.gz
+[2023-04-17 13:57:36] INFO root fetch - processPackages [fastapi-allauth]: Downloading https://files.pythonhosted.org/packages/f9/2e/11ab6da1edcf1fb7fe4cf25fda51d694b54d2e34cc17d480616961824e58/fastapi_allauth-0.1.1.tar.gz
+[2023-04-17 13:57:36] INFO root fetch - processPackages [junifer]: Downloading https://files.pythonhosted.org/packages/27/66/f114c85ac5a85111c4acd4d50de05704776119bae87236b72f38720bf2b5/junifer-0.0.2.dev86.tar.gz
+[2023-04-17 13:57:36] INFO root fetch - processPackages [rollbar]: Downloading https://files.pythonhosted.org/packages/7e/da/decda73ba5252b3f1c2fa52bc7b39ceab6e9e8fbee4c5506549e27ebc8b3/rollbar-0.9.8.tar.gz
+[2023-04-17 13:57:36] INFO root fetch - processPackages [torcheval-nightly]: Downloading https://files.pythonhosted.org/packages/44/be/a283c44aa9eaf91ce683ac99ff1b1502b0cf7fa92f7870fd6d2bf0e67607/torcheval-nightly-2023.4.9.tar.gz
+[2023-04-17 13:57:36] INFO root fetch - processPackages [fastapi-allauth]: Downloading https://files.pythonhosted.org/packages/1e/31/62dfa021d7d4f097ce1c35bed620256d55d25f959d5c7687aa62cadb269b/fastapi_allauth-0.1.2-py3-none-any.whl
+[2023-04-17 13:57:36] INFO root fetch - processPackages [skip-django-pynotify]: Downloading https://files.pythonhosted.org/packages/14/ee/077ee597efeb0626e469025b0326a7d5bf5f1ad6a7129fbe56eb4ecc1391/skip-django-pynotify-0.5.5.2.tar.gz
+[2023-04-17 13:57:36] INFO root fetch - processPackages [aiooss2]: Downloading https://files.pythonhosted.org/packages/a7/e8/28994262c4fb5e79720a3051e67cce609684f2127e586314bc5e89d0bd41/aiooss2-0.2.5.tar.gz
+[2023-04-17 13:57:36] INFO root fetch - processPackages [odoo-addon-auth-ldaps]: Downloading https://files.pythonhosted.org/packages/5a/da/f97ffc727a2624d2f648a7b0fd7054ddea7aea5dea020ad8b41c63b8a7f7/odoo_addon_auth_ldaps-16.0.1.0.0.2-py3-none-any.whl
+[2023-04-17 13:57:36] INFO root fetch - processPackages [torcheval-nightly]: executing diffoscope
+[2023-04-17 13:57:36] INFO root fetch - processPackages [torcheval-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torcheval-nightly-2023.4.8.tar.gz tmp/torcheval-nightly-2023.4.9.tar.gz --markdown 20230417/t/torcheval-nightly/2023.4.8-2023.4.9/diff.md --exclude *.pyd
+[2023-04-17 13:57:36] INFO root fetch - processPackages [foursight-core]: Downloading https://files.pythonhosted.org/packages/51/28/65c34e97ab3eb33927c4549d4b5dd6e68002d029a034178edc84d57c11b0/foursight_core-4.1.0.1b0.tar.gz
+[2023-04-17 13:57:36] INFO root fetch - processPackages [junifer]: Downloading https://files.pythonhosted.org/packages/28/3a/b17dfc577930c754a46104b9d3e1678aab7fd879eb6dffac2cffbfbf2ddc/junifer-0.0.3.dev36.tar.gz
+[2023-04-17 13:57:36] INFO root fetch - processPackages [rollbar]: Downloading https://files.pythonhosted.org/packages/3b/9f/654f59eb8d931e603e35a4d605b767dc36de9fbbc1a099f16e9eb9c306d6/rollbar-0.9.9.tar.gz
+[2023-04-17 13:57:36] INFO root fetch - processPackages [fastapi-allauth]: executing diffoscope
+[2023-04-17 13:57:36] INFO root fetch - processPackages [fastapi-allauth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_allauth-0.1.1.tar.gz tmp/fastapi_allauth-0.1.2-py3-none-any.whl.zip --markdown 20230417/f/fastapi-allauth/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-17 13:57:36] INFO root fetch - processPackages [aiooss2]: executing diffoscope
+[2023-04-17 13:57:36] INFO root fetch - processPackages [aiooss2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiooss2-0.2.4.tar.gz tmp/aiooss2-0.2.5.tar.gz --markdown 20230417/a/aiooss2/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-04-17 13:57:36] INFO root fetch - processPackages [skip-django-pynotify]: executing diffoscope
+[2023-04-17 13:57:36] INFO root fetch - processPackages [skip-django-pynotify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skip-django-pynotify-0.5.5.1.tar.gz tmp/skip-django-pynotify-0.5.5.2.tar.gz --markdown 20230417/s/skip-django-pynotify/0.5.5.1-0.5.5.2/diff.md --exclude *.pyd
+[2023-04-17 13:57:36] INFO root fetch - processPackages [odoo-addon-auth-ldaps]: executing diffoscope
+[2023-04-17 13:57:36] INFO root fetch - processPackages [odoo-addon-auth-ldaps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_auth_ldaps-15.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_auth_ldaps-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230417/o/odoo-addon-auth-ldaps/15.0.1.0.0.5-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-04-17 13:57:37] INFO root fetch - processPackages [foursight-core]: executing diffoscope
+[2023-04-17 13:57:37] INFO root fetch - processPackages [foursight-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight_core-3.3.2.2b1.tar.gz tmp/foursight_core-4.1.0.1b0.tar.gz --markdown 20230417/f/foursight-core/3.3.2.2b1-4.1.0.1b0/diff.md --exclude *.pyd
+[2023-04-17 13:57:37] INFO root fetch - processPackages [rollbar]: executing diffoscope
+[2023-04-17 13:57:37] INFO root fetch - processPackages [rollbar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rollbar-0.9.8.tar.gz tmp/rollbar-0.9.9.tar.gz --markdown 20230417/r/rollbar/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-17 13:57:37] INFO root fetch - processPackages [junifer]: executing diffoscope
+[2023-04-17 13:57:37] INFO root fetch - processPackages [junifer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/junifer-0.0.2.dev86.tar.gz tmp/junifer-0.0.3.dev36.tar.gz --markdown 20230417/j/junifer/0.0.2.dev86-0.0.3.dev36/diff.md --exclude *.pyd
+[2023-04-17 13:57:37] INFO root fetch - processPackages [satori-ci]: Start processing: Mongeasy
+[2023-04-17 13:57:37] INFO root fetch - main [MainThread]: End processing [satori-ci]: success
+[2023-04-17 13:57:37] INFO root fetch - processPackages [Mongeasy]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-17 13:57:37] INFO root fetch - processPackages [flaxsr]: Start processing: fragmentstein
+[2023-04-17 13:57:37] INFO root fetch - main [MainThread]: End processing [flaxsr]: success
+[2023-04-17 13:57:37] WARNING root fetch - processPackages [fragmentstein]: Skipping, unable to determine old version
+[2023-04-17 13:57:37] INFO root fetch - processPackages [fragmentstein]: Start processing: CurrenTime
+[2023-04-17 13:57:37] INFO root fetch - main [MainThread]: End processing [fragmentstein] error
+[2023-04-17 13:57:38] WARNING root fetch - processPackages [CurrenTime]: Skipping, unable to determine old version
+[2023-04-17 13:57:38] INFO root fetch - main [MainThread]: End processing [CurrenTime] error
+[2023-04-17 13:57:38] INFO root fetch - processPackages [Mongeasy]: Downloading https://files.pythonhosted.org/packages/b7/f3/877bdf4d9a6df635745b441da9d39870d8e1706a21f840845591d53fcf40/Mongeasy-0.1.3.tar.gz
+[2023-04-17 13:57:38] INFO root fetch - processPackages [Mongeasy]: executing diffoscope
+[2023-04-17 13:57:38] INFO root fetch - processPackages [Mongeasy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Mongeasy-0.1.2.tar.gz tmp/Mongeasy-0.1.3.tar.gz --markdown 20230417/M/Mongeasy/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-17 13:57:38] INFO root fetch - main [MainThread]: End processing [fastapi-allauth]: success
+[2023-04-17 13:57:38] INFO root fetch - main [MainThread]: End processing [rollbar]: success
+[2023-04-17 13:57:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-auth-ldaps]: success
+[2023-04-17 13:57:38] INFO root fetch - main [MainThread]: End processing [skip-django-pynotify]: success
+[2023-04-17 13:57:39] INFO root fetch - main [MainThread]: End processing [aiooss2]: success
+[2023-04-17 13:57:39] INFO root fetch - main [MainThread]: End processing [Mongeasy]: success
+[2023-04-17 13:57:40] INFO root fetch - main [MainThread]: End processing [torcheval-nightly]: success
+[2023-04-17 13:57:40] INFO root fetch - main [MainThread]: End processing [junifer]: success
+[2023-04-17 13:57:58] INFO root fetch - main [MainThread]: End processing [foursight-core]: success
+[2023-04-17 13:57:58] INFO root fetch - main [MainThread]: Store serial: [17737707]
