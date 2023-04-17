@@ -14613,3 +14613,161 @@ EOFError: EOF read where object expected
 [2023-04-17 16:06:37] INFO root fetch - main [MainThread]: End processing [alfred-py]: success
 [2023-04-17 16:06:53] INFO root fetch - main [MainThread]: End processing [localcosmos-server]: success
 [2023-04-17 16:06:53] INFO root fetch - main [MainThread]: Store serial: [17739348]
+[2023-04-17 16:11:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17739348]
+[2023-04-17 16:12:03] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-04-17 16:12:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kiwitcms-github-marketplace
+[2023-04-17 16:12:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cmip-metric
+[2023-04-17 16:12:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: actiapi
+[2023-04-17 16:12:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: docker-compose-all
+[2023-04-17 16:12:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: newsworthycharts
+[2023-04-17 16:12:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: astropalmerio
+[2023-04-17 16:12:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flask-fd
+[2023-04-17 16:12:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sambaflux
+[2023-04-17 16:12:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: digicloud
+[2023-04-17 16:12:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lightningdata-modules
+[2023-04-17 16:12:03] INFO root fetch - processPackages [newsworthycharts]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-04-17 16:12:03] INFO root fetch - processPackages [flask-fd]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-04-17 16:12:03] INFO root fetch - processPackages [cmip-metric]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-17 16:12:03] INFO root fetch - processPackages [kiwitcms-github-marketplace]: New version: [2.3.1] Old Version: [2.3.0]
+[2023-04-17 16:12:03] INFO root fetch - processPackages [docker-compose-all]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-04-17 16:12:03] INFO root fetch - processPackages [sambaflux]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-17 16:12:03] INFO root fetch - processPackages [digicloud]: New version: [2.5.9] Old Version: [2.5.8]
+[2023-04-17 16:12:03] INFO root fetch - processPackages [astropalmerio]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-17 16:12:03] INFO root fetch - processPackages [lightningdata-modules]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-17 16:12:03] INFO root fetch - processPackages [newsworthycharts]: executing diffoscope
+[2023-04-17 16:12:03] INFO root fetch - processPackages [actiapi]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-04-17 16:12:03] INFO root fetch - processPackages [newsworthycharts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/newsworthycharts-1.9.1.tar.gz tmp/newsworthycharts-1.9.2.tar.gz --markdown 20230417/n/newsworthycharts/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-04-17 16:12:03] INFO root fetch - processPackages [flask-fd]: Downloading https://files.pythonhosted.org/packages/68/10/b9a1cfe38e30cb53930a12ba5f3f6d855fed3726ed92ee4b81073d37790d/flask-fd-1.0.5.tar.gz
+[2023-04-17 16:12:03] INFO root fetch - processPackages [cmip-metric]: Downloading https://files.pythonhosted.org/packages/a7/f9/0753c7bf5960e1ff962152a893f60204aacde30544f15126c43efe039c8c/cmip_metric-0.1.0.tar.gz
+[2023-04-17 16:12:03] INFO root fetch - processPackages [digicloud]: Downloading https://files.pythonhosted.org/packages/90/3b/189f9304554d3f3f82eb788d2aad26bd1b21b158bf1d90d9b99eb0874f83/digicloud-2.5.8.tar.gz
+[2023-04-17 16:12:03] INFO root fetch - processPackages [sambaflux]: Downloading https://files.pythonhosted.org/packages/63/72/84dd002324c605073cf391666bf5b115811a614f3c4472e804ee75531497/sambaflux-0.1.5.tar.gz
+[2023-04-17 16:12:03] INFO root fetch - processPackages [astropalmerio]: Downloading https://files.pythonhosted.org/packages/cc/39/67e429e0366c599c58d6ef8418265ad3bf77f276c57860652858cd162b91/astropalmerio-0.1.0.tar.gz
+[2023-04-17 16:12:03] INFO root fetch - processPackages [docker-compose-all]: Downloading https://files.pythonhosted.org/packages/2f/d7/4b7b08b3c78095d307d1c22b9167156e78b3b8c31c4584cdf453c74d21e3/docker-compose-all-0.2.0.tar.gz
+[2023-04-17 16:12:03] INFO root fetch - processPackages [actiapi]: Downloading https://files.pythonhosted.org/packages/2d/f3/7cad72ed5dbfa8402976f867100283cd54d6baa910932ac1c480fa57c99b/actiapi-0.2.0.tar.gz
+[2023-04-17 16:12:03] INFO root fetch - processPackages [lightningdata-modules]: Downloading https://files.pythonhosted.org/packages/e8/84/cfefc51393d45523f5454a287f05c7cb78cfcbca58341a8cf7eab78205b2/lightningdata-modules-0.1.5.tar.gz
+[2023-04-17 16:12:03] INFO root fetch - processPackages [kiwitcms-github-marketplace]: Downloading https://files.pythonhosted.org/packages/f0/c0/f08bfeba713afc75e5afc5ea3663ad693f1d45db55e3fe509383aaa98d06/kiwitcms-github-marketplace-2.3.1.tar.gz
+[2023-04-17 16:12:03] INFO root fetch - processPackages [flask-fd]: executing diffoscope
+[2023-04-17 16:12:03] INFO root fetch - processPackages [flask-fd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask-fd-1.0.4.tar.gz tmp/flask-fd-1.0.5.tar.gz --markdown 20230417/f/flask-fd/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-04-17 16:12:03] INFO root fetch - processPackages [sambaflux]: Downloading https://files.pythonhosted.org/packages/5d/71/d268ff340bb56ecfd30a5ca44c1d68e559c1009360e38d4af22ded5419fd/sambaflux-0.1.6.tar.gz
+[2023-04-17 16:12:03] INFO root fetch - processPackages [actiapi]: Downloading https://files.pythonhosted.org/packages/ea/90/c432c9352aafb6aa1ef90b9a7bee90b5edfbb78586aaa75971c7e4d2439c/actiapi-0.2.1.tar.gz
+[2023-04-17 16:12:03] INFO root fetch - processPackages [lightningdata-modules]: Downloading https://files.pythonhosted.org/packages/1f/ad/40ad98e19d8281607e50865d64aaeb42a1b30d680c35e4b263e03bb91e29/lightningdata-modules-0.1.6.tar.gz
+[2023-04-17 16:12:03] INFO root fetch - processPackages [cmip-metric]: Downloading https://files.pythonhosted.org/packages/1b/7f/1d34489da77841064256963435f9c896180126ddd2c4ceae049ab43d74bb/cmip_metric-0.1.1.tar.gz
+[2023-04-17 16:12:03] INFO root fetch - processPackages [docker-compose-all]: Downloading https://files.pythonhosted.org/packages/65/02/3da8c8253940cbaa1050339462e1338cf18282b82da8f3e4b3c041c0a2bc/docker-compose-all-0.2.1.tar.gz
+[2023-04-17 16:12:03] INFO root fetch - processPackages [kiwitcms-github-marketplace]: executing diffoscope
+[2023-04-17 16:12:03] INFO root fetch - processPackages [kiwitcms-github-marketplace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiwitcms-github-marketplace-2.3.0.tar.gz tmp/kiwitcms-github-marketplace-2.3.1.tar.gz --markdown 20230417/k/kiwitcms-github-marketplace/2.3.0-2.3.1/diff.md --exclude *.pyd
+[2023-04-17 16:12:03] INFO root fetch - processPackages [astropalmerio]: Downloading https://files.pythonhosted.org/packages/1d/43/93c199a9f9a558ac686acd1c24146b22717562feda8831245fcb33f607e2/astropalmerio-0.1.1.tar.gz
+[2023-04-17 16:12:04] INFO root fetch - processPackages [sambaflux]: executing diffoscope
+[2023-04-17 16:12:04] INFO root fetch - processPackages [sambaflux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sambaflux-0.1.5.tar.gz tmp/sambaflux-0.1.6.tar.gz --markdown 20230417/s/sambaflux/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-17 16:12:04] INFO root fetch - processPackages [actiapi]: executing diffoscope
+[2023-04-17 16:12:04] INFO root fetch - processPackages [actiapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/actiapi-0.2.0.tar.gz tmp/actiapi-0.2.1.tar.gz --markdown 20230417/a/actiapi/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-04-17 16:12:04] INFO root fetch - processPackages [lightningdata-modules]: executing diffoscope
+[2023-04-17 16:12:04] INFO root fetch - processPackages [lightningdata-modules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightningdata-modules-0.1.5.tar.gz tmp/lightningdata-modules-0.1.6.tar.gz --markdown 20230417/l/lightningdata-modules/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-17 16:12:04] INFO root fetch - processPackages [cmip-metric]: executing diffoscope
+[2023-04-17 16:12:04] INFO root fetch - processPackages [cmip-metric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmip_metric-0.1.0.tar.gz tmp/cmip_metric-0.1.1.tar.gz --markdown 20230417/c/cmip-metric/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-17 16:12:04] INFO root fetch - processPackages [docker-compose-all]: executing diffoscope
+[2023-04-17 16:12:04] INFO root fetch - processPackages [docker-compose-all]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docker-compose-all-0.2.0.tar.gz tmp/docker-compose-all-0.2.1.tar.gz --markdown 20230417/d/docker-compose-all/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-04-17 16:12:04] INFO root fetch - processPackages [astropalmerio]: executing diffoscope
+[2023-04-17 16:12:04] INFO root fetch - processPackages [astropalmerio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astropalmerio-0.1.0.tar.gz tmp/astropalmerio-0.1.1.tar.gz --markdown 20230417/a/astropalmerio/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-17 16:12:04] INFO root fetch - processPackages [digicloud]: Downloading https://files.pythonhosted.org/packages/03/e4/b2beb116721a47863cdc3dde8fd85d91ae7fc8c7a30a2ae5ceda21a1252d/digicloud-2.5.9.tar.gz
+[2023-04-17 16:12:04] INFO root fetch - processPackages [digicloud]: executing diffoscope
+[2023-04-17 16:12:04] INFO root fetch - processPackages [digicloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digicloud-2.5.8.tar.gz tmp/digicloud-2.5.9.tar.gz --markdown 20230417/d/digicloud/2.5.8-2.5.9/diff.md --exclude *.pyd
+[2023-04-17 16:12:04] INFO root fetch - processPackages [newsworthycharts]: Start processing: testdontdownloadthis
+[2023-04-17 16:12:04] INFO root fetch - main [MainThread]: End processing [newsworthycharts]: success
+[2023-04-17 16:12:05] WARNING root fetch - processPackages [testdontdownloadthis]: Skipping, unable to determine old version
+[2023-04-17 16:12:05] INFO root fetch - processPackages [testdontdownloadthis]: Start processing: coiled
+[2023-04-17 16:12:05] INFO root fetch - main [MainThread]: End processing [testdontdownloadthis] error
+[2023-04-17 16:12:05] INFO root fetch - processPackages [coiled]: New version: [0.5.9.post0.dev8] Old Version: [0.5.9.post0.dev7]
+[2023-04-17 16:12:05] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-04-17 16:12:05] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.5.9.post0.dev7.tar.gz tmp/coiled-0.5.9.post0.dev8.tar.gz --markdown 20230417/c/coiled/0.5.9.post0.dev7-0.5.9.post0.dev8/diff.md --exclude *.pyd
+[2023-04-17 16:12:05] INFO root fetch - processPackages [flask-fd]: Start processing: dissect.target
+[2023-04-17 16:12:05] INFO root fetch - main [MainThread]: End processing [flask-fd]: success
+[2023-04-17 16:12:05] INFO root fetch - processPackages [dissect.target]: New version: [3.9.dev9] Old Version: [3.9.dev8]
+[2023-04-17 16:12:05] INFO root fetch - processPackages [kiwitcms-github-marketplace]: Start processing: fenjing
+[2023-04-17 16:12:05] INFO root fetch - main [MainThread]: End processing [kiwitcms-github-marketplace]: success
+[2023-04-17 16:12:05] INFO root fetch - processPackages [fenjing]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-17 16:12:05] INFO root fetch - processPackages [actiapi]: Start processing: auraboros
+[2023-04-17 16:12:05] INFO root fetch - main [MainThread]: End processing [actiapi]: success
+[2023-04-17 16:12:05] INFO root fetch - processPackages [cmip-metric]: Start processing: gocli
+[2023-04-17 16:12:05] INFO root fetch - main [MainThread]: End processing [cmip-metric]: success
+[2023-04-17 16:12:05] INFO root fetch - processPackages [auraboros]: New version: [0.9.0a0] Old Version: [0.8.0a0]
+[2023-04-17 16:12:05] INFO root fetch - processPackages [dissect.target]: Downloading https://files.pythonhosted.org/packages/b1/a4/24f9ce2eb6a1913b82598a01b68b634c9fe5535a9484bff3d7d56a0ae929/dissect.target-3.9.dev8.tar.gz
+[2023-04-17 16:12:05] INFO root fetch - processPackages [fenjing]: executing diffoscope
+[2023-04-17 16:12:05] INFO root fetch - processPackages [fenjing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fenjing-0.1.5.tar.gz tmp/fenjing-0.1.6.tar.gz --markdown 20230417/f/fenjing/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-17 16:12:05] INFO root fetch - processPackages [sambaflux]: Start processing: mikro
+[2023-04-17 16:12:05] INFO root fetch - main [MainThread]: End processing [sambaflux]: success
+[2023-04-17 16:12:05] INFO root fetch - processPackages [gocli]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-17 16:12:05] WARNING root fetch - processPackages [dissect.target]: Skipping package: exceeds size limit 63555307>=10485760
+[2023-04-17 16:12:05] INFO root fetch - processPackages [dissect.target]: Start processing: edwh
+[2023-04-17 16:12:05] INFO root fetch - main [MainThread]: End processing [dissect.target] error
+[2023-04-17 16:12:06] INFO root fetch - processPackages [auraboros]: Downloading https://files.pythonhosted.org/packages/26/c6/fdb1e26e6869e20c65f9d2d4fd966a9f257d9d2d0774194db28fb2f66242/auraboros-0.8.0a0.tar.gz
+[2023-04-17 16:12:06] INFO root fetch - processPackages [edwh]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-04-17 16:12:06] INFO root fetch - processPackages [mikro]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-17 16:12:06] INFO root fetch - processPackages [docker-compose-all]: Start processing: kronbinations
+[2023-04-17 16:12:06] INFO root fetch - main [MainThread]: End processing [docker-compose-all]: success
+[2023-04-17 16:12:06] INFO root fetch - processPackages [gocli]: Downloading https://files.pythonhosted.org/packages/53/15/f267cab4cf00c1387b5a6fc6c9bd8c9a2227942c7f1e2a7bed847cac1c9e/gocli-0.9.8.tar.gz
+[2023-04-17 16:12:06] INFO root fetch - processPackages [kronbinations]: New version: [1.0] Old Version: [0.6]
+[2023-04-17 16:12:06] INFO root fetch - processPackages [edwh]: Downloading https://files.pythonhosted.org/packages/9a/75/673deeb3eedd3f23e128c4fa3954fc3bbb4ef987020b9d7094861af073fa/edwh-0.6.1.tar.gz
+[2023-04-17 16:12:06] INFO root fetch - processPackages [mikro]: Downloading https://files.pythonhosted.org/packages/da/db/ba3f2a6a19c4fe4587c28d1c120e23982141fa95b4e06ebe64308502e82f/mikro-0.3.8.tar.gz
+[2023-04-17 16:12:06] INFO root fetch - processPackages [kronbinations]: Downloading https://files.pythonhosted.org/packages/8b/bb/9d193f14a718a64e2abe71471e6a452d7890e65f2c16198fe712ee4c73f2/kronbinations-0.6.tar.gz
+[2023-04-17 16:12:06] INFO root fetch - processPackages [edwh]: executing diffoscope
+[2023-04-17 16:12:06] INFO root fetch - processPackages [edwh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edwh-0.6.0.tar.gz tmp/edwh-0.6.1.tar.gz --markdown 20230417/e/edwh/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-04-17 16:12:06] INFO root fetch - processPackages [mikro]: Downloading https://files.pythonhosted.org/packages/26/a6/7ee733ac462341b8ca4423365288b9a6988a89d4d02f56e536dd8f8672a7/mikro-0.3.9.tar.gz
+[2023-04-17 16:12:06] INFO root fetch - processPackages [gocli]: Downloading https://files.pythonhosted.org/packages/7d/1b/3a8817c1b6fe071f32022aa89b8dad6ef970a629bb98b8354532f1805a3b/gocli-0.9.9.tar.gz
+[2023-04-17 16:12:06] INFO root fetch - processPackages [lightningdata-modules]: Start processing: oarepo-runtime
+[2023-04-17 16:12:06] INFO root fetch - main [MainThread]: End processing [lightningdata-modules]: success
+[2023-04-17 16:12:06] INFO root fetch - processPackages [kronbinations]: Downloading https://files.pythonhosted.org/packages/c1/e4/0b224024a696341fac055f82061ad3740b3ebb87dc9fc388e50d074d8090/kronbinations-1.0.tar.gz
+[2023-04-17 16:12:06] INFO root fetch - processPackages [mikro]: executing diffoscope
+[2023-04-17 16:12:06] INFO root fetch - processPackages [mikro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mikro-0.3.8.tar.gz tmp/mikro-0.3.9.tar.gz --markdown 20230417/m/mikro/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-17 16:12:06] INFO root fetch - processPackages [oarepo-runtime]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-04-17 16:12:06] INFO root fetch - processPackages [gocli]: executing diffoscope
+[2023-04-17 16:12:06] INFO root fetch - processPackages [gocli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gocli-0.9.8.tar.gz tmp/gocli-0.9.9.tar.gz --markdown 20230417/g/gocli/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-17 16:12:06] INFO root fetch - processPackages [kronbinations]: executing diffoscope
+[2023-04-17 16:12:06] INFO root fetch - processPackages [kronbinations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kronbinations-0.6.tar.gz tmp/kronbinations-1.0.tar.gz --markdown 20230417/k/kronbinations/0.6-1.0/diff.md --exclude *.pyd
+[2023-04-17 16:12:06] INFO root fetch - processPackages [oarepo-runtime]: Downloading https://files.pythonhosted.org/packages/41/14/51493f50f9af6de7498f3f74b164213e2afbd9e3ec763cef6aef183e8691/oarepo-runtime-1.2.8.tar.gz
+[2023-04-17 16:12:07] INFO root fetch - processPackages [astropalmerio]: Start processing: trainyolo-py
+[2023-04-17 16:12:07] INFO root fetch - main [MainThread]: End processing [astropalmerio]: success
+[2023-04-17 16:12:07] INFO root fetch - processPackages [trainyolo-py]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 16:12:07] INFO root fetch - processPackages [trainyolo-py]: executing diffoscope
+[2023-04-17 16:12:07] INFO root fetch - processPackages [trainyolo-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trainyolo-py-0.0.8.tar.gz tmp/trainyolo-py-0.0.9.tar.gz --markdown 20230417/t/trainyolo-py/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 16:12:07] INFO root fetch - processPackages [oarepo-runtime]: Downloading https://files.pythonhosted.org/packages/4f/62/3e8e2e0a8b93184437084b6d1e063f3f668c1d63b8cb6d50a4265d60b92e/oarepo-runtime-1.2.9.tar.gz
+[2023-04-17 16:12:07] INFO root fetch - processPackages [fenjing]: Start processing: napari-sam
+[2023-04-17 16:12:07] INFO root fetch - main [MainThread]: End processing [fenjing]: success
+[2023-04-17 16:12:07] INFO root fetch - processPackages [auraboros]: executing diffoscope
+[2023-04-17 16:12:07] INFO root fetch - processPackages [auraboros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auraboros-0.8.0a0.tar.gz tmp/auraboros-0.9.0a0.tar.gz --markdown 20230417/a/auraboros/0.8.0a0-0.9.0a0/diff.md --exclude *.pyd
+[2023-04-17 16:12:07] INFO root fetch - processPackages [edwh]: Start processing: htbulma
+[2023-04-17 16:12:07] INFO root fetch - main [MainThread]: End processing [edwh]: success
+[2023-04-17 16:12:07] INFO root fetch - processPackages [oarepo-runtime]: executing diffoscope
+[2023-04-17 16:12:07] INFO root fetch - processPackages [oarepo-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-runtime-1.2.8.tar.gz tmp/oarepo-runtime-1.2.9.tar.gz --markdown 20230417/o/oarepo-runtime/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-04-17 16:12:07] INFO root fetch - processPackages [napari-sam]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-04-17 16:12:07] INFO root fetch - processPackages [htbulma]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-04-17 16:12:08] INFO root fetch - processPackages [htbulma]: Downloading https://files.pythonhosted.org/packages/4a/92/6755f5824fcfd2337859a26392bd30e95caa0a6f0a8949e30616c8bbd448/htbulma-0.9.4.tar.gz
+[2023-04-17 16:12:08] INFO root fetch - processPackages [mikro]: Start processing: EModelRunner
+[2023-04-17 16:12:08] INFO root fetch - main [MainThread]: End processing [mikro]: success
+[2023-04-17 16:12:08] INFO root fetch - processPackages [napari-sam]: Downloading https://files.pythonhosted.org/packages/16/df/289df10f64e026971eb163a334b3e13458cf86d8a23ae4cb0aeb2d46f56e/napari-sam-0.3.8.tar.gz
+[2023-04-17 16:12:08] INFO root fetch - processPackages [kronbinations]: Start processing: lupin-danquin
+[2023-04-17 16:12:08] INFO root fetch - main [MainThread]: End processing [kronbinations]: success
+[2023-04-17 16:12:08] INFO root fetch - processPackages [lupin-danquin]: New version: [1.0.2.dev3] Old Version: [1.0.2.dev2]
+[2023-04-17 16:12:08] INFO root fetch - processPackages [EModelRunner]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-04-17 16:12:08] INFO root fetch - processPackages [htbulma]: Downloading https://files.pythonhosted.org/packages/47/87/d70f6b71701bf4637b9b62d56bb2b8262c4773bb685987ec6bb8ac219a77/htbulma-0.9.5.tar.gz
+[2023-04-17 16:12:08] INFO root fetch - processPackages [napari-sam]: executing diffoscope
+[2023-04-17 16:12:08] INFO root fetch - processPackages [napari-sam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-sam-0.3.7.tar.gz tmp/napari-sam-0.3.8.tar.gz --markdown 20230417/n/napari-sam/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-04-17 16:12:08] INFO root fetch - processPackages [EModelRunner]: Downloading https://files.pythonhosted.org/packages/8c/79/e474b5978cdb97eb0b6782c03bc5b66b47359606626598bec9e122d8e68f/EModelRunner-1.1.7.tar.gz
+[2023-04-17 16:12:08] INFO root fetch - processPackages [lupin-danquin]: Downloading https://files.pythonhosted.org/packages/19/7e/868f03f7b5b08426f0c783ad1da0c23c397fc558274399a6aaebd3d71728/lupin-danquin-1.0.2.dev3.tar.gz
+[2023-04-17 16:12:08] INFO root fetch - main [MainThread]: End processing [digicloud]: success
+[2023-04-17 16:12:08] INFO root fetch - processPackages [htbulma]: executing diffoscope
+[2023-04-17 16:12:08] INFO root fetch - processPackages [htbulma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htbulma-0.9.4.tar.gz tmp/htbulma-0.9.5.tar.gz --markdown 20230417/h/htbulma/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-04-17 16:12:08] INFO root fetch - processPackages [lupin-danquin]: executing diffoscope
+[2023-04-17 16:12:08] INFO root fetch - processPackages [lupin-danquin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lupin-danquin-1.0.2.dev2.tar.gz tmp/lupin-danquin-1.0.2.dev3.tar.gz --markdown 20230417/l/lupin-danquin/1.0.2.dev2-1.0.2.dev3/diff.md --exclude *.pyd
+[2023-04-17 16:12:08] INFO root fetch - processPackages [EModelRunner]: Downloading https://files.pythonhosted.org/packages/9d/72/a73be0059677ac21267b7e278445669d1dbbf87faf6df1937edee503f97f/EModelRunner-1.1.8.tar.gz
+[2023-04-17 16:12:08] INFO root fetch - main [MainThread]: End processing [trainyolo-py]: success
+[2023-04-17 16:12:09] INFO root fetch - processPackages [EModelRunner]: executing diffoscope
+[2023-04-17 16:12:09] INFO root fetch - processPackages [EModelRunner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EModelRunner-1.1.7.tar.gz tmp/EModelRunner-1.1.8.tar.gz --markdown 20230417/E/EModelRunner/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-04-17 16:12:09] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-04-17 16:12:09] INFO root fetch - main [MainThread]: End processing [napari-sam]: success
+[2023-04-17 16:12:09] INFO root fetch - main [MainThread]: End processing [lupin-danquin]: success
+[2023-04-17 16:12:10] INFO root fetch - main [MainThread]: End processing [oarepo-runtime]: success
+[2023-04-17 16:12:10] INFO root fetch - main [MainThread]: End processing [gocli]: success
+[2023-04-17 16:12:11] INFO root fetch - main [MainThread]: End processing [htbulma]: success
+[2023-04-17 16:12:11] INFO root fetch - main [MainThread]: End processing [auraboros]: success
+[2023-04-17 16:12:12] INFO root fetch - main [MainThread]: End processing [EModelRunner]: success
+[2023-04-17 16:12:12] INFO root fetch - main [MainThread]: Store serial: [17739426]
