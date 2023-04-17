@@ -18339,3 +18339,169 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 18:49:46] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
 [2023-04-17 18:49:46] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-04-17 18:49:46] INFO root fetch - main [MainThread]: Store serial: [17741584]
+[2023-04-17 18:54:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17741584]
+[2023-04-17 18:54:56] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-04-17 18:54:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: volttron-lib-dnp3-driver
+[2023-04-17 18:54:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: st-ant-menu
+[2023-04-17 18:54:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: recOrder-napari
+[2023-04-17 18:54:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: linesieve
+[2023-04-17 18:54:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: emb-opt
+[2023-04-17 18:54:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: khoj-assistant
+[2023-04-17 18:54:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: arelle-release
+[2023-04-17 18:54:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pymediawikidocker
+[2023-04-17 18:54:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: OctoBot-Commons
+[2023-04-17 18:54:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: alphastats
+[2023-04-17 18:54:56] INFO root fetch - processPackages [st-ant-menu]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-17 18:54:56] INFO root fetch - processPackages [pymediawikidocker]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-17 18:54:56] INFO root fetch - processPackages [khoj-assistant]: New version: [0.6.1.dev5] Old Version: [0.6.1.dev3]
+[2023-04-17 18:54:56] INFO root fetch - processPackages [linesieve]: New version: [1.0b2] Old Version: [1.0b1]
+[2023-04-17 18:54:56] INFO root fetch - processPackages [pymediawikidocker]: executing diffoscope
+[2023-04-17 18:54:56] INFO root fetch - processPackages [pymediawikidocker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymediawikidocker-0.9.8.tar.gz tmp/pymediawikidocker-0.9.9.tar.gz --markdown 20230417/p/pymediawikidocker/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-17 18:54:56] INFO root fetch - processPackages [recOrder-napari]: New version: [0.3.0rc3] Old Version: [0.3.0rc0]
+[2023-04-17 18:54:56] INFO root fetch - processPackages [emb-opt]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-17 18:54:56] INFO root fetch - processPackages [alphastats]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-04-17 18:54:56] INFO root fetch - processPackages [arelle-release]: New version: [2.7.0] Old Version: [2.6.0]
+[2023-04-17 18:54:56] INFO root fetch - processPackages [volttron-lib-dnp3-driver]: New version: [0.1.1a1] Old Version: [0.1.1a0]
+[2023-04-17 18:54:56] INFO root fetch - processPackages [OctoBot-Commons]: New version: [1.8.9] Old Version: [1.8.8]
+[2023-04-17 18:54:56] INFO root fetch - processPackages [st-ant-menu]: Downloading https://files.pythonhosted.org/packages/f5/9d/595e42c0fc3cc7f1814cc849dbd2db8136a95e18dd5aabaf2ef9acaea47b/st_ant_menu-0.0.4-py3-none-any.whl
+[2023-04-17 18:54:56] INFO root fetch - processPackages [linesieve]: Downloading https://files.pythonhosted.org/packages/1a/83/720d99cbba01570616e327bcee850e5d64a4206e30d6159672640f42d378/linesieve-1.0b1.tar.gz
+[2023-04-17 18:54:56] INFO root fetch - processPackages [emb-opt]: Downloading https://files.pythonhosted.org/packages/f5/14/cb7126f9ffb9751a1ac4890c5ba324dbac533bf729e3835f0fde5401e87e/emb_opt-0.0.1.tar.gz
+[2023-04-17 18:54:56] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2023-04-17 18:54:56] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-0.6.1.dev3.tar.gz tmp/khoj_assistant-0.6.1.dev5.tar.gz --markdown 20230417/k/khoj-assistant/0.6.1.dev3-0.6.1.dev5/diff.md --exclude *.pyd
+[2023-04-17 18:54:56] INFO root fetch - processPackages [volttron-lib-dnp3-driver]: Downloading https://files.pythonhosted.org/packages/8e/bb/1e4c1b8caa24a6331d03c70ad9fcbc861b7d8ef037d087d405916d83dba2/volttron_lib_dnp3_driver-0.1.1a0.tar.gz
+[2023-04-17 18:54:56] INFO root fetch - processPackages [recOrder-napari]: Downloading https://files.pythonhosted.org/packages/d1/93/e84299af82ef0ed8ef72f09bb930ae97279e4335230cefb5fd37d33fcffd/recOrder-napari-0.3.0rc0.tar.gz
+[2023-04-17 18:54:56] INFO root fetch - processPackages [st-ant-menu]: executing diffoscope
+[2023-04-17 18:54:56] INFO root fetch - processPackages [st-ant-menu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_ant_menu-0.0.3-py3-none-any.whl.zip tmp/st_ant_menu-0.0.4-py3-none-any.whl.zip --markdown 20230417/s/st-ant-menu/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-17 18:54:56] INFO root fetch - processPackages [alphastats]: Downloading https://files.pythonhosted.org/packages/09/f9/4b44b98fb5a681b1b850506f2cff4e0523f25541a9bf5102eefff61f9ae5/alphastats-0.5.2.tar.gz
+[2023-04-17 18:54:56] INFO root fetch - processPackages [arelle-release]: Downloading https://files.pythonhosted.org/packages/ae/b1/cff23efc1fa195cf87a4cc252ad37afb2ba64ce346911a77d5ca3214ecf7/arelle-release-2.7.0.tar.gz
+[2023-04-17 18:54:56] INFO root fetch - processPackages [emb-opt]: Downloading https://files.pythonhosted.org/packages/2a/58/adf0ad6bcca7074391c94c79b3bbedf7eb2acb675b4c8195f31773f811eb/emb_opt-0.0.2.tar.gz
+[2023-04-17 18:54:56] INFO root fetch - processPackages [volttron-lib-dnp3-driver]: Downloading https://files.pythonhosted.org/packages/7b/57/cb47effa65e9715bb6d1a1e6456e476298009d38a2c48895932e0e7a8de8/volttron_lib_dnp3_driver-0.1.1a1.tar.gz
+[2023-04-17 18:54:56] INFO root fetch - processPackages [emb-opt]: executing diffoscope
+[2023-04-17 18:54:56] INFO root fetch - processPackages [emb-opt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emb_opt-0.0.1.tar.gz tmp/emb_opt-0.0.2.tar.gz --markdown 20230417/e/emb-opt/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-17 18:54:56] WARNING root fetch - processPackages [recOrder-napari]: Skipping package: exceeds size limit 10537699>=10485760
+[2023-04-17 18:54:56] INFO root fetch - processPackages [recOrder-napari]: Start processing: pyportfoliopt
+[2023-04-17 18:54:56] INFO root fetch - main [MainThread]: End processing [recOrder-napari] error
+[2023-04-17 18:54:56] INFO root fetch - processPackages [volttron-lib-dnp3-driver]: executing diffoscope
+[2023-04-17 18:54:56] INFO root fetch - processPackages [volttron-lib-dnp3-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volttron_lib_dnp3_driver-0.1.1a0.tar.gz tmp/volttron_lib_dnp3_driver-0.1.1a1.tar.gz --markdown 20230417/v/volttron-lib-dnp3-driver/0.1.1a0-0.1.1a1/diff.md --exclude *.pyd
+[2023-04-17 18:54:56] WARNING root fetch - processPackages [pyportfoliopt]: Skipping, unable to determine old version
+[2023-04-17 18:54:56] INFO root fetch - processPackages [pyportfoliopt]: Start processing: class-filess
+[2023-04-17 18:54:56] INFO root fetch - main [MainThread]: End processing [pyportfoliopt] error
+[2023-04-17 18:54:57] INFO root fetch - processPackages [OctoBot-Commons]: executing diffoscope
+[2023-04-17 18:54:57] INFO root fetch - processPackages [OctoBot-Commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OctoBot-Commons-1.8.8.tar.gz tmp/OctoBot-Commons-1.8.9.tar.gz --markdown 20230417/O/OctoBot-Commons/1.8.8-1.8.9/diff.md --exclude *.pyd
+[2023-04-17 18:54:57] INFO root fetch - processPackages [alphastats]: executing diffoscope
+[2023-04-17 18:54:57] INFO root fetch - processPackages [alphastats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphastats-0.5.1.tar.gz tmp/alphastats-0.5.2.tar.gz --markdown 20230417/a/alphastats/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-04-17 18:54:57] WARNING root fetch - processPackages [class-filess]: Skipping, unable to determine old version
+[2023-04-17 18:54:57] INFO root fetch - processPackages [class-filess]: Start processing: johndeere
+[2023-04-17 18:54:57] INFO root fetch - main [MainThread]: End processing [class-filess] error
+[2023-04-17 18:54:57] INFO root fetch - processPackages [linesieve]: Downloading https://files.pythonhosted.org/packages/cd/0c/a28bbb6fab0a856617867422c469e1876aa5c724654156fbe6fa2593dd24/linesieve-1.0b2.tar.gz
+[2023-04-17 18:54:57] INFO root fetch - processPackages [johndeere]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-17 18:54:57] INFO root fetch - processPackages [linesieve]: executing diffoscope
+[2023-04-17 18:54:57] INFO root fetch - processPackages [linesieve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linesieve-1.0b1.tar.gz tmp/linesieve-1.0b2.tar.gz --markdown 20230417/l/linesieve/1.0b1-1.0b2/diff.md --exclude *.pyd
+[2023-04-17 18:54:57] INFO root fetch - processPackages [johndeere]: Downloading https://files.pythonhosted.org/packages/4f/7b/124f3b7655ad78fe394444b352418396614adf5d8b47a21b58c9ddc896dc/johndeere-0.0.5.tar.gz
+[2023-04-17 18:54:57] INFO root fetch - processPackages [johndeere]: Downloading https://files.pythonhosted.org/packages/05/88/b9818271326e3e73cfb5c8c2946c05340a98b5b708a0182e230dafc06d03/johndeere-0.0.6.tar.gz
+[2023-04-17 18:54:57] INFO root fetch - processPackages [pymediawikidocker]: Start processing: dbl-tempo
+[2023-04-17 18:54:57] INFO root fetch - main [MainThread]: End processing [pymediawikidocker]: success
+[2023-04-17 18:54:57] INFO root fetch - processPackages [dbl-tempo]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-17 18:54:57] INFO root fetch - processPackages [johndeere]: executing diffoscope
+[2023-04-17 18:54:57] INFO root fetch - processPackages [johndeere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/johndeere-0.0.5.tar.gz tmp/johndeere-0.0.6.tar.gz --markdown 20230417/j/johndeere/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-17 18:54:58] INFO root fetch - processPackages [khoj-assistant]: Start processing: OctoBot-Backtesting
+[2023-04-17 18:54:58] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2023-04-17 18:54:58] INFO root fetch - processPackages [dbl-tempo]: Downloading https://files.pythonhosted.org/packages/f5/fc/e96f6ffaf704d55e0aefef6861ff962082fdc836001ef7283dfbd9523af2/dbl_tempo-0.1.8-py3-none-any.whl
+[2023-04-17 18:54:58] INFO root fetch - processPackages [OctoBot-Backtesting]: New version: [1.8.1] Old Version: [1.8.0]
+[2023-04-17 18:54:58] INFO root fetch - processPackages [emb-opt]: Start processing: vollseg-napari-trackmate
+[2023-04-17 18:54:58] INFO root fetch - main [MainThread]: End processing [emb-opt]: success
+[2023-04-17 18:54:58] INFO root fetch - processPackages [vollseg-napari-trackmate]: New version: [2.1.6] Old Version: [2.1.5]
+[2023-04-17 18:54:58] INFO root fetch - processPackages [arelle-release]: executing diffoscope
+[2023-04-17 18:54:58] INFO root fetch - processPackages [arelle-release]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arelle-release-2.6.0.tar.gz tmp/arelle-release-2.7.0.tar.gz --markdown 20230417/a/arelle-release/2.6.0-2.7.0/diff.md --exclude *.pyd
+[2023-04-17 18:54:58] INFO root fetch - processPackages [OctoBot-Backtesting]: Downloading https://files.pythonhosted.org/packages/94/60/1bad03855ee5af0bf92d97b4f1dc288c8b11ea827bb8fe167c4685e6316b/OctoBot-Backtesting-1.8.0.tar.gz
+[2023-04-17 18:54:58] INFO root fetch - processPackages [dbl-tempo]: Downloading https://files.pythonhosted.org/packages/60/ba/7ac8d7bd7a959f8caaa54486807b24e273939ba9a5001c1459f9b27f7ca6/dbl_tempo-0.1.9-py3-none-any.whl
+[2023-04-17 18:54:58] INFO root fetch - processPackages [vollseg-napari-trackmate]: Downloading https://files.pythonhosted.org/packages/59/ec/514f585ba470a6a81de7ce3194b8f34decb95cd2226a43598a6616819aab/vollseg-napari-trackmate-2.1.6.tar.gz
+[2023-04-17 18:54:58] INFO root fetch - processPackages [OctoBot-Backtesting]: Downloading https://files.pythonhosted.org/packages/ba/be/60fafdf43e3bac9ffcf010afb3e7264bfaa0e851e0d87ba37d8c2edc02c5/OctoBot-Backtesting-1.8.1.tar.gz
+[2023-04-17 18:54:58] INFO root fetch - processPackages [dbl-tempo]: executing diffoscope
+[2023-04-17 18:54:58] INFO root fetch - processPackages [dbl-tempo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbl_tempo-0.1.8-py3-none-any.whl.zip tmp/dbl_tempo-0.1.9-py3-none-any.whl.zip --markdown 20230417/d/dbl-tempo/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-17 18:54:58] INFO root fetch - processPackages [vollseg-napari-trackmate]: executing diffoscope
+[2023-04-17 18:54:58] INFO root fetch - processPackages [vollseg-napari-trackmate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vollseg-napari-trackmate-2.1.5.tar.gz tmp/vollseg-napari-trackmate-2.1.6.tar.gz --markdown 20230417/v/vollseg-napari-trackmate/2.1.5-2.1.6/diff.md --exclude *.pyd
+[2023-04-17 18:54:58] INFO root fetch - processPackages [volttron-lib-dnp3-driver]: Start processing: rexify
+[2023-04-17 18:54:58] INFO root fetch - main [MainThread]: End processing [volttron-lib-dnp3-driver]: success
+[2023-04-17 18:54:58] INFO root fetch - processPackages [rexify]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-17 18:54:58] INFO root fetch - processPackages [OctoBot-Backtesting]: executing diffoscope
+[2023-04-17 18:54:58] INFO root fetch - processPackages [OctoBot-Backtesting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OctoBot-Backtesting-1.8.0.tar.gz tmp/OctoBot-Backtesting-1.8.1.tar.gz --markdown 20230417/O/OctoBot-Backtesting/1.8.0-1.8.1/diff.md --exclude *.pyd
+[2023-04-17 18:54:58] INFO root fetch - processPackages [rexify]: executing diffoscope
+[2023-04-17 18:54:58] INFO root fetch - processPackages [rexify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rexify-0.1.8.tar.gz tmp/rexify-0.1.9.tar.gz --markdown 20230417/r/rexify/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-17 18:54:58] INFO root fetch - processPackages [linesieve]: Start processing: ensembl-prodinf-core
+[2023-04-17 18:54:58] INFO root fetch - main [MainThread]: End processing [linesieve]: success
+[2023-04-17 18:54:59] INFO root fetch - processPackages [ensembl-prodinf-core]: New version: [2.0.5a2] Old Version: [2.0.4]
+[2023-04-17 18:54:59] INFO root fetch - processPackages [st-ant-menu]: Start processing: rovio-ingest
+[2023-04-17 18:54:59] INFO root fetch - main [MainThread]: End processing [st-ant-menu]: success
+[2023-04-17 18:54:59] INFO root fetch - main [MainThread]: End processing [johndeere]: success
+[2023-04-17 18:54:59] INFO root fetch - processPackages [rovio-ingest]: New version: [1.0.4.dev8] Old Version: [1.0.4.dev5]
+[2023-04-17 18:54:59] INFO root fetch - processPackages [ensembl-prodinf-core]: Downloading https://files.pythonhosted.org/packages/17/cd/d9e87f73a233487ce71b47f582212024276c9e91d3151a13e5f2a84a9ab0/ensembl-prodinf-core-2.0.4.tar.gz
+[2023-04-17 18:54:59] INFO root fetch - main [MainThread]: End processing [alphastats]: success
+[2023-04-17 18:54:59] INFO root fetch - processPackages [rovio-ingest]: Downloading https://files.pythonhosted.org/packages/89/97/8dcc54b13547c44be89c5202e7328613ef90deaefdc58ef494875957ae9d/rovio-ingest-1.0.4.dev5.tar.gz
+[2023-04-17 18:54:59] INFO root fetch - processPackages [ensembl-prodinf-core]: Downloading https://files.pythonhosted.org/packages/b8/62/2264d1a2e04039726357436fba449f590abc44bda1708104393905032823/ensembl-prodinf-core-2.0.5a2.tar.gz
+[2023-04-17 18:54:59] INFO root fetch - processPackages [rovio-ingest]: Downloading https://files.pythonhosted.org/packages/e5/16/f3adcf495c14be274f72bad5da145b086588f066e0e271584a027dd31d64/rovio-ingest-1.0.4.dev8.tar.gz
+[2023-04-17 18:54:59] INFO root fetch - processPackages [ensembl-prodinf-core]: executing diffoscope
+[2023-04-17 18:54:59] INFO root fetch - processPackages [ensembl-prodinf-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ensembl-prodinf-core-2.0.4.tar.gz tmp/ensembl-prodinf-core-2.0.5a2.tar.gz --markdown 20230417/e/ensembl-prodinf-core/2.0.4-2.0.5a2/diff.md --exclude *.pyd
+[2023-04-17 18:54:59] INFO root fetch - main [MainThread]: End processing [dbl-tempo]: success
+[2023-04-17 18:54:59] INFO root fetch - processPackages [rovio-ingest]: executing diffoscope
+[2023-04-17 18:54:59] INFO root fetch - processPackages [rovio-ingest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rovio-ingest-1.0.4.dev5.tar.gz tmp/rovio-ingest-1.0.4.dev8.tar.gz --markdown 20230417/r/rovio-ingest/1.0.4.dev5-1.0.4.dev8/diff.md --exclude *.pyd
+[2023-04-17 18:54:59] INFO root fetch - main [MainThread]: End processing [vollseg-napari-trackmate]: success
+[2023-04-17 18:55:00] INFO root fetch - main [MainThread]: End processing [rexify]: success
+[2023-04-17 18:55:00] INFO root fetch - main [MainThread]: End processing [OctoBot-Backtesting]: success
+[2023-04-17 18:55:00] ERROR root fetch - processPackages [rovio-ingest]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 51, in compare_details
+    describe_pyc(self.path),
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 65, in describe_pyc
+    return "\n".join(parse_pyc(f))
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 81, in parse_pyc
+    code = marshal.load(f)
+           ^^^^^^^^^^^^^^^
+SystemError: ../Objects/codeobject.c:250: bad argument to internal function
+
+[2023-04-17 18:55:00] INFO root fetch - main [MainThread]: End processing [rovio-ingest] error
+[2023-04-17 18:55:00] INFO root fetch - main [MainThread]: End processing [ensembl-prodinf-core]: success
+[2023-04-17 18:55:01] INFO root fetch - main [MainThread]: End processing [OctoBot-Commons]: success
+[2023-04-17 18:55:11] INFO root fetch - main [MainThread]: End processing [arelle-release]: success
+[2023-04-17 18:55:11] INFO root fetch - main [MainThread]: Store serial: [17741638]
