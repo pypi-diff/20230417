@@ -7883,3 +7883,74 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 10:17:00] INFO root fetch - main [MainThread]: End processing [dials-data]: success
 [2023-04-17 10:17:01] INFO root fetch - main [MainThread]: End processing [EMPOL-GUI]: success
 [2023-04-17 10:17:01] INFO root fetch - main [MainThread]: Store serial: [17735350]
+[2023-04-17 10:22:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17735350]
+[2023-04-17 10:22:09] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-17 10:22:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: josiann
+[2023-04-17 10:22:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pydflow
+[2023-04-17 10:22:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: betterdata
+[2023-04-17 10:22:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ravendb
+[2023-04-17 10:22:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xj-thread
+[2023-04-17 10:22:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: few-shot-priming
+[2023-04-17 10:22:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: onnx-simplifier
+[2023-04-17 10:22:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: webslides
+[2023-04-17 10:22:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lightningchart
+[2023-04-17 10:22:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: onnxsim
+[2023-04-17 10:22:09] INFO root fetch - processPackages [josiann]: New version: [1.1.3rc1] Old Version: [1.1.2]
+[2023-04-17 10:22:09] INFO root fetch - processPackages [ravendb]: New version: [5.2.3] Old Version: [5.2.2]
+[2023-04-17 10:22:09] INFO root fetch - processPackages [pydflow]: New version: [1.6.99] Old Version: [1.6.98]
+[2023-04-17 10:22:09] WARNING root fetch - processPackages [webslides]: Skipping, unable to determine old version
+[2023-04-17 10:22:10] INFO root fetch - processPackages [webslides]: Start processing: packagename-jarne
+[2023-04-17 10:22:10] INFO root fetch - processPackages [betterdata]: New version: [23.0.2] Old Version: [23.0.1]
+[2023-04-17 10:22:10] INFO root fetch - main [MainThread]: End processing [webslides] error
+[2023-04-17 10:22:10] INFO root fetch - processPackages [lightningchart]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-04-17 10:22:10] INFO root fetch - processPackages [xj-thread]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-04-17 10:22:10] INFO root fetch - processPackages [onnxsim]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-04-17 10:22:10] INFO root fetch - processPackages [onnx-simplifier]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-04-17 10:22:10] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-04-17 10:22:10] WARNING root fetch - processPackages [packagename-jarne]: Skipping, unable to determine old version
+[2023-04-17 10:22:10] INFO root fetch - processPackages [packagename-jarne]: Start processing: yakui
+[2023-04-17 10:22:10] INFO root fetch - main [MainThread]: End processing [packagename-jarne] error
+[2023-04-17 10:22:10] INFO root fetch - processPackages [yakui]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-17 10:22:10] INFO root fetch - processPackages [josiann]: Downloading https://files.pythonhosted.org/packages/e9/84/c69c70b127769a515e2a95ebdeb7d3d48d3a6ca7b057889676e305905d3b/josiann-1.1.2.tar.gz
+[2023-04-17 10:22:10] INFO root fetch - processPackages [xj-thread]: executing diffoscope
+[2023-04-17 10:22:10] INFO root fetch - processPackages [xj-thread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_thread-1.2.98.tar.gz tmp/xj_thread-1.2.99.tar.gz --markdown 20230417/x/xj-thread/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-04-17 10:22:10] INFO root fetch - processPackages [ravendb]: Downloading https://files.pythonhosted.org/packages/10/a9/ad60f52756a9016be38a160d08538ede879308e27148768e0fc21a4d5eb8/ravendb-5.2.2.tar.gz
+[2023-04-17 10:22:10] INFO root fetch - processPackages [betterdata]: Downloading https://files.pythonhosted.org/packages/4d/d4/c03a8da70c6b17d88022c3790a73ada24b76ba09ffe4ad989a3d328a8a6d/betterdata-23.0.2.tar.gz
+[2023-04-17 10:22:10] INFO root fetch - processPackages [lightningchart]: Downloading https://files.pythonhosted.org/packages/37/c6/3f2229a5a56c7fc448196d8dcdac445ab27ad0e2e7133510047914840bdc/lightningchart-0.3.2-py3-none-any.whl
+[2023-04-17 10:22:10] INFO root fetch - processPackages [onnx-simplifier]: Downloading https://files.pythonhosted.org/packages/d6/bb/4883248b3354d146d32371ede26d0194526a8c138b74c45fbaca5af54651/onnx-simplifier-0.4.8.tar.gz
+[2023-04-17 10:22:10] INFO root fetch - processPackages [yakui]: Downloading https://files.pythonhosted.org/packages/75/06/dfac9d49fb3e7bea908d79eb5a3662a54be80cec035f12c8e04bcf7d58c6/yakui-0.1.2.tar.gz
+[2023-04-17 10:22:10] INFO root fetch - processPackages [onnxsim]: Downloading https://files.pythonhosted.org/packages/e7/b9/202cc2584a4ec999caa935e7e0fdb09bedec99bf28f3a8b35455ff6864eb/onnxsim-0.4.8.tar.gz
+[2023-04-17 10:22:10] INFO root fetch - processPackages [betterdata]: executing diffoscope
+[2023-04-17 10:22:10] INFO root fetch - processPackages [betterdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betterdata-23.0.1.tar.gz tmp/betterdata-23.0.2.tar.gz --markdown 20230417/b/betterdata/23.0.1-23.0.2/diff.md --exclude *.pyd
+[2023-04-17 10:22:10] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/c6/42/d4b1986a307020d3007742d6f25422e7aebd391ade1cb451d28a4865e7d2/pydflow-1.6.98.tar.gz
+[2023-04-17 10:22:10] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/d5/95/d70c95da3e78b71d35838af276daf5b2f53394c4c9a44fa5dd8f2aa64498/few_shot_priming-0.0.96-py3-none-any.whl
+[2023-04-17 10:22:10] INFO root fetch - processPackages [yakui]: executing diffoscope
+[2023-04-17 10:22:10] INFO root fetch - processPackages [yakui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yakui-0.1.1.tar.gz tmp/yakui-0.1.2.tar.gz --markdown 20230417/y/yakui/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-17 10:22:10] INFO root fetch - processPackages [josiann]: Downloading https://files.pythonhosted.org/packages/96/bb/92f6182e4cdd20849a07b35b690a5f6d4eb62bb4b590e80ff7df0a1818bb/josiann-1.1.3rc1.tar.gz
+[2023-04-17 10:22:10] WARNING root fetch - processPackages [onnx-simplifier]: Skipping package: exceeds size limit 18116655>=10485760
+[2023-04-17 10:22:10] INFO root fetch - main [MainThread]: End processing [onnx-simplifier] error
+[2023-04-17 10:22:10] INFO root fetch - processPackages [josiann]: executing diffoscope
+[2023-04-17 10:22:10] INFO root fetch - processPackages [josiann]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/josiann-1.1.2.tar.gz tmp/josiann-1.1.3rc1.tar.gz --markdown 20230417/j/josiann/1.1.2-1.1.3rc1/diff.md --exclude *.pyd
+[2023-04-17 10:22:10] INFO root fetch - processPackages [ravendb]: Downloading https://files.pythonhosted.org/packages/2f/59/ba3782b1ce3747bcbfb2ae1e7782861004985bc34da103b0365d89f65f25/ravendb-5.2.3.tar.gz
+[2023-04-17 10:22:10] INFO root fetch - processPackages [lightningchart]: Downloading https://files.pythonhosted.org/packages/25/2e/d8fbc0317ccdb60290d59c0cdbc0a83168939b154d8e94fe5776be22b91d/lightningchart-0.3.3-py3-none-any.whl
+[2023-04-17 10:22:10] INFO root fetch - processPackages [ravendb]: executing diffoscope
+[2023-04-17 10:22:10] INFO root fetch - processPackages [ravendb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ravendb-5.2.2.tar.gz tmp/ravendb-5.2.3.tar.gz --markdown 20230417/r/ravendb/5.2.2-5.2.3/diff.md --exclude *.pyd
+[2023-04-17 10:22:10] INFO root fetch - processPackages [lightningchart]: executing diffoscope
+[2023-04-17 10:22:10] INFO root fetch - processPackages [lightningchart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightningchart-0.3.2-py3-none-any.whl.zip tmp/lightningchart-0.3.3-py3-none-any.whl.zip --markdown 20230417/l/lightningchart/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-04-17 10:22:10] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/86/ec/1d1f51e2ef9a626c2621695ed39210c378d699e371457fcd1efe70b1c890/pydflow-1.6.99.tar.gz
+[2023-04-17 10:22:10] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/1e/e8/6368ab93b7135424a35ce07aac4de4056a38a1ae6f862ed63a5a79a4dce6/few_shot_priming-0.0.99-py3-none-any.whl
+[2023-04-17 10:22:10] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-04-17 10:22:10] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230417/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-04-17 10:22:10] WARNING root fetch - processPackages [onnxsim]: Skipping package: exceeds size limit 18121422>=10485760
+[2023-04-17 10:22:10] INFO root fetch - main [MainThread]: End processing [onnxsim] error
+[2023-04-17 10:22:10] INFO root fetch - processPackages [pydflow]: executing diffoscope
+[2023-04-17 10:22:10] INFO root fetch - processPackages [pydflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydflow-1.6.98.tar.gz tmp/pydflow-1.6.99.tar.gz --markdown 20230417/p/pydflow/1.6.98-1.6.99/diff.md --exclude *.pyd
+[2023-04-17 10:22:11] INFO root fetch - main [MainThread]: End processing [betterdata]: success
+[2023-04-17 10:22:11] INFO root fetch - main [MainThread]: End processing [yakui]: success
+[2023-04-17 10:22:11] INFO root fetch - main [MainThread]: End processing [josiann]: success
+[2023-04-17 10:22:11] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-04-17 10:22:12] INFO root fetch - main [MainThread]: End processing [xj-thread]: success
+[2023-04-17 10:22:12] INFO root fetch - main [MainThread]: End processing [ravendb]: success
+[2023-04-17 10:22:13] INFO root fetch - main [MainThread]: End processing [lightningchart]: success
+[2023-04-17 10:22:13] INFO root fetch - main [MainThread]: End processing [pydflow]: success
+[2023-04-17 10:22:13] INFO root fetch - main [MainThread]: Store serial: [17735420]
