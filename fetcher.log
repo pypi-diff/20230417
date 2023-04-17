@@ -7290,3 +7290,63 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 09:28:55] INFO root fetch - main [MainThread]: End processing [gt-dependency-track]: success
 [2023-04-17 09:28:58] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-04-17 09:28:58] INFO root fetch - main [MainThread]: Store serial: [17734922]
+[2023-04-17 09:34:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17734922]
+[2023-04-17 09:34:08] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-17 09:34:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: detectron2-training
+[2023-04-17 09:34:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-cradmin
+[2023-04-17 09:34:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bhokacha
+[2023-04-17 09:34:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lalsuite
+[2023-04-17 09:34:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bolift
+[2023-04-17 09:34:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: betwatch
+[2023-04-17 09:34:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tonplay-sdk
+[2023-04-17 09:34:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: twtvt
+[2023-04-17 09:34:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bp-query-tool
+[2023-04-17 09:34:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: chaostoolkit-aws
+[2023-04-17 09:34:08] WARNING root fetch - processPackages [bhokacha]: Skipping, unable to determine old version
+[2023-04-17 09:34:08] INFO root fetch - processPackages [bhokacha]: Start processing: ifastapi
+[2023-04-17 09:34:08] INFO root fetch - main [MainThread]: End processing [bhokacha] error
+[2023-04-17 09:34:08] INFO root fetch - processPackages [bolift]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-04-17 09:34:08] WARNING root fetch - processPackages [detectron2-training]: Skipping, unable to determine old version
+[2023-04-17 09:34:08] INFO root fetch - processPackages [detectron2-training]: Start processing: gameyamlspiderandgenerator
+[2023-04-17 09:34:08] INFO root fetch - main [MainThread]: End processing [detectron2-training] error
+[2023-04-17 09:34:08] INFO root fetch - processPackages [betwatch]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-17 09:34:08] INFO root fetch - processPackages [tonplay-sdk]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-17 09:34:08] INFO root fetch - processPackages [twtvt]: New version: [2023.4.17] Old Version: [2023.4.15.post3]
+[2023-04-17 09:34:08] INFO root fetch - processPackages [django-cradmin]: New version: [9.2.0] Old Version: [9.1.0]
+[2023-04-17 09:34:08] INFO root fetch - processPackages [chaostoolkit-aws]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-17 09:34:08] INFO root fetch - processPackages [lalsuite]: New version: [7.9] Old Version: [7.8]
+[2023-04-17 09:34:08] WARNING root fetch - processPackages [ifastapi]: Skipping, unable to determine old version
+[2023-04-17 09:34:08] INFO root fetch - main [MainThread]: End processing [ifastapi] error
+[2023-04-17 09:34:08] INFO root fetch - processPackages [lalsuite]: Downloading https://files.pythonhosted.org/packages/53/92/fc43211ca56b7c5532fc1b47c701a564c7ddcaf866c62ae45acbfdc34f23/lalsuite-7.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-17 09:34:08] WARNING root fetch - processPackages [bp-query-tool]: Skipping, unable to determine old version
+[2023-04-17 09:34:08] INFO root fetch - main [MainThread]: End processing [bp-query-tool] error
+[2023-04-17 09:34:08] INFO root fetch - processPackages [chaostoolkit-aws]: executing diffoscope
+[2023-04-17 09:34:08] INFO root fetch - processPackages [chaostoolkit-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chaostoolkit-aws-0.8.0.tar.gz tmp/chaostoolkit-aws-0.9.0.tar.gz --markdown 20230417/c/chaostoolkit-aws/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-17 09:34:08] INFO root fetch - processPackages [gameyamlspiderandgenerator]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-04-17 09:34:08] INFO root fetch - processPackages [django-cradmin]: executing diffoscope
+[2023-04-17 09:34:08] INFO root fetch - processPackages [django-cradmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-cradmin-9.1.0.tar.gz tmp/django-cradmin-9.2.0.tar.gz --markdown 20230417/d/django-cradmin/9.1.0-9.2.0/diff.md --exclude *.pyd
+[2023-04-17 09:34:08] INFO root fetch - processPackages [twtvt]: executing diffoscope
+[2023-04-17 09:34:08] INFO root fetch - processPackages [twtvt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twtvt-2023.4.15.post3.tar.gz tmp/twtvt-2023.4.17.tar.gz --markdown 20230417/t/twtvt/2023.4.15.post3-2023.4.17/diff.md --exclude *.pyd
+[2023-04-17 09:34:08] INFO root fetch - processPackages [bolift]: Downloading https://files.pythonhosted.org/packages/6e/e0/a17e45f1c14059a23b5aaeac7660c705a1765fb23288a59c93f67d5e6455/bolift-0.0.1.tar.gz
+[2023-04-17 09:34:08] INFO root fetch - processPackages [tonplay-sdk]: Downloading https://files.pythonhosted.org/packages/fa/b6/f101af04e9e2d2eed30aada8f223a276ed5329a84affbde16ac35eb4d836/tonplay-sdk-0.0.6.tar.gz
+[2023-04-17 09:34:08] WARNING root fetch - processPackages [lalsuite]: Skipping package: exceeds size limit 48394251>=10485760
+[2023-04-17 09:34:08] INFO root fetch - main [MainThread]: End processing [lalsuite] error
+[2023-04-17 09:34:08] INFO root fetch - processPackages [tonplay-sdk]: Downloading https://files.pythonhosted.org/packages/8b/2c/87fb3d58f8a4a698ed55b08b76913f8b005a4977bd66c6dd03ccb2e5b01e/tonplay-sdk-0.0.7.tar.gz
+[2023-04-17 09:34:08] INFO root fetch - processPackages [gameyamlspiderandgenerator]: Downloading https://files.pythonhosted.org/packages/97/30/f196ff95539a42909d459cd6ff39081b16a1dedb2c5ec79910b506c57792/gameyamlspiderandgenerator-1.2.0.tar.gz
+[2023-04-17 09:34:08] INFO root fetch - processPackages [betwatch]: executing diffoscope
+[2023-04-17 09:34:08] INFO root fetch - processPackages [betwatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betwatch-0.9.8.tar.gz tmp/betwatch-0.9.9.tar.gz --markdown 20230417/b/betwatch/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-17 09:34:08] INFO root fetch - processPackages [tonplay-sdk]: executing diffoscope
+[2023-04-17 09:34:08] INFO root fetch - processPackages [tonplay-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tonplay-sdk-0.0.6.tar.gz tmp/tonplay-sdk-0.0.7.tar.gz --markdown 20230417/t/tonplay-sdk/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-17 09:34:08] INFO root fetch - processPackages [bolift]: Downloading https://files.pythonhosted.org/packages/44/20/14e2f8e72da12fb7e42253a2dbf23cb63919fb34a2e961bb33c5c93dcd7b/bolift-0.1.0.tar.gz
+[2023-04-17 09:34:08] INFO root fetch - processPackages [bolift]: executing diffoscope
+[2023-04-17 09:34:08] INFO root fetch - processPackages [bolift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bolift-0.0.1.tar.gz tmp/bolift-0.1.0.tar.gz --markdown 20230417/b/bolift/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-04-17 09:34:08] INFO root fetch - processPackages [gameyamlspiderandgenerator]: executing diffoscope
+[2023-04-17 09:34:08] INFO root fetch - processPackages [gameyamlspiderandgenerator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gameyamlspiderandgenerator-1.1.1.tar.gz tmp/gameyamlspiderandgenerator-1.2.0.tar.gz --markdown 20230417/g/gameyamlspiderandgenerator/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-04-17 09:34:09] INFO root fetch - main [MainThread]: End processing [twtvt]: success
+[2023-04-17 09:34:09] INFO root fetch - main [MainThread]: End processing [betwatch]: success
+[2023-04-17 09:34:10] INFO root fetch - main [MainThread]: End processing [bolift]: success
+[2023-04-17 09:34:10] INFO root fetch - main [MainThread]: End processing [chaostoolkit-aws]: success
+[2023-04-17 09:34:10] INFO root fetch - main [MainThread]: End processing [gameyamlspiderandgenerator]: success
+[2023-04-17 09:34:10] INFO root fetch - main [MainThread]: End processing [tonplay-sdk]: success
+[2023-04-17 09:34:21] INFO root fetch - main [MainThread]: End processing [django-cradmin]: success
+[2023-04-17 09:34:21] INFO root fetch - main [MainThread]: Store serial: [17734976]
