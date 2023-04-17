@@ -4603,3 +4603,57 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 05:20:41] INFO root fetch - main [MainThread]: End processing [gt-defect-dojo]: success
 [2023-04-17 05:20:42] INFO root fetch - main [MainThread]: End processing [kiln-connect]: success
 [2023-04-17 05:20:42] INFO root fetch - main [MainThread]: Store serial: [17733338]
+[2023-04-17 05:25:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17733338]
+[2023-04-17 05:25:51] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-17 05:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langchain-utils
+[2023-04-17 05:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py2nut
+[2023-04-17 05:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mtmtool
+[2023-04-17 05:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: konfuzio-sdk
+[2023-04-17 05:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hyperdb-python
+[2023-04-17 05:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: trex-lib
+[2023-04-17 05:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: autocar
+[2023-04-17 05:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pytest-frappe
+[2023-04-17 05:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xj-dictionary
+[2023-04-17 05:25:51] INFO root fetch - processPackages [langchain-utils]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-17 05:25:51] INFO root fetch - processPackages [hyperdb-python]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-17 05:25:51] INFO root fetch - processPackages [pytest-frappe]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-17 05:25:51] INFO root fetch - processPackages [autocar]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-17 05:25:51] INFO root fetch - processPackages [konfuzio-sdk]: New version: [0.2.9.dev20230104175944] Old Version: [0.2.9.dev20221227125623]
+[2023-04-17 05:25:51] WARNING root fetch - processPackages [mtmtool]: Skipping, unable to determine old version
+[2023-04-17 05:25:51] INFO root fetch - main [MainThread]: End processing [mtmtool] error
+[2023-04-17 05:25:51] INFO root fetch - processPackages [py2nut]: New version: [3.2.3] Old Version: [3.2.2]
+[2023-04-17 05:25:51] INFO root fetch - processPackages [autocar]: executing diffoscope
+[2023-04-17 05:25:51] INFO root fetch - processPackages [autocar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autocar-0.1.8.tar.gz tmp/autocar-0.1.9.tar.gz --markdown 20230417/a/autocar/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-17 05:25:51] INFO root fetch - processPackages [trex-lib]: New version: [1.0.0] Old Version: [0.2.9]
+[2023-04-17 05:25:51] INFO root fetch - processPackages [langchain-utils]: executing diffoscope
+[2023-04-17 05:25:51] INFO root fetch - processPackages [langchain-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_utils-0.3.8.tar.gz tmp/langchain_utils-0.3.9.tar.gz --markdown 20230417/l/langchain-utils/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-17 05:25:51] INFO root fetch - processPackages [konfuzio-sdk]: executing diffoscope
+[2023-04-17 05:25:51] INFO root fetch - processPackages [konfuzio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz --markdown 20230417/k/konfuzio-sdk/0.2.9.dev20221227125623-0.2.9.dev20230104175944/diff.md --exclude *.pyd
+[2023-04-17 05:25:51] INFO root fetch - processPackages [xj-dictionary]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-04-17 05:25:51] INFO root fetch - processPackages [hyperdb-python]: Downloading https://files.pythonhosted.org/packages/af/ce/542421bae61174384e16d2cddc6da6853e58b85ab72d4055760991d0d5ef/hyperdb-python-0.1.0.tar.gz
+[2023-04-17 05:25:51] INFO root fetch - processPackages [pytest-frappe]: Downloading https://files.pythonhosted.org/packages/a7/eb/1a3629a081394af17a94d6c44b6a16dc76bbd0c0e549bfb23eeb37ee5859/pytest-frappe-0.0.5.tar.gz
+[2023-04-17 05:25:51] INFO root fetch - processPackages [trex-lib]: Downloading https://files.pythonhosted.org/packages/17/c1/b9e61dc0cc7c977fb09a70a3edae5aa27f91c4b707c0d5ddeba06b9bac12/trex-lib-0.2.9.tar.gz
+[2023-04-17 05:25:51] INFO root fetch - processPackages [xj-dictionary]: Downloading https://files.pythonhosted.org/packages/10/42/ead3b692d5a4a811d8f2d1541b22f45a2ab9a710e977d31332d2d979c332/xj_dictionary-1.0.7.tar.gz
+[2023-04-17 05:25:51] INFO root fetch - processPackages [pytest-frappe]: executing diffoscope
+[2023-04-17 05:25:51] INFO root fetch - processPackages [pytest-frappe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-frappe-0.0.4.tar.gz tmp/pytest-frappe-0.0.5.tar.gz --markdown 20230417/p/pytest-frappe/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-17 05:25:51] INFO root fetch - processPackages [py2nut]: Downloading https://files.pythonhosted.org/packages/4c/a7/ecd99bc4bf031e3bd3424f3aa1bf57a7ff6633aecd4adac2caf06227be2f/py2nut-3.2.3.tar.gz
+[2023-04-17 05:25:51] INFO root fetch - processPackages [hyperdb-python]: Downloading https://files.pythonhosted.org/packages/7f/41/f98b1710640f1b4b0d2fd6991f38ad08ec981f02e05c3994b1d70f82c024/hyperdb-python-0.1.1.tar.gz
+[2023-04-17 05:25:51] INFO root fetch - processPackages [trex-lib]: Downloading https://files.pythonhosted.org/packages/89/e8/35bf4853c49abf915de93b61d626bc30e2323b3e3ce3afe2a39973cf76ea/trex-lib-1.0.0.tar.gz
+[2023-04-17 05:25:51] INFO root fetch - processPackages [xj-dictionary]: Downloading https://files.pythonhosted.org/packages/35/1e/22f4f0a1102da880e254e80a524d9652f762d4385857d0a4c171d6cd3332/xj_dictionary-1.0.8-py3-none-any.whl
+[2023-04-17 05:25:51] INFO root fetch - processPackages [py2nut]: executing diffoscope
+[2023-04-17 05:25:51] INFO root fetch - processPackages [py2nut]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py2nut-3.2.2.tar.gz tmp/py2nut-3.2.3.tar.gz --markdown 20230417/p/py2nut/3.2.2-3.2.3/diff.md --exclude *.pyd
+[2023-04-17 05:25:51] INFO root fetch - processPackages [hyperdb-python]: executing diffoscope
+[2023-04-17 05:25:51] INFO root fetch - processPackages [hyperdb-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperdb-python-0.1.0.tar.gz tmp/hyperdb-python-0.1.1.tar.gz --markdown 20230417/h/hyperdb-python/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-17 05:25:52] INFO root fetch - processPackages [xj-dictionary]: executing diffoscope
+[2023-04-17 05:25:52] INFO root fetch - processPackages [xj-dictionary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_dictionary-1.0.7.tar.gz tmp/xj_dictionary-1.0.8-py3-none-any.whl.zip --markdown 20230417/x/xj-dictionary/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-04-17 05:25:52] INFO root fetch - processPackages [trex-lib]: executing diffoscope
+[2023-04-17 05:25:52] INFO root fetch - processPackages [trex-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trex-lib-0.2.9.tar.gz tmp/trex-lib-1.0.0.tar.gz --markdown 20230417/t/trex-lib/0.2.9-1.0.0/diff.md --exclude *.pyd
+[2023-04-17 05:25:52] INFO root fetch - main [MainThread]: End processing [autocar]: success
+[2023-04-17 05:25:52] INFO root fetch - main [MainThread]: End processing [pytest-frappe]: success
+[2023-04-17 05:25:52] INFO root fetch - main [MainThread]: End processing [langchain-utils]: success
+[2023-04-17 05:25:53] INFO root fetch - main [MainThread]: End processing [xj-dictionary]: success
+[2023-04-17 05:25:53] INFO root fetch - main [MainThread]: End processing [trex-lib]: success
+[2023-04-17 05:25:54] INFO root fetch - main [MainThread]: End processing [py2nut]: success
+[2023-04-17 05:26:02] INFO root fetch - main [MainThread]: End processing [hyperdb-python]: success
+[2023-04-17 05:26:04] INFO root fetch - main [MainThread]: End processing [konfuzio-sdk]: success
+[2023-04-17 05:26:04] INFO root fetch - main [MainThread]: Store serial: [17733364]
