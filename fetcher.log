@@ -6926,3 +6926,96 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 09:02:18] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-04-17 09:02:25] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
 [2023-04-17 09:02:25] INFO root fetch - main [MainThread]: Store serial: [17734685]
+[2023-04-17 09:07:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17734685]
+[2023-04-17 09:07:34] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-04-17 09:07:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ms-salesforce-to-bigquery
+[2023-04-17 09:07:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mailchimp3
+[2023-04-17 09:07:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: saltgang
+[2023-04-17 09:07:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nucliadb
+[2023-04-17 09:07:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nucliadb-client
+[2023-04-17 09:07:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nucliadb-dataset
+[2023-04-17 09:07:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nucliadb-models
+[2023-04-17 09:07:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nucliadb-protos
+[2023-04-17 09:07:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nucliadb-sdk
+[2023-04-17 09:07:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nucliadb-utils
+[2023-04-17 09:07:34] INFO root fetch - processPackages [nucliadb-dataset]: New version: [2.7.0.post167] Old Version: [2.7.0.post166]
+[2023-04-17 09:07:34] INFO root fetch - processPackages [saltgang]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-17 09:07:34] WARNING root fetch - processPackages [ms-salesforce-to-bigquery]: Skipping, unable to determine old version
+[2023-04-17 09:07:34] INFO root fetch - processPackages [nucliadb]: New version: [2.7.0.post167] Old Version: [2.7.0.post166]
+[2023-04-17 09:07:34] INFO root fetch - processPackages [nucliadb-sdk]: New version: [2.7.0.post167] Old Version: [2.7.0.post166]
+[2023-04-17 09:07:34] INFO root fetch - processPackages [ms-salesforce-to-bigquery]: Start processing: Group-45
+[2023-04-17 09:07:34] INFO root fetch - main [MainThread]: End processing [ms-salesforce-to-bigquery] error
+[2023-04-17 09:07:34] INFO root fetch - processPackages [mailchimp3]: New version: [3.0.9] Old Version: [3.0.7]
+[2023-04-17 09:07:34] INFO root fetch - processPackages [nucliadb-client]: New version: [2.7.0.post167] Old Version: [2.7.0.post166]
+[2023-04-17 09:07:34] INFO root fetch - processPackages [nucliadb-protos]: New version: [2.7.0.post167] Old Version: [2.7.0.post166]
+[2023-04-17 09:07:34] INFO root fetch - processPackages [nucliadb-models]: New version: [2.7.0.post167] Old Version: [2.7.0.post166]
+[2023-04-17 09:07:34] INFO root fetch - processPackages [nucliadb-utils]: New version: [2.7.0.post167] Old Version: [2.7.0.post166]
+[2023-04-17 09:07:34] WARNING root fetch - processPackages [Group-45]: Skipping, unable to determine old version
+[2023-04-17 09:07:34] INFO root fetch - processPackages [Group-45]: Start processing: yhgit
+[2023-04-17 09:07:34] INFO root fetch - main [MainThread]: End processing [Group-45] error
+[2023-04-17 09:07:34] INFO root fetch - processPackages [yhgit]: New version: [2.8.9] Old Version: [2.8.8]
+[2023-04-17 09:07:34] INFO root fetch - processPackages [saltgang]: executing diffoscope
+[2023-04-17 09:07:34] INFO root fetch - processPackages [saltgang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saltgang-0.1.8.tar.gz tmp/saltgang-0.1.9.tar.gz --markdown 20230417/s/saltgang/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-17 09:07:34] INFO root fetch - processPackages [yhgit]: executing diffoscope
+[2023-04-17 09:07:34] INFO root fetch - processPackages [yhgit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yhgit-2.8.8.tar.gz tmp/yhgit-2.8.9.tar.gz --markdown 20230417/y/yhgit/2.8.8-2.8.9/diff.md --exclude *.pyd
+[2023-04-17 09:07:35] INFO root fetch - processPackages [mailchimp3]: Downloading https://files.pythonhosted.org/packages/16/47/23bd82e39c8873868d0e1e2e7ec6cea6e3955fee563a0fa2a2bf9166032e/mailchimp3-3.0.7.tar.gz
+[2023-04-17 09:07:35] INFO root fetch - processPackages [nucliadb-client]: Downloading https://files.pythonhosted.org/packages/f0/8a/97710c84371995f680c299f94c3e3178a6002a0c4cba2d439d3d412a0b74/nucliadb_client-2.7.0.post167-py3-none-any.whl
+[2023-04-17 09:07:35] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/f9/f3/8b1840828c8bf6b802274e467b87d826d44b5daa4b4cee54c0dd0e808677/nucliadb_dataset-2.7.0.post167-py3-none-any.whl
+[2023-04-17 09:07:35] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/66/44/b0ab0709be0c0d34d22274a561cedba3c3da68c50fb9b27c269b7f08ca2b/nucliadb_utils-2.7.0.post167-py3-none-any.whl
+[2023-04-17 09:07:35] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/91/00/3ba4570c96d53c2d5c1c8747b084f7df45b2a797cf0cb88bb6a16e53447a/nucliadb_sdk-2.7.0.post167-py3-none-any.whl
+[2023-04-17 09:07:35] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/66/fd/9e4c141fca2d14c7302b20dac282f1bc77870c09cba9b1ee8c35c1c4f861/nucliadb_protos-2.7.0.post167-py3-none-any.whl
+[2023-04-17 09:07:35] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/02/f8/3f9ebc9ebe94b36f15b3a9f9dba287ba64fc5a06af953e66de15e2283017/nucliadb-2.7.0.post167-py3-none-any.whl
+[2023-04-17 09:07:35] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/d1/75/7523fc331d919bf7482cbe8b3070a2553707d33ee3d4d0f0249d4962d7d9/nucliadb_models-2.7.0.post167-py3-none-any.whl
+[2023-04-17 09:07:35] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2023-04-17 09:07:35] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-2.7.0.post166-py3-none-any.whl.zip tmp/nucliadb_dataset-2.7.0.post167-py3-none-any.whl.zip --markdown 20230417/n/nucliadb-dataset/2.7.0.post166-2.7.0.post167/diff.md --exclude *.pyd
+[2023-04-17 09:07:35] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2023-04-17 09:07:35] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-2.7.0.post166-py3-none-any.whl.zip tmp/nucliadb_sdk-2.7.0.post167-py3-none-any.whl.zip --markdown 20230417/n/nucliadb-sdk/2.7.0.post166-2.7.0.post167/diff.md --exclude *.pyd
+[2023-04-17 09:07:35] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2023-04-17 09:07:35] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-2.7.0.post166-py3-none-any.whl.zip tmp/nucliadb_protos-2.7.0.post167-py3-none-any.whl.zip --markdown 20230417/n/nucliadb-protos/2.7.0.post166-2.7.0.post167/diff.md --exclude *.pyd
+[2023-04-17 09:07:35] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2023-04-17 09:07:35] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-2.7.0.post166-py3-none-any.whl.zip tmp/nucliadb_models-2.7.0.post167-py3-none-any.whl.zip --markdown 20230417/n/nucliadb-models/2.7.0.post166-2.7.0.post167/diff.md --exclude *.pyd
+[2023-04-17 09:07:35] INFO root fetch - processPackages [nucliadb-client]: executing diffoscope
+[2023-04-17 09:07:35] INFO root fetch - processPackages [nucliadb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_client-2.7.0.post166-py3-none-any.whl.zip tmp/nucliadb_client-2.7.0.post167-py3-none-any.whl.zip --markdown 20230417/n/nucliadb-client/2.7.0.post166-2.7.0.post167/diff.md --exclude *.pyd
+[2023-04-17 09:07:35] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2023-04-17 09:07:35] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-2.7.0.post166-py3-none-any.whl.zip tmp/nucliadb_utils-2.7.0.post167-py3-none-any.whl.zip --markdown 20230417/n/nucliadb-utils/2.7.0.post166-2.7.0.post167/diff.md --exclude *.pyd
+[2023-04-17 09:07:35] INFO root fetch - processPackages [mailchimp3]: Downloading https://files.pythonhosted.org/packages/f7/c5/2936a2005b3fbe5ba6fb30697a22a4caa1fcbf8781c5ec2842535a4914c0/mailchimp3-3.0.9.tar.gz
+[2023-04-17 09:07:35] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2023-04-17 09:07:35] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-2.7.0.post166-py3-none-any.whl.zip tmp/nucliadb-2.7.0.post167-py3-none-any.whl.zip --markdown 20230417/n/nucliadb/2.7.0.post166-2.7.0.post167/diff.md --exclude *.pyd
+[2023-04-17 09:07:35] INFO root fetch - processPackages [mailchimp3]: executing diffoscope
+[2023-04-17 09:07:35] INFO root fetch - processPackages [mailchimp3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mailchimp3-3.0.7.tar.gz tmp/mailchimp3-3.0.9.tar.gz --markdown 20230417/m/mailchimp3/3.0.7-3.0.9/diff.md --exclude *.pyd
+[2023-04-17 09:07:36] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: kqcircuits
+[2023-04-17 09:07:36] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2023-04-17 09:07:36] INFO root fetch - processPackages [kqcircuits]: New version: [4.6.9rc1] Old Version: [4.6.14]
+[2023-04-17 09:07:37] INFO root fetch - processPackages [nucliadb-sdk]: Start processing: upathlib
+[2023-04-17 09:07:37] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2023-04-17 09:07:37] INFO root fetch - processPackages [upathlib]: New version: [0.7.8b1] Old Version: [0.7.7b1]
+[2023-04-17 09:07:37] INFO root fetch - processPackages [kqcircuits]: Downloading https://files.pythonhosted.org/packages/ad/63/9aa2c19b0c272f795ed0f489cb5053357862520fb7eed87dbc2e1262d75c/kqcircuits-4.6.14.tar.gz
+[2023-04-17 09:07:37] INFO root fetch - processPackages [nucliadb-models]: Start processing: langchain-serve
+[2023-04-17 09:07:37] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2023-04-17 09:07:37] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.7.dev3] Old Version: [0.0.6.dev3]
+[2023-04-17 09:07:37] INFO root fetch - processPackages [nucliadb-client]: Start processing: dramatiq-crontab
+[2023-04-17 09:07:37] INFO root fetch - main [MainThread]: End processing [nucliadb-client]: success
+[2023-04-17 09:07:37] INFO root fetch - processPackages [dramatiq-crontab]: New version: [1.0rc3] Old Version: [1.0rc1]
+[2023-04-17 09:07:37] INFO root fetch - main [MainThread]: End processing [yhgit]: success
+[2023-04-17 09:07:37] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2023-04-17 09:07:37] INFO root fetch - processPackages [upathlib]: Downloading https://files.pythonhosted.org/packages/d2/f7/35fbd69c048f3538fb4b9bb3f8a58c1e1363d0d15e5be8cc21dd2de1c9c1/upathlib-0.7.8b1.tar.gz
+[2023-04-17 09:07:37] INFO root fetch - processPackages [kqcircuits]: executing diffoscope
+[2023-04-17 09:07:37] INFO root fetch - processPackages [kqcircuits]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kqcircuits-4.6.14.tar.gz tmp/kqcircuits-4.6.9rc1.tar.gz --markdown 20230417/k/kqcircuits/4.6.14-4.6.9rc1/diff.md --exclude *.pyd
+[2023-04-17 09:07:37] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/a7/1c/221f810dd94546cb300009114f56e6ef25d00249f67d30fc179b8b3d016d/langchain-serve-0.0.7.dev3.tar.gz
+[2023-04-17 09:07:37] INFO root fetch - main [MainThread]: End processing [saltgang]: success
+[2023-04-17 09:07:37] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2023-04-17 09:07:37] INFO root fetch - processPackages [upathlib]: executing diffoscope
+[2023-04-17 09:07:37] INFO root fetch - processPackages [upathlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upathlib-0.7.7b1.tar.gz tmp/upathlib-0.7.8b1.tar.gz --markdown 20230417/u/upathlib/0.7.7b1-0.7.8b1/diff.md --exclude *.pyd
+[2023-04-17 09:07:37] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-04-17 09:07:37] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.6.dev3.tar.gz tmp/langchain-serve-0.0.7.dev3.tar.gz --markdown 20230417/l/langchain-serve/0.0.6.dev3-0.0.7.dev3/diff.md --exclude *.pyd
+[2023-04-17 09:07:37] INFO root fetch - processPackages [dramatiq-crontab]: Downloading https://files.pythonhosted.org/packages/22/74/61ec0beb61342cebd3763fb42f92d064cd4b1446722b6824697ee5d8ab33/dramatiq-crontab-1.0rc1.tar.gz
+[2023-04-17 09:07:38] INFO root fetch - processPackages [dramatiq-crontab]: Downloading https://files.pythonhosted.org/packages/ee/b6/35800d6f02ca6727603c13dd3af072da61ed1b0d542bdab4a05f04cbae51/dramatiq-crontab-1.0rc3.tar.gz
+[2023-04-17 09:07:38] INFO root fetch - processPackages [dramatiq-crontab]: executing diffoscope
+[2023-04-17 09:07:38] INFO root fetch - processPackages [dramatiq-crontab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dramatiq-crontab-1.0rc1.tar.gz tmp/dramatiq-crontab-1.0rc3.tar.gz --markdown 20230417/d/dramatiq-crontab/1.0rc1-1.0rc3/diff.md --exclude *.pyd
+[2023-04-17 09:07:38] INFO root fetch - main [MainThread]: End processing [upathlib]: success
+[2023-04-17 09:07:39] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-04-17 09:07:39] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2023-04-17 09:07:39] INFO root fetch - main [MainThread]: End processing [dramatiq-crontab]: success
+[2023-04-17 09:07:39] INFO root fetch - main [MainThread]: End processing [mailchimp3]: success
+[2023-04-17 09:07:40] INFO root fetch - main [MainThread]: End processing [kqcircuits]: success
+[2023-04-17 09:07:40] INFO root fetch - main [MainThread]: Store serial: [17734739]
