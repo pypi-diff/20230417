@@ -1,0 +1,157 @@
+# Comparing `tmp/volttron_dnp3_outstation-0.1.1a0.tar.gz` & `tmp/volttron_dnp3_outstation-0.1.1a1.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "volttron_dnp3_outstation-0.1.1a0.tar", max compression
++gzip compressed data, was "volttron_dnp3_outstation-0.1.1a1.tar", max compression
+```
+
+## Comparing `volttron_dnp3_outstation-0.1.1a0.tar` & `volttron_dnp3_outstation-0.1.1a1.tar`
+
+### file list
+
+```diff
+@@ -1,10 +1,10 @@
+--rw-r--r--   0        0        0    11357 2023-03-27 17:12:12.711417 volttron_dnp3_outstation-0.1.1a0/LICENSE
+--rw-r--r--   0        0        0    16495 2023-03-27 17:12:12.711417 volttron_dnp3_outstation-0.1.1a0/README.md
+--rw-r--r--   0        0        0     1873 2023-03-27 17:14:18.916277 volttron_dnp3_outstation-0.1.1a0/pyproject.toml
+--rw-r--r--   0        0        0        0 2023-03-27 17:12:12.711417 volttron_dnp3_outstation-0.1.1a0/src/dnp3_outstation/__init__.py
+--rw-r--r--   0        0        0    10014 2023-03-27 17:12:12.711417 volttron_dnp3_outstation-0.1.1a0/src/dnp3_outstation/agent.py
+--rw-r--r--   0        0        0        0 2023-03-27 17:12:12.711417 volttron_dnp3_outstation-0.1.1a0/src/vdnp3_outstation/__init__.py
+--rw-r--r--   0        0        0       89 2023-03-27 17:12:12.711417 volttron_dnp3_outstation-0.1.1a0/src/vdnp3_outstation/__main__.py
+--rw-r--r--   0        0        0    10710 2023-03-27 17:12:12.711417 volttron_dnp3_outstation-0.1.1a0/src/vdnp3_outstation/run_volttron_dnp3_outstation_cli.py
+--rw-r--r--   0        0        0    18116 1970-01-01 00:00:00.000000 volttron_dnp3_outstation-0.1.1a0/setup.py
+--rw-r--r--   0        0        0    17856 1970-01-01 00:00:00.000000 volttron_dnp3_outstation-0.1.1a0/PKG-INFO
++-rw-r--r--   0        0        0    11357 2023-04-17 16:38:41.301237 volttron_dnp3_outstation-0.1.1a1/LICENSE
++-rw-r--r--   0        0        0    16495 2023-04-17 16:38:41.301237 volttron_dnp3_outstation-0.1.1a1/README.md
++-rw-r--r--   0        0        0     1873 2023-04-17 16:40:50.713594 volttron_dnp3_outstation-0.1.1a1/pyproject.toml
++-rw-r--r--   0        0        0        0 2023-04-17 16:38:41.301237 volttron_dnp3_outstation-0.1.1a1/src/dnp3_outstation/__init__.py
++-rw-r--r--   0        0        0    10014 2023-04-17 16:38:41.301237 volttron_dnp3_outstation-0.1.1a1/src/dnp3_outstation/agent.py
++-rw-r--r--   0        0        0        0 2023-04-17 16:38:41.301237 volttron_dnp3_outstation-0.1.1a1/src/vdnp3_outstation/__init__.py
++-rw-r--r--   0        0        0       89 2023-04-17 16:38:41.301237 volttron_dnp3_outstation-0.1.1a1/src/vdnp3_outstation/__main__.py
++-rw-r--r--   0        0        0    10710 2023-04-17 16:38:41.301237 volttron_dnp3_outstation-0.1.1a1/src/vdnp3_outstation/run_volttron_dnp3_outstation_cli.py
++-rw-r--r--   0        0        0    18116 1970-01-01 00:00:00.000000 volttron_dnp3_outstation-0.1.1a1/setup.py
++-rw-r--r--   0        0        0    17856 1970-01-01 00:00:00.000000 volttron_dnp3_outstation-0.1.1a1/PKG-INFO
+```
+
+### Comparing `volttron_dnp3_outstation-0.1.1a0/LICENSE` & `volttron_dnp3_outstation-0.1.1a1/LICENSE`
+
+ * *Files identical despite different names*
+
+### Comparing `volttron_dnp3_outstation-0.1.1a0/README.md` & `volttron_dnp3_outstation-0.1.1a1/README.md`
+
+ * *Files identical despite different names*
+
+### Comparing `volttron_dnp3_outstation-0.1.1a0/pyproject.toml` & `volttron_dnp3_outstation-0.1.1a1/pyproject.toml`
+
+ * *Files 1% similar despite different names*
+
+```diff
+@@ -13,15 +13,15 @@
+ ignore_missing_imports = true
+ 
+ [tool.mypy-pytz]
+ ignore_missing_imports = true
+ 
+ [tool.poetry]
+ name = "volttron-dnp3-outstation"
+-version = "0.1.1a0"
++version = "0.1.1a1"
+ description = "A Volttron agent that acts as a dnp3 outstation."
+ authors = ["Kefei Mo <kefei.mo@pnnl.gov>"]
+ license = "Apache-2.0"
+ maintainers = ["Volttron Team <volttron@pnnl.gov>"]
+ readme = "README.md"
+ homepage = "https://github.com/eclipse-volttron/volttron-dnp3-outstation"
+ repository = "https://github.com/eclipse-volttron/volttron-dnp3-outstation"
+```
+
+### Comparing `volttron_dnp3_outstation-0.1.1a0/src/dnp3_outstation/agent.py` & `volttron_dnp3_outstation-0.1.1a1/src/dnp3_outstation/agent.py`
+
+ * *Files identical despite different names*
+
+### Comparing `volttron_dnp3_outstation-0.1.1a0/src/vdnp3_outstation/run_volttron_dnp3_outstation_cli.py` & `volttron_dnp3_outstation-0.1.1a1/src/vdnp3_outstation/run_volttron_dnp3_outstation_cli.py`
+
+ * *Files identical despite different names*
+
+### Comparing `volttron_dnp3_outstation-0.1.1a0/setup.py` & `volttron_dnp3_outstation-0.1.1a1/setup.py`
+
+ * *Files 0% similar despite different names*
+
+```diff
+@@ -15,15 +15,15 @@
+ 
+ entry_points = \
+ {'console_scripts': ['vdnp3_outstation = '
+                      'vdnp3_outstation.run_volttron_dnp3_outstation_cli:main']}
+ 
+ setup_kwargs = {
+     'name': 'volttron-dnp3-outstation',
+-    'version': '0.1.1a0',
++    'version': '0.1.1a1',
+     'description': 'A Volttron agent that acts as a dnp3 outstation.',
+     'long_description': '# volttron-dnp3-outstation\n\n[//]: # (TODO: get the badges)\n\nDistributed Network Protocol (DNP\nor [DNP3](https://en.wikipedia.org/wiki/DNP3))\nhas achieved a large-scale acceptance since its introduction in 1993. This\nprotocol is an immediately deployable solution for monitoring remote sites because it was developed for communication of\ncritical infrastructure status, allowing for reliable remote control.\n\nDNP3 is typically used between centrally located masters and distributed remotes.\nApplication layer fragments from Master DNP3 stations are typically requests for operations on data\nobjects, and application layer fragments from Slave DNP3 stations (i.e., Outstation) are typically responses to those\nrequests. A DNP3 Outstation may also transmit a message without a request (an unsolicited response).\nThe volttron-dnp3-outstation is an implementation of the DNP3 master following\nthe [VOLTTRON Agent Specifications](https://volttron.readthedocs.io/en/main/developing-volttron/developing-agents/specifications/index.html?highlight=agent#agent-specifications).\n\nNote: to fully desmonstate the volttron-dnp3-outstation features, including polling data, setting point\nvalues, etc., it is suggested to establish connection between an outstation and a DNP3 master instance.\nThe [dnp3-python](https://github.com/VOLTTRON/dnp3-python) can provide the essential master functionality,\nand as\npart of the volttron-dnp3-outstation dependency, it is immediately available after the volttron-dnp3-outstation is\ninstalled.\n\n# Prerequisites\n\n* Python 3 (tested with Python3.8, Python3.9, Python3.10)\n\n## Python\n\n<details>\n<summary>To install specific Python version (e.g., Python 3.8), we recommend using <a href="https://github.com/pyenv/pyenv"><code>pyenv</code></a>.</summary>\n\n```shell\n# install pyenv\ngit clone https://github.com/pyenv/pyenv ~/.pyenv\n\n# setup pyenv (you should also put these three lines in .bashrc or similar)\nexport PATH="${HOME}/.pyenv/bin:${PATH}"\nexport PYENV_ROOT="${HOME}/.pyenv"\neval "$(pyenv init -)"\n\n# install Python 3.8\npyenv install 3.8.10\n\n# make it available globally\npyenv global system 3.8.10\n```\n\n</details>\n\n# Installation\n\nThe following recipe walks through the steps to install and configure a DNP3 agent. Note that it uses default setup to\nwork out-of-the-box. Please feel free to refer to related documentations for details.\n\n1. Create and activate a virtual environment.\n\n   It is recommended to use a virtual environment for installing volttron.\n\n    ```shell\n    python -m venv env\n    source env/bin/activate\n    \n    pip install volttron\n    ```\n\n1. Install volttron and start the platform.\n\n   > **Note**:\n   > According to the [volttron-core#README](https://github.com/eclipse-volttron/volttron-core#readme), setup VOLTTRON_HOME\n   > environment variable is mandatory:\n\n   > ... if you have/had in the past, a monolithic VOLTTRON version that used the default VOLTTRON_HOME\n   > $HOME/.volttron. This modular version of VOLTTRON cannot work with volttron_home used by monolithic version of\n   > VOLTTRON(version 8.3 or earlier)\n\n    ```shell\n    # Setup environment variable `VOLTTRON_HOME`\n    export VOLTTRON_HOME=<path-to-volttron_home-dir>\n    \n    # Start platform with output going to volttron.log\n    volttron -vv -l volttron.log &\n    ```\n\n1. Install the "volttron-dnp3-outstation" dependency.\n\n   There are two options to install the DNP3 Driver. You can install this library using the version on PyPi or install\n   it from the source code (`git clone` might be required.)\n   Note: the `vctl install` command in the following step can handle dependency installation using pypi. However, in\n   this demo we\n   demonstrate what is happening under the neath the hood by separating the dependency installation and agent registry\n   steps.\n\n    ```shell\n    # option 1: install from pypi\n    pip install volttron-dnp3-outstation\n    \n    # option 2: install from the source code (Note: `-e` option to use editable mode, useful for development.)\n    pip install [-e] <path-to-the-source-code-root>/volttron-dnp3-outstation/\n    ```\n\n1. Install and start the "volttron-dnp3-outstation" agent.\n\n   Prepare the default config files:\n\n    ```shell\n    # Create config file place holders\n    mkdir config\n    touch config/dnp3-outstation-config.json\n    ```\n\n   Edit the `dnp3-outstation-config.json` as follows:\n    ```json\n    {\n     "outstation_ip": "0.0.0.0",\n     "master_id": 2,\n     "outstation_id": 1,\n     "port":  21000\n    }\n    ```\n\n   Use `vctl install` command to register to the volttron home path.\n   Note: for demo purposes and reproducibility, we assign vip-identity as "dnp3_outstation", but you can choose\n   any other valid agent identity as desired.\n\n    ```shell\n    vctl install volttron-dnp3-outstation --agent-config <path-to-agent-config> \\\n   --vip-identity dnp3_outstation \\\n   --start\n    ```\n\n   (Optional) Use `vctl stauts` to verify the installation\n   ```shell\n   (env) kefei@ubuntu-22:~/sandbox/dnp3-outstation-sandbox$ vctl status\n   UUID   AGENT                             IDENTITY        TAG PRIORITY STATUS          HEALTH\n   e      volttron-dnp3-outstation-0.0.1rc0 dnp3_outstation              running [3408]  GOOD\n   ```\n\n# Basic Usage Example\n\nLike other VOLTTRON agent, the volttron-dnp3-outstation agent provides public interface and can be evoked by VOLTTRON\nRPC calls. The volttron-dnp3-outstation provided a commandline interface `vdnp3_outstation` as an RPC method wrapper.\nPlease see [run_volttron_dnp3_outstation_cli.py](./src/vdnp3_outstation/run_volttron_dnp3_outstation_cli.py) for\nimplementation details of the RPC examples.\n\n1. (Optional) Inspect the dnp3 outstation cli help menu.\n\n   ```shell\n   (env) kefei@ubuntu-22:~/sandbox/dnp3-driver-sandbox$ vdnp3_outstation -h\n   usage: dnp3-outstation [-h] [-aid <peer-name>]\n   \n   Run a dnp3 outstation agent. Specify agent identity, by default `dnp3_outstation`\n   \n   options:\n     -h, --help            show this help message and exit\n     -aid <peer-name>, --agent-identity <peer-name>\n                           specify agent identity (parsed as peer-name for rpc call), default \'dnp3_outstation\'.\n\n   ```\n\n1. Start the dnp3 outstation cli\n\n   Start the volttron-dnp3-outstation cli with `vdnp3_outstation --agent-identity <agent-id>`. If you\n   follow along this demo, the agent vip-identity should be "dnp3_outstation".\n\n   ```shell\n   (env) kefei@ubuntu-22:~/sandbox/dnp3-agent-sandbox$ vdnp3_outstation --agent-identity dnp3_outstation\n   2023-03-23 11:51:25,975 root DEBUG: Creating ZMQ Core None\n   2023-03-23 11:51:25,975 volttron.client.vip.agent.core DEBUG: address: ipc://@/home/kefei/.volttron/run/vip.socket\n   2023-03-23 11:51:25,975 volttron.client.vip.agent.core DEBUG: identity: 08953498-18e6-4070-9576-521bad3e82be\n   2023-03-23 11:51:25,975 volttron.client.vip.agent.core DEBUG: agent_uuid: None\n   2023-03-23 11:51:25,975 volttron.client.vip.agent.core DEBUG: serverkey: None\n   2023-03-23 11:51:25,976 volttron.client.vip.agent.core DEBUG:  environ keys: dict_keys([\'SHELL\', \'SESSION_MANAGER\', \'QT_ACCESSIBILITY\', \'COLORTERM\', \'XDG_CONFIG_DIRS\', \'SSH_AGENT_LAUNCHER\', \'XDG_MENU_PREFIX\', \'GNOME_DESKTOP_SESSION_ID\', \'CONDA_EXE\', \'_CE_M\', \'GNOME_SHELL_SESSION_MODE\', \'SSH_AUTH_SOCK\', \'HOMEBREW_PREFIX\', \'XMODIFIERS\', \'DESKTOP_SESSION\', \'GTK_MODULES\', \'PWD\', \'LOGNAME\', \'XDG_SESSION_DESKTOP\', \'XDG_SESSION_TYPE\', \'MANPATH\', \'SYSTEMD_EXEC_PID\', \'XAUTHORITY\', \'VOLTTRON_HOME\', \'HOME\', \'USERNAME\', \'IM_CONFIG_PHASE\', \'LANG\', \'LS_COLORS\', \'XDG_CURRENT_DESKTOP\', \'VIRTUAL_ENV\', \'VTE_VERSION\', \'WAYLAND_DISPLAY\', \'GNOME_TERMINAL_SCREEN\', \'INFOPATH\', \'GNOME_SETUP_DISPLAY\', \'LESSCLOSE\', \'XDG_SESSION_CLASS\', \'TERM\', \'_CE_CONDA\', \'LESSOPEN\', \'USER\', \'HOMEBREW_CELLAR\', \'GNOME_TERMINAL_SERVICE\', \'CONDA_SHLVL\', \'DISPLAY\', \'SHLVL\', \'QT_IM_MODULE\', \'HOMEBREW_REPOSITORY\', \'VIRTUAL_ENV_PROMPT\', \'CONDA_PYTHON_EXE\', \'XDG_RUNTIME_DIR\', \'PS1\', \'XDG_DATA_DIRS\', \'PATH\', \'GDMSESSION\', \'DBUS_SESSION_BUS_ADDRESS\', \'_\', \'RABBITMQ_NOT_AVAILABLE\'])\n   2023-03-23 11:51:25,976 volttron.client.vip.agent.core DEBUG: server key from env None\n   2023-03-23 11:51:25,976 volttron.client.vip.agent.core DEBUG: AGENT RUNNING on ZMQ Core 08953498-18e6-4070-9576-521bad3e82be\n   2023-03-23 11:51:25,976 volttron.client.vip.agent.core DEBUG: keys: server: _M0Ds3SfjECMrmXulHQZtPIlsYW7JwzXMXJH1Koy2T4 public: _M0Ds3SfjECMrmXulHQZtPIlsYW7JwzXMXJH1Koy2T4, secret: yfjc9g5znWMEjTSX3kfINGwhCvaDI80fK8vN76-C7SQ\n   2023-03-23 11:51:25,977 volttron.client.vip.zmq_connection DEBUG: ZMQ connection 08953498-18e6-4070-9576-521bad3e82be\n   2023-03-23 11:51:25,977 volttron.client.vip.zmq_connection DEBUG: connecting to url ipc://@/home/kefei/.volttron/run/vip.socket?publickey=_M0Ds3SfjECMrmXulHQZtPIlsYW7JwzXMXJH1Koy2T4&secretkey=yfjc9g5znWMEjTSX3kfINGwhCvaDI80fK8vN76-C7SQ&serverkey=_M0Ds3SfjECMrmXulHQZtPIlsYW7JwzXMXJH1Koy2T4\n   2023-03-23 11:51:25,977 volttron.client.vip.zmq_connection DEBUG: url type is <class \'str\'>\n   2023-03-23 11:51:25,981 volttron.client.vip.agent.core INFO: Connected to platform: identity: 08953498-18e6-4070-9576-521bad3e82be version: 1.0\n   2023-03-23 11:51:25,981 volttron.client.vip.agent.core DEBUG: Running onstart methods.\n    \n   ========================= MENU ==================================\n   <ai> - set analog-input point value\n   <ao> - set analog-output point value\n   <bi> - set binary-input point value\n   <bo> - set binary-output point value\n    \n   <dd> - display database\n   <di> - display (outstation) info\n   <cr> - config then restart outstation\n   =================================================================\n    \n   !!!!!!!!! WARNING: The outstation is NOT connected !!!!!!!!!\n   {\'outstation_ip_str\': \'0.0.0.0\', \'port\': 20000, \'masterstation_id_int\': 2, \'outstation_id_int\': 1, \'peer\': \'dnp3_outstation\'}\n    \n   ======== Your Input Here: ==(DNP3 OutStation Agent)======\n \n   ```\n\n1. Start a dnp3 master to establish connection.\n\n   If there is no connection between an outstation and a master, you may see the\n   warning `!!!!!!!!! WARNING: The outstation is NOT connected !!!!!!!!!`. To establish such a connection, **open\n   another terminal**, and\n   run `dnp3demo master`. (More details about the "dnp3demo" module, please\n   see [dnp3demo-Module.md](https://github.com/VOLTTRON/dnp3-python/blob/main/docs/dnp3demo-Module.md))\n\n   ```shell\n    ===== Master Operation MENU ==================================\n    <ao> - set analog-output point value (for remote control)\n    <bo> - set binary-output point value (for remote control)\n    <dd> - display/polling (outstation) database\n    <dc> - display configuration\n    =================================================================\n\n    \n    ======== Your Input Here: ==(master)======\n    ```\n\n   Note: by default, both the volttron-dnp3-outstation and the dnp3demo master uses configurations to\n   assure valid connection out-of-the-box. e.g., port=20000. Feel free to configure the connection parameters as\n   desired.\n\n1. Basic volttron-dnp3-outstation operations\n     ```\n   ======== Your Input Here: ==(DNP3 OutStation Agent)======\n   ai\n   You chose <ai> - set analog-input point value\n   Type in <float> and <index>. Separate with space, then hit ENTER. e.g., `1.4321, 1`.\n   Type \'q\', \'quit\', \'exit\' to main menu.\n\n    ======== Your Input Here: ==(DNP3 OutStation Agent)======\n    0.1212 0\n    {\'Analog\': {0: 0.1212, 1: None, 2: None, 3: None, 4: None, 5: None, 6: None, 7: None, 8: None, 9: None}}\n    You chose <ai> - update analog-input point value (for local reading)\n    Type in <float> and <index>. Separate with space, then hit ENTER.\n    Type \'q\', \'quit\', \'exit\' to main menu.\n     \n     \n    ======== Your Input Here: ==(DNP3 OutStation Agent)======\n    1.2323 1\n    {\'Analog\': {0: 0.1212, 1: 1.2323, 2: None, 3: None, 4: None, 5: None, 6: None, 7: None, 8: None, 9: None}}\n    You chose <ai> - update analog-input point value (for local reading)\n    Type in <float> and <index>. Separate with space, then hit ENTER.\n    Type \'q\', \'quit\', \'exit\' to main menu.\n   ```\n     <details>\n     <summary>Example of interaction with the `vdnp3_outstation` module </summary>\n\n     ```shell\n     (env) kefei@ubuntu-22:~/sandbox/dnp3-agent-sandbox$ python -m vdnp3_outstation --agent-identity dnp3_outstation\n     dnp3demo.run_outstation {\'command\': \'outstation\', \'outstation_ip=\': \'0.0.0.0\', \'port=\': 20000, \'master_id=\': 2, \'outstation_id=\': 1}\n     ms(1678770551216) INFO    manager - Starting thread (0)\n     2023-03-14 00:09:11,216\tcontrol_workflow_demo\tINFO\tConnection Config\n     2023-03-14 00:09:11,216\tcontrol_workflow_demo\tINFO\tConnection Config\n     2023-03-14 00:09:11,216\tcontrol_workflow_demo\tINFO\tConnection Config\n     ms(1678770551216) INFO    server - Listening on: 0.0.0.0:20000\n     2023-03-14 00:09:11,216\tcontrol_workflow_demo\tDEBUG\tInitialization complete. Outstation in command loop.\n     2023-03-14 00:09:11,216\tcontrol_workflow_demo\tDEBUG\tInitialization complete. Outstation in command loop.\n     2023-03-14 00:09:11,216\tcontrol_workflow_demo\tDEBUG\tInitialization complete. Outstation in command loop.\n     Connection error.\n     Connection Config {\'outstation_ip_str\': \'0.0.0.0\', \'port\': 20000, \'masterstation_id_int\': 2, \'outstation_id_int\': 1}\n     Start retry...\n     Connection error.\n     Connection Config {\'outstation_ip_str\': \'0.0.0.0\', \'port\': 20000, \'masterstation_id_int\': 2, \'outstation_id_int\': 1}\n     ms(1678770565247) INFO    server - Accepted connection from: 127.0.0.1\n     ==== Outstation Operation MENU ==================================\n     <ai> - update analog-input point value (for local reading)\n     <ao> - update analog-output point value (for local control)\n     <bi> - update binary-input point value (for local reading)\n     <bo> - update binary-output point value (for local control)\n     <dd> - display database\n     <dc> - display configuration\n     =================================================================\n      \n      \n     ======== Your Input Here: ==(DNP3 OutStation Agent)======\n     ai\n     You chose <ai> - update analog-input point value (for local reading)\n     Type in <float> and <index>. Separate with space, then hit ENTER.\n     Type \'q\', \'quit\', \'exit\' to main menu.\n      \n      \n     ======== Your Input Here: ==(DNP3 OutStation Agent)======\n     0.1212 0\n     {\'Analog\': {0: 0.1212, 1: None, 2: None, 3: None, 4: None, 5: None, 6: None, 7: None, 8: None, 9: None}}\n     You chose <ai> - update analog-input point value (for local reading)\n     Type in <float> and <index>. Separate with space, then hit ENTER.\n     Type \'q\', \'quit\', \'exit\' to main menu.\n      \n      \n     ======== Your Input Here: ==(DNP3 OutStation Agent)======\n     1.2323 1\n     {\'Analog\': {0: 0.1212, 1: 1.2323, 2: None, 3: None, 4: None, 5: None, 6: None, 7: None, 8: None, 9: None}}\n     You chose <ai> - update analog-input point value (for local reading)\n     Type in <float> and <index>. Separate with space, then hit ENTER.\n     Type \'q\', \'quit\', \'exit\' to main menu.\n      \n      \n     ======== Your Input Here: ==(DNP3 OutStation Agent)======\n     ```\n     </details>\n\n# Development\n\nPlease see the following for contributing\nguidelines [contributing](https://github.com/eclipse-volttron/volttron-core/blob/develop/CONTRIBUTING.md).\n\nPlease see the following helpful guide\nabout [developing modular VOLTTRON agents](https://github.com/eclipse-volttron/volttron-core/blob/develop/DEVELOPING_ON_MODULAR.md)\n\n# Disclaimer Notice\n\nThis material was prepared as an account of work sponsored by an agency of the\nUnited States Government. Neither the United States Government nor the United\nStates Department of Energy, nor Battelle, nor any of their employees, nor any\njurisdiction or organization that has cooperated in the development of these\nmaterials, makes any warranty, express or implied, or assumes any legal\nliability or responsibility for the accuracy, completeness, or usefulness or any\ninformation, apparatus, product, software, or process disclosed, or represents\nthat its use would not infringe privately owned rights.\n\nReference herein to any specific commercial product, process, or service by\ntrade name, trademark, manufacturer, or otherwise does not necessarily\nconstitute or imply its endorsement, recommendation, or favoring by the United\nStates Government or any agency thereof, or Battelle Memorial Institute. The\nviews and opinions of authors expressed herein do not necessarily state or\nreflect those of the United States Government or any agency thereof.\n',
+     'author': 'Kefei Mo',
+     'author_email': 'kefei.mo@pnnl.gov',
+     'maintainer': 'Volttron Team',
+     'maintainer_email': 'volttron@pnnl.gov',
+     'url': 'https://github.com/eclipse-volttron/volttron-dnp3-outstation',
+```
+
+#### html2text {}
+
+```diff
+@@ -1,14 +1,14 @@
+ # -*- coding: utf-8 -*- from setuptools import setup package_dir = \ {'':
+ 'src', 'vdnp3_outstation': 'src/vdnp3_outstation'} packages = \
+ ['dnp3_outstation', 'vdnp3_outstation'] package_data = \ {'': ['*']}
+ install_requires = \ ['dnp3-python>=0.2.3b3', 'volttron>=10.0.2rc0']
+ entry_points = \ {'console_scripts': ['vdnp3_outstation = '
+ 'vdnp3_outstation.run_volttron_dnp3_outstation_cli:main']} setup_kwargs =
+-{ 'name': 'volttron-dnp3-outstation', 'version': '0.1.1a0', 'description': 'A
++{ 'name': 'volttron-dnp3-outstation', 'version': '0.1.1a1', 'description': 'A
+ Volttron agent that acts as a dnp3 outstation.', 'long_description': '#
+ volttron-dnp3-outstation\n\n[//]: # (TODO: get the badges)\n\nDistributed
+ Network Protocol (DNP\nor [DNP3](https://en.wikipedia.org/wiki/DNP3))\nhas
+ achieved a large-scale acceptance since its introduction in 1993.
+ This\nprotocol is an immediately deployable solution for monitoring remote
+ sites because it was developed for communication of\ncritical infrastructure
+ status, allowing for reliable remote control.\n\nDNP3 is typically used between
+```
+
+### Comparing `volttron_dnp3_outstation-0.1.1a0/PKG-INFO` & `volttron_dnp3_outstation-0.1.1a1/PKG-INFO`
+
+ * *Files 0% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: volttron-dnp3-outstation
+-Version: 0.1.1a0
++Version: 0.1.1a1
+ Summary: A Volttron agent that acts as a dnp3 outstation.
+ Home-page: https://github.com/eclipse-volttron/volttron-dnp3-outstation
+ License: Apache-2.0
+ Keywords: volttron,agent,dnp3,outstation,application
+ Author: Kefei Mo
+ Author-email: kefei.mo@pnnl.gov
+ Maintainer: Volttron Team
+```
+
+#### html2text {}
+
+```diff
+@@ -1,8 +1,8 @@
+-Metadata-Version: 2.1 Name: volttron-dnp3-outstation Version: 0.1.1a0 Summary:
++Metadata-Version: 2.1 Name: volttron-dnp3-outstation Version: 0.1.1a1 Summary:
+ A Volttron agent that acts as a dnp3 outstation. Home-page: https://github.com/
+ eclipse-volttron/volttron-dnp3-outstation License: Apache-2.0 Keywords:
+ volttron,agent,dnp3,outstation,application Author: Kefei Mo Author-email:
+ kefei.mo@pnnl.gov Maintainer: Volttron Team Maintainer-email: volttron@pnnl.gov
+ Requires-Python: >=3.8,<4.0 Classifier: Development Status :: 3 - Alpha
+ Classifier: Intended Audience :: Developers Classifier: Intended Audience ::
+ Science/Research Classifier: License :: OSI Approved :: Apache Software License
+```
+

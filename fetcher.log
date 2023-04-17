@@ -18165,3 +18165,85 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 18:39:01] INFO root fetch - main [MainThread]: End processing [otree]: success
 [2023-04-17 18:39:13] INFO root fetch - main [MainThread]: End processing [cfn-lint]: success
 [2023-04-17 18:39:13] INFO root fetch - main [MainThread]: Store serial: [17741456]
+[2023-04-17 18:44:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17741456]
+[2023-04-17 18:44:22] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-04-17 18:44:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eth-decoder
+[2023-04-17 18:44:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hexqbot
+[2023-04-17 18:44:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nmodl-preprocessor
+[2023-04-17 18:44:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: agnmol
+[2023-04-17 18:44:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: localstack-core
+[2023-04-17 18:44:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: firemon-api
+[2023-04-17 18:44:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: carate
+[2023-04-17 18:44:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: quilt-py
+[2023-04-17 18:44:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: volttron-dnp3-outstation
+[2023-04-17 18:44:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-rq-scheduler
+[2023-04-17 18:44:22] INFO root fetch - processPackages [agnmol]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-04-17 18:44:22] INFO root fetch - processPackages [quilt-py]: New version: [0.4.1] Old Version: [0.3.1]
+[2023-04-17 18:44:22] INFO root fetch - processPackages [localstack-core]: New version: [2.0.3.dev20230417142558] Old Version: [2.0.2.dev20230417135155]
+[2023-04-17 18:44:22] INFO root fetch - processPackages [quilt-py]: Downloading https://files.pythonhosted.org/packages/9d/26/acf24420a21194283817cb2d8962be1304340f4bafbc2f90e81efc12100c/quilt_py-0.3.1.tar.gz
+[2023-04-17 18:44:22] WARNING root fetch - processPackages [hexqbot]: Skipping, unable to determine old version
+[2023-04-17 18:44:22] INFO root fetch - processPackages [hexqbot]: Start processing: text-generation
+[2023-04-17 18:44:22] INFO root fetch - main [MainThread]: End processing [hexqbot] error
+[2023-04-17 18:44:22] WARNING root fetch - processPackages [nmodl-preprocessor]: Skipping, unable to determine old version
+[2023-04-17 18:44:22] INFO root fetch - processPackages [nmodl-preprocessor]: Start processing: class-files
+[2023-04-17 18:44:22] INFO root fetch - main [MainThread]: End processing [nmodl-preprocessor] error
+[2023-04-17 18:44:22] WARNING root fetch - processPackages [eth-decoder]: Skipping, unable to determine old version
+[2023-04-17 18:44:22] INFO root fetch - processPackages [volttron-dnp3-outstation]: New version: [0.1.1a1] Old Version: [0.1.1a0]
+[2023-04-17 18:44:22] INFO root fetch - processPackages [eth-decoder]: Start processing: hexbot
+[2023-04-17 18:44:22] INFO root fetch - main [MainThread]: End processing [eth-decoder] error
+[2023-04-17 18:44:22] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-04-17 18:44:22] INFO root fetch - processPackages [firemon-api]: New version: [0.2.9] Old Version: [0.2.10]
+[2023-04-17 18:44:22] INFO root fetch - processPackages [django-rq-scheduler]: New version: [2023.5.0b4] Old Version: [2023.5.0b3]
+[2023-04-17 18:44:22] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.0.2.dev20230417135155.tar.gz tmp/localstack-core-2.0.3.dev20230417142558.tar.gz --markdown 20230417/l/localstack-core/2.0.2.dev20230417135155-2.0.3.dev20230417142558/diff.md --exclude *.pyd
+[2023-04-17 18:44:22] INFO root fetch - processPackages [carate]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-04-17 18:44:22] INFO root fetch - processPackages [agnmol]: Downloading https://files.pythonhosted.org/packages/20/48/713c9c47b5785106b0617417e54ec99ece59e98a46664163c89829655e35/agnmol-1.0.8.tar.gz
+[2023-04-17 18:44:22] INFO root fetch - processPackages [text-generation]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-04-17 18:44:22] INFO root fetch - processPackages [quilt-py]: executing diffoscope
+[2023-04-17 18:44:22] INFO root fetch - processPackages [quilt-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quilt_py-0.3.1.tar.gz tmp/quilt_py-0.4.1.tar.gz --markdown 20230417/q/quilt-py/0.3.1-0.4.1/diff.md --exclude *.pyd
+[2023-04-17 18:44:22] WARNING root fetch - processPackages [class-files]: Skipping, unable to determine old version
+[2023-04-17 18:44:22] INFO root fetch - processPackages [class-files]: Start processing: polyfasNast
+[2023-04-17 18:44:22] INFO root fetch - main [MainThread]: End processing [class-files] error
+[2023-04-17 18:44:22] WARNING root fetch - processPackages [hexbot]: Skipping, unable to determine old version
+[2023-04-17 18:44:22] INFO root fetch - processPackages [hexbot]: Start processing: may-py2023
+[2023-04-17 18:44:22] INFO root fetch - main [MainThread]: End processing [hexbot] error
+[2023-04-17 18:44:22] INFO root fetch - processPackages [firemon-api]: Downloading https://files.pythonhosted.org/packages/5e/a7/fc22fa3301c9d1a55e6e6c277c257498adee06c4f7fe00204a6e65389878/firemon-api-0.2.10.tar.gz
+[2023-04-17 18:44:22] INFO root fetch - processPackages [volttron-dnp3-outstation]: Downloading https://files.pythonhosted.org/packages/a6/99/4822fb3be48df501e6d0bb095102aa79d1249e48f104d3b35e0ed45a3ed3/volttron_dnp3_outstation-0.1.1a0.tar.gz
+[2023-04-17 18:44:22] INFO root fetch - processPackages [agnmol]: executing diffoscope
+[2023-04-17 18:44:22] INFO root fetch - processPackages [agnmol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agnmol-1.0.7.tar.gz tmp/agnmol-1.0.8.tar.gz --markdown 20230417/a/agnmol/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-04-17 18:44:22] WARNING root fetch - processPackages [polyfasNast]: Skipping, unable to determine old version
+[2023-04-17 18:44:22] INFO root fetch - processPackages [polyfasNast]: Start processing: py3status
+[2023-04-17 18:44:22] WARNING root fetch - processPackages [may-py2023]: Skipping, unable to determine old version
+[2023-04-17 18:44:22] INFO root fetch - main [MainThread]: End processing [polyfasNast] error
+[2023-04-17 18:44:22] INFO root fetch - main [MainThread]: End processing [may-py2023] error
+[2023-04-17 18:44:23] INFO root fetch - processPackages [text-generation]: Downloading https://files.pythonhosted.org/packages/9b/61/d921473f4c1ea90d4ddd368fcb37c46b9dc44a829937f96c579c199a07e2/text-generation-0.4.1.tar.gz
+[2023-04-17 18:44:23] INFO root fetch - processPackages [django-rq-scheduler]: Downloading https://files.pythonhosted.org/packages/ac/fa/8aa048960de26ea1d3c26a8cade6eabec86589ac316c3d155afaaa29c1a4/django_rq_scheduler-2023.5.0b3.tar.gz
+[2023-04-17 18:44:23] INFO root fetch - processPackages [py3status]: New version: [3.9] Old Version: [3.8]
+[2023-04-17 18:44:23] INFO root fetch - processPackages [carate]: Downloading https://files.pythonhosted.org/packages/fa/13/418f87351688b66a900259ada5412eefec626a0a172308a78dc1a059da2d/carate-0.3.8.tar.gz
+[2023-04-17 18:44:23] INFO root fetch - processPackages [volttron-dnp3-outstation]: Downloading https://files.pythonhosted.org/packages/03/e3/6f833e28395797f6c20a8c546d4e23ff8ae315d4083bcb92f017ba5513b8/volttron_dnp3_outstation-0.1.1a1.tar.gz
+[2023-04-17 18:44:23] INFO root fetch - processPackages [firemon-api]: Downloading https://files.pythonhosted.org/packages/00/45/f39cb052d11b00e5d9b71c2c00cca052e44f8d7e80b03d7bc7a9fc730308/firemon-api-0.2.9.tar.gz
+[2023-04-17 18:44:23] INFO root fetch - processPackages [text-generation]: Downloading https://files.pythonhosted.org/packages/19/2f/025c0e2d6f4488c5ba3fc29c9ffcf7c022c1136c5e81e8615e4f84768c3b/text-generation-0.5.0.tar.gz
+[2023-04-17 18:44:23] INFO root fetch - processPackages [django-rq-scheduler]: Downloading https://files.pythonhosted.org/packages/e1/20/8d2f07ec2ea60ac642d8ebe35c63a17c81e747c55c6a086e1cb3d50fad72/django_rq_scheduler-2023.5.0b4.tar.gz
+[2023-04-17 18:44:23] INFO root fetch - processPackages [carate]: executing diffoscope
+[2023-04-17 18:44:23] INFO root fetch - processPackages [carate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carate-0.3.7.tar.gz tmp/carate-0.3.8.tar.gz --markdown 20230417/c/carate/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-04-17 18:44:23] INFO root fetch - processPackages [py3status]: Downloading https://files.pythonhosted.org/packages/19/1b/52fc1b6956db0638a56292ce00537545d19b9a1d30a156a2b416675e4ac3/py3status-3.8.tar.gz
+[2023-04-17 18:44:23] INFO root fetch - processPackages [volttron-dnp3-outstation]: executing diffoscope
+[2023-04-17 18:44:23] INFO root fetch - processPackages [volttron-dnp3-outstation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volttron_dnp3_outstation-0.1.1a0.tar.gz tmp/volttron_dnp3_outstation-0.1.1a1.tar.gz --markdown 20230417/v/volttron-dnp3-outstation/0.1.1a0-0.1.1a1/diff.md --exclude *.pyd
+[2023-04-17 18:44:23] INFO root fetch - processPackages [firemon-api]: executing diffoscope
+[2023-04-17 18:44:23] INFO root fetch - processPackages [firemon-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firemon-api-0.2.10.tar.gz tmp/firemon-api-0.2.9.tar.gz --markdown 20230417/f/firemon-api/0.2.10-0.2.9/diff.md --exclude *.pyd
+[2023-04-17 18:44:23] INFO root fetch - processPackages [django-rq-scheduler]: executing diffoscope
+[2023-04-17 18:44:23] INFO root fetch - processPackages [django-rq-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_rq_scheduler-2023.5.0b3.tar.gz tmp/django_rq_scheduler-2023.5.0b4.tar.gz --markdown 20230417/d/django-rq-scheduler/2023.5.0b3-2023.5.0b4/diff.md --exclude *.pyd
+[2023-04-17 18:44:23] INFO root fetch - processPackages [text-generation]: executing diffoscope
+[2023-04-17 18:44:23] INFO root fetch - processPackages [text-generation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text-generation-0.4.1.tar.gz tmp/text-generation-0.5.0.tar.gz --markdown 20230417/t/text-generation/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-04-17 18:44:23] INFO root fetch - processPackages [py3status]: Downloading https://files.pythonhosted.org/packages/44/e5/b7a7716840f5b564694737b3d09ed01ccbff46f37c60a2ab6f286709463b/py3status-3.9-py3-none-any.whl
+[2023-04-17 18:44:24] INFO root fetch - main [MainThread]: End processing [agnmol]: success
+[2023-04-17 18:44:24] INFO root fetch - main [MainThread]: End processing [quilt-py]: success
+[2023-04-17 18:44:24] INFO root fetch - processPackages [py3status]: executing diffoscope
+[2023-04-17 18:44:24] INFO root fetch - processPackages [py3status]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3status-3.8.tar.gz tmp/py3status-3.9-py3-none-any.whl.zip --markdown 20230417/p/py3status/3.8-3.9/diff.md --exclude *.pyd
+[2023-04-17 18:44:24] INFO root fetch - main [MainThread]: End processing [text-generation]: success
+[2023-04-17 18:44:24] INFO root fetch - main [MainThread]: End processing [carate]: success
+[2023-04-17 18:44:25] INFO root fetch - main [MainThread]: End processing [volttron-dnp3-outstation]: success
+[2023-04-17 18:44:25] INFO root fetch - main [MainThread]: End processing [py3status]: success
+[2023-04-17 18:44:25] INFO root fetch - main [MainThread]: End processing [firemon-api]: success
+[2023-04-17 18:44:25] INFO root fetch - main [MainThread]: End processing [django-rq-scheduler]: success
+[2023-04-17 18:44:28] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-04-17 18:44:28] INFO root fetch - main [MainThread]: Store serial: [17741518]
