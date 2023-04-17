@@ -20983,3 +20983,239 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-17 21:17:13] INFO root fetch - main [MainThread]: End processing [pyamg]: success
 [2023-04-17 21:19:04] INFO root fetch - main [MainThread]: End processing [gojsonnet]: success
 [2023-04-17 21:19:04] INFO root fetch - main [MainThread]: Store serial: [17743272]
+[2023-04-17 21:24:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17743272]
+[2023-04-17 21:24:31] INFO root fetch - main [MainThread]: Found 38 changed packages
+[2023-04-17 21:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: grai-source-bigquery
+[2023-04-17 21:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: grai-source-fivetran
+[2023-04-17 21:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: grai-source-flat-file
+[2023-04-17 21:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: assemblyline-service-client
+[2023-04-17 21:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: assemblyline-service-server
+[2023-04-17 21:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: assemblyline-ui
+[2023-04-17 21:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: assemblyline-v4-service
+[2023-04-17 21:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: assemblyline
+[2023-04-17 21:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: assemblyline-core
+[2023-04-17 21:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: grai-source-dbt
+[2023-04-17 21:24:32] INFO root fetch - processPackages [grai-source-fivetran]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-17 21:24:32] INFO root fetch - processPackages [grai-source-flat-file]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-17 21:24:32] INFO root fetch - processPackages [grai-source-dbt]: New version: [0.2.7] Old Version: [0.2.6a0]
+[2023-04-17 21:24:32] INFO root fetch - processPackages [grai-source-bigquery]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-17 21:24:32] INFO root fetch - processPackages [assemblyline-service-client]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-04-17 21:24:32] INFO root fetch - processPackages [assemblyline]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-04-17 21:24:32] INFO root fetch - processPackages [assemblyline-service-server]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-04-17 21:24:32] INFO root fetch - processPackages [assemblyline-v4-service]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-04-17 21:24:32] INFO root fetch - processPackages [assemblyline-ui]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-04-17 21:24:32] INFO root fetch - processPackages [grai-source-fivetran]: Downloading https://files.pythonhosted.org/packages/13/66/f0c6dbec1090a9b74cd174b72448a6522934213a24f13d14e0cda8cee3c6/grai_source_fivetran-0.0.2.tar.gz
+[2023-04-17 21:24:32] INFO root fetch - processPackages [assemblyline-core]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-04-17 21:24:32] INFO root fetch - processPackages [grai-source-dbt]: Downloading https://files.pythonhosted.org/packages/50/e8/7517ef985bbb4292365012a15de2eb41e01ca1cbdb25ee7d06fcb2ef9f68/grai_source_dbt-0.2.6a0.tar.gz
+[2023-04-17 21:24:32] INFO root fetch - processPackages [grai-source-flat-file]: Downloading https://files.pythonhosted.org/packages/eb/e2/7a2c482ab84e82b04df3ec28356c46463a5f09a077bccaf495b30bf1f932/grai_source_flat_file-0.0.6.tar.gz
+[2023-04-17 21:24:32] INFO root fetch - processPackages [assemblyline-service-client]: executing diffoscope
+[2023-04-17 21:24:32] INFO root fetch - processPackages [assemblyline-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_client-4.4.1.dev8-py3-none-any.whl.zip tmp/assemblyline_service_client-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230417/a/assemblyline-service-client/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-04-17 21:24:32] INFO root fetch - processPackages [grai-source-flat-file]: Downloading https://files.pythonhosted.org/packages/e4/ac/3f4f333b10eb2512a4cd9db2e3906f7012751277666ac9a37b055bd266b5/grai_source_flat_file-0.0.7.tar.gz
+[2023-04-17 21:24:32] INFO root fetch - processPackages [grai-source-bigquery]: executing diffoscope
+[2023-04-17 21:24:32] INFO root fetch - processPackages [grai-source-bigquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grai_source_bigquery-0.0.2.tar.gz tmp/grai_source_bigquery-0.0.3.tar.gz --markdown 20230417/g/grai-source-bigquery/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-17 21:24:32] INFO root fetch - processPackages [grai-source-fivetran]: Downloading https://files.pythonhosted.org/packages/c0/bc/6ae99db3e24ff5d2683ee2966be265f46bd405f9d8a3a6f7522c8b6dcc3b/grai_source_fivetran-0.0.3.tar.gz
+[2023-04-17 21:24:32] INFO root fetch - processPackages [grai-source-dbt]: Downloading https://files.pythonhosted.org/packages/26/fb/b5513ae2386fbbcd672a56eb91044709526942b47194b397417447fcf959/grai_source_dbt-0.2.7.tar.gz
+[2023-04-17 21:24:32] INFO root fetch - processPackages [assemblyline-service-server]: executing diffoscope
+[2023-04-17 21:24:32] INFO root fetch - processPackages [assemblyline-service-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_server-4.4.1.dev8-py3-none-any.whl.zip tmp/assemblyline_service_server-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230417/a/assemblyline-service-server/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-04-17 21:24:32] INFO root fetch - processPackages [assemblyline-v4-service]: executing diffoscope
+[2023-04-17 21:24:32] INFO root fetch - processPackages [assemblyline-v4-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_v4_service-4.4.1.dev8-py3-none-any.whl.zip tmp/assemblyline_v4_service-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230417/a/assemblyline-v4-service/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-04-17 21:24:32] INFO root fetch - processPackages [assemblyline-core]: executing diffoscope
+[2023-04-17 21:24:32] INFO root fetch - processPackages [assemblyline-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-core-4.4.1.dev8.tar.gz tmp/assemblyline-core-4.4.1.dev9.tar.gz --markdown 20230417/a/assemblyline-core/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-04-17 21:24:32] INFO root fetch - processPackages [grai-source-flat-file]: executing diffoscope
+[2023-04-17 21:24:32] INFO root fetch - processPackages [grai-source-flat-file]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grai_source_flat_file-0.0.6.tar.gz tmp/grai_source_flat_file-0.0.7.tar.gz --markdown 20230417/g/grai-source-flat-file/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-17 21:24:32] INFO root fetch - processPackages [assemblyline-ui]: executing diffoscope
+[2023-04-17 21:24:32] INFO root fetch - processPackages [assemblyline-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_ui-4.4.1.dev8-py3-none-any.whl.zip tmp/assemblyline_ui-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230417/a/assemblyline-ui/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-04-17 21:24:32] INFO root fetch - processPackages [assemblyline]: executing diffoscope
+[2023-04-17 21:24:32] INFO root fetch - processPackages [assemblyline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-4.4.1.dev8.tar.gz tmp/assemblyline-4.4.1.dev9.tar.gz --markdown 20230417/a/assemblyline/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-04-17 21:24:32] INFO root fetch - processPackages [grai-source-fivetran]: executing diffoscope
+[2023-04-17 21:24:32] INFO root fetch - processPackages [grai-source-fivetran]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grai_source_fivetran-0.0.2.tar.gz tmp/grai_source_fivetran-0.0.3.tar.gz --markdown 20230417/g/grai-source-fivetran/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-17 21:24:32] INFO root fetch - processPackages [grai-source-dbt]: executing diffoscope
+[2023-04-17 21:24:32] INFO root fetch - processPackages [grai-source-dbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grai_source_dbt-0.2.6a0.tar.gz tmp/grai_source_dbt-0.2.7.tar.gz --markdown 20230417/g/grai-source-dbt/0.2.6a0-0.2.7/diff.md --exclude *.pyd
+[2023-04-17 21:24:34] INFO root fetch - processPackages [grai-source-bigquery]: Start processing: honeybee-radiance-postprocess
+[2023-04-17 21:24:34] INFO root fetch - main [MainThread]: End processing [grai-source-bigquery]: success
+[2023-04-17 21:24:34] INFO root fetch - processPackages [assemblyline-service-client]: Start processing: dragonfly-radiance
+[2023-04-17 21:24:34] INFO root fetch - main [MainThread]: End processing [assemblyline-service-client]: success
+[2023-04-17 21:24:34] INFO root fetch - processPackages [assemblyline-service-server]: Start processing: grai-source-mssql
+[2023-04-17 21:24:34] INFO root fetch - main [MainThread]: End processing [assemblyline-service-server]: success
+[2023-04-17 21:24:34] INFO root fetch - processPackages [honeybee-radiance-postprocess]: New version: [0.4.99] Old Version: [0.4.98]
+[2023-04-17 21:24:34] INFO root fetch - processPackages [dragonfly-radiance]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-17 21:24:34] INFO root fetch - processPackages [grai-source-mssql]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-17 21:24:34] INFO root fetch - processPackages [grai-source-flat-file]: Start processing: grai-source-mysql
+[2023-04-17 21:24:34] INFO root fetch - main [MainThread]: End processing [grai-source-flat-file]: success
+[2023-04-17 21:24:34] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Downloading https://files.pythonhosted.org/packages/b6/91/e656cf214b08dde444b27576e74fc06004fa6bbc0d5f04f1d6514eb05429/honeybee-radiance-postprocess-0.4.98.tar.gz
+[2023-04-17 21:24:34] INFO root fetch - processPackages [dragonfly-radiance]: Downloading https://files.pythonhosted.org/packages/dd/6c/7d5ffb363ba985b326d3b266d8eaea74bc6cc890eb733cc9e0cc127ccc55/dragonfly-radiance-0.2.8.tar.gz
+[2023-04-17 21:24:34] INFO root fetch - processPackages [grai-source-mssql]: Downloading https://files.pythonhosted.org/packages/f3/f5/0633e7d127e9db1cdf067d9cb7905a251bb324571c013cdb80ce8754367e/grai_source_mssql-0.0.6.tar.gz
+[2023-04-17 21:24:34] INFO root fetch - processPackages [grai-source-mysql]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 21:24:34] INFO root fetch - processPackages [assemblyline-core]: Start processing: grai-source-postgres
+[2023-04-17 21:24:34] INFO root fetch - main [MainThread]: End processing [assemblyline-core]: success
+[2023-04-17 21:24:34] INFO root fetch - processPackages [assemblyline-ui]: Start processing: ipfskvs
+[2023-04-17 21:24:34] INFO root fetch - main [MainThread]: End processing [assemblyline-ui]: success
+[2023-04-17 21:24:34] INFO root fetch - processPackages [grai-source-postgres]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-17 21:24:34] INFO root fetch - processPackages [grai-source-mysql]: Downloading https://files.pythonhosted.org/packages/31/b9/78a7d24625e2093d9caae859b87da16979222503e9213880c6f58845a397/grai_source_mysql-0.0.8.tar.gz
+[2023-04-17 21:24:34] INFO root fetch - processPackages [grai-source-mssql]: Downloading https://files.pythonhosted.org/packages/80/4d/94e37d108787c16c97177af1b60f07cb587c41f5bfb4b72b2fc2aa195a7a/grai_source_mssql-0.0.7.tar.gz
+[2023-04-17 21:24:34] INFO root fetch - processPackages [ipfskvs]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-17 21:24:34] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Downloading https://files.pythonhosted.org/packages/e0/41/5be881e0724bb4d271ee5bb707666eff4c4b9ca79bc8c67f7316687d2f67/honeybee-radiance-postprocess-0.4.99.tar.gz
+[2023-04-17 21:24:34] INFO root fetch - processPackages [dragonfly-radiance]: Downloading https://files.pythonhosted.org/packages/e9/01/706de1a3d81bb520c7a73e10a084040d9e5f37ff57b7defd9715a2c4018e/dragonfly-radiance-0.2.9.tar.gz
+[2023-04-17 21:24:34] INFO root fetch - processPackages [grai-source-postgres]: Downloading https://files.pythonhosted.org/packages/75/62/64f924e01357e7f8e6897d660ec5a1bd7c6ac4638e560534fd8da7a42f04/grai_source_postgres-0.1.8.tar.gz
+[2023-04-17 21:24:34] INFO root fetch - processPackages [honeybee-radiance-postprocess]: executing diffoscope
+[2023-04-17 21:24:34] INFO root fetch - processPackages [honeybee-radiance-postprocess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-radiance-postprocess-0.4.98.tar.gz tmp/honeybee-radiance-postprocess-0.4.99.tar.gz --markdown 20230417/h/honeybee-radiance-postprocess/0.4.98-0.4.99/diff.md --exclude *.pyd
+[2023-04-17 21:24:34] INFO root fetch - processPackages [ipfskvs]: Downloading https://files.pythonhosted.org/packages/53/2e/179979815eeef38bfe1b9846096744f6a354f04ec34e3189be535dcae409/ipfskvs-0.0.7.tar.gz
+[2023-04-17 21:24:34] INFO root fetch - processPackages [dragonfly-radiance]: executing diffoscope
+[2023-04-17 21:24:34] INFO root fetch - processPackages [dragonfly-radiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-radiance-0.2.8.tar.gz tmp/dragonfly-radiance-0.2.9.tar.gz --markdown 20230417/d/dragonfly-radiance/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-17 21:24:34] INFO root fetch - processPackages [grai-source-mssql]: executing diffoscope
+[2023-04-17 21:24:34] INFO root fetch - processPackages [grai-source-mssql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grai_source_mssql-0.0.6.tar.gz tmp/grai_source_mssql-0.0.7.tar.gz --markdown 20230417/g/grai-source-mssql/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-17 21:24:35] INFO root fetch - processPackages [grai-source-mysql]: Downloading https://files.pythonhosted.org/packages/84/27/51123a553dd5bfb28748bcd4c356d47c5d7021dec5ca93d920c0b4c0d21f/grai_source_mysql-0.0.9.tar.gz
+[2023-04-17 21:24:35] INFO root fetch - processPackages [grai-source-postgres]: Downloading https://files.pythonhosted.org/packages/d9/c3/053ad6c134151ee11af50edd6bcdbab63797a2e653695a28458085741337/grai_source_postgres-0.1.9.tar.gz
+[2023-04-17 21:24:35] INFO root fetch - processPackages [grai-source-mysql]: executing diffoscope
+[2023-04-17 21:24:35] INFO root fetch - processPackages [grai-source-mysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grai_source_mysql-0.0.8.tar.gz tmp/grai_source_mysql-0.0.9.tar.gz --markdown 20230417/g/grai-source-mysql/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 21:24:35] INFO root fetch - processPackages [ipfskvs]: Downloading https://files.pythonhosted.org/packages/b5/43/c8d61b909ed6e26e02a8a30da815a619d9a055b594ab15660474680ad94f/ipfskvs-0.0.8.tar.gz
+[2023-04-17 21:24:35] INFO root fetch - processPackages [grai-source-dbt]: Start processing: ax-env
+[2023-04-17 21:24:35] INFO root fetch - main [MainThread]: End processing [grai-source-dbt]: success
+[2023-04-17 21:24:35] INFO root fetch - processPackages [ipfskvs]: executing diffoscope
+[2023-04-17 21:24:35] INFO root fetch - processPackages [ipfskvs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipfskvs-0.0.7.tar.gz tmp/ipfskvs-0.0.8.tar.gz --markdown 20230417/i/ipfskvs/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-17 21:24:35] INFO root fetch - processPackages [grai-source-postgres]: executing diffoscope
+[2023-04-17 21:24:35] INFO root fetch - processPackages [grai-source-postgres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grai_source_postgres-0.1.8.tar.gz tmp/grai_source_postgres-0.1.9.tar.gz --markdown 20230417/g/grai-source-postgres/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-17 21:24:35] INFO root fetch - processPackages [ax-env]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-04-17 21:24:35] INFO root fetch - processPackages [grai-source-fivetran]: Start processing: abch-tree-sitter-solidity
+[2023-04-17 21:24:35] INFO root fetch - main [MainThread]: End processing [grai-source-fivetran]: success
+[2023-04-17 21:24:35] INFO root fetch - processPackages [ax-env]: Downloading https://files.pythonhosted.org/packages/89/1b/71b85037f5f66fc86e2392b40225d2f2cb752b40d94124204ca7903e9be1/ax_env-0.3.2.tar.gz
+[2023-04-17 21:24:35] INFO root fetch - processPackages [abch-tree-sitter-solidity]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-04-17 21:24:35] INFO root fetch - processPackages [assemblyline-v4-service]: Start processing: grai-source-snowflake
+[2023-04-17 21:24:35] INFO root fetch - main [MainThread]: End processing [assemblyline-v4-service]: success
+[2023-04-17 21:24:35] INFO root fetch - processPackages [grai-source-snowflake]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 21:24:35] INFO root fetch - processPackages [abch-tree-sitter-solidity]: Downloading https://files.pythonhosted.org/packages/4d/0d/b0542496cef36fd600ee3de4079ab36c2615fa5f06708eb484aebe734a83/abch_tree_sitter_solidity-1.0.6-py3-none-win_amd64.whl
+[2023-04-17 21:24:36] INFO root fetch - processPackages [ax-env]: Downloading https://files.pythonhosted.org/packages/ce/be/eed680526b96854f8b65be8348c87d415d8ab1230e05c754694377b8d895/ax_env-0.3.3.tar.gz
+[2023-04-17 21:24:36] INFO root fetch - processPackages [grai-source-snowflake]: Downloading https://files.pythonhosted.org/packages/6b/80/3ac3efc2b1f97bda4bd4758ddfa287d4bff64508d6c759421bb47b5d927f/grai_source_snowflake-0.0.8.tar.gz
+[2023-04-17 21:24:36] INFO root fetch - processPackages [dragonfly-radiance]: Start processing: scalene
+[2023-04-17 21:24:36] INFO root fetch - main [MainThread]: End processing [dragonfly-radiance]: success
+[2023-04-17 21:24:36] INFO root fetch - processPackages [ax-env]: executing diffoscope
+[2023-04-17 21:24:36] INFO root fetch - processPackages [ax-env]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ax_env-0.3.2.tar.gz tmp/ax_env-0.3.3.tar.gz --markdown 20230417/a/ax-env/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-04-17 21:24:36] INFO root fetch - processPackages [abch-tree-sitter-solidity]: Downloading https://files.pythonhosted.org/packages/c2/b1/d310cdf8813d6ff0be37c877aee9dc9441f46e87d716304d63e2733b007c/abch_tree_sitter_solidity-1.0.7-py3-none-win_amd64.whl
+[2023-04-17 21:24:36] INFO root fetch - processPackages [grai-source-mssql]: Start processing: charlink
+[2023-04-17 21:24:36] INFO root fetch - main [MainThread]: End processing [grai-source-mssql]: success
+[2023-04-17 21:24:36] INFO root fetch - processPackages [scalene]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-04-17 21:24:36] WARNING root fetch - processPackages [charlink]: Skipping, unable to determine old version
+[2023-04-17 21:24:36] INFO root fetch - processPackages [charlink]: Start processing: epythet
+[2023-04-17 21:24:36] INFO root fetch - main [MainThread]: End processing [charlink] error
+[2023-04-17 21:24:36] INFO root fetch - processPackages [abch-tree-sitter-solidity]: executing diffoscope
+[2023-04-17 21:24:36] INFO root fetch - processPackages [abch-tree-sitter-solidity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abch_tree_sitter_solidity-1.0.6-py3-none-win_amd64.whl.zip tmp/abch_tree_sitter_solidity-1.0.7-py3-none-win_amd64.whl.zip --markdown 20230417/a/abch-tree-sitter-solidity/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-04-17 21:24:36] INFO root fetch - processPackages [grai-source-mysql]: Start processing: simpleworkspace
+[2023-04-17 21:24:36] INFO root fetch - main [MainThread]: End processing [grai-source-mysql]: success
+[2023-04-17 21:24:36] INFO root fetch - processPackages [epythet]: New version: [0.0.9] Old Version: [0.0.81]
+[2023-04-17 21:24:36] INFO root fetch - processPackages [scalene]: Downloading https://files.pythonhosted.org/packages/43/ab/45ca7943477f8627b0d15cea1f42afda402436027789df3a57c1015fc12f/scalene-1.5.8.tar.gz
+[2023-04-17 21:24:36] INFO root fetch - processPackages [grai-source-snowflake]: Downloading https://files.pythonhosted.org/packages/f2/87/9fe93763b362cba570a74426e4e9f11d287431b4dda4423a869044d6ae27/grai_source_snowflake-0.0.9.tar.gz
+[2023-04-17 21:24:36] INFO root fetch - processPackages [simpleworkspace]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-04-17 21:24:36] INFO root fetch - processPackages [epythet]: Downloading https://files.pythonhosted.org/packages/82/74/020d7ea68543b98613385435b0ee7658b4543bd36ae26ab14903e4617561/epythet-0.0.81.tar.gz
+[2023-04-17 21:24:36] INFO root fetch - processPackages [grai-source-snowflake]: executing diffoscope
+[2023-04-17 21:24:36] INFO root fetch - processPackages [grai-source-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grai_source_snowflake-0.0.8.tar.gz tmp/grai_source_snowflake-0.0.9.tar.gz --markdown 20230417/g/grai-source-snowflake/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 21:24:36] INFO root fetch - processPackages [ipfskvs]: Start processing: sparkautomapper.fhir
+[2023-04-17 21:24:36] INFO root fetch - main [MainThread]: End processing [ipfskvs]: success
+[2023-04-17 21:24:36] INFO root fetch - processPackages [grai-source-postgres]: Start processing: dtale
+[2023-04-17 21:24:36] INFO root fetch - main [MainThread]: End processing [grai-source-postgres]: success
+[2023-04-17 21:24:36] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Start processing: pcleaner
+[2023-04-17 21:24:36] INFO root fetch - main [MainThread]: End processing [honeybee-radiance-postprocess]: success
+[2023-04-17 21:24:36] INFO root fetch - processPackages [sparkautomapper.fhir]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-17 21:24:36] INFO root fetch - processPackages [dtale]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-04-17 21:24:36] INFO root fetch - processPackages [epythet]: Downloading https://files.pythonhosted.org/packages/84/79/1e82a4523938330c35051b1e3c21e5177c16fe088cdf0a2babb0ac334837/epythet-0.0.9.tar.gz
+[2023-04-17 21:24:36] INFO root fetch - processPackages [pcleaner]: New version: [1.5.4] Old Version: [1.5.2]
+[2023-04-17 21:24:36] INFO root fetch - processPackages [simpleworkspace]: executing diffoscope
+[2023-04-17 21:24:36] INFO root fetch - processPackages [simpleworkspace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SimpleWorkspace-1.1.98-py3-none-any.whl.zip tmp/SimpleWorkspace-1.1.99-py3-none-any.whl.zip --markdown 20230417/s/simpleworkspace/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-04-17 21:24:37] INFO root fetch - processPackages [sparkautomapper.fhir]: Downloading https://files.pythonhosted.org/packages/0c/ce/d95cc2a8a8520a0f98c25ad5196102f4617fee65e01f95ede9b7bd2ac108/sparkautomapper.fhir-1.0.8.tar.gz
+[2023-04-17 21:24:37] INFO root fetch - processPackages [dtale]: Downloading https://files.pythonhosted.org/packages/c1/c6/ab5d1138d237eee2688e08ff5f5599aa2d13fed583836410991c5ce855bd/dtale-2.9.0.tar.gz
+[2023-04-17 21:24:37] INFO root fetch - processPackages [pcleaner]: Downloading https://files.pythonhosted.org/packages/9e/b7/4340c8fcab0a68066c046964e1e112555a24a9f9161388a86d366f044608/pcleaner-1.5.4.tar.gz
+[2023-04-17 21:24:37] INFO root fetch - processPackages [ax-env]: Start processing: lbt-dragonfly
+[2023-04-17 21:24:37] INFO root fetch - main [MainThread]: End processing [ax-env]: success
+[2023-04-17 21:24:37] INFO root fetch - processPackages [epythet]: executing diffoscope
+[2023-04-17 21:24:37] INFO root fetch - processPackages [epythet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epythet-0.0.81.tar.gz tmp/epythet-0.0.9.tar.gz --markdown 20230417/e/epythet/0.0.81-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 21:24:37] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-04-17 21:24:37] INFO root fetch - processPackages [pcleaner]: executing diffoscope
+[2023-04-17 21:24:37] INFO root fetch - processPackages [pcleaner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pcleaner-1.5.2.tar.gz tmp/pcleaner-1.5.4.tar.gz --markdown 20230417/p/pcleaner/1.5.2-1.5.4/diff.md --exclude *.pyd
+[2023-04-17 21:24:37] INFO root fetch - processPackages [sparkautomapper.fhir]: Downloading https://files.pythonhosted.org/packages/0f/c2/8a6fee28161fd52cda2c27ca776b4cec01f9c569607c10acaadb95ca8d2f/sparkautomapper.fhir-1.0.9.tar.gz
+[2023-04-17 21:24:37] WARNING root fetch - processPackages [dtale]: Skipping package: exceeds size limit 12406657>=10485760
+[2023-04-17 21:24:37] INFO root fetch - processPackages [dtale]: Start processing: pyquil
+[2023-04-17 21:24:37] INFO root fetch - main [MainThread]: End processing [dtale] error
+[2023-04-17 21:24:37] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2023-04-17 21:24:37] INFO root fetch - processPackages [pyquil]: New version: [4.0.0rc9] Old Version: [4.0.0rc8]
+[2023-04-17 21:24:37] INFO root fetch - processPackages [sparkautomapper.fhir]: executing diffoscope
+[2023-04-17 21:24:37] INFO root fetch - processPackages [sparkautomapper.fhir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparkautomapper.fhir-1.0.8.tar.gz tmp/sparkautomapper.fhir-1.0.9.tar.gz --markdown 20230417/s/sparkautomapper.fhir/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-17 21:24:37] INFO root fetch - processPackages [grai-source-snowflake]: Start processing: st-text-annotator
+[2023-04-17 21:24:37] INFO root fetch - main [MainThread]: End processing [grai-source-snowflake]: success
+[2023-04-17 21:24:37] INFO root fetch - processPackages [st-text-annotator]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-04-17 21:24:37] INFO root fetch - processPackages [st-text-annotator]: executing diffoscope
+[2023-04-17 21:24:37] INFO root fetch - processPackages [st-text-annotator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_text_annotator-0.2.0.tar.gz tmp/st_text_annotator-0.2.1.tar.gz --markdown 20230417/s/st-text-annotator/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-04-17 21:24:37] INFO root fetch - processPackages [pyquil]: Downloading https://files.pythonhosted.org/packages/d9/31/04bebe8a0e1e9f50a7c18106b7d8ade8b3377f99c6a2249e5a49105b59b4/pyquil-4.0.0rc8.tar.gz
+[2023-04-17 21:24:38] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2023-04-17 21:24:38] INFO root fetch - processPackages [scalene]: Downloading https://files.pythonhosted.org/packages/f8/9b/a4972cc34e6598ce0b7f3c270fea0a0e7e79bf309825885d831897377729/scalene-1.5.9.tar.gz
+[2023-04-17 21:24:38] INFO root fetch - processPackages [simpleworkspace]: Start processing: ansible-core
+[2023-04-17 21:24:38] INFO root fetch - main [MainThread]: End processing [simpleworkspace]: success
+[2023-04-17 21:24:38] INFO root fetch - processPackages [ansible-core]: New version: [2.15.0b2] Old Version: [2.15.0b1]
+[2023-04-17 21:24:38] INFO root fetch - processPackages [pyquil]: Downloading https://files.pythonhosted.org/packages/3f/f5/a07361d9cd9abaff042e646976f0046519493e9c310c03d2e627f3ff97e8/pyquil-4.0.0rc9.tar.gz
+[2023-04-17 21:24:38] INFO root fetch - processPackages [pyquil]: executing diffoscope
+[2023-04-17 21:24:38] INFO root fetch - processPackages [pyquil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyquil-4.0.0rc8.tar.gz tmp/pyquil-4.0.0rc9.tar.gz --markdown 20230417/p/pyquil/4.0.0rc8-4.0.0rc9/diff.md --exclude *.pyd
+[2023-04-17 21:24:38] INFO root fetch - processPackages [epythet]: Start processing: oarepo-model-builder-vocabularies
+[2023-04-17 21:24:38] INFO root fetch - main [MainThread]: End processing [epythet]: success
+[2023-04-17 21:24:38] INFO root fetch - processPackages [ansible-core]: Downloading https://files.pythonhosted.org/packages/67/94/40f60a7adc38b1bbf0413953146ecaaa5f73e90542f29c35bafabdeac9d3/ansible-core-2.15.0b1.tar.gz
+[2023-04-17 21:24:38] INFO root fetch - processPackages [abch-tree-sitter-solidity]: Start processing: st-ant-menu
+[2023-04-17 21:24:38] INFO root fetch - main [MainThread]: End processing [abch-tree-sitter-solidity]: success
+[2023-04-17 21:24:38] INFO root fetch - processPackages [st-ant-menu]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-17 21:24:38] WARNING root fetch - processPackages [ansible-core]: Skipping package: exceeds size limit 10959980>=10485760
+[2023-04-17 21:24:38] INFO root fetch - processPackages [ansible-core]: Start processing: router-log-preprocessor
+[2023-04-17 21:24:38] INFO root fetch - main [MainThread]: End processing [ansible-core] error
+[2023-04-17 21:24:38] INFO root fetch - processPackages [oarepo-model-builder-vocabularies]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-17 21:24:38] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2023-04-17 21:24:38] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20230417/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-04-17 21:24:38] INFO root fetch - processPackages [router-log-preprocessor]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-17 21:24:38] INFO root fetch - processPackages [st-ant-menu]: Downloading https://files.pythonhosted.org/packages/6d/cf/f1aece3460d14a6ca91a775145b6841d67172fbe8463ef47067514b4b3f3/st_ant_menu-0.0.5-py3-none-any.whl
+[2023-04-17 21:24:38] INFO root fetch - processPackages [oarepo-model-builder-vocabularies]: Downloading https://files.pythonhosted.org/packages/d1/6e/c33a37c52952f27adf538b72efce3fabeecc28796aa64346d889cffe145a/oarepo-model-builder-vocabularies-1.0.8.tar.gz
+[2023-04-17 21:24:38] INFO root fetch - processPackages [assemblyline]: Start processing: botocore
+[2023-04-17 21:24:38] INFO root fetch - main [MainThread]: End processing [assemblyline]: success
+[2023-04-17 21:24:38] INFO root fetch - processPackages [pcleaner]: Start processing: awscli
+[2023-04-17 21:24:38] INFO root fetch - main [MainThread]: End processing [pcleaner]: success
+[2023-04-17 21:24:39] INFO root fetch - processPackages [botocore]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-04-17 21:24:39] INFO root fetch - processPackages [oarepo-model-builder-vocabularies]: Downloading https://files.pythonhosted.org/packages/88/b4/fb9641bc77435ce2c1d1385002adc0ab292526c31745c2760e7a7e0261de/oarepo-model-builder-vocabularies-1.0.9.tar.gz
+[2023-04-17 21:24:39] INFO root fetch - processPackages [router-log-preprocessor]: Downloading https://files.pythonhosted.org/packages/f2/9b/db3acf157be16edc075da77f4a4ce00c842c14cd9380df3d3bacf071658f/router_log_preprocessor-0.1.5.tar.gz
+[2023-04-17 21:24:39] INFO root fetch - processPackages [awscli]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-04-17 21:24:39] INFO root fetch - processPackages [botocore]: Downloading https://files.pythonhosted.org/packages/cd/01/3bd0656f80c5afb2f0e09f09215178a501191aef9fff0a43b156cf1c9665/botocore-1.9.8.tar.gz
+[2023-04-17 21:24:39] INFO root fetch - processPackages [oarepo-model-builder-vocabularies]: executing diffoscope
+[2023-04-17 21:24:39] INFO root fetch - processPackages [oarepo-model-builder-vocabularies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-model-builder-vocabularies-1.0.8.tar.gz tmp/oarepo-model-builder-vocabularies-1.0.9.tar.gz --markdown 20230417/o/oarepo-model-builder-vocabularies/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-17 21:24:39] INFO root fetch - processPackages [router-log-preprocessor]: executing diffoscope
+[2023-04-17 21:24:39] INFO root fetch - processPackages [router-log-preprocessor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/router_log_preprocessor-0.1.4.tar.gz tmp/router_log_preprocessor-0.1.5.tar.gz --markdown 20230417/r/router-log-preprocessor/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-17 21:24:39] INFO root fetch - processPackages [st-ant-menu]: executing diffoscope
+[2023-04-17 21:24:39] INFO root fetch - processPackages [st-ant-menu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_ant_menu-0.0.4-py3-none-any.whl.zip tmp/st_ant_menu-0.0.5-py3-none-any.whl.zip --markdown 20230417/s/st-ant-menu/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-17 21:24:39] INFO root fetch - processPackages [awscli]: Downloading https://files.pythonhosted.org/packages/84/06/782193c5b3720ef9eff21fa2d4c6b7cab72ac635f9865449796fa78e9551/awscli-1.9.8.tar.gz
+[2023-04-17 21:24:39] INFO root fetch - processPackages [scalene]: executing diffoscope
+[2023-04-17 21:24:39] INFO root fetch - processPackages [scalene]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scalene-1.5.8.tar.gz tmp/scalene-1.5.9.tar.gz --markdown 20230417/s/scalene/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-04-17 21:24:39] INFO root fetch - processPackages [lbt-dragonfly]: Start processing: tupa123
+[2023-04-17 21:24:39] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2023-04-17 21:24:39] INFO root fetch - processPackages [tupa123]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-04-17 21:24:39] INFO root fetch - processPackages [tupa123]: executing diffoscope
+[2023-04-17 21:24:39] INFO root fetch - processPackages [tupa123]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tupa123-1.3.2.tar.gz tmp/tupa123-1.3.3.tar.gz --markdown 20230417/t/tupa123/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-04-17 21:24:39] INFO root fetch - processPackages [awscli]: Downloading https://files.pythonhosted.org/packages/03/ae/0ab53e9f7ac1eff217ca8355af05fe5fbdd9fd087e75a7abcda0c9179848/awscli-1.9.9.tar.gz
+[2023-04-17 21:24:40] INFO root fetch - processPackages [botocore]: Downloading https://files.pythonhosted.org/packages/58/63/da4e26f62f9cf5702bb82462ca688961afdf72123f071831ed927b19c7a0/botocore-1.9.9.tar.gz
+[2023-04-17 21:24:40] INFO root fetch - processPackages [pyquil]: Start processing: boto3
+[2023-04-17 21:24:40] INFO root fetch - main [MainThread]: End processing [pyquil]: success
+[2023-04-17 21:24:40] INFO root fetch - processPackages [boto3]: New version: [1.9.99] Old Version: [1.9.98]
+[2023-04-17 21:24:40] INFO root fetch - processPackages [awscli]: executing diffoscope
+[2023-04-17 21:24:40] INFO root fetch - processPackages [awscli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awscli-1.9.8.tar.gz tmp/awscli-1.9.9.tar.gz --markdown 20230417/a/awscli/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-04-17 21:24:40] INFO root fetch - processPackages [oarepo-model-builder-vocabularies]: Start processing: ansible-core
+[2023-04-17 21:24:40] INFO root fetch - main [MainThread]: End processing [oarepo-model-builder-vocabularies]: success
+[2023-04-17 21:24:40] INFO root fetch - processPackages [ansible-core]: New version: [2.15.0b2] Old Version: [2.15.0b1]
+[2023-04-17 21:24:40] INFO root fetch - processPackages [boto3]: Downloading https://files.pythonhosted.org/packages/95/51/f6788115251e93bb35a56196036aa225060105616d369a2b1a712f537e1e/boto3-1.9.98.tar.gz
+[2023-04-17 21:24:40] INFO root fetch - processPackages [ansible-core]: Downloading https://files.pythonhosted.org/packages/67/94/40f60a7adc38b1bbf0413953146ecaaa5f73e90542f29c35bafabdeac9d3/ansible-core-2.15.0b1.tar.gz
+[2023-04-17 21:24:40] WARNING root fetch - processPackages [ansible-core]: Skipping package: exceeds size limit 10959980>=10485760
+[2023-04-17 21:24:40] INFO root fetch - main [MainThread]: End processing [ansible-core] error
+[2023-04-17 21:24:40] INFO root fetch - main [MainThread]: End processing [router-log-preprocessor]: success
+[2023-04-17 21:24:40] INFO root fetch - processPackages [botocore]: executing diffoscope
+[2023-04-17 21:24:40] INFO root fetch - processPackages [botocore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-1.9.8.tar.gz tmp/botocore-1.9.9.tar.gz --markdown 20230417/b/botocore/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-04-17 21:24:40] INFO root fetch - processPackages [boto3]: Downloading https://files.pythonhosted.org/packages/a4/40/6b6504d54ab9fbb16030052d363568399b7678ac18dc233de23fe7ed1922/boto3-1.9.99.tar.gz
+[2023-04-17 21:24:41] INFO root fetch - main [MainThread]: End processing [st-ant-menu]: success
+[2023-04-17 21:24:41] INFO root fetch - main [MainThread]: End processing [tupa123]: success
+[2023-04-17 21:24:41] INFO root fetch - processPackages [boto3]: executing diffoscope
+[2023-04-17 21:24:41] INFO root fetch - processPackages [boto3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boto3-1.9.98.tar.gz tmp/boto3-1.9.99.tar.gz --markdown 20230417/b/boto3/1.9.98-1.9.99/diff.md --exclude *.pyd
+[2023-04-17 21:24:42] INFO root fetch - main [MainThread]: End processing [st-text-annotator]: success
+[2023-04-17 21:24:43] INFO root fetch - main [MainThread]: End processing [boto3]: success
+[2023-04-17 21:24:45] INFO root fetch - main [MainThread]: End processing [scalene]: success
+[2023-04-17 21:24:51] INFO root fetch - main [MainThread]: End processing [awscli]: success
+[2023-04-17 21:25:02] INFO root fetch - main [MainThread]: End processing [botocore]: success
+[2023-04-17 21:25:22] INFO root fetch - main [MainThread]: End processing [sparkautomapper.fhir]: success
+[2023-04-17 21:25:22] INFO root fetch - main [MainThread]: Store serial: [17743403]
