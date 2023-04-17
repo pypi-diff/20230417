@@ -3719,3 +3719,76 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 04:00:56] INFO root fetch - main [MainThread]: End processing [RiskQuantLib]: success
 [2023-04-17 04:00:58] INFO root fetch - main [MainThread]: End processing [spiderYa]: success
 [2023-04-17 04:00:58] INFO root fetch - main [MainThread]: Store serial: [17732753]
+[2023-04-17 04:06:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17732753]
+[2023-04-17 04:06:07] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-17 04:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: geomapdemo
+[2023-04-17 04:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vhdx-2-zvol
+[2023-04-17 04:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dcmetro
+[2023-04-17 04:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: langchain-utils
+[2023-04-17 04:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zepben.protobuf
+[2023-04-17 04:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ai-transform
+[2023-04-17 04:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ds4ml
+[2023-04-17 04:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: betterdata
+[2023-04-17 04:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pipeline-optimizer
+[2023-04-17 04:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tremolo
+[2023-04-17 04:06:07] INFO root fetch - processPackages [dcmetro]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-17 04:06:07] INFO root fetch - processPackages [geomapdemo]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-17 04:06:07] INFO root fetch - processPackages [pipeline-optimizer]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-17 04:06:07] INFO root fetch - processPackages [ds4ml]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-04-17 04:06:07] INFO root fetch - processPackages [vhdx-2-zvol]: New version: [0.4.1] Old Version: [0.4]
+[2023-04-17 04:06:07] INFO root fetch - processPackages [ai-transform]: New version: [0.30.8] Old Version: [0.30.7]
+[2023-04-17 04:06:07] INFO root fetch - processPackages [tremolo]: New version: [0.0.86] Old Version: [0.0.85]
+[2023-04-17 04:06:07] INFO root fetch - processPackages [betterdata]: New version: [23.0.1] Old Version: [22.1.0]
+[2023-04-17 04:06:07] INFO root fetch - processPackages [langchain-utils]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-17 04:06:07] INFO root fetch - processPackages [zepben.protobuf]: New version: [0.9.0b3] Old Version: [0.9.0b2]
+[2023-04-17 04:06:07] INFO root fetch - processPackages [dcmetro]: Downloading https://files.pythonhosted.org/packages/a3/80/b5833d3d573e2a80807368471c914d173194f6d2e54be3c82d5b94dddfc5/dcmetro-0.1.3.tar.gz
+[2023-04-17 04:06:07] INFO root fetch - processPackages [langchain-utils]: executing diffoscope
+[2023-04-17 04:06:07] INFO root fetch - processPackages [langchain-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_utils-0.3.8.tar.gz tmp/langchain_utils-0.3.9.tar.gz --markdown 20230417/l/langchain-utils/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-17 04:06:07] INFO root fetch - processPackages [ds4ml]: Downloading https://files.pythonhosted.org/packages/34/44/46069a6cec177ac4d0a61bc46fa5420ee1f2c8fe87742264c22e09c849c5/ds4ml-0.3.2.tar.gz
+[2023-04-17 04:06:07] INFO root fetch - processPackages [vhdx-2-zvol]: Downloading https://files.pythonhosted.org/packages/00/6c/32d8236f38b9ff52a64a11f9f165b5e23fd6bc9a77dec86a21f1df925511/vhdx_2_zvol-0.4.1.tar.gz
+[2023-04-17 04:06:07] INFO root fetch - processPackages [pipeline-optimizer]: Downloading https://files.pythonhosted.org/packages/06/b3/9a74b06ade78854146f60b87969a2f1a8dd9f24117a8f24784f0dda42bc9/pipeline_optimizer-0.1.3.tar.gz
+[2023-04-17 04:06:07] INFO root fetch - processPackages [zepben.protobuf]: Downloading https://files.pythonhosted.org/packages/e7/f9/98a738ec69d1cf6c1169c9e0e98d520ed5a5943e9911bce5201611265f81/zepben.protobuf-0.9.0b2-py3-none-any.whl
+[2023-04-17 04:06:07] INFO root fetch - processPackages [betterdata]: Downloading https://files.pythonhosted.org/packages/ec/2b/01a9aa17233c2683e923478229ba7fccce4b2f80787f5ca45409b1b99247/betterdata-22.1.0.tar.gz
+[2023-04-17 04:06:07] INFO root fetch - processPackages [tremolo]: Downloading https://files.pythonhosted.org/packages/10/61/de8725830e6dbe2f37175595edf95d468f74390ed258d7a121cd94552d27/tremolo-0.0.86.tar.gz
+[2023-04-17 04:06:07] INFO root fetch - processPackages [vhdx-2-zvol]: executing diffoscope
+[2023-04-17 04:06:07] INFO root fetch - processPackages [vhdx-2-zvol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vhdx_2_zvol-0.4.tar.gz tmp/vhdx_2_zvol-0.4.1.tar.gz --markdown 20230417/v/vhdx-2-zvol/0.4-0.4.1/diff.md --exclude *.pyd
+[2023-04-17 04:06:07] INFO root fetch - processPackages [tremolo]: executing diffoscope
+[2023-04-17 04:06:07] INFO root fetch - processPackages [tremolo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tremolo-0.0.85.tar.gz tmp/tremolo-0.0.86.tar.gz --markdown 20230417/t/tremolo/0.0.85-0.0.86/diff.md --exclude *.pyd
+[2023-04-17 04:06:07] INFO root fetch - processPackages [ai-transform]: Downloading https://files.pythonhosted.org/packages/84/00/e2b3549a00d60762396b11ce18df67c8758bcf5f7add6bf1e6d345b81121/ai_transform-0.30.8.tar.gz
+[2023-04-17 04:06:07] INFO root fetch - processPackages [geomapdemo]: Downloading https://files.pythonhosted.org/packages/f5/b6/bd29e9e5e20c4212ebf076351b7d4e5ff97b60601b0ec1b4176e920512c2/geomapdemo-0.1.3.tar.gz
+[2023-04-17 04:06:07] INFO root fetch - processPackages [pipeline-optimizer]: executing diffoscope
+[2023-04-17 04:06:07] INFO root fetch - processPackages [pipeline-optimizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipeline_optimizer-0.1.2.tar.gz tmp/pipeline_optimizer-0.1.3.tar.gz --markdown 20230417/p/pipeline-optimizer/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-17 04:06:07] INFO root fetch - processPackages [dcmetro]: Downloading https://files.pythonhosted.org/packages/b1/29/b020edf046a7eaee13d1073e48042fb01245fb63ce5ac22acb8638ae97fe/dcmetro-0.1.4.tar.gz
+[2023-04-17 04:06:07] INFO root fetch - processPackages [geomapdemo]: executing diffoscope
+[2023-04-17 04:06:07] INFO root fetch - processPackages [geomapdemo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geomapdemo-0.1.2.tar.gz tmp/geomapdemo-0.1.3.tar.gz --markdown 20230417/g/geomapdemo/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-17 04:06:07] INFO root fetch - processPackages [ai-transform]: executing diffoscope
+[2023-04-17 04:06:07] INFO root fetch - processPackages [ai-transform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_transform-0.30.7.tar.gz tmp/ai_transform-0.30.8.tar.gz --markdown 20230417/a/ai-transform/0.30.7-0.30.8/diff.md --exclude *.pyd
+[2023-04-17 04:06:07] INFO root fetch - processPackages [ds4ml]: Downloading https://files.pythonhosted.org/packages/32/6a/9946ce11057f3dbe52ee3b24ad1e37ad009c8601eec935642ed8b6ed1cf0/ds4ml-0.3.3.tar.gz
+[2023-04-17 04:06:07] INFO root fetch - processPackages [dcmetro]: executing diffoscope
+[2023-04-17 04:06:07] INFO root fetch - processPackages [dcmetro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcmetro-0.1.3.tar.gz tmp/dcmetro-0.1.4.tar.gz --markdown 20230417/d/dcmetro/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-17 04:06:07] INFO root fetch - processPackages [betterdata]: Downloading https://files.pythonhosted.org/packages/93/72/0de3bf8291bcd7c0decd44d703df6ba2dd72a7e674c0ba3bd2a8e6d29f47/betterdata-23.0.1.tar.gz
+[2023-04-17 04:06:07] INFO root fetch - processPackages [ds4ml]: executing diffoscope
+[2023-04-17 04:06:07] INFO root fetch - processPackages [ds4ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ds4ml-0.3.2.tar.gz tmp/ds4ml-0.3.3.tar.gz --markdown 20230417/d/ds4ml/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-04-17 04:06:07] INFO root fetch - processPackages [zepben.protobuf]: Downloading https://files.pythonhosted.org/packages/ea/50/751033a2cb3fef1cb800a48f0d63bf756c6cdb739fe466ebcae674b82ea8/zepben.protobuf-0.9.0b3-py3-none-any.whl
+[2023-04-17 04:06:07] INFO root fetch - processPackages [betterdata]: executing diffoscope
+[2023-04-17 04:06:07] INFO root fetch - processPackages [betterdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betterdata-22.1.0.tar.gz tmp/betterdata-23.0.1.tar.gz --markdown 20230417/b/betterdata/22.1.0-23.0.1/diff.md --exclude *.pyd
+[2023-04-17 04:06:08] INFO root fetch - processPackages [zepben.protobuf]: executing diffoscope
+[2023-04-17 04:06:08] INFO root fetch - processPackages [zepben.protobuf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zepben.protobuf-0.9.0b2-py3-none-any.whl.zip tmp/zepben.protobuf-0.9.0b3-py3-none-any.whl.zip --markdown 20230417/z/zepben.protobuf/0.9.0b2-0.9.0b3/diff.md --exclude *.pyd
+[2023-04-17 04:06:09] INFO root fetch - processPackages [langchain-utils]: Start processing: easyselect
+[2023-04-17 04:06:09] INFO root fetch - main [MainThread]: End processing [langchain-utils]: success
+[2023-04-17 04:06:09] INFO root fetch - main [MainThread]: End processing [vhdx-2-zvol]: success
+[2023-04-17 04:06:09] INFO root fetch - processPackages [easyselect]: New version: [23.0.0] Old Version: [22.1.0]
+[2023-04-17 04:06:09] INFO root fetch - main [MainThread]: End processing [tremolo]: success
+[2023-04-17 04:06:09] INFO root fetch - main [MainThread]: End processing [pipeline-optimizer]: success
+[2023-04-17 04:06:09] INFO root fetch - main [MainThread]: End processing [geomapdemo]: success
+[2023-04-17 04:06:09] INFO root fetch - processPackages [easyselect]: Downloading https://files.pythonhosted.org/packages/ff/90/0e6f558c205100a343b7966ba8d51e98421703193a76cfc7d9aaa0bf095b/easyselect-22.1.0.tar.gz
+[2023-04-17 04:06:09] INFO root fetch - main [MainThread]: End processing [betterdata]: success
+[2023-04-17 04:06:09] INFO root fetch - main [MainThread]: End processing [ds4ml]: success
+[2023-04-17 04:06:09] INFO root fetch - processPackages [easyselect]: Downloading https://files.pythonhosted.org/packages/62/73/78173fe0679df7ce85900a8e44ed332a9338fcd96fcb707e46bd3e96119d/easyselect-23.0.0.tar.gz
+[2023-04-17 04:06:09] INFO root fetch - processPackages [easyselect]: executing diffoscope
+[2023-04-17 04:06:09] INFO root fetch - processPackages [easyselect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyselect-22.1.0.tar.gz tmp/easyselect-23.0.0.tar.gz --markdown 20230417/e/easyselect/22.1.0-23.0.0/diff.md --exclude *.pyd
+[2023-04-17 04:06:09] INFO root fetch - main [MainThread]: End processing [dcmetro]: success
+[2023-04-17 04:06:10] INFO root fetch - main [MainThread]: End processing [ai-transform]: success
+[2023-04-17 04:06:10] INFO root fetch - main [MainThread]: End processing [easyselect]: success
+[2023-04-17 04:06:12] INFO root fetch - main [MainThread]: End processing [zepben.protobuf]: success
+[2023-04-17 04:06:12] INFO root fetch - main [MainThread]: Store serial: [17732783]
