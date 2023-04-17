@@ -11259,3 +11259,175 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-04-17 13:25:03] INFO root fetch - main [MainThread]: End processing [movia]: success
 [2023-04-17 13:25:06] INFO root fetch - main [MainThread]: End processing [safe-eth-py]: success
 [2023-04-17 13:25:06] INFO root fetch - main [MainThread]: Store serial: [17737360]
+[2023-04-17 13:30:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17737360]
+[2023-04-17 13:30:14] INFO root fetch - main [MainThread]: Found 30 changed packages
+[2023-04-17 13:30:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rucio
+[2023-04-17 13:30:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rucio-clients
+[2023-04-17 13:30:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rucio-webui
+[2023-04-17 13:30:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fmrib-unpack-fmrib-config
+[2023-04-17 13:30:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: inventorhatmini
+[2023-04-17 13:30:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: huscy.attributes
+[2023-04-17 13:30:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: valmi-connector-lib
+[2023-04-17 13:30:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: redpajama
+[2023-04-17 13:30:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: resolwe
+[2023-04-17 13:30:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addon-delivery-carrier-pricelist
+[2023-04-17 13:30:14] INFO root fetch - processPackages [valmi-connector-lib]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-17 13:30:14] INFO root fetch - processPackages [rucio-clients]: New version: [1.9.6] Old Version: [1.9.5]
+[2023-04-17 13:30:14] INFO root fetch - processPackages [huscy.attributes]: New version: [0.6.0a13] Old Version: [0.6.0a12]
+[2023-04-17 13:30:14] WARNING root fetch - processPackages [inventorhatmini]: Skipping, unable to determine old version
+[2023-04-17 13:30:14] INFO root fetch - processPackages [inventorhatmini]: Start processing: torchserve-nightly
+[2023-04-17 13:30:14] INFO root fetch - main [MainThread]: End processing [inventorhatmini] error
+[2023-04-17 13:30:14] WARNING root fetch - processPackages [redpajama]: Skipping, unable to determine old version
+[2023-04-17 13:30:14] INFO root fetch - processPackages [fmrib-unpack-fmrib-config]: New version: [1.6.0] Old Version: [1.5.0]
+[2023-04-17 13:30:14] INFO root fetch - processPackages [rucio-webui]: New version: [1.9.6] Old Version: [1.9.5]
+[2023-04-17 13:30:14] INFO root fetch - processPackages [redpajama]: Start processing: whoisdomain
+[2023-04-17 13:30:14] INFO root fetch - processPackages [odoo14-addon-delivery-carrier-pricelist]: New version: [14.0.1.0.2] Old Version: [14.0.1.0.1.dev3]
+[2023-04-17 13:30:14] INFO root fetch - main [MainThread]: End processing [redpajama] error
+[2023-04-17 13:30:14] INFO root fetch - processPackages [rucio]: New version: [1.9.6] Old Version: [1.9.5]
+[2023-04-17 13:30:14] INFO root fetch - processPackages [resolwe]: New version: [9.0.0a4] Old Version: [9.0.0a3]
+[2023-04-17 13:30:14] WARNING root fetch - processPackages [whoisdomain]: Skipping, unable to determine old version
+[2023-04-17 13:30:14] INFO root fetch - processPackages [whoisdomain]: Start processing: customvalidator
+[2023-04-17 13:30:14] INFO root fetch - main [MainThread]: End processing [whoisdomain] error
+[2023-04-17 13:30:14] INFO root fetch - processPackages [torchserve-nightly]: New version: [2023.4.9] Old Version: [2023.4.8]
+[2023-04-17 13:30:15] INFO root fetch - processPackages [valmi-connector-lib]: Downloading https://files.pythonhosted.org/packages/cb/65/b7f41365febd3ad97681d80a62ddd13a95cbe8335780861002c60970c82a/valmi_connector_lib-0.1.0.tar.gz
+[2023-04-17 13:30:15] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/00/82/319f3c998c1b886c648e7560fce0ad6d68fa06b6b8807405ce7adbe77519/torchserve_nightly-2023.4.8-py3-none-any.whl
+[2023-04-17 13:30:15] INFO root fetch - processPackages [customvalidator]: New version: [0.2] Old Version: [0.1]
+[2023-04-17 13:30:15] INFO root fetch - processPackages [fmrib-unpack-fmrib-config]: Downloading https://files.pythonhosted.org/packages/09/72/8680fa07f9ef407b41565e913654d66e926c381a9f7fefcde73630cf4e7b/fmrib-unpack-fmrib-config-1.5.0.tar.gz
+[2023-04-17 13:30:15] INFO root fetch - processPackages [rucio-clients]: Downloading https://files.pythonhosted.org/packages/c2/b5/337a96cd4693af223ec5c66ba8d0479888dfc40b0507fae48e01f5a302d5/rucio-clients-1.9.5.tar.gz
+[2023-04-17 13:30:15] INFO root fetch - processPackages [odoo14-addon-delivery-carrier-pricelist]: Downloading https://files.pythonhosted.org/packages/07/21/75adfab84892ad3559da34c7aaf3874739c1ee6dc26035a9c0d8ec06280d/odoo14_addon_delivery_carrier_pricelist-14.0.1.0.1.dev3-py3-none-any.whl
+[2023-04-17 13:30:15] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 23695640>=10485760
+[2023-04-17 13:30:15] INFO root fetch - processPackages [rucio-webui]: Downloading https://files.pythonhosted.org/packages/f4/6b/3726a7681cd770c42ac968f151b94735a11d1d8eceba70dd0c329d7a140a/rucio-webui-1.9.5.tar.gz
+[2023-04-17 13:30:15] INFO root fetch - processPackages [torchserve-nightly]: Start processing: torch-model-archiver-nightly
+[2023-04-17 13:30:15] INFO root fetch - processPackages [resolwe]: Downloading https://files.pythonhosted.org/packages/27/39/5a1ef83e99306588743d0a561a08a825b4383fd5d466c4f3c8fa59dbdbdd/resolwe-9.0.0a3.tar.gz
+[2023-04-17 13:30:15] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2023-04-17 13:30:15] INFO root fetch - processPackages [huscy.attributes]: Downloading https://files.pythonhosted.org/packages/3a/ed/6e4a250e34765664920b55d227bc1b0de0e2437e9c83ab88dc1da0b784a8/huscy.attributes-0.6.0a12.tar.gz
+[2023-04-17 13:30:15] INFO root fetch - processPackages [rucio]: Downloading https://files.pythonhosted.org/packages/91/8f/9393746d35a84d9c642188a5fb30dbc886497642a6075bc2d6507a1a8bc0/rucio-1.9.5.tar.gz
+[2023-04-17 13:30:15] INFO root fetch - processPackages [valmi-connector-lib]: Downloading https://files.pythonhosted.org/packages/66/ce/d635a0c15bbcdfe26dcb1eae6ebb1639f4517c6aad95a0902da8a9d60734/valmi_connector_lib-0.1.1.tar.gz
+[2023-04-17 13:30:15] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2023.4.9] Old Version: [2023.4.8]
+[2023-04-17 13:30:15] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2023-04-17 13:30:15] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2023.4.8-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2023.4.9-py3-none-any.whl.zip --markdown 20230417/t/torch-model-archiver-nightly/2023.4.8-2023.4.9/diff.md --exclude *.pyd
+[2023-04-17 13:30:15] INFO root fetch - processPackages [valmi-connector-lib]: executing diffoscope
+[2023-04-17 13:30:15] INFO root fetch - processPackages [valmi-connector-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valmi_connector_lib-0.1.0.tar.gz tmp/valmi_connector_lib-0.1.1.tar.gz --markdown 20230417/v/valmi-connector-lib/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-17 13:30:15] INFO root fetch - processPackages [customvalidator]: executing diffoscope
+[2023-04-17 13:30:15] INFO root fetch - processPackages [customvalidator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/customvalidator-0.1.tar.gz tmp/customvalidator-0.2.tar.gz --markdown 20230417/c/customvalidator/0.1-0.2/diff.md --exclude *.pyd
+[2023-04-17 13:30:15] INFO root fetch - processPackages [resolwe]: Downloading https://files.pythonhosted.org/packages/ca/ce/736f65f5bdceb20af592eebc6fdff8968ca39d39f2fa9bbbcb62c64ee673/resolwe-9.0.0a4.tar.gz
+[2023-04-17 13:30:15] INFO root fetch - processPackages [fmrib-unpack-fmrib-config]: Downloading https://files.pythonhosted.org/packages/1c/75/d8d2b11de0a7177020761358eb623840f7594670ce622222589a84477531/fmrib-unpack-fmrib-config-1.6.0.tar.gz
+[2023-04-17 13:30:15] INFO root fetch - processPackages [huscy.attributes]: Downloading https://files.pythonhosted.org/packages/ea/ca/9fd3ea05deea141f0cec8e30d1f15d56dd4f4efbe1706cf7ff7fb518c324/huscy.attributes-0.6.0a13.tar.gz
+[2023-04-17 13:30:15] INFO root fetch - processPackages [rucio-webui]: Downloading https://files.pythonhosted.org/packages/7e/d3/df65f86894f8b3f09c88db4456cff382dafe6909f679f62cbcfaebf3e316/rucio-webui-1.9.6.tar.gz
+[2023-04-17 13:30:15] INFO root fetch - processPackages [fmrib-unpack-fmrib-config]: executing diffoscope
+[2023-04-17 13:30:15] INFO root fetch - processPackages [fmrib-unpack-fmrib-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fmrib-unpack-fmrib-config-1.5.0.tar.gz tmp/fmrib-unpack-fmrib-config-1.6.0.tar.gz --markdown 20230417/f/fmrib-unpack-fmrib-config/1.5.0-1.6.0/diff.md --exclude *.pyd
+[2023-04-17 13:30:15] INFO root fetch - processPackages [huscy.attributes]: executing diffoscope
+[2023-04-17 13:30:15] INFO root fetch - processPackages [huscy.attributes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huscy.attributes-0.6.0a12.tar.gz tmp/huscy.attributes-0.6.0a13.tar.gz --markdown 20230417/h/huscy.attributes/0.6.0a12-0.6.0a13/diff.md --exclude *.pyd
+[2023-04-17 13:30:15] INFO root fetch - processPackages [rucio-webui]: executing diffoscope
+[2023-04-17 13:30:15] INFO root fetch - processPackages [rucio-webui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rucio-webui-1.9.5.tar.gz tmp/rucio-webui-1.9.6.tar.gz --markdown 20230417/r/rucio-webui/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2023-04-17 13:30:15] INFO root fetch - processPackages [odoo14-addon-delivery-carrier-pricelist]: Downloading https://files.pythonhosted.org/packages/19/05/511df04316a7c02d733da51996109030dbd84cb0d164e5f3b742f1ace8ac/odoo14_addon_delivery_carrier_pricelist-14.0.1.0.2-py3-none-any.whl
+[2023-04-17 13:30:15] INFO root fetch - processPackages [odoo14-addon-delivery-carrier-pricelist]: executing diffoscope
+[2023-04-17 13:30:15] INFO root fetch - processPackages [odoo14-addon-delivery-carrier-pricelist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_delivery_carrier_pricelist-14.0.1.0.1.dev3-py3-none-any.whl.zip tmp/odoo14_addon_delivery_carrier_pricelist-14.0.1.0.2-py3-none-any.whl.zip --markdown 20230417/o/odoo14-addon-delivery-carrier-pricelist/14.0.1.0.1.dev3-14.0.1.0.2/diff.md --exclude *.pyd
+[2023-04-17 13:30:15] INFO root fetch - processPackages [resolwe]: executing diffoscope
+[2023-04-17 13:30:15] INFO root fetch - processPackages [resolwe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resolwe-9.0.0a3.tar.gz tmp/resolwe-9.0.0a4.tar.gz --markdown 20230417/r/resolwe/9.0.0a3-9.0.0a4/diff.md --exclude *.pyd
+[2023-04-17 13:30:16] INFO root fetch - processPackages [rucio]: Downloading https://files.pythonhosted.org/packages/ce/ee/fea8546fec5e6d0d84526dfe28b29f16809196b3001054c3a8e1ab77da45/rucio-1.9.6.tar.gz
+[2023-04-17 13:30:16] INFO root fetch - processPackages [torch-model-archiver-nightly]: Start processing: whoisdomain
+[2023-04-17 13:30:16] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2023-04-17 13:30:16] INFO root fetch - processPackages [whoisdomain]: New version: [1.20230417.5] Old Version: [1.20230417.2]
+[2023-04-17 13:30:16] INFO root fetch - processPackages [customvalidator]: Start processing: torch-workflow-archiver-nightly
+[2023-04-17 13:30:16] INFO root fetch - main [MainThread]: End processing [customvalidator]: success
+[2023-04-17 13:30:16] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2023.4.9] Old Version: [2023.4.8]
+[2023-04-17 13:30:16] INFO root fetch - processPackages [whoisdomain]: Downloading https://files.pythonhosted.org/packages/4a/7d/066204b5b8a59fbb5d351750775ebeda12577c9d03c6d0e0bed926342eaf/whoisdomain-1.20230417.2.tar.gz
+[2023-04-17 13:30:16] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2023-04-17 13:30:16] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2023.4.8-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2023.4.9-py3-none-any.whl.zip --markdown 20230417/t/torch-workflow-archiver-nightly/2023.4.8-2023.4.9/diff.md --exclude *.pyd
+[2023-04-17 13:30:16] INFO root fetch - processPackages [fmrib-unpack-fmrib-config]: Start processing: imggencli
+[2023-04-17 13:30:16] INFO root fetch - main [MainThread]: End processing [fmrib-unpack-fmrib-config]: success
+[2023-04-17 13:30:17] INFO root fetch - processPackages [imggencli]: New version: [1.4.1] Old Version: [1.3.3]
+[2023-04-17 13:30:17] INFO root fetch - processPackages [valmi-connector-lib]: Start processing: whoisdomain
+[2023-04-17 13:30:17] INFO root fetch - main [MainThread]: End processing [valmi-connector-lib]: success
+[2023-04-17 13:30:17] INFO root fetch - processPackages [whoisdomain]: New version: [1.20230417.5] Old Version: [1.20230417.2]
+[2023-04-17 13:30:17] INFO root fetch - processPackages [huscy.attributes]: Start processing: whoisdomain
+[2023-04-17 13:30:17] INFO root fetch - main [MainThread]: End processing [huscy.attributes]: success
+[2023-04-17 13:30:17] INFO root fetch - processPackages [rucio-clients]: Downloading https://files.pythonhosted.org/packages/82/02/5361243e1dd8c362dcce384dcb6c75eda1ba21c1a13e6adfc8fdd213ec83/rucio-clients-1.9.6.tar.gz
+[2023-04-17 13:30:17] INFO root fetch - processPackages [whoisdomain]: New version: [1.20230417.5] Old Version: [1.20230417.2]
+[2023-04-17 13:30:17] INFO root fetch - processPackages [imggencli]: Downloading https://files.pythonhosted.org/packages/6c/4e/2cb2ce00e46ee341c2f30e358a5702fe68d203612392828bb825fa7bb64a/imggencli-1.4.1.tar.gz
+[2023-04-17 13:30:17] INFO root fetch - processPackages [whoisdomain]: Downloading https://files.pythonhosted.org/packages/03/5d/743badf3584b5041834cafce9ebda9614f53cf60609aa4f3615322e807c0/whoisdomain-1.20230417.5.tar.gz
+[2023-04-17 13:30:17] INFO root fetch - processPackages [whoisdomain]: Downloading https://files.pythonhosted.org/packages/03/5d/743badf3584b5041834cafce9ebda9614f53cf60609aa4f3615322e807c0/whoisdomain-1.20230417.5.tar.gz
+[2023-04-17 13:30:17] INFO root fetch - processPackages [whoisdomain]: Downloading https://files.pythonhosted.org/packages/03/5d/743badf3584b5041834cafce9ebda9614f53cf60609aa4f3615322e807c0/whoisdomain-1.20230417.5.tar.gz
+[2023-04-17 13:30:17] INFO root fetch - processPackages [odoo14-addon-delivery-carrier-pricelist]: Start processing: whoisdomain
+[2023-04-17 13:30:17] INFO root fetch - main [MainThread]: End processing [odoo14-addon-delivery-carrier-pricelist]: success
+[2023-04-17 13:30:17] INFO root fetch - processPackages [imggencli]: executing diffoscope
+[2023-04-17 13:30:17] INFO root fetch - processPackages [imggencli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imggencli-1.3.3.tar.gz tmp/imggencli-1.4.1.tar.gz --markdown 20230417/i/imggencli/1.3.3-1.4.1/diff.md --exclude *.pyd
+[2023-04-17 13:30:17] INFO root fetch - processPackages [whoisdomain]: New version: [1.20230417.5] Old Version: [1.20230417.2]
+[2023-04-17 13:30:17] INFO root fetch - processPackages [rucio]: executing diffoscope
+[2023-04-17 13:30:17] INFO root fetch - processPackages [rucio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rucio-1.9.5.tar.gz tmp/rucio-1.9.6.tar.gz --markdown 20230417/r/rucio/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2023-04-17 13:30:17] INFO root fetch - processPackages [whoisdomain]: Downloading https://files.pythonhosted.org/packages/03/5d/743badf3584b5041834cafce9ebda9614f53cf60609aa4f3615322e807c0/whoisdomain-1.20230417.5.tar.gz
+[2023-04-17 13:30:17] INFO root fetch - processPackages [rucio-webui]: Start processing: pydae
+[2023-04-17 13:30:17] INFO root fetch - main [MainThread]: End processing [rucio-webui]: success
+[2023-04-17 13:30:17] INFO root fetch - processPackages [whoisdomain]: executing diffoscope
+[2023-04-17 13:30:17] INFO root fetch - processPackages [whoisdomain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whoisdomain-1.20230417.2.tar.gz tmp/whoisdomain-1.20230417.5.tar.gz --markdown 20230417/w/whoisdomain/1.20230417.2-1.20230417.5/diff.md --exclude *.pyd
+[2023-04-17 13:30:17] INFO root fetch - processPackages [whoisdomain]: executing diffoscope
+[2023-04-17 13:30:17] INFO root fetch - processPackages [whoisdomain]: executing diffoscope
+[2023-04-17 13:30:17] INFO root fetch - processPackages [whoisdomain]: executing diffoscope
+[2023-04-17 13:30:17] INFO root fetch - processPackages [whoisdomain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whoisdomain-1.20230417.2.tar.gz tmp/whoisdomain-1.20230417.5.tar.gz --markdown 20230417/w/whoisdomain/1.20230417.2-1.20230417.5/diff.md --exclude *.pyd
+[2023-04-17 13:30:17] INFO root fetch - processPackages [whoisdomain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whoisdomain-1.20230417.2.tar.gz tmp/whoisdomain-1.20230417.5.tar.gz --markdown 20230417/w/whoisdomain/1.20230417.2-1.20230417.5/diff.md --exclude *.pyd
+[2023-04-17 13:30:17] INFO root fetch - processPackages [whoisdomain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whoisdomain-1.20230417.2.tar.gz tmp/whoisdomain-1.20230417.5.tar.gz --markdown 20230417/w/whoisdomain/1.20230417.2-1.20230417.5/diff.md --exclude *.pyd
+[2023-04-17 13:30:17] INFO root fetch - processPackages [pydae]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-17 13:30:17] INFO root fetch - processPackages [pydae]: Downloading https://files.pythonhosted.org/packages/7d/df/18fbeeac68b8076a40737405fc9638efb381a7dae1ccdfa520fe3810b1cd/pydae-0.8.0.tar.gz
+[2023-04-17 13:30:17] WARNING root fetch - processPackages [pydae]: Skipping package: exceeds size limit 76279170>=10485760
+[2023-04-17 13:30:17] INFO root fetch - processPackages [pydae]: Start processing: redpajama-data
+[2023-04-17 13:30:17] INFO root fetch - main [MainThread]: End processing [pydae] error
+[2023-04-17 13:30:18] WARNING root fetch - processPackages [redpajama-data]: Skipping, unable to determine old version
+[2023-04-17 13:30:18] INFO root fetch - processPackages [redpajama-data]: Start processing: torchrec-nightly
+[2023-04-17 13:30:18] INFO root fetch - main [MainThread]: End processing [redpajama-data] error
+[2023-04-17 13:30:18] INFO root fetch - processPackages [torchrec-nightly]: New version: [2023.4.9] Old Version: [2023.4.7]
+[2023-04-17 13:30:18] INFO root fetch - processPackages [torchrec-nightly]: executing diffoscope
+[2023-04-17 13:30:18] INFO root fetch - processPackages [torchrec-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrec_nightly-2023.4.7-py39-none-any.whl.zip tmp/torchrec_nightly-2023.4.9-py39-none-any.whl.zip --markdown 20230417/t/torchrec-nightly/2023.4.7-2023.4.9/diff.md --exclude *.pyd
+[2023-04-17 13:30:18] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Start processing: hikaxpro
+[2023-04-17 13:30:18] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2023-04-17 13:30:18] INFO root fetch - processPackages [hikaxpro]: New version: [2.1.1] Old Version: [2.0.0]
+[2023-04-17 13:30:18] INFO root fetch - processPackages [hikaxpro]: executing diffoscope
+[2023-04-17 13:30:18] INFO root fetch - processPackages [hikaxpro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hikaxpro-2.0.0.tar.gz tmp/hikaxpro-2.1.1.tar.gz --markdown 20230417/h/hikaxpro/2.0.0-2.1.1/diff.md --exclude *.pyd
+[2023-04-17 13:30:18] INFO root fetch - processPackages [rucio-clients]: executing diffoscope
+[2023-04-17 13:30:18] INFO root fetch - processPackages [rucio-clients]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rucio-clients-1.9.5.tar.gz tmp/rucio-clients-1.9.6.tar.gz --markdown 20230417/r/rucio-clients/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2023-04-17 13:30:18] INFO root fetch - processPackages [imggencli]: Start processing: scikit-rt
+[2023-04-17 13:30:18] INFO root fetch - main [MainThread]: End processing [imggencli]: success
+[2023-04-17 13:30:18] INFO root fetch - processPackages [scikit-rt]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-04-17 13:30:18] INFO root fetch - processPackages [scikit-rt]: executing diffoscope
+[2023-04-17 13:30:18] INFO root fetch - processPackages [scikit-rt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scikit-rt-0.4.1.tar.gz tmp/scikit-rt-0.4.2.tar.gz --markdown 20230417/s/scikit-rt/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-04-17 13:30:20] INFO root fetch - processPackages [hikaxpro]: Start processing: ColabGeek
+[2023-04-17 13:30:20] INFO root fetch - main [MainThread]: End processing [hikaxpro]: success
+[2023-04-17 13:30:20] INFO root fetch - processPackages [ColabGeek]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-17 13:30:20] INFO root fetch - processPackages [ColabGeek]: Downloading https://files.pythonhosted.org/packages/28/04/00bc3b523b9e5cb793f45f2db3337c61c609ac6a7a486c21f7d2be11c8bb/ColabGeek-1.0.1.tar.gz
+[2023-04-17 13:30:20] INFO root fetch - processPackages [ColabGeek]: Downloading https://files.pythonhosted.org/packages/44/7b/03697803f0489c36839f0a4c35592da8301dd8ac6be5f359dd59337b5cbd/ColabGeek-1.0.2.tar.gz
+[2023-04-17 13:30:20] INFO root fetch - processPackages [torchrec-nightly]: Start processing: pyiohat
+[2023-04-17 13:30:20] INFO root fetch - main [MainThread]: End processing [torchrec-nightly]: success
+[2023-04-17 13:30:20] INFO root fetch - processPackages [ColabGeek]: executing diffoscope
+[2023-04-17 13:30:20] INFO root fetch - processPackages [ColabGeek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ColabGeek-1.0.1.tar.gz tmp/ColabGeek-1.0.2.tar.gz --markdown 20230417/C/ColabGeek/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-17 13:30:20] INFO root fetch - processPackages [pyiohat]: New version: [1.8.9] Old Version: [1.8.8]
+[2023-04-17 13:30:20] INFO root fetch - processPackages [pyiohat]: Downloading https://files.pythonhosted.org/packages/a5/90/3273720bb6bd1105256f4f13bd76e10f826a2796985fe26c0ecc75927224/pyiohat-1.8.8.tar.gz
+[2023-04-17 13:30:21] INFO root fetch - processPackages [whoisdomain]: Start processing: super-ec2
+[2023-04-17 13:30:21] INFO root fetch - main [MainThread]: End processing [whoisdomain]: success
+[2023-04-17 13:30:21] INFO root fetch - processPackages [pyiohat]: Downloading https://files.pythonhosted.org/packages/fb/e6/b32231e151fa253b99c2099a07c27321bb4f79abe7d57ad8712d060548c6/pyiohat-1.8.9.tar.gz
+[2023-04-17 13:30:21] INFO root fetch - processPackages [super-ec2]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-17 13:30:22] INFO root fetch - processPackages [super-ec2]: Downloading https://files.pythonhosted.org/packages/6f/5b/1c4410f9cdec4b306292deb7eabba0c5195fdc9ed51343c6561f7b7ae28a/super-ec2-0.0.98.tar.gz
+[2023-04-17 13:30:22] INFO root fetch - processPackages [ColabGeek]: Start processing: tupa123
+[2023-04-17 13:30:22] INFO root fetch - main [MainThread]: End processing [ColabGeek]: success
+[2023-04-17 13:30:22] INFO root fetch - processPackages [tupa123]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-04-17 13:30:22] INFO root fetch - processPackages [whoisdomain]: Start processing: pytest-result-sender
+[2023-04-17 13:30:22] INFO root fetch - main [MainThread]: End processing [whoisdomain]: success
+[2023-04-17 13:30:22] WARNING root fetch - processPackages [pytest-result-sender]: Skipping, unable to determine old version
+[2023-04-17 13:30:22] INFO root fetch - main [MainThread]: End processing [pytest-result-sender] error
+[2023-04-17 13:30:22] INFO root fetch - main [MainThread]: End processing [whoisdomain]: success
+[2023-04-17 13:30:22] INFO root fetch - main [MainThread]: End processing [whoisdomain]: success
+[2023-04-17 13:30:22] INFO root fetch - processPackages [tupa123]: Downloading https://files.pythonhosted.org/packages/91/6b/a9aa90f98c005d873e8108595a426ff688ef7e5668eab6e0cf7fe8819341/tupa123-1.3.1.tar.gz
+[2023-04-17 13:30:22] INFO root fetch - processPackages [pyiohat]: executing diffoscope
+[2023-04-17 13:30:22] INFO root fetch - processPackages [pyiohat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyiohat-1.8.8.tar.gz tmp/pyiohat-1.8.9.tar.gz --markdown 20230417/p/pyiohat/1.8.8-1.8.9/diff.md --exclude *.pyd
+[2023-04-17 13:30:22] INFO root fetch - main [MainThread]: End processing [resolwe]: success
+[2023-04-17 13:30:22] INFO root fetch - processPackages [tupa123]: executing diffoscope
+[2023-04-17 13:30:22] INFO root fetch - processPackages [tupa123]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tupa123-1.3.0.tar.gz tmp/tupa123-1.3.1.tar.gz --markdown 20230417/t/tupa123/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-04-17 13:30:23] INFO root fetch - main [MainThread]: End processing [scikit-rt]: success
+[2023-04-17 13:30:23] INFO root fetch - processPackages [super-ec2]: Downloading https://files.pythonhosted.org/packages/0d/d0/5bf70ee0146094b68ecc7932c6443c5d3dbdfff94a43de975f62bdb1caca/super-ec2-0.0.99.tar.gz
+[2023-04-17 13:30:23] INFO root fetch - main [MainThread]: End processing [tupa123]: success
+[2023-04-17 13:30:24] INFO root fetch - processPackages [super-ec2]: executing diffoscope
+[2023-04-17 13:30:24] INFO root fetch - processPackages [super-ec2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/super-ec2-0.0.98.tar.gz tmp/super-ec2-0.0.99.tar.gz --markdown 20230417/s/super-ec2/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-17 13:30:25] INFO root fetch - main [MainThread]: End processing [pyiohat]: success
+[2023-04-17 13:30:25] INFO root fetch - main [MainThread]: End processing [super-ec2]: success
+[2023-04-17 13:30:31] INFO root fetch - main [MainThread]: End processing [rucio-clients]: success
+[2023-04-17 13:30:34] INFO root fetch - main [MainThread]: End processing [rucio]: success
+[2023-04-17 13:30:34] INFO root fetch - main [MainThread]: Store serial: [17737455]
