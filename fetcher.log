@@ -20882,3 +20882,104 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-17 21:11:54] INFO root fetch - main [MainThread]: End processing [pynmrstar]: success
 [2023-04-17 21:11:57] INFO root fetch - main [MainThread]: End processing [django-sloth]: success
 [2023-04-17 21:11:57] INFO root fetch - main [MainThread]: Store serial: [17743178]
+[2023-04-17 21:17:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17743178]
+[2023-04-17 21:17:06] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-04-17 21:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyamg
+[2023-04-17 21:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sqlalchemy2-stubs
+[2023-04-17 21:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gsf
+[2023-04-17 21:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: funcx
+[2023-04-17 21:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: propertysync
+[2023-04-17 21:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: funcx-endpoint
+[2023-04-17 21:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: imsconvert
+[2023-04-17 21:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gojsonnet
+[2023-04-17 21:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Django-Subdomain-Middleware
+[2023-04-17 21:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cythereal-magic
+[2023-04-17 21:17:06] INFO root fetch - processPackages [propertysync]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-04-17 21:17:06] INFO root fetch - processPackages [cythereal-magic]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-04-17 21:17:06] INFO root fetch - processPackages [propertysync]: executing diffoscope
+[2023-04-17 21:17:06] INFO root fetch - processPackages [propertysync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/propertysync-0.3.0.tar.gz tmp/propertysync-0.4.0.tar.gz --markdown 20230417/p/propertysync/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-04-17 21:17:06] INFO root fetch - processPackages [gsf]: New version: [2.0.0.dev16] Old Version: [1.0.6]
+[2023-04-17 21:17:06] INFO root fetch - processPackages [sqlalchemy2-stubs]: New version: [0.0.2a9] Old Version: [0.0.2a8]
+[2023-04-17 21:17:06] INFO root fetch - processPackages [pyamg]: New version: [5.0.0a3] Old Version: [5.0.0a2]
+[2023-04-17 21:17:06] WARNING root fetch - processPackages [imsconvert]: Skipping, unable to determine old version
+[2023-04-17 21:17:06] INFO root fetch - processPackages [funcx-endpoint]: New version: [2.0.1a1] Old Version: [2.0.0a3]
+[2023-04-17 21:17:06] INFO root fetch - processPackages [imsconvert]: Start processing: dxsp
+[2023-04-17 21:17:06] INFO root fetch - processPackages [gojsonnet]: New version: [0.20.0rc1] Old Version: [0.19.1]
+[2023-04-17 21:17:06] INFO root fetch - main [MainThread]: End processing [imsconvert] error
+[2023-04-17 21:17:06] INFO root fetch - processPackages [cythereal-magic]: executing diffoscope
+[2023-04-17 21:17:06] INFO root fetch - processPackages [cythereal-magic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cythereal-magic-1.9.0.tar.gz tmp/cythereal-magic-1.9.1.tar.gz --markdown 20230417/c/cythereal-magic/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-04-17 21:17:06] INFO root fetch - processPackages [funcx]: New version: [2.0.1a1] Old Version: [2.0.0a2]
+[2023-04-17 21:17:06] WARNING root fetch - processPackages [Django-Subdomain-Middleware]: Skipping, unable to determine old version
+[2023-04-17 21:17:06] INFO root fetch - processPackages [Django-Subdomain-Middleware]: Start processing: onvif-zeep-async
+[2023-04-17 21:17:06] INFO root fetch - main [MainThread]: End processing [Django-Subdomain-Middleware] error
+[2023-04-17 21:17:06] INFO root fetch - processPackages [dxsp]: New version: [1.2.7] Old Version: [1.2.6]
+[2023-04-17 21:17:07] INFO root fetch - processPackages [onvif-zeep-async]: New version: [1.3.0] Old Version: [1.2.9]
+[2023-04-17 21:17:07] INFO root fetch - processPackages [pyamg]: Downloading https://files.pythonhosted.org/packages/97/f0/d7b3cf4c7a01327ca1dd3472e5608eaef7ea250cdaef9e4e33c993fd2ce3/pyamg-5.0.0a2.tar.gz
+[2023-04-17 21:17:07] INFO root fetch - processPackages [sqlalchemy2-stubs]: Downloading https://files.pythonhosted.org/packages/9e/3f/f2631de5c846f292a8aa2e51b0e1be28bbd56e77de6c7b55e411c8fa9778/sqlalchemy2-stubs-0.0.2a8.tar.gz
+[2023-04-17 21:17:07] INFO root fetch - processPackages [funcx]: Downloading https://files.pythonhosted.org/packages/d5/f0/d7ecf5a4382eb57cec3fb3dafcaca3d60b7f4525e7334c5bf65d118f7d92/funcx-2.0.0a2.tar.gz
+[2023-04-17 21:17:07] INFO root fetch - processPackages [gsf]: Downloading https://files.pythonhosted.org/packages/b7/35/281dab12aefecfa5564291c80076ea8b8b61ece698ef9095cf6e9338d836/gsf-1.0.6-py2.py3-none-any.whl
+[2023-04-17 21:17:07] INFO root fetch - processPackages [funcx-endpoint]: Downloading https://files.pythonhosted.org/packages/2d/ab/7d8a1db62124bef7655acb4f54b0cddc3e4615e039ea2b9a1f492e6bd078/funcx-endpoint-2.0.0a3.tar.gz
+[2023-04-17 21:17:07] INFO root fetch - processPackages [gojsonnet]: Downloading https://files.pythonhosted.org/packages/13/69/dd8b70e61124851b2dc099748e9411bbe56294e8a08e6d488ea6e16a3b5b/gojsonnet-0.19.1.tar.gz
+[2023-04-17 21:17:07] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/96/86/4211875bd34729484343c291cc815964f6040667c2f9288cd7459341fff2/dxsp-1.2.7.tar.gz
+[2023-04-17 21:17:07] INFO root fetch - processPackages [dxsp]: executing diffoscope
+[2023-04-17 21:17:07] INFO root fetch - processPackages [dxsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxsp-1.2.6.tar.gz tmp/dxsp-1.2.7.tar.gz --markdown 20230417/d/dxsp/1.2.6-1.2.7/diff.md --exclude *.pyd
+[2023-04-17 21:17:07] INFO root fetch - processPackages [gsf]: Downloading https://files.pythonhosted.org/packages/af/94/af3e0f7f6c5986f83375d0037cd933bd35d08c6c33f2c087699836ccfd38/gsf-2.0.0.dev16-py3-none-any.whl
+[2023-04-17 21:17:07] INFO root fetch - processPackages [pyamg]: Downloading https://files.pythonhosted.org/packages/f8/ae/dca7ec5cc757abfd01286c97b595c2ad8a711678d9acc6d5c66c0c9a59ca/pyamg-5.0.0a3.tar.gz
+[2023-04-17 21:17:07] INFO root fetch - processPackages [onvif-zeep-async]: Downloading https://files.pythonhosted.org/packages/d3/d8/5251419171394cfa428375bec1d283c7e9528a760107ff269065894311b5/onvif-zeep-async-1.3.0.tar.gz
+[2023-04-17 21:17:07] INFO root fetch - processPackages [funcx]: Downloading https://files.pythonhosted.org/packages/d1/c7/97111e5993bb4d26e252595a34f2b5f84ec244323ef2ebf58e0fc2099bc6/funcx-2.0.1a1.tar.gz
+[2023-04-17 21:17:07] INFO root fetch - processPackages [funcx-endpoint]: Downloading https://files.pythonhosted.org/packages/ce/fb/7161a0fef6bfbed6cb2a0a212ef296571fd628b988bdd286aaabffb88087/funcx-endpoint-2.0.1a1.tar.gz
+[2023-04-17 21:17:07] INFO root fetch - processPackages [gsf]: executing diffoscope
+[2023-04-17 21:17:07] INFO root fetch - processPackages [gsf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gsf-1.0.6-py2.py3-none-any.whl.zip tmp/gsf-2.0.0.dev16-py3-none-any.whl.zip --markdown 20230417/g/gsf/1.0.6-2.0.0.dev16/diff.md --exclude *.pyd
+[2023-04-17 21:17:07] INFO root fetch - processPackages [gojsonnet]: Downloading https://files.pythonhosted.org/packages/7f/76/f0d501b86917480945701950d1ef9ba7feaabbc67fee5833d2a34381b12c/gojsonnet-0.20.0rc1.tar.gz
+[2023-04-17 21:17:07] INFO root fetch - processPackages [sqlalchemy2-stubs]: Downloading https://files.pythonhosted.org/packages/89/20/796983c0844a5fd6be2392f2892e3c781e0a3525105301b22b6708d6cdb9/sqlalchemy2-stubs-0.0.2a9.tar.gz
+[2023-04-17 21:17:07] INFO root fetch - processPackages [onvif-zeep-async]: executing diffoscope
+[2023-04-17 21:17:07] INFO root fetch - processPackages [onvif-zeep-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onvif-zeep-async-1.2.9.tar.gz tmp/onvif-zeep-async-1.3.0.tar.gz --markdown 20230417/o/onvif-zeep-async/1.2.9-1.3.0/diff.md --exclude *.pyd
+[2023-04-17 21:17:07] INFO root fetch - processPackages [pyamg]: executing diffoscope
+[2023-04-17 21:17:07] INFO root fetch - processPackages [pyamg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyamg-5.0.0a2.tar.gz tmp/pyamg-5.0.0a3.tar.gz --markdown 20230417/p/pyamg/5.0.0a2-5.0.0a3/diff.md --exclude *.pyd
+[2023-04-17 21:17:07] INFO root fetch - processPackages [funcx-endpoint]: executing diffoscope
+[2023-04-17 21:17:07] INFO root fetch - processPackages [funcx-endpoint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funcx-endpoint-2.0.0a3.tar.gz tmp/funcx-endpoint-2.0.1a1.tar.gz --markdown 20230417/f/funcx-endpoint/2.0.0a3-2.0.1a1/diff.md --exclude *.pyd
+[2023-04-17 21:17:07] INFO root fetch - processPackages [funcx]: executing diffoscope
+[2023-04-17 21:17:07] INFO root fetch - processPackages [funcx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funcx-2.0.0a2.tar.gz tmp/funcx-2.0.1a1.tar.gz --markdown 20230417/f/funcx/2.0.0a2-2.0.1a1/diff.md --exclude *.pyd
+[2023-04-17 21:17:07] INFO root fetch - processPackages [gojsonnet]: executing diffoscope
+[2023-04-17 21:17:07] INFO root fetch - processPackages [gojsonnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gojsonnet-0.19.1.tar.gz tmp/gojsonnet-0.20.0rc1.tar.gz --markdown 20230417/g/gojsonnet/0.19.1-0.20.0rc1/diff.md --exclude *.pyd
+[2023-04-17 21:17:07] INFO root fetch - processPackages [sqlalchemy2-stubs]: executing diffoscope
+[2023-04-17 21:17:07] INFO root fetch - processPackages [sqlalchemy2-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy2-stubs-0.0.2a8.tar.gz tmp/sqlalchemy2-stubs-0.0.2a9.tar.gz --markdown 20230417/s/sqlalchemy2-stubs/0.0.2a8-0.0.2a9/diff.md --exclude *.pyd
+[2023-04-17 21:17:08] INFO root fetch - processPackages [propertysync]: Start processing: hat-drivers
+[2023-04-17 21:17:08] INFO root fetch - main [MainThread]: End processing [propertysync]: success
+[2023-04-17 21:17:08] INFO root fetch - processPackages [hat-drivers]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-04-17 21:17:08] INFO root fetch - processPackages [hat-drivers]: Downloading https://files.pythonhosted.org/packages/ed/e3/25d9ca36ae3640c6653274af08012f758fae16dc8c6ab2abb1bf5b61db8f/hat_drivers-0.6.8-cp38.cp39.cp310-none-any.whl
+[2023-04-17 21:17:08] INFO root fetch - processPackages [dxsp]: Start processing: sabctools
+[2023-04-17 21:17:08] INFO root fetch - main [MainThread]: End processing [dxsp]: success
+[2023-04-17 21:17:08] INFO root fetch - processPackages [sabctools]: New version: [7.0.0] Old Version: [6.1.2]
+[2023-04-17 21:17:09] INFO root fetch - processPackages [cythereal-magic]: Start processing: gridappsd-2030-5
+[2023-04-17 21:17:09] INFO root fetch - main [MainThread]: End processing [cythereal-magic]: success
+[2023-04-17 21:17:09] INFO root fetch - processPackages [hat-drivers]: Downloading https://files.pythonhosted.org/packages/bb/0e/3deca62b8cf028be043e4c745056433957f7732a03d966617c974481e439/hat_drivers-0.6.9-cp38.cp39.cp310-none-any.whl
+[2023-04-17 21:17:09] INFO root fetch - processPackages [sabctools]: Downloading https://files.pythonhosted.org/packages/dc/b9/7f668aee7c6d2ebc8254630c512bc3d7014010c1023d76f6c50933ff9a68/sabctools-6.1.2.tar.gz
+[2023-04-17 21:17:09] INFO root fetch - processPackages [funcx-endpoint]: Start processing: grai-source-bigquery
+[2023-04-17 21:17:09] INFO root fetch - main [MainThread]: End processing [funcx-endpoint]: success
+[2023-04-17 21:17:09] INFO root fetch - main [MainThread]: End processing [gsf]: success
+[2023-04-17 21:17:09] INFO root fetch - processPackages [gridappsd-2030-5]: New version: [0.0.2a7] Old Version: [0.0.2a6]
+[2023-04-17 21:17:09] INFO root fetch - processPackages [hat-drivers]: executing diffoscope
+[2023-04-17 21:17:09] INFO root fetch - processPackages [hat-drivers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hat_drivers-0.6.8-cp38.cp39.cp310-none-any.whl.zip tmp/hat_drivers-0.6.9-cp38.cp39.cp310-none-any.whl.zip --markdown 20230417/h/hat-drivers/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-04-17 21:17:09] INFO root fetch - processPackages [grai-source-bigquery]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-17 21:17:09] INFO root fetch - main [MainThread]: End processing [funcx]: success
+[2023-04-17 21:17:09] INFO root fetch - processPackages [gridappsd-2030-5]: Downloading https://files.pythonhosted.org/packages/73/7e/40ae0ba123ccc86022d9f01550c67e025b02969962fcd3b125ac098f4362/gridappsd-2030_5-0.0.2a6.tar.gz
+[2023-04-17 21:17:09] INFO root fetch - processPackages [grai-source-bigquery]: Downloading https://files.pythonhosted.org/packages/c7/98/ca6341c7227ce2c73e8002a8961708a230f581aa954b1ba54d3502bc7d84/grai_source_bigquery-0.0.2.tar.gz
+[2023-04-17 21:17:09] INFO root fetch - processPackages [sabctools]: Downloading https://files.pythonhosted.org/packages/7c/9e/6fd45e9417bceef0eb05b0e837461af79160f1cf7682835f9d1760d91a4a/sabctools-7.0.0.tar.gz
+[2023-04-17 21:17:09] INFO root fetch - processPackages [sabctools]: executing diffoscope
+[2023-04-17 21:17:09] INFO root fetch - processPackages [sabctools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sabctools-6.1.2.tar.gz tmp/sabctools-7.0.0.tar.gz --markdown 20230417/s/sabctools/6.1.2-7.0.0/diff.md --exclude *.pyd
+[2023-04-17 21:17:09] INFO root fetch - processPackages [gridappsd-2030-5]: Downloading https://files.pythonhosted.org/packages/cb/83/89547eb64d167f4719f9069e1a82ad87123616b0f9f88fa7e39b3f68dc3e/gridappsd-2030_5-0.0.2a7.tar.gz
+[2023-04-17 21:17:09] INFO root fetch - processPackages [grai-source-bigquery]: Downloading https://files.pythonhosted.org/packages/5e/30/93ccf3098a521fbf5dd169ab8f4728e7d492e07cfa2c94a1e7111d36acb1/grai_source_bigquery-0.0.3.tar.gz
+[2023-04-17 21:17:09] INFO root fetch - processPackages [gridappsd-2030-5]: executing diffoscope
+[2023-04-17 21:17:09] INFO root fetch - processPackages [gridappsd-2030-5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gridappsd-2030_5-0.0.2a6.tar.gz tmp/gridappsd-2030_5-0.0.2a7.tar.gz --markdown 20230417/g/gridappsd-2030-5/0.0.2a6-0.0.2a7/diff.md --exclude *.pyd
+[2023-04-17 21:17:10] INFO root fetch - processPackages [grai-source-bigquery]: executing diffoscope
+[2023-04-17 21:17:10] INFO root fetch - processPackages [grai-source-bigquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grai_source_bigquery-0.0.2.tar.gz tmp/grai_source_bigquery-0.0.3.tar.gz --markdown 20230417/g/grai-source-bigquery/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-17 21:17:10] INFO root fetch - main [MainThread]: End processing [onvif-zeep-async]: success
+[2023-04-17 21:17:10] INFO root fetch - main [MainThread]: End processing [hat-drivers]: success
+[2023-04-17 21:17:11] INFO root fetch - main [MainThread]: End processing [grai-source-bigquery]: success
+[2023-04-17 21:17:11] INFO root fetch - main [MainThread]: End processing [gridappsd-2030-5]: success
+[2023-04-17 21:17:11] INFO root fetch - main [MainThread]: End processing [sabctools]: success
+[2023-04-17 21:17:12] INFO root fetch - main [MainThread]: End processing [sqlalchemy2-stubs]: success
+[2023-04-17 21:17:13] INFO root fetch - main [MainThread]: End processing [pyamg]: success
+[2023-04-17 21:19:04] INFO root fetch - main [MainThread]: End processing [gojsonnet]: success
+[2023-04-17 21:19:04] INFO root fetch - main [MainThread]: Store serial: [17743272]
