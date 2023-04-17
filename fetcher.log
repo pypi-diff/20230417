@@ -9784,3 +9784,83 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 12:01:36] INFO root fetch - main [MainThread]: End processing [metisse]: success
 [2023-04-17 12:01:44] INFO root fetch - main [MainThread]: End processing [mage-ai]: success
 [2023-04-17 12:01:44] INFO root fetch - main [MainThread]: Store serial: [17736462]
+[2023-04-17 12:06:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17736462]
+[2023-04-17 12:06:53] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-17 12:06:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cleez
+[2023-04-17 12:06:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hyperfetch
+[2023-04-17 12:06:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: smart-scrap
+[2023-04-17 12:06:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flask-pydantic-spec
+[2023-04-17 12:06:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pypdu
+[2023-04-17 12:06:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sqlstrings
+[2023-04-17 12:06:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nbsite
+[2023-04-17 12:06:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pep508-rs
+[2023-04-17 12:06:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mgo-serializer
+[2023-04-17 12:06:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: scBC
+[2023-04-17 12:06:53] WARNING root fetch - processPackages [cleez]: Skipping, unable to determine old version
+[2023-04-17 12:06:53] INFO root fetch - processPackages [cleez]: Start processing: eis1600
+[2023-04-17 12:06:53] WARNING root fetch - processPackages [smart-scrap]: Skipping, unable to determine old version
+[2023-04-17 12:06:53] INFO root fetch - processPackages [smart-scrap]: Start processing: atmoswing-vigicrues
+[2023-04-17 12:06:53] INFO root fetch - main [MainThread]: End processing [cleez] error
+[2023-04-17 12:06:53] WARNING root fetch - processPackages [hyperfetch]: Skipping, unable to determine old version
+[2023-04-17 12:06:53] INFO root fetch - main [MainThread]: End processing [smart-scrap] error
+[2023-04-17 12:06:53] INFO root fetch - processPackages [mgo-serializer]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-17 12:06:53] INFO root fetch - processPackages [hyperfetch]: Start processing: connect-extension-runner
+[2023-04-17 12:06:53] INFO root fetch - processPackages [pep508-rs]: New version: [0.1.5] Old Version: [0.1.1]
+[2023-04-17 12:06:53] INFO root fetch - main [MainThread]: End processing [hyperfetch] error
+[2023-04-17 12:06:53] INFO root fetch - processPackages [atmoswing-vigicrues]: New version: [1.0.0] Old Version: [0.9.2]
+[2023-04-17 12:06:53] INFO root fetch - processPackages [sqlstrings]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-17 12:06:53] WARNING root fetch - processPackages [scBC]: Skipping, unable to determine old version
+[2023-04-17 12:06:53] INFO root fetch - processPackages [nbsite]: New version: [0.8.0rc9] Old Version: [0.8.0rc8]
+[2023-04-17 12:06:53] INFO root fetch - processPackages [scBC]: Start processing: stockpy-learn
+[2023-04-17 12:06:53] INFO root fetch - main [MainThread]: End processing [scBC] error
+[2023-04-17 12:06:53] INFO root fetch - processPackages [flask-pydantic-spec]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-04-17 12:06:53] INFO root fetch - processPackages [connect-extension-runner]: New version: [27.9] Old Version: [27.8]
+[2023-04-17 12:06:53] INFO root fetch - processPackages [pypdu]: New version: [0.1.6a8] Old Version: [0.1.6a5]
+[2023-04-17 12:06:53] INFO root fetch - processPackages [eis1600]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-04-17 12:06:53] INFO root fetch - processPackages [stockpy-learn]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-17 12:06:54] INFO root fetch - processPackages [sqlstrings]: Downloading https://files.pythonhosted.org/packages/7a/d8/7a8886240528d4e3dd7a9fb2d43e7fb69a82e278534240e5842bf4369ea2/sqlstrings-0.0.1.tar.gz
+[2023-04-17 12:06:54] INFO root fetch - processPackages [connect-extension-runner]: executing diffoscope
+[2023-04-17 12:06:54] INFO root fetch - processPackages [connect-extension-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/connect_extension_runner-27.8.tar.gz tmp/connect_extension_runner-27.9.tar.gz --markdown 20230417/c/connect-extension-runner/27.8-27.9/diff.md --exclude *.pyd
+[2023-04-17 12:06:54] INFO root fetch - processPackages [stockpy-learn]: executing diffoscope
+[2023-04-17 12:06:54] INFO root fetch - processPackages [stockpy-learn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stockpy-learn-0.1.8.tar.gz tmp/stockpy-learn-0.1.9.tar.gz --markdown 20230417/s/stockpy-learn/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-17 12:06:54] INFO root fetch - processPackages [atmoswing-vigicrues]: Downloading https://files.pythonhosted.org/packages/fc/ab/fb2e580c48e6f7c0a0d2ec391cb6fd598948b0bec8e1417b05cda9324869/atmoswing-vigicrues-0.9.2.tar.gz
+[2023-04-17 12:06:54] INFO root fetch - processPackages [nbsite]: Downloading https://files.pythonhosted.org/packages/d8/77/7a773de2f4564f3e9b8c5f3550f287afaec9d423d1400de69ed30bcf6770/nbsite-0.8.0rc8.tar.gz
+[2023-04-17 12:06:54] INFO root fetch - processPackages [mgo-serializer]: Downloading https://files.pythonhosted.org/packages/75/43/cdbb1d6173fe840f23cecaba71e4623fe62fe84b0c038332da5d2ba9988e/mgo_serializer-0.1.5.tar.gz
+[2023-04-17 12:06:54] INFO root fetch - processPackages [eis1600]: Downloading https://files.pythonhosted.org/packages/ad/26/275e7aa9bb7a13645213828088e3c76ecae5dc734d4493641a16712e0820/eis1600-0.8.0.tar.gz
+[2023-04-17 12:06:54] INFO root fetch - processPackages [pep508-rs]: Downloading https://files.pythonhosted.org/packages/8c/fb/7f286cf19b9c7741610b3439a3bdb1ba3c864e762a061818fa1ce4ddbd69/pep508_rs-0.1.1.tar.gz
+[2023-04-17 12:06:54] INFO root fetch - processPackages [flask-pydantic-spec]: Downloading https://files.pythonhosted.org/packages/67/7a/eec667fa81598781693d7946712b9994f1d25269bf072c139e7063a98651/flask_pydantic_spec-0.4.3.tar.gz
+[2023-04-17 12:06:54] INFO root fetch - processPackages [pypdu]: Downloading https://files.pythonhosted.org/packages/10/e4/085e9813c7ca43e3c68d000f31f899a5fed090bf0da9cd76180c01dc0642/pypdu-0.1.6a5.tar.gz
+[2023-04-17 12:06:54] INFO root fetch - processPackages [mgo-serializer]: executing diffoscope
+[2023-04-17 12:06:54] INFO root fetch - processPackages [mgo-serializer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mgo_serializer-0.1.4.tar.gz tmp/mgo_serializer-0.1.5.tar.gz --markdown 20230417/m/mgo-serializer/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-17 12:06:54] INFO root fetch - processPackages [sqlstrings]: Downloading https://files.pythonhosted.org/packages/57/93/c7dd20e9573f9c5180095d0adf46681607a7be613f1a64b94dfee223e6c4/sqlstrings-0.0.2.tar.gz
+[2023-04-17 12:06:54] INFO root fetch - processPackages [sqlstrings]: executing diffoscope
+[2023-04-17 12:06:54] INFO root fetch - processPackages [sqlstrings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlstrings-0.0.1.tar.gz tmp/sqlstrings-0.0.2.tar.gz --markdown 20230417/s/sqlstrings/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-17 12:06:54] INFO root fetch - processPackages [atmoswing-vigicrues]: Downloading https://files.pythonhosted.org/packages/9f/33/cd3d56c23f1deebbd576dbec99db51a20489ed79c45330c2c35469d5f4b5/atmoswing-vigicrues-1.0.0.tar.gz
+[2023-04-17 12:06:54] INFO root fetch - processPackages [eis1600]: Downloading https://files.pythonhosted.org/packages/fe/53/aae806c9d4b7abfc2326d970e4be9330574ba639b8492a08033658c69c8f/eis1600-0.8.1.tar.gz
+[2023-04-17 12:06:54] INFO root fetch - processPackages [flask-pydantic-spec]: Downloading https://files.pythonhosted.org/packages/d5/60/8aaf026c7cee6dc365462bd661bdaef417102511d41e2f9d3430ae2992cb/flask_pydantic_spec-0.4.4.tar.gz
+[2023-04-17 12:06:54] INFO root fetch - processPackages [atmoswing-vigicrues]: executing diffoscope
+[2023-04-17 12:06:54] INFO root fetch - processPackages [atmoswing-vigicrues]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atmoswing-vigicrues-0.9.2.tar.gz tmp/atmoswing-vigicrues-1.0.0.tar.gz --markdown 20230417/a/atmoswing-vigicrues/0.9.2-1.0.0/diff.md --exclude *.pyd
+[2023-04-17 12:06:54] INFO root fetch - processPackages [pypdu]: Downloading https://files.pythonhosted.org/packages/6d/4c/42a28fe33664d4d011c7dbdad7d0aa9eae1b2dae0be884bb5873fd3c2432/pypdu-0.1.6a8.tar.gz
+[2023-04-17 12:06:54] INFO root fetch - processPackages [eis1600]: executing diffoscope
+[2023-04-17 12:06:54] INFO root fetch - processPackages [pep508-rs]: Downloading https://files.pythonhosted.org/packages/5c/1c/f859e7d6443c5610f831177df2aff2936018364d319a40fddf77838de5b4/pep508_rs-0.1.5.tar.gz
+[2023-04-17 12:06:54] INFO root fetch - processPackages [eis1600]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eis1600-0.8.0.tar.gz tmp/eis1600-0.8.1.tar.gz --markdown 20230417/e/eis1600/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-04-17 12:06:54] INFO root fetch - processPackages [nbsite]: Downloading https://files.pythonhosted.org/packages/89/00/df63ef46b2f3732468f4ef3acbe06bcfab442ca275dc0c175fcad6a4cb4c/nbsite-0.8.0rc9.tar.gz
+[2023-04-17 12:06:54] INFO root fetch - processPackages [flask-pydantic-spec]: executing diffoscope
+[2023-04-17 12:06:54] INFO root fetch - processPackages [flask-pydantic-spec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_pydantic_spec-0.4.3.tar.gz tmp/flask_pydantic_spec-0.4.4.tar.gz --markdown 20230417/f/flask-pydantic-spec/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-04-17 12:06:54] INFO root fetch - processPackages [pep508-rs]: executing diffoscope
+[2023-04-17 12:06:54] INFO root fetch - processPackages [pep508-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pep508_rs-0.1.1.tar.gz tmp/pep508_rs-0.1.5.tar.gz --markdown 20230417/p/pep508-rs/0.1.1-0.1.5/diff.md --exclude *.pyd
+[2023-04-17 12:06:54] INFO root fetch - processPackages [nbsite]: executing diffoscope
+[2023-04-17 12:06:54] INFO root fetch - processPackages [nbsite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbsite-0.8.0rc8.tar.gz tmp/nbsite-0.8.0rc9.tar.gz --markdown 20230417/n/nbsite/0.8.0rc8-0.8.0rc9/diff.md --exclude *.pyd
+[2023-04-17 12:06:54] INFO root fetch - processPackages [pypdu]: executing diffoscope
+[2023-04-17 12:06:54] INFO root fetch - processPackages [pypdu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypdu-0.1.6a5.tar.gz tmp/pypdu-0.1.6a8.tar.gz --markdown 20230417/p/pypdu/0.1.6a5-0.1.6a8/diff.md --exclude *.pyd
+[2023-04-17 12:06:55] INFO root fetch - main [MainThread]: End processing [sqlstrings]: success
+[2023-04-17 12:06:55] INFO root fetch - main [MainThread]: End processing [flask-pydantic-spec]: success
+[2023-04-17 12:06:56] INFO root fetch - main [MainThread]: End processing [pep508-rs]: success
+[2023-04-17 12:06:56] INFO root fetch - main [MainThread]: End processing [connect-extension-runner]: success
+[2023-04-17 12:06:56] INFO root fetch - main [MainThread]: End processing [eis1600]: success
+[2023-04-17 12:06:56] INFO root fetch - main [MainThread]: End processing [stockpy-learn]: success
+[2023-04-17 12:06:56] INFO root fetch - main [MainThread]: End processing [atmoswing-vigicrues]: success
+[2023-04-17 12:06:56] INFO root fetch - main [MainThread]: End processing [nbsite]: success
+[2023-04-17 12:06:57] INFO root fetch - main [MainThread]: End processing [mgo-serializer]: success
+[2023-04-17 12:06:58] INFO root fetch - main [MainThread]: End processing [pypdu]: success
+[2023-04-17 12:06:58] INFO root fetch - main [MainThread]: Store serial: [17736552]
