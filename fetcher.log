@@ -10183,3 +10183,153 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 12:31:02] ERROR root fetch - processPackages [moto-ext]: Timeout during execution of pkgdiff
 [2023-04-17 12:31:02] INFO root fetch - main [MainThread]: End processing [moto-ext] error
 [2023-04-17 12:31:02] INFO root fetch - main [MainThread]: Store serial: [17736737]
+[2023-04-17 12:36:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17736737]
+[2023-04-17 12:36:11] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-04-17 12:36:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: redis-metric-helper
+[2023-04-17 12:36:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: automonisaur
+[2023-04-17 12:36:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: huscy.users
+[2023-04-17 12:36:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-snowflake
+[2023-04-17 12:36:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: unicorn-binance-websocket-api
+[2023-04-17 12:36:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: voseto
+[2023-04-17 12:36:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: forwarderd
+[2023-04-17 12:36:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wonder-sdk
+[2023-04-17 12:36:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: somenergia-dag-utils
+[2023-04-17 12:36:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: redis-metric-helper
+[2023-04-17 12:36:11] INFO root fetch - processPackages [unicorn-binance-websocket-api]: New version: [1.46.1] Old Version: [1.46.0]
+[2023-04-17 12:36:11] INFO root fetch - processPackages [forwarderd]: New version: [9] Old Version: [8]
+[2023-04-17 12:36:11] WARNING root fetch - processPackages [voseto]: Skipping, unable to determine old version
+[2023-04-17 12:36:11] INFO root fetch - processPackages [voseto]: Start processing: arithmetic-vr
+[2023-04-17 12:36:11] INFO root fetch - main [MainThread]: End processing [voseto] error
+[2023-04-17 12:36:11] WARNING root fetch - processPackages [somenergia-dag-utils]: Skipping, unable to determine old version
+[2023-04-17 12:36:11] INFO root fetch - processPackages [redis-metric-helper]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-04-17 12:36:11] INFO root fetch - processPackages [django-snowflake]: New version: [4.2b1] Old Version: [4.2a1]
+[2023-04-17 12:36:11] INFO root fetch - processPackages [somenergia-dag-utils]: Start processing: happydomain
+[2023-04-17 12:36:11] INFO root fetch - main [MainThread]: End processing [somenergia-dag-utils] error
+[2023-04-17 12:36:11] INFO root fetch - processPackages [redis-metric-helper]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-04-17 12:36:11] INFO root fetch - processPackages [wonder-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-17 12:36:11] INFO root fetch - processPackages [automonisaur]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-17 12:36:11] INFO root fetch - processPackages [huscy.users]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-04-17 12:36:11] INFO root fetch - processPackages [happydomain]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-17 12:36:11] WARNING root fetch - processPackages [arithmetic-vr]: Skipping, unable to determine old version
+[2023-04-17 12:36:11] INFO root fetch - processPackages [arithmetic-vr]: Start processing: waffle-utils
+[2023-04-17 12:36:11] INFO root fetch - main [MainThread]: End processing [arithmetic-vr] error
+[2023-04-17 12:36:11] INFO root fetch - processPackages [waffle-utils]: New version: [0.3.0] Old Version: [0.2.3]
+[2023-04-17 12:36:11] INFO root fetch - processPackages [redis-metric-helper]: Downloading https://files.pythonhosted.org/packages/f2/1a/1194d215af3ef66ed13fbe8ee8cc48ca2be9c166c25e046e8c6362e42621/redis-metric-helper-0.2.3.tar.gz
+[2023-04-17 12:36:11] INFO root fetch - processPackages [redis-metric-helper]: Downloading https://files.pythonhosted.org/packages/f2/1a/1194d215af3ef66ed13fbe8ee8cc48ca2be9c166c25e046e8c6362e42621/redis-metric-helper-0.2.3.tar.gz
+[2023-04-17 12:36:11] INFO root fetch - processPackages [huscy.users]: Downloading https://files.pythonhosted.org/packages/bf/1a/8635b130be0c7673f255b4db92e82066d7a8e9e87503cd2030a89bfcab48/huscy.users-1.2.0.tar.gz
+[2023-04-17 12:36:11] INFO root fetch - processPackages [waffle-utils]: Downloading https://files.pythonhosted.org/packages/a0/7b/05bcbb0d8e98ef043f365477f93c7f93cb94c9028959e26cbc6b72161d87/waffle_utils-0.2.3.tar.gz
+[2023-04-17 12:36:11] INFO root fetch - processPackages [happydomain]: Downloading https://files.pythonhosted.org/packages/31/b3/e32a378fdb3ae72fb343952771df31cb672f1a95bca84a5a8992c06a42d9/happydomain-0.0.6.tar.gz
+[2023-04-17 12:36:11] INFO root fetch - processPackages [unicorn-binance-websocket-api]: Downloading https://files.pythonhosted.org/packages/5e/08/fc58b4480c7867c45c348d3177863928c2913fe1e7d9a9446cc713f2ab72/unicorn-binance-websocket-api-1.46.0.tar.gz
+[2023-04-17 12:36:11] INFO root fetch - processPackages [automonisaur]: Downloading https://files.pythonhosted.org/packages/14/7b/3a9b9fab5bde97b1951c336138c33af226634c83d0320050b4d362059096/automonisaur-0.2.8.tar.gz
+[2023-04-17 12:36:11] INFO root fetch - processPackages [forwarderd]: executing diffoscope
+[2023-04-17 12:36:11] INFO root fetch - processPackages [forwarderd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forwarderd-8.tar.gz tmp/forwarderd-9.tar.gz --markdown 20230417/f/forwarderd/8-9/diff.md --exclude *.pyd
+[2023-04-17 12:36:11] INFO root fetch - processPackages [redis-metric-helper]: Downloading https://files.pythonhosted.org/packages/96/89/bbdda0d1ad2025b81e14ab7edd31109ff27d10f8e63267706e2a1805f67c/redis-metric-helper-0.2.4.tar.gz
+[2023-04-17 12:36:11] INFO root fetch - processPackages [redis-metric-helper]: Downloading https://files.pythonhosted.org/packages/96/89/bbdda0d1ad2025b81e14ab7edd31109ff27d10f8e63267706e2a1805f67c/redis-metric-helper-0.2.4.tar.gz
+[2023-04-17 12:36:11] INFO root fetch - processPackages [django-snowflake]: executing diffoscope
+[2023-04-17 12:36:11] INFO root fetch - processPackages [django-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-snowflake-4.2a1.tar.gz tmp/django-snowflake-4.2b1.tar.gz --markdown 20230417/d/django-snowflake/4.2a1-4.2b1/diff.md --exclude *.pyd
+[2023-04-17 12:36:11] INFO root fetch - processPackages [waffle-utils]: Downloading https://files.pythonhosted.org/packages/68/bf/687cdee346780c3d423cb11f4774cad8d4e640d439d3d7c20b9eda702f89/waffle_utils-0.3.0.tar.gz
+[2023-04-17 12:36:11] INFO root fetch - processPackages [huscy.users]: Downloading https://files.pythonhosted.org/packages/61/d1/49bf2cccc76797e73bdfc11bccd50d9fd50b4338b28fec984bf81d748136/huscy.users-1.2.1.tar.gz
+[2023-04-17 12:36:11] INFO root fetch - processPackages [happydomain]: Downloading https://files.pythonhosted.org/packages/86/6f/66b2efdf4010237e90aa711f2caa94ced925d8bd19f9a1321f38e8b0f0b4/happydomain-0.0.7.tar.gz
+[2023-04-17 12:36:11] INFO root fetch - processPackages [wonder-sdk]: executing diffoscope
+[2023-04-17 12:36:11] INFO root fetch - processPackages [wonder-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wonder-sdk-0.1.8.tar.gz tmp/wonder-sdk-0.1.9.tar.gz --markdown 20230417/w/wonder-sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-17 12:36:11] INFO root fetch - processPackages [redis-metric-helper]: executing diffoscope
+[2023-04-17 12:36:11] INFO root fetch - processPackages [redis-metric-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redis-metric-helper-0.2.3.tar.gz tmp/redis-metric-helper-0.2.4.tar.gz --markdown 20230417/r/redis-metric-helper/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-04-17 12:36:11] INFO root fetch - processPackages [redis-metric-helper]: executing diffoscope
+[2023-04-17 12:36:11] INFO root fetch - processPackages [redis-metric-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redis-metric-helper-0.2.3.tar.gz tmp/redis-metric-helper-0.2.4.tar.gz --markdown 20230417/r/redis-metric-helper/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-04-17 12:36:11] INFO root fetch - processPackages [huscy.users]: executing diffoscope
+[2023-04-17 12:36:11] INFO root fetch - processPackages [huscy.users]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huscy.users-1.2.0.tar.gz tmp/huscy.users-1.2.1.tar.gz --markdown 20230417/h/huscy.users/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-04-17 12:36:11] INFO root fetch - processPackages [happydomain]: executing diffoscope
+[2023-04-17 12:36:11] INFO root fetch - processPackages [happydomain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/happydomain-0.0.6.tar.gz tmp/happydomain-0.0.7.tar.gz --markdown 20230417/h/happydomain/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-17 12:36:11] INFO root fetch - processPackages [waffle-utils]: executing diffoscope
+[2023-04-17 12:36:11] INFO root fetch - processPackages [waffle-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waffle_utils-0.2.3.tar.gz tmp/waffle_utils-0.3.0.tar.gz --markdown 20230417/w/waffle-utils/0.2.3-0.3.0/diff.md --exclude *.pyd
+[2023-04-17 12:36:11] INFO root fetch - processPackages [automonisaur]: Downloading https://files.pythonhosted.org/packages/61/56/86aa80897a31321fcc7acd2a8fc9707978367130b1907bee2d2584da976f/automonisaur-0.2.9.tar.gz
+[2023-04-17 12:36:11] INFO root fetch - processPackages [unicorn-binance-websocket-api]: Downloading https://files.pythonhosted.org/packages/53/7a/a07779112438bd10792116f05660f2dde0e25fffffe3a59cc3ebc99fa127/unicorn-binance-websocket-api-1.46.1.tar.gz
+[2023-04-17 12:36:12] INFO root fetch - processPackages [unicorn-binance-websocket-api]: executing diffoscope
+[2023-04-17 12:36:12] INFO root fetch - processPackages [unicorn-binance-websocket-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unicorn-binance-websocket-api-1.46.0.tar.gz tmp/unicorn-binance-websocket-api-1.46.1.tar.gz --markdown 20230417/u/unicorn-binance-websocket-api/1.46.0-1.46.1/diff.md --exclude *.pyd
+[2023-04-17 12:36:12] INFO root fetch - processPackages [automonisaur]: executing diffoscope
+[2023-04-17 12:36:12] INFO root fetch - processPackages [automonisaur]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automonisaur-0.2.8.tar.gz tmp/automonisaur-0.2.9.tar.gz --markdown 20230417/a/automonisaur/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-17 12:36:13] INFO root fetch - processPackages [wonder-sdk]: Start processing: home-assistant-chip-clusters
+[2023-04-17 12:36:13] INFO root fetch - main [MainThread]: End processing [wonder-sdk]: success
+[2023-04-17 12:36:13] INFO root fetch - processPackages [home-assistant-chip-clusters]: New version: [2023.4.0] Old Version: [2023.2.2]
+[2023-04-17 12:36:13] INFO root fetch - processPackages [happydomain]: Start processing: valmi-airbyte-cdk
+[2023-04-17 12:36:13] INFO root fetch - main [MainThread]: End processing [happydomain]: success
+[2023-04-17 12:36:13] WARNING root fetch - processPackages [valmi-airbyte-cdk]: Skipping, unable to determine old version
+[2023-04-17 12:36:13] INFO root fetch - processPackages [valmi-airbyte-cdk]: Start processing: home-assistant-chip-core
+[2023-04-17 12:36:13] INFO root fetch - main [MainThread]: End processing [valmi-airbyte-cdk] error
+[2023-04-17 12:36:13] INFO root fetch - processPackages [home-assistant-chip-core]: New version: [2023.4.0] Old Version: [2023.2.2]
+[2023-04-17 12:36:13] INFO root fetch - processPackages [home-assistant-chip-clusters]: Downloading https://files.pythonhosted.org/packages/44/35/2281ff1bb8d739dbca39155d00c96d456be5d77e862b27d366105df4c8ec/home_assistant_chip_clusters-2023.2.2-py3-none-any.whl
+[2023-04-17 12:36:13] INFO root fetch - processPackages [redis-metric-helper]: Start processing: home-assistant-chip-repl
+[2023-04-17 12:36:13] INFO root fetch - main [MainThread]: End processing [redis-metric-helper]: success
+[2023-04-17 12:36:13] INFO root fetch - processPackages [home-assistant-chip-repl]: New version: [2023.4.0] Old Version: [2023.2.2]
+[2023-04-17 12:36:13] INFO root fetch - processPackages [huscy.users]: Start processing: pydiverse-pipedag
+[2023-04-17 12:36:13] INFO root fetch - main [MainThread]: End processing [huscy.users]: success
+[2023-04-17 12:36:13] INFO root fetch - processPackages [forwarderd]: Start processing: port-pulumi
+[2023-04-17 12:36:13] INFO root fetch - main [MainThread]: End processing [forwarderd]: success
+[2023-04-17 12:36:13] INFO root fetch - processPackages [pydiverse-pipedag]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-04-17 12:36:13] INFO root fetch - processPackages [port-pulumi]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-04-17 12:36:13] INFO root fetch - processPackages [home-assistant-chip-core]: Downloading https://files.pythonhosted.org/packages/0e/98/6614a5e87dc1e88dc68dfa755745f2e4f72ed972a51ffc0ace14ca6f7a72/home_assistant_chip_core-2023.2.2-cp37-abi3-manylinux_2_31_x86_64.whl
+[2023-04-17 12:36:13] WARNING root fetch - processPackages [home-assistant-chip-core]: Skipping package: exceeds size limit 17020429>=10485760
+[2023-04-17 12:36:13] INFO root fetch - processPackages [home-assistant-chip-core]: Start processing: pycti
+[2023-04-17 12:36:13] INFO root fetch - main [MainThread]: End processing [home-assistant-chip-core] error
+[2023-04-17 12:36:13] INFO root fetch - processPackages [unicorn-binance-websocket-api]: Start processing: up-lpg
+[2023-04-17 12:36:13] INFO root fetch - main [MainThread]: End processing [unicorn-binance-websocket-api]: success
+[2023-04-17 12:36:13] INFO root fetch - processPackages [pycti]: New version: [5.7.0] Old Version: [5.6.post562]
+[2023-04-17 12:36:13] INFO root fetch - processPackages [waffle-utils]: Start processing: llama-inference
+[2023-04-17 12:36:13] INFO root fetch - main [MainThread]: End processing [waffle-utils]: success
+[2023-04-17 12:36:13] INFO root fetch - processPackages [up-lpg]: New version: [0.0.6.1] Old Version: [0.0.6]
+[2023-04-17 12:36:13] INFO root fetch - processPackages [home-assistant-chip-repl]: Downloading https://files.pythonhosted.org/packages/3c/9e/984ec70cca499bba8efe93cdabd3dbe64c17448771b65aad85196423851b/home_assistant_chip_repl-2023.2.2-py3-none-any.whl
+[2023-04-17 12:36:13] INFO root fetch - processPackages [home-assistant-chip-clusters]: Downloading https://files.pythonhosted.org/packages/55/bb/cbb6add8b8d720800b610394e29ae48a35f504e053f7ce89cac5faab4741/home_assistant_chip_clusters-2023.4.0-py3-none-any.whl
+[2023-04-17 12:36:13] INFO root fetch - processPackages [llama-inference]: New version: [0.0.3] Old Version: [0.0.2.post1]
+[2023-04-17 12:36:13] INFO root fetch - processPackages [pydiverse-pipedag]: Downloading https://files.pythonhosted.org/packages/44/a3/5efdea0940ab64c6ec04ed3c07dfde28999f18aa5b77970b6850433efa40/pydiverse-pipedag-0.2.2.tar.gz
+[2023-04-17 12:36:13] INFO root fetch - processPackages [port-pulumi]: Downloading https://files.pythonhosted.org/packages/2d/75/b12c0e1a4a2df899a7949a6c7b54bf8b612b59594ea6147490486ad06c5d/port_pulumi-0.9.3.tar.gz
+[2023-04-17 12:36:13] INFO root fetch - processPackages [django-snowflake]: Start processing: nbsite
+[2023-04-17 12:36:13] INFO root fetch - main [MainThread]: End processing [django-snowflake]: success
+[2023-04-17 12:36:13] INFO root fetch - processPackages [nbsite]: New version: [0.8.0rc9] Old Version: [0.8.0rc8]
+[2023-04-17 12:36:13] INFO root fetch - processPackages [redis-metric-helper]: Start processing: python-property-based-testing
+[2023-04-17 12:36:13] INFO root fetch - main [MainThread]: End processing [redis-metric-helper]: success
+[2023-04-17 12:36:13] INFO root fetch - processPackages [home-assistant-chip-clusters]: executing diffoscope
+[2023-04-17 12:36:13] INFO root fetch - processPackages [home-assistant-chip-clusters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/home_assistant_chip_clusters-2023.2.2-py3-none-any.whl.zip tmp/home_assistant_chip_clusters-2023.4.0-py3-none-any.whl.zip --markdown 20230417/h/home-assistant-chip-clusters/2023.2.2-2023.4.0/diff.md --exclude *.pyd
+[2023-04-17 12:36:13] INFO root fetch - processPackages [python-property-based-testing]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-04-17 12:36:13] INFO root fetch - processPackages [port-pulumi]: executing diffoscope
+[2023-04-17 12:36:13] INFO root fetch - processPackages [port-pulumi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/port_pulumi-0.9.2.tar.gz tmp/port_pulumi-0.9.3.tar.gz --markdown 20230417/p/port-pulumi/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-04-17 12:36:14] INFO root fetch - processPackages [pycti]: Downloading https://files.pythonhosted.org/packages/66/e3/0f077314848e97b545ef132849af13e3d2f1c4e8be8a77fb2eca49a6ff04/pycti-5.6.post562.tar.gz
+[2023-04-17 12:36:14] INFO root fetch - processPackages [nbsite]: executing diffoscope
+[2023-04-17 12:36:14] INFO root fetch - processPackages [nbsite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbsite-0.8.0rc8.tar.gz tmp/nbsite-0.8.0rc9.tar.gz --markdown 20230417/n/nbsite/0.8.0rc8-0.8.0rc9/diff.md --exclude *.pyd
+[2023-04-17 12:36:14] INFO root fetch - processPackages [up-lpg]: Downloading https://files.pythonhosted.org/packages/c0/52/f39a103a3f618f59d10d9bf9c1e2ab7e719a41c088c5cae1e05c29e6eaba/up_lpg-0.0.6-pp39-pypy39_pp73-win_amd64.whl
+[2023-04-17 12:36:14] INFO root fetch - processPackages [llama-inference]: Downloading https://files.pythonhosted.org/packages/8b/58/ec2a6c52fe5f6c568d03aca68891e5ddfda9023fd272d60a22e9a31bb7e4/llama_inference-0.0.3.tar.gz
+[2023-04-17 12:36:14] INFO root fetch - processPackages [python-property-based-testing]: Downloading https://files.pythonhosted.org/packages/aa/2d/d1a51d5ddd018ffd8543932b9128c8b1d75da4a3c1036ee07b21e114644e/python_property_based_testing-0.2.0.tar.gz
+[2023-04-17 12:36:14] INFO root fetch - processPackages [home-assistant-chip-repl]: Downloading https://files.pythonhosted.org/packages/0e/4f/4cfeb1ef2ab0aeb947b64897d5196e26e46b399adac16af0597d21519317/home_assistant_chip_repl-2023.4.0-py3-none-any.whl
+[2023-04-17 12:36:14] INFO root fetch - processPackages [llama-inference]: executing diffoscope
+[2023-04-17 12:36:14] INFO root fetch - processPackages [llama-inference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_inference-0.0.2.post1.tar.gz tmp/llama_inference-0.0.3.tar.gz --markdown 20230417/l/llama-inference/0.0.2.post1-0.0.3/diff.md --exclude *.pyd
+[2023-04-17 12:36:14] INFO root fetch - processPackages [pydiverse-pipedag]: Downloading https://files.pythonhosted.org/packages/65/4b/3c2aea6a19f2434f85c023ed76639b006bc2723faa91153cc52099f39354/pydiverse-pipedag-0.2.3.tar.gz
+[2023-04-17 12:36:14] INFO root fetch - processPackages [pycti]: Downloading https://files.pythonhosted.org/packages/a0/74/5fbc6f2143b21496fa60a1c62fd179bbefcb2dda6e7efaaac823336c0456/pycti-5.7.0.tar.gz
+[2023-04-17 12:36:14] INFO root fetch - processPackages [home-assistant-chip-repl]: executing diffoscope
+[2023-04-17 12:36:14] INFO root fetch - processPackages [home-assistant-chip-repl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/home_assistant_chip_repl-2023.2.2-py3-none-any.whl.zip tmp/home_assistant_chip_repl-2023.4.0-py3-none-any.whl.zip --markdown 20230417/h/home-assistant-chip-repl/2023.2.2-2023.4.0/diff.md --exclude *.pyd
+[2023-04-17 12:36:14] INFO root fetch - processPackages [pydiverse-pipedag]: executing diffoscope
+[2023-04-17 12:36:14] INFO root fetch - processPackages [pydiverse-pipedag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydiverse-pipedag-0.2.2.tar.gz tmp/pydiverse-pipedag-0.2.3.tar.gz --markdown 20230417/p/pydiverse-pipedag/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-04-17 12:36:14] INFO root fetch - processPackages [python-property-based-testing]: Downloading https://files.pythonhosted.org/packages/fb/a6/2de4ebc7f316f1a442b5fbf417b7b4ee6a975fba95c983052e66db44e26d/python_property_based_testing-0.3.0.tar.gz
+[2023-04-17 12:36:14] INFO root fetch - processPackages [pycti]: executing diffoscope
+[2023-04-17 12:36:14] INFO root fetch - processPackages [pycti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycti-5.6.post562.tar.gz tmp/pycti-5.7.0.tar.gz --markdown 20230417/p/pycti/5.6.post562-5.7.0/diff.md --exclude *.pyd
+[2023-04-17 12:36:14] INFO root fetch - processPackages [automonisaur]: Start processing: huscy.subject-notes
+[2023-04-17 12:36:14] INFO root fetch - main [MainThread]: End processing [automonisaur]: success
+[2023-04-17 12:36:14] INFO root fetch - processPackages [python-property-based-testing]: executing diffoscope
+[2023-04-17 12:36:14] INFO root fetch - processPackages [python-property-based-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_property_based_testing-0.2.0.tar.gz tmp/python_property_based_testing-0.3.0.tar.gz --markdown 20230417/p/python-property-based-testing/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-04-17 12:36:14] INFO root fetch - processPackages [up-lpg]: Downloading https://files.pythonhosted.org/packages/10/c7/d8803296555c19ea10f450ee03332da569427572b2d92237eb0dd5084977/up_lpg-0.0.6.1-pp39-pypy39_pp73-win_amd64.whl
+[2023-04-17 12:36:14] INFO root fetch - processPackages [huscy.subject-notes]: New version: [0.1.0a2] Old Version: [0.1.0a1]
+[2023-04-17 12:36:14] INFO root fetch - processPackages [huscy.subject-notes]: Downloading https://files.pythonhosted.org/packages/11/96/91b689c958b9afe4949816c7f00f183da2cf0391afcb1b08c35474840787/huscy.subject_notes-0.1.0a1.tar.gz
+[2023-04-17 12:36:14] INFO root fetch - processPackages [up-lpg]: executing diffoscope
+[2023-04-17 12:36:14] INFO root fetch - processPackages [up-lpg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/up_lpg-0.0.6-pp39-pypy39_pp73-win_amd64.whl.zip tmp/up_lpg-0.0.6.1-pp39-pypy39_pp73-win_amd64.whl.zip --markdown 20230417/u/up-lpg/0.0.6-0.0.6.1/diff.md --exclude *.pyd
+[2023-04-17 12:36:15] INFO root fetch - processPackages [huscy.subject-notes]: Downloading https://files.pythonhosted.org/packages/d4/95/301dccc9dd2252d764d7ce441b71c0e480c1648ec1ed4b0c6383737437a5/huscy.subject_notes-0.1.0a2.tar.gz
+[2023-04-17 12:36:15] INFO root fetch - processPackages [huscy.subject-notes]: executing diffoscope
+[2023-04-17 12:36:15] INFO root fetch - processPackages [huscy.subject-notes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huscy.subject_notes-0.1.0a1.tar.gz tmp/huscy.subject_notes-0.1.0a2.tar.gz --markdown 20230417/h/huscy.subject-notes/0.1.0a1-0.1.0a2/diff.md --exclude *.pyd
+[2023-04-17 12:36:15] INFO root fetch - main [MainThread]: End processing [home-assistant-chip-repl]: success
+[2023-04-17 12:36:15] INFO root fetch - main [MainThread]: End processing [llama-inference]: success
+[2023-04-17 12:36:15] INFO root fetch - main [MainThread]: End processing [python-property-based-testing]: success
+[2023-04-17 12:36:15] INFO root fetch - main [MainThread]: End processing [up-lpg]: success
+[2023-04-17 12:36:15] INFO root fetch - main [MainThread]: End processing [nbsite]: success
+[2023-04-17 12:36:15] INFO root fetch - main [MainThread]: End processing [port-pulumi]: success
+[2023-04-17 12:36:16] INFO root fetch - main [MainThread]: End processing [huscy.subject-notes]: success
+[2023-04-17 12:36:16] INFO root fetch - main [MainThread]: End processing [pydiverse-pipedag]: success
+[2023-04-17 12:36:18] INFO root fetch - main [MainThread]: End processing [pycti]: success
+[2023-04-17 12:36:18] INFO root fetch - main [MainThread]: End processing [home-assistant-chip-clusters]: success
+[2023-04-17 12:36:18] INFO root fetch - main [MainThread]: Store serial: [17736833]
