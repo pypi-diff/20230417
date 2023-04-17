@@ -3221,3 +3221,62 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 03:12:44] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
 [2023-04-17 03:12:46] INFO root fetch - main [MainThread]: End processing [ligo-followup-advocate]: success
 [2023-04-17 03:12:46] INFO root fetch - main [MainThread]: Store serial: [17732500]
+[2023-04-17 03:17:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17732500]
+[2023-04-17 03:17:54] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-17 03:17:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: UserReadWriteMemory
+[2023-04-17 03:17:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: magic-duckdb
+[2023-04-17 03:17:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-lambda-subminute
+[2023-04-17 03:17:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-lambda-layer-curl
+[2023-04-17 03:17:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quickmpc
+[2023-04-17 03:17:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: reposter
+[2023-04-17 03:17:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bioregistry
+[2023-04-17 03:17:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: golident
+[2023-04-17 03:17:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: network-scanner-kbk
+[2023-04-17 03:17:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: scotthsieh-projen-statemachine
+[2023-04-17 03:17:55] INFO root fetch - processPackages [UserReadWriteMemory]: New version: [1.1] Old Version: [1]
+[2023-04-17 03:17:55] WARNING root fetch - processPackages [golident]: Skipping, unable to determine old version
+[2023-04-17 03:17:55] INFO root fetch - main [MainThread]: End processing [golident] error
+[2023-04-17 03:17:55] INFO root fetch - processPackages [quickmpc]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-04-17 03:17:55] INFO root fetch - processPackages [magic-duckdb]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-17 03:17:55] INFO root fetch - processPackages [cdk-lambda-subminute]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-04-17 03:17:55] INFO root fetch - processPackages [reposter]: New version: [23.0.5] Old Version: [23.0.4]
+[2023-04-17 03:17:55] INFO root fetch - processPackages [network-scanner-kbk]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-17 03:17:55] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-04-17 03:17:55] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-04-17 03:17:55] INFO root fetch - processPackages [bioregistry]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-04-17 03:17:55] INFO root fetch - processPackages [cdk-lambda-subminute]: executing diffoscope
+[2023-04-17 03:17:55] INFO root fetch - processPackages [cdk-lambda-subminute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_lambda_subminute-2.0.98.tar.gz tmp/cdk_lambda_subminute-2.0.99.tar.gz --markdown 20230417/c/cdk-lambda-subminute/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-04-17 03:17:55] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-04-17 03:17:55] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230417/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-04-17 03:17:55] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: executing diffoscope
+[2023-04-17 03:17:55] INFO root fetch - processPackages [UserReadWriteMemory]: Downloading https://files.pythonhosted.org/packages/32/90/7e76dc4fe313f55fffb9afd1f712cbc095df013cf795dc4f330823a769de/UserReadWriteMemory-1.tar.gz
+[2023-04-17 03:17:55] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scotthsieh_projen_statemachine-2.0.98.tar.gz tmp/scotthsieh_projen_statemachine-2.0.99.tar.gz --markdown 20230417/s/scotthsieh-projen-statemachine/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-04-17 03:17:55] INFO root fetch - processPackages [reposter]: Downloading https://files.pythonhosted.org/packages/0b/60/64af9d36e4561a752bc020b7fe356b92c4b6e42de0b7b5f43a48bbd843ce/reposter-23.0.4.tar.gz
+[2023-04-17 03:17:55] INFO root fetch - processPackages [network-scanner-kbk]: Downloading https://files.pythonhosted.org/packages/b4/86/b3a49cfe06dba759766b562b57a2c719ffe651d270f934c991f31a3eb0bd/network_scanner_kbk-0.0.5.tar.gz
+[2023-04-17 03:17:55] INFO root fetch - processPackages [bioregistry]: Downloading https://files.pythonhosted.org/packages/ff/40/d7a6ba5c850aac186c19354577423ddf9b64f5631f3a4682c30a9744b2a5/bioregistry-0.8.8.tar.gz
+[2023-04-17 03:17:55] INFO root fetch - processPackages [quickmpc]: Downloading https://files.pythonhosted.org/packages/2a/63/f150740ba4cfa381cf0bd2857ac139c91639ce4ef748b0bde71bac1a0211/quickmpc-0.3.3.tar.gz
+[2023-04-17 03:17:55] INFO root fetch - processPackages [magic-duckdb]: executing diffoscope
+[2023-04-17 03:17:55] INFO root fetch - processPackages [magic-duckdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magic_duckdb-0.1.8-py3-none-any.whl.zip tmp/magic_duckdb-0.1.9-py3-none-any.whl.zip --markdown 20230417/m/magic-duckdb/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-17 03:17:55] INFO root fetch - processPackages [network-scanner-kbk]: executing diffoscope
+[2023-04-17 03:17:55] INFO root fetch - processPackages [network-scanner-kbk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/network_scanner_kbk-0.0.4.tar.gz tmp/network_scanner_kbk-0.0.5.tar.gz --markdown 20230417/n/network-scanner-kbk/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-17 03:17:55] INFO root fetch - processPackages [UserReadWriteMemory]: Downloading https://files.pythonhosted.org/packages/60/71/0d60877a7dfbdd01cad3ba94419ebdbee02f0d830f3bca84da7907205c26/UserReadWriteMemory-1.1.tar.gz
+[2023-04-17 03:17:55] INFO root fetch - processPackages [reposter]: Downloading https://files.pythonhosted.org/packages/2a/15/5a40137c6d1bfd35b2a8cd2869653bcb2c70911d909a823ece0b00a5c8c1/reposter-23.0.5.tar.gz
+[2023-04-17 03:17:55] INFO root fetch - processPackages [quickmpc]: Downloading https://files.pythonhosted.org/packages/20/88/7b21f4a21f5fd26e4d49a7dc031fdb985c14424ddfd91bb8aa504ed67242/quickmpc-0.3.4.tar.gz
+[2023-04-17 03:17:55] INFO root fetch - processPackages [UserReadWriteMemory]: executing diffoscope
+[2023-04-17 03:17:55] INFO root fetch - processPackages [UserReadWriteMemory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UserReadWriteMemory-1.tar.gz tmp/UserReadWriteMemory-1.1.tar.gz --markdown 20230417/U/UserReadWriteMemory/1-1.1/diff.md --exclude *.pyd
+[2023-04-17 03:17:55] INFO root fetch - processPackages [quickmpc]: executing diffoscope
+[2023-04-17 03:17:55] INFO root fetch - processPackages [quickmpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickmpc-0.3.3.tar.gz tmp/quickmpc-0.3.4.tar.gz --markdown 20230417/q/quickmpc/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-04-17 03:17:55] INFO root fetch - processPackages [reposter]: executing diffoscope
+[2023-04-17 03:17:55] INFO root fetch - processPackages [reposter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reposter-23.0.4.tar.gz tmp/reposter-23.0.5.tar.gz --markdown 20230417/r/reposter/23.0.4-23.0.5/diff.md --exclude *.pyd
+[2023-04-17 03:17:56] INFO root fetch - main [MainThread]: End processing [magic-duckdb]: success
+[2023-04-17 03:17:56] INFO root fetch - main [MainThread]: End processing [network-scanner-kbk]: success
+[2023-04-17 03:17:56] INFO root fetch - processPackages [bioregistry]: executing diffoscope
+[2023-04-17 03:17:56] INFO root fetch - processPackages [bioregistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioregistry-0.8.8.tar.gz tmp/bioregistry-0.8.9.tar.gz --markdown 20230417/b/bioregistry/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-04-17 03:17:56] INFO root fetch - main [MainThread]: End processing [UserReadWriteMemory]: success
+[2023-04-17 03:17:56] INFO root fetch - main [MainThread]: End processing [cdk-lambda-subminute]: success
+[2023-04-17 03:17:57] INFO root fetch - main [MainThread]: End processing [reposter]: success
+[2023-04-17 03:17:57] INFO root fetch - main [MainThread]: End processing [quickmpc]: success
+[2023-04-17 03:17:58] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-04-17 03:17:59] INFO root fetch - main [MainThread]: End processing [scotthsieh-projen-statemachine]: success
+[2023-04-17 03:19:07] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
+[2023-04-17 03:19:07] INFO root fetch - main [MainThread]: Store serial: [17732531]
