@@ -13858,3 +13858,224 @@ EOFError: EOF read where object expected
 [2023-04-17 15:34:19] ERROR root fetch - processPackages [mkdocs-material-otf]: Timeout during execution of pkgdiff
 [2023-04-17 15:34:19] INFO root fetch - main [MainThread]: End processing [mkdocs-material-otf] error
 [2023-04-17 15:34:19] INFO root fetch - main [MainThread]: Store serial: [17738909]
+[2023-04-17 15:39:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17738909]
+[2023-04-17 15:39:28] INFO root fetch - main [MainThread]: Found 36 changed packages
+[2023-04-17 15:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: edgeimpulse-api
+[2023-04-17 15:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: snapstream
+[2023-04-17 15:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pydbbackups
+[2023-04-17 15:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: manohelpers
+[2023-04-17 15:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: renovosolutions.aws-cdk-certbot
+[2023-04-17 15:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scaled-preconditioners
+[2023-04-17 15:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: manohelpers
+[2023-04-17 15:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sequana-nanomerge
+[2023-04-17 15:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: manohelpers
+[2023-04-17 15:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: manohelpers
+[2023-04-17 15:39:28] INFO root fetch - processPackages [pydbbackups]: New version: [0.1.0] Old Version: [0.0.4]
+[2023-04-17 15:39:28] WARNING root fetch - processPackages [scaled-preconditioners]: Skipping, unable to determine old version
+[2023-04-17 15:39:28] INFO root fetch - processPackages [scaled-preconditioners]: Start processing: inspire-schemas
+[2023-04-17 15:39:28] INFO root fetch - processPackages [edgeimpulse-api]: New version: [1.22.2] Old Version: [1.22.1]
+[2023-04-17 15:39:28] INFO root fetch - main [MainThread]: End processing [scaled-preconditioners] error
+[2023-04-17 15:39:28] INFO root fetch - processPackages [manohelpers]: New version: [2.6.6] Old Version: [2.6.3]
+[2023-04-17 15:39:28] WARNING root fetch - processPackages [sequana-nanomerge]: Skipping, unable to determine old version
+[2023-04-17 15:39:28] INFO root fetch - processPackages [sequana-nanomerge]: Start processing: mbonig.state-machine
+[2023-04-17 15:39:28] INFO root fetch - main [MainThread]: End processing [sequana-nanomerge] error
+[2023-04-17 15:39:28] INFO root fetch - processPackages [manohelpers]: New version: [2.6.6] Old Version: [2.6.3]
+[2023-04-17 15:39:28] INFO root fetch - processPackages [manohelpers]: New version: [2.6.6] Old Version: [2.6.3]
+[2023-04-17 15:39:28] INFO root fetch - processPackages [manohelpers]: New version: [2.6.6] Old Version: [2.6.3]
+[2023-04-17 15:39:28] INFO root fetch - processPackages [snapstream]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-17 15:39:28] INFO root fetch - processPackages [renovosolutions.aws-cdk-certbot]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-04-17 15:39:28] INFO root fetch - processPackages [mbonig.state-machine]: New version: [0.0.22] Old Version: [0.0.21]
+[2023-04-17 15:39:28] INFO root fetch - processPackages [manohelpers]: Downloading https://files.pythonhosted.org/packages/26/6a/4f2e7c119da93f6c241f3ab6fe8043cf6b3147a3b30e3cfdb50a015d936f/manohelpers-2.6.3.tar.gz
+[2023-04-17 15:39:29] INFO root fetch - processPackages [inspire-schemas]: New version: [9.0.0] Old Version: [8.0.0]
+[2023-04-17 15:39:29] INFO root fetch - processPackages [manohelpers]: Downloading https://files.pythonhosted.org/packages/26/6a/4f2e7c119da93f6c241f3ab6fe8043cf6b3147a3b30e3cfdb50a015d936f/manohelpers-2.6.3.tar.gz
+[2023-04-17 15:39:29] INFO root fetch - processPackages [pydbbackups]: Downloading https://files.pythonhosted.org/packages/3f/38/1936b196edf987186b5e4d23c08edaec0c36e67407e6d67e2dc76227688d/pydbbackups-0.0.4.tar.gz
+[2023-04-17 15:39:29] INFO root fetch - processPackages [manohelpers]: Downloading https://files.pythonhosted.org/packages/26/6a/4f2e7c119da93f6c241f3ab6fe8043cf6b3147a3b30e3cfdb50a015d936f/manohelpers-2.6.3.tar.gz
+[2023-04-17 15:39:29] INFO root fetch - processPackages [manohelpers]: Downloading https://files.pythonhosted.org/packages/26/6a/4f2e7c119da93f6c241f3ab6fe8043cf6b3147a3b30e3cfdb50a015d936f/manohelpers-2.6.3.tar.gz
+[2023-04-17 15:39:29] INFO root fetch - processPackages [edgeimpulse-api]: Downloading https://files.pythonhosted.org/packages/bb/a9/4a94cf0326332a362269e3f4637edccd478dd4e0fbc2ca61592e7509e229/edgeimpulse_api-1.22.1.tar.gz
+[2023-04-17 15:39:29] INFO root fetch - processPackages [renovosolutions.aws-cdk-certbot]: Downloading https://files.pythonhosted.org/packages/f7/0b/c94cda3e976b4153803ac013a5327c15de3eddfdd3665b26c477e3b9596e/renovosolutions.aws-cdk-certbot-2.3.98.tar.gz
+[2023-04-17 15:39:29] INFO root fetch - processPackages [snapstream]: Downloading https://files.pythonhosted.org/packages/a8/9b/e59d347d84a2b2792fd1cb5e828743c4f2f01614314c69b1d522dd0b61f3/snapstream-0.0.1.tar.gz
+[2023-04-17 15:39:29] INFO root fetch - processPackages [mbonig.state-machine]: Downloading https://files.pythonhosted.org/packages/20/ea/58a278e7f562fd440786fa357eba05b06347a6d5ac0e86d1c766134b188c/mbonig.state-machine-0.0.21.tar.gz
+[2023-04-17 15:39:29] WARNING root fetch - processPackages [renovosolutions.aws-cdk-certbot]: Skipping package: exceeds size limit 18415665>=10485760
+[2023-04-17 15:39:29] INFO root fetch - processPackages [renovosolutions.aws-cdk-certbot]: Start processing: manohelpers
+[2023-04-17 15:39:29] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-certbot] error
+[2023-04-17 15:39:29] INFO root fetch - processPackages [pydbbackups]: Downloading https://files.pythonhosted.org/packages/da/ea/d507c4d70f2e8b05e195618fe76a47b2b00306077f56d9b2c41b240ff7f1/pydbbackups-0.1.0.tar.gz
+[2023-04-17 15:39:29] INFO root fetch - processPackages [manohelpers]: New version: [2.6.6] Old Version: [2.6.3]
+[2023-04-17 15:39:29] INFO root fetch - processPackages [manohelpers]: Downloading https://files.pythonhosted.org/packages/b0/3c/8f8068c1fc2304f76a6348bffb4d6d43271fc7e33673f3db62f2fa277895/manohelpers-2.6.6.tar.gz
+[2023-04-17 15:39:29] INFO root fetch - processPackages [manohelpers]: Downloading https://files.pythonhosted.org/packages/b0/3c/8f8068c1fc2304f76a6348bffb4d6d43271fc7e33673f3db62f2fa277895/manohelpers-2.6.6.tar.gz
+[2023-04-17 15:39:29] INFO root fetch - processPackages [manohelpers]: Downloading https://files.pythonhosted.org/packages/b0/3c/8f8068c1fc2304f76a6348bffb4d6d43271fc7e33673f3db62f2fa277895/manohelpers-2.6.6.tar.gz
+[2023-04-17 15:39:29] INFO root fetch - processPackages [manohelpers]: Downloading https://files.pythonhosted.org/packages/b0/3c/8f8068c1fc2304f76a6348bffb4d6d43271fc7e33673f3db62f2fa277895/manohelpers-2.6.6.tar.gz
+[2023-04-17 15:39:29] INFO root fetch - processPackages [snapstream]: Downloading https://files.pythonhosted.org/packages/dc/b1/f454091e896c3dc53df1409f6785bf47ff36031ac55605920ad939af623a/snapstream-0.0.2.tar.gz
+[2023-04-17 15:39:29] INFO root fetch - processPackages [pydbbackups]: executing diffoscope
+[2023-04-17 15:39:29] INFO root fetch - processPackages [pydbbackups]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydbbackups-0.0.4.tar.gz tmp/pydbbackups-0.1.0.tar.gz --markdown 20230417/p/pydbbackups/0.0.4-0.1.0/diff.md --exclude *.pyd
+[2023-04-17 15:39:29] INFO root fetch - processPackages [manohelpers]: Downloading https://files.pythonhosted.org/packages/b0/3c/8f8068c1fc2304f76a6348bffb4d6d43271fc7e33673f3db62f2fa277895/manohelpers-2.6.6.tar.gz
+[2023-04-17 15:39:29] INFO root fetch - processPackages [edgeimpulse-api]: Downloading https://files.pythonhosted.org/packages/59/a6/80e121f4031dcbf2e879f8a09588231aca6d20a963ec77a869deead223a3/edgeimpulse_api-1.22.2.tar.gz
+[2023-04-17 15:39:29] INFO root fetch - processPackages [inspire-schemas]: executing diffoscope
+[2023-04-17 15:39:29] INFO root fetch - processPackages [inspire-schemas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inspire-schemas-8.0.0.tar.gz tmp/inspire-schemas-9.0.0.tar.gz --markdown 20230417/i/inspire-schemas/8.0.0-9.0.0/diff.md --exclude *.pyd
+[2023-04-17 15:39:29] INFO root fetch - processPackages [manohelpers]: executing diffoscope
+[2023-04-17 15:39:29] INFO root fetch - processPackages [manohelpers]: executing diffoscope
+[2023-04-17 15:39:29] INFO root fetch - processPackages [manohelpers]: executing diffoscope
+[2023-04-17 15:39:29] INFO root fetch - processPackages [manohelpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manohelpers-2.6.3.tar.gz tmp/manohelpers-2.6.6.tar.gz --markdown 20230417/m/manohelpers/2.6.3-2.6.6/diff.md --exclude *.pyd
+[2023-04-17 15:39:29] INFO root fetch - processPackages [manohelpers]: executing diffoscope
+[2023-04-17 15:39:29] INFO root fetch - processPackages [manohelpers]: executing diffoscope
+[2023-04-17 15:39:29] INFO root fetch - processPackages [manohelpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manohelpers-2.6.3.tar.gz tmp/manohelpers-2.6.6.tar.gz --markdown 20230417/m/manohelpers/2.6.3-2.6.6/diff.md --exclude *.pyd
+[2023-04-17 15:39:29] INFO root fetch - processPackages [manohelpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manohelpers-2.6.3.tar.gz tmp/manohelpers-2.6.6.tar.gz --markdown 20230417/m/manohelpers/2.6.3-2.6.6/diff.md --exclude *.pyd
+[2023-04-17 15:39:29] INFO root fetch - processPackages [manohelpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manohelpers-2.6.3.tar.gz tmp/manohelpers-2.6.6.tar.gz --markdown 20230417/m/manohelpers/2.6.3-2.6.6/diff.md --exclude *.pyd
+[2023-04-17 15:39:29] INFO root fetch - processPackages [manohelpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manohelpers-2.6.3.tar.gz tmp/manohelpers-2.6.6.tar.gz --markdown 20230417/m/manohelpers/2.6.3-2.6.6/diff.md --exclude *.pyd
+[2023-04-17 15:39:29] INFO root fetch - processPackages [snapstream]: executing diffoscope
+[2023-04-17 15:39:29] INFO root fetch - processPackages [snapstream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snapstream-0.0.1.tar.gz tmp/snapstream-0.0.2.tar.gz --markdown 20230417/s/snapstream/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-17 15:39:29] INFO root fetch - processPackages [mbonig.state-machine]: Downloading https://files.pythonhosted.org/packages/bb/0c/4867c846c641746fa8a53721dae8e3099abe991153fd19e8b33545a0cbc2/mbonig.state-machine-0.0.22.tar.gz
+[2023-04-17 15:39:29] INFO root fetch - processPackages [edgeimpulse-api]: executing diffoscope
+[2023-04-17 15:39:29] INFO root fetch - processPackages [edgeimpulse-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgeimpulse_api-1.22.1.tar.gz tmp/edgeimpulse_api-1.22.2.tar.gz --markdown 20230417/e/edgeimpulse-api/1.22.1-1.22.2/diff.md --exclude *.pyd
+[2023-04-17 15:39:29] INFO root fetch - processPackages [mbonig.state-machine]: executing diffoscope
+[2023-04-17 15:39:29] INFO root fetch - processPackages [mbonig.state-machine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mbonig.state-machine-0.0.21.tar.gz tmp/mbonig.state-machine-0.0.22.tar.gz --markdown 20230417/m/mbonig.state-machine/0.0.21-0.0.22/diff.md --exclude *.pyd
+[2023-04-17 15:39:31] INFO root fetch - processPackages [manohelpers]: Start processing: renovosolutions.aws-cdk-aspects-security-group
+[2023-04-17 15:39:31] INFO root fetch - main [MainThread]: End processing [manohelpers]: success
+[2023-04-17 15:39:31] INFO root fetch - processPackages [renovosolutions.aws-cdk-aspects-security-group]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-04-17 15:39:31] INFO root fetch - processPackages [manohelpers]: Start processing: renovosolutions.aws-cdk-renovo-s3-bucket
+[2023-04-17 15:39:31] INFO root fetch - main [MainThread]: End processing [manohelpers]: success
+[2023-04-17 15:39:31] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-s3-bucket]: New version: [2.2.99] Old Version: [2.2.98]
+[2023-04-17 15:39:31] INFO root fetch - processPackages [renovosolutions.aws-cdk-aspects-security-group]: executing diffoscope
+[2023-04-17 15:39:31] INFO root fetch - processPackages [renovosolutions.aws-cdk-aspects-security-group]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-aspects-security-group-2.1.98.tar.gz tmp/renovosolutions.aws-cdk-aspects-security-group-2.1.99.tar.gz --markdown 20230417/r/renovosolutions.aws-cdk-aspects-security-group/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-04-17 15:39:31] INFO root fetch - processPackages [pydbbackups]: Start processing: manohelpers
+[2023-04-17 15:39:31] INFO root fetch - main [MainThread]: End processing [pydbbackups]: success
+[2023-04-17 15:39:31] INFO root fetch - processPackages [manohelpers]: New version: [2.6.6] Old Version: [2.6.3]
+[2023-04-17 15:39:31] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-s3-bucket]: executing diffoscope
+[2023-04-17 15:39:31] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-s3-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-renovo-s3-bucket-2.2.98.tar.gz tmp/renovosolutions.aws-cdk-renovo-s3-bucket-2.2.99.tar.gz --markdown 20230417/r/renovosolutions.aws-cdk-renovo-s3-bucket/2.2.98-2.2.99/diff.md --exclude *.pyd
+[2023-04-17 15:39:31] INFO root fetch - processPackages [manohelpers]: Start processing: fractal-server
+[2023-04-17 15:39:31] INFO root fetch - main [MainThread]: End processing [manohelpers]: success
+[2023-04-17 15:39:31] INFO root fetch - processPackages [snapstream]: Start processing: renovosolutions.aws-cdk-control-tower-lifecycle-events
+[2023-04-17 15:39:31] INFO root fetch - main [MainThread]: End processing [snapstream]: success
+[2023-04-17 15:39:31] INFO root fetch - processPackages [manohelpers]: Start processing: tb-rest-client
+[2023-04-17 15:39:31] INFO root fetch - main [MainThread]: End processing [manohelpers]: success
+[2023-04-17 15:39:31] INFO root fetch - processPackages [inspire-schemas]: Start processing: pycvc
+[2023-04-17 15:39:31] INFO root fetch - main [MainThread]: End processing [inspire-schemas]: success
+[2023-04-17 15:39:31] INFO root fetch - processPackages [manohelpers]: Start processing: retentioneering
+[2023-04-17 15:39:31] INFO root fetch - main [MainThread]: End processing [manohelpers]: success
+[2023-04-17 15:39:31] INFO root fetch - processPackages [manohelpers]: executing diffoscope
+[2023-04-17 15:39:31] INFO root fetch - processPackages [manohelpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manohelpers-2.6.3.tar.gz tmp/manohelpers-2.6.6.tar.gz --markdown 20230417/m/manohelpers/2.6.3-2.6.6/diff.md --exclude *.pyd
+[2023-04-17 15:39:31] INFO root fetch - processPackages [renovosolutions.aws-cdk-control-tower-lifecycle-events]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-04-17 15:39:31] INFO root fetch - processPackages [fractal-server]: New version: [1.2.0a5] Old Version: [1.2.0a4]
+[2023-04-17 15:39:31] INFO root fetch - processPackages [tb-rest-client]: New version: [1.5] Old Version: [1.4]
+[2023-04-17 15:39:31] INFO root fetch - processPackages [pycvc]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-04-17 15:39:31] INFO root fetch - processPackages [retentioneering]: New version: [3.0.0b1] Old Version: [3.0.0b0]
+[2023-04-17 15:39:31] INFO root fetch - processPackages [mbonig.state-machine]: Start processing: manohelpers
+[2023-04-17 15:39:31] INFO root fetch - main [MainThread]: End processing [mbonig.state-machine]: success
+[2023-04-17 15:39:31] INFO root fetch - processPackages [manohelpers]: New version: [2.6.6] Old Version: [2.6.3]
+[2023-04-17 15:39:31] INFO root fetch - processPackages [renovosolutions.aws-cdk-control-tower-lifecycle-events]: Downloading https://files.pythonhosted.org/packages/5d/e8/4e165b2f8e043b8a6f533e80c731ae1580c6d388f06d2d292837f02a1aa7/renovosolutions.aws-cdk-control-tower-lifecycle-events-0.1.98.tar.gz
+[2023-04-17 15:39:31] INFO root fetch - processPackages [tb-rest-client]: Downloading https://files.pythonhosted.org/packages/44/4b/a03feb6f903d51c26b331b36bd0421b2250a7826c9163a3ff651bc54b220/tb-rest-client-1.4.tar.gz
+[2023-04-17 15:39:31] INFO root fetch - processPackages [manohelpers]: executing diffoscope
+[2023-04-17 15:39:31] INFO root fetch - processPackages [manohelpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manohelpers-2.6.3.tar.gz tmp/manohelpers-2.6.6.tar.gz --markdown 20230417/m/manohelpers/2.6.3-2.6.6/diff.md --exclude *.pyd
+[2023-04-17 15:39:31] INFO root fetch - processPackages [pycvc]: Downloading https://files.pythonhosted.org/packages/76/7a/10a96e7ef97dbe3a40d94321b68e0897fb15e21d19341933c6035a51a40e/pycvc-1.2.1.tar.gz
+[2023-04-17 15:39:31] INFO root fetch - processPackages [retentioneering]: Downloading https://files.pythonhosted.org/packages/25/46/e3583506e3c7a57d6f33e0d473256cb2bd27bdd7fac5495da9689a55c669/retentioneering-3.0.0b0.tar.gz
+[2023-04-17 15:39:32] INFO root fetch - processPackages [fractal-server]: Downloading https://files.pythonhosted.org/packages/0d/dc/59d7909ab0297cd0a808bc10b9a00b6aceb450ac3b8380b4e59e11bf42df/fractal_server-1.2.0a5.tar.gz
+[2023-04-17 15:39:32] INFO root fetch - processPackages [tb-rest-client]: Downloading https://files.pythonhosted.org/packages/e7/52/cb9d286b546d12d063d7fdf27d670865e44ff29588c6607d7f3c95e7fce3/tb-rest-client-1.5.tar.gz
+[2023-04-17 15:39:32] INFO root fetch - processPackages [fractal-server]: executing diffoscope
+[2023-04-17 15:39:32] INFO root fetch - processPackages [fractal-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fractal_server-1.2.0a4.tar.gz tmp/fractal_server-1.2.0a5.tar.gz --markdown 20230417/f/fractal-server/1.2.0a4-1.2.0a5/diff.md --exclude *.pyd
+[2023-04-17 15:39:32] INFO root fetch - processPackages [renovosolutions.aws-cdk-control-tower-lifecycle-events]: Downloading https://files.pythonhosted.org/packages/05/df/7a5fef5d04715e9053c344907162075912807a5afd58dc0cbc9d037f01ac/renovosolutions.aws-cdk-control-tower-lifecycle-events-0.1.99.tar.gz
+[2023-04-17 15:39:32] INFO root fetch - processPackages [pycvc]: Downloading https://files.pythonhosted.org/packages/26/06/3b5324dab3167812a35085421e9e482aaaf136c65856d443e28191fad145/pycvc-1.2.2-py3-none-any.whl
+[2023-04-17 15:39:32] INFO root fetch - processPackages [tb-rest-client]: executing diffoscope
+[2023-04-17 15:39:32] INFO root fetch - processPackages [tb-rest-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb-rest-client-1.4.tar.gz tmp/tb-rest-client-1.5.tar.gz --markdown 20230417/t/tb-rest-client/1.4-1.5/diff.md --exclude *.pyd
+[2023-04-17 15:39:32] INFO root fetch - processPackages [retentioneering]: Downloading https://files.pythonhosted.org/packages/4d/37/63122d720d33c550797682c5fe346fd6a4ac635d8b5333c20ae9189f5c2a/retentioneering-3.0.0b1.tar.gz
+[2023-04-17 15:39:32] INFO root fetch - processPackages [renovosolutions.aws-cdk-control-tower-lifecycle-events]: executing diffoscope
+[2023-04-17 15:39:32] INFO root fetch - processPackages [renovosolutions.aws-cdk-control-tower-lifecycle-events]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-control-tower-lifecycle-events-0.1.98.tar.gz tmp/renovosolutions.aws-cdk-control-tower-lifecycle-events-0.1.99.tar.gz --markdown 20230417/r/renovosolutions.aws-cdk-control-tower-lifecycle-events/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-04-17 15:39:32] INFO root fetch - processPackages [pycvc]: executing diffoscope
+[2023-04-17 15:39:32] INFO root fetch - processPackages [pycvc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycvc-1.2.1.tar.gz tmp/pycvc-1.2.2-py3-none-any.whl.zip --markdown 20230417/p/pycvc/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-04-17 15:39:32] INFO root fetch - processPackages [retentioneering]: executing diffoscope
+[2023-04-17 15:39:32] INFO root fetch - processPackages [retentioneering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/retentioneering-3.0.0b0.tar.gz tmp/retentioneering-3.0.0b1.tar.gz --markdown 20230417/r/retentioneering/3.0.0b0-3.0.0b1/diff.md --exclude *.pyd
+[2023-04-17 15:39:33] INFO root fetch - processPackages [manohelpers]: Start processing: anoexpress
+[2023-04-17 15:39:33] INFO root fetch - main [MainThread]: End processing [manohelpers]: success
+[2023-04-17 15:39:33] INFO root fetch - processPackages [anoexpress]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-17 15:39:33] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-s3-bucket]: Start processing: manohelpers
+[2023-04-17 15:39:33] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-renovo-s3-bucket]: success
+[2023-04-17 15:39:33] INFO root fetch - processPackages [manohelpers]: New version: [2.6.6] Old Version: [2.6.3]
+[2023-04-17 15:39:33] INFO root fetch - processPackages [anoexpress]: Downloading https://files.pythonhosted.org/packages/5e/30/aca15ad0c3c0bc31c7191a2e4c8bc82991a8eed78342669e112380e1f1f3/anoexpress-0.1.2.tar.gz
+[2023-04-17 15:39:33] INFO root fetch - processPackages [manohelpers]: Start processing: openai-api-call
+[2023-04-17 15:39:33] INFO root fetch - main [MainThread]: End processing [manohelpers]: success
+[2023-04-17 15:39:33] INFO root fetch - processPackages [manohelpers]: executing diffoscope
+[2023-04-17 15:39:33] INFO root fetch - processPackages [manohelpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manohelpers-2.6.3.tar.gz tmp/manohelpers-2.6.6.tar.gz --markdown 20230417/m/manohelpers/2.6.3-2.6.6/diff.md --exclude *.pyd
+[2023-04-17 15:39:33] INFO root fetch - processPackages [openai-api-call]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-04-17 15:39:33] INFO root fetch - processPackages [anoexpress]: Downloading https://files.pythonhosted.org/packages/6d/ff/3ff41790f190be0e4bf96d89195978fa21db835112377d141eb84d14e108/anoexpress-0.1.3.tar.gz
+[2023-04-17 15:39:33] INFO root fetch - processPackages [openai-api-call]: Downloading https://files.pythonhosted.org/packages/1a/4d/de0366ff549b1d64ea6f6050e0ae56d16a99e9b9fe83d23122fc230e7742/openai_api_call-0.3.7.tar.gz
+[2023-04-17 15:39:33] INFO root fetch - processPackages [renovosolutions.aws-cdk-aspects-security-group]: Start processing: flask-fd
+[2023-04-17 15:39:33] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-aspects-security-group]: success
+[2023-04-17 15:39:33] INFO root fetch - processPackages [flask-fd]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-17 15:39:33] INFO root fetch - processPackages [anoexpress]: executing diffoscope
+[2023-04-17 15:39:33] INFO root fetch - processPackages [anoexpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anoexpress-0.1.2.tar.gz tmp/anoexpress-0.1.3.tar.gz --markdown 20230417/a/anoexpress/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-17 15:39:33] INFO root fetch - processPackages [openai-api-call]: Downloading https://files.pythonhosted.org/packages/9f/3c/22ad77a57ec8513ddfc2c3cfc44624f18c3e4387d48e5829a0124ee725df/openai_api_call-0.3.8.tar.gz
+[2023-04-17 15:39:33] INFO root fetch - processPackages [pycvc]: Start processing: renovosolutions.aws-cdk-one-time-event
+[2023-04-17 15:39:33] INFO root fetch - main [MainThread]: End processing [pycvc]: success
+[2023-04-17 15:39:33] INFO root fetch - processPackages [flask-fd]: executing diffoscope
+[2023-04-17 15:39:33] INFO root fetch - processPackages [flask-fd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask-fd-1.0.2.tar.gz tmp/flask-fd-1.0.3.tar.gz --markdown 20230417/f/flask-fd/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-17 15:39:33] INFO root fetch - processPackages [renovosolutions.aws-cdk-one-time-event]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-04-17 15:39:34] INFO root fetch - processPackages [openai-api-call]: executing diffoscope
+[2023-04-17 15:39:34] INFO root fetch - processPackages [openai-api-call]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_api_call-0.3.7.tar.gz tmp/openai_api_call-0.3.8.tar.gz --markdown 20230417/o/openai-api-call/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-04-17 15:39:34] INFO root fetch - processPackages [renovosolutions.aws-cdk-one-time-event]: executing diffoscope
+[2023-04-17 15:39:34] INFO root fetch - processPackages [renovosolutions.aws-cdk-one-time-event]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-one-time-event-2.1.98.tar.gz tmp/renovosolutions.aws-cdk-one-time-event-2.1.99.tar.gz --markdown 20230417/r/renovosolutions.aws-cdk-one-time-event/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-04-17 15:39:34] INFO root fetch - processPackages [renovosolutions.aws-cdk-control-tower-lifecycle-events]: Start processing: amfiprot-amfitrack
+[2023-04-17 15:39:34] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-control-tower-lifecycle-events]: success
+[2023-04-17 15:39:34] INFO root fetch - processPackages [amfiprot-amfitrack]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2023-04-17 15:39:34] INFO root fetch - processPackages [amfiprot-amfitrack]: Downloading https://files.pythonhosted.org/packages/99/1c/92cf7f927aa47b3cc5bba8867e5911d001410792b84beb488e90a0ad7ee7/amfiprot_amfitrack-0.0.1a8.tar.gz
+[2023-04-17 15:39:34] INFO root fetch - processPackages [amfiprot-amfitrack]: Downloading https://files.pythonhosted.org/packages/bc/c8/4e1c74712948a1b63d174fe8bc0dba7f17154301e74d61c129dd151a6fd8/amfiprot_amfitrack-0.0.1a9.tar.gz
+[2023-04-17 15:39:34] INFO root fetch - processPackages [amfiprot-amfitrack]: executing diffoscope
+[2023-04-17 15:39:34] INFO root fetch - processPackages [amfiprot-amfitrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amfiprot_amfitrack-0.0.1a8.tar.gz tmp/amfiprot_amfitrack-0.0.1a9.tar.gz --markdown 20230417/a/amfiprot-amfitrack/0.0.1a8-0.0.1a9/diff.md --exclude *.pyd
+[2023-04-17 15:39:34] INFO root fetch - processPackages [manohelpers]: Start processing: filum-utils
+[2023-04-17 15:39:34] INFO root fetch - main [MainThread]: End processing [manohelpers]: success
+[2023-04-17 15:39:35] INFO root fetch - processPackages [filum-utils]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-04-17 15:39:35] INFO root fetch - processPackages [filum-utils]: Downloading https://files.pythonhosted.org/packages/03/b5/24faf07a5f75d7610020cff8982a0867298a602d98b081526ace6241131b/filum-utils-0.1.6.tar.gz
+[2023-04-17 15:39:35] INFO root fetch - processPackages [anoexpress]: Start processing: orchd-ext
+[2023-04-17 15:39:35] INFO root fetch - main [MainThread]: End processing [anoexpress]: success
+[2023-04-17 15:39:35] INFO root fetch - processPackages [orchd-ext]: New version: [0.1a2] Old Version: [0.1a1]
+[2023-04-17 15:39:35] INFO root fetch - processPackages [orchd-ext]: executing diffoscope
+[2023-04-17 15:39:35] INFO root fetch - processPackages [orchd-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orchd-ext-0.1a1.tar.gz tmp/orchd-ext-0.1a2.tar.gz --markdown 20230417/o/orchd-ext/0.1a1-0.1a2/diff.md --exclude *.pyd
+[2023-04-17 15:39:35] INFO root fetch - processPackages [filum-utils]: Downloading https://files.pythonhosted.org/packages/b0/47/49d95e4f3422030e0ba59c68ba1cf2693ecd7493879a497fd378976009c2/filum-utils-0.1.7.tar.gz
+[2023-04-17 15:39:35] INFO root fetch - processPackages [retentioneering]: Start processing: customdbcred
+[2023-04-17 15:39:35] INFO root fetch - main [MainThread]: End processing [retentioneering]: success
+[2023-04-17 15:39:35] INFO root fetch - processPackages [filum-utils]: executing diffoscope
+[2023-04-17 15:39:35] INFO root fetch - processPackages [filum-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/filum-utils-0.1.6.tar.gz tmp/filum-utils-0.1.7.tar.gz --markdown 20230417/f/filum-utils/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-04-17 15:39:35] INFO root fetch - processPackages [customdbcred]: New version: [0.3] Old Version: [0.2]
+[2023-04-17 15:39:35] INFO root fetch - processPackages [renovosolutions.aws-cdk-one-time-event]: Start processing: t2iapi
+[2023-04-17 15:39:35] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-one-time-event]: success
+[2023-04-17 15:39:35] INFO root fetch - processPackages [flask-fd]: Start processing: huscy.project-documents
+[2023-04-17 15:39:35] INFO root fetch - main [MainThread]: End processing [flask-fd]: success
+[2023-04-17 15:39:35] INFO root fetch - processPackages [t2iapi]: New version: [3.0.0.dev131] Old Version: [3.0.0.dev129]
+[2023-04-17 15:39:36] INFO root fetch - processPackages [huscy.project-documents]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-04-17 15:39:36] INFO root fetch - processPackages [openai-api-call]: Start processing: customvalidator
+[2023-04-17 15:39:36] INFO root fetch - main [MainThread]: End processing [openai-api-call]: success
+[2023-04-17 15:39:36] INFO root fetch - processPackages [customvalidator]: New version: [0.5] Old Version: [0.4]
+[2023-04-17 15:39:36] INFO root fetch - processPackages [customdbcred]: Downloading https://files.pythonhosted.org/packages/1e/7b/45e27f2a129f7932ada7083da9197c07a0a949365969096f7998a9356e2e/customdbcred-0.3.tar.gz
+[2023-04-17 15:39:36] INFO root fetch - processPackages [t2iapi]: Downloading https://files.pythonhosted.org/packages/63/e6/8dadcca4cb27b407e7cbb51bab6bd34e64ea2ed8e1d495154df93b437310/t2iapi-3.0.0.dev129.tar.gz
+[2023-04-17 15:39:36] INFO root fetch - processPackages [fractal-server]: Start processing: deterrers-cli
+[2023-04-17 15:39:36] INFO root fetch - main [MainThread]: End processing [fractal-server]: success
+[2023-04-17 15:39:36] INFO root fetch - processPackages [huscy.project-documents]: Downloading https://files.pythonhosted.org/packages/f6/a2/0231b6e0d0ada935492bf5aadf13de43884085bcd7e30063161693f0f618/huscy.project_documents-1.3.0.tar.gz
+[2023-04-17 15:39:36] INFO root fetch - processPackages [customdbcred]: executing diffoscope
+[2023-04-17 15:39:36] INFO root fetch - processPackages [customdbcred]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/customdbcred-0.2.tar.gz tmp/customdbcred-0.3.tar.gz --markdown 20230417/c/customdbcred/0.2-0.3/diff.md --exclude *.pyd
+[2023-04-17 15:39:36] INFO root fetch - processPackages [deterrers-cli]: New version: [0.3] Old Version: [0.2]
+[2023-04-17 15:39:36] INFO root fetch - processPackages [customvalidator]: Downloading https://files.pythonhosted.org/packages/7e/11/fa5c925424ac789db4a5d719c80fce4f7a64adf7fdbeee068369df3c6e73/customvalidator-0.5.tar.gz
+[2023-04-17 15:39:36] INFO root fetch - processPackages [t2iapi]: Downloading https://files.pythonhosted.org/packages/f4/05/42d8f0114bae045534becb292c134cb52eb5628eabb7a6049f2aabb99ae7/t2iapi-3.0.0.dev131.tar.gz
+[2023-04-17 15:39:36] INFO root fetch - processPackages [amfiprot-amfitrack]: Start processing: inspire-schemas
+[2023-04-17 15:39:36] INFO root fetch - main [MainThread]: End processing [amfiprot-amfitrack]: success
+[2023-04-17 15:39:36] INFO root fetch - processPackages [customvalidator]: executing diffoscope
+[2023-04-17 15:39:36] INFO root fetch - processPackages [customvalidator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/customvalidator-0.4.tar.gz tmp/customvalidator-0.5.tar.gz --markdown 20230417/c/customvalidator/0.4-0.5/diff.md --exclude *.pyd
+[2023-04-17 15:39:36] INFO root fetch - processPackages [inspire-schemas]: New version: [9.0.0] Old Version: [8.0.0]
+[2023-04-17 15:39:36] INFO root fetch - processPackages [deterrers-cli]: Downloading https://files.pythonhosted.org/packages/57/0e/db445c0cbb5b1dc8f6037a1de1cf27e44443fcb119c32f048199f610c093/deterrers-cli-0.2.tar.gz
+[2023-04-17 15:39:36] INFO root fetch - processPackages [huscy.project-documents]: Downloading https://files.pythonhosted.org/packages/43/27/fc327c65336f9240b5db29f9870c7af6cd2fd94d5b3a77b28a8326ff7c9b/huscy.project_documents-1.3.1.tar.gz
+[2023-04-17 15:39:36] INFO root fetch - processPackages [t2iapi]: executing diffoscope
+[2023-04-17 15:39:36] INFO root fetch - processPackages [t2iapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t2iapi-3.0.0.dev129.tar.gz tmp/t2iapi-3.0.0.dev131.tar.gz --markdown 20230417/t/t2iapi/3.0.0.dev129-3.0.0.dev131/diff.md --exclude *.pyd
+[2023-04-17 15:39:36] INFO root fetch - processPackages [inspire-schemas]: executing diffoscope
+[2023-04-17 15:39:36] INFO root fetch - processPackages [inspire-schemas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inspire-schemas-8.0.0.tar.gz tmp/inspire-schemas-9.0.0.tar.gz --markdown 20230417/i/inspire-schemas/8.0.0-9.0.0/diff.md --exclude *.pyd
+[2023-04-17 15:39:36] INFO root fetch - processPackages [huscy.project-documents]: executing diffoscope
+[2023-04-17 15:39:36] INFO root fetch - processPackages [huscy.project-documents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huscy.project_documents-1.3.0.tar.gz tmp/huscy.project_documents-1.3.1.tar.gz --markdown 20230417/h/huscy.project-documents/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-04-17 15:39:36] INFO root fetch - processPackages [deterrers-cli]: Downloading https://files.pythonhosted.org/packages/a7/50/a65a0d38ab463326a0abb4a2d6a5fb9354c102dabcba2d20b94b5b6e0bb5/deterrers-cli-0.3.tar.gz
+[2023-04-17 15:39:36] INFO root fetch - processPackages [deterrers-cli]: executing diffoscope
+[2023-04-17 15:39:36] INFO root fetch - processPackages [deterrers-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deterrers-cli-0.2.tar.gz tmp/deterrers-cli-0.3.tar.gz --markdown 20230417/d/deterrers-cli/0.2-0.3/diff.md --exclude *.pyd
+[2023-04-17 15:39:37] INFO root fetch - main [MainThread]: End processing [orchd-ext]: success
+[2023-04-17 15:39:37] INFO root fetch - main [MainThread]: End processing [filum-utils]: success
+[2023-04-17 15:39:37] INFO root fetch - main [MainThread]: End processing [customdbcred]: success
+[2023-04-17 15:39:38] INFO root fetch - main [MainThread]: End processing [customvalidator]: success
+[2023-04-17 15:39:38] INFO root fetch - main [MainThread]: End processing [deterrers-cli]: success
+[2023-04-17 15:39:38] INFO root fetch - main [MainThread]: End processing [huscy.project-documents]: success
+[2023-04-17 15:39:39] INFO root fetch - main [MainThread]: End processing [inspire-schemas]: success
+[2023-04-17 15:39:40] INFO root fetch - main [MainThread]: End processing [t2iapi]: success
+[2023-04-17 15:39:48] INFO root fetch - main [MainThread]: End processing [tb-rest-client]: success
+[2023-04-17 15:39:50] INFO root fetch - main [MainThread]: End processing [edgeimpulse-api]: success
+[2023-04-17 15:39:50] INFO root fetch - main [MainThread]: Store serial: [17739013]
