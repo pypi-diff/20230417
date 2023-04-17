@@ -14199,3 +14199,123 @@ EOFError: EOF read where object expected
 [2023-04-17 15:45:06] INFO root fetch - main [MainThread]: End processing [edgeimpulse]: success
 [2023-04-17 15:45:09] INFO root fetch - main [MainThread]: End processing [cir4mics]: success
 [2023-04-17 15:45:09] INFO root fetch - main [MainThread]: Store serial: [17739087]
+[2023-04-17 15:50:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17739087]
+[2023-04-17 15:50:18] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-04-17 15:50:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spacy-transformers
+[2023-04-17 15:50:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: inels-mqtt-new
+[2023-04-17 15:50:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: youtube-transcript-api
+[2023-04-17 15:50:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dynatrace-opentelemetry-azure-functions
+[2023-04-17 15:50:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mtehis
+[2023-04-17 15:50:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dynatrace-opentelemetry-core
+[2023-04-17 15:50:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dynatrace-opentelemetry-gcf
+[2023-04-17 15:50:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: felixlib
+[2023-04-17 15:50:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: orthanc-api-client
+[2023-04-17 15:50:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: unacatlib
+[2023-04-17 15:50:18] INFO root fetch - processPackages [inels-mqtt-new]: New version: [0.2.9a2] Old Version: [0.2.9a1]
+[2023-04-17 15:50:18] INFO root fetch - processPackages [felixlib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 15:50:18] INFO root fetch - processPackages [orthanc-api-client]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-17 15:50:18] INFO root fetch - processPackages [youtube-transcript-api]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-04-17 15:50:18] INFO root fetch - processPackages [dynatrace-opentelemetry-core]: New version: [1.261.5] Old Version: [1.259.2]
+[2023-04-17 15:50:18] INFO root fetch - processPackages [mtehis]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-17 15:50:18] INFO root fetch - processPackages [inels-mqtt-new]: executing diffoscope
+[2023-04-17 15:50:18] INFO root fetch - processPackages [inels-mqtt-new]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inels-mqtt-new-0.2.9a1.tar.gz tmp/inels-mqtt-new-0.2.9a2.tar.gz --markdown 20230417/i/inels-mqtt-new/0.2.9a1-0.2.9a2/diff.md --exclude *.pyd
+[2023-04-17 15:50:18] INFO root fetch - processPackages [felixlib]: executing diffoscope
+[2023-04-17 15:50:18] INFO root fetch - processPackages [dynatrace-opentelemetry-gcf]: New version: [1.261.5] Old Version: [1.259.2]
+[2023-04-17 15:50:18] INFO root fetch - processPackages [felixlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/felixlib-0.0.8.tar.gz tmp/felixlib-0.0.9.tar.gz --markdown 20230417/f/felixlib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 15:50:18] INFO root fetch - processPackages [unacatlib]: New version: [0.0.60] Old Version: [0.0.59]
+[2023-04-17 15:50:18] INFO root fetch - processPackages [spacy-transformers]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-04-17 15:50:18] INFO root fetch - processPackages [orthanc-api-client]: executing diffoscope
+[2023-04-17 15:50:18] INFO root fetch - processPackages [orthanc-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orthanc_api_client-0.9.0.tar.gz tmp/orthanc_api_client-0.9.1.tar.gz --markdown 20230417/o/orthanc-api-client/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-17 15:50:18] INFO root fetch - processPackages [mtehis]: Downloading https://files.pythonhosted.org/packages/71/dc/269b007009e05448b534fe6c0ac647fdd4995e8f9db3b26c6aeb97e9b350/mtehis-0.1.1.tar.gz
+[2023-04-17 15:50:18] INFO root fetch - processPackages [dynatrace-opentelemetry-azure-functions]: New version: [1.261.5] Old Version: [1.259.2]
+[2023-04-17 15:50:18] INFO root fetch - processPackages [youtube-transcript-api]: Downloading https://files.pythonhosted.org/packages/77/63/6ea8f7b9357568b2eafae7ac352a600eb53bddd563f1074bbdce2621d35f/youtube_transcript_api-0.5.0.tar.gz
+[2023-04-17 15:50:18] INFO root fetch - processPackages [dynatrace-opentelemetry-core]: Downloading https://files.pythonhosted.org/packages/b2/fc/5f4f573822d516137c277b32c89c92910aa32312e3f83168e75d04f52854/dynatrace_opentelemetry_core-1.259.2-py3-none-any.whl
+[2023-04-17 15:50:18] INFO root fetch - processPackages [dynatrace-opentelemetry-gcf]: Downloading https://files.pythonhosted.org/packages/a5/fe/94e8be962e1759e25a5fd83fb90ed2b975d23c72befc1f54a13125e1e984/dynatrace_opentelemetry_gcf-1.259.2-py3-none-any.whl
+[2023-04-17 15:50:18] INFO root fetch - processPackages [spacy-transformers]: Downloading https://files.pythonhosted.org/packages/a1/fa/711780a25596a4254c81734a5ea3aa09874732a24b02cf36503e5399a407/spacy-transformers-1.2.2.tar.gz
+[2023-04-17 15:50:19] INFO root fetch - processPackages [unacatlib]: Downloading https://files.pythonhosted.org/packages/70/55/5773971e2224745cbb4425541f9ab1e4a6cc51f16798c324a10a3e1d3651/unacatlib-0.0.59-py2.py3-none-any.whl
+[2023-04-17 15:50:19] INFO root fetch - processPackages [dynatrace-opentelemetry-azure-functions]: Downloading https://files.pythonhosted.org/packages/fa/0b/99941d80d0d42cb469c60e7367007832ba2796320eb9dd933628c62f2896/dynatrace_opentelemetry_azure_functions-1.259.2-py3-none-any.whl
+[2023-04-17 15:50:19] INFO root fetch - processPackages [dynatrace-opentelemetry-core]: Downloading https://files.pythonhosted.org/packages/c2/e0/b141705e56872570e785343d0a8b3ed12eed145189556ee4e4d6b1d27540/dynatrace_opentelemetry_core-1.261.5-py3-none-any.whl
+[2023-04-17 15:50:19] INFO root fetch - processPackages [spacy-transformers]: Downloading https://files.pythonhosted.org/packages/53/95/9edb2e8412ff4877ce59c0b7aac44402037fa0a49a9ad3e859cc33339329/spacy-transformers-1.2.3.tar.gz
+[2023-04-17 15:50:19] INFO root fetch - processPackages [mtehis]: Downloading https://files.pythonhosted.org/packages/42/0f/2208590d8bea89dbb5396fa7b515dac3a2f653ecca46b1ab9ec358aa6f11/mtehis-0.1.2.tar.gz
+[2023-04-17 15:50:19] INFO root fetch - processPackages [youtube-transcript-api]: Downloading https://files.pythonhosted.org/packages/2a/cf/7d79233e4781b75219cf5b117cf01ea113f87f9f5ffb9c0a94900fe914a9/youtube_transcript_api-0.6.0.tar.gz
+[2023-04-17 15:50:19] INFO root fetch - processPackages [dynatrace-opentelemetry-gcf]: Downloading https://files.pythonhosted.org/packages/4a/4a/d82f1490b898bb3a055a8e35840f2120b6067177ca7e43865610e2c2633c/dynatrace_opentelemetry_gcf-1.261.5-py3-none-any.whl
+[2023-04-17 15:50:19] INFO root fetch - processPackages [unacatlib]: Downloading https://files.pythonhosted.org/packages/96/e1/38bd0147a6b45a04256446918e70d949806f3e38eb695e642037230790da/unacatlib-0.0.60-py2.py3-none-any.whl
+[2023-04-17 15:50:19] INFO root fetch - processPackages [spacy-transformers]: executing diffoscope
+[2023-04-17 15:50:19] INFO root fetch - processPackages [spacy-transformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spacy-transformers-1.2.2.tar.gz tmp/spacy-transformers-1.2.3.tar.gz --markdown 20230417/s/spacy-transformers/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-04-17 15:50:19] INFO root fetch - processPackages [mtehis]: executing diffoscope
+[2023-04-17 15:50:19] INFO root fetch - processPackages [mtehis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mtehis-0.1.1.tar.gz tmp/mtehis-0.1.2.tar.gz --markdown 20230417/m/mtehis/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-17 15:50:19] INFO root fetch - processPackages [dynatrace-opentelemetry-core]: executing diffoscope
+[2023-04-17 15:50:19] INFO root fetch - processPackages [dynatrace-opentelemetry-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynatrace_opentelemetry_core-1.259.2-py3-none-any.whl.zip tmp/dynatrace_opentelemetry_core-1.261.5-py3-none-any.whl.zip --markdown 20230417/d/dynatrace-opentelemetry-core/1.259.2-1.261.5/diff.md --exclude *.pyd
+[2023-04-17 15:50:19] INFO root fetch - processPackages [youtube-transcript-api]: executing diffoscope
+[2023-04-17 15:50:19] INFO root fetch - processPackages [youtube-transcript-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/youtube_transcript_api-0.5.0.tar.gz tmp/youtube_transcript_api-0.6.0.tar.gz --markdown 20230417/y/youtube-transcript-api/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-04-17 15:50:19] INFO root fetch - processPackages [dynatrace-opentelemetry-azure-functions]: Downloading https://files.pythonhosted.org/packages/de/40/2983bb44aa2ee293bb2c7bc8a425faab490101ddf991f0a90d12959be42d/dynatrace_opentelemetry_azure_functions-1.261.5-py3-none-any.whl
+[2023-04-17 15:50:19] INFO root fetch - processPackages [dynatrace-opentelemetry-gcf]: executing diffoscope
+[2023-04-17 15:50:19] INFO root fetch - processPackages [dynatrace-opentelemetry-gcf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynatrace_opentelemetry_gcf-1.259.2-py3-none-any.whl.zip tmp/dynatrace_opentelemetry_gcf-1.261.5-py3-none-any.whl.zip --markdown 20230417/d/dynatrace-opentelemetry-gcf/1.259.2-1.261.5/diff.md --exclude *.pyd
+[2023-04-17 15:50:19] INFO root fetch - processPackages [unacatlib]: executing diffoscope
+[2023-04-17 15:50:19] INFO root fetch - processPackages [unacatlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unacatlib-0.0.59-py2.py3-none-any.whl.zip tmp/unacatlib-0.0.60-py2.py3-none-any.whl.zip --markdown 20230417/u/unacatlib/0.0.59-0.0.60/diff.md --exclude *.pyd
+[2023-04-17 15:50:19] INFO root fetch - processPackages [dynatrace-opentelemetry-azure-functions]: executing diffoscope
+[2023-04-17 15:50:19] INFO root fetch - processPackages [dynatrace-opentelemetry-azure-functions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynatrace_opentelemetry_azure_functions-1.259.2-py3-none-any.whl.zip tmp/dynatrace_opentelemetry_azure_functions-1.261.5-py3-none-any.whl.zip --markdown 20230417/d/dynatrace-opentelemetry-azure-functions/1.259.2-1.261.5/diff.md --exclude *.pyd
+[2023-04-17 15:50:20] INFO root fetch - processPackages [inels-mqtt-new]: Start processing: lupin-danquin
+[2023-04-17 15:50:20] INFO root fetch - main [MainThread]: End processing [inels-mqtt-new]: success
+[2023-04-17 15:50:20] INFO root fetch - processPackages [lupin-danquin]: New version: [1.0.2.dev1] Old Version: [1.0.2.dev0]
+[2023-04-17 15:50:20] INFO root fetch - processPackages [orthanc-api-client]: Start processing: inels-mqtt-new
+[2023-04-17 15:50:20] INFO root fetch - main [MainThread]: End processing [orthanc-api-client]: success
+[2023-04-17 15:50:20] INFO root fetch - processPackages [lupin-danquin]: Downloading https://files.pythonhosted.org/packages/5a/d8/8d7d2cd9f82689cee8707db22e742e46181dcdf362c15e819ce327563390/lupin-danquin-1.0.2.dev1.tar.gz
+[2023-04-17 15:50:20] INFO root fetch - processPackages [inels-mqtt-new]: New version: [0.2.9a2] Old Version: [0.2.9a1]
+[2023-04-17 15:50:20] INFO root fetch - processPackages [inels-mqtt-new]: executing diffoscope
+[2023-04-17 15:50:20] INFO root fetch - processPackages [inels-mqtt-new]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inels-mqtt-new-0.2.9a1.tar.gz tmp/inels-mqtt-new-0.2.9a2.tar.gz --markdown 20230417/i/inels-mqtt-new/0.2.9a1-0.2.9a2/diff.md --exclude *.pyd
+[2023-04-17 15:50:20] INFO root fetch - processPackages [lupin-danquin]: executing diffoscope
+[2023-04-17 15:50:20] INFO root fetch - processPackages [lupin-danquin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lupin-danquin-1.0.2.dev0.tar.gz tmp/lupin-danquin-1.0.2.dev1.tar.gz --markdown 20230417/l/lupin-danquin/1.0.2.dev0-1.0.2.dev1/diff.md --exclude *.pyd
+[2023-04-17 15:50:20] INFO root fetch - processPackages [mtehis]: Start processing: mbonig.state-machine
+[2023-04-17 15:50:20] INFO root fetch - main [MainThread]: End processing [mtehis]: success
+[2023-04-17 15:50:20] INFO root fetch - processPackages [mbonig.state-machine]: New version: [0.0.22] Old Version: [0.0.21]
+[2023-04-17 15:50:21] INFO root fetch - processPackages [dynatrace-opentelemetry-gcf]: Start processing: bx-py-utils
+[2023-04-17 15:50:21] INFO root fetch - main [MainThread]: End processing [dynatrace-opentelemetry-gcf]: success
+[2023-04-17 15:50:21] INFO root fetch - processPackages [bx-py-utils]: New version: [9] Old Version: [8]
+[2023-04-17 15:50:21] INFO root fetch - processPackages [mbonig.state-machine]: executing diffoscope
+[2023-04-17 15:50:21] INFO root fetch - processPackages [mbonig.state-machine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mbonig.state-machine-0.0.21.tar.gz tmp/mbonig.state-machine-0.0.22.tar.gz --markdown 20230417/m/mbonig.state-machine/0.0.21-0.0.22/diff.md --exclude *.pyd
+[2023-04-17 15:50:21] INFO root fetch - processPackages [dynatrace-opentelemetry-azure-functions]: Start processing: nuclear
+[2023-04-17 15:50:21] INFO root fetch - main [MainThread]: End processing [dynatrace-opentelemetry-azure-functions]: success
+[2023-04-17 15:50:21] INFO root fetch - processPackages [bx-py-utils]: executing diffoscope
+[2023-04-17 15:50:21] INFO root fetch - processPackages [bx-py-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bx_py_utils-8.tar.gz tmp/bx_py_utils-9.tar.gz --markdown 20230417/b/bx-py-utils/8-9/diff.md --exclude *.pyd
+[2023-04-17 15:50:21] INFO root fetch - processPackages [nuclear]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-04-17 15:50:21] INFO root fetch - processPackages [nuclear]: Downloading https://files.pythonhosted.org/packages/8a/e0/3afeab2e0e9644e446681f3dec1b52ab8a39ee87dab588f87e7532dda42b/nuclear-1.4.0.tar.gz
+[2023-04-17 15:50:21] INFO root fetch - processPackages [nuclear]: Downloading https://files.pythonhosted.org/packages/fd/04/869e47225acdc4a18bb334bbcc4cc59f3fe1b90273dc178a417afb0a9011/nuclear-1.4.1.tar.gz
+[2023-04-17 15:50:21] INFO root fetch - processPackages [nuclear]: executing diffoscope
+[2023-04-17 15:50:21] INFO root fetch - processPackages [nuclear]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nuclear-1.4.0.tar.gz tmp/nuclear-1.4.1.tar.gz --markdown 20230417/n/nuclear/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-04-17 15:50:21] INFO root fetch - processPackages [youtube-transcript-api]: Start processing: atlas-ftag-tools
+[2023-04-17 15:50:21] INFO root fetch - main [MainThread]: End processing [youtube-transcript-api]: success
+[2023-04-17 15:50:21] INFO root fetch - processPackages [unacatlib]: Start processing: rucio
+[2023-04-17 15:50:21] INFO root fetch - main [MainThread]: End processing [unacatlib]: success
+[2023-04-17 15:50:22] INFO root fetch - processPackages [rucio]: New version: [1.9.6] Old Version: [1.9.5]
+[2023-04-17 15:50:22] INFO root fetch - processPackages [atlas-ftag-tools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 15:50:22] INFO root fetch - processPackages [rucio]: executing diffoscope
+[2023-04-17 15:50:22] INFO root fetch - processPackages [rucio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rucio-1.9.5.tar.gz tmp/rucio-1.9.6.tar.gz --markdown 20230417/r/rucio/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2023-04-17 15:50:22] INFO root fetch - processPackages [lupin-danquin]: Start processing: rucio-clients
+[2023-04-17 15:50:22] INFO root fetch - main [MainThread]: End processing [lupin-danquin]: success
+[2023-04-17 15:50:22] INFO root fetch - processPackages [rucio-clients]: New version: [1.9.6] Old Version: [1.9.5]
+[2023-04-17 15:50:22] INFO root fetch - processPackages [atlas-ftag-tools]: Downloading https://files.pythonhosted.org/packages/ba/1d/0a37ac85caf8fce632bdc809b4ecd89343e4529a665f84cc43f852a7a1b9/atlas-ftag-tools-0.0.8.tar.gz
+[2023-04-17 15:50:22] INFO root fetch - processPackages [rucio-clients]: executing diffoscope
+[2023-04-17 15:50:22] INFO root fetch - processPackages [rucio-clients]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rucio-clients-1.9.5.tar.gz tmp/rucio-clients-1.9.6.tar.gz --markdown 20230417/r/rucio-clients/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2023-04-17 15:50:22] INFO root fetch - processPackages [spacy-transformers]: Start processing: rucio-webui
+[2023-04-17 15:50:22] INFO root fetch - main [MainThread]: End processing [spacy-transformers]: success
+[2023-04-17 15:50:22] INFO root fetch - processPackages [rucio-webui]: New version: [1.9.6] Old Version: [1.9.5]
+[2023-04-17 15:50:22] INFO root fetch - processPackages [dynatrace-opentelemetry-core]: Start processing: edwh-server-provisioning-plugin
+[2023-04-17 15:50:22] INFO root fetch - main [MainThread]: End processing [dynatrace-opentelemetry-core]: success
+[2023-04-17 15:50:22] INFO root fetch - processPackages [rucio-webui]: executing diffoscope
+[2023-04-17 15:50:22] INFO root fetch - processPackages [rucio-webui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rucio-webui-1.9.5.tar.gz tmp/rucio-webui-1.9.6.tar.gz --markdown 20230417/r/rucio-webui/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2023-04-17 15:50:22] WARNING root fetch - processPackages [edwh-server-provisioning-plugin]: Skipping, unable to determine old version
+[2023-04-17 15:50:22] INFO root fetch - main [MainThread]: End processing [edwh-server-provisioning-plugin] error
+[2023-04-17 15:50:22] INFO root fetch - processPackages [atlas-ftag-tools]: Downloading https://files.pythonhosted.org/packages/c8/7e/658dadc7f46e22fddff64da54500fd030f987482a8106d1b8ca2ce4bff7c/atlas-ftag-tools-0.0.9.tar.gz
+[2023-04-17 15:50:22] INFO root fetch - main [MainThread]: End processing [inels-mqtt-new]: success
+[2023-04-17 15:50:22] INFO root fetch - processPackages [atlas-ftag-tools]: executing diffoscope
+[2023-04-17 15:50:22] INFO root fetch - processPackages [atlas-ftag-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atlas-ftag-tools-0.0.8.tar.gz tmp/atlas-ftag-tools-0.0.9.tar.gz --markdown 20230417/a/atlas-ftag-tools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 15:50:22] INFO root fetch - main [MainThread]: End processing [bx-py-utils]: success
+[2023-04-17 15:50:22] INFO root fetch - main [MainThread]: End processing [mbonig.state-machine]: success
+[2023-04-17 15:50:23] INFO root fetch - main [MainThread]: End processing [nuclear]: success
+[2023-04-17 15:50:23] INFO root fetch - main [MainThread]: End processing [felixlib]: success
+[2023-04-17 15:50:24] INFO root fetch - main [MainThread]: End processing [atlas-ftag-tools]: success
+[2023-04-17 15:50:25] INFO root fetch - main [MainThread]: End processing [rucio-webui]: success
+[2023-04-17 15:50:31] INFO root fetch - main [MainThread]: End processing [rucio-clients]: success
+[2023-04-17 15:50:37] INFO root fetch - main [MainThread]: End processing [rucio]: success
+[2023-04-17 15:50:37] INFO root fetch - main [MainThread]: Store serial: [17739169]
