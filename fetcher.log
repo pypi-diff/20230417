@@ -15896,3 +15896,216 @@ EOFError: EOF read where object expected
 [2023-04-17 16:55:32] INFO root fetch - main [MainThread]: End processing [btrack]: success
 [2023-04-17 16:55:33] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-04-17 16:55:33] INFO root fetch - main [MainThread]: Store serial: [17740084]
+[2023-04-17 17:00:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17740084]
+[2023-04-17 17:00:42] INFO root fetch - main [MainThread]: Found 36 changed packages
+[2023-04-17 17:00:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jina-now
+[2023-04-17 17:00:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: otoe
+[2023-04-17 17:00:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: disvide
+[2023-04-17 17:00:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: unidic2ud
+[2023-04-17 17:00:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xmanager
+[2023-04-17 17:00:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hydrolib-core
+[2023-04-17 17:00:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: git-machete
+[2023-04-17 17:00:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sapx
+[2023-04-17 17:00:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: projen
+[2023-04-17 17:00:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addon-account-payment-order
+[2023-04-17 17:00:42] INFO root fetch - processPackages [disvide]: New version: [0.4.1] Old Version: [0.4]
+[2023-04-17 17:00:42] INFO root fetch - processPackages [otoe]: New version: [0.0.7a2] Old Version: [0.0.7a1]
+[2023-04-17 17:00:42] INFO root fetch - processPackages [jina-now]: New version: [0.0.9.dev2] Old Version: [0.0.9]
+[2023-04-17 17:00:42] INFO root fetch - processPackages [projen]: New version: [0.71.9] Old Version: [0.71.8]
+[2023-04-17 17:00:42] INFO root fetch - processPackages [xmanager]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-04-17 17:00:42] INFO root fetch - processPackages [sapx]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-04-17 17:00:42] INFO root fetch - processPackages [otoe]: executing diffoscope
+[2023-04-17 17:00:42] INFO root fetch - processPackages [otoe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otoe-0.0.7a1.tar.gz tmp/otoe-0.0.7a2.tar.gz --markdown 20230417/o/otoe/0.0.7a1-0.0.7a2/diff.md --exclude *.pyd
+[2023-04-17 17:00:42] INFO root fetch - processPackages [hydrolib-core]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-04-17 17:00:42] INFO root fetch - processPackages [unidic2ud]: New version: [2.9.8] Old Version: [2.9.7]
+[2023-04-17 17:00:42] INFO root fetch - processPackages [git-machete]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-04-17 17:00:42] INFO root fetch - processPackages [odoo14-addon-account-payment-order]: New version: [14.0.2.0.2.dev9] Old Version: [14.0.2.0.2.dev8]
+[2023-04-17 17:00:42] INFO root fetch - processPackages [disvide]: executing diffoscope
+[2023-04-17 17:00:42] INFO root fetch - processPackages [disvide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/disvide-0.4.tar.gz tmp/disvide-0.4.1.tar.gz --markdown 20230417/d/disvide/0.4-0.4.1/diff.md --exclude *.pyd
+[2023-04-17 17:00:42] INFO root fetch - processPackages [jina-now]: executing diffoscope
+[2023-04-17 17:00:42] INFO root fetch - processPackages [jina-now]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jina-now-0.0.9.tar.gz tmp/jina-now-0.0.9.dev2.tar.gz --markdown 20230417/j/jina-now/0.0.9-0.0.9.dev2/diff.md --exclude *.pyd
+[2023-04-17 17:00:42] INFO root fetch - processPackages [projen]: executing diffoscope
+[2023-04-17 17:00:42] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.71.8.tar.gz tmp/projen-0.71.9.tar.gz --markdown 20230417/p/projen/0.71.8-0.71.9/diff.md --exclude *.pyd
+[2023-04-17 17:00:42] INFO root fetch - processPackages [xmanager]: Downloading https://files.pythonhosted.org/packages/e9/50/68ff7c3d501f66f885a136d72cd25fbae84b5599733398707d68bd326d83/xmanager-0.3.0.tar.gz
+[2023-04-17 17:00:42] INFO root fetch - processPackages [sapx]: Downloading https://files.pythonhosted.org/packages/76/0d/ae63deca1d7bda307c239af068e85ef3d668f39ddf00a4758ab4f160a3ee/sapx-0.1.7.tar.gz
+[2023-04-17 17:00:42] INFO root fetch - processPackages [unidic2ud]: Downloading https://files.pythonhosted.org/packages/ed/7f/1b6b17a859e448db39de345b4ac601947a7a0d63bbb0a2e5f23c4a122c85/unidic2ud-2.9.7.tar.gz
+[2023-04-17 17:00:42] INFO root fetch - processPackages [git-machete]: Downloading https://files.pythonhosted.org/packages/00/41/ea9df2709ca5d1f69fef14e74d8c77f7c8575eeb2ba426a3d3ff4691095c/git-machete-3.9.0.tar.gz
+[2023-04-17 17:00:42] INFO root fetch - processPackages [odoo14-addon-account-payment-order]: Downloading https://files.pythonhosted.org/packages/41/f4/f34f890c1edd3207f3a8b6ae281c45f64dad337e9a0954932e14d0987865/odoo14_addon_account_payment_order-14.0.2.0.2.dev8-py3-none-any.whl
+[2023-04-17 17:00:42] INFO root fetch - processPackages [sapx]: Downloading https://files.pythonhosted.org/packages/27/27/89f9a5b0116908fd2ae9913a7c258aef5e0a5e2f4b253c34990bfb759c69/sapx-0.1.8.tar.gz
+[2023-04-17 17:00:42] INFO root fetch - processPackages [hydrolib-core]: Downloading https://files.pythonhosted.org/packages/4d/62/94bde1f261b11cbed9a03d565d0ebc969d5ecf73ed78c6499e2014c5f540/hydrolib_core-0.5.1.tar.gz
+[2023-04-17 17:00:42] INFO root fetch - processPackages [xmanager]: Downloading https://files.pythonhosted.org/packages/6b/28/f3c90b35905f033074c4e3dc7cd2f2568fba88a3584b6219fc7bc7a894e8/xmanager-0.4.0.tar.gz
+[2023-04-17 17:00:42] INFO root fetch - processPackages [sapx]: executing diffoscope
+[2023-04-17 17:00:42] INFO root fetch - processPackages [sapx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sapx-0.1.7.tar.gz tmp/sapx-0.1.8.tar.gz --markdown 20230417/s/sapx/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-04-17 17:00:42] INFO root fetch - processPackages [hydrolib-core]: executing diffoscope
+[2023-04-17 17:00:42] INFO root fetch - processPackages [hydrolib-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydrolib_core-0.5.0.tar.gz tmp/hydrolib_core-0.5.1.tar.gz --markdown 20230417/h/hydrolib-core/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-04-17 17:00:42] INFO root fetch - processPackages [odoo14-addon-account-payment-order]: executing diffoscope
+[2023-04-17 17:00:42] INFO root fetch - processPackages [odoo14-addon-account-payment-order]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_payment_order-14.0.2.0.2.dev8-py3-none-any.whl.zip tmp/odoo14_addon_account_payment_order-14.0.2.0.2.dev9-py3-none-any.whl.zip --markdown 20230417/o/odoo14-addon-account-payment-order/14.0.2.0.2.dev8-14.0.2.0.2.dev9/diff.md --exclude *.pyd
+[2023-04-17 17:00:42] INFO root fetch - processPackages [xmanager]: executing diffoscope
+[2023-04-17 17:00:42] INFO root fetch - processPackages [xmanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xmanager-0.3.0.tar.gz tmp/xmanager-0.4.0.tar.gz --markdown 20230417/x/xmanager/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-04-17 17:00:43] INFO root fetch - processPackages [git-machete]: Downloading https://files.pythonhosted.org/packages/c7/58/a2beb1e31a481442ac88f436b83c2277a5a58484492ca445e76b0c229e1f/git-machete-3.9.1.tar.gz
+[2023-04-17 17:00:43] INFO root fetch - processPackages [git-machete]: executing diffoscope
+[2023-04-17 17:00:43] INFO root fetch - processPackages [git-machete]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git-machete-3.9.0.tar.gz tmp/git-machete-3.9.1.tar.gz --markdown 20230417/g/git-machete/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-04-17 17:00:43] INFO root fetch - processPackages [otoe]: Start processing: web3client
+[2023-04-17 17:00:43] INFO root fetch - main [MainThread]: End processing [otoe]: success
+[2023-04-17 17:00:43] INFO root fetch - processPackages [disvide]: Start processing: sanctum-tc
+[2023-04-17 17:00:43] INFO root fetch - main [MainThread]: End processing [disvide]: success
+[2023-04-17 17:00:43] INFO root fetch - processPackages [web3client]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-04-17 17:00:43] INFO root fetch - processPackages [sanctum-tc]: New version: [0.7.0a0] Old Version: [0.7.0]
+[2023-04-17 17:00:43] INFO root fetch - processPackages [web3client]: Downloading https://files.pythonhosted.org/packages/a6/be/d8bfc8cb7e5ffc4e7c378135b64d29203b4e0d660c76acb6dd2f73ba325c/web3client-1.1.3.tar.gz
+[2023-04-17 17:00:43] INFO root fetch - processPackages [sanctum-tc]: Downloading https://files.pythonhosted.org/packages/30/5c/4199d4096791638a6178731d60adabb08b026ea331a783a7eb1ee311c143/sanctum_tc-0.7.0.tar.gz
+[2023-04-17 17:00:43] INFO root fetch - processPackages [web3client]: Downloading https://files.pythonhosted.org/packages/68/14/8fac45caeb89ce9f8015c756bbee5d6421938f6d648b5301dde55c83a72f/web3client-1.1.4.tar.gz
+[2023-04-17 17:00:44] INFO root fetch - processPackages [web3client]: executing diffoscope
+[2023-04-17 17:00:44] INFO root fetch - processPackages [web3client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web3client-1.1.3.tar.gz tmp/web3client-1.1.4.tar.gz --markdown 20230417/w/web3client/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-04-17 17:00:44] INFO root fetch - processPackages [sanctum-tc]: Downloading https://files.pythonhosted.org/packages/a0/4c/21f0c55efe142c82e6b697963ad1b18fe112436194318188c55180c9bf34/sanctum_tc-0.7.0a0.tar.gz
+[2023-04-17 17:00:44] INFO root fetch - processPackages [jina-now]: Start processing: polywrap-wasm
+[2023-04-17 17:00:44] INFO root fetch - main [MainThread]: End processing [jina-now]: success
+[2023-04-17 17:00:44] INFO root fetch - processPackages [sanctum-tc]: executing diffoscope
+[2023-04-17 17:00:44] INFO root fetch - processPackages [sanctum-tc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sanctum_tc-0.7.0.tar.gz tmp/sanctum_tc-0.7.0a0.tar.gz --markdown 20230417/s/sanctum-tc/0.7.0-0.7.0a0/diff.md --exclude *.pyd
+[2023-04-17 17:00:44] INFO root fetch - processPackages [polywrap-wasm]: New version: [0.1.0a7] Old Version: [0.1.0a6]
+[2023-04-17 17:00:44] INFO root fetch - processPackages [polywrap-wasm]: Downloading https://files.pythonhosted.org/packages/d5/19/70a8edb0676461386210251f8bc9983269fc212d0b6664eee96fc5569f8c/polywrap_wasm-0.1.0a6.tar.gz
+[2023-04-17 17:00:44] INFO root fetch - processPackages [sapx]: Start processing: pyriksprot
+[2023-04-17 17:00:44] INFO root fetch - main [MainThread]: End processing [sapx]: success
+[2023-04-17 17:00:44] INFO root fetch - processPackages [unidic2ud]: Downloading https://files.pythonhosted.org/packages/1a/12/6bb99bde6706dc875d8d5b316d3b2c8a59f4b43832eabd827eee7ae21ba8/unidic2ud-2.9.8.tar.gz
+[2023-04-17 17:00:44] INFO root fetch - processPackages [pyriksprot]: New version: [2023.4.2] Old Version: [2023.4.1]
+[2023-04-17 17:00:44] INFO root fetch - processPackages [projen]: Start processing: k1lib
+[2023-04-17 17:00:44] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2023-04-17 17:00:44] INFO root fetch - processPackages [polywrap-wasm]: Downloading https://files.pythonhosted.org/packages/bc/38/6a2979eb32cadf6a2c76b0a2fe367656e24719f54d9e3669b52279b5e314/polywrap_wasm-0.1.0a7.tar.gz
+[2023-04-17 17:00:44] INFO root fetch - processPackages [polywrap-wasm]: executing diffoscope
+[2023-04-17 17:00:44] INFO root fetch - processPackages [polywrap-wasm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polywrap_wasm-0.1.0a6.tar.gz tmp/polywrap_wasm-0.1.0a7.tar.gz --markdown 20230417/p/polywrap-wasm/0.1.0a6-0.1.0a7/diff.md --exclude *.pyd
+[2023-04-17 17:00:44] INFO root fetch - processPackages [k1lib]: New version: [1.3.3.1] Old Version: [1.3.3]
+[2023-04-17 17:00:44] INFO root fetch - processPackages [pyriksprot]: Downloading https://files.pythonhosted.org/packages/0a/e6/49aad92e70b8636a46a48b43b8059d591eaac023388ad9a3ec9f147535ad/pyriksprot-2023.4.1.tar.gz
+[2023-04-17 17:00:45] INFO root fetch - processPackages [k1lib]: Downloading https://files.pythonhosted.org/packages/d9/e9/0531d2ee7604e2283058ab69a50aa837ae90231db72328735cef62d42540/k1lib-1.3.3-py3-none-any.whl
+[2023-04-17 17:00:45] INFO root fetch - processPackages [pyriksprot]: Downloading https://files.pythonhosted.org/packages/c3/0d/056514d0776628833643dc092c739ea5203a9b207eec878e99271ef4f168/pyriksprot-2023.4.2.tar.gz
+[2023-04-17 17:00:45] INFO root fetch - processPackages [git-machete]: Start processing: get-certificate-chain
+[2023-04-17 17:00:45] INFO root fetch - main [MainThread]: End processing [git-machete]: success
+[2023-04-17 17:00:45] WARNING root fetch - processPackages [get-certificate-chain]: Skipping, unable to determine old version
+[2023-04-17 17:00:45] INFO root fetch - processPackages [get-certificate-chain]: Start processing: dragonfile
+[2023-04-17 17:00:45] INFO root fetch - main [MainThread]: End processing [get-certificate-chain] error
+[2023-04-17 17:00:45] INFO root fetch - processPackages [odoo14-addon-account-payment-order]: Start processing: sherbystats
+[2023-04-17 17:00:45] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-payment-order]: success
+[2023-04-17 17:00:45] INFO root fetch - processPackages [sherbystats]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-17 17:00:45] INFO root fetch - processPackages [pyriksprot]: executing diffoscope
+[2023-04-17 17:00:45] INFO root fetch - processPackages [pyriksprot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyriksprot-2023.4.1.tar.gz tmp/pyriksprot-2023.4.2.tar.gz --markdown 20230417/p/pyriksprot/2023.4.1-2023.4.2/diff.md --exclude *.pyd
+[2023-04-17 17:00:45] WARNING root fetch - processPackages [dragonfile]: Skipping, unable to determine old version
+[2023-04-17 17:00:45] INFO root fetch - processPackages [dragonfile]: Start processing: lmql
+[2023-04-17 17:00:45] INFO root fetch - main [MainThread]: End processing [dragonfile] error
+[2023-04-17 17:00:45] INFO root fetch - processPackages [hydrolib-core]: Start processing: dramatiq-crontab
+[2023-04-17 17:00:45] INFO root fetch - main [MainThread]: End processing [hydrolib-core]: success
+[2023-04-17 17:00:45] INFO root fetch - processPackages [sherbystats]: executing diffoscope
+[2023-04-17 17:00:45] INFO root fetch - processPackages [sherbystats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sherbystats-0.0.6.tar.gz tmp/sherbystats-0.0.7.tar.gz --markdown 20230417/s/sherbystats/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-17 17:00:45] INFO root fetch - processPackages [dramatiq-crontab]: New version: [1.0rc3] Old Version: [1.0rc1]
+[2023-04-17 17:00:45] INFO root fetch - processPackages [lmql]: New version: [0.0.5] Old Version: [0.0.4.2]
+[2023-04-17 17:00:45] INFO root fetch - processPackages [dramatiq-crontab]: executing diffoscope
+[2023-04-17 17:00:45] INFO root fetch - processPackages [dramatiq-crontab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dramatiq-crontab-1.0rc1.tar.gz tmp/dramatiq-crontab-1.0rc3.tar.gz --markdown 20230417/d/dramatiq-crontab/1.0rc1-1.0rc3/diff.md --exclude *.pyd
+[2023-04-17 17:00:45] INFO root fetch - processPackages [sanctum-tc]: Start processing: oar-docker
+[2023-04-17 17:00:45] INFO root fetch - main [MainThread]: End processing [sanctum-tc]: success
+[2023-04-17 17:00:45] INFO root fetch - processPackages [lmql]: Downloading https://files.pythonhosted.org/packages/d9/c7/73195f54467ccfe02be75fec76a5ec804bceb458ee070991ba2dfe520a0d/lmql-0.0.4.2.tar.gz
+[2023-04-17 17:00:45] INFO root fetch - processPackages [oar-docker]: New version: [1.6.4.dev0] Old Version: [1.6.3.dev0]
+[2023-04-17 17:00:45] INFO root fetch - processPackages [lmql]: Downloading https://files.pythonhosted.org/packages/76/2d/011417b3bc9b6237f0e28548542e532727801077edd297894982c68e28cf/lmql-0.0.5.tar.gz
+[2023-04-17 17:00:45] INFO root fetch - processPackages [oar-docker]: Downloading https://files.pythonhosted.org/packages/c7/0a/d11b1eec1000cfb5267790cca05ddbcb7c75728afac503e82087715ac2a8/oar-docker-1.6.3.dev0.tar.gz
+[2023-04-17 17:00:45] INFO root fetch - processPackages [web3client]: Start processing: polywrap-uri-resolvers
+[2023-04-17 17:00:45] INFO root fetch - main [MainThread]: End processing [web3client]: success
+[2023-04-17 17:00:45] INFO root fetch - processPackages [lmql]: executing diffoscope
+[2023-04-17 17:00:45] INFO root fetch - processPackages [lmql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmql-0.0.4.2.tar.gz tmp/lmql-0.0.5.tar.gz --markdown 20230417/l/lmql/0.0.4.2-0.0.5/diff.md --exclude *.pyd
+[2023-04-17 17:00:46] INFO root fetch - processPackages [polywrap-uri-resolvers]: New version: [0.1.0a7] Old Version: [0.1.0a4]
+[2023-04-17 17:00:46] INFO root fetch - processPackages [polywrap-wasm]: Start processing: k1lib
+[2023-04-17 17:00:46] INFO root fetch - main [MainThread]: End processing [polywrap-wasm]: success
+[2023-04-17 17:00:46] INFO root fetch - processPackages [k1lib]: New version: [1.3.3.1] Old Version: [1.3.3]
+[2023-04-17 17:00:46] INFO root fetch - processPackages [k1lib]: Downloading https://files.pythonhosted.org/packages/55/46/12ad2146ea481cbc290a353557c6255c651f0be7bb96229b497e6ff250c8/k1lib-1.3.3.1-py3-none-any.whl
+[2023-04-17 17:00:46] INFO root fetch - processPackages [unidic2ud]: executing diffoscope
+[2023-04-17 17:00:46] INFO root fetch - processPackages [unidic2ud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unidic2ud-2.9.7.tar.gz tmp/unidic2ud-2.9.8.tar.gz --markdown 20230417/u/unidic2ud/2.9.7-2.9.8/diff.md --exclude *.pyd
+[2023-04-17 17:00:46] INFO root fetch - processPackages [k1lib]: Downloading https://files.pythonhosted.org/packages/55/46/12ad2146ea481cbc290a353557c6255c651f0be7bb96229b497e6ff250c8/k1lib-1.3.3.1-py3-none-any.whl
+[2023-04-17 17:00:46] INFO root fetch - processPackages [oar-docker]: Downloading https://files.pythonhosted.org/packages/59/97/800e6d1f7015f363bb08f312bd1b6b824ca89e1652e9c8eca68fc048a798/oar-docker-1.6.4.dev0.tar.gz
+[2023-04-17 17:00:46] INFO root fetch - processPackages [polywrap-uri-resolvers]: Downloading https://files.pythonhosted.org/packages/2c/46/59cd7487a08f88195b1cf4705c344a3af716b5c8bd5e02ef22249c41e709/polywrap_uri_resolvers-0.1.0a4.tar.gz
+[2023-04-17 17:00:46] INFO root fetch - processPackages [oar-docker]: executing diffoscope
+[2023-04-17 17:00:46] INFO root fetch - processPackages [oar-docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oar-docker-1.6.3.dev0.tar.gz tmp/oar-docker-1.6.4.dev0.tar.gz --markdown 20230417/o/oar-docker/1.6.3.dev0-1.6.4.dev0/diff.md --exclude *.pyd
+[2023-04-17 17:00:46] INFO root fetch - processPackages [polywrap-uri-resolvers]: Downloading https://files.pythonhosted.org/packages/82/07/71878f71cb68efff9c8db66617f1dbd64d80db7b068224716cb758920443/polywrap_uri_resolvers-0.1.0a7-py3-none-any.whl
+[2023-04-17 17:00:46] INFO root fetch - processPackages [k1lib]: executing diffoscope
+[2023-04-17 17:00:46] INFO root fetch - processPackages [k1lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/k1lib-1.3.3-py3-none-any.whl.zip tmp/k1lib-1.3.3.1-py3-none-any.whl.zip --markdown 20230417/k/k1lib/1.3.3-1.3.3.1/diff.md --exclude *.pyd
+[2023-04-17 17:00:46] INFO root fetch - processPackages [k1lib]: executing diffoscope
+[2023-04-17 17:00:46] INFO root fetch - processPackages [k1lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/k1lib-1.3.3-py3-none-any.whl.zip tmp/k1lib-1.3.3.1-py3-none-any.whl.zip --markdown 20230417/k/k1lib/1.3.3-1.3.3.1/diff.md --exclude *.pyd
+[2023-04-17 17:00:46] INFO root fetch - processPackages [polywrap-uri-resolvers]: executing diffoscope
+[2023-04-17 17:00:46] INFO root fetch - processPackages [polywrap-uri-resolvers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polywrap_uri_resolvers-0.1.0a4.tar.gz tmp/polywrap_uri_resolvers-0.1.0a7-py3-none-any.whl.zip --markdown 20230417/p/polywrap-uri-resolvers/0.1.0a4-0.1.0a7/diff.md --exclude *.pyd
+[2023-04-17 17:00:46] INFO root fetch - processPackages [dramatiq-crontab]: Start processing: news-please
+[2023-04-17 17:00:46] INFO root fetch - main [MainThread]: End processing [dramatiq-crontab]: success
+[2023-04-17 17:00:46] INFO root fetch - processPackages [sherbystats]: Start processing: otoe
+[2023-04-17 17:00:46] INFO root fetch - main [MainThread]: End processing [sherbystats]: success
+[2023-04-17 17:00:46] INFO root fetch - processPackages [otoe]: New version: [0.0.8] Old Version: [0.0.7a4]
+[2023-04-17 17:00:46] INFO root fetch - processPackages [news-please]: New version: [1.5.33] Old Version: [1.5.3]
+[2023-04-17 17:00:46] INFO root fetch - processPackages [otoe]: Downloading https://files.pythonhosted.org/packages/19/fd/b9cb9b9e8800cd5b9bb44d4b70e3ea7b90383940647404235a7152c5d822/otoe-0.0.7a4.tar.gz
+[2023-04-17 17:00:46] INFO root fetch - processPackages [news-please]: Downloading https://files.pythonhosted.org/packages/d8/d8/0331d1e1da5eaffa4b8eafff120a006ecbfc9fef0f46e0f3f2b04e5a3770/news-please-1.5.3.tar.gz
+[2023-04-17 17:00:47] INFO root fetch - processPackages [pyriksprot]: Start processing: sanctum-tc
+[2023-04-17 17:00:47] INFO root fetch - main [MainThread]: End processing [pyriksprot]: success
+[2023-04-17 17:00:47] INFO root fetch - processPackages [sanctum-tc]: New version: [0.7.0a0] Old Version: [0.7.0]
+[2023-04-17 17:00:47] INFO root fetch - processPackages [sanctum-tc]: executing diffoscope
+[2023-04-17 17:00:47] INFO root fetch - processPackages [sanctum-tc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sanctum_tc-0.7.0.tar.gz tmp/sanctum_tc-0.7.0a0.tar.gz --markdown 20230417/s/sanctum-tc/0.7.0-0.7.0a0/diff.md --exclude *.pyd
+[2023-04-17 17:00:47] INFO root fetch - processPackages [otoe]: Downloading https://files.pythonhosted.org/packages/8d/d0/409bcc0c218f9b8c50b318b9312f8afc8c38cfe62f0dbf7236cac7054018/otoe-0.0.8.tar.gz
+[2023-04-17 17:00:47] INFO root fetch - processPackages [news-please]: Downloading https://files.pythonhosted.org/packages/1f/d3/476ad4ba455b869ea52b4b8938437c002523cc9b3f11b0beb7e7d7136cd9/news-please-1.5.33.tar.gz
+[2023-04-17 17:00:47] INFO root fetch - processPackages [otoe]: executing diffoscope
+[2023-04-17 17:00:47] INFO root fetch - processPackages [otoe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otoe-0.0.7a4.tar.gz tmp/otoe-0.0.8.tar.gz --markdown 20230417/o/otoe/0.0.7a4-0.0.8/diff.md --exclude *.pyd
+[2023-04-17 17:00:47] INFO root fetch - processPackages [news-please]: executing diffoscope
+[2023-04-17 17:00:47] INFO root fetch - processPackages [news-please]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/news-please-1.5.3.tar.gz tmp/news-please-1.5.33.tar.gz --markdown 20230417/n/news-please/1.5.3-1.5.33/diff.md --exclude *.pyd
+[2023-04-17 17:00:48] INFO root fetch - processPackages [polywrap-uri-resolvers]: Start processing: titanic-regression-model
+[2023-04-17 17:00:48] INFO root fetch - main [MainThread]: End processing [polywrap-uri-resolvers]: success
+[2023-04-17 17:00:48] INFO root fetch - processPackages [unidic2ud]: Start processing: whoisdomain
+[2023-04-17 17:00:48] INFO root fetch - main [MainThread]: End processing [unidic2ud]: success
+[2023-04-17 17:00:48] WARNING root fetch - processPackages [titanic-regression-model]: Skipping, unable to determine old version
+[2023-04-17 17:00:48] INFO root fetch - processPackages [titanic-regression-model]: Start processing: titanic-regression-model
+[2023-04-17 17:00:48] INFO root fetch - processPackages [xmanager]: Start processing: polywrap-client
+[2023-04-17 17:00:48] INFO root fetch - main [MainThread]: End processing [titanic-regression-model] error
+[2023-04-17 17:00:48] INFO root fetch - main [MainThread]: End processing [xmanager]: success
+[2023-04-17 17:00:48] INFO root fetch - processPackages [whoisdomain]: New version: [1.20230417.6] Old Version: [1.20230417.5]
+[2023-04-17 17:00:48] WARNING root fetch - processPackages [titanic-regression-model]: Skipping, unable to determine old version
+[2023-04-17 17:00:48] INFO root fetch - processPackages [titanic-regression-model]: Start processing: ln-markets
+[2023-04-17 17:00:48] INFO root fetch - main [MainThread]: End processing [titanic-regression-model] error
+[2023-04-17 17:00:48] INFO root fetch - processPackages [sanctum-tc]: Start processing: play-video-song
+[2023-04-17 17:00:48] INFO root fetch - main [MainThread]: End processing [sanctum-tc]: success
+[2023-04-17 17:00:48] INFO root fetch - processPackages [polywrap-client]: New version: [0.1.0a4] Old Version: [0.1.0a3]
+[2023-04-17 17:00:48] INFO root fetch - processPackages [ln-markets]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-17 17:00:48] WARNING root fetch - processPackages [play-video-song]: Skipping, unable to determine old version
+[2023-04-17 17:00:48] INFO root fetch - processPackages [play-video-song]: Start processing: optimtool
+[2023-04-17 17:00:48] INFO root fetch - main [MainThread]: End processing [play-video-song] error
+[2023-04-17 17:00:48] INFO root fetch - processPackages [whoisdomain]: Downloading https://files.pythonhosted.org/packages/99/9d/9268aa83b767d4b9b9ea3c19f3c4c51d54bded84ddad848e522a1584c1ce/whoisdomain-1.20230417.6.tar.gz
+[2023-04-17 17:00:48] INFO root fetch - processPackages [k1lib]: Start processing: docarray
+[2023-04-17 17:00:48] INFO root fetch - main [MainThread]: End processing [k1lib]: success
+[2023-04-17 17:00:48] INFO root fetch - processPackages [otoe]: Start processing: otoe
+[2023-04-17 17:00:48] INFO root fetch - main [MainThread]: End processing [otoe]: success
+[2023-04-17 17:00:48] INFO root fetch - processPackages [polywrap-client]: Downloading https://files.pythonhosted.org/packages/00/55/bb0c2cf05fa194f1ab58bd7f5f5381b75a2e3bacb4bb2aafc8987ac4a335/polywrap_client-0.1.0a3.tar.gz
+[2023-04-17 17:00:48] INFO root fetch - processPackages [optimtool]: New version: [2.4.2] Old Version: [2.4.1]
+[2023-04-17 17:00:48] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-04-17 17:00:48] INFO root fetch - processPackages [otoe]: New version: [0.0.8] Old Version: [0.0.7a4]
+[2023-04-17 17:00:48] INFO root fetch - processPackages [ln-markets]: Downloading https://files.pythonhosted.org/packages/64/79/2fc70f4f0c15cd0488bed31771297c7b94d262be7f1c644ca65b9b1b8439/ln-markets-1.0.8.tar.gz
+[2023-04-17 17:00:48] INFO root fetch - processPackages [k1lib]: Start processing: polywrap-client-config-builder
+[2023-04-17 17:00:48] INFO root fetch - main [MainThread]: End processing [k1lib]: success
+[2023-04-17 17:00:49] INFO root fetch - processPackages [whoisdomain]: executing diffoscope
+[2023-04-17 17:00:49] INFO root fetch - processPackages [whoisdomain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whoisdomain-1.20230417.5.tar.gz tmp/whoisdomain-1.20230417.6.tar.gz --markdown 20230417/w/whoisdomain/1.20230417.5-1.20230417.6/diff.md --exclude *.pyd
+[2023-04-17 17:00:49] INFO root fetch - processPackages [otoe]: executing diffoscope
+[2023-04-17 17:00:49] INFO root fetch - processPackages [otoe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otoe-0.0.7a4.tar.gz tmp/otoe-0.0.8.tar.gz --markdown 20230417/o/otoe/0.0.7a4-0.0.8/diff.md --exclude *.pyd
+[2023-04-17 17:00:49] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-04-17 17:00:49] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230417/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-04-17 17:00:49] INFO root fetch - processPackages [polywrap-client-config-builder]: New version: [0.1.0a29] Old Version: [0.1.0a28]
+[2023-04-17 17:00:49] INFO root fetch - processPackages [optimtool]: Downloading https://files.pythonhosted.org/packages/5c/f3/0e7a71f03a5d89ce0d21db4bd11f5fc342c4b1268fda8d3f1fcd8192aa25/optimtool-2.4.1.tar.gz
+[2023-04-17 17:00:49] INFO root fetch - main [MainThread]: End processing [oar-docker]: success
+[2023-04-17 17:00:49] INFO root fetch - processPackages [polywrap-client]: Downloading https://files.pythonhosted.org/packages/80/f8/5d300d6fcb2da426408599e055a752c0247c482e8dc308125ae1172d535b/polywrap_client-0.1.0a4.tar.gz
+[2023-04-17 17:00:49] INFO root fetch - processPackages [polywrap-client-config-builder]: Downloading https://files.pythonhosted.org/packages/37/82/e082184552dcf22ae9126ed206f4014d6db9188cdef3aa30875bf80ba31f/polywrap_client_config_builder-0.1.0a28.tar.gz
+[2023-04-17 17:00:49] INFO root fetch - processPackages [polywrap-client]: executing diffoscope
+[2023-04-17 17:00:49] INFO root fetch - processPackages [polywrap-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polywrap_client-0.1.0a3.tar.gz tmp/polywrap_client-0.1.0a4.tar.gz --markdown 20230417/p/polywrap-client/0.1.0a3-0.1.0a4/diff.md --exclude *.pyd
+[2023-04-17 17:00:49] INFO root fetch - processPackages [optimtool]: Downloading https://files.pythonhosted.org/packages/0a/bd/fccac773d7e3be314fe805dd4c35cd2d7a1906959f6dd215015167890457/optimtool-2.4.2.tar.gz
+[2023-04-17 17:00:49] INFO root fetch - processPackages [ln-markets]: Downloading https://files.pythonhosted.org/packages/e4/35/fe8cfb0f5fc766f48fa4ef8d8d682fc292a20fbd359a008d3027f0610d36/ln-markets-1.0.9.tar.gz
+[2023-04-17 17:00:49] INFO root fetch - processPackages [optimtool]: executing diffoscope
+[2023-04-17 17:00:49] INFO root fetch - processPackages [optimtool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optimtool-2.4.1.tar.gz tmp/optimtool-2.4.2.tar.gz --markdown 20230417/o/optimtool/2.4.1-2.4.2/diff.md --exclude *.pyd
+[2023-04-17 17:00:49] INFO root fetch - processPackages [polywrap-client-config-builder]: Downloading https://files.pythonhosted.org/packages/7f/48/c21e7b5d9ec617aefa3f3d4befd35d2c3e666fcb10d24896894635dae354/polywrap_client_config_builder-0.1.0a29.tar.gz
+[2023-04-17 17:00:49] INFO root fetch - processPackages [polywrap-client-config-builder]: executing diffoscope
+[2023-04-17 17:00:49] INFO root fetch - processPackages [polywrap-client-config-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polywrap_client_config_builder-0.1.0a28.tar.gz tmp/polywrap_client_config_builder-0.1.0a29.tar.gz --markdown 20230417/p/polywrap-client-config-builder/0.1.0a28-0.1.0a29/diff.md --exclude *.pyd
+[2023-04-17 17:00:49] INFO root fetch - processPackages [ln-markets]: executing diffoscope
+[2023-04-17 17:00:49] INFO root fetch - processPackages [ln-markets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ln-markets-1.0.8.tar.gz tmp/ln-markets-1.0.9.tar.gz --markdown 20230417/l/ln-markets/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-17 17:00:50] INFO root fetch - main [MainThread]: End processing [news-please]: success
+[2023-04-17 17:00:50] INFO root fetch - main [MainThread]: End processing [otoe]: success
+[2023-04-17 17:00:50] INFO root fetch - main [MainThread]: End processing [polywrap-client]: success
+[2023-04-17 17:00:50] INFO root fetch - main [MainThread]: End processing [ln-markets]: success
+[2023-04-17 17:00:51] INFO root fetch - main [MainThread]: End processing [polywrap-client-config-builder]: success
+[2023-04-17 17:00:51] INFO root fetch - main [MainThread]: End processing [optimtool]: success
+[2023-04-17 17:00:52] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-04-17 17:00:53] INFO root fetch - main [MainThread]: End processing [whoisdomain]: success
+[2023-04-17 17:00:53] INFO root fetch - main [MainThread]: End processing [lmql]: success
+[2023-04-17 17:00:53] INFO root fetch - main [MainThread]: Store serial: [17740202]
