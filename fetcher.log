@@ -19095,3 +19095,138 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-17 19:33:28] INFO root fetch - main [MainThread]: End processing [cdk-extensions]: success
 [2023-04-17 19:33:33] INFO root fetch - main [MainThread]: End processing [prettyqt]: success
 [2023-04-17 19:33:33] INFO root fetch - main [MainThread]: Store serial: [17742000]
+[2023-04-17 19:38:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17742000]
+[2023-04-17 19:38:43] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-04-17 19:38:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bmgen
+[2023-04-17 19:38:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qiskit-sphinx-theme
+[2023-04-17 19:38:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: renovosolutions.aws-cdk-aws-ipam
+[2023-04-17 19:38:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: renovosolutions.aws-cdk-aws-ipam
+[2023-04-17 19:38:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xh-dict-utils
+[2023-04-17 19:38:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: renovosolutions.aws-cdk-renovo-instance-service
+[2023-04-17 19:38:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tf-nightly-intel
+[2023-04-17 19:38:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: renovosolutions.aws-cdk-renovo-s3-bucket
+[2023-04-17 19:38:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hikari-lightbulb
+[2023-04-17 19:38:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: renovosolutions.aws-cdk-control-tower-lifecycle-events
+[2023-04-17 19:38:43] INFO root fetch - processPackages [xh-dict-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 19:38:43] INFO root fetch - processPackages [renovosolutions.aws-cdk-control-tower-lifecycle-events]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-04-17 19:38:43] INFO root fetch - processPackages [renovosolutions.aws-cdk-aws-ipam]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-04-17 19:38:43] INFO root fetch - processPackages [renovosolutions.aws-cdk-aws-ipam]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-04-17 19:38:43] INFO root fetch - processPackages [tf-nightly-intel]: New version: [2.13.0.dev20230416] Old Version: [2.13.0.dev20230415]
+[2023-04-17 19:38:43] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-instance-service]: New version: [2.9.99] Old Version: [2.9.98]
+[2023-04-17 19:38:43] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-s3-bucket]: New version: [2.2.99] Old Version: [2.2.98]
+[2023-04-17 19:38:43] WARNING root fetch - processPackages [bmgen]: Skipping, unable to determine old version
+[2023-04-17 19:38:43] INFO root fetch - processPackages [bmgen]: Start processing: clevertouch
+[2023-04-17 19:38:43] INFO root fetch - main [MainThread]: End processing [bmgen] error
+[2023-04-17 19:38:43] INFO root fetch - processPackages [qiskit-sphinx-theme]: New version: [1.9.0] Old Version: [1.8.7]
+[2023-04-17 19:38:43] INFO root fetch - processPackages [hikari-lightbulb]: New version: [2.3.3] Old Version: [2.3.2]
+[2023-04-17 19:38:43] INFO root fetch - processPackages [xh-dict-utils]: executing diffoscope
+[2023-04-17 19:38:43] INFO root fetch - processPackages [xh-dict-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xh-dict-utils-0.0.8.tar.gz tmp/xh-dict-utils-0.0.9.tar.gz --markdown 20230417/x/xh-dict-utils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 19:38:43] INFO root fetch - processPackages [renovosolutions.aws-cdk-aws-ipam]: executing diffoscope
+[2023-04-17 19:38:43] INFO root fetch - processPackages [renovosolutions.aws-cdk-aws-ipam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-aws-ipam-0.1.98.tar.gz tmp/renovosolutions.aws-cdk-aws-ipam-0.1.99.tar.gz --markdown 20230417/r/renovosolutions.aws-cdk-aws-ipam/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-04-17 19:38:43] INFO root fetch - processPackages [renovosolutions.aws-cdk-aws-ipam]: executing diffoscope
+[2023-04-17 19:38:43] INFO root fetch - processPackages [renovosolutions.aws-cdk-aws-ipam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-aws-ipam-0.1.98.tar.gz tmp/renovosolutions.aws-cdk-aws-ipam-0.1.99.tar.gz --markdown 20230417/r/renovosolutions.aws-cdk-aws-ipam/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-04-17 19:38:43] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-s3-bucket]: executing diffoscope
+[2023-04-17 19:38:43] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-s3-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-renovo-s3-bucket-2.2.98.tar.gz tmp/renovosolutions.aws-cdk-renovo-s3-bucket-2.2.99.tar.gz --markdown 20230417/r/renovosolutions.aws-cdk-renovo-s3-bucket/2.2.98-2.2.99/diff.md --exclude *.pyd
+[2023-04-17 19:38:43] INFO root fetch - processPackages [renovosolutions.aws-cdk-control-tower-lifecycle-events]: executing diffoscope
+[2023-04-17 19:38:43] INFO root fetch - processPackages [renovosolutions.aws-cdk-control-tower-lifecycle-events]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-control-tower-lifecycle-events-0.1.98.tar.gz tmp/renovosolutions.aws-cdk-control-tower-lifecycle-events-0.1.99.tar.gz --markdown 20230417/r/renovosolutions.aws-cdk-control-tower-lifecycle-events/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-04-17 19:38:43] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-instance-service]: executing diffoscope
+[2023-04-17 19:38:43] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-instance-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-renovo-instance-service-2.9.98.tar.gz tmp/renovosolutions.aws-cdk-renovo-instance-service-2.9.99.tar.gz --markdown 20230417/r/renovosolutions.aws-cdk-renovo-instance-service/2.9.98-2.9.99/diff.md --exclude *.pyd
+[2023-04-17 19:38:43] INFO root fetch - processPackages [clevertouch]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-04-17 19:38:43] INFO root fetch - processPackages [tf-nightly-intel]: Downloading https://files.pythonhosted.org/packages/ce/e1/759e1e4334259d6a4bf166d5f4784b8f8bc2c67d3efe788a5a6fef5aada2/tf_nightly_intel-2.13.0.dev20230415-cp39-cp39-win_amd64.whl
+[2023-04-17 19:38:43] INFO root fetch - processPackages [qiskit-sphinx-theme]: Downloading https://files.pythonhosted.org/packages/65/60/7f48b06d88ef75954453994dfc90f8e027ca0f90739639c3d33ed9fd3331/qiskit_sphinx_theme-1.8.7.tar.gz
+[2023-04-17 19:38:43] WARNING root fetch - processPackages [tf-nightly-intel]: Skipping package: exceeds size limit 178486490>=10485760
+[2023-04-17 19:38:43] INFO root fetch - processPackages [tf-nightly-intel]: Start processing: vl-convert-python
+[2023-04-17 19:38:43] INFO root fetch - main [MainThread]: End processing [tf-nightly-intel] error
+[2023-04-17 19:38:43] INFO root fetch - processPackages [hikari-lightbulb]: Downloading https://files.pythonhosted.org/packages/48/90/43835d3bd9f0b730d16dd500630d381632cbea8ae44f9513195949b93ed4/hikari-lightbulb-2.3.2.tar.gz
+[2023-04-17 19:38:43] INFO root fetch - processPackages [vl-convert-python]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-04-17 19:38:43] INFO root fetch - processPackages [clevertouch]: Downloading https://files.pythonhosted.org/packages/29/5f/7449e91825d6f76615c8ab0d7413dd3f7f968a5b42070c516fd0eb7617ea/clevertouch-0.4.1.tar.gz
+[2023-04-17 19:38:43] INFO root fetch - processPackages [hikari-lightbulb]: Downloading https://files.pythonhosted.org/packages/fe/60/d018e49ef9a96cb8d4ba9822438e37d2b2eac6c00b0373adbcca294f051e/hikari-lightbulb-2.3.3.tar.gz
+[2023-04-17 19:38:43] INFO root fetch - processPackages [qiskit-sphinx-theme]: Downloading https://files.pythonhosted.org/packages/63/8d/046b1ebc46a281ef956ad4ebefd9ee291e43ab2c506e15713b2913f95ad4/qiskit_sphinx_theme-1.9.0.tar.gz
+[2023-04-17 19:38:43] INFO root fetch - processPackages [vl-convert-python]: Downloading https://files.pythonhosted.org/packages/bc/33/c95c8b2bd9cf5ba8d3c80a9e01296cc9dc6d389a5c2028b5c2bc3c712145/vl_convert_python-0.8.0.tar.gz
+[2023-04-17 19:38:43] INFO root fetch - processPackages [clevertouch]: executing diffoscope
+[2023-04-17 19:38:43] INFO root fetch - processPackages [clevertouch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clevertouch-0.4.0.tar.gz tmp/clevertouch-0.4.1.tar.gz --markdown 20230417/c/clevertouch/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-04-17 19:38:44] INFO root fetch - processPackages [hikari-lightbulb]: executing diffoscope
+[2023-04-17 19:38:44] INFO root fetch - processPackages [hikari-lightbulb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hikari-lightbulb-2.3.2.tar.gz tmp/hikari-lightbulb-2.3.3.tar.gz --markdown 20230417/h/hikari-lightbulb/2.3.2-2.3.3/diff.md --exclude *.pyd
+[2023-04-17 19:38:44] INFO root fetch - processPackages [qiskit-sphinx-theme]: executing diffoscope
+[2023-04-17 19:38:44] INFO root fetch - processPackages [qiskit-sphinx-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit_sphinx_theme-1.8.7.tar.gz tmp/qiskit_sphinx_theme-1.9.0.tar.gz --markdown 20230417/q/qiskit-sphinx-theme/1.8.7-1.9.0/diff.md --exclude *.pyd
+[2023-04-17 19:38:44] INFO root fetch - processPackages [vl-convert-python]: Downloading https://files.pythonhosted.org/packages/64/cc/eecb15b1a2cc6fd37fb5a3af89faa3bb0f6c5c588dda5887002df1c67241/vl_convert_python-0.8.1.tar.gz
+[2023-04-17 19:38:44] INFO root fetch - processPackages [xh-dict-utils]: Start processing: renovosolutions.aws-cdk-aspects-security-group
+[2023-04-17 19:38:44] INFO root fetch - main [MainThread]: End processing [xh-dict-utils]: success
+[2023-04-17 19:38:44] INFO root fetch - processPackages [renovosolutions.aws-cdk-aspects-security-group]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-04-17 19:38:44] INFO root fetch - processPackages [renovosolutions.aws-cdk-aws-ipam]: Start processing: pymediawikidocker
+[2023-04-17 19:38:44] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-aws-ipam]: success
+[2023-04-17 19:38:44] INFO root fetch - processPackages [pymediawikidocker]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-17 19:38:44] INFO root fetch - processPackages [renovosolutions.aws-cdk-control-tower-lifecycle-events]: Start processing: qtoggleserver
+[2023-04-17 19:38:44] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-control-tower-lifecycle-events]: success
+[2023-04-17 19:38:44] INFO root fetch - processPackages [renovosolutions.aws-cdk-aspects-security-group]: executing diffoscope
+[2023-04-17 19:38:44] INFO root fetch - processPackages [renovosolutions.aws-cdk-aspects-security-group]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-aspects-security-group-2.1.98.tar.gz tmp/renovosolutions.aws-cdk-aspects-security-group-2.1.99.tar.gz --markdown 20230417/r/renovosolutions.aws-cdk-aspects-security-group/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-04-17 19:38:45] INFO root fetch - processPackages [vl-convert-python]: executing diffoscope
+[2023-04-17 19:38:45] INFO root fetch - processPackages [vl-convert-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vl_convert_python-0.8.0.tar.gz tmp/vl_convert_python-0.8.1.tar.gz --markdown 20230417/v/vl-convert-python/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-04-17 19:38:45] INFO root fetch - processPackages [renovosolutions.aws-cdk-aws-ipam]: Start processing: bodo-platform-extensions
+[2023-04-17 19:38:45] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-aws-ipam]: success
+[2023-04-17 19:38:45] INFO root fetch - processPackages [pymediawikidocker]: executing diffoscope
+[2023-04-17 19:38:45] INFO root fetch - processPackages [pymediawikidocker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymediawikidocker-0.9.8.tar.gz tmp/pymediawikidocker-0.9.9.tar.gz --markdown 20230417/p/pymediawikidocker/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-17 19:38:45] INFO root fetch - processPackages [qtoggleserver]: New version: [0.26.4] Old Version: [0.26.3]
+[2023-04-17 19:38:45] INFO root fetch - processPackages [bodo-platform-extensions]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-04-17 19:38:45] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-s3-bucket]: Start processing: huscy.subjects
+[2023-04-17 19:38:45] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-renovo-s3-bucket]: success
+[2023-04-17 19:38:45] INFO root fetch - processPackages [huscy.subjects]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-04-17 19:38:45] INFO root fetch - processPackages [bodo-platform-extensions]: Downloading https://files.pythonhosted.org/packages/5e/9d/382c405c2c249426a8deaf3d902a1060a3b4c7e7b00f0670d588142f461e/bodo_platform_extensions-1.1.0.tar.gz
+[2023-04-17 19:38:45] INFO root fetch - processPackages [clevertouch]: Start processing: polyfasNast
+[2023-04-17 19:38:45] INFO root fetch - main [MainThread]: End processing [clevertouch]: success
+[2023-04-17 19:38:45] INFO root fetch - processPackages [qtoggleserver]: Downloading https://files.pythonhosted.org/packages/ca/11/de530afec8193a7b72ede396c96cbd44e9a4cf6383fea7a6a82b2a3c3d39/qtoggleserver-0.26.4.tar.gz
+[2023-04-17 19:38:45] WARNING root fetch - processPackages [polyfasNast]: Skipping, unable to determine old version
+[2023-04-17 19:38:45] INFO root fetch - processPackages [polyfasNast]: Start processing: cf-wesgrh
+[2023-04-17 19:38:45] INFO root fetch - main [MainThread]: End processing [polyfasNast] error
+[2023-04-17 19:38:45] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-instance-service]: Start processing: tiktokthon
+[2023-04-17 19:38:45] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-renovo-instance-service]: success
+[2023-04-17 19:38:45] WARNING root fetch - processPackages [cf-wesgrh]: Skipping, unable to determine old version
+[2023-04-17 19:38:45] INFO root fetch - processPackages [cf-wesgrh]: Start processing: satcfdi
+[2023-04-17 19:38:45] INFO root fetch - main [MainThread]: End processing [cf-wesgrh] error
+[2023-04-17 19:38:45] INFO root fetch - processPackages [huscy.subjects]: Downloading https://files.pythonhosted.org/packages/ad/fb/87a7834c7d7b7c3a48e0188ed9929034c32880e72f0c1b88a95c08e9d6a3/huscy.subjects-2.1.0.tar.gz
+[2023-04-17 19:38:45] WARNING root fetch - processPackages [tiktokthon]: Skipping, unable to determine old version
+[2023-04-17 19:38:45] INFO root fetch - processPackages [tiktokthon]: Start processing: planet
+[2023-04-17 19:38:45] INFO root fetch - main [MainThread]: End processing [tiktokthon] error
+[2023-04-17 19:38:45] INFO root fetch - processPackages [satcfdi]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-04-17 19:38:45] INFO root fetch - processPackages [bodo-platform-extensions]: Downloading https://files.pythonhosted.org/packages/2b/a1/0ede2289c708cd82ddb0182a3e0a89e3bbf684cff6b342b2c3487ea04fc9/bodo_platform_extensions-1.2.0.tar.gz
+[2023-04-17 19:38:45] INFO root fetch - processPackages [planet]: New version: [2.0a6] Old Version: [2.0a5.dev0]
+[2023-04-17 19:38:45] INFO root fetch - processPackages [qtoggleserver]: executing diffoscope
+[2023-04-17 19:38:45] INFO root fetch - processPackages [qtoggleserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtoggleserver-0.26.3.tar.gz tmp/qtoggleserver-0.26.4.tar.gz --markdown 20230417/q/qtoggleserver/0.26.3-0.26.4/diff.md --exclude *.pyd
+[2023-04-17 19:38:45] INFO root fetch - processPackages [huscy.subjects]: Downloading https://files.pythonhosted.org/packages/ac/cc/2d201efee9ce1270774deab40d75f976a5fa8a69948307a5f64dda1aa6df/huscy.subjects-2.1.1.tar.gz
+[2023-04-17 19:38:45] INFO root fetch - processPackages [satcfdi]: Downloading https://files.pythonhosted.org/packages/e2/d6/375edaf0658a821ca84c3272ee9e2db8ab7f91cb99562b3606904078ee0b/satcfdi-4.0.8.tar.gz
+[2023-04-17 19:38:45] INFO root fetch - processPackages [bodo-platform-extensions]: executing diffoscope
+[2023-04-17 19:38:45] INFO root fetch - processPackages [bodo-platform-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bodo_platform_extensions-1.1.0.tar.gz tmp/bodo_platform_extensions-1.2.0.tar.gz --markdown 20230417/b/bodo-platform-extensions/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-04-17 19:38:45] INFO root fetch - processPackages [planet]: Downloading https://files.pythonhosted.org/packages/c1/b6/225cff175ba304537587c354b83521e6e2229f41b5db8eccd15d8bffd258/planet-2.0a5.dev0.tar.gz
+[2023-04-17 19:38:45] INFO root fetch - processPackages [huscy.subjects]: executing diffoscope
+[2023-04-17 19:38:45] INFO root fetch - processPackages [huscy.subjects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huscy.subjects-2.1.0.tar.gz tmp/huscy.subjects-2.1.1.tar.gz --markdown 20230417/h/huscy.subjects/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-04-17 19:38:46] INFO root fetch - processPackages [planet]: Downloading https://files.pythonhosted.org/packages/1b/de/4e9153e0f3f3c19088d3c1e4c5432e1f7ade1f918c736e47830e558f2f5e/planet-2.0a6.tar.gz
+[2023-04-17 19:38:46] INFO root fetch - processPackages [planet]: executing diffoscope
+[2023-04-17 19:38:46] INFO root fetch - processPackages [planet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planet-2.0a5.dev0.tar.gz tmp/planet-2.0a6.tar.gz --markdown 20230417/p/planet/2.0a5.dev0-2.0a6/diff.md --exclude *.pyd
+[2023-04-17 19:38:46] INFO root fetch - processPackages [pymediawikidocker]: Start processing: bodo-platform-utils
+[2023-04-17 19:38:46] INFO root fetch - main [MainThread]: End processing [pymediawikidocker]: success
+[2023-04-17 19:38:46] INFO root fetch - processPackages [bodo-platform-utils]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-17 19:38:46] INFO root fetch - processPackages [renovosolutions.aws-cdk-aspects-security-group]: Start processing: b2sdk
+[2023-04-17 19:38:46] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-aspects-security-group]: success
+[2023-04-17 19:38:46] INFO root fetch - processPackages [bodo-platform-utils]: Downloading https://files.pythonhosted.org/packages/3d/1c/7f3efcb3c9ae8cb5dc5e7cc9981b8c1c2afeab31604153d80cd5e6adf415/bodo_platform_utils-0.0.7.tar.gz
+[2023-04-17 19:38:46] INFO root fetch - processPackages [b2sdk]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-04-17 19:38:47] INFO root fetch - processPackages [bodo-platform-utils]: Downloading https://files.pythonhosted.org/packages/a8/cd/8e3bb75edcfee52c5f571960d477413916d8ea09865106003ded098460a6/bodo_platform_utils-0.0.8.tar.gz
+[2023-04-17 19:38:47] INFO root fetch - main [MainThread]: End processing [hikari-lightbulb]: success
+[2023-04-17 19:38:47] INFO root fetch - processPackages [satcfdi]: Downloading https://files.pythonhosted.org/packages/be/13/8394d3dd0f36b7eeb02321c07bd92764b9d1f283649098cbbe0d1ceb0b77/satcfdi-4.0.9.tar.gz
+[2023-04-17 19:38:47] INFO root fetch - main [MainThread]: End processing [qiskit-sphinx-theme]: success
+[2023-04-17 19:38:47] INFO root fetch - processPackages [bodo-platform-utils]: executing diffoscope
+[2023-04-17 19:38:47] INFO root fetch - processPackages [bodo-platform-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bodo_platform_utils-0.0.7.tar.gz tmp/bodo_platform_utils-0.0.8.tar.gz --markdown 20230417/b/bodo-platform-utils/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-17 19:38:47] INFO root fetch - processPackages [b2sdk]: Downloading https://files.pythonhosted.org/packages/df/38/177db217be6b4a435015a859584f7f608fbf41a47be0bf52495cb13baacb/b2sdk-1.8.0.tar.gz
+[2023-04-17 19:38:47] INFO root fetch - main [MainThread]: End processing [huscy.subjects]: success
+[2023-04-17 19:38:47] INFO root fetch - main [MainThread]: End processing [bodo-platform-extensions]: success
+[2023-04-17 19:38:47] INFO root fetch - processPackages [b2sdk]: Downloading https://files.pythonhosted.org/packages/06/f0/aec7b68040e2033844a1b546f95fa525649962e1c32ef5173cf235442264/b2sdk-1.9.0.tar.gz
+[2023-04-17 19:38:47] INFO root fetch - processPackages [satcfdi]: executing diffoscope
+[2023-04-17 19:38:47] INFO root fetch - processPackages [satcfdi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satcfdi-4.0.8.tar.gz tmp/satcfdi-4.0.9.tar.gz --markdown 20230417/s/satcfdi/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-04-17 19:38:47] INFO root fetch - main [MainThread]: End processing [planet]: success
+[2023-04-17 19:38:47] INFO root fetch - processPackages [b2sdk]: executing diffoscope
+[2023-04-17 19:38:47] INFO root fetch - processPackages [b2sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/b2sdk-1.8.0.tar.gz tmp/b2sdk-1.9.0.tar.gz --markdown 20230417/b/b2sdk/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-04-17 19:38:48] INFO root fetch - main [MainThread]: End processing [bodo-platform-utils]: success
+[2023-04-17 19:38:50] INFO root fetch - main [MainThread]: End processing [b2sdk]: success
+[2023-04-17 19:38:53] INFO root fetch - main [MainThread]: End processing [satcfdi]: success
+[2023-04-17 19:38:53] INFO root fetch - main [MainThread]: End processing [vl-convert-python]: success
+[2023-04-17 19:40:08] INFO root fetch - main [MainThread]: End processing [qtoggleserver]: success
+[2023-04-17 19:40:08] INFO root fetch - main [MainThread]: Store serial: [17742097]
