@@ -7803,3 +7803,83 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 10:11:40] INFO root fetch - main [MainThread]: End processing [dials-data]: success
 [2023-04-17 10:11:48] INFO root fetch - main [MainThread]: End processing [NikeCA]: success
 [2023-04-17 10:11:48] INFO root fetch - main [MainThread]: Store serial: [17735284]
+[2023-04-17 10:16:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17735284]
+[2023-04-17 10:16:58] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-17 10:16:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deep-pipe
+[2023-04-17 10:16:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: onnxoptimizer
+[2023-04-17 10:16:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: steam-pysigma
+[2023-04-17 10:16:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: UniTok
+[2023-04-17 10:16:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ALSCMM
+[2023-04-17 10:16:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: goastpy
+[2023-04-17 10:16:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dxsp
+[2023-04-17 10:16:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: citrusdb
+[2023-04-17 10:16:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xh-dict-utils
+[2023-04-17 10:16:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kenu
+[2023-04-17 10:16:58] INFO root fetch - processPackages [goastpy]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-17 10:16:58] INFO root fetch - processPackages [kenu]: New version: [1.3.5] Old Version: [1.3.4]
+[2023-04-17 10:16:58] INFO root fetch - processPackages [dxsp]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-04-17 10:16:58] INFO root fetch - processPackages [deep-pipe]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-17 10:16:58] WARNING root fetch - processPackages [citrusdb]: Skipping, unable to determine old version
+[2023-04-17 10:16:58] INFO root fetch - processPackages [citrusdb]: Start processing: yakui
+[2023-04-17 10:16:58] INFO root fetch - main [MainThread]: End processing [citrusdb] error
+[2023-04-17 10:16:58] WARNING root fetch - processPackages [ALSCMM]: Skipping, unable to determine old version
+[2023-04-17 10:16:58] INFO root fetch - processPackages [steam-pysigma]: New version: [2023.4.8] Old Version: [2023.4.7]
+[2023-04-17 10:16:58] INFO root fetch - processPackages [ALSCMM]: Start processing: dials-data
+[2023-04-17 10:16:58] INFO root fetch - processPackages [xh-dict-utils]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-17 10:16:58] INFO root fetch - main [MainThread]: End processing [ALSCMM] error
+[2023-04-17 10:16:58] INFO root fetch - processPackages [UniTok]: New version: [3.0.13] Old Version: [3.0.12]
+[2023-04-17 10:16:58] INFO root fetch - processPackages [onnxoptimizer]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-17 10:16:58] INFO root fetch - processPackages [dials-data]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-04-17 10:16:58] INFO root fetch - processPackages [yakui]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-17 10:16:58] INFO root fetch - processPackages [dials-data]: executing diffoscope
+[2023-04-17 10:16:58] INFO root fetch - processPackages [dials-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dials_data-2.4.8.tar.gz tmp/dials_data-2.4.9.tar.gz --markdown 20230417/d/dials-data/2.4.8-2.4.9/diff.md --exclude *.pyd
+[2023-04-17 10:16:58] INFO root fetch - processPackages [steam-pysigma]: executing diffoscope
+[2023-04-17 10:16:58] INFO root fetch - processPackages [steam-pysigma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steam-pysigma-2023.4.7.tar.gz tmp/steam-pysigma-2023.4.8.tar.gz --markdown 20230417/s/steam-pysigma/2023.4.7-2023.4.8/diff.md --exclude *.pyd
+[2023-04-17 10:16:58] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/01/b2/5faa8645d84d45f084d9d23d3f482eb7378620559ecc8a68fa0b86ced635/dxsp-1.2.1.tar.gz
+[2023-04-17 10:16:58] INFO root fetch - processPackages [xh-dict-utils]: Downloading https://files.pythonhosted.org/packages/19/c9/78a7195294c0e699baf733981da6e6add301f2fd6ffb2b48d27607e49607/xh-dict-utils-0.0.5.tar.gz
+[2023-04-17 10:16:58] INFO root fetch - processPackages [goastpy]: Downloading https://files.pythonhosted.org/packages/b5/e6/030a4c9bd5ece7c233f83272c0c7a2d4ff8a12bce1c2a94d7b135d6225fc/goastpy-0.1.4.tar.gz
+[2023-04-17 10:16:58] INFO root fetch - processPackages [deep-pipe]: Downloading https://files.pythonhosted.org/packages/6c/a6/47ccaa26bd57a6e907808bf1f5214890feb967f9b317c09cdcff1d667bb0/deep_pipe-0.2.1.tar.gz
+[2023-04-17 10:16:58] INFO root fetch - processPackages [kenu]: Downloading https://files.pythonhosted.org/packages/ad/c4/f8829eb29ff316286112382099db6cfd3cf9f4962424ccc03f7bdace270f/kenu-1.3.5.tar.gz
+[2023-04-17 10:16:58] INFO root fetch - processPackages [yakui]: Downloading https://files.pythonhosted.org/packages/10/a5/03045a04e328074df887583f0cfb8146a9d26cd71f5cfa47b928b1df32b5/yakui-0.1.0.tar.gz
+[2023-04-17 10:16:58] INFO root fetch - processPackages [onnxoptimizer]: Downloading https://files.pythonhosted.org/packages/a2/c2/8fcbecf89c52ca3beaccbed4aedb05eb9aa2bf232e18987942b3e1d3f227/onnxoptimizer-0.3.8.tar.gz
+[2023-04-17 10:16:58] INFO root fetch - processPackages [xh-dict-utils]: executing diffoscope
+[2023-04-17 10:16:58] INFO root fetch - processPackages [xh-dict-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xh-dict-utils-0.0.4.tar.gz tmp/xh-dict-utils-0.0.5.tar.gz --markdown 20230417/x/xh-dict-utils/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-17 10:16:58] INFO root fetch - processPackages [UniTok]: Downloading https://files.pythonhosted.org/packages/f6/d0/5d2ca18657403648345fbfac4b707509dee703630ff63a97a2acc4f50ad9/UniTok-3.0.12.tar.gz
+[2023-04-17 10:16:58] INFO root fetch - processPackages [goastpy]: executing diffoscope
+[2023-04-17 10:16:58] INFO root fetch - processPackages [goastpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goastpy-0.1.3.tar.gz tmp/goastpy-0.1.4.tar.gz --markdown 20230417/g/goastpy/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-17 10:16:58] INFO root fetch - processPackages [kenu]: executing diffoscope
+[2023-04-17 10:16:58] INFO root fetch - processPackages [kenu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kenu-1.3.4.tar.gz tmp/kenu-1.3.5.tar.gz --markdown 20230417/k/kenu/1.3.4-1.3.5/diff.md --exclude *.pyd
+[2023-04-17 10:16:58] WARNING root fetch - processPackages [onnxoptimizer]: Skipping package: exceeds size limit 18462997>=10485760
+[2023-04-17 10:16:58] INFO root fetch - processPackages [onnxoptimizer]: Start processing: gpforecaster
+[2023-04-17 10:16:58] INFO root fetch - main [MainThread]: End processing [onnxoptimizer] error
+[2023-04-17 10:16:58] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/e2/91/e1e3d422a7980f2157869f52e24baef5c66fc4e604ab118e64c5a17473c0/dxsp-1.2.2.tar.gz
+[2023-04-17 10:16:58] INFO root fetch - processPackages [gpforecaster]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-17 10:16:58] INFO root fetch - processPackages [yakui]: Downloading https://files.pythonhosted.org/packages/87/80/9b1c604a6b00dc1980a16936f02c3fec5b1decc504dfff6204b46c306e6d/yakui-0.1.1.tar.gz
+[2023-04-17 10:16:58] INFO root fetch - processPackages [dxsp]: executing diffoscope
+[2023-04-17 10:16:58] INFO root fetch - processPackages [dxsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxsp-1.2.1.tar.gz tmp/dxsp-1.2.2.tar.gz --markdown 20230417/d/dxsp/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-04-17 10:16:58] INFO root fetch - processPackages [yakui]: executing diffoscope
+[2023-04-17 10:16:58] INFO root fetch - processPackages [yakui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yakui-0.1.0.tar.gz tmp/yakui-0.1.1.tar.gz --markdown 20230417/y/yakui/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-17 10:16:58] INFO root fetch - processPackages [deep-pipe]: Downloading https://files.pythonhosted.org/packages/e4/d2/0f946b7a4d062f5d67631001d4b0e5ba7724722e1fe4844e5d16f6f8ea62/deep_pipe-0.2.2.tar.gz
+[2023-04-17 10:16:58] INFO root fetch - processPackages [gpforecaster]: executing diffoscope
+[2023-04-17 10:16:58] INFO root fetch - processPackages [gpforecaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpforecaster-0.3.8.tar.gz tmp/gpforecaster-0.3.9.tar.gz --markdown 20230417/g/gpforecaster/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-17 10:16:58] INFO root fetch - processPackages [UniTok]: Downloading https://files.pythonhosted.org/packages/c4/5f/f625c291e1988af6abc8e2dd2479b69d375529b77b0b6be2710d801f290d/UniTok-3.0.13.tar.gz
+[2023-04-17 10:16:58] INFO root fetch - processPackages [deep-pipe]: executing diffoscope
+[2023-04-17 10:16:58] INFO root fetch - processPackages [deep-pipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deep_pipe-0.2.1.tar.gz tmp/deep_pipe-0.2.2.tar.gz --markdown 20230417/d/deep-pipe/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-17 10:16:59] INFO root fetch - processPackages [UniTok]: executing diffoscope
+[2023-04-17 10:16:59] INFO root fetch - processPackages [UniTok]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UniTok-3.0.12.tar.gz tmp/UniTok-3.0.13.tar.gz --markdown 20230417/U/UniTok/3.0.12-3.0.13/diff.md --exclude *.pyd
+[2023-04-17 10:17:00] INFO root fetch - processPackages [kenu]: Start processing: EMPOL-GUI
+[2023-04-17 10:17:00] INFO root fetch - main [MainThread]: End processing [kenu]: success
+[2023-04-17 10:17:00] INFO root fetch - processPackages [EMPOL-GUI]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-04-17 10:17:00] INFO root fetch - main [MainThread]: End processing [goastpy]: success
+[2023-04-17 10:17:00] INFO root fetch - main [MainThread]: End processing [dxsp]: success
+[2023-04-17 10:17:00] INFO root fetch - processPackages [EMPOL-GUI]: executing diffoscope
+[2023-04-17 10:17:00] INFO root fetch - processPackages [EMPOL-GUI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EMPOL_GUI-2.2.0.tar.gz tmp/EMPOL_GUI-2.2.1.tar.gz --markdown 20230417/E/EMPOL-GUI/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-04-17 10:17:00] INFO root fetch - main [MainThread]: End processing [steam-pysigma]: success
+[2023-04-17 10:17:00] INFO root fetch - main [MainThread]: End processing [xh-dict-utils]: success
+[2023-04-17 10:17:00] INFO root fetch - main [MainThread]: End processing [UniTok]: success
+[2023-04-17 10:17:00] INFO root fetch - main [MainThread]: End processing [yakui]: success
+[2023-04-17 10:17:00] INFO root fetch - main [MainThread]: End processing [gpforecaster]: success
+[2023-04-17 10:17:00] INFO root fetch - main [MainThread]: End processing [deep-pipe]: success
+[2023-04-17 10:17:00] INFO root fetch - main [MainThread]: End processing [dials-data]: success
+[2023-04-17 10:17:01] INFO root fetch - main [MainThread]: End processing [EMPOL-GUI]: success
+[2023-04-17 10:17:01] INFO root fetch - main [MainThread]: Store serial: [17735350]
