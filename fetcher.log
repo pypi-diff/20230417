@@ -5896,3 +5896,79 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 07:41:09] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.runtime]: success
 [2023-04-17 07:41:10] INFO root fetch - main [MainThread]: End processing [pyarmor]: success
 [2023-04-17 07:41:10] INFO root fetch - main [MainThread]: Store serial: [17734107]
+[2023-04-17 07:46:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17734107]
+[2023-04-17 07:46:19] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-17 07:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: grizzly-loadtester-cli
+[2023-04-17 07:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coco-loader
+[2023-04-17 07:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qlat
+[2023-04-17 07:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qlat-cps
+[2023-04-17 07:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qlat-grid
+[2023-04-17 07:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qlat-utils
+[2023-04-17 07:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: otoe
+[2023-04-17 07:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Alpha-Rabbit
+[2023-04-17 07:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: python-keycloak-async
+[2023-04-17 07:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fenjing
+[2023-04-17 07:46:19] WARNING root fetch - processPackages [qlat-cps]: Skipping, unable to determine old version
+[2023-04-17 07:46:19] INFO root fetch - processPackages [qlat-cps]: Start processing: langchain-serve
+[2023-04-17 07:46:19] INFO root fetch - main [MainThread]: End processing [qlat-cps] error
+[2023-04-17 07:46:19] INFO root fetch - processPackages [coco-loader]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-17 07:46:19] INFO root fetch - processPackages [qlat-grid]: New version: [0.9] Old Version: [0.8]
+[2023-04-17 07:46:19] INFO root fetch - processPackages [otoe]: New version: [0.0.7a2] Old Version: [0.0.7a1]
+[2023-04-17 07:46:19] WARNING root fetch - processPackages [python-keycloak-async]: Skipping, unable to determine old version
+[2023-04-17 07:46:19] INFO root fetch - processPackages [python-keycloak-async]: Start processing: flarespy
+[2023-04-17 07:46:19] INFO root fetch - main [MainThread]: End processing [python-keycloak-async] error
+[2023-04-17 07:46:19] INFO root fetch - processPackages [grizzly-loadtester-cli]: New version: [3.1.6] Old Version: [3.1.5]
+[2023-04-17 07:46:19] INFO root fetch - processPackages [qlat-utils]: New version: [0.9] Old Version: [0.8]
+[2023-04-17 07:46:19] INFO root fetch - processPackages [qlat]: New version: [0.9] Old Version: [0.8]
+[2023-04-17 07:46:19] INFO root fetch - processPackages [fenjing]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-17 07:46:19] INFO root fetch - processPackages [Alpha-Rabbit]: New version: [1.3.5] Old Version: [1.3.4]
+[2023-04-17 07:46:19] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.4.dev6] Old Version: [0.0.4.dev5]
+[2023-04-17 07:46:19] INFO root fetch - processPackages [flarespy]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-04-17 07:46:19] INFO root fetch - processPackages [Alpha-Rabbit]: Downloading https://files.pythonhosted.org/packages/e8/5a/7fb37c21ec37d9fcd5c4bb0fe7c814a59291b24cb7f29414ef1243b924e2/Alpha_Rabbit-1.3.4.tar.gz
+[2023-04-17 07:46:19] INFO root fetch - processPackages [fenjing]: Downloading https://files.pythonhosted.org/packages/bf/3e/559c10d3a1abdb7bf03ae5ca3663aab1a155c7b1971fd6bea66367a0732b/fenjing-0.1.4.tar.gz
+[2023-04-17 07:46:19] INFO root fetch - processPackages [qlat-grid]: Downloading https://files.pythonhosted.org/packages/cf/0f/594acbf132deaec157f4f6359b76028d1dc4d7f5664ef0481e1697ff48ef/qlat_grid-0.8.tar.gz
+[2023-04-17 07:46:19] INFO root fetch - processPackages [otoe]: Downloading https://files.pythonhosted.org/packages/82/34/9d362539eff159851cf53b5649e1e0974da1181dbd09540baedbd64ff55f/otoe-0.0.7a2.tar.gz
+[2023-04-17 07:46:19] INFO root fetch - processPackages [coco-loader]: Downloading https://files.pythonhosted.org/packages/af/54/19f6e7b2a67358e383344348a23cc835671d5c89d466e7ee86826ba47606/coco_loader-0.0.1.tar.gz
+[2023-04-17 07:46:19] INFO root fetch - processPackages [qlat]: Downloading https://files.pythonhosted.org/packages/c1/78/3a21dfaa66aadd58ff521b3bbe198adc1082646f3b916b87ce3c16a06a4b/qlat-0.8.tar.gz
+[2023-04-17 07:46:19] INFO root fetch - processPackages [qlat-utils]: Downloading https://files.pythonhosted.org/packages/7c/2b/2132e4683879343a8503be10dfddbda8ef69bed2da3406817f3c6cbb1ea4/qlat_utils-0.8.tar.gz
+[2023-04-17 07:46:19] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/75/8f/9e5e6334c9d4de0110d790ae12bb8e7b0e349f963b8461cdfc0533df66e6/langchain-serve-0.0.4.dev6.tar.gz
+[2023-04-17 07:46:19] INFO root fetch - processPackages [flarespy]: Downloading https://files.pythonhosted.org/packages/c8/71/b5ff5a4a674d36fd2d6dd3319ec46a07c682ceed21f1bd59b5db2b1f6019/flarespy-0.6.2-py3-none-any.whl
+[2023-04-17 07:46:19] INFO root fetch - processPackages [grizzly-loadtester-cli]: Downloading https://files.pythonhosted.org/packages/80/2e/24d6ebec987df1d67862fc29c15f42c4fc3a43d87600ffe89f9e43a1e753/grizzly-loadtester-cli-3.1.5.tar.gz
+[2023-04-17 07:46:19] INFO root fetch - processPackages [otoe]: executing diffoscope
+[2023-04-17 07:46:19] INFO root fetch - processPackages [otoe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otoe-0.0.7a1.tar.gz tmp/otoe-0.0.7a2.tar.gz --markdown 20230417/o/otoe/0.0.7a1-0.0.7a2/diff.md --exclude *.pyd
+[2023-04-17 07:46:19] INFO root fetch - processPackages [Alpha-Rabbit]: Downloading https://files.pythonhosted.org/packages/17/ee/d348c11a6aa1afb0200b4d2ac301da17cc3c55fa633cfe1135b5fda3c1cf/Alpha_Rabbit-1.3.5.tar.gz
+[2023-04-17 07:46:19] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-04-17 07:46:19] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.4.dev5.tar.gz tmp/langchain-serve-0.0.4.dev6.tar.gz --markdown 20230417/l/langchain-serve/0.0.4.dev5-0.0.4.dev6/diff.md --exclude *.pyd
+[2023-04-17 07:46:19] INFO root fetch - processPackages [flarespy]: executing diffoscope
+[2023-04-17 07:46:19] INFO root fetch - processPackages [flarespy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flarespy-0.6.1.tar.gz tmp/flarespy-0.6.2-py3-none-any.whl.zip --markdown 20230417/f/flarespy/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-04-17 07:46:19] INFO root fetch - processPackages [grizzly-loadtester-cli]: Downloading https://files.pythonhosted.org/packages/0a/95/70e199efa46468a37b93e3451fb670e556fe378df84a8f3ef4785f97f79b/grizzly-loadtester-cli-3.1.6.tar.gz
+[2023-04-17 07:46:19] INFO root fetch - processPackages [coco-loader]: Downloading https://files.pythonhosted.org/packages/2a/9f/89a4a057162e85ec14c1d99d04bcf5e3a4878775b0f7a14bcf5e56c6e190/coco_loader-0.0.2.tar.gz
+[2023-04-17 07:46:19] INFO root fetch - processPackages [qlat-grid]: Downloading https://files.pythonhosted.org/packages/a2/eb/4942d98922c17c64af3ee3db55ec8fc6ef5e9d228f9c6d009457e1ddaf61/qlat_grid-0.9.tar.gz
+[2023-04-17 07:46:19] INFO root fetch - processPackages [fenjing]: Downloading https://files.pythonhosted.org/packages/95/20/5d702afaa949133e7256d6bc37b191882fc7522b0be5f432e71497afd79b/fenjing-0.1.5.tar.gz
+[2023-04-17 07:46:20] INFO root fetch - processPackages [Alpha-Rabbit]: executing diffoscope
+[2023-04-17 07:46:20] INFO root fetch - processPackages [Alpha-Rabbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Alpha_Rabbit-1.3.4.tar.gz tmp/Alpha_Rabbit-1.3.5.tar.gz --markdown 20230417/A/Alpha-Rabbit/1.3.4-1.3.5/diff.md --exclude *.pyd
+[2023-04-17 07:46:20] INFO root fetch - processPackages [qlat-utils]: Downloading https://files.pythonhosted.org/packages/db/40/6e58c3038e9046dd51fa42c9748ef7c8c65466165c0e9a6ed71064e6ca6b/qlat_utils-0.9.tar.gz
+[2023-04-17 07:46:20] INFO root fetch - processPackages [qlat]: Downloading https://files.pythonhosted.org/packages/a0/e1/78310cfcdfaadaa0349840d9886556d6fb5ad85d743641d50f280a9e08df/qlat-0.9.tar.gz
+[2023-04-17 07:46:20] INFO root fetch - processPackages [grizzly-loadtester-cli]: executing diffoscope
+[2023-04-17 07:46:20] INFO root fetch - processPackages [grizzly-loadtester-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grizzly-loadtester-cli-3.1.5.tar.gz tmp/grizzly-loadtester-cli-3.1.6.tar.gz --markdown 20230417/g/grizzly-loadtester-cli/3.1.5-3.1.6/diff.md --exclude *.pyd
+[2023-04-17 07:46:20] INFO root fetch - processPackages [coco-loader]: executing diffoscope
+[2023-04-17 07:46:20] INFO root fetch - processPackages [coco-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coco_loader-0.0.1.tar.gz tmp/coco_loader-0.0.2.tar.gz --markdown 20230417/c/coco-loader/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-17 07:46:20] INFO root fetch - processPackages [fenjing]: executing diffoscope
+[2023-04-17 07:46:20] INFO root fetch - processPackages [fenjing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fenjing-0.1.4.tar.gz tmp/fenjing-0.1.5.tar.gz --markdown 20230417/f/fenjing/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-17 07:46:20] INFO root fetch - processPackages [qlat-grid]: executing diffoscope
+[2023-04-17 07:46:20] INFO root fetch - processPackages [qlat-grid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qlat_grid-0.8.tar.gz tmp/qlat_grid-0.9.tar.gz --markdown 20230417/q/qlat-grid/0.8-0.9/diff.md --exclude *.pyd
+[2023-04-17 07:46:20] INFO root fetch - processPackages [qlat-utils]: executing diffoscope
+[2023-04-17 07:46:20] INFO root fetch - processPackages [qlat-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qlat_utils-0.8.tar.gz tmp/qlat_utils-0.9.tar.gz --markdown 20230417/q/qlat-utils/0.8-0.9/diff.md --exclude *.pyd
+[2023-04-17 07:46:20] INFO root fetch - processPackages [qlat]: executing diffoscope
+[2023-04-17 07:46:20] INFO root fetch - processPackages [qlat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qlat-0.8.tar.gz tmp/qlat-0.9.tar.gz --markdown 20230417/q/qlat/0.8-0.9/diff.md --exclude *.pyd
+[2023-04-17 07:46:21] INFO root fetch - main [MainThread]: End processing [otoe]: success
+[2023-04-17 07:46:21] INFO root fetch - main [MainThread]: End processing [Alpha-Rabbit]: success
+[2023-04-17 07:46:21] INFO root fetch - main [MainThread]: End processing [flarespy]: success
+[2023-04-17 07:46:21] INFO root fetch - main [MainThread]: End processing [coco-loader]: success
+[2023-04-17 07:46:21] INFO root fetch - main [MainThread]: End processing [grizzly-loadtester-cli]: success
+[2023-04-17 07:46:21] INFO root fetch - main [MainThread]: End processing [qlat-grid]: success
+[2023-04-17 07:46:21] INFO root fetch - main [MainThread]: End processing [fenjing]: success
+[2023-04-17 07:46:21] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-04-17 07:46:22] INFO root fetch - main [MainThread]: End processing [qlat-utils]: success
+[2023-04-17 07:46:25] INFO root fetch - main [MainThread]: End processing [qlat]: success
+[2023-04-17 07:46:25] INFO root fetch - main [MainThread]: Store serial: [17734144]
