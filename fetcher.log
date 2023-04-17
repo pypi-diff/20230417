@@ -12253,3 +12253,84 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-04-17 14:30:00] INFO root fetch - main [MainThread]: End processing [OpenGeode-Geosciences]: success
 [2023-04-17 14:30:02] INFO root fetch - main [MainThread]: End processing [Pras-Server]: success
 [2023-04-17 14:30:02] INFO root fetch - main [MainThread]: Store serial: [17738005]
+[2023-04-17 14:35:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17738005]
+[2023-04-17 14:35:12] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-17 14:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wayland-notifier
+[2023-04-17 14:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: read-rapidpe
+[2023-04-17 14:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: types-Pillow
+[2023-04-17 14:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: types-keyboard
+[2023-04-17 14:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: safe-eth-py
+[2023-04-17 14:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wildlife-datasets
+[2023-04-17 14:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tabledetect
+[2023-04-17 14:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fractal-tokens
+[2023-04-17 14:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wozoxutils
+[2023-04-17 14:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: huscy.projects
+[2023-04-17 14:35:12] WARNING root fetch - processPackages [read-rapidpe]: Skipping, unable to determine old version
+[2023-04-17 14:35:12] INFO root fetch - processPackages [read-rapidpe]: Start processing: simple-parquet-viewer
+[2023-04-17 14:35:12] INFO root fetch - main [MainThread]: End processing [read-rapidpe] error
+[2023-04-17 14:35:12] INFO root fetch - processPackages [tabledetect]: New version: [0.2.0] Old Version: [0.1.5]
+[2023-04-17 14:35:12] WARNING root fetch - processPackages [wozoxutils]: Skipping, unable to determine old version
+[2023-04-17 14:35:12] INFO root fetch - processPackages [wozoxutils]: Start processing: fmrib-unpack
+[2023-04-17 14:35:12] INFO root fetch - main [MainThread]: End processing [wozoxutils] error
+[2023-04-17 14:35:12] INFO root fetch - processPackages [safe-eth-py]: New version: [5.2.0] Old Version: [5.1.0]
+[2023-04-17 14:35:12] ERROR root fetch - processPackages [wayland-notifier]: Unable to get metadata: No such project 'wayland-notifier'
+[2023-04-17 14:35:12] INFO root fetch - processPackages [types-Pillow]: New version: [9.5.0.1] Old Version: [9.5.0.0]
+[2023-04-17 14:35:12] INFO root fetch - processPackages [wayland-notifier]: Start processing: dipex
+[2023-04-17 14:35:12] INFO root fetch - main [MainThread]: End processing [wayland-notifier] error
+[2023-04-17 14:35:12] INFO root fetch - processPackages [safe-eth-py]: executing diffoscope
+[2023-04-17 14:35:12] INFO root fetch - processPackages [safe-eth-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/safe-eth-py-5.1.0.tar.gz tmp/safe-eth-py-5.2.0.tar.gz --markdown 20230417/s/safe-eth-py/5.1.0-5.2.0/diff.md --exclude *.pyd
+[2023-04-17 14:35:12] INFO root fetch - processPackages [types-keyboard]: New version: [0.13.2.7] Old Version: [0.13.2.6]
+[2023-04-17 14:35:12] INFO root fetch - processPackages [fractal-tokens]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-04-17 14:35:12] INFO root fetch - processPackages [wildlife-datasets]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-17 14:35:12] INFO root fetch - processPackages [huscy.projects]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-04-17 14:35:12] INFO root fetch - processPackages [simple-parquet-viewer]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-17 14:35:12] INFO root fetch - processPackages [fmrib-unpack]: New version: [3.7.0] Old Version: [3.6.0]
+[2023-04-17 14:35:12] INFO root fetch - processPackages [tabledetect]: Downloading https://files.pythonhosted.org/packages/42/69/a252d830d0ff33b2a9056c4e3625b031d5c7f1648e5222b7dae3ef8601b8/tabledetect-0.2.0.tar.gz
+[2023-04-17 14:35:12] INFO root fetch - processPackages [dipex]: New version: [4.9.2] Old Version: [4.9.1]
+[2023-04-17 14:35:12] INFO root fetch - processPackages [types-keyboard]: Downloading https://files.pythonhosted.org/packages/64/dc/a3fc919e96368909e0819f30c044f9691f6c91e61dd1e87b21d6c8b53c18/types-keyboard-0.13.2.6.tar.gz
+[2023-04-17 14:35:12] INFO root fetch - processPackages [simple-parquet-viewer]: Downloading https://files.pythonhosted.org/packages/a4/ed/35bb243f49ceaf61673a4d4a596b0c6c10dd0a5e862043be8f947a09d941/simple_parquet_viewer-0.9.0.tar.gz
+[2023-04-17 14:35:12] INFO root fetch - processPackages [fractal-tokens]: Downloading https://files.pythonhosted.org/packages/39/ae/e91cffa44859bb7dda8b78ce29a29a8cc6a026d4d47a74d6ce2dc059abec/fractal-tokens-1.1.1.tar.gz
+[2023-04-17 14:35:12] INFO root fetch - processPackages [huscy.projects]: Downloading https://files.pythonhosted.org/packages/10/57/ad56119bbd3a2fec8f1fc972fd345cdc2806fe36ebacc2f035c28bc00f9f/huscy.projects-1.5.0.tar.gz
+[2023-04-17 14:35:12] INFO root fetch - processPackages [fmrib-unpack]: Downloading https://files.pythonhosted.org/packages/eb/61/b9e61a6dc4639be52e43f0642192f2282102b4c8bfa5e6d93011e2c01038/fmrib-unpack-3.6.0.tar.gz
+[2023-04-17 14:35:12] INFO root fetch - processPackages [wildlife-datasets]: Downloading https://files.pythonhosted.org/packages/0c/8c/b8e41ed1c0ee17e569421c152d63994ff16fed32d9e044431ef5fdf19fab/wildlife-datasets-0.3.0.tar.gz
+[2023-04-17 14:35:12] INFO root fetch - processPackages [dipex]: executing diffoscope
+[2023-04-17 14:35:12] INFO root fetch - processPackages [dipex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dipex-4.9.1.tar.gz tmp/dipex-4.9.2.tar.gz --markdown 20230417/d/dipex/4.9.1-4.9.2/diff.md --exclude *.pyd
+[2023-04-17 14:35:12] INFO root fetch - processPackages [types-Pillow]: Downloading https://files.pythonhosted.org/packages/73/5d/2e8e7ddd467332a4fe910c877ecec394f5635320848aea92fc626ee56905/types-Pillow-9.5.0.1.tar.gz
+[2023-04-17 14:35:12] INFO root fetch - processPackages [tabledetect]: executing diffoscope
+[2023-04-17 14:35:12] INFO root fetch - processPackages [tabledetect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tabledetect-0.1.5.tar.gz tmp/tabledetect-0.2.0.tar.gz --markdown 20230417/t/tabledetect/0.1.5-0.2.0/diff.md --exclude *.pyd
+[2023-04-17 14:35:12] INFO root fetch - processPackages [fractal-tokens]: Downloading https://files.pythonhosted.org/packages/d3/92/1ba376ec4fe192a72f08b69ed94b493e515815663cae82b6464dd1bc9515/fractal-tokens-1.2.0.tar.gz
+[2023-04-17 14:35:12] INFO root fetch - processPackages [types-keyboard]: Downloading https://files.pythonhosted.org/packages/a7/8b/89a6c48263a164633e8982119235c8531a585ef759c80cd746bbf97ceaf8/types-keyboard-0.13.2.7.tar.gz
+[2023-04-17 14:35:12] INFO root fetch - processPackages [huscy.projects]: Downloading https://files.pythonhosted.org/packages/3e/14/49312539198d11bfae9fd03cdd740e6d32d5d5ea433be71bd9de879c0c85/huscy.projects-1.5.1.tar.gz
+[2023-04-17 14:35:12] INFO root fetch - processPackages [wildlife-datasets]: Downloading https://files.pythonhosted.org/packages/00/4b/ff81ed0b0c47ce0f62596064b7a619c6a085fa75dafb12aca347985155f9/wildlife-datasets-0.3.1.tar.gz
+[2023-04-17 14:35:12] INFO root fetch - processPackages [types-Pillow]: executing diffoscope
+[2023-04-17 14:35:12] INFO root fetch - processPackages [types-Pillow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-Pillow-9.5.0.0.tar.gz tmp/types-Pillow-9.5.0.1.tar.gz --markdown 20230417/t/types-Pillow/9.5.0.0-9.5.0.1/diff.md --exclude *.pyd
+[2023-04-17 14:35:12] INFO root fetch - processPackages [fmrib-unpack]: Downloading https://files.pythonhosted.org/packages/4b/fa/2ccff52c5255d89f5d28c2095af363e65bd0a91d9e5df6d4eebf302b6b87/fmrib-unpack-3.7.0.tar.gz
+[2023-04-17 14:35:12] INFO root fetch - processPackages [simple-parquet-viewer]: Downloading https://files.pythonhosted.org/packages/35/e5/8ca829f932bff664515fb6070fba5ad22c4321849d3e788be1fc6d89686e/simple_parquet_viewer-0.9.1.tar.gz
+[2023-04-17 14:35:12] INFO root fetch - processPackages [fractal-tokens]: executing diffoscope
+[2023-04-17 14:35:12] INFO root fetch - processPackages [fractal-tokens]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fractal-tokens-1.1.1.tar.gz tmp/fractal-tokens-1.2.0.tar.gz --markdown 20230417/f/fractal-tokens/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-04-17 14:35:12] INFO root fetch - processPackages [huscy.projects]: executing diffoscope
+[2023-04-17 14:35:12] INFO root fetch - processPackages [huscy.projects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huscy.projects-1.5.0.tar.gz tmp/huscy.projects-1.5.1.tar.gz --markdown 20230417/h/huscy.projects/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-04-17 14:35:13] INFO root fetch - processPackages [types-keyboard]: executing diffoscope
+[2023-04-17 14:35:13] INFO root fetch - processPackages [types-keyboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-keyboard-0.13.2.6.tar.gz tmp/types-keyboard-0.13.2.7.tar.gz --markdown 20230417/t/types-keyboard/0.13.2.6-0.13.2.7/diff.md --exclude *.pyd
+[2023-04-17 14:35:13] INFO root fetch - processPackages [wildlife-datasets]: executing diffoscope
+[2023-04-17 14:35:13] INFO root fetch - processPackages [wildlife-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wildlife-datasets-0.3.0.tar.gz tmp/wildlife-datasets-0.3.1.tar.gz --markdown 20230417/w/wildlife-datasets/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-17 14:35:13] INFO root fetch - processPackages [simple-parquet-viewer]: executing diffoscope
+[2023-04-17 14:35:13] INFO root fetch - processPackages [simple-parquet-viewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_parquet_viewer-0.9.0.tar.gz tmp/simple_parquet_viewer-0.9.1.tar.gz --markdown 20230417/s/simple-parquet-viewer/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-17 14:35:13] INFO root fetch - processPackages [fmrib-unpack]: executing diffoscope
+[2023-04-17 14:35:13] INFO root fetch - processPackages [fmrib-unpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fmrib-unpack-3.6.0.tar.gz tmp/fmrib-unpack-3.7.0.tar.gz --markdown 20230417/f/fmrib-unpack/3.6.0-3.7.0/diff.md --exclude *.pyd
+[2023-04-17 14:35:14] INFO root fetch - processPackages [tabledetect]: Start processing: optimum
+[2023-04-17 14:35:14] INFO root fetch - main [MainThread]: End processing [tabledetect]: success
+[2023-04-17 14:35:14] INFO root fetch - processPackages [optimum]: New version: [1.8.0] Old Version: [1.7.3]
+[2023-04-17 14:35:14] INFO root fetch - processPackages [optimum]: executing diffoscope
+[2023-04-17 14:35:14] INFO root fetch - processPackages [optimum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optimum-1.7.3.tar.gz tmp/optimum-1.8.0.tar.gz --markdown 20230417/o/optimum/1.7.3-1.8.0/diff.md --exclude *.pyd
+[2023-04-17 14:35:14] INFO root fetch - main [MainThread]: End processing [types-keyboard]: success
+[2023-04-17 14:35:14] INFO root fetch - main [MainThread]: End processing [huscy.projects]: success
+[2023-04-17 14:35:14] INFO root fetch - main [MainThread]: End processing [wildlife-datasets]: success
+[2023-04-17 14:35:14] INFO root fetch - main [MainThread]: End processing [simple-parquet-viewer]: success
+[2023-04-17 14:35:15] INFO root fetch - main [MainThread]: End processing [fractal-tokens]: success
+[2023-04-17 14:35:15] INFO root fetch - main [MainThread]: End processing [types-Pillow]: success
+[2023-04-17 14:35:16] INFO root fetch - main [MainThread]: End processing [optimum]: success
+[2023-04-17 14:35:17] INFO root fetch - main [MainThread]: End processing [dipex]: success
+[2023-04-17 14:35:17] INFO root fetch - main [MainThread]: End processing [safe-eth-py]: success
+[2023-04-17 14:37:01] INFO root fetch - main [MainThread]: End processing [fmrib-unpack]: success
+[2023-04-17 14:37:01] INFO root fetch - main [MainThread]: Store serial: [17738059]
