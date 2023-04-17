@@ -17957,3 +17957,152 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 18:28:05] INFO root fetch - main [MainThread]: End processing [snaptrade-python-sdk]: success
 [2023-04-17 18:28:20] INFO root fetch - main [MainThread]: End processing [polars-u64-idx]: success
 [2023-04-17 18:28:20] INFO root fetch - main [MainThread]: Store serial: [17741316]
+[2023-04-17 18:33:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17741316]
+[2023-04-17 18:33:29] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-04-17 18:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: agnmol
+[2023-04-17 18:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: home-assistant-intents
+[2023-04-17 18:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: amazon-textract-idp-cdk-constructs
+[2023-04-17 18:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: me-vs-mywife
+[2023-04-17 18:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lnschema_bionty
+[2023-04-17 18:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: polars
+[2023-04-17 18:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ptflops
+[2023-04-17 18:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: libertem-asi-tpx3
+[2023-04-17 18:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: weatherly
+[2023-04-17 18:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: agnmol
+[2023-04-17 18:33:29] INFO root fetch - processPackages [polars]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-17 18:33:29] INFO root fetch - processPackages [agnmol]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-04-17 18:33:29] INFO root fetch - processPackages [agnmol]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-04-17 18:33:29] WARNING root fetch - processPackages [me-vs-mywife]: Skipping, unable to determine old version
+[2023-04-17 18:33:29] INFO root fetch - processPackages [me-vs-mywife]: Start processing: libertem-dectris
+[2023-04-17 18:33:29] INFO root fetch - main [MainThread]: End processing [me-vs-mywife] error
+[2023-04-17 18:33:29] INFO root fetch - processPackages [ptflops]: New version: [0.7] Old Version: [0.6.9]
+[2023-04-17 18:33:29] INFO root fetch - processPackages [lnschema_bionty]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-04-17 18:33:29] INFO root fetch - processPackages [amazon-textract-idp-cdk-constructs]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 18:33:29] INFO root fetch - processPackages [libertem-asi-tpx3]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-04-17 18:33:29] INFO root fetch - processPackages [home-assistant-intents]: New version: [2023.4.17.post1] Old Version: [2023.4.17]
+[2023-04-17 18:33:29] WARNING root fetch - processPackages [weatherly]: Skipping, unable to determine old version
+[2023-04-17 18:33:29] INFO root fetch - processPackages [weatherly]: Start processing: asyncdb
+[2023-04-17 18:33:29] INFO root fetch - main [MainThread]: End processing [weatherly] error
+[2023-04-17 18:33:29] INFO root fetch - processPackages [libertem-dectris]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-04-17 18:33:29] INFO root fetch - processPackages [agnmol]: Downloading https://files.pythonhosted.org/packages/7d/e4/ef4175aaa219edfcfca8fb718b70f6c332ad075239be28a60614843ea3b8/agnmol-1.0.6.tar.gz
+[2023-04-17 18:33:29] INFO root fetch - processPackages [asyncdb]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-04-17 18:33:29] INFO root fetch - processPackages [agnmol]: Downloading https://files.pythonhosted.org/packages/7d/e4/ef4175aaa219edfcfca8fb718b70f6c332ad075239be28a60614843ea3b8/agnmol-1.0.6.tar.gz
+[2023-04-17 18:33:29] INFO root fetch - processPackages [ptflops]: Downloading https://files.pythonhosted.org/packages/d5/16/b6992b799d14bdc7a78fbfff8825777dd92728ed761090852c43f4792ce1/ptflops-0.6.9.tar.gz
+[2023-04-17 18:33:29] INFO root fetch - processPackages [amazon-textract-idp-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/39/f3/d4f702ac711deb309800f2f040e57ade042b374750e8d8439c4bcf8324f0/amazon-textract-idp-cdk-constructs-0.0.8.tar.gz
+[2023-04-17 18:33:29] INFO root fetch - processPackages [libertem-asi-tpx3]: Downloading https://files.pythonhosted.org/packages/9d/05/4b6f341b0d19b92b7916e2f68304f256671a4521457f570a6fe405d16307/libertem_asi_tpx3-0.2.7.tar.gz
+[2023-04-17 18:33:29] INFO root fetch - processPackages [lnschema_bionty]: Downloading https://files.pythonhosted.org/packages/12/bb/32a1cbaa73ee4f038a3540bbbf0b3d7e27f22edcdbd7d7c80667fef68afd/lnschema_bionty-0.8.1.tar.gz
+[2023-04-17 18:33:29] INFO root fetch - processPackages [polars]: executing diffoscope
+[2023-04-17 18:33:29] INFO root fetch - processPackages [polars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars-0.9.8.tar.gz tmp/polars-0.9.9.tar.gz --markdown 20230417/p/polars/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-17 18:33:29] INFO root fetch - processPackages [libertem-dectris]: Downloading https://files.pythonhosted.org/packages/e0/d6/74ced877b16081553db1041cc69eeb6fcd8f0dc396bc373ac93876b03cdb/libertem_dectris-0.2.7.tar.gz
+[2023-04-17 18:33:29] INFO root fetch - processPackages [home-assistant-intents]: Downloading https://files.pythonhosted.org/packages/0e/d1/5460ef5341decbe90a9075794f17e4999e13ab961f23c029275909d996b0/home-assistant-intents-2023.4.17.post1.tar.gz
+[2023-04-17 18:33:29] INFO root fetch - processPackages [asyncdb]: Downloading https://files.pythonhosted.org/packages/4d/d2/db307a57827ae3ea9368c010563ce07f14311752fdfbc1a67047d34eb6c3/asyncdb-2.2.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-17 18:33:29] INFO root fetch - processPackages [agnmol]: Downloading https://files.pythonhosted.org/packages/24/7e/43e5df18f17f15f23f4562ccf53cafcd85fa81bc495fcdb2889169f57bff/agnmol-1.0.7.tar.gz
+[2023-04-17 18:33:29] INFO root fetch - processPackages [libertem-asi-tpx3]: Downloading https://files.pythonhosted.org/packages/7f/aa/79503bd04c71b72bff274da6313ce46a9a188c97a2e577c1ad34b9fa98b4/libertem_asi_tpx3-0.2.8.tar.gz
+[2023-04-17 18:33:29] INFO root fetch - processPackages [agnmol]: Downloading https://files.pythonhosted.org/packages/24/7e/43e5df18f17f15f23f4562ccf53cafcd85fa81bc495fcdb2889169f57bff/agnmol-1.0.7.tar.gz
+[2023-04-17 18:33:29] INFO root fetch - processPackages [ptflops]: Downloading https://files.pythonhosted.org/packages/cb/68/91ba13c2a3caa83fee9da90512ad16fa97b7032ac39141e2747eb381e9b4/ptflops-0.7.tar.gz
+[2023-04-17 18:33:29] INFO root fetch - processPackages [home-assistant-intents]: executing diffoscope
+[2023-04-17 18:33:29] INFO root fetch - processPackages [home-assistant-intents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/home-assistant-intents-2023.4.17.tar.gz tmp/home-assistant-intents-2023.4.17.post1.tar.gz --markdown 20230417/h/home-assistant-intents/2023.4.17-2023.4.17.post1/diff.md --exclude *.pyd
+[2023-04-17 18:33:29] INFO root fetch - processPackages [agnmol]: executing diffoscope
+[2023-04-17 18:33:29] INFO root fetch - processPackages [agnmol]: executing diffoscope
+[2023-04-17 18:33:29] INFO root fetch - processPackages [libertem-asi-tpx3]: executing diffoscope
+[2023-04-17 18:33:29] INFO root fetch - processPackages [agnmol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agnmol-1.0.6.tar.gz tmp/agnmol-1.0.7.tar.gz --markdown 20230417/a/agnmol/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-04-17 18:33:29] INFO root fetch - processPackages [agnmol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agnmol-1.0.6.tar.gz tmp/agnmol-1.0.7.tar.gz --markdown 20230417/a/agnmol/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-04-17 18:33:29] INFO root fetch - processPackages [libertem-asi-tpx3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libertem_asi_tpx3-0.2.7.tar.gz tmp/libertem_asi_tpx3-0.2.8.tar.gz --markdown 20230417/l/libertem-asi-tpx3/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-04-17 18:33:29] INFO root fetch - processPackages [ptflops]: executing diffoscope
+[2023-04-17 18:33:29] INFO root fetch - processPackages [ptflops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ptflops-0.6.9.tar.gz tmp/ptflops-0.7.tar.gz --markdown 20230417/p/ptflops/0.6.9-0.7/diff.md --exclude *.pyd
+[2023-04-17 18:33:29] INFO root fetch - processPackages [lnschema_bionty]: Downloading https://files.pythonhosted.org/packages/ed/64/d2babdba858b56f5825e7ac3e2d375cf42dcf278f3c6ad9daf179e40b556/lnschema_bionty-0.9.0.tar.gz
+[2023-04-17 18:33:30] INFO root fetch - processPackages [libertem-dectris]: Downloading https://files.pythonhosted.org/packages/22/b5/f4c35049f24e10bd8c562bbcfd720d4344992202f1fe5a04fa3c772165ee/libertem_dectris-0.2.8.tar.gz
+[2023-04-17 18:33:30] INFO root fetch - processPackages [lnschema_bionty]: executing diffoscope
+[2023-04-17 18:33:30] INFO root fetch - processPackages [lnschema_bionty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnschema_bionty-0.8.1.tar.gz tmp/lnschema_bionty-0.9.0.tar.gz --markdown 20230417/l/lnschema_bionty/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-04-17 18:33:30] INFO root fetch - processPackages [asyncdb]: Downloading https://files.pythonhosted.org/packages/39/b8/deb66295da3a49d7305810f8a13f5b917540be4441b4635a54af270a963b/asyncdb-2.2.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-17 18:33:30] INFO root fetch - processPackages [asyncdb]: executing diffoscope
+[2023-04-17 18:33:30] INFO root fetch - processPackages [asyncdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asyncdb-2.2.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/asyncdb-2.2.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230417/a/asyncdb/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-04-17 18:33:30] INFO root fetch - processPackages [amazon-textract-idp-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/1f/b7/52ee38e3959d7f8eaa3f678d4682625ee16d35d87f0ef506883c7655a6f3/amazon-textract-idp-cdk-constructs-0.0.9.tar.gz
+[2023-04-17 18:33:30] INFO root fetch - processPackages [libertem-dectris]: executing diffoscope
+[2023-04-17 18:33:30] INFO root fetch - processPackages [libertem-dectris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libertem_dectris-0.2.7.tar.gz tmp/libertem_dectris-0.2.8.tar.gz --markdown 20230417/l/libertem-dectris/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-04-17 18:33:31] INFO root fetch - processPackages [amazon-textract-idp-cdk-constructs]: executing diffoscope
+[2023-04-17 18:33:31] INFO root fetch - processPackages [amazon-textract-idp-cdk-constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon-textract-idp-cdk-constructs-0.0.8.tar.gz tmp/amazon-textract-idp-cdk-constructs-0.0.9.tar.gz --markdown 20230417/a/amazon-textract-idp-cdk-constructs/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 18:33:31] INFO root fetch - processPackages [agnmol]: Start processing: polars-lts-cpu
+[2023-04-17 18:33:31] INFO root fetch - main [MainThread]: End processing [agnmol]: success
+[2023-04-17 18:33:31] INFO root fetch - processPackages [agnmol]: Start processing: zhcode
+[2023-04-17 18:33:31] INFO root fetch - main [MainThread]: End processing [agnmol]: success
+[2023-04-17 18:33:31] INFO root fetch - processPackages [polars-lts-cpu]: New version: [0.17.4] Old Version: [0.17.3]
+[2023-04-17 18:33:31] INFO root fetch - processPackages [zhcode]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-17 18:33:31] INFO root fetch - processPackages [polars-lts-cpu]: executing diffoscope
+[2023-04-17 18:33:31] INFO root fetch - processPackages [polars-lts-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars_lts_cpu-0.17.3.tar.gz tmp/polars_lts_cpu-0.17.4.tar.gz --markdown 20230417/p/polars-lts-cpu/0.17.3-0.17.4/diff.md --exclude *.pyd
+[2023-04-17 18:33:31] INFO root fetch - processPackages [zhcode]: executing diffoscope
+[2023-04-17 18:33:31] INFO root fetch - processPackages [zhcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhcode-0.0.2.tar.gz tmp/zhcode-0.0.3.tar.gz --markdown 20230417/z/zhcode/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-17 18:33:31] INFO root fetch - processPackages [lnschema_bionty]: Start processing: mb-pytorch
+[2023-04-17 18:33:31] INFO root fetch - main [MainThread]: End processing [lnschema_bionty]: success
+[2023-04-17 18:33:31] INFO root fetch - processPackages [mb-pytorch]: New version: [1.0.202304171558] Old Version: [1.0.202304170428]
+[2023-04-17 18:33:31] INFO root fetch - processPackages [home-assistant-intents]: Start processing: chartart
+[2023-04-17 18:33:31] INFO root fetch - main [MainThread]: End processing [home-assistant-intents]: success
+[2023-04-17 18:33:31] INFO root fetch - processPackages [ptflops]: Start processing: beaker-gantry
+[2023-04-17 18:33:31] INFO root fetch - main [MainThread]: End processing [ptflops]: success
+[2023-04-17 18:33:31] INFO root fetch - processPackages [chartart]: New version: [0.0.3.dev13] Old Version: [0.0.3.dev12]
+[2023-04-17 18:33:31] INFO root fetch - processPackages [beaker-gantry]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-04-17 18:33:31] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/ea/8a/cecc7710613e4b0dbbe29f63f1022e32e014075b7c461c84cb04e66d298b/mb_pytorch-1.0.202304171558-py3-none-any.whl
+[2023-04-17 18:33:31] INFO root fetch - processPackages [beaker-gantry]: Downloading https://files.pythonhosted.org/packages/2c/2e/e4a69215b05a72bda79c6c66250cacbe2e4b10c5e7f917671acea4b1c38a/beaker-gantry-0.9.3.tar.gz
+[2023-04-17 18:33:32] INFO root fetch - processPackages [mb-pytorch]: executing diffoscope
+[2023-04-17 18:33:32] INFO root fetch - processPackages [mb-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_pytorch-1.0.202304170428-py3-none-any.whl.zip tmp/mb_pytorch-1.0.202304171558-py3-none-any.whl.zip --markdown 20230417/m/mb-pytorch/1.0.202304170428-1.0.202304171558/diff.md --exclude *.pyd
+[2023-04-17 18:33:32] INFO root fetch - processPackages [chartart]: Downloading https://files.pythonhosted.org/packages/b7/f5/e270644cff855727cfd514f9d8bad4489902101300d3f2b17c19fa8008dc/chartart-0.0.3.dev12.tar.gz
+[2023-04-17 18:33:32] INFO root fetch - processPackages [libertem-asi-tpx3]: Start processing: redb-odm
+[2023-04-17 18:33:32] INFO root fetch - main [MainThread]: End processing [libertem-asi-tpx3]: success
+[2023-04-17 18:33:32] INFO root fetch - processPackages [redb-odm]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-04-17 18:33:32] INFO root fetch - processPackages [beaker-gantry]: Downloading https://files.pythonhosted.org/packages/98/d4/73220f62818889dca63f9eccf13dad524c84f95f34a1a50b4198270a0cdc/beaker-gantry-0.9.4.tar.gz
+[2023-04-17 18:33:32] INFO root fetch - processPackages [chartart]: Downloading https://files.pythonhosted.org/packages/60/9e/696fa3f8c83c7751d5ac1c48f645825e59849e112673a8f31ebaa9e91e98/chartart-0.0.3.dev13.tar.gz
+[2023-04-17 18:33:32] INFO root fetch - processPackages [redb-odm]: Downloading https://files.pythonhosted.org/packages/ab/b6/5c54fff48a2b7f81ffa74f2b07f891d0281cdaf86d1ba20d05b3795d0f1a/redb-odm-1.1.6.tar.gz
+[2023-04-17 18:33:32] INFO root fetch - processPackages [beaker-gantry]: executing diffoscope
+[2023-04-17 18:33:32] INFO root fetch - processPackages [beaker-gantry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beaker-gantry-0.9.3.tar.gz tmp/beaker-gantry-0.9.4.tar.gz --markdown 20230417/b/beaker-gantry/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-04-17 18:33:32] INFO root fetch - processPackages [chartart]: executing diffoscope
+[2023-04-17 18:33:32] INFO root fetch - processPackages [chartart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chartart-0.0.3.dev12.tar.gz tmp/chartart-0.0.3.dev13.tar.gz --markdown 20230417/c/chartart/0.0.3.dev12-0.0.3.dev13/diff.md --exclude *.pyd
+[2023-04-17 18:33:32] INFO root fetch - processPackages [zhcode]: Start processing: TarkovCharacterAndLeaderboardTool
+[2023-04-17 18:33:32] INFO root fetch - main [MainThread]: End processing [zhcode]: success
+[2023-04-17 18:33:32] WARNING root fetch - processPackages [TarkovCharacterAndLeaderboardTool]: Skipping, unable to determine old version
+[2023-04-17 18:33:32] INFO root fetch - processPackages [TarkovCharacterAndLeaderboardTool]: Start processing: beaker-gantry
+[2023-04-17 18:33:32] INFO root fetch - main [MainThread]: End processing [TarkovCharacterAndLeaderboardTool] error
+[2023-04-17 18:33:32] INFO root fetch - processPackages [redb-odm]: Downloading https://files.pythonhosted.org/packages/ad/3b/6978225532775bd5dafe63945a2abcca842594633a3f16f77ba4207a9044/redb-odm-1.1.7.tar.gz
+[2023-04-17 18:33:32] INFO root fetch - processPackages [beaker-gantry]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-04-17 18:33:32] INFO root fetch - processPackages [beaker-gantry]: executing diffoscope
+[2023-04-17 18:33:32] INFO root fetch - processPackages [beaker-gantry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beaker-gantry-0.9.3.tar.gz tmp/beaker-gantry-0.9.4.tar.gz --markdown 20230417/b/beaker-gantry/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-04-17 18:33:32] INFO root fetch - processPackages [redb-odm]: executing diffoscope
+[2023-04-17 18:33:32] INFO root fetch - processPackages [redb-odm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redb-odm-1.1.6.tar.gz tmp/redb-odm-1.1.7.tar.gz --markdown 20230417/r/redb-odm/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2023-04-17 18:33:33] INFO root fetch - processPackages [mb-pytorch]: Start processing: agnmol
+[2023-04-17 18:33:33] INFO root fetch - main [MainThread]: End processing [mb-pytorch]: success
+[2023-04-17 18:33:33] INFO root fetch - processPackages [agnmol]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-04-17 18:33:33] INFO root fetch - processPackages [agnmol]: executing diffoscope
+[2023-04-17 18:33:33] INFO root fetch - processPackages [agnmol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agnmol-1.0.6.tar.gz tmp/agnmol-1.0.7.tar.gz --markdown 20230417/a/agnmol/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-04-17 18:33:33] INFO root fetch - processPackages [beaker-gantry]: Start processing: discovery-transition-ds
+[2023-04-17 18:33:33] INFO root fetch - main [MainThread]: End processing [beaker-gantry]: success
+[2023-04-17 18:33:33] INFO root fetch - processPackages [chartart]: Start processing: spiff-element-units
+[2023-04-17 18:33:33] INFO root fetch - main [MainThread]: End processing [chartart]: success
+[2023-04-17 18:33:33] INFO root fetch - processPackages [discovery-transition-ds]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-04-17 18:33:33] WARNING root fetch - processPackages [spiff-element-units]: Skipping, unable to determine old version
+[2023-04-17 18:33:33] INFO root fetch - processPackages [spiff-element-units]: Start processing: py-build-cmake
+[2023-04-17 18:33:33] INFO root fetch - main [MainThread]: End processing [spiff-element-units] error
+[2023-04-17 18:33:34] INFO root fetch - processPackages [py-build-cmake]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-04-17 18:33:34] INFO root fetch - processPackages [discovery-transition-ds]: Downloading https://files.pythonhosted.org/packages/cc/ca/dd90c3d50a2ad721c7d5c68f5fd4ee0e6e77dc44837a32cecf9e80f276da/discovery-transition-ds-4.9.8.tar.gz
+[2023-04-17 18:33:34] INFO root fetch - processPackages [redb-odm]: Start processing: griffon
+[2023-04-17 18:33:34] INFO root fetch - main [MainThread]: End processing [redb-odm]: success
+[2023-04-17 18:33:34] INFO root fetch - processPackages [griffon]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-17 18:33:34] INFO root fetch - main [MainThread]: End processing [beaker-gantry]: success
+[2023-04-17 18:33:34] INFO root fetch - processPackages [py-build-cmake]: Downloading https://files.pythonhosted.org/packages/eb/64/d3f17afa94c79a49b8bebe95b4bab6f983a0071b603ce6752afea4c2547d/py-build-cmake-0.1.8.tar.gz
+[2023-04-17 18:33:34] INFO root fetch - processPackages [griffon]: Downloading https://files.pythonhosted.org/packages/c8/c4/c6f94dfcb710178b29d7c7e4ef3c728359e0c45e66c75298a5e17ec63ba8/griffon-0.1.8.tar.gz
+[2023-04-17 18:33:34] INFO root fetch - processPackages [py-build-cmake]: executing diffoscope
+[2023-04-17 18:33:34] INFO root fetch - processPackages [py-build-cmake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-build-cmake-0.1.7.tar.gz tmp/py-build-cmake-0.1.8.tar.gz --markdown 20230417/p/py-build-cmake/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-04-17 18:33:34] INFO root fetch - main [MainThread]: End processing [agnmol]: success
+[2023-04-17 18:33:34] INFO root fetch - processPackages [griffon]: Downloading https://files.pythonhosted.org/packages/23/dd/c076acb3cff7bd03ce910d70419c262f1825bfa0ce32c3d4b7d44996ecc2/griffon-0.1.9.tar.gz
+[2023-04-17 18:33:34] INFO root fetch - main [MainThread]: End processing [asyncdb]: success
+[2023-04-17 18:33:34] INFO root fetch - processPackages [griffon]: executing diffoscope
+[2023-04-17 18:33:34] INFO root fetch - processPackages [griffon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/griffon-0.1.8.tar.gz tmp/griffon-0.1.9.tar.gz --markdown 20230417/g/griffon/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-17 18:33:35] INFO root fetch - processPackages [discovery-transition-ds]: Downloading https://files.pythonhosted.org/packages/ec/52/fe97bc1465aa4a0bde7a751272ca25b751fd275a83e912c56ca6a544332e/discovery-transition-ds-4.9.9.tar.gz
+[2023-04-17 18:33:35] INFO root fetch - main [MainThread]: End processing [py-build-cmake]: success
+[2023-04-17 18:33:36] INFO root fetch - processPackages [discovery-transition-ds]: executing diffoscope
+[2023-04-17 18:33:36] INFO root fetch - processPackages [discovery-transition-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discovery-transition-ds-4.9.8.tar.gz tmp/discovery-transition-ds-4.9.9.tar.gz --markdown 20230417/d/discovery-transition-ds/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-04-17 18:33:36] INFO root fetch - main [MainThread]: End processing [griffon]: success
+[2023-04-17 18:33:37] INFO root fetch - main [MainThread]: End processing [polars]: success
+[2023-04-17 18:33:38] INFO root fetch - main [MainThread]: End processing [amazon-textract-idp-cdk-constructs]: success
+[2023-04-17 18:33:39] INFO root fetch - main [MainThread]: End processing [discovery-transition-ds]: success
+[2023-04-17 18:33:40] INFO root fetch - main [MainThread]: End processing [libertem-dectris]: success
+[2023-04-17 18:33:47] INFO root fetch - main [MainThread]: End processing [polars-lts-cpu]: success
+[2023-04-17 18:33:47] INFO root fetch - main [MainThread]: Store serial: [17741418]
