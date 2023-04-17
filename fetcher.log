@@ -14514,3 +14514,102 @@ EOFError: EOF read where object expected
 [2023-04-17 16:01:16] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-fiscal]: success
 [2023-04-17 16:01:19] INFO root fetch - main [MainThread]: End processing [ccxt]: success
 [2023-04-17 16:01:19] INFO root fetch - main [MainThread]: Store serial: [17739281]
+[2023-04-17 16:06:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17739281]
+[2023-04-17 16:06:28] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-04-17 16:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PlexTraktSync
+[2023-04-17 16:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lupin-danquin
+[2023-04-17 16:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edwh-server-provisioning-plugin
+[2023-04-17 16:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dbt-athena-community
+[2023-04-17 16:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: anyon
+[2023-04-17 16:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: abch-tree-sitter-solidity
+[2023-04-17 16:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: localcosmos-server
+[2023-04-17 16:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: slurm-mongo
+[2023-04-17 16:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cmip-metric
+[2023-04-17 16:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: alfred-py
+[2023-04-17 16:06:28] INFO root fetch - processPackages [slurm-mongo]: New version: [1.0.2] Old Version: [0.1]
+[2023-04-17 16:06:28] INFO root fetch - processPackages [edwh-server-provisioning-plugin]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-17 16:06:28] INFO root fetch - processPackages [lupin-danquin]: New version: [1.0.2.dev2] Old Version: [1.0.2.dev1]
+[2023-04-17 16:06:28] INFO root fetch - processPackages [anyon]: New version: [3.1.16] Old Version: [3.1.15]
+[2023-04-17 16:06:28] WARNING root fetch - processPackages [abch-tree-sitter-solidity]: Skipping, unable to determine old version
+[2023-04-17 16:06:28] INFO root fetch - processPackages [abch-tree-sitter-solidity]: Start processing: testdontdownloadthis
+[2023-04-17 16:06:28] INFO root fetch - main [MainThread]: End processing [abch-tree-sitter-solidity] error
+[2023-04-17 16:06:28] WARNING root fetch - processPackages [cmip-metric]: Skipping, unable to determine old version
+[2023-04-17 16:06:28] INFO root fetch - processPackages [slurm-mongo]: executing diffoscope
+[2023-04-17 16:06:28] INFO root fetch - processPackages [cmip-metric]: Start processing: markdown-exec
+[2023-04-17 16:06:28] INFO root fetch - processPackages [slurm-mongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slurm_mongo-0.1.tar.gz tmp/slurm_mongo-1.0.2.tar.gz --markdown 20230417/s/slurm-mongo/0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-17 16:06:28] INFO root fetch - main [MainThread]: End processing [cmip-metric] error
+[2023-04-17 16:06:28] INFO root fetch - processPackages [dbt-athena-community]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-04-17 16:06:28] INFO root fetch - processPackages [localcosmos-server]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-04-17 16:06:28] INFO root fetch - processPackages [PlexTraktSync]: New version: [0.26.1] Old Version: [0.26.0]
+[2023-04-17 16:06:28] INFO root fetch - processPackages [alfred-py]: New version: [3.0.7] Old Version: [3.0.6]
+[2023-04-17 16:06:28] INFO root fetch - processPackages [markdown-exec]: New version: [1.5.0] Old Version: [1.4.1]
+[2023-04-17 16:06:28] INFO root fetch - processPackages [edwh-server-provisioning-plugin]: Downloading https://files.pythonhosted.org/packages/26/f7/1c2fac0827fc351182a0a31ba6cc44d8e21a26f3c33d78ded61df807f25c/edwh_server_provisioning_plugin-0.1.0.tar.gz
+[2023-04-17 16:06:28] WARNING root fetch - processPackages [testdontdownloadthis]: Skipping, unable to determine old version
+[2023-04-17 16:06:28] INFO root fetch - processPackages [testdontdownloadthis]: Start processing: PlexTraktSync
+[2023-04-17 16:06:28] INFO root fetch - main [MainThread]: End processing [testdontdownloadthis] error
+[2023-04-17 16:06:28] INFO root fetch - processPackages [lupin-danquin]: Downloading https://files.pythonhosted.org/packages/fc/6f/3b786a57c1525bbcef835246705116f42dc2c13899bab0d7efc1adc96b63/lupin-danquin-1.0.2.dev2.tar.gz
+[2023-04-17 16:06:28] INFO root fetch - processPackages [PlexTraktSync]: New version: [0.26.1] Old Version: [0.26.0]
+[2023-04-17 16:06:28] INFO root fetch - processPackages [PlexTraktSync]: Downloading https://files.pythonhosted.org/packages/48/49/b013d96032afc798c4060fea15c16d4483062cfb0f851abe72ff5e7a1938/PlexTraktSync-0.26.0.tar.gz
+[2023-04-17 16:06:28] INFO root fetch - processPackages [PlexTraktSync]: Downloading https://files.pythonhosted.org/packages/48/49/b013d96032afc798c4060fea15c16d4483062cfb0f851abe72ff5e7a1938/PlexTraktSync-0.26.0.tar.gz
+[2023-04-17 16:06:29] INFO root fetch - processPackages [localcosmos-server]: Downloading https://files.pythonhosted.org/packages/61/00/ab654a56ccee649ce5ffc92e70830470f4b118aba44f5448791ded818adf/localcosmos_server-0.9.3.tar.gz
+[2023-04-17 16:06:29] INFO root fetch - processPackages [alfred-py]: Downloading https://files.pythonhosted.org/packages/fb/9e/962858f301d5f08b5cf44216c9a7504b4a129562a233ff0085cb41ae4f7c/alfred-py-3.0.6.tar.gz
+[2023-04-17 16:06:29] INFO root fetch - processPackages [dbt-athena-community]: Downloading https://files.pythonhosted.org/packages/4e/1d/ac06ca7814e77b6d6da445eccc733e3f5f312044529a500560b49cdf0cf5/dbt-athena-community-1.4.2.tar.gz
+[2023-04-17 16:06:29] INFO root fetch - processPackages [lupin-danquin]: executing diffoscope
+[2023-04-17 16:06:29] INFO root fetch - processPackages [lupin-danquin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lupin-danquin-1.0.2.dev1.tar.gz tmp/lupin-danquin-1.0.2.dev2.tar.gz --markdown 20230417/l/lupin-danquin/1.0.2.dev1-1.0.2.dev2/diff.md --exclude *.pyd
+[2023-04-17 16:06:29] INFO root fetch - processPackages [markdown-exec]: Downloading https://files.pythonhosted.org/packages/ef/12/c31eb34dd63a55c286ee1b5be3468fc250f346de8d7f36b97ace9e9348f0/markdown_exec-1.5.0.tar.gz
+[2023-04-17 16:06:29] INFO root fetch - processPackages [anyon]: executing diffoscope
+[2023-04-17 16:06:29] INFO root fetch - processPackages [anyon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyon-3.1.15-cp311-cp311-win_amd64.whl.zip tmp/anyon-3.1.16-cp311-cp311-win_amd64.whl.zip --markdown 20230417/a/anyon/3.1.15-3.1.16/diff.md --exclude *.pyd
+[2023-04-17 16:06:29] INFO root fetch - processPackages [edwh-server-provisioning-plugin]: Downloading https://files.pythonhosted.org/packages/11/5f/bde6edc3f09099e4b14e94664adeb9040858f30dea498152f29799e9e9f6/edwh_server_provisioning_plugin-0.1.1.tar.gz
+[2023-04-17 16:06:29] INFO root fetch - processPackages [dbt-athena-community]: Downloading https://files.pythonhosted.org/packages/41/7b/04a88cda03351a501d9d11cb83eb93de9198e3986bddbd6922df41b45d60/dbt-athena-community-1.4.3.tar.gz
+[2023-04-17 16:06:29] INFO root fetch - processPackages [markdown-exec]: executing diffoscope
+[2023-04-17 16:06:29] INFO root fetch - processPackages [markdown-exec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markdown_exec-1.4.1.tar.gz tmp/markdown_exec-1.5.0.tar.gz --markdown 20230417/m/markdown-exec/1.4.1-1.5.0/diff.md --exclude *.pyd
+[2023-04-17 16:06:29] INFO root fetch - processPackages [PlexTraktSync]: Downloading https://files.pythonhosted.org/packages/61/ac/37e8b8917579ba67442e300391e08a200c3852ef90e0450efc4dfc0b06b9/PlexTraktSync-0.26.1.tar.gz
+[2023-04-17 16:06:29] INFO root fetch - processPackages [PlexTraktSync]: Downloading https://files.pythonhosted.org/packages/61/ac/37e8b8917579ba67442e300391e08a200c3852ef90e0450efc4dfc0b06b9/PlexTraktSync-0.26.1.tar.gz
+[2023-04-17 16:06:29] INFO root fetch - processPackages [edwh-server-provisioning-plugin]: executing diffoscope
+[2023-04-17 16:06:29] INFO root fetch - processPackages [edwh-server-provisioning-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edwh_server_provisioning_plugin-0.1.0.tar.gz tmp/edwh_server_provisioning_plugin-0.1.1.tar.gz --markdown 20230417/e/edwh-server-provisioning-plugin/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-17 16:06:29] INFO root fetch - processPackages [dbt-athena-community]: executing diffoscope
+[2023-04-17 16:06:29] INFO root fetch - processPackages [dbt-athena-community]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-athena-community-1.4.2.tar.gz tmp/dbt-athena-community-1.4.3.tar.gz --markdown 20230417/d/dbt-athena-community/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-04-17 16:06:29] INFO root fetch - processPackages [PlexTraktSync]: executing diffoscope
+[2023-04-17 16:06:29] INFO root fetch - processPackages [PlexTraktSync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PlexTraktSync-0.26.0.tar.gz tmp/PlexTraktSync-0.26.1.tar.gz --markdown 20230417/P/PlexTraktSync/0.26.0-0.26.1/diff.md --exclude *.pyd
+[2023-04-17 16:06:29] INFO root fetch - processPackages [PlexTraktSync]: executing diffoscope
+[2023-04-17 16:06:29] INFO root fetch - processPackages [PlexTraktSync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PlexTraktSync-0.26.0.tar.gz tmp/PlexTraktSync-0.26.1.tar.gz --markdown 20230417/P/PlexTraktSync/0.26.0-0.26.1/diff.md --exclude *.pyd
+[2023-04-17 16:06:29] INFO root fetch - processPackages [alfred-py]: Downloading https://files.pythonhosted.org/packages/f5/ab/f807591e61e5aaafed1bb06d2457bca786ccd6907cdfad4eb486f92bb611/alfred-py-3.0.7.tar.gz
+[2023-04-17 16:06:29] INFO root fetch - processPackages [alfred-py]: executing diffoscope
+[2023-04-17 16:06:29] INFO root fetch - processPackages [alfred-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alfred-py-3.0.6.tar.gz tmp/alfred-py-3.0.7.tar.gz --markdown 20230417/a/alfred-py/3.0.6-3.0.7/diff.md --exclude *.pyd
+[2023-04-17 16:06:29] INFO root fetch - processPackages [slurm-mongo]: Start processing: mirrorbot
+[2023-04-17 16:06:29] INFO root fetch - main [MainThread]: End processing [slurm-mongo]: success
+[2023-04-17 16:06:30] INFO root fetch - processPackages [mirrorbot]: New version: [0.5] Old Version: [0.4]
+[2023-04-17 16:06:30] INFO root fetch - processPackages [mirrorbot]: executing diffoscope
+[2023-04-17 16:06:30] INFO root fetch - processPackages [mirrorbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mirrorbot-0.4.tar.gz tmp/mirrorbot-0.5.tar.gz --markdown 20230417/m/mirrorbot/0.4-0.5/diff.md --exclude *.pyd
+[2023-04-17 16:06:30] INFO root fetch - processPackages [anyon]: Start processing: cir4mics
+[2023-04-17 16:06:30] INFO root fetch - main [MainThread]: End processing [anyon]: success
+[2023-04-17 16:06:30] INFO root fetch - processPackages [cir4mics]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-04-17 16:06:30] INFO root fetch - processPackages [cir4mics]: Downloading https://files.pythonhosted.org/packages/bb/17/e1996a1c3c7f9b29674d59dee1fb5e139576a302be93b4745d7ef1805144/cir4mics-0.2.6.tar.gz
+[2023-04-17 16:06:30] INFO root fetch - processPackages [markdown-exec]: Start processing: jina
+[2023-04-17 16:06:30] INFO root fetch - main [MainThread]: End processing [markdown-exec]: success
+[2023-04-17 16:06:30] INFO root fetch - processPackages [jina]: New version: [3.9.3.dev9] Old Version: [3.9.3.dev8]
+[2023-04-17 16:06:30] INFO root fetch - processPackages [lupin-danquin]: Start processing: djangocms-blog-agenda
+[2023-04-17 16:06:30] INFO root fetch - main [MainThread]: End processing [lupin-danquin]: success
+[2023-04-17 16:06:30] INFO root fetch - processPackages [jina]: executing diffoscope
+[2023-04-17 16:06:30] INFO root fetch - processPackages [jina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jina-3.9.3.dev8.tar.gz tmp/jina-3.9.3.dev9.tar.gz --markdown 20230417/j/jina/3.9.3.dev8-3.9.3.dev9/diff.md --exclude *.pyd
+[2023-04-17 16:06:30] INFO root fetch - main [MainThread]: End processing [edwh-server-provisioning-plugin]: success
+[2023-04-17 16:06:30] INFO root fetch - processPackages [djangocms-blog-agenda]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-17 16:06:31] INFO root fetch - processPackages [djangocms-blog-agenda]: Downloading https://files.pythonhosted.org/packages/9b/dd/01da61106280e2df49f8bb1251d1513393d2d0fcabd452d9ee5a3da83271/djangocms-blog-agenda-0.2.1.tar.gz
+[2023-04-17 16:06:31] INFO root fetch - processPackages [djangocms-blog-agenda]: Downloading https://files.pythonhosted.org/packages/e5/2f/6191f795bfb8173fc454d42a71edf1b0a99d783bc3b31e80cd27962f98fe/djangocms-blog-agenda-0.2.2.tar.gz
+[2023-04-17 16:06:31] INFO root fetch - main [MainThread]: End processing [PlexTraktSync]: success
+[2023-04-17 16:06:31] INFO root fetch - processPackages [djangocms-blog-agenda]: executing diffoscope
+[2023-04-17 16:06:31] INFO root fetch - processPackages [djangocms-blog-agenda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangocms-blog-agenda-0.2.1.tar.gz tmp/djangocms-blog-agenda-0.2.2.tar.gz --markdown 20230417/d/djangocms-blog-agenda/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-17 16:06:31] INFO root fetch - processPackages [cir4mics]: executing diffoscope
+[2023-04-17 16:06:31] INFO root fetch - processPackages [cir4mics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cir4mics-0.2.5.tar.gz tmp/cir4mics-0.2.6.tar.gz --markdown 20230417/c/cir4mics/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-04-17 16:06:31] INFO root fetch - main [MainThread]: End processing [dbt-athena-community]: success
+[2023-04-17 16:06:31] INFO root fetch - processPackages [localcosmos-server]: Downloading https://files.pythonhosted.org/packages/5d/b5/0c97a340dd47c39e15214419963c0d28f5e1c89f1340833bc42fc71f32e2/localcosmos_server-0.9.4.tar.gz
+[2023-04-17 16:06:32] INFO root fetch - main [MainThread]: End processing [PlexTraktSync]: success
+[2023-04-17 16:06:32] INFO root fetch - main [MainThread]: End processing [djangocms-blog-agenda]: success
+[2023-04-17 16:06:32] INFO root fetch - main [MainThread]: End processing [mirrorbot]: success
+[2023-04-17 16:06:32] INFO root fetch - main [MainThread]: End processing [jina]: success
+[2023-04-17 16:06:33] INFO root fetch - main [MainThread]: End processing [cir4mics]: success
+[2023-04-17 16:06:34] INFO root fetch - processPackages [localcosmos-server]: executing diffoscope
+[2023-04-17 16:06:34] INFO root fetch - processPackages [localcosmos-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localcosmos_server-0.9.3.tar.gz tmp/localcosmos_server-0.9.4.tar.gz --markdown 20230417/l/localcosmos-server/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-04-17 16:06:37] INFO root fetch - main [MainThread]: End processing [alfred-py]: success
+[2023-04-17 16:06:53] INFO root fetch - main [MainThread]: End processing [localcosmos-server]: success
+[2023-04-17 16:06:53] INFO root fetch - main [MainThread]: Store serial: [17739348]
