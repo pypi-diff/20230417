@@ -12035,3 +12035,62 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-04-17 14:14:09] INFO root fetch - main [MainThread]: End processing [btrack]: success
 [2023-04-17 14:14:11] INFO root fetch - main [MainThread]: End processing [foursight]: success
 [2023-04-17 14:14:11] INFO root fetch - main [MainThread]: Store serial: [17737834]
+[2023-04-17 14:19:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17737834]
+[2023-04-17 14:19:21] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-17 14:19:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kaiju-tools
+[2023-04-17 14:19:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: valmi-connector-lib
+[2023-04-17 14:19:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: epc-api-python
+[2023-04-17 14:19:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bdd-coder
+[2023-04-17 14:19:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: port-pulumi
+[2023-04-17 14:19:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alibabacloud-ecs20140526
+[2023-04-17 14:19:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alibabacloud-ecs20140526-py2
+[2023-04-17 14:19:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tabledetect
+[2023-04-17 14:19:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: one-api-tool
+[2023-04-17 14:19:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: valmi-connector-lib
+[2023-04-17 14:19:21] WARNING root fetch - processPackages [tabledetect]: Skipping, unable to determine old version
+[2023-04-17 14:19:21] INFO root fetch - processPackages [tabledetect]: Start processing: salmon-triplets
+[2023-04-17 14:19:21] INFO root fetch - main [MainThread]: End processing [tabledetect] error
+[2023-04-17 14:19:21] INFO root fetch - processPackages [port-pulumi]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-04-17 14:19:21] INFO root fetch - processPackages [valmi-connector-lib]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-17 14:19:21] INFO root fetch - processPackages [valmi-connector-lib]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-17 14:19:21] WARNING root fetch - processPackages [kaiju-tools]: Skipping, unable to determine old version
+[2023-04-17 14:19:21] INFO root fetch - main [MainThread]: End processing [kaiju-tools] error
+[2023-04-17 14:19:21] INFO root fetch - processPackages [alibabacloud-ecs20140526-py2]: New version: [3.0.7] Old Version: [3.0.6]
+[2023-04-17 14:19:21] WARNING root fetch - processPackages [epc-api-python]: Skipping, unable to determine old version
+[2023-04-17 14:19:21] INFO root fetch - main [MainThread]: End processing [epc-api-python] error
+[2023-04-17 14:19:21] INFO root fetch - processPackages [bdd-coder]: New version: [2.2.3.dev2] Old Version: [2.2.3.dev1]
+[2023-04-17 14:19:21] WARNING root fetch - processPackages [one-api-tool]: Skipping, unable to determine old version
+[2023-04-17 14:19:21] INFO root fetch - main [MainThread]: End processing [one-api-tool] error
+[2023-04-17 14:19:21] INFO root fetch - processPackages [alibabacloud-ecs20140526]: New version: [4.24.17] Old Version: [3.0.7]
+[2023-04-17 14:19:21] INFO root fetch - processPackages [port-pulumi]: executing diffoscope
+[2023-04-17 14:19:21] INFO root fetch - processPackages [port-pulumi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/port_pulumi-0.9.2.tar.gz tmp/port_pulumi-0.9.3.tar.gz --markdown 20230417/p/port-pulumi/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-04-17 14:19:21] INFO root fetch - processPackages [salmon-triplets]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-17 14:19:21] INFO root fetch - processPackages [alibabacloud-ecs20140526-py2]: Downloading https://files.pythonhosted.org/packages/e6/d5/33f5011a2feceb57d698866288ae287938280c702e2a6d0b6c642c663635/alibabacloud_ecs20140526_py2-3.0.6.tar.gz
+[2023-04-17 14:19:21] INFO root fetch - processPackages [alibabacloud-ecs20140526]: Downloading https://files.pythonhosted.org/packages/a8/b0/8f332b51db92dec2271bb126c7ed0807f9bb37e06374c940e6fbe97655b2/alibabacloud_ecs20140526-3.0.7.tar.gz
+[2023-04-17 14:19:21] INFO root fetch - processPackages [bdd-coder]: Downloading https://files.pythonhosted.org/packages/38/e7/71220ac25cffc3dfe3638c21d5b714560c052c66fa215b497425ddf799aa/bdd-coder-2.2.3.dev1.tar.gz
+[2023-04-17 14:19:21] INFO root fetch - processPackages [valmi-connector-lib]: Downloading https://files.pythonhosted.org/packages/a2/92/6337a544942070209bc2255676e6a50013105b6525f5cbc3a6e0c32f7da5/valmi_connector_lib-0.1.5.tar.gz
+[2023-04-17 14:19:21] INFO root fetch - processPackages [valmi-connector-lib]: Downloading https://files.pythonhosted.org/packages/a2/92/6337a544942070209bc2255676e6a50013105b6525f5cbc3a6e0c32f7da5/valmi_connector_lib-0.1.5.tar.gz
+[2023-04-17 14:19:21] INFO root fetch - processPackages [salmon-triplets]: Downloading https://files.pythonhosted.org/packages/85/da/d5a9fb5b17ee36f38f69df1822e7cac5b006671316638fd06904b55cee4a/salmon-triplets-1.0.3.tar.gz
+[2023-04-17 14:19:21] INFO root fetch - processPackages [valmi-connector-lib]: executing diffoscope
+[2023-04-17 14:19:21] INFO root fetch - processPackages [valmi-connector-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valmi_connector_lib-0.1.4.tar.gz tmp/valmi_connector_lib-0.1.5.tar.gz --markdown 20230417/v/valmi-connector-lib/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-17 14:19:21] INFO root fetch - processPackages [valmi-connector-lib]: executing diffoscope
+[2023-04-17 14:19:21] INFO root fetch - processPackages [valmi-connector-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valmi_connector_lib-0.1.4.tar.gz tmp/valmi_connector_lib-0.1.5.tar.gz --markdown 20230417/v/valmi-connector-lib/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-17 14:19:22] INFO root fetch - processPackages [bdd-coder]: Downloading https://files.pythonhosted.org/packages/df/7c/e6c34797d7e130d1e271078a12b6c76756a60527a575aaf658383f38e46f/bdd-coder-2.2.3.dev2.tar.gz
+[2023-04-17 14:19:22] INFO root fetch - processPackages [alibabacloud-ecs20140526-py2]: Downloading https://files.pythonhosted.org/packages/85/b3/bb0988248433bb4692316eca3203eca55a5d88259bb4b73ac0473ab2055a/alibabacloud_ecs20140526_py2-3.0.7.tar.gz
+[2023-04-17 14:19:22] INFO root fetch - processPackages [salmon-triplets]: executing diffoscope
+[2023-04-17 14:19:22] INFO root fetch - processPackages [salmon-triplets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salmon-triplets-1.0.2.tar.gz tmp/salmon-triplets-1.0.3.tar.gz --markdown 20230417/s/salmon-triplets/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-17 14:19:22] INFO root fetch - processPackages [alibabacloud-ecs20140526]: Downloading https://files.pythonhosted.org/packages/0f/3c/f2e0d6a85b6b1f078daa29303ac569839a7ed977a1350c31c57a502fcc5c/alibabacloud_ecs20140526-4.24.17.tar.gz
+[2023-04-17 14:19:22] INFO root fetch - processPackages [bdd-coder]: executing diffoscope
+[2023-04-17 14:19:22] INFO root fetch - processPackages [bdd-coder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bdd-coder-2.2.3.dev1.tar.gz tmp/bdd-coder-2.2.3.dev2.tar.gz --markdown 20230417/b/bdd-coder/2.2.3.dev1-2.2.3.dev2/diff.md --exclude *.pyd
+[2023-04-17 14:19:22] INFO root fetch - processPackages [alibabacloud-ecs20140526-py2]: executing diffoscope
+[2023-04-17 14:19:22] INFO root fetch - processPackages [alibabacloud-ecs20140526-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_ecs20140526_py2-3.0.6.tar.gz tmp/alibabacloud_ecs20140526_py2-3.0.7.tar.gz --markdown 20230417/a/alibabacloud-ecs20140526-py2/3.0.6-3.0.7/diff.md --exclude *.pyd
+[2023-04-17 14:19:22] INFO root fetch - processPackages [alibabacloud-ecs20140526]: executing diffoscope
+[2023-04-17 14:19:22] INFO root fetch - processPackages [alibabacloud-ecs20140526]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_ecs20140526-3.0.7.tar.gz tmp/alibabacloud_ecs20140526-4.24.17.tar.gz --markdown 20230417/a/alibabacloud-ecs20140526/3.0.7-4.24.17/diff.md --exclude *.pyd
+[2023-04-17 14:19:23] INFO root fetch - main [MainThread]: End processing [port-pulumi]: success
+[2023-04-17 14:19:23] INFO root fetch - main [MainThread]: End processing [valmi-connector-lib]: success
+[2023-04-17 14:19:23] INFO root fetch - main [MainThread]: End processing [bdd-coder]: success
+[2023-04-17 14:19:23] INFO root fetch - main [MainThread]: End processing [salmon-triplets]: success
+[2023-04-17 14:19:23] INFO root fetch - main [MainThread]: End processing [valmi-connector-lib]: success
+[2023-04-17 14:19:23] INFO root fetch - main [MainThread]: End processing [alibabacloud-ecs20140526]: success
+[2023-04-17 14:19:26] INFO root fetch - main [MainThread]: End processing [alibabacloud-ecs20140526-py2]: success
+[2023-04-17 14:19:26] INFO root fetch - main [MainThread]: Store serial: [17737888]
