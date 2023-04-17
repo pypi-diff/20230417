@@ -22058,3 +22058,97 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-17 22:14:59] INFO root fetch - main [MainThread]: End processing [synapse]: success
 [2023-04-17 22:15:25] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-04-17 22:15:25] INFO root fetch - main [MainThread]: Store serial: [17743924]
+[2023-04-17 22:20:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17743924]
+[2023-04-17 22:20:34] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-17 22:20:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alnoda-wrk
+[2023-04-17 22:20:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: roblox-py-wrapper
+[2023-04-17 22:20:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: linesieve
+[2023-04-17 22:20:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sym-sdk
+[2023-04-17 22:20:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aa-charlink
+[2023-04-17 22:20:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dunder-xml-reader
+[2023-04-17 22:20:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rt-hat-inr
+[2023-04-17 22:20:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pysparkler
+[2023-04-17 22:20:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: acryl-datahub
+[2023-04-17 22:20:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: acryl-datahub-airflow-plugin
+[2023-04-17 22:20:34] INFO root fetch - processPackages [sym-sdk]: New version: [0.9.0a1] Old Version: [0.9.0]
+[2023-04-17 22:20:34] WARNING root fetch - processPackages [roblox-py-wrapper]: Skipping, unable to determine old version
+[2023-04-17 22:20:34] INFO root fetch - processPackages [alnoda-wrk]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-04-17 22:20:34] INFO root fetch - processPackages [roblox-py-wrapper]: Start processing: iloscar
+[2023-04-17 22:20:34] INFO root fetch - main [MainThread]: End processing [roblox-py-wrapper] error
+[2023-04-17 22:20:34] INFO root fetch - processPackages [linesieve]: New version: [1.0b2] Old Version: [1.0b1]
+[2023-04-17 22:20:34] INFO root fetch - processPackages [pysparkler]: New version: [0.4.dev1681747316] Old Version: [0.4.dev1681497870]
+[2023-04-17 22:20:34] WARNING root fetch - processPackages [aa-charlink]: Skipping, unable to determine old version
+[2023-04-17 22:20:34] INFO root fetch - processPackages [dunder-xml-reader]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-17 22:20:34] INFO root fetch - processPackages [aa-charlink]: Start processing: pytest-repo-health
+[2023-04-17 22:20:34] INFO root fetch - main [MainThread]: End processing [aa-charlink] error
+[2023-04-17 22:20:34] INFO root fetch - processPackages [rt-hat-inr]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-17 22:20:34] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2023-04-17 22:20:34] INFO root fetch - processPackages [pysparkler]: executing diffoscope
+[2023-04-17 22:20:34] INFO root fetch - processPackages [pysparkler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysparkler-0.4.dev1681497870.tar.gz tmp/pysparkler-0.4.dev1681747316.tar.gz --markdown 20230417/p/pysparkler/0.4.dev1681497870-0.4.dev1681747316/diff.md --exclude *.pyd
+[2023-04-17 22:20:34] INFO root fetch - processPackages [iloscar]: New version: [0.2.0b0] Old Version: [0.1a0]
+[2023-04-17 22:20:34] INFO root fetch - processPackages [linesieve]: executing diffoscope
+[2023-04-17 22:20:34] INFO root fetch - processPackages [linesieve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linesieve-1.0b1.tar.gz tmp/linesieve-1.0b2.tar.gz --markdown 20230417/l/linesieve/1.0b1-1.0b2/diff.md --exclude *.pyd
+[2023-04-17 22:20:34] INFO root fetch - processPackages [pytest-repo-health]: New version: [3.0.2] Old Version: [2.2.4]
+[2023-04-17 22:20:34] INFO root fetch - processPackages [acryl-datahub]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2023-04-17 22:20:34] INFO root fetch - processPackages [sym-sdk]: Downloading https://files.pythonhosted.org/packages/c0/88/9223e19c2ba3cf816a516de9cef3ab5c6f2a103a5e3c36ef48468070d971/sym-sdk-0.9.0.tar.gz
+[2023-04-17 22:20:35] INFO root fetch - processPackages [alnoda-wrk]: Downloading https://files.pythonhosted.org/packages/2d/b9/9dbb6ebba6a3cbc2ed0f9594a64003a13e46ea2028cd60c0faa5493b609c/alnoda_wrk-0.4.3.tar.gz
+[2023-04-17 22:20:35] INFO root fetch - processPackages [dunder-xml-reader]: Downloading https://files.pythonhosted.org/packages/69/69/2598493da5c3757d0b0e259780b18bd151c64cb5019a474b54883bf395b9/dunder_xml_reader-0.0.2.tar.gz
+[2023-04-17 22:20:35] INFO root fetch - processPackages [iloscar]: Downloading https://files.pythonhosted.org/packages/54/21/e00e474c99210b50815a55555a7721db707a942bfb244bbf89e6db5e9710/iloscar-0.1a0.tar.gz
+[2023-04-17 22:20:35] INFO root fetch - processPackages [rt-hat-inr]: Downloading https://files.pythonhosted.org/packages/02/02/1410a66a7a2a8242d9a46061b4ca1423b1806789ed74b74b31518e35689c/rt-hat-inr-0.3.0.tar.gz
+[2023-04-17 22:20:35] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/60/74/0b422dc91d4bd8d366dd7b7d0ec02d0dce8acb8fd091783a0270d02e5607/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz
+[2023-04-17 22:20:35] INFO root fetch - processPackages [pytest-repo-health]: Downloading https://files.pythonhosted.org/packages/79/7d/6fd42c96975df6bae3b61fd51f949a63b48674b07d5da6327dedca21ec78/pytest-repo-health-2.2.4.tar.gz
+[2023-04-17 22:20:35] INFO root fetch - processPackages [dunder-xml-reader]: Downloading https://files.pythonhosted.org/packages/8c/af/8f3f85ed61d97cab7cf98371590f8e66a5c1771296eede55be3ea03e2ca8/dunder_xml_reader-0.0.3.tar.gz
+[2023-04-17 22:20:35] INFO root fetch - processPackages [alnoda-wrk]: Downloading https://files.pythonhosted.org/packages/8f/ae/cb17ddff0e33de485b5a49b841eb4aa413e4361850315db83c69d91afac9/alnoda_wrk-0.4.4.tar.gz
+[2023-04-17 22:20:35] INFO root fetch - processPackages [iloscar]: Downloading https://files.pythonhosted.org/packages/89/26/bb46549313dc81c2058219f5152c756669f92599f7a8da0d0ace22a46bc2/iloscar-0.2.0b0.tar.gz
+[2023-04-17 22:20:35] INFO root fetch - processPackages [sym-sdk]: Downloading https://files.pythonhosted.org/packages/a8/eb/d4bec88f2537876884dff1e05648468cc02ee9df33d0b753886fc1d2b4c0/sym-sdk-0.9.0a1.tar.gz
+[2023-04-17 22:20:35] INFO root fetch - processPackages [dunder-xml-reader]: executing diffoscope
+[2023-04-17 22:20:35] INFO root fetch - processPackages [dunder-xml-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dunder_xml_reader-0.0.2.tar.gz tmp/dunder_xml_reader-0.0.3.tar.gz --markdown 20230417/d/dunder-xml-reader/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-17 22:20:35] INFO root fetch - processPackages [alnoda-wrk]: executing diffoscope
+[2023-04-17 22:20:35] INFO root fetch - processPackages [alnoda-wrk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alnoda_wrk-0.4.3.tar.gz tmp/alnoda_wrk-0.4.4.tar.gz --markdown 20230417/a/alnoda-wrk/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-04-17 22:20:35] INFO root fetch - processPackages [pytest-repo-health]: Downloading https://files.pythonhosted.org/packages/fb/a0/c74a8383810faf5d8c1a052b58544aac4fc08f977a8dc87280587c79155f/pytest-repo-health-3.0.2.tar.gz
+[2023-04-17 22:20:35] INFO root fetch - processPackages [iloscar]: executing diffoscope
+[2023-04-17 22:20:35] INFO root fetch - processPackages [iloscar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iloscar-0.1a0.tar.gz tmp/iloscar-0.2.0b0.tar.gz --markdown 20230417/i/iloscar/0.1a0-0.2.0b0/diff.md --exclude *.pyd
+[2023-04-17 22:20:35] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/8c/ee/fa9c08b9f255db5385b46e09a7315f48f208b40d651a68bf9966b4745db4/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz
+[2023-04-17 22:20:35] INFO root fetch - processPackages [rt-hat-inr]: Downloading https://files.pythonhosted.org/packages/2a/d1/5008b6dbf36b0000bbf466fabb790b21f49477167cdd530eb73b4f923ebe/rt-hat-inr-0.3.1.tar.gz
+[2023-04-17 22:20:35] INFO root fetch - processPackages [pytest-repo-health]: executing diffoscope
+[2023-04-17 22:20:35] INFO root fetch - processPackages [pytest-repo-health]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-repo-health-2.2.4.tar.gz tmp/pytest-repo-health-3.0.2.tar.gz --markdown 20230417/p/pytest-repo-health/2.2.4-3.0.2/diff.md --exclude *.pyd
+[2023-04-17 22:20:35] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: executing diffoscope
+[2023-04-17 22:20:35] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz --markdown 20230417/a/acryl-datahub-airflow-plugin/0.9.6rc0-0.9.6rc1/diff.md --exclude *.pyd
+[2023-04-17 22:20:35] INFO root fetch - processPackages [sym-sdk]: executing diffoscope
+[2023-04-17 22:20:35] INFO root fetch - processPackages [sym-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sym-sdk-0.9.0.tar.gz tmp/sym-sdk-0.9.0a1.tar.gz --markdown 20230417/s/sym-sdk/0.9.0-0.9.0a1/diff.md --exclude *.pyd
+[2023-04-17 22:20:35] INFO root fetch - processPackages [rt-hat-inr]: executing diffoscope
+[2023-04-17 22:20:35] INFO root fetch - processPackages [rt-hat-inr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rt-hat-inr-0.3.0.tar.gz tmp/rt-hat-inr-0.3.1.tar.gz --markdown 20230417/r/rt-hat-inr/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-17 22:20:35] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/5c/93/a89204befbf5a41d498b9204bc4e597e57cf385fbbf058bd74b9e2cff691/acryl-datahub-0.9.6rc0.tar.gz
+[2023-04-17 22:20:36] INFO root fetch - processPackages [pysparkler]: Start processing: farmfs
+[2023-04-17 22:20:36] INFO root fetch - main [MainThread]: End processing [pysparkler]: success
+[2023-04-17 22:20:36] INFO root fetch - processPackages [farmfs]: New version: [0.9.0] Old Version: [0.8.7]
+[2023-04-17 22:20:36] INFO root fetch - processPackages [farmfs]: Downloading https://files.pythonhosted.org/packages/f3/fe/860ecd93e9b30856ddf073a3698553a48e903f953482d621bc5cb11f3713/farmfs-0.8.7.tar.gz
+[2023-04-17 22:20:36] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/ad/82/42882429f560fe5f9e20c6f3ee4d421b566a61c843e944997be820243708/acryl-datahub-0.9.6rc1.tar.gz
+[2023-04-17 22:20:37] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Start processing: gpt4all-j
+[2023-04-17 22:20:37] INFO root fetch - main [MainThread]: End processing [acryl-datahub-airflow-plugin]: success
+[2023-04-17 22:20:37] INFO root fetch - processPackages [gpt4all-j]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-17 22:20:37] INFO root fetch - processPackages [rt-hat-inr]: Start processing: bitmap2
+[2023-04-17 22:20:37] INFO root fetch - main [MainThread]: End processing [rt-hat-inr]: success
+[2023-04-17 22:20:37] INFO root fetch - processPackages [acryl-datahub]: executing diffoscope
+[2023-04-17 22:20:37] INFO root fetch - processPackages [acryl-datahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-0.9.6rc0.tar.gz tmp/acryl-datahub-0.9.6rc1.tar.gz --markdown 20230417/a/acryl-datahub/0.9.6rc0-0.9.6rc1/diff.md --exclude *.pyd
+[2023-04-17 22:20:37] INFO root fetch - processPackages [gpt4all-j]: executing diffoscope
+[2023-04-17 22:20:37] INFO root fetch - processPackages [gpt4all-j]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt4all-j-0.0.1.tar.gz tmp/gpt4all-j-0.0.2.tar.gz --markdown 20230417/g/gpt4all-j/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-17 22:20:37] INFO root fetch - processPackages [farmfs]: Downloading https://files.pythonhosted.org/packages/39/83/4398fece7e426f4f18ad2db83977f685c178c8768dc3399e01d898700182/farmfs-0.9.0.tar.gz
+[2023-04-17 22:20:37] INFO root fetch - processPackages [bitmap2]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-04-17 22:20:37] INFO root fetch - processPackages [farmfs]: executing diffoscope
+[2023-04-17 22:20:37] INFO root fetch - processPackages [farmfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/farmfs-0.8.7.tar.gz tmp/farmfs-0.9.0.tar.gz --markdown 20230417/f/farmfs/0.8.7-0.9.0/diff.md --exclude *.pyd
+[2023-04-17 22:20:37] INFO root fetch - main [MainThread]: End processing [pytest-repo-health]: success
+[2023-04-17 22:20:37] INFO root fetch - processPackages [bitmap2]: Downloading https://files.pythonhosted.org/packages/73/9f/80ac5d37c3e503778f65b38bc75b4ca204a00eccc29878de97e3dfd00c6b/bitmap2-0.1.1.tar.gz
+[2023-04-17 22:20:37] INFO root fetch - main [MainThread]: End processing [sym-sdk]: success
+[2023-04-17 22:20:37] INFO root fetch - main [MainThread]: End processing [linesieve]: success
+[2023-04-17 22:20:37] INFO root fetch - main [MainThread]: End processing [dunder-xml-reader]: success
+[2023-04-17 22:20:37] INFO root fetch - processPackages [bitmap2]: Downloading https://files.pythonhosted.org/packages/07/72/83a9d5e1f8037defdf818bee2ea935831cd0b04452149bc4110d3cbc8443/bitmap2-0.2.0.tar.gz
+[2023-04-17 22:20:37] INFO root fetch - main [MainThread]: End processing [iloscar]: success
+[2023-04-17 22:20:37] INFO root fetch - processPackages [bitmap2]: executing diffoscope
+[2023-04-17 22:20:37] INFO root fetch - processPackages [bitmap2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitmap2-0.1.1.tar.gz tmp/bitmap2-0.2.0.tar.gz --markdown 20230417/b/bitmap2/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-04-17 22:20:38] INFO root fetch - main [MainThread]: End processing [gpt4all-j]: success
+[2023-04-17 22:20:38] INFO root fetch - main [MainThread]: End processing [farmfs]: success
+[2023-04-17 22:20:38] INFO root fetch - main [MainThread]: End processing [bitmap2]: success
+[2023-04-17 22:20:39] INFO root fetch - main [MainThread]: End processing [alnoda-wrk]: success
+[2023-04-17 22:20:46] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
+[2023-04-17 22:20:46] INFO root fetch - main [MainThread]: Store serial: [17743975]
