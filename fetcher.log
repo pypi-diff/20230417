@@ -12966,3 +12966,147 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-04-17 14:59:41] INFO root fetch - main [MainThread]: End processing [fsleyes-widgets]: success
 [2023-04-17 15:01:50] INFO root fetch - main [MainThread]: End processing [bokeh]: success
 [2023-04-17 15:01:50] INFO root fetch - main [MainThread]: Store serial: [17738435]
+[2023-04-17 15:06:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17738435]
+[2023-04-17 15:07:02] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-04-17 15:07:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fa_purity
+[2023-04-17 15:07:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: checkvsphere
+[2023-04-17 15:07:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wozoxutils
+[2023-04-17 15:07:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: iris-pex-embedded-python
+[2023-04-17 15:07:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hasher-cnml
+[2023-04-17 15:07:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nbproject
+[2023-04-17 15:07:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gdsfactory
+[2023-04-17 15:07:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cybrid-api-organization-python
+[2023-04-17 15:07:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cybrid-api-id-python
+[2023-04-17 15:07:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cybrid-api-bank-python
+[2023-04-17 15:07:02] INFO root fetch - processPackages [wozoxutils]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-17 15:07:02] INFO root fetch - processPackages [hasher-cnml]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-17 15:07:02] INFO root fetch - processPackages [checkvsphere]: New version: [0.2.0] Old Version: [0.1a9]
+[2023-04-17 15:07:02] INFO root fetch - processPackages [fa_purity]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-04-17 15:07:02] INFO root fetch - processPackages [iris-pex-embedded-python]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-04-17 15:07:02] INFO root fetch - processPackages [nbproject]: New version: [0.8.5] Old Version: [0.8.4]
+[2023-04-17 15:07:02] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-17 15:07:02] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-17 15:07:02] INFO root fetch - processPackages [gdsfactory]: New version: [6.9.0] Old Version: [6.85.0]
+[2023-04-17 15:07:02] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-17 15:07:02] INFO root fetch - processPackages [wozoxutils]: Downloading https://files.pythonhosted.org/packages/5f/10/c4e337684de42bf6847189f518022e826dad9de78db66818047be0e87623/wozoxutils-0.2.1.tar.gz
+[2023-04-17 15:07:02] INFO root fetch - processPackages [checkvsphere]: Downloading https://files.pythonhosted.org/packages/5a/65/c8ad484c5a04673f15b58548405e093578f75ab37e0785cafedb938353f6/checkvsphere-0.1a9.tar.gz
+[2023-04-17 15:07:02] INFO root fetch - processPackages [hasher-cnml]: Downloading https://files.pythonhosted.org/packages/5d/0c/073ce6d182c4468e7e0655641844f9c7d10e863ac510969fa3fb959e24b5/hasher_cnml-0.0.1.tar.gz
+[2023-04-17 15:07:03] INFO root fetch - processPackages [gdsfactory]: Downloading https://files.pythonhosted.org/packages/19/a5/c13160762bdcf202b4d80b2e15485ecb19a8d30d21804401c064f5ed890d/gdsfactory-6.85.0.tar.gz
+[2023-04-17 15:07:03] INFO root fetch - processPackages [nbproject]: Downloading https://files.pythonhosted.org/packages/b3/12/b14bc83111a28680c1d7f44c05e9e2f7b50466343cc56e1729e749253c90/nbproject-0.8.4.tar.gz
+[2023-04-17 15:07:03] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/8c/f9/11b3397de980d7217c6b56728b693a302080844e78e135a12319c23d1e09/cybrid-api-organization-python-0.9.8.tar.gz
+[2023-04-17 15:07:03] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/20/58/83595c25956605935aa08227f1f01b1c02743825aca19e267bc95d1b4928/cybrid-api-bank-python-0.9.8.tar.gz
+[2023-04-17 15:07:03] INFO root fetch - processPackages [iris-pex-embedded-python]: Downloading https://files.pythonhosted.org/packages/92/a5/c16e1da3472ca9ab08e54da75ff8bafa95b196598c4230f70f6acd02ddb9/iris_pex_embedded_python-2.0.1.tar.gz
+[2023-04-17 15:07:03] INFO root fetch - processPackages [fa_purity]: executing diffoscope
+[2023-04-17 15:07:03] INFO root fetch - processPackages [fa_purity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fa_purity-1.8.0.tar.gz tmp/fa_purity-1.9.0.tar.gz --markdown 20230417/f/fa_purity/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-04-17 15:07:03] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/50/b7/b977148f4fc829a75a0b07e5a1a330568bf4060c71cf5e0e0a6449ffed87/cybrid-api-id-python-0.9.8.tar.gz
+[2023-04-17 15:07:03] INFO root fetch - processPackages [wozoxutils]: Downloading https://files.pythonhosted.org/packages/d7/5a/22eb0bdbbf4f877f8f6f59e0d6c26c361fe53902c425968068c08a08a457/wozoxutils-0.2.2.tar.gz
+[2023-04-17 15:07:03] INFO root fetch - processPackages [checkvsphere]: Downloading https://files.pythonhosted.org/packages/5e/2f/fec16f19a60dbe6abb2f34203172356e6cc553f51ec8341b06697812377e/checkvsphere-0.2.0.tar.gz
+[2023-04-17 15:07:03] INFO root fetch - processPackages [hasher-cnml]: Downloading https://files.pythonhosted.org/packages/1c/8c/880be790dea7ff7b8fac87b049b5b28d089f3192856d6cc00b50fddb4ef8/hasher_cnml-0.0.2.tar.gz
+[2023-04-17 15:07:03] INFO root fetch - processPackages [nbproject]: Downloading https://files.pythonhosted.org/packages/62/5c/630e342e6f0b692870d44bf454d0267ae11c69f6d816178cb1dc8fe50e19/nbproject-0.8.5.tar.gz
+[2023-04-17 15:07:03] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/89/0b/5831e52f1895b5ffe4c5b8862788216f9cf6c8554dfffa92e8805799baaf/cybrid-api-bank-python-0.9.9.tar.gz
+[2023-04-17 15:07:03] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/6e/9a/cba8516138af9b31af978d1cb5ac08501052b56ac24c59f876cc7432e4cd/cybrid-api-organization-python-0.9.9.tar.gz
+[2023-04-17 15:07:03] INFO root fetch - processPackages [wozoxutils]: executing diffoscope
+[2023-04-17 15:07:03] INFO root fetch - processPackages [wozoxutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wozoxutils-0.2.1.tar.gz tmp/wozoxutils-0.2.2.tar.gz --markdown 20230417/w/wozoxutils/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-17 15:07:03] INFO root fetch - processPackages [checkvsphere]: executing diffoscope
+[2023-04-17 15:07:03] INFO root fetch - processPackages [checkvsphere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkvsphere-0.1a9.tar.gz tmp/checkvsphere-0.2.0.tar.gz --markdown 20230417/c/checkvsphere/0.1a9-0.2.0/diff.md --exclude *.pyd
+[2023-04-17 15:07:03] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/df/0b/f41ef37cacb50f16ff72d759b9fe9a5fd7fe8bde214833a5c722ba07e136/cybrid-api-id-python-0.9.9.tar.gz
+[2023-04-17 15:07:03] INFO root fetch - processPackages [hasher-cnml]: executing diffoscope
+[2023-04-17 15:07:03] INFO root fetch - processPackages [hasher-cnml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hasher_cnml-0.0.1.tar.gz tmp/hasher_cnml-0.0.2.tar.gz --markdown 20230417/h/hasher-cnml/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-17 15:07:03] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2023-04-17 15:07:03] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.9.8.tar.gz tmp/cybrid-api-organization-python-0.9.9.tar.gz --markdown 20230417/c/cybrid-api-organization-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-17 15:07:03] INFO root fetch - processPackages [nbproject]: executing diffoscope
+[2023-04-17 15:07:03] INFO root fetch - processPackages [gdsfactory]: Downloading https://files.pythonhosted.org/packages/51/e1/bea9be10e53a3f646a2bc569ab98aa0db7b687da72ac78a2d51eac5c8a5e/gdsfactory-6.9.0.tar.gz
+[2023-04-17 15:07:03] INFO root fetch - processPackages [nbproject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbproject-0.8.4.tar.gz tmp/nbproject-0.8.5.tar.gz --markdown 20230417/n/nbproject/0.8.4-0.8.5/diff.md --exclude *.pyd
+[2023-04-17 15:07:03] INFO root fetch - processPackages [iris-pex-embedded-python]: Downloading https://files.pythonhosted.org/packages/0c/e9/81b344fdbe193156ed9daa12d62c2a7bafdb923a12f75efbaa7486a70827/iris_pex_embedded_python-2.0.2.tar.gz
+[2023-04-17 15:07:03] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2023-04-17 15:07:03] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.9.8.tar.gz tmp/cybrid-api-id-python-0.9.9.tar.gz --markdown 20230417/c/cybrid-api-id-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-17 15:07:03] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2023-04-17 15:07:03] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.9.8.tar.gz tmp/cybrid-api-bank-python-0.9.9.tar.gz --markdown 20230417/c/cybrid-api-bank-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-17 15:07:03] WARNING root fetch - processPackages [gdsfactory]: Skipping package: exceeds size limit 11141129>=10485760
+[2023-04-17 15:07:03] INFO root fetch - processPackages [gdsfactory]: Start processing: pytcs
+[2023-04-17 15:07:03] INFO root fetch - main [MainThread]: End processing [gdsfactory] error
+[2023-04-17 15:07:03] INFO root fetch - processPackages [iris-pex-embedded-python]: executing diffoscope
+[2023-04-17 15:07:03] INFO root fetch - processPackages [iris-pex-embedded-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iris_pex_embedded_python-2.0.1.tar.gz tmp/iris_pex_embedded_python-2.0.2.tar.gz --markdown 20230417/i/iris-pex-embedded-python/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-04-17 15:07:03] INFO root fetch - processPackages [pytcs]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-17 15:07:03] INFO root fetch - processPackages [pytcs]: Downloading https://files.pythonhosted.org/packages/19/52/f3f62b6c61fc62e460b8855fa0b9c410a710e1038601172d201c3688a3e7/pytcs-0.1.1.tar.gz
+[2023-04-17 15:07:04] INFO root fetch - processPackages [pytcs]: Downloading https://files.pythonhosted.org/packages/55/5c/dc7e9425e9fd7e26e9f8517fa809d6e4d4ad9af961ce1c1ed4798f981136/pytcs-0.1.2.tar.gz
+[2023-04-17 15:07:04] INFO root fetch - processPackages [pytcs]: executing diffoscope
+[2023-04-17 15:07:04] INFO root fetch - processPackages [pytcs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytcs-0.1.1.tar.gz tmp/pytcs-0.1.2.tar.gz --markdown 20230417/p/pytcs/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-17 15:07:04] INFO root fetch - processPackages [wozoxutils]: Start processing: bridgecrew
+[2023-04-17 15:07:04] INFO root fetch - main [MainThread]: End processing [wozoxutils]: success
+[2023-04-17 15:07:04] INFO root fetch - processPackages [hasher-cnml]: Start processing: mkdocs-plugin-inline-svg-mod
+[2023-04-17 15:07:04] INFO root fetch - main [MainThread]: End processing [hasher-cnml]: success
+[2023-04-17 15:07:04] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-04-17 15:07:05] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-04-17 15:07:05] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230417/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-04-17 15:07:05] WARNING root fetch - processPackages [mkdocs-plugin-inline-svg-mod]: Skipping, unable to determine old version
+[2023-04-17 15:07:05] INFO root fetch - processPackages [mkdocs-plugin-inline-svg-mod]: Start processing: fbgemm-gpu-nightly-cpu
+[2023-04-17 15:07:05] INFO root fetch - main [MainThread]: End processing [mkdocs-plugin-inline-svg-mod] error
+[2023-04-17 15:07:05] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: New version: [2023.4.9] Old Version: [2023.4.8]
+[2023-04-17 15:07:05] INFO root fetch - processPackages [checkvsphere]: Start processing: calc-vr
+[2023-04-17 15:07:05] INFO root fetch - main [MainThread]: End processing [checkvsphere]: success
+[2023-04-17 15:07:05] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: executing diffoscope
+[2023-04-17 15:07:05] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbgemm_gpu_nightly_cpu-2023.4.8-cp39-cp39-manylinux1_x86_64.whl.zip tmp/fbgemm_gpu_nightly_cpu-2023.4.9-cp39-cp39-manylinux1_x86_64.whl.zip --markdown 20230417/f/fbgemm-gpu-nightly-cpu/2023.4.8-2023.4.9/diff.md --exclude *.pyd
+[2023-04-17 15:07:05] INFO root fetch - processPackages [fa_purity]: Start processing: hagis
+[2023-04-17 15:07:05] INFO root fetch - main [MainThread]: End processing [fa_purity]: success
+[2023-04-17 15:07:05] WARNING root fetch - processPackages [calc-vr]: Skipping, unable to determine old version
+[2023-04-17 15:07:05] INFO root fetch - processPackages [calc-vr]: Start processing: ascend-io-test
+[2023-04-17 15:07:05] INFO root fetch - main [MainThread]: End processing [calc-vr] error
+[2023-04-17 15:07:05] INFO root fetch - processPackages [ascend-io-test]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-04-17 15:07:05] INFO root fetch - processPackages [hagis]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-04-17 15:07:05] INFO root fetch - processPackages [ascend-io-test]: Downloading https://files.pythonhosted.org/packages/86/24/85331bfba609472a55e5c90df06f323796d8d5089c0c4e82cb3c87cd9e60/ascend_io_test-0.9.2.tar.gz
+[2023-04-17 15:07:05] INFO root fetch - processPackages [hagis]: Downloading https://files.pythonhosted.org/packages/e5/28/7b940e8ce9f683059f6c5a555dcbf22c6bf5f09e164e3c881408160fdef0/hagis-0.2.3.tar.gz
+[2023-04-17 15:07:05] INFO root fetch - processPackages [ascend-io-test]: Downloading https://files.pythonhosted.org/packages/02/6c/1bbae83c6ac459712cb3be094405ac423f7382233add0816c1373d7e0f37/ascend_io_test-0.9.3.tar.gz
+[2023-04-17 15:07:05] INFO root fetch - processPackages [ascend-io-test]: executing diffoscope
+[2023-04-17 15:07:05] INFO root fetch - processPackages [ascend-io-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ascend_io_test-0.9.2.tar.gz tmp/ascend_io_test-0.9.3.tar.gz --markdown 20230417/a/ascend-io-test/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-04-17 15:07:05] INFO root fetch - processPackages [hagis]: Downloading https://files.pythonhosted.org/packages/f7/bb/84d7003283aaf04dad47c9814f34cb1cfe2cf5cc4b5027cbacfd1a8c54b1/hagis-0.2.4-py3-none-any.whl
+[2023-04-17 15:07:06] INFO root fetch - processPackages [iris-pex-embedded-python]: Start processing: bingbong
+[2023-04-17 15:07:06] INFO root fetch - main [MainThread]: End processing [iris-pex-embedded-python]: success
+[2023-04-17 15:07:06] INFO root fetch - processPackages [bingbong]: New version: [0.1.6.3] Old Version: [0.1.6.2]
+[2023-04-17 15:07:06] INFO root fetch - processPackages [cybrid-api-organization-python]: Start processing: pydflow
+[2023-04-17 15:07:06] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2023-04-17 15:07:06] INFO root fetch - processPackages [hagis]: executing diffoscope
+[2023-04-17 15:07:06] INFO root fetch - processPackages [hagis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hagis-0.2.3.tar.gz tmp/hagis-0.2.4-py3-none-any.whl.zip --markdown 20230417/h/hagis/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-04-17 15:07:06] INFO root fetch - processPackages [pydflow]: New version: [1.6.99] Old Version: [1.6.98]
+[2023-04-17 15:07:06] INFO root fetch - processPackages [nbproject]: Start processing: docarray
+[2023-04-17 15:07:06] INFO root fetch - main [MainThread]: End processing [nbproject]: success
+[2023-04-17 15:07:06] INFO root fetch - processPackages [pytcs]: Start processing: projen
+[2023-04-17 15:07:06] INFO root fetch - main [MainThread]: End processing [pytcs]: success
+[2023-04-17 15:07:06] INFO root fetch - processPackages [bingbong]: executing diffoscope
+[2023-04-17 15:07:06] INFO root fetch - processPackages [bingbong]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bingbong-0.1.6.2-py3-none-any.whl.zip tmp/bingbong-0.1.6.3-py3-none-any.whl.zip --markdown 20230417/b/bingbong/0.1.6.2-0.1.6.3/diff.md --exclude *.pyd
+[2023-04-17 15:07:06] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-04-17 15:07:06] INFO root fetch - processPackages [projen]: New version: [0.71.9] Old Version: [0.71.8]
+[2023-04-17 15:07:06] INFO root fetch - processPackages [bridgecrew]: Start processing: netin
+[2023-04-17 15:07:06] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-04-17 15:07:06] INFO root fetch - processPackages [netin]: New version: [1.0.5.1] Old Version: [1.0.5]
+[2023-04-17 15:07:06] INFO root fetch - processPackages [pydflow]: executing diffoscope
+[2023-04-17 15:07:06] INFO root fetch - processPackages [pydflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydflow-1.6.98.tar.gz tmp/pydflow-1.6.99.tar.gz --markdown 20230417/p/pydflow/1.6.98-1.6.99/diff.md --exclude *.pyd
+[2023-04-17 15:07:06] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-04-17 15:07:06] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230417/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-04-17 15:07:06] INFO root fetch - processPackages [projen]: executing diffoscope
+[2023-04-17 15:07:06] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.71.8.tar.gz tmp/projen-0.71.9.tar.gz --markdown 20230417/p/projen/0.71.8-0.71.9/diff.md --exclude *.pyd
+[2023-04-17 15:07:06] INFO root fetch - processPackages [netin]: executing diffoscope
+[2023-04-17 15:07:06] INFO root fetch - processPackages [netin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netin-1.0.5.tar.gz tmp/netin-1.0.5.1.tar.gz --markdown 20230417/n/netin/1.0.5-1.0.5.1/diff.md --exclude *.pyd
+[2023-04-17 15:07:06] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Start processing: spam
+[2023-04-17 15:07:06] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
+[2023-04-17 15:07:06] INFO root fetch - processPackages [spam]: New version: [0.7] Old Version: [0.6.2.1]
+[2023-04-17 15:07:06] INFO root fetch - processPackages [cybrid-api-id-python]: Start processing: renovosolutions.aws-cdk-renovo-instance-service
+[2023-04-17 15:07:06] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2023-04-17 15:07:07] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-instance-service]: New version: [2.9.99] Old Version: [2.9.98]
+[2023-04-17 15:07:07] INFO root fetch - processPackages [spam]: Downloading https://files.pythonhosted.org/packages/c6/72/bc28eb87356acd79ab66ee6f67a35ab20588ffd3fdf7db2400a6f5bbbd45/spam-0.6.2.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-17 15:07:07] WARNING root fetch - processPackages [spam]: Skipping package: exceeds size limit 26763593>=10485760
+[2023-04-17 15:07:07] INFO root fetch - main [MainThread]: End processing [spam] error
+[2023-04-17 15:07:07] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-instance-service]: Downloading https://files.pythonhosted.org/packages/40/a5/cc7ffccd513253dd42962b024e0d562e27edb9b627338202d0ce082ad261/renovosolutions.aws-cdk-renovo-instance-service-2.9.98.tar.gz
+[2023-04-17 15:07:07] INFO root fetch - main [MainThread]: End processing [hagis]: success
+[2023-04-17 15:07:07] INFO root fetch - main [MainThread]: End processing [ascend-io-test]: success
+[2023-04-17 15:07:07] INFO root fetch - main [MainThread]: End processing [bingbong]: success
+[2023-04-17 15:07:07] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-instance-service]: Downloading https://files.pythonhosted.org/packages/a5/93/b9267204671c1e1ca1e8dced6f2f1cee6059166a58950f2b9c0e4f3d4b0f/renovosolutions.aws-cdk-renovo-instance-service-2.9.99.tar.gz
+[2023-04-17 15:07:07] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-instance-service]: executing diffoscope
+[2023-04-17 15:07:07] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-instance-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-renovo-instance-service-2.9.98.tar.gz tmp/renovosolutions.aws-cdk-renovo-instance-service-2.9.99.tar.gz --markdown 20230417/r/renovosolutions.aws-cdk-renovo-instance-service/2.9.98-2.9.99/diff.md --exclude *.pyd
+[2023-04-17 15:07:08] INFO root fetch - main [MainThread]: End processing [netin]: success
+[2023-04-17 15:07:08] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-renovo-instance-service]: success
+[2023-04-17 15:07:08] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2023-04-17 15:07:09] INFO root fetch - main [MainThread]: End processing [pydflow]: success
+[2023-04-17 15:07:10] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-04-17 15:07:11] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2023-04-17 15:07:11] INFO root fetch - main [MainThread]: Store serial: [17738512]
