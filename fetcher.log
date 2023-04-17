@@ -8700,3 +8700,88 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 11:02:13] INFO root fetch - main [MainThread]: End processing [autogluon.multimodal]: success
 [2023-04-17 11:02:13] INFO root fetch - main [MainThread]: End processing [ansible-aisnippet]: success
 [2023-04-17 11:02:13] INFO root fetch - main [MainThread]: Store serial: [17735853]
+[2023-04-17 11:07:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17735853]
+[2023-04-17 11:07:22] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-17 11:07:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: miacag
+[2023-04-17 11:07:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyawskit
+[2023-04-17 11:07:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gt-defect-dojo
+[2023-04-17 11:07:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: otcdocstheme
+[2023-04-17 11:07:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: deepdriver
+[2023-04-17 11:07:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cg
+[2023-04-17 11:07:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flowmachine
+[2023-04-17 11:07:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flowclient
+[2023-04-17 11:07:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: awehflow
+[2023-04-17 11:07:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: flowetl
+[2023-04-17 11:07:22] INFO root fetch - processPackages [pyawskit]: New version: [0.1.68] Old Version: [0.1.67]
+[2023-04-17 11:07:22] WARNING root fetch - processPackages [gt-defect-dojo]: Skipping, unable to determine old version
+[2023-04-17 11:07:22] INFO root fetch - processPackages [gt-defect-dojo]: Start processing: flawmop-fishdish
+[2023-04-17 11:07:22] INFO root fetch - main [MainThread]: End processing [gt-defect-dojo] error
+[2023-04-17 11:07:22] INFO root fetch - processPackages [otcdocstheme]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-04-17 11:07:22] INFO root fetch - processPackages [miacag]: New version: [0.0.81] Old Version: [0.0.80]
+[2023-04-17 11:07:22] INFO root fetch - processPackages [awehflow]: New version: [2.4.3.0] Old Version: [2.1.4.6.7]
+[2023-04-17 11:07:22] INFO root fetch - processPackages [flowclient]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2023-04-17 11:07:22] INFO root fetch - processPackages [deepdriver]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-04-17 11:07:22] INFO root fetch - processPackages [flawmop-fishdish]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-04-17 11:07:22] INFO root fetch - processPackages [cg]: New version: [27.3.4] Old Version: [27.3.3]
+[2023-04-17 11:07:22] INFO root fetch - processPackages [flowmachine]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2023-04-17 11:07:22] INFO root fetch - processPackages [flowetl]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2023-04-17 11:07:22] INFO root fetch - processPackages [flowclient]: executing diffoscope
+[2023-04-17 11:07:22] INFO root fetch - processPackages [flowclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowclient-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowclient-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20230417/f/flowclient/1.9.4.post0.dev70-1.9.4.post0.dev76/diff.md --exclude *.pyd
+[2023-04-17 11:07:22] INFO root fetch - processPackages [deepdriver]: executing diffoscope
+[2023-04-17 11:07:22] INFO root fetch - processPackages [deepdriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepdriver-0.9.4.tar.gz tmp/deepdriver-0.9.5.tar.gz --markdown 20230417/d/deepdriver/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-04-17 11:07:22] INFO root fetch - processPackages [flowmachine]: executing diffoscope
+[2023-04-17 11:07:22] INFO root fetch - processPackages [flowetl]: executing diffoscope
+[2023-04-17 11:07:22] INFO root fetch - processPackages [flowmachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowmachine-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowmachine-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20230417/f/flowmachine/1.9.4.post0.dev70-1.9.4.post0.dev76/diff.md --exclude *.pyd
+[2023-04-17 11:07:22] INFO root fetch - processPackages [flowetl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowetl-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowetl-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20230417/f/flowetl/1.9.4.post0.dev70-1.9.4.post0.dev76/diff.md --exclude *.pyd
+[2023-04-17 11:07:22] INFO root fetch - processPackages [miacag]: Downloading https://files.pythonhosted.org/packages/d1/ed/2d3da8d04934a1a3f2179e15374a765909391a19a6899f8fd700c04ffdc9/miacag-0.0.80.tar.gz
+[2023-04-17 11:07:22] INFO root fetch - processPackages [awehflow]: Downloading https://files.pythonhosted.org/packages/b6/11/54bb86d8d0005b84fd7ab104333bc810f7c828be9f4cea077490edcf150a/awehflow-2.1.4.6.7.tar.gz
+[2023-04-17 11:07:22] INFO root fetch - processPackages [otcdocstheme]: Downloading https://files.pythonhosted.org/packages/ac/ae/41c29f6be3319dda14ea99b5ca9828905e9188016972ee568d7982651051/otcdocstheme-0.8.1.tar.gz
+[2023-04-17 11:07:22] INFO root fetch - processPackages [pyawskit]: Downloading https://files.pythonhosted.org/packages/e7/6d/867f13a1c69d405636ac7d2b0f92eab5226ea9399214b59bba2f4e058ae6/pyawskit-0.1.68.tar.gz
+[2023-04-17 11:07:22] INFO root fetch - processPackages [flawmop-fishdish]: Downloading https://files.pythonhosted.org/packages/fe/ba/8c295f8e5b1b7a6d24df465f23d7e35c4c30d467c5c3fdfba56689016a86/flawmop-fishdish-0.5.0.tar.gz
+[2023-04-17 11:07:22] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/07/ea/bdc4c329bbe831c3e26b6e63e7f30c6bfd17eb669861665217fd7bad0505/cg-27.3.4.tar.gz
+[2023-04-17 11:07:23] INFO root fetch - processPackages [pyawskit]: executing diffoscope
+[2023-04-17 11:07:23] INFO root fetch - processPackages [pyawskit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyawskit-0.1.67.tar.gz tmp/pyawskit-0.1.68.tar.gz --markdown 20230417/p/pyawskit/0.1.67-0.1.68/diff.md --exclude *.pyd
+[2023-04-17 11:07:23] INFO root fetch - processPackages [flawmop-fishdish]: executing diffoscope
+[2023-04-17 11:07:23] INFO root fetch - processPackages [flawmop-fishdish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flawmop-fishdish-0.4.0.tar.gz tmp/flawmop-fishdish-0.5.0.tar.gz --markdown 20230417/f/flawmop-fishdish/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-04-17 11:07:23] INFO root fetch - processPackages [miacag]: Downloading https://files.pythonhosted.org/packages/f4/5d/6504b67c61bbe668eaf1d15d4bd383afca802de58d047aced40ceb3d6d38/miacag-0.0.81.tar.gz
+[2023-04-17 11:07:23] INFO root fetch - processPackages [awehflow]: Downloading https://files.pythonhosted.org/packages/64/d2/283f6b521074e7139fbdfe7ff9df7d6d4bb39daaa27043b1cde1039c9093/awehflow-2.4.3.0.tar.gz
+[2023-04-17 11:07:23] INFO root fetch - processPackages [miacag]: executing diffoscope
+[2023-04-17 11:07:23] INFO root fetch - processPackages [miacag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miacag-0.0.80.tar.gz tmp/miacag-0.0.81.tar.gz --markdown 20230417/m/miacag/0.0.80-0.0.81/diff.md --exclude *.pyd
+[2023-04-17 11:07:23] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-04-17 11:07:23] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-27.3.3.tar.gz tmp/cg-27.3.4.tar.gz --markdown 20230417/c/cg/27.3.3-27.3.4/diff.md --exclude *.pyd
+[2023-04-17 11:07:23] INFO root fetch - processPackages [awehflow]: executing diffoscope
+[2023-04-17 11:07:23] INFO root fetch - processPackages [awehflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awehflow-2.1.4.6.7.tar.gz tmp/awehflow-2.4.3.0.tar.gz --markdown 20230417/a/awehflow/2.1.4.6.7-2.4.3.0/diff.md --exclude *.pyd
+[2023-04-17 11:07:23] INFO root fetch - processPackages [otcdocstheme]: Downloading https://files.pythonhosted.org/packages/65/32/f86efa68e1d4d90b5d55bb215d834248474fb41082f68132bba53ec5ad34/otcdocstheme-0.9.0.tar.gz
+[2023-04-17 11:07:24] INFO root fetch - processPackages [otcdocstheme]: executing diffoscope
+[2023-04-17 11:07:24] INFO root fetch - processPackages [otcdocstheme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otcdocstheme-0.8.1.tar.gz tmp/otcdocstheme-0.9.0.tar.gz --markdown 20230417/o/otcdocstheme/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-04-17 11:07:24] INFO root fetch - processPackages [flowclient]: Start processing: xh-dict-utils
+[2023-04-17 11:07:24] INFO root fetch - main [MainThread]: End processing [flowclient]: success
+[2023-04-17 11:07:24] INFO root fetch - processPackages [xh-dict-utils]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-17 11:07:24] INFO root fetch - processPackages [flowetl]: Start processing: abch-tree-sitter
+[2023-04-17 11:07:24] INFO root fetch - main [MainThread]: End processing [flowetl]: success
+[2023-04-17 11:07:24] INFO root fetch - processPackages [xh-dict-utils]: Downloading https://files.pythonhosted.org/packages/bd/8f/09d6dd1c6db9106357cbfa784a5ba4e301072e7ff621f28a22c4ef68f18b/xh-dict-utils-0.0.7.tar.gz
+[2023-04-17 11:07:24] INFO root fetch - processPackages [abch-tree-sitter]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-04-17 11:07:24] INFO root fetch - processPackages [flawmop-fishdish]: Start processing: xia-engine-terraform
+[2023-04-17 11:07:24] INFO root fetch - main [MainThread]: End processing [flawmop-fishdish]: success
+[2023-04-17 11:07:24] INFO root fetch - processPackages [xia-engine-terraform]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-17 11:07:24] INFO root fetch - processPackages [abch-tree-sitter]: Downloading https://files.pythonhosted.org/packages/c2/e6/f02f0d7d9100c9e967bab9619a85d76e04c7bd59012a0b98161dad777bba/abch_tree_sitter-1.0.1.tar.gz
+[2023-04-17 11:07:24] INFO root fetch - main [MainThread]: End processing [deepdriver]: success
+[2023-04-17 11:07:24] INFO root fetch - main [MainThread]: End processing [pyawskit]: success
+[2023-04-17 11:07:24] INFO root fetch - processPackages [xh-dict-utils]: Downloading https://files.pythonhosted.org/packages/67/a9/209fb6e8306783c56e1fdad11d0fa33b091cce9300edee8dca9958a57775/xh-dict-utils-0.0.8.tar.gz
+[2023-04-17 11:07:24] INFO root fetch - processPackages [xia-engine-terraform]: Downloading https://files.pythonhosted.org/packages/e6/8d/c23b96e23b8e56dbec0067760efdbab517667299acd4507dd6699642f8ce/xia_engine_terraform-0.0.6-cp39-none-macosx_11_0_x86_64.whl
+[2023-04-17 11:07:25] INFO root fetch - processPackages [abch-tree-sitter]: Downloading https://files.pythonhosted.org/packages/9d/d2/f936e2a0165945c21d9a8ee9052b150b8ffc5843d73fb3754baed7a116f4/abch_tree_sitter-1.1.0-cp39-cp39-macosx_10_9_x86_64.whl
+[2023-04-17 11:07:25] INFO root fetch - processPackages [xh-dict-utils]: executing diffoscope
+[2023-04-17 11:07:25] INFO root fetch - processPackages [xh-dict-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xh-dict-utils-0.0.7.tar.gz tmp/xh-dict-utils-0.0.8.tar.gz --markdown 20230417/x/xh-dict-utils/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-17 11:07:25] INFO root fetch - processPackages [xia-engine-terraform]: executing diffoscope
+[2023-04-17 11:07:25] INFO root fetch - processPackages [xia-engine-terraform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_engine_terraform-0.0.5-cp39-none-win_amd64.whl.zip tmp/xia_engine_terraform-0.0.6-cp39-none-macosx_11_0_x86_64.whl.zip --markdown 20230417/x/xia-engine-terraform/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-17 11:07:25] INFO root fetch - processPackages [abch-tree-sitter]: executing diffoscope
+[2023-04-17 11:07:25] INFO root fetch - processPackages [abch-tree-sitter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abch_tree_sitter-1.0.1.tar.gz tmp/abch_tree_sitter-1.1.0-cp39-cp39-macosx_10_9_x86_64.whl.zip --markdown 20230417/a/abch-tree-sitter/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-04-17 11:07:25] INFO root fetch - main [MainThread]: End processing [miacag]: success
+[2023-04-17 11:07:25] INFO root fetch - main [MainThread]: End processing [awehflow]: success
+[2023-04-17 11:07:25] INFO root fetch - main [MainThread]: End processing [flowmachine]: success
+[2023-04-17 11:07:26] INFO root fetch - main [MainThread]: End processing [xh-dict-utils]: success
+[2023-04-17 11:07:26] INFO root fetch - main [MainThread]: End processing [xia-engine-terraform]: success
+[2023-04-17 11:07:26] INFO root fetch - main [MainThread]: End processing [otcdocstheme]: success
+[2023-04-17 11:07:27] INFO root fetch - main [MainThread]: End processing [abch-tree-sitter]: success
+[2023-04-17 11:07:36] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-04-17 11:07:36] INFO root fetch - main [MainThread]: Store serial: [17735923]
