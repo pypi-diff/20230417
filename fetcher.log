@@ -5581,3 +5581,101 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 07:06:24] INFO root fetch - main [MainThread]: End processing [py4web]: success
 [2023-04-17 07:08:57] INFO root fetch - main [MainThread]: End processing [multi-model-server]: success
 [2023-04-17 07:08:57] INFO root fetch - main [MainThread]: Store serial: [17733855]
+[2023-04-17 07:14:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17733855]
+[2023-04-17 07:14:06] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-04-17 07:14:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: psd-export
+[2023-04-17 07:14:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pawnlib
+[2023-04-17 07:14:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fedml
+[2023-04-17 07:14:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: distro-Fennec
+[2023-04-17 07:14:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: otoe
+[2023-04-17 07:14:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gmanka-yml
+[2023-04-17 07:14:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: streamlit-chat-animated
+[2023-04-17 07:14:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pawnlib
+[2023-04-17 07:14:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: accurating
+[2023-04-17 07:14:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: otoe
+[2023-04-17 07:14:06] INFO root fetch - processPackages [pawnlib]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-17 07:14:06] INFO root fetch - processPackages [streamlit-chat-animated]: New version: [0.0.2.9] Old Version: [0.0.2.8]
+[2023-04-17 07:14:06] INFO root fetch - processPackages [psd-export]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-04-17 07:14:06] WARNING root fetch - processPackages [distro-Fennec]: Skipping, unable to determine old version
+[2023-04-17 07:14:06] INFO root fetch - processPackages [otoe]: New version: [0.0.7.post4] Old Version: [0.0.7.post3]
+[2023-04-17 07:14:06] INFO root fetch - processPackages [distro-Fennec]: Start processing: rapidpe-rift-pipe
+[2023-04-17 07:14:06] INFO root fetch - main [MainThread]: End processing [distro-Fennec] error
+[2023-04-17 07:14:06] INFO root fetch - processPackages [fedml]: New version: [0.8.3a9] Old Version: [0.8.3a6]
+[2023-04-17 07:14:06] INFO root fetch - processPackages [accurating]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-04-17 07:14:06] INFO root fetch - processPackages [gmanka-yml]: New version: [23.0.1] Old Version: [23.0.0]
+[2023-04-17 07:14:06] INFO root fetch - processPackages [otoe]: New version: [0.0.7.post4] Old Version: [0.0.7.post3]
+[2023-04-17 07:14:06] INFO root fetch - processPackages [pawnlib]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-17 07:14:06] INFO root fetch - processPackages [rapidpe-rift-pipe]: New version: [0.0.9.dev20230323] Old Version: [0.0.9.dev20230322]
+[2023-04-17 07:14:06] INFO root fetch - processPackages [rapidpe-rift-pipe]: executing diffoscope
+[2023-04-17 07:14:06] INFO root fetch - processPackages [rapidpe-rift-pipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidpe_rift_pipe-0.0.9.dev20230322.tar.gz tmp/rapidpe_rift_pipe-0.0.9.dev20230323.tar.gz --markdown 20230417/r/rapidpe-rift-pipe/0.0.9.dev20230322-0.0.9.dev20230323/diff.md --exclude *.pyd
+[2023-04-17 07:14:06] INFO root fetch - processPackages [otoe]: Downloading https://files.pythonhosted.org/packages/20/85/bb76b1e59049a23e5baec46076d900455054d5494a150273c029b167b0ad/otoe-0.0.7.post3.tar.gz
+[2023-04-17 07:14:06] INFO root fetch - processPackages [otoe]: Downloading https://files.pythonhosted.org/packages/20/85/bb76b1e59049a23e5baec46076d900455054d5494a150273c029b167b0ad/otoe-0.0.7.post3.tar.gz
+[2023-04-17 07:14:06] INFO root fetch - processPackages [pawnlib]: Downloading https://files.pythonhosted.org/packages/7e/31/93c6566777677c192de7f70c286133bbfe69061a2ef025de60e6604ddc81/pawnlib-0.1.8-py3-none-any.whl
+[2023-04-17 07:14:06] INFO root fetch - processPackages [gmanka-yml]: Downloading https://files.pythonhosted.org/packages/d8/13/0b9fb20602903370385948dcc0ff7b1fe09297121b5b4b73249cbc256a1a/gmanka_yml-23.0.1.tar.gz
+[2023-04-17 07:14:06] INFO root fetch - processPackages [pawnlib]: Downloading https://files.pythonhosted.org/packages/7e/31/93c6566777677c192de7f70c286133bbfe69061a2ef025de60e6604ddc81/pawnlib-0.1.8-py3-none-any.whl
+[2023-04-17 07:14:06] INFO root fetch - processPackages [accurating]: Downloading https://files.pythonhosted.org/packages/2c/a6/f454ba6a2f245323b6d82844c520ce61b0370756add3a47dbf9fbb4edde7/accurating-0.4.2.tar.gz
+[2023-04-17 07:14:06] INFO root fetch - processPackages [psd-export]: Downloading https://files.pythonhosted.org/packages/eb/27/941a9a6982b85960960a0e29f7e0340c3209ec8946477f189ee82fa47127/psd_export-1.0.5.tar.gz
+[2023-04-17 07:14:06] INFO root fetch - processPackages [streamlit-chat-animated]: Downloading https://files.pythonhosted.org/packages/c0/55/dd98f81cf742610254055ce03ffd65dea139c5bd05cc89ec33f4e316a34b/streamlit-chat-animated-0.0.2.9.tar.gz
+[2023-04-17 07:14:06] INFO root fetch - processPackages [gmanka-yml]: executing diffoscope
+[2023-04-17 07:14:06] INFO root fetch - processPackages [gmanka-yml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmanka_yml-23.0.0.tar.gz tmp/gmanka_yml-23.0.1.tar.gz --markdown 20230417/g/gmanka-yml/23.0.0-23.0.1/diff.md --exclude *.pyd
+[2023-04-17 07:14:06] INFO root fetch - processPackages [accurating]: executing diffoscope
+[2023-04-17 07:14:06] INFO root fetch - processPackages [accurating]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accurating-0.4.1.tar.gz tmp/accurating-0.4.2.tar.gz --markdown 20230417/a/accurating/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-04-17 07:14:06] INFO root fetch - processPackages [fedml]: executing diffoscope
+[2023-04-17 07:14:06] INFO root fetch - processPackages [fedml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedml-0.8.3a6.tar.gz tmp/fedml-0.8.3a9.tar.gz --markdown 20230417/f/fedml/0.8.3a6-0.8.3a9/diff.md --exclude *.pyd
+[2023-04-17 07:14:06] INFO root fetch - processPackages [otoe]: Downloading https://files.pythonhosted.org/packages/4b/f6/061b195893aa7c8c6881b98a8f31b024c9bede5ceba7a2d13dfe8d773f2b/otoe-0.0.7.post4.tar.gz
+[2023-04-17 07:14:06] INFO root fetch - processPackages [otoe]: Downloading https://files.pythonhosted.org/packages/4b/f6/061b195893aa7c8c6881b98a8f31b024c9bede5ceba7a2d13dfe8d773f2b/otoe-0.0.7.post4.tar.gz
+[2023-04-17 07:14:06] INFO root fetch - processPackages [psd-export]: executing diffoscope
+[2023-04-17 07:14:06] INFO root fetch - processPackages [psd-export]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psd_export-1.0.4.tar.gz tmp/psd_export-1.0.5.tar.gz --markdown 20230417/p/psd-export/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-04-17 07:14:06] INFO root fetch - processPackages [streamlit-chat-animated]: executing diffoscope
+[2023-04-17 07:14:06] INFO root fetch - processPackages [streamlit-chat-animated]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-chat-animated-0.0.2.8.tar.gz tmp/streamlit-chat-animated-0.0.2.9.tar.gz --markdown 20230417/s/streamlit-chat-animated/0.0.2.8-0.0.2.9/diff.md --exclude *.pyd
+[2023-04-17 07:14:06] INFO root fetch - processPackages [pawnlib]: Downloading https://files.pythonhosted.org/packages/8f/9c/e15688ebfda0dfe3f6e46baca3902892a3c8bd314f3a4629dd9e584c29e2/pawnlib-0.1.9-py3-none-any.whl
+[2023-04-17 07:14:06] INFO root fetch - processPackages [pawnlib]: Downloading https://files.pythonhosted.org/packages/8f/9c/e15688ebfda0dfe3f6e46baca3902892a3c8bd314f3a4629dd9e584c29e2/pawnlib-0.1.9-py3-none-any.whl
+[2023-04-17 07:14:06] INFO root fetch - processPackages [otoe]: executing diffoscope
+[2023-04-17 07:14:06] INFO root fetch - processPackages [otoe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otoe-0.0.7.post3.tar.gz tmp/otoe-0.0.7.post4.tar.gz --markdown 20230417/o/otoe/0.0.7.post3-0.0.7.post4/diff.md --exclude *.pyd
+[2023-04-17 07:14:06] INFO root fetch - processPackages [otoe]: executing diffoscope
+[2023-04-17 07:14:06] INFO root fetch - processPackages [otoe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otoe-0.0.7.post3.tar.gz tmp/otoe-0.0.7.post4.tar.gz --markdown 20230417/o/otoe/0.0.7.post3-0.0.7.post4/diff.md --exclude *.pyd
+[2023-04-17 07:14:06] INFO root fetch - processPackages [pawnlib]: executing diffoscope
+[2023-04-17 07:14:06] INFO root fetch - processPackages [pawnlib]: executing diffoscope
+[2023-04-17 07:14:06] INFO root fetch - processPackages [pawnlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pawnlib-0.1.8-py3-none-any.whl.zip tmp/pawnlib-0.1.9-py3-none-any.whl.zip --markdown 20230417/p/pawnlib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-17 07:14:06] INFO root fetch - processPackages [pawnlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pawnlib-0.1.8-py3-none-any.whl.zip tmp/pawnlib-0.1.9-py3-none-any.whl.zip --markdown 20230417/p/pawnlib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-17 07:14:07] INFO root fetch - processPackages [rapidpe-rift-pipe]: Start processing: pawnlib
+[2023-04-17 07:14:07] INFO root fetch - main [MainThread]: End processing [rapidpe-rift-pipe]: success
+[2023-04-17 07:14:07] INFO root fetch - processPackages [pawnlib]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-17 07:14:07] INFO root fetch - processPackages [gmanka-yml]: Start processing: cherryblossom
+[2023-04-17 07:14:07] INFO root fetch - main [MainThread]: End processing [gmanka-yml]: success
+[2023-04-17 07:14:07] INFO root fetch - processPackages [pawnlib]: executing diffoscope
+[2023-04-17 07:14:07] INFO root fetch - processPackages [pawnlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pawnlib-0.1.8-py3-none-any.whl.zip tmp/pawnlib-0.1.9-py3-none-any.whl.zip --markdown 20230417/p/pawnlib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-17 07:14:07] INFO root fetch - processPackages [cherryblossom]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-17 07:14:08] INFO root fetch - processPackages [cherryblossom]: executing diffoscope
+[2023-04-17 07:14:08] INFO root fetch - processPackages [cherryblossom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cherryblossom-0.0.6.tar.gz tmp/cherryblossom-0.0.7.tar.gz --markdown 20230417/c/cherryblossom/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-17 07:14:08] INFO root fetch - processPackages [accurating]: Start processing: esphome
+[2023-04-17 07:14:08] INFO root fetch - main [MainThread]: End processing [accurating]: success
+[2023-04-17 07:14:08] INFO root fetch - processPackages [esphome]: New version: [2023.4.0b2] Old Version: [2023.4.0b1]
+[2023-04-17 07:14:08] INFO root fetch - processPackages [psd-export]: Start processing: czthry
+[2023-04-17 07:14:08] INFO root fetch - main [MainThread]: End processing [psd-export]: success
+[2023-04-17 07:14:08] INFO root fetch - processPackages [czthry]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-04-17 07:14:08] INFO root fetch - processPackages [otoe]: Start processing: tflite-model-maker-nightly
+[2023-04-17 07:14:08] INFO root fetch - main [MainThread]: End processing [otoe]: success
+[2023-04-17 07:14:08] INFO root fetch - main [MainThread]: End processing [otoe]: success
+[2023-04-17 07:14:08] INFO root fetch - processPackages [tflite-model-maker-nightly]: New version: [0.4.3.dev202304170517] Old Version: [0.4.3.dev202304160507]
+[2023-04-17 07:14:08] INFO root fetch - processPackages [czthry]: Downloading https://files.pythonhosted.org/packages/6a/55/aa61a50d8c0463bdd17b19edad63b204f5beeed97a071597b8fc62d709d8/czthry-0.0.7.tar.gz
+[2023-04-17 07:14:08] INFO root fetch - processPackages [esphome]: Downloading https://files.pythonhosted.org/packages/ab/e3/49d282fae77acffc9f610e5b2e0777baa79a938eaf86b84a831cbc0b62c9/esphome-2023.4.0b2.tar.gz
+[2023-04-17 07:14:08] INFO root fetch - processPackages [tflite-model-maker-nightly]: Downloading https://files.pythonhosted.org/packages/0f/94/7b20106cf25646d9c8af381fa50753b5c1afc27dee4893ee6b7434c76808/tflite-model-maker-nightly-0.4.3.dev202304160507.tar.gz
+[2023-04-17 07:14:08] INFO root fetch - main [MainThread]: End processing [pawnlib]: success
+[2023-04-17 07:14:08] INFO root fetch - main [MainThread]: End processing [pawnlib]: success
+[2023-04-17 07:14:08] INFO root fetch - processPackages [czthry]: Downloading https://files.pythonhosted.org/packages/29/a6/3b677a7916d25eb5ea7599fe4e6c74da36ce5cbc913fe131950dc876472e/czthry-0.0.9.tar.gz
+[2023-04-17 07:14:09] INFO root fetch - processPackages [tflite-model-maker-nightly]: Downloading https://files.pythonhosted.org/packages/55/65/804afecc3b538a16f42e0cb7db5b1eff50be0a6c5ee050c762d324a6fdc5/tflite-model-maker-nightly-0.4.3.dev202304170517.tar.gz
+[2023-04-17 07:14:09] INFO root fetch - processPackages [esphome]: executing diffoscope
+[2023-04-17 07:14:09] INFO root fetch - processPackages [esphome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esphome-2023.4.0b1.tar.gz tmp/esphome-2023.4.0b2.tar.gz --markdown 20230417/e/esphome/2023.4.0b1-2023.4.0b2/diff.md --exclude *.pyd
+[2023-04-17 07:14:09] INFO root fetch - processPackages [czthry]: executing diffoscope
+[2023-04-17 07:14:09] INFO root fetch - processPackages [czthry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/czthry-0.0.7.tar.gz tmp/czthry-0.0.9.tar.gz --markdown 20230417/c/czthry/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 07:14:09] INFO root fetch - processPackages [tflite-model-maker-nightly]: executing diffoscope
+[2023-04-17 07:14:09] INFO root fetch - processPackages [tflite-model-maker-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite-model-maker-nightly-0.4.3.dev202304160507.tar.gz tmp/tflite-model-maker-nightly-0.4.3.dev202304170517.tar.gz --markdown 20230417/t/tflite-model-maker-nightly/0.4.3.dev202304160507-0.4.3.dev202304170517/diff.md --exclude *.pyd
+[2023-04-17 07:14:09] INFO root fetch - main [MainThread]: End processing [pawnlib]: success
+[2023-04-17 07:14:09] INFO root fetch - main [MainThread]: End processing [cherryblossom]: success
+[2023-04-17 07:14:10] INFO root fetch - main [MainThread]: End processing [czthry]: success
+[2023-04-17 07:14:10] INFO root fetch - main [MainThread]: End processing [streamlit-chat-animated]: success
+[2023-04-17 07:14:12] INFO root fetch - main [MainThread]: End processing [tflite-model-maker-nightly]: success
+[2023-04-17 07:14:30] INFO root fetch - main [MainThread]: End processing [fedml]: success
+[2023-04-17 07:14:54] INFO root fetch - main [MainThread]: End processing [esphome]: success
+[2023-04-17 07:14:54] INFO root fetch - main [MainThread]: Store serial: [17733906]
