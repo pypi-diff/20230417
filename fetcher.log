@@ -14771,3 +14771,103 @@ EOFError: EOF read where object expected
 [2023-04-17 16:12:11] INFO root fetch - main [MainThread]: End processing [auraboros]: success
 [2023-04-17 16:12:12] INFO root fetch - main [MainThread]: End processing [EModelRunner]: success
 [2023-04-17 16:12:12] INFO root fetch - main [MainThread]: Store serial: [17739426]
+[2023-04-17 16:17:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17739426]
+[2023-04-17 16:17:22] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-04-17 16:17:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: amfiprot-amfitrack
+[2023-04-17 16:17:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ert
+[2023-04-17 16:17:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: meilisearch-python-async
+[2023-04-17 16:17:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sense2vec
+[2023-04-17 16:17:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: neetbox
+[2023-04-17 16:17:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flask-fd
+[2023-04-17 16:17:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mirrorbot
+[2023-04-17 16:17:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: testdontdownloadthis
+[2023-04-17 16:17:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: GUIbits
+[2023-04-17 16:17:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: returnn
+[2023-04-17 16:17:22] INFO root fetch - processPackages [mirrorbot]: New version: [0.6] Old Version: [0.5]
+[2023-04-17 16:17:22] INFO root fetch - processPackages [testdontdownloadthis]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-17 16:17:22] INFO root fetch - processPackages [flask-fd]: New version: [1.1.0] Old Version: [1.0.5]
+[2023-04-17 16:17:23] INFO root fetch - processPackages [amfiprot-amfitrack]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2023-04-17 16:17:23] INFO root fetch - processPackages [neetbox]: New version: [0.1.511] Old Version: [0.1.510]
+[2023-04-17 16:17:23] INFO root fetch - processPackages [meilisearch-python-async]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-04-17 16:17:23] WARNING root fetch - processPackages [GUIbits]: Skipping, unable to determine old version
+[2023-04-17 16:17:23] INFO root fetch - processPackages [GUIbits]: Start processing: mcstatus
+[2023-04-17 16:17:23] INFO root fetch - main [MainThread]: End processing [GUIbits] error
+[2023-04-17 16:17:23] INFO root fetch - processPackages [sense2vec]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-04-17 16:17:23] INFO root fetch - processPackages [ert]: New version: [5.0.0b6] Old Version: [5.0.0b5]
+[2023-04-17 16:17:23] INFO root fetch - processPackages [returnn]: New version: [1.20230417.154451] Old Version: [1.20230415.10040]
+[2023-04-17 16:17:23] INFO root fetch - processPackages [mirrorbot]: Downloading https://files.pythonhosted.org/packages/aa/2b/1e1696f913169bc9101247caf2af0279a872343ca1a56605345fddfc26b3/mirrorbot-0.6.tar.gz
+[2023-04-17 16:17:23] INFO root fetch - processPackages [testdontdownloadthis]: Downloading https://files.pythonhosted.org/packages/34/58/973ffdce8dced4905afa29d91aa779f9b2b409f3a91dee006acd7a277986/testdontdownloadthis-1.0.0.tar.gz
+[2023-04-17 16:17:23] INFO root fetch - processPackages [flask-fd]: Downloading https://files.pythonhosted.org/packages/96/7e/563e4d8cb103984bb91504706606d63df86f0173cc7756ca7b65f044734a/flask-fd-1.1.0.tar.gz
+[2023-04-17 16:17:23] INFO root fetch - processPackages [mcstatus]: New version: [9.4.2] Old Version: [9.4.1]
+[2023-04-17 16:17:23] INFO root fetch - processPackages [meilisearch-python-async]: Downloading https://files.pythonhosted.org/packages/20/c3/c914375836284f5171d09f55e42841b60c6e0505f3465f53dd519bd591e9/meilisearch_python_async-1.1.1.tar.gz
+[2023-04-17 16:17:23] INFO root fetch - processPackages [neetbox]: Downloading https://files.pythonhosted.org/packages/e1/83/3094b1d9b5f288e658a928b40506b19dcb750932326f2df4dc7385816850/neetbox-0.1.510.tar.gz
+[2023-04-17 16:17:23] INFO root fetch - processPackages [ert]: Downloading https://files.pythonhosted.org/packages/c3/61/00404eab331d6f85809a8cc1ee1cc8cd83846181643e2db8932a98de7b17/ert-5.0.0b5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-17 16:17:23] INFO root fetch - processPackages [flask-fd]: executing diffoscope
+[2023-04-17 16:17:23] INFO root fetch - processPackages [flask-fd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask-fd-1.0.5.tar.gz tmp/flask-fd-1.1.0.tar.gz --markdown 20230417/f/flask-fd/1.0.5-1.1.0/diff.md --exclude *.pyd
+[2023-04-17 16:17:23] INFO root fetch - processPackages [sense2vec]: Downloading https://files.pythonhosted.org/packages/e6/2c/573238c07f49da109eb58ef99f521af3a77f7a8f47e82f95997398aaf56d/sense2vec-2.0.1.tar.gz
+[2023-04-17 16:17:23] INFO root fetch - processPackages [mirrorbot]: executing diffoscope
+[2023-04-17 16:17:23] INFO root fetch - processPackages [mirrorbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mirrorbot-0.5.tar.gz tmp/mirrorbot-0.6.tar.gz --markdown 20230417/m/mirrorbot/0.5-0.6/diff.md --exclude *.pyd
+[2023-04-17 16:17:23] INFO root fetch - processPackages [mcstatus]: Downloading https://files.pythonhosted.org/packages/3c/21/41a9a7aabe19be71fb4c2ec57aad4e46f2b2262aee1a40a7766999f9de16/mcstatus-9.4.1.tar.gz
+[2023-04-17 16:17:23] INFO root fetch - processPackages [amfiprot-amfitrack]: executing diffoscope
+[2023-04-17 16:17:23] INFO root fetch - processPackages [amfiprot-amfitrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amfiprot_amfitrack-0.0.1a8.tar.gz tmp/amfiprot_amfitrack-0.0.1a9.tar.gz --markdown 20230417/a/amfiprot-amfitrack/0.0.1a8-0.0.1a9/diff.md --exclude *.pyd
+[2023-04-17 16:17:23] INFO root fetch - processPackages [neetbox]: Downloading https://files.pythonhosted.org/packages/74/2e/91add7b42a1ff2a7798745bcb437798b6f80fdb5cf3b83328b842e558f37/neetbox-0.1.511.tar.gz
+[2023-04-17 16:17:23] INFO root fetch - processPackages [testdontdownloadthis]: Downloading https://files.pythonhosted.org/packages/2c/2c/dd6a77ea12a150f66afd6070fb937984e31b92559b70d639280effde9ae0/testdontdownloadthis-1.0.1.tar.gz
+[2023-04-17 16:17:23] INFO root fetch - processPackages [meilisearch-python-async]: Downloading https://files.pythonhosted.org/packages/67/8c/c5360c24f9c13f5a5051614c32a7086a478136c98d711357fb71964fd80f/meilisearch_python_async-1.2.0.tar.gz
+[2023-04-17 16:17:23] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/87/b6/b84b8ea541829bb47f4548f3ca8f9d9f4b19170a9db0281ef5e616453c93/returnn-1.20230417.154451.tar.gz
+[2023-04-17 16:17:23] INFO root fetch - processPackages [neetbox]: executing diffoscope
+[2023-04-17 16:17:23] INFO root fetch - processPackages [neetbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neetbox-0.1.510.tar.gz tmp/neetbox-0.1.511.tar.gz --markdown 20230417/n/neetbox/0.1.510-0.1.511/diff.md --exclude *.pyd
+[2023-04-17 16:17:23] INFO root fetch - processPackages [testdontdownloadthis]: executing diffoscope
+[2023-04-17 16:17:23] INFO root fetch - processPackages [testdontdownloadthis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testdontdownloadthis-1.0.0.tar.gz tmp/testdontdownloadthis-1.0.1.tar.gz --markdown 20230417/t/testdontdownloadthis/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-17 16:17:23] INFO root fetch - processPackages [sense2vec]: Downloading https://files.pythonhosted.org/packages/ad/e3/e987ff210e1882cc6d6d8196ef9314474d5be9ef0f5714e37470c41a0383/sense2vec-2.0.2.tar.gz
+[2023-04-17 16:17:23] INFO root fetch - processPackages [meilisearch-python-async]: executing diffoscope
+[2023-04-17 16:17:23] INFO root fetch - processPackages [meilisearch-python-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meilisearch_python_async-1.1.1.tar.gz tmp/meilisearch_python_async-1.2.0.tar.gz --markdown 20230417/m/meilisearch-python-async/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-04-17 16:17:23] INFO root fetch - processPackages [mcstatus]: Downloading https://files.pythonhosted.org/packages/e3/12/585714215bcdf7eb333f098fc3a2ca37828efb6eeb96901a079aa2ea6e2d/mcstatus-9.4.2.tar.gz
+[2023-04-17 16:17:23] INFO root fetch - processPackages [ert]: executing diffoscope
+[2023-04-17 16:17:23] INFO root fetch - processPackages [ert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ert-5.0.0b5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/ert-5.0.0b6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230417/e/ert/5.0.0b5-5.0.0b6/diff.md --exclude *.pyd
+[2023-04-17 16:17:23] INFO root fetch - processPackages [sense2vec]: executing diffoscope
+[2023-04-17 16:17:23] INFO root fetch - processPackages [sense2vec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sense2vec-2.0.1.tar.gz tmp/sense2vec-2.0.2.tar.gz --markdown 20230417/s/sense2vec/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-04-17 16:17:23] INFO root fetch - processPackages [mcstatus]: executing diffoscope
+[2023-04-17 16:17:23] INFO root fetch - processPackages [mcstatus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcstatus-9.4.1.tar.gz tmp/mcstatus-9.4.2.tar.gz --markdown 20230417/m/mcstatus/9.4.1-9.4.2/diff.md --exclude *.pyd
+[2023-04-17 16:17:23] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-04-17 16:17:23] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230415.10040.tar.gz tmp/returnn-1.20230417.154451.tar.gz --markdown 20230417/r/returnn/1.20230415.10040-1.20230417.154451/diff.md --exclude *.pyd
+[2023-04-17 16:17:25] INFO root fetch - processPackages [amfiprot-amfitrack]: Start processing: inels-mqtt-new
+[2023-04-17 16:17:25] INFO root fetch - main [MainThread]: End processing [amfiprot-amfitrack]: success
+[2023-04-17 16:17:25] INFO root fetch - processPackages [inels-mqtt-new]: New version: [0.2.9a2] Old Version: [0.2.9a1]
+[2023-04-17 16:17:25] INFO root fetch - processPackages [flask-fd]: Start processing: asimtote
+[2023-04-17 16:17:25] INFO root fetch - main [MainThread]: End processing [flask-fd]: success
+[2023-04-17 16:17:25] INFO root fetch - processPackages [inels-mqtt-new]: executing diffoscope
+[2023-04-17 16:17:25] INFO root fetch - processPackages [inels-mqtt-new]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inels-mqtt-new-0.2.9a1.tar.gz tmp/inels-mqtt-new-0.2.9a2.tar.gz --markdown 20230417/i/inels-mqtt-new/0.2.9a1-0.2.9a2/diff.md --exclude *.pyd
+[2023-04-17 16:17:25] INFO root fetch - processPackages [asimtote]: New version: [0.16.6] Old Version: [0.16.5]
+[2023-04-17 16:17:25] INFO root fetch - processPackages [asimtote]: Downloading https://files.pythonhosted.org/packages/18/2c/5829b3b4d16206f4b1d3607a25ab12d9d7ad8f1aa1cd54b432119fdfcdc7/asimtote-0.16.5.tar.gz
+[2023-04-17 16:17:26] INFO root fetch - processPackages [sense2vec]: Start processing: asimtote
+[2023-04-17 16:17:26] INFO root fetch - main [MainThread]: End processing [sense2vec]: success
+[2023-04-17 16:17:26] INFO root fetch - processPackages [asimtote]: New version: [0.16.6] Old Version: [0.16.5]
+[2023-04-17 16:17:26] INFO root fetch - processPackages [meilisearch-python-async]: Start processing: flask-resources
+[2023-04-17 16:17:26] INFO root fetch - main [MainThread]: End processing [meilisearch-python-async]: success
+[2023-04-17 16:17:26] INFO root fetch - processPackages [testdontdownloadthis]: Start processing: python-datamodel
+[2023-04-17 16:17:26] INFO root fetch - main [MainThread]: End processing [testdontdownloadthis]: success
+[2023-04-17 16:17:26] INFO root fetch - processPackages [asimtote]: Downloading https://files.pythonhosted.org/packages/23/50/6df4f92edeee75710d7d0156996ba41b123987293ebb54fbc6d762d9a85a/asimtote-0.16.6.tar.gz
+[2023-04-17 16:17:26] INFO root fetch - processPackages [asimtote]: Downloading https://files.pythonhosted.org/packages/23/50/6df4f92edeee75710d7d0156996ba41b123987293ebb54fbc6d762d9a85a/asimtote-0.16.6.tar.gz
+[2023-04-17 16:17:26] INFO root fetch - processPackages [python-datamodel]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-17 16:17:26] INFO root fetch - processPackages [flask-resources]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-04-17 16:17:26] INFO root fetch - main [MainThread]: End processing [mcstatus]: success
+[2023-04-17 16:17:26] INFO root fetch - processPackages [asimtote]: executing diffoscope
+[2023-04-17 16:17:26] INFO root fetch - processPackages [asimtote]: executing diffoscope
+[2023-04-17 16:17:26] INFO root fetch - processPackages [asimtote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asimtote-0.16.5.tar.gz tmp/asimtote-0.16.6.tar.gz --markdown 20230417/a/asimtote/0.16.5-0.16.6/diff.md --exclude *.pyd
+[2023-04-17 16:17:26] INFO root fetch - processPackages [asimtote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asimtote-0.16.5.tar.gz tmp/asimtote-0.16.6.tar.gz --markdown 20230417/a/asimtote/0.16.5-0.16.6/diff.md --exclude *.pyd
+[2023-04-17 16:17:26] INFO root fetch - processPackages [python-datamodel]: executing diffoscope
+[2023-04-17 16:17:26] INFO root fetch - processPackages [python-datamodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_datamodel-0.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/python_datamodel-0.3.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230417/p/python-datamodel/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-17 16:17:26] INFO root fetch - processPackages [flask-resources]: Downloading https://files.pythonhosted.org/packages/f4/55/1daac26a6ba4cadb721034ea650a8a759c1b1fae02707e767e098e1bf495/flask-resources-1.0.0.tar.gz
+[2023-04-17 16:17:26] INFO root fetch - main [MainThread]: End processing [neetbox]: success
+[2023-04-17 16:17:26] INFO root fetch - main [MainThread]: End processing [mirrorbot]: success
+[2023-04-17 16:17:26] INFO root fetch - processPackages [flask-resources]: Downloading https://files.pythonhosted.org/packages/8a/b3/e62a35e9f9994c748c3234cf5cc7996e382ffe68ac4ff1626d5f99799b3f/flask-resources-1.1.0.tar.gz
+[2023-04-17 16:17:27] INFO root fetch - processPackages [flask-resources]: executing diffoscope
+[2023-04-17 16:17:27] INFO root fetch - processPackages [flask-resources]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask-resources-1.0.0.tar.gz tmp/flask-resources-1.1.0.tar.gz --markdown 20230417/f/flask-resources/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-04-17 16:17:27] INFO root fetch - main [MainThread]: End processing [asimtote]: success
+[2023-04-17 16:17:28] INFO root fetch - main [MainThread]: End processing [inels-mqtt-new]: success
+[2023-04-17 16:17:28] INFO root fetch - main [MainThread]: End processing [flask-resources]: success
+[2023-04-17 16:17:29] INFO root fetch - main [MainThread]: End processing [asimtote]: success
+[2023-04-17 16:17:33] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-04-17 16:17:35] INFO root fetch - main [MainThread]: End processing [python-datamodel]: success
+[2023-04-17 16:17:40] INFO root fetch - main [MainThread]: End processing [ert]: success
+[2023-04-17 16:17:40] INFO root fetch - main [MainThread]: Store serial: [17739481]
