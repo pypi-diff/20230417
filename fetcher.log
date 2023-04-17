@@ -8785,3 +8785,92 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 11:07:27] INFO root fetch - main [MainThread]: End processing [abch-tree-sitter]: success
 [2023-04-17 11:07:36] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-04-17 11:07:36] INFO root fetch - main [MainThread]: Store serial: [17735923]
+[2023-04-17 11:12:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17735923]
+[2023-04-17 11:12:46] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-17 11:12:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sertit
+[2023-04-17 11:12:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bridgecrew
+[2023-04-17 11:12:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: EMPOL-GUI
+[2023-04-17 11:12:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: simapy
+[2023-04-17 11:12:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: behave-html-pretty-formatter
+[2023-04-17 11:12:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: esi-acme
+[2023-04-17 11:12:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sabledocs
+[2023-04-17 11:12:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: timeframe
+[2023-04-17 11:12:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: humiolib
+[2023-04-17 11:12:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: wonder-sdk
+[2023-04-17 11:12:46] INFO root fetch - processPackages [EMPOL-GUI]: New version: [2.2.8] Old Version: [2.2.7]
+[2023-04-17 11:12:46] INFO root fetch - processPackages [sabledocs]: New version: [0.1.96] Old Version: [0.1.91]
+[2023-04-17 11:12:46] INFO root fetch - processPackages [simapy]: New version: [4.4.3] Old Version: [4.4.2]
+[2023-04-17 11:12:46] INFO root fetch - processPackages [esi-acme]: New version: [2023.4] Old Version: [2022.8]
+[2023-04-17 11:12:46] INFO root fetch - processPackages [behave-html-pretty-formatter]: New version: [1.8.2] Old Version: [1.8.1]
+[2023-04-17 11:12:46] INFO root fetch - processPackages [humiolib]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-04-17 11:12:46] INFO root fetch - processPackages [wonder-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-17 11:12:46] INFO root fetch - processPackages [timeframe]: New version: [1.0.0] Old Version: [0.2.1]
+[2023-04-17 11:12:46] INFO root fetch - processPackages [sertit]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-04-17 11:12:46] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-04-17 11:12:46] INFO root fetch - processPackages [sabledocs]: executing diffoscope
+[2023-04-17 11:12:46] INFO root fetch - processPackages [sabledocs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sabledocs-0.1.91.tar.gz tmp/sabledocs-0.1.96.tar.gz --markdown 20230417/s/sabledocs/0.1.91-0.1.96/diff.md --exclude *.pyd
+[2023-04-17 11:12:46] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-04-17 11:12:46] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230417/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-04-17 11:12:46] INFO root fetch - processPackages [simapy]: Downloading https://files.pythonhosted.org/packages/f5/48/cc644a468c0d8961357241c2e09bfe4d9da88fd0eefa459bc17eba08a753/simapy-4.4.2.tar.gz
+[2023-04-17 11:12:46] INFO root fetch - processPackages [wonder-sdk]: Downloading https://files.pythonhosted.org/packages/37/05/241450cdd86b168a622dc8451f3538b4f32243b5ee9cc34c5c69fd955cfe/wonder-sdk-0.1.8.tar.gz
+[2023-04-17 11:12:46] INFO root fetch - processPackages [EMPOL-GUI]: Downloading https://files.pythonhosted.org/packages/c7/d5/5dbf14e4407b90eb880185605f87c959e23b94945cdaceef06f58c422a14/EMPOL_GUI-2.2.8.tar.gz
+[2023-04-17 11:12:46] INFO root fetch - processPackages [esi-acme]: Downloading https://files.pythonhosted.org/packages/34/48/0e302a8cf267c7a8cd4b1dd6b4b253df842a73f2dc7cf1df17e572b6e464/esi-acme-2022.8.tar.gz
+[2023-04-17 11:12:46] INFO root fetch - processPackages [humiolib]: Downloading https://files.pythonhosted.org/packages/b4/27/cb8d4c57a3e7fecc61395906f0d49fa1c2c93dbceeaaf65537ce46f759e3/humiolib-0.2.4.tar.gz
+[2023-04-17 11:12:46] INFO root fetch - processPackages [timeframe]: Downloading https://files.pythonhosted.org/packages/c7/0d/74bf322176e26f1bc3f04d6d201cf36ce20acf946a07bcad459a7b5ca1bc/timeframe-0.2.1.tar.gz
+[2023-04-17 11:12:46] INFO root fetch - processPackages [EMPOL-GUI]: executing diffoscope
+[2023-04-17 11:12:46] INFO root fetch - processPackages [EMPOL-GUI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EMPOL_GUI-2.2.7.tar.gz tmp/EMPOL_GUI-2.2.8.tar.gz --markdown 20230417/E/EMPOL-GUI/2.2.7-2.2.8/diff.md --exclude *.pyd
+[2023-04-17 11:12:46] INFO root fetch - processPackages [sertit]: Downloading https://files.pythonhosted.org/packages/18/b5/8f8ae3243c9a8219ed4d021a73afa00c403efb3965526ea84b690569d3c7/sertit-1.8.1.tar.gz
+[2023-04-17 11:12:46] INFO root fetch - processPackages [behave-html-pretty-formatter]: Downloading https://files.pythonhosted.org/packages/73/6a/7b49e86aab4d3dff7fff9ee720cc01c03d446e892bb42b6f774f3d143f65/behave-html-pretty-formatter-1.8.1.tar.gz
+[2023-04-17 11:12:46] INFO root fetch - processPackages [wonder-sdk]: Downloading https://files.pythonhosted.org/packages/f5/25/4991f4bef37b01368e06cda988181108fda8312bf6cdff12e141d0b13a80/wonder-sdk-0.1.9.tar.gz
+[2023-04-17 11:12:46] INFO root fetch - processPackages [wonder-sdk]: executing diffoscope
+[2023-04-17 11:12:46] INFO root fetch - processPackages [wonder-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wonder-sdk-0.1.8.tar.gz tmp/wonder-sdk-0.1.9.tar.gz --markdown 20230417/w/wonder-sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-17 11:12:46] INFO root fetch - processPackages [humiolib]: Downloading https://files.pythonhosted.org/packages/44/17/894a0d39b27a3bf16629f6f8e15caa4814616dfa095cbbc1e816e8ad5029/humiolib-0.2.5.tar.gz
+[2023-04-17 11:12:46] INFO root fetch - processPackages [esi-acme]: Downloading https://files.pythonhosted.org/packages/28/f0/61a4f82489d1165202abc60b9e664735b9a315ab7d729eb4807c43731e5d/esi-acme-2023.4.tar.gz
+[2023-04-17 11:12:47] INFO root fetch - processPackages [simapy]: Downloading https://files.pythonhosted.org/packages/a4/1f/e827f450f6b98940bb7e6cdb4e77d72017c83ce296e28db66a61f92bce54/simapy-4.4.3.tar.gz
+[2023-04-17 11:12:47] INFO root fetch - processPackages [timeframe]: Downloading https://files.pythonhosted.org/packages/27/c5/6616154871c7b09a0d7163ec54e82e116f6d09c72ae5d85f9329dfcd042e/timeframe-1.0.0.tar.gz
+[2023-04-17 11:12:47] INFO root fetch - processPackages [humiolib]: executing diffoscope
+[2023-04-17 11:12:47] INFO root fetch - processPackages [humiolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/humiolib-0.2.4.tar.gz tmp/humiolib-0.2.5.tar.gz --markdown 20230417/h/humiolib/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-04-17 11:12:47] INFO root fetch - processPackages [esi-acme]: executing diffoscope
+[2023-04-17 11:12:47] INFO root fetch - processPackages [esi-acme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esi-acme-2022.8.tar.gz tmp/esi-acme-2023.4.tar.gz --markdown 20230417/e/esi-acme/2022.8-2023.4/diff.md --exclude *.pyd
+[2023-04-17 11:12:47] INFO root fetch - processPackages [behave-html-pretty-formatter]: Downloading https://files.pythonhosted.org/packages/d1/17/88ce861ca1f21075d6ce479fadecad1539a2f4ad073d66ba29644cac06ea/behave-html-pretty-formatter-1.8.2.tar.gz
+[2023-04-17 11:12:47] INFO root fetch - processPackages [timeframe]: executing diffoscope
+[2023-04-17 11:12:47] INFO root fetch - processPackages [timeframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timeframe-0.2.1.tar.gz tmp/timeframe-1.0.0.tar.gz --markdown 20230417/t/timeframe/0.2.1-1.0.0/diff.md --exclude *.pyd
+[2023-04-17 11:12:47] INFO root fetch - processPackages [simapy]: executing diffoscope
+[2023-04-17 11:12:47] INFO root fetch - processPackages [simapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simapy-4.4.2.tar.gz tmp/simapy-4.4.3.tar.gz --markdown 20230417/s/simapy/4.4.2-4.4.3/diff.md --exclude *.pyd
+[2023-04-17 11:12:47] INFO root fetch - processPackages [behave-html-pretty-formatter]: executing diffoscope
+[2023-04-17 11:12:47] INFO root fetch - processPackages [behave-html-pretty-formatter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/behave-html-pretty-formatter-1.8.1.tar.gz tmp/behave-html-pretty-formatter-1.8.2.tar.gz --markdown 20230417/b/behave-html-pretty-formatter/1.8.1-1.8.2/diff.md --exclude *.pyd
+[2023-04-17 11:12:47] INFO root fetch - processPackages [sertit]: Downloading https://files.pythonhosted.org/packages/59/69/cbc0654faac948effc31798c883e666bf607b99951a584b7d5d192a3f2e4/sertit-1.9.0.tar.gz
+[2023-04-17 11:12:47] INFO root fetch - processPackages [sertit]: executing diffoscope
+[2023-04-17 11:12:47] INFO root fetch - processPackages [sertit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sertit-1.8.1.tar.gz tmp/sertit-1.9.0.tar.gz --markdown 20230417/s/sertit/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-04-17 11:12:48] INFO root fetch - processPackages [bridgecrew]: Start processing: cbig-network-correspondence
+[2023-04-17 11:12:48] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-04-17 11:12:48] INFO root fetch - processPackages [cbig-network-correspondence]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-17 11:12:48] INFO root fetch - processPackages [sabledocs]: Start processing: tbp-nightly
+[2023-04-17 11:12:48] INFO root fetch - main [MainThread]: End processing [sabledocs]: success
+[2023-04-17 11:12:48] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2023-04-17 11:12:48] INFO root fetch - processPackages [cbig-network-correspondence]: Downloading https://files.pythonhosted.org/packages/01/ab/f568d88726f7e32c28c64e4c2196a3c07cb0c79f3650ee51852c5e988f3b/cbig_network_correspondence-0.0.7.tar.gz
+[2023-04-17 11:12:48] INFO root fetch - processPackages [wonder-sdk]: Start processing: tf-nightly
+[2023-04-17 11:12:48] INFO root fetch - main [MainThread]: End processing [wonder-sdk]: success
+[2023-04-17 11:12:48] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2023-04-17 11:12:48] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20230417/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/diff.md --exclude *.pyd
+[2023-04-17 11:12:48] INFO root fetch - processPackages [tf-nightly]: New version: [2.13.0.dev20230417] Old Version: [2.13.0.dev20230416]
+[2023-04-17 11:12:48] INFO root fetch - processPackages [cbig-network-correspondence]: Downloading https://files.pythonhosted.org/packages/6a/e4/598a169992f5d0a349b09ea434ccf37a7daaf84d9f437ff49f7f8840feb7/cbig_network_correspondence-0.0.8.tar.gz
+[2023-04-17 11:12:48] INFO root fetch - processPackages [EMPOL-GUI]: Start processing: channels-yroom
+[2023-04-17 11:12:48] INFO root fetch - main [MainThread]: End processing [EMPOL-GUI]: success
+[2023-04-17 11:12:48] INFO root fetch - processPackages [cbig-network-correspondence]: executing diffoscope
+[2023-04-17 11:12:48] INFO root fetch - processPackages [cbig-network-correspondence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbig_network_correspondence-0.0.7.tar.gz tmp/cbig_network_correspondence-0.0.8.tar.gz --markdown 20230417/c/cbig-network-correspondence/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-17 11:12:48] WARNING root fetch - processPackages [channels-yroom]: Skipping, unable to determine old version
+[2023-04-17 11:12:48] INFO root fetch - main [MainThread]: End processing [channels-yroom] error
+[2023-04-17 11:12:48] INFO root fetch - main [MainThread]: End processing [behave-html-pretty-formatter]: success
+[2023-04-17 11:12:48] INFO root fetch - main [MainThread]: End processing [humiolib]: success
+[2023-04-17 11:12:48] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/29/82/1709f89fccfdfedbc6304bd1e4e6560a79a18cd9891bba9a317df2940f7e/tf_nightly-2.13.0.dev20230417-cp39-cp39-win_amd64.whl
+[2023-04-17 11:12:49] INFO root fetch - processPackages [tf-nightly]: executing diffoscope
+[2023-04-17 11:12:49] INFO root fetch - processPackages [tf-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly-2.13.0.dev20230416-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly-2.13.0.dev20230417-cp39-cp39-win_amd64.whl.zip --markdown 20230417/t/tf-nightly/2.13.0.dev20230416-2.13.0.dev20230417/diff.md --exclude *.pyd
+[2023-04-17 11:12:49] INFO root fetch - main [MainThread]: End processing [timeframe]: success
+[2023-04-17 11:12:49] INFO root fetch - main [MainThread]: End processing [sertit]: success
+[2023-04-17 11:12:49] INFO root fetch - main [MainThread]: End processing [esi-acme]: success
+[2023-04-17 11:12:49] INFO root fetch - main [MainThread]: End processing [cbig-network-correspondence]: success
+[2023-04-17 11:12:50] INFO root fetch - main [MainThread]: End processing [tf-nightly]: success
+[2023-04-17 11:12:51] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2023-04-17 11:13:39] INFO root fetch - main [MainThread]: End processing [simapy]: success
+[2023-04-17 11:13:39] INFO root fetch - main [MainThread]: Store serial: [17735993]
