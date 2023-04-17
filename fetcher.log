@@ -4730,3 +4730,43 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 05:36:24] INFO root fetch - main [MainThread]: End processing [vhdx-2-zvol]: success
 [2023-04-17 05:36:25] INFO root fetch - main [MainThread]: End processing [tvault]: success
 [2023-04-17 05:36:25] INFO root fetch - main [MainThread]: Store serial: [17733424]
+[2023-04-17 05:41:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17733424]
+[2023-04-17 05:41:33] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-17 05:41:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pybond
+[2023-04-17 05:41:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: snapmlweb
+[2023-04-17 05:41:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ytpodgen
+[2023-04-17 05:41:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vstutils
+[2023-04-17 05:41:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kogi
+[2023-04-17 05:41:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: trex-analytic
+[2023-04-17 05:41:33] WARNING root fetch - processPackages [snapmlweb]: Skipping, unable to determine old version
+[2023-04-17 05:41:33] INFO root fetch - main [MainThread]: End processing [snapmlweb] error
+[2023-04-17 05:41:33] INFO root fetch - processPackages [ytpodgen]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-04-17 05:41:33] INFO root fetch - processPackages [kogi]: New version: [0.4.3] Old Version: [0.4.1]
+[2023-04-17 05:41:33] INFO root fetch - processPackages [pybond]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-17 05:41:33] INFO root fetch - processPackages [trex-analytic]: New version: [1.0.0] Old Version: [0.1.3]
+[2023-04-17 05:41:33] INFO root fetch - processPackages [vstutils]: New version: [5.4.3] Old Version: [5.4.2]
+[2023-04-17 05:41:33] INFO root fetch - processPackages [ytpodgen]: Downloading https://files.pythonhosted.org/packages/4d/f1/5ffdd834fad801536eefcafdd1ab5988e48b661e62e4b052a4a95644bd83/ytpodgen-0.2.5.tar.gz
+[2023-04-17 05:41:33] INFO root fetch - processPackages [kogi]: Downloading https://files.pythonhosted.org/packages/54/7a/7c73617912f1b821ef4ea752feeb908829139394ae27ac8963b5ff16e081/kogi-0.4.1.tar.gz
+[2023-04-17 05:41:33] INFO root fetch - processPackages [trex-analytic]: Downloading https://files.pythonhosted.org/packages/4c/ef/6f992833d10fff5cd556c147d3ab69d5f3d1504b9360ebc53c4adf381863/trex-analytic-0.1.3.tar.gz
+[2023-04-17 05:41:33] INFO root fetch - processPackages [pybond]: Downloading https://files.pythonhosted.org/packages/9a/6f/a291289e4fa8910b45e307e20e48b5cc2ad5dbf719dc779f0562b2d1b50d/pybond-0.1.5.tar.gz
+[2023-04-17 05:41:34] INFO root fetch - processPackages [ytpodgen]: Downloading https://files.pythonhosted.org/packages/78/a4/69e42c9d6abe79433d60d568036d265ed2d29a577f908c5af67ba2925fa2/ytpodgen-0.2.6.tar.gz
+[2023-04-17 05:41:34] INFO root fetch - processPackages [vstutils]: Downloading https://files.pythonhosted.org/packages/32/87/f5071818f7d605f62d0b7301c3484c4d32209913df6411fff6578bf77788/vstutils-5.4.3.tar.gz
+[2023-04-17 05:41:34] INFO root fetch - processPackages [trex-analytic]: Downloading https://files.pythonhosted.org/packages/72/25/268944abf3ab789099ad66ba4a4d0a5d90391b69bb441c6f4314a9ebbc17/trex-analytic-1.0.0.tar.gz
+[2023-04-17 05:41:34] INFO root fetch - processPackages [kogi]: Downloading https://files.pythonhosted.org/packages/b0/27/0bfa622bb1b5fa2e45ab5e460053d904e979faaa8b9296516b4b64541457/kogi-0.4.3.tar.gz
+[2023-04-17 05:41:34] INFO root fetch - processPackages [ytpodgen]: executing diffoscope
+[2023-04-17 05:41:34] INFO root fetch - processPackages [ytpodgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ytpodgen-0.2.5.tar.gz tmp/ytpodgen-0.2.6.tar.gz --markdown 20230417/y/ytpodgen/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-04-17 05:41:34] INFO root fetch - processPackages [pybond]: Downloading https://files.pythonhosted.org/packages/ea/f6/d8fe36aecd9b8a05b0937c36bc101f17345599e0cdf469123214f4e5931b/pybond-0.1.6.tar.gz
+[2023-04-17 05:41:34] INFO root fetch - processPackages [kogi]: executing diffoscope
+[2023-04-17 05:41:34] INFO root fetch - processPackages [kogi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kogi-0.4.1.tar.gz tmp/kogi-0.4.3.tar.gz --markdown 20230417/k/kogi/0.4.1-0.4.3/diff.md --exclude *.pyd
+[2023-04-17 05:41:34] INFO root fetch - processPackages [trex-analytic]: executing diffoscope
+[2023-04-17 05:41:34] INFO root fetch - processPackages [trex-analytic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trex-analytic-0.1.3.tar.gz tmp/trex-analytic-1.0.0.tar.gz --markdown 20230417/t/trex-analytic/0.1.3-1.0.0/diff.md --exclude *.pyd
+[2023-04-17 05:41:34] INFO root fetch - processPackages [pybond]: executing diffoscope
+[2023-04-17 05:41:34] INFO root fetch - processPackages [pybond]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybond-0.1.5.tar.gz tmp/pybond-0.1.6.tar.gz --markdown 20230417/p/pybond/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-17 05:41:34] INFO root fetch - processPackages [vstutils]: executing diffoscope
+[2023-04-17 05:41:34] INFO root fetch - processPackages [vstutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vstutils-5.4.2.tar.gz tmp/vstutils-5.4.3.tar.gz --markdown 20230417/v/vstutils/5.4.2-5.4.3/diff.md --exclude *.pyd
+[2023-04-17 05:41:35] INFO root fetch - main [MainThread]: End processing [ytpodgen]: success
+[2023-04-17 05:41:35] INFO root fetch - main [MainThread]: End processing [pybond]: success
+[2023-04-17 05:41:35] INFO root fetch - main [MainThread]: End processing [trex-analytic]: success
+[2023-04-17 05:41:35] INFO root fetch - main [MainThread]: End processing [kogi]: success
+[2023-04-17 05:42:04] INFO root fetch - main [MainThread]: End processing [vstutils]: success
+[2023-04-17 05:42:04] INFO root fetch - main [MainThread]: Store serial: [17733447]
