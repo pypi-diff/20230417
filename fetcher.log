@@ -8874,3 +8874,130 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 11:12:51] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
 [2023-04-17 11:13:39] INFO root fetch - main [MainThread]: End processing [simapy]: success
 [2023-04-17 11:13:39] INFO root fetch - main [MainThread]: Store serial: [17735993]
+[2023-04-17 11:18:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17735993]
+[2023-04-17 11:18:48] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-04-17 11:18:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyworxcloud
+[2023-04-17 11:18:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mcai-worker-sdk
+[2023-04-17 11:18:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bfrac
+[2023-04-17 11:18:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tuw-nlp
+[2023-04-17 11:18:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lazylinop
+[2023-04-17 11:18:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tfimm
+[2023-04-17 11:18:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alibabacloud-servicecatalog20210901
+[2023-04-17 11:18:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bfrac
+[2023-04-17 11:18:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: myUniquePythonPackageName
+[2023-04-17 11:18:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ramodels
+[2023-04-17 11:18:48] INFO root fetch - processPackages [mcai-worker-sdk]: New version: [2.0.0rc9] Old Version: [2.0.0rc8]
+[2023-04-17 11:18:48] INFO root fetch - processPackages [pyworxcloud]: New version: [3.1.1] Old Version: [3.1.0]
+[2023-04-17 11:18:48] INFO root fetch - processPackages [lazylinop]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-17 11:18:48] INFO root fetch - processPackages [tuw-nlp]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-04-17 11:18:48] INFO root fetch - processPackages [bfrac]: New version: [0.0.52] Old Version: [0.0.51]
+[2023-04-17 11:18:48] INFO root fetch - processPackages [myUniquePythonPackageName]: New version: [7.10.7] Old Version: [22.33.44]
+[2023-04-17 11:18:48] INFO root fetch - processPackages [bfrac]: New version: [0.0.52] Old Version: [0.0.51]
+[2023-04-17 11:18:48] INFO root fetch - processPackages [alibabacloud-servicecatalog20210901]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-04-17 11:18:48] INFO root fetch - processPackages [tfimm]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-17 11:18:48] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-04-17 11:18:48] INFO root fetch - processPackages [bfrac]: Downloading https://files.pythonhosted.org/packages/72/4c/0ad18ccc2001ca0979c563a753bc48a3c62b35bc95cad0fbb65b1b333c30/bfrac-0.0.51.tar.gz
+[2023-04-17 11:18:48] INFO root fetch - processPackages [bfrac]: Downloading https://files.pythonhosted.org/packages/72/4c/0ad18ccc2001ca0979c563a753bc48a3c62b35bc95cad0fbb65b1b333c30/bfrac-0.0.51.tar.gz
+[2023-04-17 11:18:48] INFO root fetch - processPackages [mcai-worker-sdk]: Downloading https://files.pythonhosted.org/packages/40/34/d1fa382d18a93b94f7d69b726ba13e79396f29cd0665f622278c6999ac81/mcai_worker_sdk-2.0.0rc8.tar.gz
+[2023-04-17 11:18:48] INFO root fetch - processPackages [tuw-nlp]: Downloading https://files.pythonhosted.org/packages/dd/cb/1e94b5bdd0459bb83d1e087f0ff38616eaf5f8fe023e4db68f5f8f17e686/tuw-nlp-0.0.9.tar.gz
+[2023-04-17 11:18:48] INFO root fetch - processPackages [myUniquePythonPackageName]: Downloading https://files.pythonhosted.org/packages/3c/f3/13a43451aa0970e9683c10b003a6d37599d6fc77a4285e3fcb3886f64121/myUniquePythonPackageName-22.33.44.tar.gz
+[2023-04-17 11:18:48] INFO root fetch - processPackages [lazylinop]: Downloading https://files.pythonhosted.org/packages/5c/fd/39e677779966df2318a92fd88e0cd8305aa4971e4644fb3c00f928fb58cd/lazylinop-1.0.8-py3-none-any.whl
+[2023-04-17 11:18:48] INFO root fetch - processPackages [alibabacloud-servicecatalog20210901]: Downloading https://files.pythonhosted.org/packages/48/f6/daf3d8a63b5b2f025438b030f7b39468244e93b363c1dfea7821a0f6db22/alibabacloud_servicecatalog20210901-1.1.3.tar.gz
+[2023-04-17 11:18:48] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2023-04-17 11:18:48] INFO root fetch - processPackages [tfimm]: Downloading https://files.pythonhosted.org/packages/46/46/5cc06ac9408c38458a9ccff852285f2a1c9dc109d1f6ffb651caaad62c0c/tfimm-0.2.8.tar.gz
+[2023-04-17 11:18:49] INFO root fetch - processPackages [pyworxcloud]: Downloading https://files.pythonhosted.org/packages/64/d2/140b7a796bc19f1a797db41d277fa6eaa715c8904088c74ddcf8961202fa/pyworxcloud-3.1.1.tar.gz
+[2023-04-17 11:18:49] INFO root fetch - processPackages [mcai-worker-sdk]: Downloading https://files.pythonhosted.org/packages/7d/60/e94853260b297a46fde380ad788356734c0efb8bf9ac15b23a02fd09dd14/mcai_worker_sdk-2.0.0rc9.tar.gz
+[2023-04-17 11:18:49] INFO root fetch - processPackages [bfrac]: Downloading https://files.pythonhosted.org/packages/bc/84/dd4b2cd4e2ff849a13ec1768308073d64ab693ea6ae483fac63851492f1c/bfrac-0.0.52.tar.gz
+[2023-04-17 11:18:49] INFO root fetch - processPackages [bfrac]: Downloading https://files.pythonhosted.org/packages/bc/84/dd4b2cd4e2ff849a13ec1768308073d64ab693ea6ae483fac63851492f1c/bfrac-0.0.52.tar.gz
+[2023-04-17 11:18:49] INFO root fetch - processPackages [myUniquePythonPackageName]: Downloading https://files.pythonhosted.org/packages/fb/08/2d98d19734057cc9fc04739295f9116147bb1225f33ea6391b64f38ca011/myUniquePythonPackageName-7.10.7.tar.gz
+[2023-04-17 11:18:49] INFO root fetch - processPackages [tuw-nlp]: Downloading https://files.pythonhosted.org/packages/db/52/892c6493ccdd28babffe2cf2faf25b4b92558fc0abbe0c179d7f52c6e1ed/tuw-nlp-0.1.0.tar.gz
+[2023-04-17 11:18:49] INFO root fetch - processPackages [alibabacloud-servicecatalog20210901]: Downloading https://files.pythonhosted.org/packages/3b/a0/959ecf6dd202d5bb1004a1861066e1f1ff7ccddf821e151fdf6d44bf2842/alibabacloud_servicecatalog20210901-1.1.4.tar.gz
+[2023-04-17 11:18:49] INFO root fetch - processPackages [lazylinop]: Downloading https://files.pythonhosted.org/packages/ca/89/57b51bd98b2b2782824472a535a5bfd5667a9313ad46677730a1a4e6993d/lazylinop-1.0.9-py3-none-any.whl
+[2023-04-17 11:18:49] INFO root fetch - processPackages [pyworxcloud]: executing diffoscope
+[2023-04-17 11:18:49] INFO root fetch - processPackages [pyworxcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyworxcloud-3.1.0.tar.gz tmp/pyworxcloud-3.1.1.tar.gz --markdown 20230417/p/pyworxcloud/3.1.0-3.1.1/diff.md --exclude *.pyd
+[2023-04-17 11:18:49] INFO root fetch - processPackages [tfimm]: Downloading https://files.pythonhosted.org/packages/80/41/48c5cc8ff5e5db2963ece61e0d86c5b4160b6643cdbab54eb6c64d56ea95/tfimm-0.2.9.tar.gz
+[2023-04-17 11:18:49] INFO root fetch - processPackages [myUniquePythonPackageName]: executing diffoscope
+[2023-04-17 11:18:49] INFO root fetch - processPackages [myUniquePythonPackageName]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myUniquePythonPackageName-22.33.44.tar.gz tmp/myUniquePythonPackageName-7.10.7.tar.gz --markdown 20230417/m/myUniquePythonPackageName/22.33.44-7.10.7/diff.md --exclude *.pyd
+[2023-04-17 11:18:49] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2023-04-17 11:18:49] WARNING root fetch - processPackages [tuw-nlp]: Skipping package: exceeds size limit 32148639>=10485760
+[2023-04-17 11:18:49] INFO root fetch - processPackages [tuw-nlp]: Start processing: dipex
+[2023-04-17 11:18:49] INFO root fetch - main [MainThread]: End processing [tuw-nlp] error
+[2023-04-17 11:18:49] INFO root fetch - processPackages [lazylinop]: executing diffoscope
+[2023-04-17 11:18:49] INFO root fetch - processPackages [lazylinop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazylinop-1.0.8-py3-none-any.whl.zip tmp/lazylinop-1.0.9-py3-none-any.whl.zip --markdown 20230417/l/lazylinop/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-17 11:18:49] INFO root fetch - processPackages [mcai-worker-sdk]: executing diffoscope
+[2023-04-17 11:18:49] INFO root fetch - processPackages [mcai-worker-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcai_worker_sdk-2.0.0rc8.tar.gz tmp/mcai_worker_sdk-2.0.0rc9.tar.gz --markdown 20230417/m/mcai-worker-sdk/2.0.0rc8-2.0.0rc9/diff.md --exclude *.pyd
+[2023-04-17 11:18:49] INFO root fetch - processPackages [bfrac]: executing diffoscope
+[2023-04-17 11:18:49] INFO root fetch - processPackages [bfrac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bfrac-0.0.51.tar.gz tmp/bfrac-0.0.52.tar.gz --markdown 20230417/b/bfrac/0.0.51-0.0.52/diff.md --exclude *.pyd
+[2023-04-17 11:18:49] INFO root fetch - processPackages [bfrac]: executing diffoscope
+[2023-04-17 11:18:49] INFO root fetch - processPackages [bfrac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bfrac-0.0.51.tar.gz tmp/bfrac-0.0.52.tar.gz --markdown 20230417/b/bfrac/0.0.51-0.0.52/diff.md --exclude *.pyd
+[2023-04-17 11:18:49] INFO root fetch - processPackages [dipex]: New version: [4.9.2] Old Version: [4.9.1]
+[2023-04-17 11:18:49] INFO root fetch - processPackages [tfimm]: executing diffoscope
+[2023-04-17 11:18:49] INFO root fetch - processPackages [tfimm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfimm-0.2.8.tar.gz tmp/tfimm-0.2.9.tar.gz --markdown 20230417/t/tfimm/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-17 11:18:49] INFO root fetch - processPackages [alibabacloud-servicecatalog20210901]: executing diffoscope
+[2023-04-17 11:18:49] INFO root fetch - processPackages [alibabacloud-servicecatalog20210901]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_servicecatalog20210901-1.1.3.tar.gz tmp/alibabacloud_servicecatalog20210901-1.1.4.tar.gz --markdown 20230417/a/alibabacloud-servicecatalog20210901/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-04-17 11:18:49] INFO root fetch - processPackages [dipex]: Downloading https://files.pythonhosted.org/packages/ca/fb/bcdbc34d4ffff4b37acd3e2fb76f42bcea1844762d4b998c319652fc6b38/dipex-4.9.1.tar.gz
+[2023-04-17 11:18:49] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-04-17 11:18:49] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230417/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-04-17 11:18:50] INFO root fetch - processPackages [dipex]: Downloading https://files.pythonhosted.org/packages/d3/fa/fbf692999f299bb256217f34df9cc1e4ee2f9e1ae9e87e051b2b8b92aaa1/dipex-4.9.2.tar.gz
+[2023-04-17 11:18:50] INFO root fetch - processPackages [dipex]: executing diffoscope
+[2023-04-17 11:18:50] INFO root fetch - processPackages [dipex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dipex-4.9.1.tar.gz tmp/dipex-4.9.2.tar.gz --markdown 20230417/d/dipex/4.9.1-4.9.2/diff.md --exclude *.pyd
+[2023-04-17 11:18:51] INFO root fetch - processPackages [bfrac]: Start processing: poe-api
+[2023-04-17 11:18:51] INFO root fetch - main [MainThread]: End processing [bfrac]: success
+[2023-04-17 11:18:51] INFO root fetch - processPackages [poe-api]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-04-17 11:18:51] INFO root fetch - processPackages [myUniquePythonPackageName]: Start processing: mcai-worker-sdk-media
+[2023-04-17 11:18:51] INFO root fetch - main [MainThread]: End processing [myUniquePythonPackageName]: success
+[2023-04-17 11:18:51] INFO root fetch - processPackages [mcai-worker-sdk-media]: New version: [2.0.0rc9] Old Version: [2.0.0rc8]
+[2023-04-17 11:18:51] INFO root fetch - processPackages [bfrac]: Start processing: bintang
+[2023-04-17 11:18:51] INFO root fetch - main [MainThread]: End processing [bfrac]: success
+[2023-04-17 11:18:51] INFO root fetch - processPackages [lazylinop]: Start processing: xh-dict-utils
+[2023-04-17 11:18:51] INFO root fetch - processPackages [bintang]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-04-17 11:18:51] INFO root fetch - main [MainThread]: End processing [lazylinop]: success
+[2023-04-17 11:18:51] INFO root fetch - processPackages [xh-dict-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 11:18:51] INFO root fetch - processPackages [pyworxcloud]: Start processing: nucliadb-contributor-assets
+[2023-04-17 11:18:51] INFO root fetch - main [MainThread]: End processing [pyworxcloud]: success
+[2023-04-17 11:18:51] INFO root fetch - processPackages [nucliadb-contributor-assets]: New version: [1.0.0.post715] Old Version: [1.0.0.post714]
+[2023-04-17 11:18:51] INFO root fetch - processPackages [mcai-worker-sdk-media]: Downloading https://files.pythonhosted.org/packages/17/19/6f4164f245f308664de5e42792e9e12879bcc2a864f17d2e3c27be0feb5f/mcai_worker_sdk_media-2.0.0rc8.tar.gz
+[2023-04-17 11:18:51] INFO root fetch - processPackages [bintang]: Downloading https://files.pythonhosted.org/packages/b2/ea/806d64d92943e7ab3764f411eb27ddd1f4f9c849ac9e8ce95c45d7e69804/bintang-0.1.6-py3-none-any.whl
+[2023-04-17 11:18:51] INFO root fetch - processPackages [poe-api]: Downloading https://files.pythonhosted.org/packages/2e/91/621c67ebe1e6af9bcb1d88c11334592138b87deebade07b653254601a75a/poe_api-0.3.0-py3-none-any.whl
+[2023-04-17 11:18:51] INFO root fetch - processPackages [xh-dict-utils]: Downloading https://files.pythonhosted.org/packages/88/e4/c5cd61c2d7f39cca9705ddc5ac1c982447b8095422cd4899ab5304fb8525/xh-dict-utils-0.0.9.tar.gz
+[2023-04-17 11:18:51] INFO root fetch - processPackages [mcai-worker-sdk]: Start processing: lago-python-client
+[2023-04-17 11:18:51] INFO root fetch - main [MainThread]: End processing [mcai-worker-sdk]: success
+[2023-04-17 11:18:51] INFO root fetch - processPackages [mcai-worker-sdk-media]: Downloading https://files.pythonhosted.org/packages/7c/3b/c7a15eb86a16e71b36fd1f72ff113e5922cb0a5a1e1525ec938de12ecfa5/mcai_worker_sdk_media-2.0.0rc9.tar.gz
+[2023-04-17 11:18:51] INFO root fetch - processPackages [poe-api]: executing diffoscope
+[2023-04-17 11:18:51] INFO root fetch - processPackages [poe-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poe_api-0.2.9-py3-none-any.whl.zip tmp/poe_api-0.3.0-py3-none-any.whl.zip --markdown 20230417/p/poe-api/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-04-17 11:18:51] INFO root fetch - processPackages [tfimm]: Start processing: spanishconjugator
+[2023-04-17 11:18:51] INFO root fetch - main [MainThread]: End processing [tfimm]: success
+[2023-04-17 11:18:51] INFO root fetch - processPackages [lago-python-client]: New version: [0.7.0] Old Version: [0.6.2]
+[2023-04-17 11:18:51] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-04-17 11:18:51] INFO root fetch - processPackages [mcai-worker-sdk-media]: executing diffoscope
+[2023-04-17 11:18:51] INFO root fetch - processPackages [mcai-worker-sdk-media]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcai_worker_sdk_media-2.0.0rc8.tar.gz tmp/mcai_worker_sdk_media-2.0.0rc9.tar.gz --markdown 20230417/m/mcai-worker-sdk-media/2.0.0rc8-2.0.0rc9/diff.md --exclude *.pyd
+[2023-04-17 11:18:51] INFO root fetch - processPackages [alibabacloud-servicecatalog20210901]: Start processing: spanishconjugator
+[2023-04-17 11:18:51] INFO root fetch - main [MainThread]: End processing [alibabacloud-servicecatalog20210901]: success
+[2023-04-17 11:18:51] INFO root fetch - processPackages [xh-dict-utils]: executing diffoscope
+[2023-04-17 11:18:51] INFO root fetch - processPackages [xh-dict-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xh-dict-utils-0.0.8.tar.gz tmp/xh-dict-utils-0.0.9.tar.gz --markdown 20230417/x/xh-dict-utils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 11:18:51] INFO root fetch - processPackages [lago-python-client]: Downloading https://files.pythonhosted.org/packages/01/17/90119020d1e4cbd1b9c1280647c2cb67e8f6239107658e85b49ba696b97e/lago_python_client-0.6.2-py3-none-any.whl
+[2023-04-17 11:18:51] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-04-17 11:18:51] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230417/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-04-17 11:18:52] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-04-17 11:18:52] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-04-17 11:18:52] INFO root fetch - processPackages [bintang]: Downloading https://files.pythonhosted.org/packages/3c/72/ec6d0fd4d4f51f2bfdbdfd35f383fce23a3d99829dbf739b55910889758e/bintang-0.1.7-py3-none-any.whl
+[2023-04-17 11:18:52] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-04-17 11:18:52] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230417/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-04-17 11:18:52] INFO root fetch - processPackages [bintang]: executing diffoscope
+[2023-04-17 11:18:52] INFO root fetch - processPackages [bintang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bintang-0.1.6-py3-none-any.whl.zip tmp/bintang-0.1.7-py3-none-any.whl.zip --markdown 20230417/b/bintang/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-04-17 11:18:52] INFO root fetch - processPackages [lago-python-client]: Downloading https://files.pythonhosted.org/packages/71/4b/759008fa11aead832550f5a1093dbb6965c5a7efaf8e9226b712d3d01d32/lago_python_client-0.7.0-py3-none-any.whl
+[2023-04-17 11:18:52] INFO root fetch - processPackages [lago-python-client]: executing diffoscope
+[2023-04-17 11:18:52] INFO root fetch - processPackages [lago-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lago_python_client-0.6.2-py3-none-any.whl.zip tmp/lago_python_client-0.7.0-py3-none-any.whl.zip --markdown 20230417/l/lago-python-client/0.6.2-0.7.0/diff.md --exclude *.pyd
+[2023-04-17 11:18:52] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/cb/79/12ff7085e7cfdf78ce98e90582defa139d2be36bb151c7eb39a40bb5919c/nucliadb_contributor_assets-1.0.0.post715-py3-none-any.whl
+[2023-04-17 11:18:53] INFO root fetch - processPackages [nucliadb-contributor-assets]: executing diffoscope
+[2023-04-17 11:18:53] INFO root fetch - processPackages [nucliadb-contributor-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_contributor_assets-1.0.0.post714-py3-none-any.whl.zip tmp/nucliadb_contributor_assets-1.0.0.post715-py3-none-any.whl.zip --markdown 20230417/n/nucliadb-contributor-assets/1.0.0.post714-1.0.0.post715/diff.md --exclude *.pyd
+[2023-04-17 11:18:53] INFO root fetch - main [MainThread]: End processing [poe-api]: success
+[2023-04-17 11:18:53] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-04-17 11:18:53] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-04-17 11:18:53] INFO root fetch - main [MainThread]: End processing [bintang]: success
+[2023-04-17 11:18:53] INFO root fetch - main [MainThread]: End processing [xh-dict-utils]: success
+[2023-04-17 11:18:54] INFO root fetch - main [MainThread]: End processing [mcai-worker-sdk-media]: success
+[2023-04-17 11:18:54] INFO root fetch - main [MainThread]: End processing [lago-python-client]: success
+[2023-04-17 11:18:54] INFO root fetch - main [MainThread]: End processing [dipex]: success
+[2023-04-17 11:18:56] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
+[2023-04-17 11:18:56] INFO root fetch - main [MainThread]: Store serial: [17736057]
