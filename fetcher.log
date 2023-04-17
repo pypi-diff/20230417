@@ -6445,3 +6445,40 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 08:24:03] INFO root fetch - main [MainThread]: End processing [diengine-connect]: success
 [2023-04-17 08:24:07] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
 [2023-04-17 08:24:07] INFO root fetch - main [MainThread]: Store serial: [17734394]
+[2023-04-17 08:29:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17734394]
+[2023-04-17 08:29:16] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-17 08:29:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mirrorbot
+[2023-04-17 08:29:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mhlabs-sentiment
+[2023-04-17 08:29:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bamsalvage
+[2023-04-17 08:29:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aiosqlite
+[2023-04-17 08:29:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: prompt-forge-sdk
+[2023-04-17 08:29:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytest-result-log
+[2023-04-17 08:29:16] INFO root fetch - processPackages [bamsalvage]: New version: [0.1.2] Old Version: [0.0.1]
+[2023-04-17 08:29:16] INFO root fetch - processPackages [mirrorbot]: New version: [0.3] Old Version: [0.2]
+[2023-04-17 08:29:16] WARNING root fetch - processPackages [prompt-forge-sdk]: Skipping, unable to determine old version
+[2023-04-17 08:29:16] INFO root fetch - processPackages [aiosqlite]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-04-17 08:29:16] WARNING root fetch - processPackages [mhlabs-sentiment]: Skipping, unable to determine old version
+[2023-04-17 08:29:16] INFO root fetch - main [MainThread]: End processing [prompt-forge-sdk] error
+[2023-04-17 08:29:16] INFO root fetch - main [MainThread]: End processing [mhlabs-sentiment] error
+[2023-04-17 08:29:16] INFO root fetch - processPackages [pytest-result-log]: New version: [1.2.0] Old Version: [1.0.0]
+[2023-04-17 08:29:16] INFO root fetch - processPackages [mirrorbot]: Downloading https://files.pythonhosted.org/packages/9b/73/241fa793435f8d2bed1a290344c0139334307da1f8e38fdebe594b94c274/mirrorbot-0.2.tar.gz
+[2023-04-17 08:29:16] INFO root fetch - processPackages [aiosqlite]: Downloading https://files.pythonhosted.org/packages/fc/0c/cb7df346fce249de017442c5e53780e81c0903d330f604dfb11b0530dc93/aiosqlite-0.8.1.tar.gz
+[2023-04-17 08:29:16] INFO root fetch - processPackages [bamsalvage]: Downloading https://files.pythonhosted.org/packages/68/8f/4fdba574a1846f03ba3b59e701ac4f56d0910de67c23311aa51733f138ab/bamsalvage-0.0.1.tar.gz
+[2023-04-17 08:29:16] INFO root fetch - processPackages [pytest-result-log]: Downloading https://files.pythonhosted.org/packages/b9/9e/f6459eda2453bb211943c3c181527f20456f0783f3a2c2f086d3b010eaec/pytest_result_log-1.0.0-py3-none-any.whl
+[2023-04-17 08:29:16] INFO root fetch - processPackages [pytest-result-log]: Downloading https://files.pythonhosted.org/packages/06/2d/e1454a0ceae0c8a28ad3b31a7e1bb281a43735760210c5129cee6149f1f0/pytest_result_log-1.2.0-py3-none-any.whl
+[2023-04-17 08:29:16] INFO root fetch - processPackages [mirrorbot]: Downloading https://files.pythonhosted.org/packages/11/0b/342898bbd7f7b534d2e24cde1c0372610023812eb7b5b3a70bfe1640593a/mirrorbot-0.3.tar.gz
+[2023-04-17 08:29:16] INFO root fetch - processPackages [bamsalvage]: Downloading https://files.pythonhosted.org/packages/eb/ef/d467cf45fe6996377ae508c3ec837f31e01f963b14f0e851ca9fc3b635c9/bamsalvage-0.1.2-py3-none-any.whl
+[2023-04-17 08:29:17] INFO root fetch - processPackages [aiosqlite]: Downloading https://files.pythonhosted.org/packages/cf/2c/92fe44d4a932a5a9b2392820596f20d8e2439d63087539403f5e5d94eb68/aiosqlite-0.9.0.tar.gz
+[2023-04-17 08:29:17] INFO root fetch - processPackages [pytest-result-log]: executing diffoscope
+[2023-04-17 08:29:17] INFO root fetch - processPackages [pytest-result-log]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_result_log-1.0.0-py3-none-any.whl.zip tmp/pytest_result_log-1.2.0-py3-none-any.whl.zip --markdown 20230417/p/pytest-result-log/1.0.0-1.2.0/diff.md --exclude *.pyd
+[2023-04-17 08:29:17] INFO root fetch - processPackages [mirrorbot]: executing diffoscope
+[2023-04-17 08:29:17] INFO root fetch - processPackages [mirrorbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mirrorbot-0.2.tar.gz tmp/mirrorbot-0.3.tar.gz --markdown 20230417/m/mirrorbot/0.2-0.3/diff.md --exclude *.pyd
+[2023-04-17 08:29:17] INFO root fetch - processPackages [bamsalvage]: executing diffoscope
+[2023-04-17 08:29:17] INFO root fetch - processPackages [bamsalvage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bamsalvage-0.0.1.tar.gz tmp/bamsalvage-0.1.2-py3-none-any.whl.zip --markdown 20230417/b/bamsalvage/0.0.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-17 08:29:17] INFO root fetch - processPackages [aiosqlite]: executing diffoscope
+[2023-04-17 08:29:17] INFO root fetch - processPackages [aiosqlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiosqlite-0.8.1.tar.gz tmp/aiosqlite-0.9.0.tar.gz --markdown 20230417/a/aiosqlite/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-04-17 08:29:18] INFO root fetch - main [MainThread]: End processing [bamsalvage]: success
+[2023-04-17 08:29:18] INFO root fetch - main [MainThread]: End processing [pytest-result-log]: success
+[2023-04-17 08:29:18] INFO root fetch - main [MainThread]: End processing [aiosqlite]: success
+[2023-04-17 08:29:18] INFO root fetch - main [MainThread]: End processing [mirrorbot]: success
+[2023-04-17 08:29:18] INFO root fetch - main [MainThread]: Store serial: [17734418]
