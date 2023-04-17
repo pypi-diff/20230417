@@ -22274,3 +22274,79 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-17 22:31:25] INFO root fetch - main [MainThread]: End processing [python-datamodel]: success
 [2023-04-17 22:31:25] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
 [2023-04-17 22:31:25] INFO root fetch - main [MainThread]: Store serial: [17744056]
+[2023-04-17 22:36:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17744056]
+[2023-04-17 22:36:36] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-17 22:36:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iloscar
+[2023-04-17 22:36:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: colabtunnel
+[2023-04-17 22:36:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rabbitizer
+[2023-04-17 22:36:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: apache-airflow-providers-fastetl
+[2023-04-17 22:36:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: malariagen-data
+[2023-04-17 22:36:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hiddifypanel
+[2023-04-17 22:36:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bintropy
+[2023-04-17 22:36:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tinote
+[2023-04-17 22:36:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bowtie-json-schema
+[2023-04-17 22:36:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: OmniBridge
+[2023-04-17 22:36:36] INFO root fetch - processPackages [colabtunnel]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-17 22:36:36] WARNING root fetch - processPackages [iloscar]: Skipping, unable to determine old version
+[2023-04-17 22:36:36] INFO root fetch - processPackages [iloscar]: Start processing: servox
+[2023-04-17 22:36:36] INFO root fetch - processPackages [apache-airflow-providers-fastetl]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-17 22:36:36] INFO root fetch - main [MainThread]: End processing [iloscar] error
+[2023-04-17 22:36:36] INFO root fetch - processPackages [malariagen-data]: New version: [7.5.0] Old Version: [7.4.0]
+[2023-04-17 22:36:36] INFO root fetch - processPackages [bowtie-json-schema]: New version: [0.9.1] Old Version: [0.82.1]
+[2023-04-17 22:36:36] INFO root fetch - processPackages [tinote]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-04-17 22:36:36] INFO root fetch - processPackages [OmniBridge]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-17 22:36:36] INFO root fetch - processPackages [bintropy]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-04-17 22:36:36] INFO root fetch - processPackages [hiddifypanel]: New version: [4.0.0.dev6] Old Version: [4.0.0.dev5]
+[2023-04-17 22:36:36] INFO root fetch - processPackages [rabbitizer]: New version: [1.6.0] Old Version: [1.5.9]
+[2023-04-17 22:36:36] INFO root fetch - processPackages [servox]: New version: [2.2.4] Old Version: [2.2.3]
+[2023-04-17 22:36:36] INFO root fetch - processPackages [OmniBridge]: executing diffoscope
+[2023-04-17 22:36:36] INFO root fetch - processPackages [OmniBridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OmniBridge-0.1.8.tar.gz tmp/OmniBridge-0.1.9.tar.gz --markdown 20230417/O/OmniBridge/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-17 22:36:36] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-04-17 22:36:36] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-4.0.0.dev5-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/hiddifypanel-4.0.0.dev6-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230417/h/hiddifypanel/4.0.0.dev5-4.0.0.dev6/diff.md --exclude *.pyd
+[2023-04-17 22:36:36] INFO root fetch - processPackages [colabtunnel]: Downloading https://files.pythonhosted.org/packages/dd/3d/84637db6864c917b37d18fbab4f641d153b2ceb016bf70cdeb114ed7e5d6/colabtunnel-0.0.1.tar.gz
+[2023-04-17 22:36:36] INFO root fetch - processPackages [bowtie-json-schema]: Downloading https://files.pythonhosted.org/packages/b4/40/0902cdcd71d7f53963324106addeda01c279b560242886b9f1effc89b318/bowtie_json_schema-0.82.1.tar.gz
+[2023-04-17 22:36:36] INFO root fetch - processPackages [malariagen-data]: Downloading https://files.pythonhosted.org/packages/ad/61/fa553990bbd92fa6cf6d7c202cdb1a6d622d3f82179cfa87779ffb813c9e/malariagen_data-7.4.0.tar.gz
+[2023-04-17 22:36:36] INFO root fetch - processPackages [apache-airflow-providers-fastetl]: Downloading https://files.pythonhosted.org/packages/f2/c2/9e7ac137ff43470836125dc5e1c2227595775ef8f30a2c6d2085dd8eb7fe/apache-airflow-providers-fastetl-0.0.8.tar.gz
+[2023-04-17 22:36:36] INFO root fetch - processPackages [bintropy]: Downloading https://files.pythonhosted.org/packages/53/77/a5a28a3cef9ef6be2bcea3e21d009b7e637a73e28de213e323b66943d65e/bintropy-1.4.3.tar.gz
+[2023-04-17 22:36:36] INFO root fetch - processPackages [rabbitizer]: Downloading https://files.pythonhosted.org/packages/a5/de/0ed6066153e4beae4c74a7258ed81bd20a7a564d8a8f8db84bb8bda60a64/rabbitizer-1.5.9.tar.gz
+[2023-04-17 22:36:36] INFO root fetch - processPackages [tinote]: Downloading https://files.pythonhosted.org/packages/53/90/95d091737598717ef248b71c4224d806b94174e15f731268f0669d0111d5/tinote-0.3.2.tar.gz
+[2023-04-17 22:36:36] INFO root fetch - processPackages [servox]: Downloading https://files.pythonhosted.org/packages/0c/aa/0961ce14842b351f957d385a08e8ea59ffe9317ce8b477ddca06b6926bd5/servox-2.2.3.tar.gz
+[2023-04-17 22:36:36] INFO root fetch - processPackages [apache-airflow-providers-fastetl]: executing diffoscope
+[2023-04-17 22:36:36] INFO root fetch - processPackages [apache-airflow-providers-fastetl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-fastetl-0.0.7.tar.gz tmp/apache-airflow-providers-fastetl-0.0.8.tar.gz --markdown 20230417/a/apache-airflow-providers-fastetl/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-17 22:36:36] INFO root fetch - processPackages [bintropy]: executing diffoscope
+[2023-04-17 22:36:36] INFO root fetch - processPackages [bintropy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bintropy-1.4.2.tar.gz tmp/bintropy-1.4.3.tar.gz --markdown 20230417/b/bintropy/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-04-17 22:36:36] INFO root fetch - processPackages [malariagen-data]: Downloading https://files.pythonhosted.org/packages/c0/05/7aa1b6293c423b84ac0588bd9e3ed9dfa152dc89cd7f34cb124b2a805283/malariagen_data-7.5.0.tar.gz
+[2023-04-17 22:36:36] INFO root fetch - processPackages [tinote]: executing diffoscope
+[2023-04-17 22:36:36] INFO root fetch - processPackages [rabbitizer]: Downloading https://files.pythonhosted.org/packages/23/2d/8eb11fdb0e51c16e93f7b7d144781c93ab8109178b8c14c3b65687e7a764/rabbitizer-1.6.0.tar.gz
+[2023-04-17 22:36:36] INFO root fetch - processPackages [tinote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinote-0.3.1.tar.gz tmp/tinote-0.3.2.tar.gz --markdown 20230417/t/tinote/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-04-17 22:36:36] INFO root fetch - processPackages [colabtunnel]: Downloading https://files.pythonhosted.org/packages/4d/7a/e6fd4a596a9ed33edae4d1c20de956aecd2715053d786d846f92325b7371/colabtunnel-0.0.2.tar.gz
+[2023-04-17 22:36:36] INFO root fetch - processPackages [bowtie-json-schema]: Downloading https://files.pythonhosted.org/packages/bf/c7/c686e7eab7c29189750df4ad4b94d5be441de878e4e9b82b220088800e88/bowtie_json_schema-0.9.1.tar.gz
+[2023-04-17 22:36:36] INFO root fetch - processPackages [servox]: Downloading https://files.pythonhosted.org/packages/3d/25/69a99af99a226637480b5466ebb80d1f0642d3fd13868856c5e733b2da54/servox-2.2.4.tar.gz
+[2023-04-17 22:36:37] INFO root fetch - processPackages [colabtunnel]: executing diffoscope
+[2023-04-17 22:36:37] INFO root fetch - processPackages [colabtunnel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colabtunnel-0.0.1.tar.gz tmp/colabtunnel-0.0.2.tar.gz --markdown 20230417/c/colabtunnel/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-17 22:36:37] INFO root fetch - processPackages [malariagen-data]: executing diffoscope
+[2023-04-17 22:36:37] INFO root fetch - processPackages [malariagen-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/malariagen_data-7.4.0.tar.gz tmp/malariagen_data-7.5.0.tar.gz --markdown 20230417/m/malariagen-data/7.4.0-7.5.0/diff.md --exclude *.pyd
+[2023-04-17 22:36:37] INFO root fetch - processPackages [rabbitizer]: executing diffoscope
+[2023-04-17 22:36:37] INFO root fetch - processPackages [rabbitizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rabbitizer-1.5.9.tar.gz tmp/rabbitizer-1.6.0.tar.gz --markdown 20230417/r/rabbitizer/1.5.9-1.6.0/diff.md --exclude *.pyd
+[2023-04-17 22:36:37] INFO root fetch - processPackages [bowtie-json-schema]: executing diffoscope
+[2023-04-17 22:36:37] INFO root fetch - processPackages [bowtie-json-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bowtie_json_schema-0.82.1.tar.gz tmp/bowtie_json_schema-0.9.1.tar.gz --markdown 20230417/b/bowtie-json-schema/0.82.1-0.9.1/diff.md --exclude *.pyd
+[2023-04-17 22:36:37] INFO root fetch - processPackages [servox]: executing diffoscope
+[2023-04-17 22:36:37] INFO root fetch - processPackages [servox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/servox-2.2.3.tar.gz tmp/servox-2.2.4.tar.gz --markdown 20230417/s/servox/2.2.3-2.2.4/diff.md --exclude *.pyd
+[2023-04-17 22:36:38] INFO root fetch - processPackages [OmniBridge]: Start processing: clipdetect
+[2023-04-17 22:36:38] INFO root fetch - main [MainThread]: End processing [OmniBridge]: success
+[2023-04-17 22:36:38] INFO root fetch - processPackages [clipdetect]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-17 22:36:38] INFO root fetch - processPackages [clipdetect]: Downloading https://files.pythonhosted.org/packages/d4/33/90eea5dc0c92a0ae3363c46d9544df3d1b5015945ff72c8dbf91bdb6871f/clipdetect-0.1.1.tar.gz
+[2023-04-17 22:36:38] INFO root fetch - main [MainThread]: End processing [bintropy]: success
+[2023-04-17 22:36:38] INFO root fetch - main [MainThread]: End processing [tinote]: success
+[2023-04-17 22:36:38] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-fastetl]: success
+[2023-04-17 22:36:38] INFO root fetch - main [MainThread]: End processing [colabtunnel]: success
+[2023-04-17 22:36:38] INFO root fetch - processPackages [clipdetect]: Downloading https://files.pythonhosted.org/packages/9c/cc/9c17d81cf480b329d65b7164febfd780cca6d44e0470642caabd64f68786/clipdetect-0.1.2.tar.gz
+[2023-04-17 22:36:38] INFO root fetch - processPackages [clipdetect]: executing diffoscope
+[2023-04-17 22:36:38] INFO root fetch - processPackages [clipdetect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clipdetect-0.1.1.tar.gz tmp/clipdetect-0.1.2.tar.gz --markdown 20230417/c/clipdetect/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-17 22:36:39] INFO root fetch - main [MainThread]: End processing [rabbitizer]: success
+[2023-04-17 22:36:39] INFO root fetch - main [MainThread]: End processing [clipdetect]: success
+[2023-04-17 22:36:40] INFO root fetch - main [MainThread]: End processing [malariagen-data]: success
+[2023-04-17 22:36:40] INFO root fetch - main [MainThread]: End processing [servox]: success
+[2023-04-17 22:36:40] INFO root fetch - main [MainThread]: End processing [bowtie-json-schema]: success
+[2023-04-17 22:36:52] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-04-17 22:36:52] INFO root fetch - main [MainThread]: Store serial: [17744158]
