@@ -5180,3 +5180,41 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 06:18:48] INFO root fetch - main [MainThread]: End processing [wmagent]: success
 [2023-04-17 06:19:12] INFO root fetch - main [MainThread]: End processing [wmcore]: success
 [2023-04-17 06:19:12] INFO root fetch - main [MainThread]: Store serial: [17733662]
+[2023-04-17 06:24:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17733662]
+[2023-04-17 06:24:22] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-17 06:24:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flarespy
+[2023-04-17 06:24:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gmn
+[2023-04-17 06:24:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Askpyro
+[2023-04-17 06:24:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tamizh
+[2023-04-17 06:24:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: copymanga-dl
+[2023-04-17 06:24:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: github-rest-api
+[2023-04-17 06:24:22] INFO root fetch - processPackages [Askpyro]: New version: [1.70] Old Version: [1.69]
+[2023-04-17 06:24:22] INFO root fetch - processPackages [copymanga-dl]: New version: [3.1] Old Version: [3.0]
+[2023-04-17 06:24:22] INFO root fetch - processPackages [gmn]: New version: [1.3.0] Old Version: [1.2.2]
+[2023-04-17 06:24:22] INFO root fetch - processPackages [github-rest-api]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-17 06:24:22] WARNING root fetch - processPackages [tamizh]: Skipping, unable to determine old version
+[2023-04-17 06:24:22] INFO root fetch - processPackages [flarespy]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-04-17 06:24:22] INFO root fetch - main [MainThread]: End processing [tamizh] error
+[2023-04-17 06:24:22] INFO root fetch - processPackages [github-rest-api]: executing diffoscope
+[2023-04-17 06:24:22] INFO root fetch - processPackages [github-rest-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/github_rest_api-0.8.0.tar.gz tmp/github_rest_api-0.9.0.tar.gz --markdown 20230417/g/github-rest-api/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-17 06:24:22] INFO root fetch - processPackages [gmn]: Downloading https://files.pythonhosted.org/packages/1d/a1/a9aa14c53a2d534af3dd96904e3acce7a75e1c38a7d74eb9ab416a33100c/gmn-1.2.2.tar.gz
+[2023-04-17 06:24:22] INFO root fetch - processPackages [Askpyro]: Downloading https://files.pythonhosted.org/packages/58/55/8e4ab65ec939dace4387aa22782a17c2cc179b47744b81fd95193f05598a/askpyro-1.69.tar.gz
+[2023-04-17 06:24:22] INFO root fetch - processPackages [copymanga-dl]: Downloading https://files.pythonhosted.org/packages/3a/29/ea12cdc2fee0e29bc219d420887700788a493bd26582175afe4f19281551/copymanga_dl-3.0.tar.gz
+[2023-04-17 06:24:22] INFO root fetch - processPackages [flarespy]: Downloading https://files.pythonhosted.org/packages/1b/59/97c0994af564c64ceec2426705e6b82678695e86d0263acf21fe7dec03a7/flarespy-0.6.1.tar.gz
+[2023-04-17 06:24:22] INFO root fetch - processPackages [gmn]: Downloading https://files.pythonhosted.org/packages/e8/f0/e93eaa9254bf71f2d7cec114efbaae8282cd421f2157a144beaf3f8d7422/gmn-1.3.0.tar.gz
+[2023-04-17 06:24:22] INFO root fetch - processPackages [copymanga-dl]: Downloading https://files.pythonhosted.org/packages/27/43/837bada4c6041bec79449f257c8669132f060eb6e97938b52fe344b4ec57/copymanga_dl-3.1.tar.gz
+[2023-04-17 06:24:23] INFO root fetch - processPackages [Askpyro]: Downloading https://files.pythonhosted.org/packages/fb/d8/2c372ac5dc2345d4acfb9c318d3a952c310102d7614a1f2e41794d9bec9d/Askpyro-1.70.tar.gz
+[2023-04-17 06:24:23] INFO root fetch - processPackages [gmn]: executing diffoscope
+[2023-04-17 06:24:23] INFO root fetch - processPackages [gmn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmn-1.2.2.tar.gz tmp/gmn-1.3.0.tar.gz --markdown 20230417/g/gmn/1.2.2-1.3.0/diff.md --exclude *.pyd
+[2023-04-17 06:24:23] INFO root fetch - processPackages [flarespy]: executing diffoscope
+[2023-04-17 06:24:23] INFO root fetch - processPackages [flarespy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flarespy-0.6.0.tar.gz tmp/flarespy-0.6.1.tar.gz --markdown 20230417/f/flarespy/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-04-17 06:24:23] INFO root fetch - processPackages [copymanga-dl]: executing diffoscope
+[2023-04-17 06:24:23] INFO root fetch - processPackages [copymanga-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/copymanga_dl-3.0.tar.gz tmp/copymanga_dl-3.1.tar.gz --markdown 20230417/c/copymanga-dl/3.0-3.1/diff.md --exclude *.pyd
+[2023-04-17 06:24:23] INFO root fetch - processPackages [Askpyro]: executing diffoscope
+[2023-04-17 06:24:23] INFO root fetch - processPackages [Askpyro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/askpyro-1.69.tar.gz tmp/Askpyro-1.70.tar.gz --markdown 20230417/A/Askpyro/1.69-1.70/diff.md --exclude *.pyd
+[2023-04-17 06:24:23] INFO root fetch - main [MainThread]: End processing [github-rest-api]: success
+[2023-04-17 06:24:24] INFO root fetch - main [MainThread]: End processing [copymanga-dl]: success
+[2023-04-17 06:24:24] INFO root fetch - main [MainThread]: End processing [gmn]: success
+[2023-04-17 06:24:24] INFO root fetch - main [MainThread]: End processing [Askpyro]: success
+[2023-04-17 06:24:24] INFO root fetch - main [MainThread]: End processing [flarespy]: success
+[2023-04-17 06:24:24] INFO root fetch - main [MainThread]: Store serial: [17733682]
