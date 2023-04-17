@@ -4236,3 +4236,78 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 04:54:04] INFO root fetch - main [MainThread]: End processing [tasxnat]: success
 [2023-04-17 04:54:05] INFO root fetch - main [MainThread]: End processing [macrometa-target-mongo]: success
 [2023-04-17 04:54:05] INFO root fetch - main [MainThread]: Store serial: [17733110]
+[2023-04-17 04:59:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17733110]
+[2023-04-17 04:59:13] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-17 04:59:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: skyagi
+[2023-04-17 04:59:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: macrometa-target-snowflake
+[2023-04-17 04:59:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastdeploy-python
+[2023-04-17 04:59:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: macrometa-target-postgres
+[2023-04-17 04:59:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xdsl
+[2023-04-17 04:59:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dataknobs
+[2023-04-17 04:59:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: carefree-drawboard
+[2023-04-17 04:59:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PrSpiders
+[2023-04-17 04:59:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: loganmatic
+[2023-04-17 04:59:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pytest-frappe
+[2023-04-17 04:59:14] INFO root fetch - processPackages [macrometa-target-postgres]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 04:59:14] INFO root fetch - processPackages [skyagi]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-17 04:59:14] INFO root fetch - processPackages [pytest-frappe]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-17 04:59:14] INFO root fetch - processPackages [fastdeploy-python]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-04-17 04:59:14] INFO root fetch - processPackages [loganmatic]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 04:59:14] INFO root fetch - processPackages [macrometa-target-snowflake]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 04:59:14] WARNING root fetch - processPackages [carefree-drawboard]: Skipping, unable to determine old version
+[2023-04-17 04:59:14] INFO root fetch - processPackages [carefree-drawboard]: Start processing: mindsdb-evaluator
+[2023-04-17 04:59:14] INFO root fetch - main [MainThread]: End processing [carefree-drawboard] error
+[2023-04-17 04:59:14] INFO root fetch - processPackages [pytest-frappe]: executing diffoscope
+[2023-04-17 04:59:14] INFO root fetch - processPackages [loganmatic]: executing diffoscope
+[2023-04-17 04:59:14] INFO root fetch - processPackages [pytest-frappe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-frappe-0.0.3.tar.gz tmp/pytest-frappe-0.0.4.tar.gz --markdown 20230417/p/pytest-frappe/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-17 04:59:14] INFO root fetch - processPackages [loganmatic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loganmatic-0.0.8.tar.gz tmp/loganmatic-0.0.9.tar.gz --markdown 20230417/l/loganmatic/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 04:59:14] INFO root fetch - processPackages [dataknobs]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-17 04:59:14] INFO root fetch - processPackages [PrSpiders]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-17 04:59:14] INFO root fetch - processPackages [xdsl]: New version: [0.9.1] Old Version: [0.9]
+[2023-04-17 04:59:14] INFO root fetch - processPackages [mindsdb-evaluator]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-17 04:59:14] INFO root fetch - processPackages [skyagi]: Downloading https://files.pythonhosted.org/packages/ae/6e/9199b4baa379ad6dbe8f6279924c2b2f14d1598d5a1a13f4465d81b8e6e0/skyagi-0.0.1-py3-none-any.whl
+[2023-04-17 04:59:14] INFO root fetch - processPackages [macrometa-target-postgres]: Downloading https://files.pythonhosted.org/packages/26/2d/fc4b31224bb1b913acec648292a678d9f7683561eb2bc6dec6d6b5d2bec5/macrometa-target-postgres-0.0.8.tar.gz
+[2023-04-17 04:59:14] INFO root fetch - processPackages [fastdeploy-python]: Downloading https://files.pythonhosted.org/packages/d4/cf/393e12b2b54ba679d84ca077fb11dd16cdbcf066e3ab249d9abc51e4f2af/fastdeploy_python-1.0.5-cp39-cp39-win_amd64.whl
+[2023-04-17 04:59:14] INFO root fetch - processPackages [macrometa-target-snowflake]: Downloading https://files.pythonhosted.org/packages/2c/e4/8bcbc5f4f3068a7d86e14052af3e60ebc730e141065f99e9fd303b8c72b9/macrometa-target-snowflake-0.0.8.tar.gz
+[2023-04-17 04:59:14] INFO root fetch - processPackages [PrSpiders]: Downloading https://files.pythonhosted.org/packages/fc/64/09a1ce78560cce2b389378f6bf8dd31c5135117a85e29ea95921e428ae2b/PrSpiders-0.2.8.tar.gz
+[2023-04-17 04:59:14] INFO root fetch - processPackages [dataknobs]: Downloading https://files.pythonhosted.org/packages/14/aa/c46df5b554415b6d692978c6c982729ac1940db6ef0efbb12b98db4c59ae/dataknobs-0.0.1.tar.gz
+[2023-04-17 04:59:14] INFO root fetch - processPackages [xdsl]: Downloading https://files.pythonhosted.org/packages/23/a4/9c3968d2188784c8158b990c96e67790ee40a3a3091eb156dbc96aef844f/xdsl-0.9.tar.gz
+[2023-04-17 04:59:14] INFO root fetch - processPackages [mindsdb-evaluator]: Downloading https://files.pythonhosted.org/packages/f0/b7/f6cebb8548e5c4bdea91e84b356a47906ec49bfc5e598f3beb3aea40aa9b/mindsdb_evaluator-0.0.6.tar.gz
+[2023-04-17 04:59:14] INFO root fetch - processPackages [skyagi]: Downloading https://files.pythonhosted.org/packages/a6/02/92fcc3a98ca7067a847c95fbed0f5c281b14c06fd1e005285c86d0ce19fd/skyagi-0.0.2.tar.gz
+[2023-04-17 04:59:14] INFO root fetch - processPackages [PrSpiders]: Downloading https://files.pythonhosted.org/packages/3c/7a/8971d44722f58741bc51c6201d9cbaa271588ae22c7848055650d184f629/PrSpiders-0.2.9.tar.gz
+[2023-04-17 04:59:14] INFO root fetch - processPackages [macrometa-target-postgres]: Downloading https://files.pythonhosted.org/packages/2b/b6/d492597bdf160b748f1ef192c570821bcdec04e77828b16d7b7f06addb2d/macrometa-target-postgres-0.0.9.tar.gz
+[2023-04-17 04:59:14] INFO root fetch - processPackages [macrometa-target-snowflake]: Downloading https://files.pythonhosted.org/packages/7e/fa/48b7ff1ddeb683244982cee81022d74733ce456fa556798f0546b6a9b81c/macrometa-target-snowflake-0.0.9.tar.gz
+[2023-04-17 04:59:14] WARNING root fetch - processPackages [fastdeploy-python]: Skipping package: exceeds size limit 227977862>=10485760
+[2023-04-17 04:59:14] INFO root fetch - processPackages [fastdeploy-python]: Start processing: sourcery-nightly
+[2023-04-17 04:59:14] INFO root fetch - main [MainThread]: End processing [fastdeploy-python] error
+[2023-04-17 04:59:14] INFO root fetch - processPackages [skyagi]: executing diffoscope
+[2023-04-17 04:59:14] INFO root fetch - processPackages [skyagi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skyagi-0.0.1-py3-none-any.whl.zip tmp/skyagi-0.0.2.tar.gz --markdown 20230417/s/skyagi/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-17 04:59:14] INFO root fetch - processPackages [dataknobs]: Downloading https://files.pythonhosted.org/packages/54/09/cff6c0c893676d99af61f8de464041e9f3769713f2be54710f4b8401f40a/dataknobs-0.0.2.tar.gz
+[2023-04-17 04:59:14] INFO root fetch - processPackages [mindsdb-evaluator]: Downloading https://files.pythonhosted.org/packages/e5/90/5d182ba6d1db71f846af9968b1425b8d21bccb44bf9390ff9d8b05d1870f/mindsdb_evaluator-0.0.7.tar.gz
+[2023-04-17 04:59:14] INFO root fetch - processPackages [PrSpiders]: executing diffoscope
+[2023-04-17 04:59:14] INFO root fetch - processPackages [PrSpiders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PrSpiders-0.2.8.tar.gz tmp/PrSpiders-0.2.9.tar.gz --markdown 20230417/P/PrSpiders/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-17 04:59:14] INFO root fetch - processPackages [xdsl]: Downloading https://files.pythonhosted.org/packages/8f/4d/b8bd14cd7b1fc624df754867bdd7761fc461787dd1167b703c2174b483be/xdsl-0.9.1.tar.gz
+[2023-04-17 04:59:14] INFO root fetch - processPackages [macrometa-target-postgres]: executing diffoscope
+[2023-04-17 04:59:14] INFO root fetch - processPackages [macrometa-target-postgres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-postgres-0.0.8.tar.gz tmp/macrometa-target-postgres-0.0.9.tar.gz --markdown 20230417/m/macrometa-target-postgres/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 04:59:14] INFO root fetch - processPackages [macrometa-target-snowflake]: executing diffoscope
+[2023-04-17 04:59:14] INFO root fetch - processPackages [macrometa-target-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-snowflake-0.0.8.tar.gz tmp/macrometa-target-snowflake-0.0.9.tar.gz --markdown 20230417/m/macrometa-target-snowflake/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 04:59:14] INFO root fetch - processPackages [sourcery-nightly]: New version: [1.2.1b3] Old Version: [1.2.0]
+[2023-04-17 04:59:14] INFO root fetch - processPackages [dataknobs]: executing diffoscope
+[2023-04-17 04:59:14] INFO root fetch - processPackages [dataknobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataknobs-0.0.1.tar.gz tmp/dataknobs-0.0.2.tar.gz --markdown 20230417/d/dataknobs/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-17 04:59:14] INFO root fetch - processPackages [mindsdb-evaluator]: executing diffoscope
+[2023-04-17 04:59:14] INFO root fetch - processPackages [mindsdb-evaluator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mindsdb_evaluator-0.0.6.tar.gz tmp/mindsdb_evaluator-0.0.7.tar.gz --markdown 20230417/m/mindsdb-evaluator/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-17 04:59:14] INFO root fetch - processPackages [xdsl]: executing diffoscope
+[2023-04-17 04:59:14] INFO root fetch - processPackages [xdsl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xdsl-0.9.tar.gz tmp/xdsl-0.9.1.tar.gz --markdown 20230417/x/xdsl/0.9-0.9.1/diff.md --exclude *.pyd
+[2023-04-17 04:59:14] INFO root fetch - processPackages [sourcery-nightly]: Downloading https://files.pythonhosted.org/packages/98/5f/c97d0bcf3882859d9a0388b3c48807a8744afa4a94a13766dfe0244524bd/sourcery_nightly-1.2.0-py2.py3-none-win_amd64.whl
+[2023-04-17 04:59:15] INFO root fetch - main [MainThread]: End processing [pytest-frappe]: success
+[2023-04-17 04:59:15] INFO root fetch - main [MainThread]: End processing [loganmatic]: success
+[2023-04-17 04:59:15] WARNING root fetch - processPackages [sourcery-nightly]: Skipping package: exceeds size limit 58559238>=10485760
+[2023-04-17 04:59:15] INFO root fetch - main [MainThread]: End processing [sourcery-nightly] error
+[2023-04-17 04:59:15] INFO root fetch - main [MainThread]: End processing [skyagi]: success
+[2023-04-17 04:59:15] INFO root fetch - main [MainThread]: End processing [macrometa-target-postgres]: success
+[2023-04-17 04:59:16] INFO root fetch - main [MainThread]: End processing [PrSpiders]: success
+[2023-04-17 04:59:16] INFO root fetch - main [MainThread]: End processing [mindsdb-evaluator]: success
+[2023-04-17 04:59:16] INFO root fetch - main [MainThread]: End processing [dataknobs]: success
+[2023-04-17 04:59:16] INFO root fetch - main [MainThread]: End processing [macrometa-target-snowflake]: success
+[2023-04-17 04:59:17] INFO root fetch - main [MainThread]: End processing [xdsl]: success
+[2023-04-17 04:59:17] INFO root fetch - main [MainThread]: Store serial: [17733147]
