@@ -3592,3 +3592,55 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 03:40:12] INFO root fetch - main [MainThread]: End processing [buildbot]: success
 [2023-04-17 03:40:14] INFO root fetch - main [MainThread]: End processing [prettyqt]: success
 [2023-04-17 03:40:14] INFO root fetch - main [MainThread]: Store serial: [17732704]
+[2023-04-17 03:45:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17732704]
+[2023-04-17 03:45:23] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-17 03:45:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: glinux-identify
+[2023-04-17 03:45:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: glinux-boot-image-kthresher
+[2023-04-17 03:45:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: glinux-homedir-helper
+[2023-04-17 03:45:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: glinux-identity
+[2023-04-17 03:45:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: glinux-shutdown-installer
+[2023-04-17 03:45:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: goobuntu-gce-login-policy
+[2023-04-17 03:45:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: goobuntu-sso-watcher
+[2023-04-17 03:45:23] INFO root fetch - processPackages [glinux-boot-image-kthresher]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-17 03:45:23] INFO root fetch - processPackages [goobuntu-sso-watcher]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-17 03:45:23] INFO root fetch - processPackages [glinux-identify]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-17 03:45:23] INFO root fetch - processPackages [goobuntu-gce-login-policy]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-17 03:45:23] INFO root fetch - processPackages [glinux-identity]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-17 03:45:23] INFO root fetch - processPackages [glinux-homedir-helper]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-17 03:45:23] INFO root fetch - processPackages [glinux-shutdown-installer]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-17 03:45:23] INFO root fetch - processPackages [glinux-boot-image-kthresher]: Downloading https://files.pythonhosted.org/packages/33/21/9225d830e96513b477992e1da135d83fa0c6ca3c26b43718bfd1bbb0d458/glinux-boot-image-kthresher-0.0.1.tar.gz
+[2023-04-17 03:45:23] INFO root fetch - processPackages [goobuntu-sso-watcher]: Downloading https://files.pythonhosted.org/packages/b7/95/d98f915c398644883444004af13b4c8aa54918c5d19729d8864b1e53f30c/goobuntu-sso-watcher-0.0.1.tar.gz
+[2023-04-17 03:45:23] INFO root fetch - processPackages [glinux-homedir-helper]: Downloading https://files.pythonhosted.org/packages/fe/ff/1ea6899a0bc9d0061241592ec5eacfc4256ff7dbde22bf95e2b1c87a80e1/glinux-homedir-helper-0.0.1.tar.gz
+[2023-04-17 03:45:23] INFO root fetch - processPackages [glinux-identify]: Downloading https://files.pythonhosted.org/packages/5f/92/bf5a3007862c6663fa625adc66bed5226210c55cb65acd3d6b9a6c999a74/glinux-identify-0.0.1.tar.gz
+[2023-04-17 03:45:23] INFO root fetch - processPackages [glinux-identity]: Downloading https://files.pythonhosted.org/packages/69/0e/a79c9c68ee7fea46712a8fdb04059237cf23770830ab9e3954064897f37e/glinux-identity-0.0.1.tar.gz
+[2023-04-17 03:45:23] INFO root fetch - processPackages [goobuntu-gce-login-policy]: Downloading https://files.pythonhosted.org/packages/30/42/a628d2c71726e2f7012742fc94c932467ddccd2ec2d36259e1f1dd9aa4dd/goobuntu-gce-login-policy-0.0.1.tar.gz
+[2023-04-17 03:45:23] INFO root fetch - processPackages [glinux-shutdown-installer]: Downloading https://files.pythonhosted.org/packages/aa/54/5003cbbc97f17826061b0ca66cd1d588edc4856d346f640875575ee986c6/glinux-shutdown-installer-0.0.1.tar.gz
+[2023-04-17 03:45:23] INFO root fetch - processPackages [goobuntu-sso-watcher]: Downloading https://files.pythonhosted.org/packages/dd/36/800e09e0360473178808d80bd656e81c2b0ded7702c8662f693cd404e20c/goobuntu-sso-watcher-0.0.2.tar.gz
+[2023-04-17 03:45:23] INFO root fetch - processPackages [glinux-boot-image-kthresher]: Downloading https://files.pythonhosted.org/packages/9f/45/fd9bc035f380a5307ce34f68b3c8d6646e030502e5508fe0842f5f62140e/glinux-boot-image-kthresher-0.0.2.tar.gz
+[2023-04-17 03:45:23] INFO root fetch - processPackages [glinux-identity]: Downloading https://files.pythonhosted.org/packages/45/9f/4d0595d1f5bca3892f688ef7d16db61b7363974a302bbd723177f53a3510/glinux-identity-0.0.2.tar.gz
+[2023-04-17 03:45:23] INFO root fetch - processPackages [glinux-identify]: Downloading https://files.pythonhosted.org/packages/71/77/7b39a930b3e01bb98d5c7fcf54e5af4a6dedaea3f94a2db73b944b2ff3b0/glinux-identify-0.0.2.tar.gz
+[2023-04-17 03:45:23] INFO root fetch - processPackages [glinux-shutdown-installer]: Downloading https://files.pythonhosted.org/packages/fd/74/f712e732262c2709fad7bbabe80406c722e9ea81ed249cfa11c14ad069c9/glinux-shutdown-installer-0.0.2.tar.gz
+[2023-04-17 03:45:23] INFO root fetch - processPackages [goobuntu-gce-login-policy]: Downloading https://files.pythonhosted.org/packages/f4/1b/233d4b32db276237bbfee2a2399e1444d29f3f89a10d3b01420398f95f5f/goobuntu-gce-login-policy-0.0.2.tar.gz
+[2023-04-17 03:45:23] INFO root fetch - processPackages [glinux-homedir-helper]: Downloading https://files.pythonhosted.org/packages/59/1e/1db8b4455317a2ae782810cd31a6757be1303e95cea92250cc642832a2c1/glinux-homedir-helper-0.0.2.tar.gz
+[2023-04-17 03:45:23] INFO root fetch - processPackages [goobuntu-sso-watcher]: executing diffoscope
+[2023-04-17 03:45:23] INFO root fetch - processPackages [goobuntu-sso-watcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goobuntu-sso-watcher-0.0.1.tar.gz tmp/goobuntu-sso-watcher-0.0.2.tar.gz --markdown 20230417/g/goobuntu-sso-watcher/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-17 03:45:23] INFO root fetch - processPackages [glinux-identity]: executing diffoscope
+[2023-04-17 03:45:23] INFO root fetch - processPackages [glinux-identity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glinux-identity-0.0.1.tar.gz tmp/glinux-identity-0.0.2.tar.gz --markdown 20230417/g/glinux-identity/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-17 03:45:23] INFO root fetch - processPackages [glinux-boot-image-kthresher]: executing diffoscope
+[2023-04-17 03:45:23] INFO root fetch - processPackages [glinux-boot-image-kthresher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glinux-boot-image-kthresher-0.0.1.tar.gz tmp/glinux-boot-image-kthresher-0.0.2.tar.gz --markdown 20230417/g/glinux-boot-image-kthresher/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-17 03:45:23] INFO root fetch - processPackages [glinux-identify]: executing diffoscope
+[2023-04-17 03:45:23] INFO root fetch - processPackages [glinux-identify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glinux-identify-0.0.1.tar.gz tmp/glinux-identify-0.0.2.tar.gz --markdown 20230417/g/glinux-identify/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-17 03:45:23] INFO root fetch - processPackages [glinux-shutdown-installer]: executing diffoscope
+[2023-04-17 03:45:23] INFO root fetch - processPackages [glinux-shutdown-installer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glinux-shutdown-installer-0.0.1.tar.gz tmp/glinux-shutdown-installer-0.0.2.tar.gz --markdown 20230417/g/glinux-shutdown-installer/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-17 03:45:23] INFO root fetch - processPackages [goobuntu-gce-login-policy]: executing diffoscope
+[2023-04-17 03:45:23] INFO root fetch - processPackages [goobuntu-gce-login-policy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goobuntu-gce-login-policy-0.0.1.tar.gz tmp/goobuntu-gce-login-policy-0.0.2.tar.gz --markdown 20230417/g/goobuntu-gce-login-policy/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-17 03:45:23] INFO root fetch - processPackages [glinux-homedir-helper]: executing diffoscope
+[2023-04-17 03:45:23] INFO root fetch - processPackages [glinux-homedir-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glinux-homedir-helper-0.0.1.tar.gz tmp/glinux-homedir-helper-0.0.2.tar.gz --markdown 20230417/g/glinux-homedir-helper/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-17 03:45:25] INFO root fetch - main [MainThread]: End processing [goobuntu-sso-watcher]: success
+[2023-04-17 03:45:25] INFO root fetch - main [MainThread]: End processing [glinux-boot-image-kthresher]: success
+[2023-04-17 03:45:25] INFO root fetch - main [MainThread]: End processing [glinux-identity]: success
+[2023-04-17 03:45:25] INFO root fetch - main [MainThread]: End processing [goobuntu-gce-login-policy]: success
+[2023-04-17 03:45:25] INFO root fetch - main [MainThread]: End processing [glinux-identify]: success
+[2023-04-17 03:45:25] INFO root fetch - main [MainThread]: End processing [glinux-homedir-helper]: success
+[2023-04-17 03:45:25] INFO root fetch - main [MainThread]: End processing [glinux-shutdown-installer]: success
+[2023-04-17 03:45:25] INFO root fetch - main [MainThread]: Store serial: [17732718]
