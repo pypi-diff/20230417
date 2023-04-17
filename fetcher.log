@@ -20667,3 +20667,63 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-17 20:55:53] INFO root fetch - main [MainThread]: End processing [coiled]: success
 [2023-04-17 20:55:59] INFO root fetch - main [MainThread]: End processing [pex]: success
 [2023-04-17 20:55:59] INFO root fetch - main [MainThread]: Store serial: [17743026]
+[2023-04-17 21:01:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17743026]
+[2023-04-17 21:01:09] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-17 21:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hiddifypanel
+[2023-04-17 21:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nextcloudtalkbot
+[2023-04-17 21:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ssss
+[2023-04-17 21:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cwsearch-utils
+[2023-04-17 21:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: liblxml3
+[2023-04-17 21:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: genomenotebook
+[2023-04-17 21:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: g2p
+[2023-04-17 21:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: update-packages
+[2023-04-17 21:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mirrorbot
+[2023-04-17 21:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xh-dict-utils
+[2023-04-17 21:01:09] WARNING root fetch - processPackages [liblxml3]: Skipping, unable to determine old version
+[2023-04-17 21:01:09] INFO root fetch - processPackages [liblxml3]: Start processing: globus-compute-sdk
+[2023-04-17 21:01:09] INFO root fetch - main [MainThread]: End processing [liblxml3] error
+[2023-04-17 21:01:09] INFO root fetch - processPackages [mirrorbot]: New version: [1.1] Old Version: [1.0]
+[2023-04-17 21:01:09] WARNING root fetch - processPackages [ssss]: Skipping, unable to determine old version
+[2023-04-17 21:01:09] INFO root fetch - main [MainThread]: End processing [ssss] error
+[2023-04-17 21:01:09] INFO root fetch - processPackages [xh-dict-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 21:01:09] INFO root fetch - processPackages [genomenotebook]: New version: [0.2.1] Old Version: [0.2]
+[2023-04-17 21:01:09] INFO root fetch - processPackages [g2p]: New version: [1.0.20230417] Old Version: [1.0.20230412]
+[2023-04-17 21:01:09] INFO root fetch - processPackages [cwsearch-utils]: New version: [0.1.0] Old Version: [0.0.4]
+[2023-04-17 21:01:09] WARNING root fetch - processPackages [update-packages]: Skipping, unable to determine old version
+[2023-04-17 21:01:09] INFO root fetch - main [MainThread]: End processing [update-packages] error
+[2023-04-17 21:01:09] INFO root fetch - processPackages [nextcloudtalkbot]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 21:01:09] INFO root fetch - processPackages [hiddifypanel]: New version: [4.0.0.dev6] Old Version: [4.0.0.dev5]
+[2023-04-17 21:01:09] INFO root fetch - processPackages [globus-compute-sdk]: New version: [2.0.1a1] Old Version: [2.0.1a0]
+[2023-04-17 21:01:09] INFO root fetch - processPackages [xh-dict-utils]: executing diffoscope
+[2023-04-17 21:01:09] INFO root fetch - processPackages [xh-dict-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xh-dict-utils-0.0.8.tar.gz tmp/xh-dict-utils-0.0.9.tar.gz --markdown 20230417/x/xh-dict-utils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 21:01:09] INFO root fetch - processPackages [genomenotebook]: Downloading https://files.pythonhosted.org/packages/0a/c2/4374c87b12829e05d0a5a08d536d07f77d5cce12bf2a63ee68ff028e711f/genomenotebook-0.2.tar.gz
+[2023-04-17 21:01:09] INFO root fetch - processPackages [mirrorbot]: Downloading https://files.pythonhosted.org/packages/d9/f4/575e2bfbd1ad3b5999e7ea3bd2398b581681db2fbabade415c560834f7fe/mirrorbot-1.1.tar.gz
+[2023-04-17 21:01:09] INFO root fetch - processPackages [g2p]: Downloading https://files.pythonhosted.org/packages/ce/27/2083b8c6b2e1b957eaf49b9ae3e3bef57a9b75c00c7ed1d6aeb597a3b37f/g2p-1.0.20230412.tar.gz
+[2023-04-17 21:01:09] INFO root fetch - processPackages [cwsearch-utils]: Downloading https://files.pythonhosted.org/packages/54/21/c311d7dd5a0e065af2b856d7ec632d4987bea2e500d7e3a2c1b12029fa6a/cwsearch_utils-0.0.4-py3-none-any.whl
+[2023-04-17 21:01:09] INFO root fetch - processPackages [globus-compute-sdk]: Downloading https://files.pythonhosted.org/packages/3f/02/ea31fd0f3c493b989a7e7dab78d720cfd19322b15bb4239a9e383dfcaf1d/globus-compute-sdk-2.0.1a1.tar.gz
+[2023-04-17 21:01:09] INFO root fetch - processPackages [mirrorbot]: executing diffoscope
+[2023-04-17 21:01:09] INFO root fetch - processPackages [mirrorbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mirrorbot-1.0.tar.gz tmp/mirrorbot-1.1.tar.gz --markdown 20230417/m/mirrorbot/1.0-1.1/diff.md --exclude *.pyd
+[2023-04-17 21:01:09] INFO root fetch - processPackages [nextcloudtalkbot]: executing diffoscope
+[2023-04-17 21:01:09] INFO root fetch - processPackages [nextcloudtalkbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nextcloudtalkbot-0.0.8.tar.gz tmp/nextcloudtalkbot-0.0.9.tar.gz --markdown 20230417/n/nextcloudtalkbot/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 21:01:09] INFO root fetch - processPackages [genomenotebook]: Downloading https://files.pythonhosted.org/packages/65/1e/0f74bf1d0cfc699583ff99966109719a4c7b1994f7a9434eb95c09f1056d/genomenotebook-0.2.1.tar.gz
+[2023-04-17 21:01:09] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-04-17 21:01:09] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-4.0.0.dev5-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/hiddifypanel-4.0.0.dev6-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230417/h/hiddifypanel/4.0.0.dev5-4.0.0.dev6/diff.md --exclude *.pyd
+[2023-04-17 21:01:09] INFO root fetch - processPackages [cwsearch-utils]: Downloading https://files.pythonhosted.org/packages/02/e2/afc54a82ef557e0b937be955853598a8bf6903ad5bb57d5fe280fd84db32/cwsearch_utils-0.1.0-py3-none-any.whl
+[2023-04-17 21:01:09] INFO root fetch - processPackages [globus-compute-sdk]: executing diffoscope
+[2023-04-17 21:01:09] INFO root fetch - processPackages [globus-compute-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/globus-compute-sdk-2.0.1a0.tar.gz tmp/globus-compute-sdk-2.0.1a1.tar.gz --markdown 20230417/g/globus-compute-sdk/2.0.1a0-2.0.1a1/diff.md --exclude *.pyd
+[2023-04-17 21:01:09] INFO root fetch - processPackages [genomenotebook]: executing diffoscope
+[2023-04-17 21:01:09] INFO root fetch - processPackages [genomenotebook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genomenotebook-0.2.tar.gz tmp/genomenotebook-0.2.1.tar.gz --markdown 20230417/g/genomenotebook/0.2-0.2.1/diff.md --exclude *.pyd
+[2023-04-17 21:01:10] INFO root fetch - processPackages [g2p]: Downloading https://files.pythonhosted.org/packages/ca/1b/e257d52fee61f234fc929aab9daad2223f0cec199a732e4512ecb1f077fd/g2p-1.0.20230417.tar.gz
+[2023-04-17 21:01:10] INFO root fetch - processPackages [cwsearch-utils]: executing diffoscope
+[2023-04-17 21:01:10] INFO root fetch - processPackages [cwsearch-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cwsearch_utils-0.0.4-py3-none-any.whl.zip tmp/cwsearch_utils-0.1.0-py3-none-any.whl.zip --markdown 20230417/c/cwsearch-utils/0.0.4-0.1.0/diff.md --exclude *.pyd
+[2023-04-17 21:01:10] INFO root fetch - processPackages [g2p]: executing diffoscope
+[2023-04-17 21:01:10] INFO root fetch - processPackages [g2p]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/g2p-1.0.20230412.tar.gz tmp/g2p-1.0.20230417.tar.gz --markdown 20230417/g/g2p/1.0.20230412-1.0.20230417/diff.md --exclude *.pyd
+[2023-04-17 21:01:10] INFO root fetch - main [MainThread]: End processing [xh-dict-utils]: success
+[2023-04-17 21:01:11] INFO root fetch - main [MainThread]: End processing [genomenotebook]: success
+[2023-04-17 21:01:11] INFO root fetch - main [MainThread]: End processing [globus-compute-sdk]: success
+[2023-04-17 21:01:11] INFO root fetch - main [MainThread]: End processing [cwsearch-utils]: success
+[2023-04-17 21:01:13] INFO root fetch - main [MainThread]: End processing [mirrorbot]: success
+[2023-04-17 21:01:13] INFO root fetch - main [MainThread]: End processing [nextcloudtalkbot]: success
+[2023-04-17 21:01:14] INFO root fetch - main [MainThread]: End processing [g2p]: success
+[2023-04-17 21:01:27] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-04-17 21:01:27] INFO root fetch - main [MainThread]: Store serial: [17743068]
