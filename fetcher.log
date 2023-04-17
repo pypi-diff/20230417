@@ -22533,3 +22533,86 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-17 22:47:35] INFO root fetch - main [MainThread]: End processing [python-datamodel]: success
 [2023-04-17 22:47:37] INFO root fetch - main [MainThread]: End processing [oak9-tython]: success
 [2023-04-17 22:47:37] INFO root fetch - main [MainThread]: Store serial: [17744278]
+[2023-04-17 22:52:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17744278]
+[2023-04-17 22:52:50] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-17 22:52:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mymlcustomtools
+[2023-04-17 22:52:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oking
+[2023-04-17 22:52:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pysparkler
+[2023-04-17 22:52:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sayuDB
+[2023-04-17 22:52:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gpt4all-j
+[2023-04-17 22:52:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mymlcustomtools
+[2023-04-17 22:52:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: life4safe-commons
+[2023-04-17 22:52:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nef-pipelines
+[2023-04-17 22:52:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: validatezw
+[2023-04-17 22:52:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: propertysync
+[2023-04-17 22:52:50] INFO root fetch - processPackages [oking]: New version: [4.1.94] Old Version: [4.1.93]
+[2023-04-17 22:52:50] INFO root fetch - processPackages [pysparkler]: New version: [0.4.dev1681762692] Old Version: [0.4.dev1681747316]
+[2023-04-17 22:52:50] INFO root fetch - processPackages [gpt4all-j]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-17 22:52:50] INFO root fetch - processPackages [propertysync]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-04-17 22:52:50] INFO root fetch - processPackages [oking]: Downloading https://files.pythonhosted.org/packages/a9/42/e04601ee56dabf5c2de0e55802a91d8667a5a8de43a31e2c886901903fab/oking-4.1.93.tar.gz
+[2023-04-17 22:52:50] INFO root fetch - processPackages [mymlcustomtools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 22:52:50] INFO root fetch - processPackages [mymlcustomtools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 22:52:50] INFO root fetch - processPackages [sayuDB]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-17 22:52:50] INFO root fetch - processPackages [life4safe-commons]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 22:52:50] WARNING root fetch - processPackages [validatezw]: Skipping, unable to determine old version
+[2023-04-17 22:52:50] INFO root fetch - processPackages [validatezw]: Start processing: mymlcustomtools
+[2023-04-17 22:52:50] INFO root fetch - main [MainThread]: End processing [validatezw] error
+[2023-04-17 22:52:50] INFO root fetch - processPackages [nef-pipelines]: New version: [0.1.34] Old Version: [0.1.33]
+[2023-04-17 22:52:50] INFO root fetch - processPackages [mymlcustomtools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 22:52:50] INFO root fetch - processPackages [propertysync]: Downloading https://files.pythonhosted.org/packages/70/9a/6e3658f272a0a8cd2c75a9624bda752fac27ee4922f03b76f036e2d7b5da/propertysync-0.4.1.tar.gz
+[2023-04-17 22:52:50] WARNING root fetch - processPackages [oking]: Skipping package: exceeds size limit 82459134>=10485760
+[2023-04-17 22:52:50] INFO root fetch - processPackages [oking]: Start processing: pyplasm
+[2023-04-17 22:52:50] INFO root fetch - main [MainThread]: End processing [oking] error
+[2023-04-17 22:52:50] INFO root fetch - processPackages [sayuDB]: Downloading https://files.pythonhosted.org/packages/a7/0a/2fbeeee2bd8f32cce16d8a083436b14ee3b6bc5926d1360caca57c9e7526/sayuDB-0.0.7.tar.gz
+[2023-04-17 22:52:50] INFO root fetch - processPackages [gpt4all-j]: Downloading https://files.pythonhosted.org/packages/8c/f4/ec2428f45433b74354a03bc320a115c71ea5f39795d07b339557006648a1/gpt4all-j-0.0.3.tar.gz
+[2023-04-17 22:52:50] INFO root fetch - processPackages [pysparkler]: Downloading https://files.pythonhosted.org/packages/88/d6/ebf7780fa2a5c983fa286ea605450148ae7c6f142315da2af4300f868873/pysparkler-0.4.dev1681762692.tar.gz
+[2023-04-17 22:52:50] INFO root fetch - processPackages [life4safe-commons]: Downloading https://files.pythonhosted.org/packages/11/f1/f04000b51510aa449545d77cd6eeba15c29f0a5cf313d6e6e4cc373bd14c/life4safe-commons-0.0.8.tar.gz
+[2023-04-17 22:52:50] INFO root fetch - processPackages [pyplasm]: New version: [3.0.8] Old Version: [3.0.7]
+[2023-04-17 22:52:50] INFO root fetch - processPackages [propertysync]: executing diffoscope
+[2023-04-17 22:52:50] INFO root fetch - processPackages [propertysync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/propertysync-0.4.0.tar.gz tmp/propertysync-0.4.1.tar.gz --markdown 20230417/p/propertysync/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-04-17 22:52:50] INFO root fetch - processPackages [nef-pipelines]: Downloading https://files.pythonhosted.org/packages/b2/07/aedde9e0ffc60cc2a9b0f6b5a8fc098361e4e2c8106a958d8eff01373f94/nef_pipelines-0.1.34.tar.gz
+[2023-04-17 22:52:50] INFO root fetch - processPackages [mymlcustomtools]: executing diffoscope
+[2023-04-17 22:52:50] INFO root fetch - processPackages [mymlcustomtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mymlcustomtools-0.0.8.tar.gz tmp/mymlcustomtools-0.0.9.tar.gz --markdown 20230417/m/mymlcustomtools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 22:52:50] INFO root fetch - processPackages [mymlcustomtools]: executing diffoscope
+[2023-04-17 22:52:50] INFO root fetch - processPackages [mymlcustomtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mymlcustomtools-0.0.8.tar.gz tmp/mymlcustomtools-0.0.9.tar.gz --markdown 20230417/m/mymlcustomtools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 22:52:50] INFO root fetch - processPackages [mymlcustomtools]: executing diffoscope
+[2023-04-17 22:52:50] INFO root fetch - processPackages [mymlcustomtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mymlcustomtools-0.0.8.tar.gz tmp/mymlcustomtools-0.0.9.tar.gz --markdown 20230417/m/mymlcustomtools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 22:52:50] INFO root fetch - processPackages [gpt4all-j]: executing diffoscope
+[2023-04-17 22:52:50] INFO root fetch - processPackages [gpt4all-j]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt4all-j-0.0.2.tar.gz tmp/gpt4all-j-0.0.3.tar.gz --markdown 20230417/g/gpt4all-j/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-17 22:52:50] INFO root fetch - processPackages [sayuDB]: Downloading https://files.pythonhosted.org/packages/7c/45/b00811d15bf5dab0d7fa96a11b96c45b537866d5327010447c36c503351c/sayuDB-0.0.8.tar.gz
+[2023-04-17 22:52:50] INFO root fetch - processPackages [life4safe-commons]: Downloading https://files.pythonhosted.org/packages/d4/ba/ccd52fc4d37ffbcff00580562b49bfe00d9ed3280598b82f48b054bd4c00/life4safe-commons-0.0.9.tar.gz
+[2023-04-17 22:52:50] INFO root fetch - processPackages [pysparkler]: executing diffoscope
+[2023-04-17 22:52:50] INFO root fetch - processPackages [pysparkler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysparkler-0.4.dev1681747316.tar.gz tmp/pysparkler-0.4.dev1681762692.tar.gz --markdown 20230417/p/pysparkler/0.4.dev1681747316-0.4.dev1681762692/diff.md --exclude *.pyd
+[2023-04-17 22:52:50] INFO root fetch - processPackages [nef-pipelines]: executing diffoscope
+[2023-04-17 22:52:50] INFO root fetch - processPackages [nef-pipelines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nef_pipelines-0.1.33.tar.gz tmp/nef_pipelines-0.1.34.tar.gz --markdown 20230417/n/nef-pipelines/0.1.33-0.1.34/diff.md --exclude *.pyd
+[2023-04-17 22:52:51] INFO root fetch - processPackages [pyplasm]: executing diffoscope
+[2023-04-17 22:52:51] INFO root fetch - processPackages [pyplasm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyplasm-3.0.7-cp39-none-win_amd64.whl.zip tmp/pyplasm-3.0.8-cp39-none-win_amd64.whl.zip --markdown 20230417/p/pyplasm/3.0.7-3.0.8/diff.md --exclude *.pyd
+[2023-04-17 22:52:51] INFO root fetch - processPackages [sayuDB]: executing diffoscope
+[2023-04-17 22:52:51] INFO root fetch - processPackages [sayuDB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sayuDB-0.0.7.tar.gz tmp/sayuDB-0.0.8.tar.gz --markdown 20230417/s/sayuDB/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-17 22:52:51] INFO root fetch - processPackages [life4safe-commons]: executing diffoscope
+[2023-04-17 22:52:51] INFO root fetch - processPackages [life4safe-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/life4safe-commons-0.0.8.tar.gz tmp/life4safe-commons-0.0.9.tar.gz --markdown 20230417/l/life4safe-commons/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 22:52:52] INFO root fetch - processPackages [mymlcustomtools]: Start processing: iloscar
+[2023-04-17 22:52:52] INFO root fetch - main [MainThread]: End processing [mymlcustomtools]: success
+[2023-04-17 22:52:52] INFO root fetch - processPackages [mymlcustomtools]: Start processing: torch-conduit
+[2023-04-17 22:52:52] INFO root fetch - main [MainThread]: End processing [mymlcustomtools]: success
+[2023-04-17 22:52:52] INFO root fetch - main [MainThread]: End processing [propertysync]: success
+[2023-04-17 22:52:52] INFO root fetch - processPackages [iloscar]: New version: [0.2.4b0] Old Version: [0.2.3b0]
+[2023-04-17 22:52:52] INFO root fetch - main [MainThread]: End processing [gpt4all-j]: success
+[2023-04-17 22:52:52] INFO root fetch - main [MainThread]: End processing [mymlcustomtools]: success
+[2023-04-17 22:52:52] INFO root fetch - processPackages [torch-conduit]: New version: [0.2.0] Old Version: [0.1.7]
+[2023-04-17 22:52:52] INFO root fetch - main [MainThread]: End processing [pysparkler]: success
+[2023-04-17 22:52:52] INFO root fetch - processPackages [iloscar]: Downloading https://files.pythonhosted.org/packages/0e/3e/2391444419a56754267578aa739dab7584bdee6c8519cc2e9f6b16d95ed9/iloscar-0.2.3b0.tar.gz
+[2023-04-17 22:52:52] INFO root fetch - processPackages [torch-conduit]: Downloading https://files.pythonhosted.org/packages/34/ee/b6425876ec3684f53b5ec99ffade34dd985a62e08b1ff0f305fca366c0f0/torch-conduit-0.1.7.tar.gz
+[2023-04-17 22:52:52] INFO root fetch - main [MainThread]: End processing [sayuDB]: success
+[2023-04-17 22:52:52] INFO root fetch - main [MainThread]: End processing [life4safe-commons]: success
+[2023-04-17 22:52:52] INFO root fetch - processPackages [torch-conduit]: Downloading https://files.pythonhosted.org/packages/b4/79/3c6d8537123e87ebbc8cfdd727f14111221f65da1a8f1c70771de331a7a1/torch_conduit-0.2.0.tar.gz
+[2023-04-17 22:52:53] INFO root fetch - processPackages [iloscar]: Downloading https://files.pythonhosted.org/packages/af/8f/565446e141e31b2b4f8e49b724a199e5af2c14e7e86b0dc6eae3b8b84eaf/iloscar-0.2.4b0.tar.gz
+[2023-04-17 22:52:53] INFO root fetch - processPackages [torch-conduit]: executing diffoscope
+[2023-04-17 22:52:53] INFO root fetch - processPackages [torch-conduit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch-conduit-0.1.7.tar.gz tmp/torch_conduit-0.2.0.tar.gz --markdown 20230417/t/torch-conduit/0.1.7-0.2.0/diff.md --exclude *.pyd
+[2023-04-17 22:52:53] INFO root fetch - processPackages [iloscar]: executing diffoscope
+[2023-04-17 22:52:53] INFO root fetch - processPackages [iloscar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iloscar-0.2.3b0.tar.gz tmp/iloscar-0.2.4b0.tar.gz --markdown 20230417/i/iloscar/0.2.3b0-0.2.4b0/diff.md --exclude *.pyd
+[2023-04-17 22:52:54] INFO root fetch - main [MainThread]: End processing [iloscar]: success
+[2023-04-17 22:52:54] INFO root fetch - main [MainThread]: End processing [torch-conduit]: success
+[2023-04-17 22:52:55] INFO root fetch - main [MainThread]: End processing [nef-pipelines]: success
+[2023-04-17 22:53:01] INFO root fetch - main [MainThread]: End processing [pyplasm]: success
+[2023-04-17 22:53:01] INFO root fetch - main [MainThread]: Store serial: [17744327]
