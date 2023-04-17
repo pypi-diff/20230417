@@ -22190,3 +22190,87 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-17 22:25:58] INFO root fetch - main [MainThread]: End processing [weni-rp-apps]: success
 [2023-04-17 22:26:08] INFO root fetch - main [MainThread]: End processing [liblxml3]: success
 [2023-04-17 22:26:08] INFO root fetch - main [MainThread]: Store serial: [17744006]
+[2023-04-17 22:31:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17744006]
+[2023-04-17 22:31:18] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-17 22:31:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sbcoyote
+[2023-04-17 22:31:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: OmniBridge
+[2023-04-17 22:31:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iloscar
+[2023-04-17 22:31:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bible-alignments
+[2023-04-17 22:31:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python-datamodel
+[2023-04-17 22:31:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: keeper-secrets-manager-core
+[2023-04-17 22:31:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: disvide
+[2023-04-17 22:31:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: report-env
+[2023-04-17 22:31:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: quantconnect-stubs
+[2023-04-17 22:31:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: syracuse
+[2023-04-17 22:31:18] INFO root fetch - processPackages [iloscar]: New version: [0.2.0b0] Old Version: [0.1a0]
+[2023-04-17 22:31:18] INFO root fetch - processPackages [disvide]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-04-17 22:31:18] INFO root fetch - processPackages [python-datamodel]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-04-17 22:31:18] INFO root fetch - processPackages [quantconnect-stubs]: New version: [9998] Old Version: [9997]
+[2023-04-17 22:31:18] INFO root fetch - processPackages [sbcoyote]: New version: [1.4.0] Old Version: [1.3.7]
+[2023-04-17 22:31:18] INFO root fetch - processPackages [bible-alignments]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-04-17 22:31:18] INFO root fetch - processPackages [OmniBridge]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-17 22:31:18] INFO root fetch - processPackages [keeper-secrets-manager-core]: New version: [16.5.3] Old Version: [16.5.2]
+[2023-04-17 22:31:18] INFO root fetch - processPackages [report-env]: New version: [0.6] Old Version: [0.0.5]
+[2023-04-17 22:31:18] INFO root fetch - processPackages [syracuse]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-04-17 22:31:18] INFO root fetch - processPackages [iloscar]: executing diffoscope
+[2023-04-17 22:31:18] INFO root fetch - processPackages [iloscar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iloscar-0.1a0.tar.gz tmp/iloscar-0.2.0b0.tar.gz --markdown 20230417/i/iloscar/0.1a0-0.2.0b0/diff.md --exclude *.pyd
+[2023-04-17 22:31:18] INFO root fetch - processPackages [quantconnect-stubs]: executing diffoscope
+[2023-04-17 22:31:18] INFO root fetch - processPackages [quantconnect-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantconnect-stubs-9997.tar.gz tmp/quantconnect-stubs-9998.tar.gz --markdown 20230417/q/quantconnect-stubs/9997-9998/diff.md --exclude *.pyd
+[2023-04-17 22:31:18] INFO root fetch - processPackages [bible-alignments]: Downloading https://files.pythonhosted.org/packages/2c/96/91ca0ec9ce1ddf39e2063e0a30cb18aa4098be9df7a83cadcbbce530ef84/bible_alignments-0.2.5.tar.gz
+[2023-04-17 22:31:18] INFO root fetch - processPackages [python-datamodel]: Downloading https://files.pythonhosted.org/packages/64/4e/3d8f30dcb8918e96d8b5f2866bab3b56cd372e216f5677fad4fa4f819709/python_datamodel-0.3.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-17 22:31:18] INFO root fetch - processPackages [sbcoyote]: Downloading https://files.pythonhosted.org/packages/13/5a/11c311e96207ba5bd8c2b1d17b2a908a4a6edaaad1aa42be7901d650312a/sbcoyote-1.3.7.tar.gz
+[2023-04-17 22:31:18] INFO root fetch - processPackages [keeper-secrets-manager-core]: Downloading https://files.pythonhosted.org/packages/9c/a1/24662da6b65cbf58ac71b3283f598ab1f846076eedfef98bc9532ccf6e0f/keeper-secrets-manager-core-16.5.2.tar.gz
+[2023-04-17 22:31:18] INFO root fetch - processPackages [syracuse]: Downloading https://files.pythonhosted.org/packages/83/63/4b489a1df9c7d2f0502f5514feb50c0e7e7091181ff64cbc76b39ed218f1/syracuse-0.3.0.tar.gz
+[2023-04-17 22:31:18] INFO root fetch - processPackages [report-env]: Downloading https://files.pythonhosted.org/packages/a7/cb/e3d0623f9136d2105667f686799bfa9f5ba51620a1067ddf8ae224fc22a9/report_env-0.6.tar.gz
+[2023-04-17 22:31:18] INFO root fetch - processPackages [disvide]: executing diffoscope
+[2023-04-17 22:31:18] INFO root fetch - processPackages [disvide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/disvide-0.4.1.tar.gz tmp/disvide-0.4.2.tar.gz --markdown 20230417/d/disvide/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-04-17 22:31:19] INFO root fetch - processPackages [OmniBridge]: executing diffoscope
+[2023-04-17 22:31:19] INFO root fetch - processPackages [OmniBridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OmniBridge-0.1.8.tar.gz tmp/OmniBridge-0.1.9.tar.gz --markdown 20230417/O/OmniBridge/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-17 22:31:19] INFO root fetch - processPackages [keeper-secrets-manager-core]: Downloading https://files.pythonhosted.org/packages/19/7e/488dff00e3277ffe47f499938cb7d81adc75aa587af37b66fb68e1c2a562/keeper-secrets-manager-core-16.5.3.tar.gz
+[2023-04-17 22:31:19] INFO root fetch - processPackages [report-env]: executing diffoscope
+[2023-04-17 22:31:19] INFO root fetch - processPackages [report-env]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/report-env-0.0.5.tar.gz tmp/report_env-0.6.tar.gz --markdown 20230417/r/report-env/0.0.5-0.6/diff.md --exclude *.pyd
+[2023-04-17 22:31:19] INFO root fetch - processPackages [bible-alignments]: Downloading https://files.pythonhosted.org/packages/e4/8e/0560eda881b86c2422d2f75b4d79b1c3b9de029e8c000f9e2d23dc52a35d/bible_alignments-0.2.6.tar.gz
+[2023-04-17 22:31:19] INFO root fetch - processPackages [python-datamodel]: executing diffoscope
+[2023-04-17 22:31:19] INFO root fetch - processPackages [python-datamodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_datamodel-0.3.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/python_datamodel-0.3.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230417/p/python-datamodel/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-04-17 22:31:19] INFO root fetch - processPackages [sbcoyote]: Downloading https://files.pythonhosted.org/packages/2c/64/bb9142c49e0e4c0901e893df165cbe6660c6a00730852dc20dcbf920ba19/sbcoyote-1.4.0.tar.gz
+[2023-04-17 22:31:19] INFO root fetch - processPackages [syracuse]: Downloading https://files.pythonhosted.org/packages/26/91/195358f093578324d5684ce46aa6b59960b526e038df5f8d6c8aa5282d33/syracuse-0.4.0.tar.gz
+[2023-04-17 22:31:19] INFO root fetch - processPackages [keeper-secrets-manager-core]: executing diffoscope
+[2023-04-17 22:31:19] INFO root fetch - processPackages [keeper-secrets-manager-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keeper-secrets-manager-core-16.5.2.tar.gz tmp/keeper-secrets-manager-core-16.5.3.tar.gz --markdown 20230417/k/keeper-secrets-manager-core/16.5.2-16.5.3/diff.md --exclude *.pyd
+[2023-04-17 22:31:19] INFO root fetch - processPackages [bible-alignments]: executing diffoscope
+[2023-04-17 22:31:19] INFO root fetch - processPackages [bible-alignments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bible_alignments-0.2.5.tar.gz tmp/bible_alignments-0.2.6.tar.gz --markdown 20230417/b/bible-alignments/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-04-17 22:31:19] INFO root fetch - processPackages [sbcoyote]: executing diffoscope
+[2023-04-17 22:31:19] INFO root fetch - processPackages [sbcoyote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcoyote-1.3.7.tar.gz tmp/sbcoyote-1.4.0.tar.gz --markdown 20230417/s/sbcoyote/1.3.7-1.4.0/diff.md --exclude *.pyd
+[2023-04-17 22:31:19] INFO root fetch - processPackages [syracuse]: executing diffoscope
+[2023-04-17 22:31:19] INFO root fetch - processPackages [syracuse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syracuse-0.3.0.tar.gz tmp/syracuse-0.4.0.tar.gz --markdown 20230417/s/syracuse/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-04-17 22:31:20] INFO root fetch - processPackages [iloscar]: Start processing: socketscpi
+[2023-04-17 22:31:20] INFO root fetch - main [MainThread]: End processing [iloscar]: success
+[2023-04-17 22:31:20] INFO root fetch - processPackages [disvide]: Start processing: colabtunnel
+[2023-04-17 22:31:20] INFO root fetch - main [MainThread]: End processing [disvide]: success
+[2023-04-17 22:31:20] INFO root fetch - processPackages [socketscpi]: New version: [2023.4.0] Old Version: [2022.8.0]
+[2023-04-17 22:31:20] WARNING root fetch - processPackages [colabtunnel]: Skipping, unable to determine old version
+[2023-04-17 22:31:20] INFO root fetch - processPackages [colabtunnel]: Start processing: arabica
+[2023-04-17 22:31:20] INFO root fetch - main [MainThread]: End processing [colabtunnel] error
+[2023-04-17 22:31:20] INFO root fetch - processPackages [arabica]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-04-17 22:31:20] INFO root fetch - processPackages [report-env]: Start processing: weni-rp-apps
+[2023-04-17 22:31:20] INFO root fetch - main [MainThread]: End processing [report-env]: success
+[2023-04-17 22:31:20] INFO root fetch - processPackages [socketscpi]: Downloading https://files.pythonhosted.org/packages/e7/a4/24ccc0f1e90bcfa5947889fb6c267f489add977602d6acb7ab27ad5896b3/socketscpi-2022.8.0.tar.gz
+[2023-04-17 22:31:20] INFO root fetch - processPackages [weni-rp-apps]: New version: [2.4.0a1] Old Version: [2.4.0a0]
+[2023-04-17 22:31:20] INFO root fetch - processPackages [arabica]: executing diffoscope
+[2023-04-17 22:31:20] INFO root fetch - processPackages [arabica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arabica-1.4.2.tar.gz tmp/arabica-1.4.3.tar.gz --markdown 20230417/a/arabica/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-04-17 22:31:20] INFO root fetch - main [MainThread]: End processing [OmniBridge]: success
+[2023-04-17 22:31:20] INFO root fetch - processPackages [weni-rp-apps]: Downloading https://files.pythonhosted.org/packages/4d/e8/4703cf6e8562632188ea8e9deda38789076cae98b68f668f8a379392f64c/weni_rp_apps-2.4.0a1.tar.gz
+[2023-04-17 22:31:20] INFO root fetch - processPackages [socketscpi]: Downloading https://files.pythonhosted.org/packages/cc/f2/0a8a288e825b339c7521b5f4dea46f8171ca7bb1f57dd642af2bf0536b60/socketscpi-2023.4.0.tar.gz
+[2023-04-17 22:31:20] INFO root fetch - processPackages [weni-rp-apps]: executing diffoscope
+[2023-04-17 22:31:20] INFO root fetch - processPackages [weni-rp-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weni_rp_apps-2.4.0a0.tar.gz tmp/weni_rp_apps-2.4.0a1.tar.gz --markdown 20230417/w/weni-rp-apps/2.4.0a0-2.4.0a1/diff.md --exclude *.pyd
+[2023-04-17 22:31:20] INFO root fetch - main [MainThread]: End processing [bible-alignments]: success
+[2023-04-17 22:31:20] INFO root fetch - main [MainThread]: End processing [syracuse]: success
+[2023-04-17 22:31:20] INFO root fetch - processPackages [socketscpi]: executing diffoscope
+[2023-04-17 22:31:20] INFO root fetch - processPackages [socketscpi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socketscpi-2022.8.0.tar.gz tmp/socketscpi-2023.4.0.tar.gz --markdown 20230417/s/socketscpi/2022.8.0-2023.4.0/diff.md --exclude *.pyd
+[2023-04-17 22:31:21] INFO root fetch - main [MainThread]: End processing [keeper-secrets-manager-core]: success
+[2023-04-17 22:31:21] INFO root fetch - main [MainThread]: End processing [arabica]: success
+[2023-04-17 22:31:21] INFO root fetch - main [MainThread]: End processing [socketscpi]: success
+[2023-04-17 22:31:22] INFO root fetch - main [MainThread]: End processing [weni-rp-apps]: success
+[2023-04-17 22:31:23] INFO root fetch - main [MainThread]: End processing [sbcoyote]: success
+[2023-04-17 22:31:25] INFO root fetch - main [MainThread]: End processing [python-datamodel]: success
+[2023-04-17 22:31:25] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
+[2023-04-17 22:31:25] INFO root fetch - main [MainThread]: Store serial: [17744056]
