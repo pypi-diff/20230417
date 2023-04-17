@@ -17661,3 +17661,125 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 18:11:43] INFO root fetch - main [MainThread]: End processing [cir4mics]: success
 [2023-04-17 18:11:59] INFO root fetch - main [MainThread]: End processing [lhf]: success
 [2023-04-17 18:11:59] INFO root fetch - main [MainThread]: Store serial: [17741142]
+[2023-04-17 18:17:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17741142]
+[2023-04-17 18:17:10] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-04-17 18:17:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oauthAPImojang
+[2023-04-17 18:17:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyinflux3
+[2023-04-17 18:17:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyinflux3-cli
+[2023-04-17 18:17:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pybeef
+[2023-04-17 18:17:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: coiled
+[2023-04-17 18:17:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: liblineage
+[2023-04-17 18:17:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openeo-processes-dask
+[2023-04-17 18:17:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aegis-tools
+[2023-04-17 18:17:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lhf
+[2023-04-17 18:17:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fedot-ind
+[2023-04-17 18:17:10] WARNING root fetch - processPackages [pybeef]: Skipping, unable to determine old version
+[2023-04-17 18:17:10] INFO root fetch - processPackages [pybeef]: Start processing: FreeGS
+[2023-04-17 18:17:10] INFO root fetch - main [MainThread]: End processing [pybeef] error
+[2023-04-17 18:17:10] INFO root fetch - processPackages [oauthAPImojang]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-04-17 18:17:10] INFO root fetch - processPackages [lhf]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-04-17 18:17:10] WARNING root fetch - processPackages [fedot-ind]: Skipping, unable to determine old version
+[2023-04-17 18:17:10] INFO root fetch - processPackages [fedot-ind]: Start processing: afex-audit-trail
+[2023-04-17 18:17:10] INFO root fetch - main [MainThread]: End processing [fedot-ind] error
+[2023-04-17 18:17:10] INFO root fetch - processPackages [coiled]: New version: [0.5.9.post0.dev8] Old Version: [0.5.9.post0.dev7]
+[2023-04-17 18:17:10] INFO root fetch - processPackages [pyinflux3]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-04-17 18:17:10] INFO root fetch - processPackages [pyinflux3-cli]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-04-17 18:17:10] INFO root fetch - processPackages [liblineage]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-04-17 18:17:10] INFO root fetch - processPackages [oauthAPImojang]: executing diffoscope
+[2023-04-17 18:17:10] INFO root fetch - processPackages [oauthAPImojang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oauthAPImojang-0.3.4.tar.gz tmp/oauthAPImojang-0.3.5.tar.gz --markdown 20230417/o/oauthAPImojang/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-04-17 18:17:10] INFO root fetch - processPackages [openeo-processes-dask]: New version: [2023.4.0] Old Version: [2023.3.2]
+[2023-04-17 18:17:10] INFO root fetch - processPackages [lhf]: executing diffoscope
+[2023-04-17 18:17:10] INFO root fetch - processPackages [lhf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lhf-1.3.1-py3-none-manylinux_2_28_x86_64.whl.zip tmp/lhf-1.3.2-py3-none-manylinux_2_28_x86_64.whl.zip --markdown 20230417/l/lhf/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-04-17 18:17:10] INFO root fetch - processPackages [FreeGS]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-04-17 18:17:10] INFO root fetch - processPackages [aegis-tools]: New version: [2.1.2] Old Version: [2.1.0]
+[2023-04-17 18:17:10] INFO root fetch - processPackages [afex-audit-trail]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-17 18:17:10] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-04-17 18:17:10] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.5.9.post0.dev7.tar.gz tmp/coiled-0.5.9.post0.dev8.tar.gz --markdown 20230417/c/coiled/0.5.9.post0.dev7-0.5.9.post0.dev8/diff.md --exclude *.pyd
+[2023-04-17 18:17:10] INFO root fetch - processPackages [pyinflux3]: Downloading https://files.pythonhosted.org/packages/a8/e1/aade2abd12edb53480d7a77326225ecc5d64aa489af99c14d67f507b1652/pyinflux3-0.8.1.tar.gz
+[2023-04-17 18:17:10] INFO root fetch - processPackages [pyinflux3-cli]: Downloading https://files.pythonhosted.org/packages/59/76/7d4cdcce96b31aa635b704c86a917467d9e07cb5b39f38175c6f685a2802/pyinflux3-cli-0.8.1.tar.gz
+[2023-04-17 18:17:10] INFO root fetch - processPackages [afex-audit-trail]: Downloading https://files.pythonhosted.org/packages/e4/d7/d28373d216175a6eb731a9200fe1ab45f6451921d479bd5b9f00becacbc7/afex-audit-trail-0.1.3.tar.gz
+[2023-04-17 18:17:10] INFO root fetch - processPackages [FreeGS]: Downloading https://files.pythonhosted.org/packages/55/63/13fba7e020935224438f555492bbf44cf3ecb25c4e367d65602eddb7808e/FreeGS-0.6.1.tar.gz
+[2023-04-17 18:17:10] INFO root fetch - processPackages [liblineage]: Downloading https://files.pythonhosted.org/packages/cd/b8/2cec3bafa24fd2ba2a9962e865d364b9201e83b309db5ee2f51a0481ec0d/liblineage-1.3.0.tar.gz
+[2023-04-17 18:17:10] INFO root fetch - processPackages [openeo-processes-dask]: Downloading https://files.pythonhosted.org/packages/3f/be/6674cbb6cc86839a849d5c6684d61e261ff5d4839dd84dfa58a6cd7e5a7b/openeo_processes_dask-2023.3.2.tar.gz
+[2023-04-17 18:17:10] INFO root fetch - processPackages [aegis-tools]: Downloading https://files.pythonhosted.org/packages/b0/3b/b6135d1d19ce14d035ac60ac1030557c29da9b55c1a24dcb747035979e6b/aegis-tools-2.1.0.tar.gz
+[2023-04-17 18:17:11] INFO root fetch - processPackages [pyinflux3-cli]: Downloading https://files.pythonhosted.org/packages/42/f0/1f2c2594bd8978473c2aae544799e6a3c52e826acf70683e6f101fda193f/pyinflux3-cli-0.8.2.tar.gz
+[2023-04-17 18:17:11] INFO root fetch - processPackages [pyinflux3]: Downloading https://files.pythonhosted.org/packages/cc/66/2643a1ecf317c011b670e097c9ec4df34bb2da6e76947d913f4997cf7c8c/pyinflux3-0.8.2.tar.gz
+[2023-04-17 18:17:11] INFO root fetch - processPackages [afex-audit-trail]: Downloading https://files.pythonhosted.org/packages/3b/99/1d4cd204dad041356b6f6e6715a8b11d64097e2768c0cf2f7017834d1fe9/afex-audit-trail-0.1.4.tar.gz
+[2023-04-17 18:17:11] INFO root fetch - processPackages [liblineage]: Downloading https://files.pythonhosted.org/packages/5e/5d/56402ba699b4eb6079d3561b6c0e677ec85739d1baf0be5182e8227ce4a6/liblineage-1.3.1.tar.gz
+[2023-04-17 18:17:11] INFO root fetch - processPackages [openeo-processes-dask]: Downloading https://files.pythonhosted.org/packages/2f/33/1120d04e1b91ff0509eaa567837cd01fd5b46e47c83c6d28a05ef8c954d8/openeo_processes_dask-2023.4.0.tar.gz
+[2023-04-17 18:17:11] INFO root fetch - processPackages [pyinflux3]: executing diffoscope
+[2023-04-17 18:17:11] INFO root fetch - processPackages [pyinflux3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyinflux3-0.8.1.tar.gz tmp/pyinflux3-0.8.2.tar.gz --markdown 20230417/p/pyinflux3/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-04-17 18:17:11] INFO root fetch - processPackages [pyinflux3-cli]: executing diffoscope
+[2023-04-17 18:17:11] INFO root fetch - processPackages [pyinflux3-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyinflux3-cli-0.8.1.tar.gz tmp/pyinflux3-cli-0.8.2.tar.gz --markdown 20230417/p/pyinflux3-cli/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-04-17 18:17:11] INFO root fetch - processPackages [FreeGS]: Downloading https://files.pythonhosted.org/packages/78/c9/f34dfb62440f2a3279335378a8abc903ac674402fc5ac133fe781c51aa53/FreeGS-0.7.0.tar.gz
+[2023-04-17 18:17:11] INFO root fetch - processPackages [aegis-tools]: Downloading https://files.pythonhosted.org/packages/24/37/a5851c163cb1733b461d3d7f484d8fe8a15373cc5bbc71ad5a36e9505187/aegis-tools-2.1.2.tar.gz
+[2023-04-17 18:17:11] INFO root fetch - processPackages [afex-audit-trail]: executing diffoscope
+[2023-04-17 18:17:11] INFO root fetch - processPackages [afex-audit-trail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afex-audit-trail-0.1.3.tar.gz tmp/afex-audit-trail-0.1.4.tar.gz --markdown 20230417/a/afex-audit-trail/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-17 18:17:11] INFO root fetch - processPackages [liblineage]: executing diffoscope
+[2023-04-17 18:17:11] INFO root fetch - processPackages [liblineage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liblineage-1.3.0.tar.gz tmp/liblineage-1.3.1.tar.gz --markdown 20230417/l/liblineage/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-04-17 18:17:11] INFO root fetch - processPackages [openeo-processes-dask]: executing diffoscope
+[2023-04-17 18:17:11] INFO root fetch - processPackages [openeo-processes-dask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openeo_processes_dask-2023.3.2.tar.gz tmp/openeo_processes_dask-2023.4.0.tar.gz --markdown 20230417/o/openeo-processes-dask/2023.3.2-2023.4.0/diff.md --exclude *.pyd
+[2023-04-17 18:17:11] INFO root fetch - processPackages [FreeGS]: executing diffoscope
+[2023-04-17 18:17:11] INFO root fetch - processPackages [FreeGS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FreeGS-0.6.1.tar.gz tmp/FreeGS-0.7.0.tar.gz --markdown 20230417/F/FreeGS/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-04-17 18:17:11] INFO root fetch - processPackages [aegis-tools]: executing diffoscope
+[2023-04-17 18:17:11] INFO root fetch - processPackages [aegis-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aegis-tools-2.1.0.tar.gz tmp/aegis-tools-2.1.2.tar.gz --markdown 20230417/a/aegis-tools/2.1.0-2.1.2/diff.md --exclude *.pyd
+[2023-04-17 18:17:12] INFO root fetch - processPackages [oauthAPImojang]: Start processing: graphicle
+[2023-04-17 18:17:12] INFO root fetch - main [MainThread]: End processing [oauthAPImojang]: success
+[2023-04-17 18:17:12] INFO root fetch - processPackages [graphicle]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-17 18:17:12] INFO root fetch - processPackages [graphicle]: Downloading https://files.pythonhosted.org/packages/6a/d6/e84a6dcc5c7b4ddd64bac013a70e4b8275630396661dce769dbc8785b00b/graphicle-0.2.8.tar.gz
+[2023-04-17 18:17:12] INFO root fetch - processPackages [pyinflux3]: Start processing: storey
+[2023-04-17 18:17:12] INFO root fetch - main [MainThread]: End processing [pyinflux3]: success
+[2023-04-17 18:17:12] INFO root fetch - processPackages [pyinflux3-cli]: Start processing: aistac-foundation
+[2023-04-17 18:17:12] INFO root fetch - main [MainThread]: End processing [pyinflux3-cli]: success
+[2023-04-17 18:17:12] INFO root fetch - processPackages [graphicle]: Downloading https://files.pythonhosted.org/packages/bc/3b/0e9053e582b9521708aadd4dafdcbb0225f91eceaec2ae15e7db501e9062/graphicle-0.2.9.tar.gz
+[2023-04-17 18:17:12] INFO root fetch - processPackages [aistac-foundation]: New version: [2.9.7] Old Version: [2.9.6]
+[2023-04-17 18:17:12] INFO root fetch - processPackages [storey]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-04-17 18:17:12] INFO root fetch - processPackages [aistac-foundation]: executing diffoscope
+[2023-04-17 18:17:12] INFO root fetch - processPackages [aistac-foundation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aistac-foundation-2.9.6.tar.gz tmp/aistac-foundation-2.9.7.tar.gz --markdown 20230417/a/aistac-foundation/2.9.6-2.9.7/diff.md --exclude *.pyd
+[2023-04-17 18:17:12] INFO root fetch - processPackages [graphicle]: executing diffoscope
+[2023-04-17 18:17:12] INFO root fetch - processPackages [graphicle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphicle-0.2.8.tar.gz tmp/graphicle-0.2.9.tar.gz --markdown 20230417/g/graphicle/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-17 18:17:12] INFO root fetch - processPackages [afex-audit-trail]: Start processing: pepperize.cdk-vpc
+[2023-04-17 18:17:12] INFO root fetch - main [MainThread]: End processing [afex-audit-trail]: success
+[2023-04-17 18:17:12] INFO root fetch - processPackages [liblineage]: Start processing: aws-cdk.asset-awscli-v1
+[2023-04-17 18:17:12] INFO root fetch - processPackages [pepperize.cdk-vpc]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-17 18:17:12] INFO root fetch - main [MainThread]: End processing [liblineage]: success
+[2023-04-17 18:17:13] INFO root fetch - processPackages [aws-cdk.asset-awscli-v1]: New version: [2.2.99] Old Version: [2.2.98]
+[2023-04-17 18:17:13] INFO root fetch - processPackages [storey]: Downloading https://files.pythonhosted.org/packages/74/28/bf967035b9a935e6025284b4e2281cdc29453e8728c325ea0a1c385ca2fa/storey-1.3.8.tar.gz
+[2023-04-17 18:17:13] INFO root fetch - processPackages [pepperize.cdk-vpc]: executing diffoscope
+[2023-04-17 18:17:13] INFO root fetch - processPackages [pepperize.cdk-vpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-vpc-0.0.98.tar.gz tmp/pepperize.cdk-vpc-0.0.99.tar.gz --markdown 20230417/p/pepperize.cdk-vpc/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-17 18:17:13] INFO root fetch - processPackages [aws-cdk.asset-awscli-v1]: Downloading https://files.pythonhosted.org/packages/d8/5f/ec514d7b5296b58149a8b4407d5d4833dd7b24475d8d782b2c36a00c4d22/aws-cdk.asset-awscli-v1-2.2.98.tar.gz
+[2023-04-17 18:17:13] INFO root fetch - processPackages [aegis-tools]: Start processing: kaiju-tools
+[2023-04-17 18:17:13] INFO root fetch - main [MainThread]: End processing [aegis-tools]: success
+[2023-04-17 18:17:13] WARNING root fetch - processPackages [aws-cdk.asset-awscli-v1]: Skipping package: exceeds size limit 14653629>=10485760
+[2023-04-17 18:17:13] INFO root fetch - processPackages [aws-cdk.asset-awscli-v1]: Start processing: soau
+[2023-04-17 18:17:13] INFO root fetch - main [MainThread]: End processing [aws-cdk.asset-awscli-v1] error
+[2023-04-17 18:17:13] WARNING root fetch - processPackages [kaiju-tools]: Skipping, unable to determine old version
+[2023-04-17 18:17:13] INFO root fetch - processPackages [kaiju-tools]: Start processing: sarus-data-spec-public
+[2023-04-17 18:17:13] INFO root fetch - main [MainThread]: End processing [kaiju-tools] error
+[2023-04-17 18:17:13] INFO root fetch - processPackages [storey]: Downloading https://files.pythonhosted.org/packages/a7/a2/a9ad5f72cc22b44458d1bb8dd449c3701bcb97e497b715fce33ec5e79df7/storey-1.3.9.tar.gz
+[2023-04-17 18:17:13] INFO root fetch - processPackages [sarus-data-spec-public]: New version: [3.0.1.dev0] Old Version: [3.0.0.dev2]
+[2023-04-17 18:17:13] WARNING root fetch - processPackages [soau]: Skipping, unable to determine old version
+[2023-04-17 18:17:13] INFO root fetch - processPackages [soau]: Start processing: seg2map
+[2023-04-17 18:17:13] INFO root fetch - main [MainThread]: End processing [soau] error
+[2023-04-17 18:17:13] INFO root fetch - main [MainThread]: End processing [FreeGS]: success
+[2023-04-17 18:17:13] INFO root fetch - processPackages [storey]: executing diffoscope
+[2023-04-17 18:17:13] INFO root fetch - processPackages [storey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/storey-1.3.8.tar.gz tmp/storey-1.3.9.tar.gz --markdown 20230417/s/storey/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-04-17 18:17:13] INFO root fetch - processPackages [seg2map]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-17 18:17:13] INFO root fetch - processPackages [sarus-data-spec-public]: Downloading https://files.pythonhosted.org/packages/04/6f/e7a0f9d503d5eae86c1211088b8f44f0fb9820a0a9cef1887cf4f072f9f1/sarus_data_spec_public-3.0.0.dev2.tar.gz
+[2023-04-17 18:17:13] INFO root fetch - processPackages [seg2map]: Downloading https://files.pythonhosted.org/packages/2b/a5/6ef7ca775e90359174ecbbaee381b3f591d9e6f89cddd416ff5ce8d0d06b/seg2map-0.0.6.tar.gz
+[2023-04-17 18:17:13] INFO root fetch - main [MainThread]: End processing [openeo-processes-dask]: success
+[2023-04-17 18:17:14] INFO root fetch - processPackages [seg2map]: Downloading https://files.pythonhosted.org/packages/60/fb/4ed15374a00541a244119fb97806283adbdf7ffee9ad1e9a49ac28b9ab32/seg2map-0.0.7.tar.gz
+[2023-04-17 18:17:14] INFO root fetch - processPackages [seg2map]: executing diffoscope
+[2023-04-17 18:17:14] INFO root fetch - processPackages [seg2map]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seg2map-0.0.6.tar.gz tmp/seg2map-0.0.7.tar.gz --markdown 20230417/s/seg2map/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-17 18:17:14] INFO root fetch - main [MainThread]: End processing [graphicle]: success
+[2023-04-17 18:17:14] INFO root fetch - processPackages [sarus-data-spec-public]: Downloading https://files.pythonhosted.org/packages/a2/37/795dde44c46c46d9f957ced79d2d7c05e930cd535e1c293428414dd81805/sarus_data_spec_public-3.0.1.dev0.tar.gz
+[2023-04-17 18:17:14] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-vpc]: success
+[2023-04-17 18:17:14] INFO root fetch - processPackages [sarus-data-spec-public]: executing diffoscope
+[2023-04-17 18:17:14] INFO root fetch - processPackages [sarus-data-spec-public]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sarus_data_spec_public-3.0.0.dev2.tar.gz tmp/sarus_data_spec_public-3.0.1.dev0.tar.gz --markdown 20230417/s/sarus-data-spec-public/3.0.0.dev2-3.0.1.dev0/diff.md --exclude *.pyd
+[2023-04-17 18:17:14] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-04-17 18:17:15] INFO root fetch - main [MainThread]: End processing [aistac-foundation]: success
+[2023-04-17 18:17:16] INFO root fetch - main [MainThread]: End processing [seg2map]: success
+[2023-04-17 18:17:16] INFO root fetch - main [MainThread]: End processing [storey]: success
+[2023-04-17 18:17:16] INFO root fetch - main [MainThread]: End processing [sarus-data-spec-public]: success
+[2023-04-17 18:17:31] INFO root fetch - main [MainThread]: End processing [lhf]: success
+[2023-04-17 18:17:31] INFO root fetch - main [MainThread]: Store serial: [17741202]
