@@ -11431,3 +11431,102 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-04-17 13:30:31] INFO root fetch - main [MainThread]: End processing [rucio-clients]: success
 [2023-04-17 13:30:34] INFO root fetch - main [MainThread]: End processing [rucio]: success
 [2023-04-17 13:30:34] INFO root fetch - main [MainThread]: Store serial: [17737455]
+[2023-04-17 13:35:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17737455]
+[2023-04-17 13:35:45] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-04-17 13:35:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: modbampy
+[2023-04-17 13:35:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pySAXS
+[2023-04-17 13:35:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: falu
+[2023-04-17 13:35:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nismod-snail
+[2023-04-17 13:35:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: holoviews
+[2023-04-17 13:35:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bp-data-grid
+[2023-04-17 13:35:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-germanium
+[2023-04-17 13:35:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qiskit-iqm
+[2023-04-17 13:35:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: imggencli
+[2023-04-17 13:35:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cognite-sdk
+[2023-04-17 13:35:45] WARNING root fetch - processPackages [bp-data-grid]: Skipping, unable to determine old version
+[2023-04-17 13:35:45] INFO root fetch - processPackages [bp-data-grid]: Start processing: imggencli
+[2023-04-17 13:35:45] INFO root fetch - main [MainThread]: End processing [bp-data-grid] error
+[2023-04-17 13:35:45] INFO root fetch - processPackages [cognite-sdk]: New version: [5.9.3] Old Version: [5.9.2]
+[2023-04-17 13:35:45] INFO root fetch - processPackages [imggencli]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-04-17 13:35:45] INFO root fetch - processPackages [imggencli]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-04-17 13:35:45] INFO root fetch - processPackages [django-germanium]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-04-17 13:35:45] INFO root fetch - processPackages [holoviews]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-04-17 13:35:45] WARNING root fetch - processPackages [falu]: Skipping, unable to determine old version
+[2023-04-17 13:35:45] INFO root fetch - processPackages [falu]: Start processing: moto
+[2023-04-17 13:35:45] INFO root fetch - main [MainThread]: End processing [falu] error
+[2023-04-17 13:35:45] INFO root fetch - processPackages [qiskit-iqm]: New version: [7.9] Old Version: [7.8]
+[2023-04-17 13:35:45] INFO root fetch - processPackages [modbampy]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-04-17 13:35:45] INFO root fetch - processPackages [pySAXS]: New version: [3.263] Old Version: [3.262]
+[2023-04-17 13:35:45] INFO root fetch - processPackages [nismod-snail]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-04-17 13:35:45] INFO root fetch - processPackages [cognite-sdk]: executing diffoscope
+[2023-04-17 13:35:45] INFO root fetch - processPackages [cognite-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_sdk-5.9.2.tar.gz tmp/cognite_sdk-5.9.3.tar.gz --markdown 20230417/c/cognite-sdk/5.9.2-5.9.3/diff.md --exclude *.pyd
+[2023-04-17 13:35:45] INFO root fetch - processPackages [moto]: New version: [4.1.8.dev9] Old Version: [4.1.8.dev8]
+[2023-04-17 13:35:45] INFO root fetch - processPackages [imggencli]: Downloading https://files.pythonhosted.org/packages/5f/95/7ca587132547c9630b3658e123f53f9edc743d21dfa14746ae01464318f2/imggencli-1.4.2.tar.gz
+[2023-04-17 13:35:45] INFO root fetch - processPackages [imggencli]: Downloading https://files.pythonhosted.org/packages/5f/95/7ca587132547c9630b3658e123f53f9edc743d21dfa14746ae01464318f2/imggencli-1.4.2.tar.gz
+[2023-04-17 13:35:45] INFO root fetch - processPackages [django-germanium]: Downloading https://files.pythonhosted.org/packages/ac/76/eb1ba29440b4f04ee2b066242e695cbb67acaf0537bc41287f84a46a3700/django-germanium-2.3.8.tar.gz
+[2023-04-17 13:35:46] INFO root fetch - processPackages [modbampy]: Downloading https://files.pythonhosted.org/packages/01/6e/af039393ab3c75dfe0e111bb9bec0977b496bd61da4b13f5a189cdf63f6a/modbampy-0.9.4.tar.gz
+[2023-04-17 13:35:46] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/a8/7e/43c0eb414d95c265900cee448d064d9cce604acfbf2e2362a9e53b2570a0/moto-4.1.8.dev8.tar.gz
+[2023-04-17 13:35:46] INFO root fetch - processPackages [pySAXS]: Downloading https://files.pythonhosted.org/packages/8d/5a/3e68dd008b56a2d24f09383c0a057bbe885d5165de10c880c507028215a0/pySAXS-3.262-py2.py3-none-any.whl
+[2023-04-17 13:35:46] INFO root fetch - processPackages [nismod-snail]: Downloading https://files.pythonhosted.org/packages/1a/ce/1b8c4d3750ed8e3a30766196b7a6b2b81a0ea020fde5bedbfa9ce329113a/nismod-snail-0.2.1.tar.gz
+[2023-04-17 13:35:46] INFO root fetch - processPackages [qiskit-iqm]: Downloading https://files.pythonhosted.org/packages/50/f3/438034ada363b262b311979eb137fd32e97e1a74a241222b4131d644697f/qiskit-iqm-7.8.tar.gz
+[2023-04-17 13:35:46] INFO root fetch - processPackages [imggencli]: executing diffoscope
+[2023-04-17 13:35:46] INFO root fetch - processPackages [imggencli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imggencli-1.4.1.tar.gz tmp/imggencli-1.4.2.tar.gz --markdown 20230417/i/imggencli/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-04-17 13:35:46] INFO root fetch - processPackages [imggencli]: executing diffoscope
+[2023-04-17 13:35:46] INFO root fetch - processPackages [imggencli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imggencli-1.4.1.tar.gz tmp/imggencli-1.4.2.tar.gz --markdown 20230417/i/imggencli/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-04-17 13:35:46] WARNING root fetch - processPackages [pySAXS]: Skipping package: exceeds size limit 20254256>=10485760
+[2023-04-17 13:35:46] INFO root fetch - processPackages [pySAXS]: Start processing: valmi-connector-lib
+[2023-04-17 13:35:46] INFO root fetch - main [MainThread]: End processing [pySAXS] error
+[2023-04-17 13:35:46] INFO root fetch - processPackages [valmi-connector-lib]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-17 13:35:46] INFO root fetch - processPackages [holoviews]: executing diffoscope
+[2023-04-17 13:35:46] INFO root fetch - processPackages [holoviews]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/holoviews-1.9.4.tar.gz tmp/holoviews-1.9.5.tar.gz --markdown 20230417/h/holoviews/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-04-17 13:35:46] INFO root fetch - processPackages [django-germanium]: Downloading https://files.pythonhosted.org/packages/38/59/0553ae395ee4cd5f713aae52dfe5f5e0d41a14bc19678a7f10f46e22d977/django-germanium-2.3.9.tar.gz
+[2023-04-17 13:35:46] INFO root fetch - processPackages [nismod-snail]: Downloading https://files.pythonhosted.org/packages/f3/ab/e3251f834c308d68cbd59c0ca18e4591cab4769624b2e6e92b2efe4230bb/nismod-snail-0.3.0.tar.gz
+[2023-04-17 13:35:46] INFO root fetch - processPackages [valmi-connector-lib]: Downloading https://files.pythonhosted.org/packages/bf/83/4640660158e5fb3e4f88b387fa8518f626f57ba7a69665c9d36135ed191b/valmi_connector_lib-0.1.2.tar.gz
+[2023-04-17 13:35:46] INFO root fetch - processPackages [qiskit-iqm]: Downloading https://files.pythonhosted.org/packages/c8/36/5bf315a4e64b3e5a2846e2935846a1437955465c645831ae6964faa4d339/qiskit-iqm-7.9.tar.gz
+[2023-04-17 13:35:46] INFO root fetch - processPackages [modbampy]: Downloading https://files.pythonhosted.org/packages/6e/0d/87c9006c0559adf05219b251aca9ec894a97ece71030e555f6527bac8fdf/modbampy-0.9.5.tar.gz
+[2023-04-17 13:35:46] INFO root fetch - processPackages [qiskit-iqm]: executing diffoscope
+[2023-04-17 13:35:46] INFO root fetch - processPackages [qiskit-iqm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit-iqm-7.8.tar.gz tmp/qiskit-iqm-7.9.tar.gz --markdown 20230417/q/qiskit-iqm/7.8-7.9/diff.md --exclude *.pyd
+[2023-04-17 13:35:46] INFO root fetch - processPackages [django-germanium]: executing diffoscope
+[2023-04-17 13:35:46] INFO root fetch - processPackages [django-germanium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-germanium-2.3.8.tar.gz tmp/django-germanium-2.3.9.tar.gz --markdown 20230417/d/django-germanium/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-04-17 13:35:46] INFO root fetch - processPackages [valmi-connector-lib]: executing diffoscope
+[2023-04-17 13:35:46] INFO root fetch - processPackages [valmi-connector-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valmi_connector_lib-0.1.1.tar.gz tmp/valmi_connector_lib-0.1.2.tar.gz --markdown 20230417/v/valmi-connector-lib/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-17 13:35:46] INFO root fetch - processPackages [nismod-snail]: executing diffoscope
+[2023-04-17 13:35:46] INFO root fetch - processPackages [nismod-snail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nismod-snail-0.2.1.tar.gz tmp/nismod-snail-0.3.0.tar.gz --markdown 20230417/n/nismod-snail/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-04-17 13:35:46] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/16/de/6eeeafe0bd8bd1c124995b756ccae7916d1e5b68328f0f2d132a46246f34/moto-4.1.8.dev9.tar.gz
+[2023-04-17 13:35:46] INFO root fetch - processPackages [modbampy]: executing diffoscope
+[2023-04-17 13:35:46] INFO root fetch - processPackages [modbampy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modbampy-0.9.4.tar.gz tmp/modbampy-0.9.5.tar.gz --markdown 20230417/m/modbampy/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-04-17 13:35:47] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-04-17 13:35:47] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.8.dev8.tar.gz tmp/moto-4.1.8.dev9.tar.gz --markdown 20230417/m/moto/4.1.8.dev8-4.1.8.dev9/diff.md --exclude *.pyd
+[2023-04-17 13:35:47] INFO root fetch - processPackages [imggencli]: Start processing: cleanchausie
+[2023-04-17 13:35:47] INFO root fetch - main [MainThread]: End processing [imggencli]: success
+[2023-04-17 13:35:47] INFO root fetch - processPackages [cleanchausie]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-04-17 13:35:47] INFO root fetch - processPackages [imggencli]: Start processing: vasprocar
+[2023-04-17 13:35:47] INFO root fetch - main [MainThread]: End processing [imggencli]: success
+[2023-04-17 13:35:47] WARNING root fetch - processPackages [vasprocar]: Skipping, unable to determine old version
+[2023-04-17 13:35:47] INFO root fetch - processPackages [vasprocar]: Start processing: flask-whooshee
+[2023-04-17 13:35:47] INFO root fetch - main [MainThread]: End processing [vasprocar] error
+[2023-04-17 13:35:47] INFO root fetch - processPackages [flask-whooshee]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-04-17 13:35:47] INFO root fetch - processPackages [cleanchausie]: Downloading https://files.pythonhosted.org/packages/a7/78/dbb98225f8ff4846374d6aa1685bf9ef970270d109deb0b928ca4b213424/cleanchausie-1.9.0.tar.gz
+[2023-04-17 13:35:47] INFO root fetch - processPackages [flask-whooshee]: Downloading https://files.pythonhosted.org/packages/3d/be/12378e03f5a1a916d5a573fc63525a06f984618602954015a3aaa1c417e3/flask-whooshee-0.8.2.tar.gz
+[2023-04-17 13:35:48] INFO root fetch - processPackages [cleanchausie]: Downloading https://files.pythonhosted.org/packages/4f/6b/b3ff2752ea6aefe1723794295a2001fe12d9b4991690db10fe4a1c09f609/cleanchausie-1.9.1.tar.gz
+[2023-04-17 13:35:48] INFO root fetch - processPackages [cleanchausie]: executing diffoscope
+[2023-04-17 13:35:48] INFO root fetch - processPackages [cleanchausie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cleanchausie-1.9.0.tar.gz tmp/cleanchausie-1.9.1.tar.gz --markdown 20230417/c/cleanchausie/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-04-17 13:35:48] INFO root fetch - processPackages [flask-whooshee]: Downloading https://files.pythonhosted.org/packages/4c/2e/148df19b6d4ed0e7fbf6f7fac3332880c71e552864637c94a582e0581f95/flask-whooshee-0.9.0.tar.gz
+[2023-04-17 13:35:48] INFO root fetch - processPackages [valmi-connector-lib]: Start processing: torchx-nightly
+[2023-04-17 13:35:48] INFO root fetch - main [MainThread]: End processing [valmi-connector-lib]: success
+[2023-04-17 13:35:48] INFO root fetch - main [MainThread]: End processing [nismod-snail]: success
+[2023-04-17 13:35:48] INFO root fetch - processPackages [torchx-nightly]: New version: [2023.4.9] Old Version: [2023.4.8]
+[2023-04-17 13:35:48] INFO root fetch - processPackages [flask-whooshee]: executing diffoscope
+[2023-04-17 13:35:48] INFO root fetch - processPackages [flask-whooshee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask-whooshee-0.8.2.tar.gz tmp/flask-whooshee-0.9.0.tar.gz --markdown 20230417/f/flask-whooshee/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-04-17 13:35:48] INFO root fetch - processPackages [torchx-nightly]: executing diffoscope
+[2023-04-17 13:35:48] INFO root fetch - processPackages [torchx-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchx_nightly-2023.4.8-py3-none-any.whl.zip tmp/torchx_nightly-2023.4.9-py3-none-any.whl.zip --markdown 20230417/t/torchx-nightly/2023.4.8-2023.4.9/diff.md --exclude *.pyd
+[2023-04-17 13:35:48] INFO root fetch - main [MainThread]: End processing [django-germanium]: success
+[2023-04-17 13:35:49] INFO root fetch - main [MainThread]: End processing [cleanchausie]: success
+[2023-04-17 13:35:49] INFO root fetch - main [MainThread]: End processing [flask-whooshee]: success
+[2023-04-17 13:35:50] INFO root fetch - main [MainThread]: End processing [torchx-nightly]: success
+[2023-04-17 13:35:50] INFO root fetch - main [MainThread]: End processing [qiskit-iqm]: success
+[2023-04-17 13:35:50] INFO root fetch - main [MainThread]: End processing [cognite-sdk]: success
+[2023-04-17 13:35:51] INFO root fetch - main [MainThread]: End processing [modbampy]: success
+[2023-04-17 13:35:59] INFO root fetch - main [MainThread]: End processing [holoviews]: success
+[2023-04-17 13:36:26] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-04-17 13:36:26] INFO root fetch - main [MainThread]: Store serial: [17737542]
