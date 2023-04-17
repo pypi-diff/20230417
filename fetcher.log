@@ -4116,3 +4116,123 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 04:48:02] INFO root fetch - main [MainThread]: End processing [paitest]: success
 [2023-04-17 04:48:52] INFO root fetch - main [MainThread]: End processing [modelscope]: success
 [2023-04-17 04:48:52] INFO root fetch - main [MainThread]: Store serial: [17733029]
+[2023-04-17 04:53:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17733029]
+[2023-04-17 04:54:01] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-04-17 04:54:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: macrometa-source-bigquery
+[2023-04-17 04:54:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: headfuck-JJPMaster
+[2023-04-17 04:54:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: macrometa-source-collection
+[2023-04-17 04:54:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: classifyawsetsjsonbyregion
+[2023-04-17 04:54:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cargo-lambda-cdk
+[2023-04-17 04:54:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: macrometa-source-mongo
+[2023-04-17 04:54:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: headfuck
+[2023-04-17 04:54:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: macrometa-source-oracle
+[2023-04-17 04:54:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: macrometa-source-postgres
+[2023-04-17 04:54:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: loganmatic
+[2023-04-17 04:54:01] INFO root fetch - processPackages [macrometa-source-collection]: New version: [0.0.20] Old Version: [0.0.19]
+[2023-04-17 04:54:01] WARNING root fetch - processPackages [headfuck-JJPMaster]: Skipping, unable to determine old version
+[2023-04-17 04:54:01] WARNING root fetch - processPackages [classifyawsetsjsonbyregion]: Skipping, unable to determine old version
+[2023-04-17 04:54:01] INFO root fetch - processPackages [macrometa-source-mongo]: New version: [0.0.32] Old Version: [0.0.31]
+[2023-04-17 04:54:01] INFO root fetch - processPackages [headfuck-JJPMaster]: Start processing: portmod
+[2023-04-17 04:54:01] INFO root fetch - processPackages [classifyawsetsjsonbyregion]: Start processing: macrometa-source-snowflake
+[2023-04-17 04:54:01] INFO root fetch - main [MainThread]: End processing [headfuck-JJPMaster] error
+[2023-04-17 04:54:01] WARNING root fetch - processPackages [headfuck]: Skipping, unable to determine old version
+[2023-04-17 04:54:01] INFO root fetch - processPackages [macrometa-source-bigquery]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 04:54:01] INFO root fetch - main [MainThread]: End processing [classifyawsetsjsonbyregion] error
+[2023-04-17 04:54:01] INFO root fetch - processPackages [macrometa-source-postgres]: New version: [0.0.40] Old Version: [0.0.39]
+[2023-04-17 04:54:01] INFO root fetch - processPackages [headfuck]: Start processing: vhdx-2-zvol
+[2023-04-17 04:54:01] INFO root fetch - processPackages [macrometa-source-oracle]: New version: [0.0.31] Old Version: [0.0.30]
+[2023-04-17 04:54:01] INFO root fetch - main [MainThread]: End processing [headfuck] error
+[2023-04-17 04:54:01] INFO root fetch - processPackages [cargo-lambda-cdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 04:54:01] INFO root fetch - processPackages [loganmatic]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 04:54:01] INFO root fetch - processPackages [macrometa-source-snowflake]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 04:54:01] INFO root fetch - processPackages [portmod]: New version: [2.6.0] Old Version: [2.5.8]
+[2023-04-17 04:54:01] INFO root fetch - processPackages [vhdx-2-zvol]: New version: [0.4.4.1] Old Version: [0.4.4]
+[2023-04-17 04:54:01] INFO root fetch - processPackages [loganmatic]: executing diffoscope
+[2023-04-17 04:54:01] INFO root fetch - processPackages [loganmatic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loganmatic-0.0.8.tar.gz tmp/loganmatic-0.0.9.tar.gz --markdown 20230417/l/loganmatic/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 04:54:01] INFO root fetch - processPackages [cargo-lambda-cdk]: executing diffoscope
+[2023-04-17 04:54:01] INFO root fetch - processPackages [cargo-lambda-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cargo-lambda-cdk-0.0.8.tar.gz tmp/cargo-lambda-cdk-0.0.9.tar.gz --markdown 20230417/c/cargo-lambda-cdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 04:54:01] INFO root fetch - processPackages [macrometa-source-collection]: Downloading https://files.pythonhosted.org/packages/a1/28/926993dc9042b5a693da1032b16100f28200df2b00aec3f85216684ba789/macrometa-source-collection-0.0.19.tar.gz
+[2023-04-17 04:54:01] INFO root fetch - processPackages [macrometa-source-mongo]: Downloading https://files.pythonhosted.org/packages/f0/7a/b949e55223f0d447bdbc7ed9e253627d1589418471a49291f552f51e7f6f/macrometa-source-mongo-0.0.31.tar.gz
+[2023-04-17 04:54:01] INFO root fetch - processPackages [macrometa-source-oracle]: Downloading https://files.pythonhosted.org/packages/43/62/7f1d5bb51060d4ade73b57dc703a726bb49b98fdce523ef1d67f942b4613/macrometa-source-oracle-0.0.30.tar.gz
+[2023-04-17 04:54:01] INFO root fetch - processPackages [portmod]: Downloading https://files.pythonhosted.org/packages/b1/c4/f6158b8fc07a34aa86bd938ba4f86fa0d0f053d8765264b173966c640084/portmod-2.5.8.tar.gz
+[2023-04-17 04:54:01] INFO root fetch - processPackages [macrometa-source-snowflake]: Downloading https://files.pythonhosted.org/packages/6f/04/89a4f6b25c2ccd3248b00b2eeb4c9cfd010be518d7d6b05312ac488dea69/macrometa-source-snowflake-0.0.8.tar.gz
+[2023-04-17 04:54:01] INFO root fetch - processPackages [vhdx-2-zvol]: Downloading https://files.pythonhosted.org/packages/0b/be/df8c6309b832ece8905f4bc026555d4dec2eccf64a0dab78dbda14ed8ecb/vhdx_2_zvol-0.4.4.1.tar.gz
+[2023-04-17 04:54:01] INFO root fetch - processPackages [macrometa-source-bigquery]: Downloading https://files.pythonhosted.org/packages/7e/66/c235a1cd533908f2edac0e4d0511bed2089d03ae9c5041f2099f6a896885/macrometa-source-bigquery-0.0.8.tar.gz
+[2023-04-17 04:54:01] INFO root fetch - processPackages [macrometa-source-postgres]: Downloading https://files.pythonhosted.org/packages/2d/76/bbf04928592c16f2b13066e6e7462a8dc5295954f42c8df4e08e291d26ca/macrometa-source-postgres-0.0.39.tar.gz
+[2023-04-17 04:54:01] INFO root fetch - processPackages [vhdx-2-zvol]: executing diffoscope
+[2023-04-17 04:54:01] INFO root fetch - processPackages [vhdx-2-zvol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vhdx_2_zvol-0.4.4.tar.gz tmp/vhdx_2_zvol-0.4.4.1.tar.gz --markdown 20230417/v/vhdx-2-zvol/0.4.4-0.4.4.1/diff.md --exclude *.pyd
+[2023-04-17 04:54:01] INFO root fetch - processPackages [macrometa-source-oracle]: Downloading https://files.pythonhosted.org/packages/3d/d9/fef49dd413b6ce998466c1b5359ded628b5a17e357a134aeaa80967d2722/macrometa-source-oracle-0.0.31.tar.gz
+[2023-04-17 04:54:01] INFO root fetch - processPackages [macrometa-source-mongo]: Downloading https://files.pythonhosted.org/packages/4f/b5/3590f99849cb99d84a160e42d729bbef3b7e0a0561b94ddeb780ec44d888/macrometa-source-mongo-0.0.32.tar.gz
+[2023-04-17 04:54:01] INFO root fetch - processPackages [macrometa-source-collection]: Downloading https://files.pythonhosted.org/packages/0e/60/3e311e41ab65919abb2988169d8d558be00966c2ed5d84de7fc75049a9ea/macrometa-source-collection-0.0.20.tar.gz
+[2023-04-17 04:54:01] INFO root fetch - processPackages [macrometa-source-postgres]: Downloading https://files.pythonhosted.org/packages/ff/84/b8b2502b12ca99918055a23a9224437a9f8e47ad758a047f94977ad1309b/macrometa-source-postgres-0.0.40.tar.gz
+[2023-04-17 04:54:01] INFO root fetch - processPackages [portmod]: Downloading https://files.pythonhosted.org/packages/29/13/a5c7b0a4c726aadd5037ffb32a5c714240564bb75f9e6804dc3220befa85/portmod-2.6.0-cp37-abi3-macosx_11_0_universal2.whl
+[2023-04-17 04:54:01] INFO root fetch - processPackages [macrometa-source-snowflake]: Downloading https://files.pythonhosted.org/packages/2e/9e/785f1d5ca8fd1608cadf7e6fb62934878661764e686ccbda2e5d32e7c7f5/macrometa-source-snowflake-0.0.9.tar.gz
+[2023-04-17 04:54:01] INFO root fetch - processPackages [macrometa-source-bigquery]: Downloading https://files.pythonhosted.org/packages/af/fa/3ef99a2aa85c6350305cb6913216f9f253824112a62dc842e960f33863bd/macrometa-source-bigquery-0.0.9.tar.gz
+[2023-04-17 04:54:01] INFO root fetch - processPackages [macrometa-source-mongo]: executing diffoscope
+[2023-04-17 04:54:01] INFO root fetch - processPackages [macrometa-source-snowflake]: executing diffoscope
+[2023-04-17 04:54:01] INFO root fetch - processPackages [macrometa-source-mongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-source-mongo-0.0.31.tar.gz tmp/macrometa-source-mongo-0.0.32.tar.gz --markdown 20230417/m/macrometa-source-mongo/0.0.31-0.0.32/diff.md --exclude *.pyd
+[2023-04-17 04:54:01] INFO root fetch - processPackages [macrometa-source-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-source-snowflake-0.0.8.tar.gz tmp/macrometa-source-snowflake-0.0.9.tar.gz --markdown 20230417/m/macrometa-source-snowflake/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 04:54:01] INFO root fetch - processPackages [macrometa-source-oracle]: executing diffoscope
+[2023-04-17 04:54:01] INFO root fetch - processPackages [macrometa-source-oracle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-source-oracle-0.0.30.tar.gz tmp/macrometa-source-oracle-0.0.31.tar.gz --markdown 20230417/m/macrometa-source-oracle/0.0.30-0.0.31/diff.md --exclude *.pyd
+[2023-04-17 04:54:01] INFO root fetch - processPackages [macrometa-source-bigquery]: executing diffoscope
+[2023-04-17 04:54:01] INFO root fetch - processPackages [macrometa-source-bigquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-source-bigquery-0.0.8.tar.gz tmp/macrometa-source-bigquery-0.0.9.tar.gz --markdown 20230417/m/macrometa-source-bigquery/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 04:54:01] INFO root fetch - processPackages [macrometa-source-collection]: executing diffoscope
+[2023-04-17 04:54:01] INFO root fetch - processPackages [macrometa-source-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-source-collection-0.0.19.tar.gz tmp/macrometa-source-collection-0.0.20.tar.gz --markdown 20230417/m/macrometa-source-collection/0.0.19-0.0.20/diff.md --exclude *.pyd
+[2023-04-17 04:54:01] INFO root fetch - processPackages [macrometa-source-postgres]: executing diffoscope
+[2023-04-17 04:54:01] INFO root fetch - processPackages [macrometa-source-postgres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-source-postgres-0.0.39.tar.gz tmp/macrometa-source-postgres-0.0.40.tar.gz --markdown 20230417/m/macrometa-source-postgres/0.0.39-0.0.40/diff.md --exclude *.pyd
+[2023-04-17 04:54:02] INFO root fetch - processPackages [portmod]: executing diffoscope
+[2023-04-17 04:54:02] INFO root fetch - processPackages [portmod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/portmod-2.5.8.tar.gz tmp/portmod-2.6.0-cp37-abi3-macosx_11_0_universal2.whl.zip --markdown 20230417/p/portmod/2.5.8-2.6.0/diff.md --exclude *.pyd
+[2023-04-17 04:54:02] INFO root fetch - processPackages [loganmatic]: Start processing: macrometa-target-bigquery
+[2023-04-17 04:54:02] INFO root fetch - main [MainThread]: End processing [loganmatic]: success
+[2023-04-17 04:54:02] INFO root fetch - processPackages [macrometa-target-bigquery]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-17 04:54:02] INFO root fetch - processPackages [macrometa-target-bigquery]: Downloading https://files.pythonhosted.org/packages/02/8f/69dee1dc2192bb5e9b7ca2ab47342a276f7691889e53c536e086a7d2340b/macrometa-target-bigquery-0.0.4.tar.gz
+[2023-04-17 04:54:02] INFO root fetch - processPackages [vhdx-2-zvol]: Start processing: CaptianSonar
+[2023-04-17 04:54:02] INFO root fetch - main [MainThread]: End processing [vhdx-2-zvol]: success
+[2023-04-17 04:54:02] WARNING root fetch - processPackages [CaptianSonar]: Skipping, unable to determine old version
+[2023-04-17 04:54:02] INFO root fetch - processPackages [CaptianSonar]: Start processing: skyagi
+[2023-04-17 04:54:02] INFO root fetch - main [MainThread]: End processing [CaptianSonar] error
+[2023-04-17 04:54:02] WARNING root fetch - processPackages [skyagi]: Skipping, unable to determine old version
+[2023-04-17 04:54:02] INFO root fetch - processPackages [skyagi]: Start processing: common-pyutil
+[2023-04-17 04:54:02] INFO root fetch - main [MainThread]: End processing [skyagi] error
+[2023-04-17 04:54:02] INFO root fetch - processPackages [common-pyutil]: New version: [0.8.6] Old Version: [0.8.5]
+[2023-04-17 04:54:03] INFO root fetch - processPackages [macrometa-target-bigquery]: Downloading https://files.pythonhosted.org/packages/94/f4/7b4c8d67ebf60e94f69c2f364fe6bdddc14f2dd38b2ba616be94863106cf/macrometa-target-bigquery-0.0.5.tar.gz
+[2023-04-17 04:54:03] INFO root fetch - processPackages [common-pyutil]: Downloading https://files.pythonhosted.org/packages/3f/dd/5af2e6d444190a6b7bbee61fc2f4a31a756ddda968e9dfe94b6794063e7d/common-pyutil-0.8.5.tar.gz
+[2023-04-17 04:54:03] INFO root fetch - processPackages [macrometa-target-bigquery]: executing diffoscope
+[2023-04-17 04:54:03] INFO root fetch - processPackages [macrometa-target-bigquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-bigquery-0.0.4.tar.gz tmp/macrometa-target-bigquery-0.0.5.tar.gz --markdown 20230417/m/macrometa-target-bigquery/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-17 04:54:03] INFO root fetch - processPackages [macrometa-source-mongo]: Start processing: macrometa-target-collection
+[2023-04-17 04:54:03] INFO root fetch - main [MainThread]: End processing [macrometa-source-mongo]: success
+[2023-04-17 04:54:03] INFO root fetch - processPackages [macrometa-target-collection]: New version: [0.0.54] Old Version: [0.0.53]
+[2023-04-17 04:54:03] INFO root fetch - processPackages [macrometa-source-snowflake]: Start processing: tasxnat
+[2023-04-17 04:54:03] INFO root fetch - main [MainThread]: End processing [macrometa-source-snowflake]: success
+[2023-04-17 04:54:03] INFO root fetch - processPackages [cargo-lambda-cdk]: Start processing: drawgly
+[2023-04-17 04:54:03] INFO root fetch - main [MainThread]: End processing [cargo-lambda-cdk]: success
+[2023-04-17 04:54:03] INFO root fetch - processPackages [tasxnat]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-17 04:54:03] WARNING root fetch - processPackages [drawgly]: Skipping, unable to determine old version
+[2023-04-17 04:54:03] INFO root fetch - processPackages [drawgly]: Start processing: macrometa-target-mongo
+[2023-04-17 04:54:03] INFO root fetch - main [MainThread]: End processing [drawgly] error
+[2023-04-17 04:54:03] INFO root fetch - processPackages [common-pyutil]: Downloading https://files.pythonhosted.org/packages/04/f3/af1fcde7e15f2074703689a7f6343764d99a113c579e7cb925c3fb9a51ab/common-pyutil-0.8.6.tar.gz
+[2023-04-17 04:54:03] INFO root fetch - main [MainThread]: End processing [macrometa-source-bigquery]: success
+[2023-04-17 04:54:03] INFO root fetch - processPackages [macrometa-target-mongo]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 04:54:03] INFO root fetch - main [MainThread]: End processing [macrometa-source-postgres]: success
+[2023-04-17 04:54:03] INFO root fetch - main [MainThread]: End processing [macrometa-source-collection]: success
+[2023-04-17 04:54:03] INFO root fetch - processPackages [common-pyutil]: executing diffoscope
+[2023-04-17 04:54:03] INFO root fetch - processPackages [common-pyutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/common-pyutil-0.8.5.tar.gz tmp/common-pyutil-0.8.6.tar.gz --markdown 20230417/c/common-pyutil/0.8.5-0.8.6/diff.md --exclude *.pyd
+[2023-04-17 04:54:03] INFO root fetch - processPackages [tasxnat]: Downloading https://files.pythonhosted.org/packages/5d/51/0c2dbdd92cc10551fdf13f02bbf7e76cc30bf105be9266f29a345b1c84fb/tasxnat-0.0.4.tar.gz
+[2023-04-17 04:54:03] INFO root fetch - processPackages [macrometa-target-mongo]: Downloading https://files.pythonhosted.org/packages/ef/d4/a749f2e67e9171099f2c4ed2c75142cadd30ab1784967ffc875704a40ee6/macrometa-target-mongo-0.0.8.tar.gz
+[2023-04-17 04:54:03] INFO root fetch - processPackages [macrometa-target-collection]: Downloading https://files.pythonhosted.org/packages/d6/cf/7f0ae242d11c7baf96ca75a7030247b3f3f790f78903382a0d116b6d949a/macrometa-target-collection-0.0.54.tar.gz
+[2023-04-17 04:54:03] INFO root fetch - processPackages [macrometa-target-collection]: executing diffoscope
+[2023-04-17 04:54:03] INFO root fetch - processPackages [macrometa-target-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-collection-0.0.53.tar.gz tmp/macrometa-target-collection-0.0.54.tar.gz --markdown 20230417/m/macrometa-target-collection/0.0.53-0.0.54/diff.md --exclude *.pyd
+[2023-04-17 04:54:03] INFO root fetch - processPackages [tasxnat]: Downloading https://files.pythonhosted.org/packages/01/43/d2cc2cb6493bd03f05de3728cd2c9b29a5ce7d46024d0caf61a03a0beaf6/tasxnat-0.0.5.tar.gz
+[2023-04-17 04:54:03] INFO root fetch - main [MainThread]: End processing [macrometa-source-oracle]: success
+[2023-04-17 04:54:03] INFO root fetch - processPackages [macrometa-target-mongo]: Downloading https://files.pythonhosted.org/packages/7d/ba/e4d42212a121d6658bf7d01b8b0e4fde578004371ebe2f5ad0d4905926e9/macrometa-target-mongo-0.0.9.tar.gz
+[2023-04-17 04:54:03] INFO root fetch - processPackages [tasxnat]: executing diffoscope
+[2023-04-17 04:54:03] INFO root fetch - processPackages [tasxnat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tasxnat-0.0.4.tar.gz tmp/tasxnat-0.0.5.tar.gz --markdown 20230417/t/tasxnat/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-17 04:54:04] INFO root fetch - processPackages [macrometa-target-mongo]: executing diffoscope
+[2023-04-17 04:54:04] INFO root fetch - processPackages [macrometa-target-mongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-mongo-0.0.8.tar.gz tmp/macrometa-target-mongo-0.0.9.tar.gz --markdown 20230417/m/macrometa-target-mongo/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 04:54:04] INFO root fetch - main [MainThread]: End processing [portmod]: success
+[2023-04-17 04:54:04] INFO root fetch - main [MainThread]: End processing [macrometa-target-bigquery]: success
+[2023-04-17 04:54:04] INFO root fetch - main [MainThread]: End processing [common-pyutil]: success
+[2023-04-17 04:54:04] INFO root fetch - main [MainThread]: End processing [macrometa-target-collection]: success
+[2023-04-17 04:54:04] INFO root fetch - main [MainThread]: End processing [tasxnat]: success
+[2023-04-17 04:54:05] INFO root fetch - main [MainThread]: End processing [macrometa-target-mongo]: success
+[2023-04-17 04:54:05] INFO root fetch - main [MainThread]: Store serial: [17733110]
