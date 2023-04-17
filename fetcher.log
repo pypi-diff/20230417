@@ -19450,3 +19450,68 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-17 19:51:13] INFO root fetch - main [MainThread]: End processing [coiled]: success
 [2023-04-17 19:51:17] INFO root fetch - main [MainThread]: End processing [btrack]: success
 [2023-04-17 19:51:17] INFO root fetch - main [MainThread]: Store serial: [17742220]
+[2023-04-17 19:56:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17742220]
+[2023-04-17 19:56:28] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-17 19:56:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: async-openai
+[2023-04-17 19:56:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ethnicolr
+[2023-04-17 19:56:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: runtimepy
+[2023-04-17 19:56:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tract
+[2023-04-17 19:56:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tabcompleter
+[2023-04-17 19:56:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: quarter-lib
+[2023-04-17 19:56:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xh-dict-utils
+[2023-04-17 19:56:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jeff-api
+[2023-04-17 19:56:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sesg
+[2023-04-17 19:56:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tendril-structures-media
+[2023-04-17 19:56:28] INFO root fetch - processPackages [quarter-lib]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-17 19:56:28] INFO root fetch - processPackages [jeff-api]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-04-17 19:56:28] INFO root fetch - processPackages [xh-dict-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 19:56:28] INFO root fetch - processPackages [async-openai]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 19:56:28] INFO root fetch - processPackages [tabcompleter]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-04-17 19:56:28] INFO root fetch - processPackages [ethnicolr]: New version: [0.9.6] Old Version: [0.9.3]
+[2023-04-17 19:56:28] INFO root fetch - processPackages [runtimepy]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-04-17 19:56:28] INFO root fetch - processPackages [xh-dict-utils]: executing diffoscope
+[2023-04-17 19:56:28] INFO root fetch - processPackages [xh-dict-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xh-dict-utils-0.0.8.tar.gz tmp/xh-dict-utils-0.0.9.tar.gz --markdown 20230417/x/xh-dict-utils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 19:56:28] WARNING root fetch - processPackages [tendril-structures-media]: Skipping, unable to determine old version
+[2023-04-17 19:56:28] INFO root fetch - processPackages [tendril-structures-media]: Start processing: WAZP
+[2023-04-17 19:56:28] INFO root fetch - main [MainThread]: End processing [tendril-structures-media] error
+[2023-04-17 19:56:28] WARNING root fetch - processPackages [sesg]: Skipping, unable to determine old version
+[2023-04-17 19:56:28] INFO root fetch - main [MainThread]: End processing [sesg] error
+[2023-04-17 19:56:28] INFO root fetch - processPackages [tract]: New version: [0.19.8] Old Version: [0.19.7]
+[2023-04-17 19:56:28] INFO root fetch - processPackages [jeff-api]: Downloading https://files.pythonhosted.org/packages/d5/56/339286ca29fd5c9024c8f12a81dfad0fd1ad25c896432e76d5ff033c0020/jeff_api-1.2.6.tar.gz
+[2023-04-17 19:56:28] INFO root fetch - processPackages [quarter-lib]: executing diffoscope
+[2023-04-17 19:56:28] INFO root fetch - processPackages [quarter-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Quarter-Lib-0.0.3.tar.gz tmp/quarter-lib-0.0.4.tar.gz --markdown 20230417/q/quarter-lib/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-17 19:56:28] INFO root fetch - processPackages [WAZP]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-04-17 19:56:28] INFO root fetch - processPackages [tabcompleter]: Downloading https://files.pythonhosted.org/packages/6b/b5/1e5788660aa830172c1dbd023bc156ee25dc1b4db6c8593a337c4d45dd3e/tabcompleter-1.1.0.tar.gz
+[2023-04-17 19:56:28] INFO root fetch - processPackages [async-openai]: Downloading https://files.pythonhosted.org/packages/8a/e5/bb649267c87fc7d7dc85e792edcb3b7dd043284b88c956c8be74b529d583/async_openai-0.0.8.tar.gz
+[2023-04-17 19:56:28] INFO root fetch - processPackages [ethnicolr]: Downloading https://files.pythonhosted.org/packages/b3/df/1f2cbad7eef27a108ab3f45299ebab963c6ec2fe6869a1be6ffccf606555/ethnicolr-0.9.3.tar.gz
+[2023-04-17 19:56:28] INFO root fetch - processPackages [runtimepy]: Downloading https://files.pythonhosted.org/packages/00/9d/f282c9f23cf40d9501dc640aad7d17a037e2fa0125701fa0758eb5ebb3f5/runtimepy-1.4.1.tar.gz
+[2023-04-17 19:56:28] INFO root fetch - processPackages [tract]: Downloading https://files.pythonhosted.org/packages/b0/0a/2d0caf358569e85e223e066a202561d144cc5447d1bb83b554fed7f4ec9a/tract-0.19.7.tar.gz
+[2023-04-17 19:56:28] INFO root fetch - processPackages [jeff-api]: executing diffoscope
+[2023-04-17 19:56:28] INFO root fetch - processPackages [jeff-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jeff_api-1.2.5.tar.gz tmp/jeff_api-1.2.6.tar.gz --markdown 20230417/j/jeff-api/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-04-17 19:56:28] WARNING root fetch - processPackages [ethnicolr]: Skipping package: exceeds size limit 39353181>=10485760
+[2023-04-17 19:56:28] INFO root fetch - main [MainThread]: End processing [ethnicolr] error
+[2023-04-17 19:56:28] INFO root fetch - processPackages [WAZP]: Downloading https://files.pythonhosted.org/packages/d1/76/8454a090a2877a0eb362f2243fe47f08c6a7614d21efb80a4e5ae15c6aad/WAZP-0.1.3.tar.gz
+[2023-04-17 19:56:28] INFO root fetch - processPackages [tabcompleter]: Downloading https://files.pythonhosted.org/packages/16/18/63ac89e2064347e2a2405a512b403a4e36182c3b8d621e7239639f6b9b1f/tabcompleter-1.2.0.tar.gz
+[2023-04-17 19:56:28] INFO root fetch - processPackages [runtimepy]: Downloading https://files.pythonhosted.org/packages/9f/80/f9a69661f34eb35d64487c439c30f6cc4696cffefcce5f7b17a965521784/runtimepy-1.4.2.tar.gz
+[2023-04-17 19:56:28] INFO root fetch - processPackages [async-openai]: Downloading https://files.pythonhosted.org/packages/b6/c9/d79d42fbc5b2cd10efe405bb34874c5a87ed664075c990e4017839409496/async_openai-0.0.9.tar.gz
+[2023-04-17 19:56:28] INFO root fetch - processPackages [tract]: Downloading https://files.pythonhosted.org/packages/4b/f5/00cf5512c1b78f4a70c56364d82cc86225a41203b477a79ab6b0834b9524/tract-0.19.8.tar.gz
+[2023-04-17 19:56:28] INFO root fetch - processPackages [tabcompleter]: executing diffoscope
+[2023-04-17 19:56:28] INFO root fetch - processPackages [tabcompleter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tabcompleter-1.1.0.tar.gz tmp/tabcompleter-1.2.0.tar.gz --markdown 20230417/t/tabcompleter/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-04-17 19:56:28] INFO root fetch - processPackages [tract]: executing diffoscope
+[2023-04-17 19:56:28] INFO root fetch - processPackages [tract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tract-0.19.7.tar.gz tmp/tract-0.19.8.tar.gz --markdown 20230417/t/tract/0.19.7-0.19.8/diff.md --exclude *.pyd
+[2023-04-17 19:56:28] INFO root fetch - processPackages [async-openai]: executing diffoscope
+[2023-04-17 19:56:28] INFO root fetch - processPackages [async-openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async_openai-0.0.8.tar.gz tmp/async_openai-0.0.9.tar.gz --markdown 20230417/a/async-openai/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 19:56:28] INFO root fetch - processPackages [WAZP]: Downloading https://files.pythonhosted.org/packages/39/e8/d572c83f6ca0639348c9791b95c45cf6d28052124615559ddd4c3a53d586/WAZP-0.2.0.tar.gz
+[2023-04-17 19:56:29] INFO root fetch - processPackages [runtimepy]: executing diffoscope
+[2023-04-17 19:56:29] INFO root fetch - processPackages [runtimepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runtimepy-1.4.1.tar.gz tmp/runtimepy-1.4.2.tar.gz --markdown 20230417/r/runtimepy/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-04-17 19:56:29] INFO root fetch - processPackages [WAZP]: executing diffoscope
+[2023-04-17 19:56:29] INFO root fetch - processPackages [WAZP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WAZP-0.1.3.tar.gz tmp/WAZP-0.2.0.tar.gz --markdown 20230417/W/WAZP/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-04-17 19:56:29] INFO root fetch - main [MainThread]: End processing [quarter-lib]: success
+[2023-04-17 19:56:29] INFO root fetch - main [MainThread]: End processing [xh-dict-utils]: success
+[2023-04-17 19:56:29] INFO root fetch - main [MainThread]: End processing [jeff-api]: success
+[2023-04-17 19:56:30] INFO root fetch - main [MainThread]: End processing [async-openai]: success
+[2023-04-17 19:56:30] INFO root fetch - main [MainThread]: End processing [tabcompleter]: success
+[2023-04-17 19:56:30] INFO root fetch - main [MainThread]: End processing [tract]: success
+[2023-04-17 19:56:30] INFO root fetch - main [MainThread]: End processing [WAZP]: success
+[2023-04-17 19:56:30] INFO root fetch - main [MainThread]: End processing [runtimepy]: success
+[2023-04-17 19:56:30] INFO root fetch - main [MainThread]: Store serial: [17742300]
