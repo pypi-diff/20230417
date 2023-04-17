@@ -10106,3 +10106,80 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 12:22:46] INFO root fetch - main [MainThread]: End processing [bmb-martlet-organization-client]: success
 [2023-04-17 12:22:51] INFO root fetch - main [MainThread]: End processing [psat-server-web]: success
 [2023-04-17 12:22:51] INFO root fetch - main [MainThread]: Store serial: [17736695]
+[2023-04-17 12:27:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17736695]
+[2023-04-17 12:28:00] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-17 12:28:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: moto-ext
+[2023-04-17 12:28:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: huscy.email-recruitment
+[2023-04-17 12:28:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ekuiper
+[2023-04-17 12:28:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ekuiper
+[2023-04-17 12:28:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: projen
+[2023-04-17 12:28:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alibabacloud-mse20190531-py2
+[2023-04-17 12:28:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: imggencli
+[2023-04-17 12:28:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: alibabacloud-mse20190531
+[2023-04-17 12:28:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: datclass
+[2023-04-17 12:28:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: customdbcred
+[2023-04-17 12:28:00] INFO root fetch - processPackages [huscy.email-recruitment]: New version: [0.4.0a6] Old Version: [0.4.0a5]
+[2023-04-17 12:28:00] INFO root fetch - processPackages [ekuiper]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-04-17 12:28:00] INFO root fetch - processPackages [ekuiper]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-04-17 12:28:00] INFO root fetch - processPackages [alibabacloud-mse20190531-py2]: New version: [3.0.9] Old Version: [3.0.67]
+[2023-04-17 12:28:00] INFO root fetch - processPackages [imggencli]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-04-17 12:28:00] INFO root fetch - processPackages [datclass]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-04-17 12:28:00] INFO root fetch - processPackages [moto-ext]: New version: [4.1.7.post2] Old Version: [4.1.7.post1]
+[2023-04-17 12:28:00] INFO root fetch - processPackages [alibabacloud-mse20190531]: New version: [3.9.6] Old Version: [3.9.5]
+[2023-04-17 12:28:00] INFO root fetch - processPackages [projen]: New version: [0.71.9] Old Version: [0.71.8]
+[2023-04-17 12:28:00] INFO root fetch - processPackages [customdbcred]: New version: [0.2] Old Version: [0.1]
+[2023-04-17 12:28:00] INFO root fetch - processPackages [ekuiper]: Downloading https://files.pythonhosted.org/packages/67/cf/a48cf6998b4e6d1cff44084b01d2db82dcbdf7f3c4320f461cbbb8958491/ekuiper-1.9.0.tar.gz
+[2023-04-17 12:28:00] INFO root fetch - processPackages [projen]: executing diffoscope
+[2023-04-17 12:28:00] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.71.8.tar.gz tmp/projen-0.71.9.tar.gz --markdown 20230417/p/projen/0.71.8-0.71.9/diff.md --exclude *.pyd
+[2023-04-17 12:28:00] INFO root fetch - processPackages [alibabacloud-mse20190531-py2]: Downloading https://files.pythonhosted.org/packages/a6/b5/e8a999746bcec57cb90ca1104314e8cc608758590c916b1c662b96d553d9/alibabacloud_mse20190531_py2-3.0.67.tar.gz
+[2023-04-17 12:28:00] INFO root fetch - processPackages [ekuiper]: Downloading https://files.pythonhosted.org/packages/67/cf/a48cf6998b4e6d1cff44084b01d2db82dcbdf7f3c4320f461cbbb8958491/ekuiper-1.9.0.tar.gz
+[2023-04-17 12:28:00] INFO root fetch - processPackages [huscy.email-recruitment]: Downloading https://files.pythonhosted.org/packages/56/27/212936694dd4c162a3ab9d36962ab459975726778b06482d8022563ba17e/huscy.email-recruitment-0.4.0a5.tar.gz
+[2023-04-17 12:28:00] INFO root fetch - processPackages [moto-ext]: Downloading https://files.pythonhosted.org/packages/6a/c6/51bc58593807414ab43dbc7ed43a90e6a79a41f508361e330b54076c21b5/moto-ext-4.1.7.post1.tar.gz
+[2023-04-17 12:28:00] INFO root fetch - processPackages [datclass]: Downloading https://files.pythonhosted.org/packages/b6/48/219f7852aa86fd9449a4c36f1bf60a5072ec71c552fb8e9e8f20a00a056e/datclass-0.1.9.tar.gz
+[2023-04-17 12:28:00] INFO root fetch - processPackages [alibabacloud-mse20190531]: Downloading https://files.pythonhosted.org/packages/87/56/c5e34fd4cb3c2aa841a5864f5d34c03b896e3f47ecc64dd2a141cfb7e1cd/alibabacloud_mse20190531-3.9.5.tar.gz
+[2023-04-17 12:28:00] INFO root fetch - processPackages [imggencli]: Downloading https://files.pythonhosted.org/packages/37/f7/9007b925ed495508ccd50064cdc58d149db7d5f165cd24acabf0518ec2ef/imggencli-1.3.3.tar.gz
+[2023-04-17 12:28:00] INFO root fetch - processPackages [customdbcred]: Downloading https://files.pythonhosted.org/packages/0f/88/193c7c7c194dd0dff11c6241a1a57d15925d606a7ee4907ab518127ccc55/customdbcred-0.1.tar.gz
+[2023-04-17 12:28:00] INFO root fetch - processPackages [ekuiper]: Downloading https://files.pythonhosted.org/packages/ca/10/aed1d7c6fdf2a0d33e44c16951cd9ef813061d890f0cc4172e4d237ca01f/ekuiper-1.9.1.tar.gz
+[2023-04-17 12:28:00] INFO root fetch - processPackages [ekuiper]: Downloading https://files.pythonhosted.org/packages/ca/10/aed1d7c6fdf2a0d33e44c16951cd9ef813061d890f0cc4172e4d237ca01f/ekuiper-1.9.1.tar.gz
+[2023-04-17 12:28:00] INFO root fetch - processPackages [imggencli]: executing diffoscope
+[2023-04-17 12:28:00] INFO root fetch - processPackages [imggencli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imggencli-1.3.2.tar.gz tmp/imggencli-1.3.3.tar.gz --markdown 20230417/i/imggencli/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-04-17 12:28:00] INFO root fetch - processPackages [huscy.email-recruitment]: Downloading https://files.pythonhosted.org/packages/32/0c/6cc1b403dbacb7412a696d0672cb512ead72671e13aac9473ae7984730ba/huscy.email-recruitment-0.4.0a6.tar.gz
+[2023-04-17 12:28:00] INFO root fetch - processPackages [datclass]: Downloading https://files.pythonhosted.org/packages/90/9c/306de9a33197f925e5ceac053a76e9c3f9092cca62690ba24ddbdecfb471/datclass-0.2.0.tar.gz
+[2023-04-17 12:28:00] INFO root fetch - processPackages [customdbcred]: Downloading https://files.pythonhosted.org/packages/bc/df/b9aebcc77099eb766b0e1e7c4badeeffa33016c074958bf2e82f4b2a6fb3/customdbcred-0.2.tar.gz
+[2023-04-17 12:28:00] INFO root fetch - processPackages [alibabacloud-mse20190531]: Downloading https://files.pythonhosted.org/packages/a5/b6/c416763ed9d2030e3bfa6a84f4aa0113af77688de039d68c9217491ba0ba/alibabacloud_mse20190531-3.9.6.tar.gz
+[2023-04-17 12:28:00] INFO root fetch - processPackages [ekuiper]: executing diffoscope
+[2023-04-17 12:28:00] INFO root fetch - processPackages [ekuiper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ekuiper-1.9.0.tar.gz tmp/ekuiper-1.9.1.tar.gz --markdown 20230417/e/ekuiper/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-04-17 12:28:00] INFO root fetch - processPackages [alibabacloud-mse20190531-py2]: Downloading https://files.pythonhosted.org/packages/f3/7b/2efff9f58ae4fd562de2bda99c7de3f74374d24d92d50cc92cb3ca2e1f0d/alibabacloud_mse20190531_py2-3.0.9.tar.gz
+[2023-04-17 12:28:00] INFO root fetch - processPackages [ekuiper]: executing diffoscope
+[2023-04-17 12:28:00] INFO root fetch - processPackages [ekuiper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ekuiper-1.9.0.tar.gz tmp/ekuiper-1.9.1.tar.gz --markdown 20230417/e/ekuiper/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-04-17 12:28:00] INFO root fetch - processPackages [huscy.email-recruitment]: executing diffoscope
+[2023-04-17 12:28:00] INFO root fetch - processPackages [huscy.email-recruitment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huscy.email-recruitment-0.4.0a5.tar.gz tmp/huscy.email-recruitment-0.4.0a6.tar.gz --markdown 20230417/h/huscy.email-recruitment/0.4.0a5-0.4.0a6/diff.md --exclude *.pyd
+[2023-04-17 12:28:01] INFO root fetch - processPackages [alibabacloud-mse20190531]: executing diffoscope
+[2023-04-17 12:28:01] INFO root fetch - processPackages [alibabacloud-mse20190531]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_mse20190531-3.9.5.tar.gz tmp/alibabacloud_mse20190531-3.9.6.tar.gz --markdown 20230417/a/alibabacloud-mse20190531/3.9.5-3.9.6/diff.md --exclude *.pyd
+[2023-04-17 12:28:01] INFO root fetch - processPackages [datclass]: executing diffoscope
+[2023-04-17 12:28:01] INFO root fetch - processPackages [datclass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datclass-0.1.9.tar.gz tmp/datclass-0.2.0.tar.gz --markdown 20230417/d/datclass/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-04-17 12:28:01] INFO root fetch - processPackages [customdbcred]: executing diffoscope
+[2023-04-17 12:28:01] INFO root fetch - processPackages [customdbcred]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/customdbcred-0.1.tar.gz tmp/customdbcred-0.2.tar.gz --markdown 20230417/c/customdbcred/0.1-0.2/diff.md --exclude *.pyd
+[2023-04-17 12:28:01] INFO root fetch - processPackages [alibabacloud-mse20190531-py2]: executing diffoscope
+[2023-04-17 12:28:01] INFO root fetch - processPackages [alibabacloud-mse20190531-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_mse20190531_py2-3.0.67.tar.gz tmp/alibabacloud_mse20190531_py2-3.0.9.tar.gz --markdown 20230417/a/alibabacloud-mse20190531-py2/3.0.67-3.0.9/diff.md --exclude *.pyd
+[2023-04-17 12:28:01] INFO root fetch - processPackages [moto-ext]: Downloading https://files.pythonhosted.org/packages/dc/30/ac63d37ea7f09b2af528b98a26214e8081ed53eb7d13b5db14dd48598669/moto-ext-4.1.7.post2.tar.gz
+[2023-04-17 12:28:01] INFO root fetch - processPackages [moto-ext]: executing diffoscope
+[2023-04-17 12:28:01] INFO root fetch - processPackages [moto-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-ext-4.1.7.post1.tar.gz tmp/moto-ext-4.1.7.post2.tar.gz --markdown 20230417/m/moto-ext/4.1.7.post1-4.1.7.post2/diff.md --exclude *.pyd
+[2023-04-17 12:28:02] INFO root fetch - processPackages [imggencli]: Start processing: redis-metric-helper
+[2023-04-17 12:28:02] INFO root fetch - main [MainThread]: End processing [imggencli]: success
+[2023-04-17 12:28:02] INFO root fetch - main [MainThread]: End processing [ekuiper]: success
+[2023-04-17 12:28:02] INFO root fetch - processPackages [redis-metric-helper]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-04-17 12:28:02] INFO root fetch - main [MainThread]: End processing [ekuiper]: success
+[2023-04-17 12:28:02] INFO root fetch - main [MainThread]: End processing [customdbcred]: success
+[2023-04-17 12:28:02] INFO root fetch - main [MainThread]: End processing [datclass]: success
+[2023-04-17 12:28:02] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2023-04-17 12:28:02] INFO root fetch - processPackages [redis-metric-helper]: Downloading https://files.pythonhosted.org/packages/24/ed/828325401cadfc27fec1dba964a35c8628b2e0012560ee70250c3f715ac7/redis_metric_helper-0.2.3-py3-none-any.whl
+[2023-04-17 12:28:02] INFO root fetch - main [MainThread]: End processing [huscy.email-recruitment]: success
+[2023-04-17 12:28:02] INFO root fetch - processPackages [redis-metric-helper]: executing diffoscope
+[2023-04-17 12:28:02] INFO root fetch - processPackages [redis-metric-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redis-metric-helper-0.2.2.tar.gz tmp/redis_metric_helper-0.2.3-py3-none-any.whl.zip --markdown 20230417/r/redis-metric-helper/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-04-17 12:28:03] INFO root fetch - main [MainThread]: End processing [redis-metric-helper]: success
+[2023-04-17 12:28:04] INFO root fetch - main [MainThread]: End processing [alibabacloud-mse20190531-py2]: success
+[2023-04-17 12:28:04] INFO root fetch - main [MainThread]: End processing [alibabacloud-mse20190531]: success
+[2023-04-17 12:31:02] ERROR root fetch - processPackages [moto-ext]: Timeout during execution of pkgdiff
+[2023-04-17 12:31:02] INFO root fetch - main [MainThread]: End processing [moto-ext] error
+[2023-04-17 12:31:02] INFO root fetch - main [MainThread]: Store serial: [17736737]
