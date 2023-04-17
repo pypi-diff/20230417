@@ -11105,3 +11105,82 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-04-17 13:14:36] INFO root fetch - main [MainThread]: End processing [tarantool]: success
 [2023-04-17 13:14:36] INFO root fetch - main [MainThread]: End processing [bcos]: success
 [2023-04-17 13:14:36] INFO root fetch - main [MainThread]: Store serial: [17737262]
+[2023-04-17 13:19:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17737262]
+[2023-04-17 13:19:46] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-17 13:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: uzcloud-billing
+[2023-04-17 13:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Mongeasy
+[2023-04-17 13:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dknovautils
+[2023-04-17 13:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flashcam
+[2023-04-17 13:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kubetools
+[2023-04-17 13:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ramodels
+[2023-04-17 13:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pepperize.cdk-private-bucket
+[2023-04-17 13:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cloudnet-submit
+[2023-04-17 13:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: smart-scrap
+[2023-04-17 13:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: paddypy
+[2023-04-17 13:19:46] INFO root fetch - processPackages [Mongeasy]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-17 13:19:46] INFO root fetch - processPackages [dknovautils]: New version: [0.0.3] Old Version: [0.0.22]
+[2023-04-17 13:19:46] WARNING root fetch - processPackages [smart-scrap]: Skipping, unable to determine old version
+[2023-04-17 13:19:46] INFO root fetch - processPackages [smart-scrap]: Start processing: seguid-calculator
+[2023-04-17 13:19:46] INFO root fetch - main [MainThread]: End processing [smart-scrap] error
+[2023-04-17 13:19:46] INFO root fetch - processPackages [paddypy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 13:19:46] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-04-17 13:19:46] INFO root fetch - processPackages [uzcloud-billing]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-17 13:19:46] INFO root fetch - processPackages [Mongeasy]: executing diffoscope
+[2023-04-17 13:19:46] INFO root fetch - processPackages [dknovautils]: executing diffoscope
+[2023-04-17 13:19:46] INFO root fetch - processPackages [Mongeasy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Mongeasy-0.1.0.tar.gz tmp/Mongeasy-0.1.1.tar.gz --markdown 20230417/M/Mongeasy/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-17 13:19:46] INFO root fetch - processPackages [dknovautils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dknovautils-0.0.22.tar.gz tmp/dknovautils-0.0.3.tar.gz --markdown 20230417/d/dknovautils/0.0.22-0.0.3/diff.md --exclude *.pyd
+[2023-04-17 13:19:46] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-04-17 13:19:46] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230417/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-04-17 13:19:46] INFO root fetch - processPackages [kubetools]: New version: [9.1.1] Old Version: [9.1]
+[2023-04-17 13:19:46] INFO root fetch - processPackages [cloudnet-submit]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-17 13:19:46] INFO root fetch - processPackages [flashcam]: New version: [1.3.4] Old Version: [1.3.22]
+[2023-04-17 13:19:46] INFO root fetch - processPackages [seguid-calculator]: New version: [1.27] Old Version: [1.2.5]
+[2023-04-17 13:19:46] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-17 13:19:46] INFO root fetch - processPackages [paddypy]: Downloading https://files.pythonhosted.org/packages/c3/56/658e63522a2e91bc659250e9aa68eaeda46eaec908d7ae551f2da79b9d4d/paddypy-0.0.9.tar.gz
+[2023-04-17 13:19:46] INFO root fetch - processPackages [uzcloud-billing]: Downloading https://files.pythonhosted.org/packages/8a/8a/af7ceba11a01c59f4fc9c9fa59893174e890ebad94ffa02605abb9b62f8c/uzcloud-billing-0.2.8.tar.gz
+[2023-04-17 13:19:46] INFO root fetch - processPackages [flashcam]: Downloading https://files.pythonhosted.org/packages/cb/e3/da96bac6bb5916f50fe80e7b68111fa56812bf73268a9b9d45c4ce2445fb/flashcam-1.3.22.tar.gz
+[2023-04-17 13:19:46] INFO root fetch - processPackages [cloudnet-submit]: Downloading https://files.pythonhosted.org/packages/c6/6d/7353d3e45de6e532dd9712ae5b4c1571de73c5162b0ecf6e98fe95e690f0/cloudnet-submit-0.0.4.tar.gz
+[2023-04-17 13:19:46] INFO root fetch - processPackages [kubetools]: Downloading https://files.pythonhosted.org/packages/2d/9a/6eaa6a55ad9c39099d754265f72c8a007dc0e9acb944701d3a7e2d0f785d/kubetools-9.1.tar.gz
+[2023-04-17 13:19:46] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Downloading https://files.pythonhosted.org/packages/e7/b6/4073de848e06d760b3ef30686b0684410fc4bb899faf50e7ef4a0b2fac85/pepperize.cdk-private-bucket-0.0.98.tar.gz
+[2023-04-17 13:19:46] INFO root fetch - processPackages [seguid-calculator]: Downloading https://files.pythonhosted.org/packages/2c/d3/b673004b1b389e9738e4703757c6ef6b6c3ae8bcb9fc3727e70373674fbd/seguid_calculator-1.2.5-py3-none-any.whl
+[2023-04-17 13:19:46] INFO root fetch - processPackages [paddypy]: executing diffoscope
+[2023-04-17 13:19:46] INFO root fetch - processPackages [paddypy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paddypy-0.0.8.tar.gz tmp/paddypy-0.0.9.tar.gz --markdown 20230417/p/paddypy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 13:19:46] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Downloading https://files.pythonhosted.org/packages/e3/22/68d054109f3033e215b3e2bb124cce096ee16c91911cef45f98e5a69d1ca/pepperize.cdk-private-bucket-0.0.99.tar.gz
+[2023-04-17 13:19:46] INFO root fetch - processPackages [cloudnet-submit]: Downloading https://files.pythonhosted.org/packages/f2/67/a7426f260ee8e01331b1b51ef74f23d20ea97950adf5de596caa733b1976/cloudnet-submit-0.0.5.tar.gz
+[2023-04-17 13:19:46] INFO root fetch - processPackages [uzcloud-billing]: Downloading https://files.pythonhosted.org/packages/5f/79/338c84d66f6e6032d1af8922827315b189537ea0bb3c58e8c42e12fbfc69/uzcloud-billing-0.2.9.tar.gz
+[2023-04-17 13:19:47] INFO root fetch - processPackages [seguid-calculator]: Downloading https://files.pythonhosted.org/packages/6f/28/d7f36a752c219b5f31d79fa73aca78a4427c8f509b74c5d6bc414cda68a0/seguid_calculator-1.27.tar.gz
+[2023-04-17 13:19:47] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: executing diffoscope
+[2023-04-17 13:19:47] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-private-bucket-0.0.98.tar.gz tmp/pepperize.cdk-private-bucket-0.0.99.tar.gz --markdown 20230417/p/pepperize.cdk-private-bucket/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-17 13:19:47] INFO root fetch - processPackages [cloudnet-submit]: executing diffoscope
+[2023-04-17 13:19:47] INFO root fetch - processPackages [cloudnet-submit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudnet-submit-0.0.4.tar.gz tmp/cloudnet-submit-0.0.5.tar.gz --markdown 20230417/c/cloudnet-submit/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-17 13:19:47] INFO root fetch - processPackages [uzcloud-billing]: executing diffoscope
+[2023-04-17 13:19:47] INFO root fetch - processPackages [uzcloud-billing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uzcloud-billing-0.2.8.tar.gz tmp/uzcloud-billing-0.2.9.tar.gz --markdown 20230417/u/uzcloud-billing/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-17 13:19:47] INFO root fetch - processPackages [seguid-calculator]: executing diffoscope
+[2023-04-17 13:19:47] INFO root fetch - processPackages [seguid-calculator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seguid_calculator-1.2.5-py3-none-any.whl.zip tmp/seguid_calculator-1.27.tar.gz --markdown 20230417/s/seguid-calculator/1.2.5-1.27/diff.md --exclude *.pyd
+[2023-04-17 13:19:47] INFO root fetch - processPackages [flashcam]: Downloading https://files.pythonhosted.org/packages/f4/50/f5e92188e98e337ec3e42f16c6bb82844171d6da2eb4b8728ee152190b5a/flashcam-1.3.4.tar.gz
+[2023-04-17 13:19:47] INFO root fetch - processPackages [kubetools]: Downloading https://files.pythonhosted.org/packages/48/1a/e1ef307ab6854b4b7681443e2d4074ae1d968d88cc907b66a8818932f060/kubetools-9.1.1.tar.gz
+[2023-04-17 13:19:47] INFO root fetch - processPackages [kubetools]: executing diffoscope
+[2023-04-17 13:19:47] INFO root fetch - processPackages [kubetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubetools-9.1.tar.gz tmp/kubetools-9.1.1.tar.gz --markdown 20230417/k/kubetools/9.1-9.1.1/diff.md --exclude *.pyd
+[2023-04-17 13:19:47] INFO root fetch - processPackages [flashcam]: executing diffoscope
+[2023-04-17 13:19:47] INFO root fetch - processPackages [flashcam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flashcam-1.3.22.tar.gz tmp/flashcam-1.3.4.tar.gz --markdown 20230417/f/flashcam/1.3.22-1.3.4/diff.md --exclude *.pyd
+[2023-04-17 13:19:47] INFO root fetch - processPackages [dknovautils]: Start processing: antchain-ak-400ea6dfa54b4ff2b087cdac4431e34b
+[2023-04-17 13:19:47] INFO root fetch - main [MainThread]: End processing [dknovautils]: success
+[2023-04-17 13:19:47] WARNING root fetch - processPackages [antchain-ak-400ea6dfa54b4ff2b087cdac4431e34b]: Skipping, unable to determine old version
+[2023-04-17 13:19:47] INFO root fetch - processPackages [antchain-ak-400ea6dfa54b4ff2b087cdac4431e34b]: Start processing: divio-docs-gen
+[2023-04-17 13:19:47] INFO root fetch - main [MainThread]: End processing [antchain-ak-400ea6dfa54b4ff2b087cdac4431e34b] error
+[2023-04-17 13:19:47] INFO root fetch - processPackages [divio-docs-gen]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-17 13:19:47] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-04-17 13:19:47] INFO root fetch - processPackages [divio-docs-gen]: Downloading https://files.pythonhosted.org/packages/dd/89/f82bbb67f76aeacdbe13b64ba4f1cc4e74e779f545686d5eb5bc2a91cd3a/divio_docs_gen-0.0.1.tar.gz
+[2023-04-17 13:19:48] INFO root fetch - main [MainThread]: End processing [Mongeasy]: success
+[2023-04-17 13:19:48] INFO root fetch - main [MainThread]: End processing [paddypy]: success
+[2023-04-17 13:19:48] INFO root fetch - processPackages [divio-docs-gen]: Downloading https://files.pythonhosted.org/packages/af/61/65e25509968bdcd6a9de16142a53d8b1b9b97cc667ac15bc0f136a2357f3/divio_docs_gen-0.0.2.tar.gz
+[2023-04-17 13:19:48] INFO root fetch - processPackages [divio-docs-gen]: executing diffoscope
+[2023-04-17 13:19:48] INFO root fetch - processPackages [divio-docs-gen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/divio_docs_gen-0.0.1.tar.gz tmp/divio_docs_gen-0.0.2.tar.gz --markdown 20230417/d/divio-docs-gen/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-17 13:19:48] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-private-bucket]: success
+[2023-04-17 13:19:48] INFO root fetch - main [MainThread]: End processing [uzcloud-billing]: success
+[2023-04-17 13:19:48] INFO root fetch - main [MainThread]: End processing [seguid-calculator]: success
+[2023-04-17 13:19:48] INFO root fetch - main [MainThread]: End processing [cloudnet-submit]: success
+[2023-04-17 13:19:48] INFO root fetch - main [MainThread]: End processing [kubetools]: success
+[2023-04-17 13:19:49] INFO root fetch - main [MainThread]: End processing [divio-docs-gen]: success
+[2023-04-17 13:19:50] INFO root fetch - main [MainThread]: End processing [flashcam]: success
+[2023-04-17 13:19:50] INFO root fetch - main [MainThread]: Store serial: [17737308]
