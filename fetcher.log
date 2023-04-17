@@ -20043,3 +20043,71 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-17 20:22:57] INFO root fetch - main [MainThread]: End processing [syse]: success
 [2023-04-17 20:22:58] INFO root fetch - main [MainThread]: End processing [flet-core]: success
 [2023-04-17 20:22:58] INFO root fetch - main [MainThread]: Store serial: [17742614]
+[2023-04-17 20:28:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17742614]
+[2023-04-17 20:28:07] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-17 20:28:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ibm-secrets-manager-sdk
+[2023-04-17 20:28:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fwdviewpy
+[2023-04-17 20:28:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: weni-rp-apps
+[2023-04-17 20:28:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pynball
+[2023-04-17 20:28:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: psutil
+[2023-04-17 20:28:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wapp
+[2023-04-17 20:28:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: blacksheep
+[2023-04-17 20:28:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: btrack
+[2023-04-17 20:28:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: liblxml3
+[2023-04-17 20:28:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ttkDesigner
+[2023-04-17 20:28:07] INFO root fetch - processPackages [btrack]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-04-17 20:28:07] INFO root fetch - processPackages [psutil]: New version: [5.9.5] Old Version: [5.9.4]
+[2023-04-17 20:28:07] INFO root fetch - processPackages [ttkDesigner]: New version: [0.30.0a7] Old Version: [0.30.0a5]
+[2023-04-17 20:28:07] WARNING root fetch - processPackages [fwdviewpy]: Skipping, unable to determine old version
+[2023-04-17 20:28:07] INFO root fetch - processPackages [fwdviewpy]: Start processing: OmniBridge
+[2023-04-17 20:28:07] INFO root fetch - main [MainThread]: End processing [fwdviewpy] error
+[2023-04-17 20:28:07] INFO root fetch - processPackages [weni-rp-apps]: New version: [2.4.0a0] Old Version: [2.3.2]
+[2023-04-17 20:28:07] INFO root fetch - processPackages [pynball]: New version: [1.5.4] Old Version: [1.5.3]
+[2023-04-17 20:28:07] INFO root fetch - processPackages [ibm-secrets-manager-sdk]: New version: [2.0.0] Old Version: [1.0.3]
+[2023-04-17 20:28:07] INFO root fetch - processPackages [btrack]: executing diffoscope
+[2023-04-17 20:28:07] WARNING root fetch - processPackages [liblxml3]: Skipping, unable to determine old version
+[2023-04-17 20:28:07] INFO root fetch - processPackages [btrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/btrack-0.5.5.tar.gz tmp/btrack-0.5.6.tar.gz --markdown 20230417/b/btrack/0.5.5-0.5.6/diff.md --exclude *.pyd
+[2023-04-17 20:28:07] INFO root fetch - processPackages [liblxml3]: Start processing: steamship-langchain
+[2023-04-17 20:28:07] INFO root fetch - main [MainThread]: End processing [liblxml3] error
+[2023-04-17 20:28:07] WARNING root fetch - processPackages [wapp]: Skipping, unable to determine old version
+[2023-04-17 20:28:07] INFO root fetch - main [MainThread]: End processing [wapp] error
+[2023-04-17 20:28:07] INFO root fetch - processPackages [OmniBridge]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-17 20:28:07] INFO root fetch - processPackages [blacksheep]: New version: [2.0a5] Old Version: [2.0a4]
+[2023-04-17 20:28:07] INFO root fetch - processPackages [steamship-langchain]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 20:28:07] INFO root fetch - processPackages [psutil]: Downloading https://files.pythonhosted.org/packages/3d/7d/d05864a69e452f003c0d77e728e155a89a2a26b09e64860ddd70ad64fb26/psutil-5.9.4.tar.gz
+[2023-04-17 20:28:07] INFO root fetch - processPackages [ttkDesigner]: Downloading https://files.pythonhosted.org/packages/45/6b/ca819144ac4841370c7be3ee60d678da1ae08101a5c9cc680b0de7649175/ttkDesigner-0.30.0a5.tar.gz
+[2023-04-17 20:28:07] INFO root fetch - processPackages [OmniBridge]: executing diffoscope
+[2023-04-17 20:28:07] INFO root fetch - processPackages [OmniBridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OmniBridge-0.1.8.tar.gz tmp/OmniBridge-0.1.9.tar.gz --markdown 20230417/O/OmniBridge/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-17 20:28:07] INFO root fetch - processPackages [steamship-langchain]: executing diffoscope
+[2023-04-17 20:28:07] INFO root fetch - processPackages [steamship-langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steamship-langchain-0.0.8.tar.gz tmp/steamship-langchain-0.0.9.tar.gz --markdown 20230417/s/steamship-langchain/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 20:28:07] INFO root fetch - processPackages [ibm-secrets-manager-sdk]: Downloading https://files.pythonhosted.org/packages/af/90/2c9eff3a3be0431d12bc72b57487ea013680838a8f7b882cacffef667984/ibm-secrets-manager-sdk-1.0.3.tar.gz
+[2023-04-17 20:28:07] INFO root fetch - processPackages [pynball]: Downloading https://files.pythonhosted.org/packages/e7/10/9b8d336b3c93733870c9ee9242aad028b14abe8b71a2d307a389b852f579/pynball-1.5.3.tar.gz
+[2023-04-17 20:28:07] INFO root fetch - processPackages [blacksheep]: Downloading https://files.pythonhosted.org/packages/98/4c/d86887e57fc415d2f92edf43b9b669c53976264206d8e93f3c7a9d62c51c/blacksheep-2.0a4.tar.gz
+[2023-04-17 20:28:07] INFO root fetch - processPackages [psutil]: Downloading https://files.pythonhosted.org/packages/d6/0f/96b7309212a926c1448366e9ce69b081ea79d63265bde33f11cc9cfc2c07/psutil-5.9.5.tar.gz
+[2023-04-17 20:28:07] INFO root fetch - processPackages [weni-rp-apps]: Downloading https://files.pythonhosted.org/packages/86/d4/70a99d024d56f54ccbaf79fa6b8086c5f95a711b88e2e07dbececa561791/weni_rp_apps-2.4.0a0.tar.gz
+[2023-04-17 20:28:08] INFO root fetch - processPackages [ttkDesigner]: Downloading https://files.pythonhosted.org/packages/8c/cc/75d862083351d768efc6b41b5eda38c5e21e1444618de317c7de987d2a77/ttkDesigner-0.30.0a7.tar.gz
+[2023-04-17 20:28:08] INFO root fetch - processPackages [psutil]: executing diffoscope
+[2023-04-17 20:28:08] INFO root fetch - processPackages [psutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psutil-5.9.4.tar.gz tmp/psutil-5.9.5.tar.gz --markdown 20230417/p/psutil/5.9.4-5.9.5/diff.md --exclude *.pyd
+[2023-04-17 20:28:08] INFO root fetch - processPackages [ibm-secrets-manager-sdk]: Downloading https://files.pythonhosted.org/packages/8b/48/50a5824d4384a896f98e8fa4f5b6bccf6560a7cf5892cdd5a97d75e7ffdb/ibm-secrets-manager-sdk-2.0.0.tar.gz
+[2023-04-17 20:28:08] INFO root fetch - processPackages [pynball]: Downloading https://files.pythonhosted.org/packages/b5/60/264a45c5ab3ede4130ef40bfcce4263b2edc09fe40834df14ac65d5314d5/pynball-1.5.4.tar.gz
+[2023-04-17 20:28:08] INFO root fetch - processPackages [weni-rp-apps]: executing diffoscope
+[2023-04-17 20:28:08] INFO root fetch - processPackages [weni-rp-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weni_rp_apps-2.3.2.tar.gz tmp/weni_rp_apps-2.4.0a0.tar.gz --markdown 20230417/w/weni-rp-apps/2.3.2-2.4.0a0/diff.md --exclude *.pyd
+[2023-04-17 20:28:08] INFO root fetch - processPackages [ttkDesigner]: executing diffoscope
+[2023-04-17 20:28:08] INFO root fetch - processPackages [ttkDesigner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ttkDesigner-0.30.0a5.tar.gz tmp/ttkDesigner-0.30.0a7.tar.gz --markdown 20230417/t/ttkDesigner/0.30.0a5-0.30.0a7/diff.md --exclude *.pyd
+[2023-04-17 20:28:08] INFO root fetch - processPackages [blacksheep]: Downloading https://files.pythonhosted.org/packages/11/e1/f58f30b0668138ac7d4f2c2fbf87331bbf9ed35bb8f0024562306e549497/blacksheep-2.0a5.tar.gz
+[2023-04-17 20:28:08] INFO root fetch - processPackages [pynball]: executing diffoscope
+[2023-04-17 20:28:08] INFO root fetch - processPackages [pynball]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynball-1.5.3.tar.gz tmp/pynball-1.5.4.tar.gz --markdown 20230417/p/pynball/1.5.3-1.5.4/diff.md --exclude *.pyd
+[2023-04-17 20:28:08] INFO root fetch - processPackages [ibm-secrets-manager-sdk]: executing diffoscope
+[2023-04-17 20:28:08] INFO root fetch - processPackages [ibm-secrets-manager-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibm-secrets-manager-sdk-1.0.3.tar.gz tmp/ibm-secrets-manager-sdk-2.0.0.tar.gz --markdown 20230417/i/ibm-secrets-manager-sdk/1.0.3-2.0.0/diff.md --exclude *.pyd
+[2023-04-17 20:28:08] INFO root fetch - processPackages [blacksheep]: executing diffoscope
+[2023-04-17 20:28:08] INFO root fetch - processPackages [blacksheep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blacksheep-2.0a4.tar.gz tmp/blacksheep-2.0a5.tar.gz --markdown 20230417/b/blacksheep/2.0a4-2.0a5/diff.md --exclude *.pyd
+[2023-04-17 20:28:09] INFO root fetch - main [MainThread]: End processing [OmniBridge]: success
+[2023-04-17 20:28:09] INFO root fetch - main [MainThread]: End processing [steamship-langchain]: success
+[2023-04-17 20:28:09] INFO root fetch - main [MainThread]: End processing [pynball]: success
+[2023-04-17 20:28:09] INFO root fetch - main [MainThread]: End processing [ibm-secrets-manager-sdk]: success
+[2023-04-17 20:28:09] INFO root fetch - main [MainThread]: End processing [ttkDesigner]: success
+[2023-04-17 20:28:10] INFO root fetch - main [MainThread]: End processing [weni-rp-apps]: success
+[2023-04-17 20:28:12] INFO root fetch - main [MainThread]: End processing [blacksheep]: success
+[2023-04-17 20:28:14] INFO root fetch - main [MainThread]: End processing [btrack]: success
+[2023-04-17 20:28:14] INFO root fetch - main [MainThread]: End processing [psutil]: success
+[2023-04-17 20:28:14] INFO root fetch - main [MainThread]: Store serial: [17742679]
