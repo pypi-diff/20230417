@@ -17783,3 +17783,79 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 18:17:16] INFO root fetch - main [MainThread]: End processing [sarus-data-spec-public]: success
 [2023-04-17 18:17:31] INFO root fetch - main [MainThread]: End processing [lhf]: success
 [2023-04-17 18:17:31] INFO root fetch - main [MainThread]: Store serial: [17741202]
+[2023-04-17 18:22:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17741202]
+[2023-04-17 18:22:42] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-17 18:22:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: smart-app-framework
+[2023-04-17 18:22:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wtt01
+[2023-04-17 18:22:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdklabs.cdk-validator-cfnguard
+[2023-04-17 18:22:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nerfstudio
+[2023-04-17 18:22:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: afex-audit-trail
+[2023-04-17 18:22:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: maptasker
+[2023-04-17 18:22:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vollseg-napari-trackmate
+[2023-04-17 18:22:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.cdk-vpc
+[2023-04-17 18:22:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: saliency-maps-metrics
+[2023-04-17 18:22:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nnogada
+[2023-04-17 18:22:42] INFO root fetch - processPackages [wtt01]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-04-17 18:22:42] INFO root fetch - processPackages [nnogada]: New version: [0.9.1.2] Old Version: [0.9.1.1]
+[2023-04-17 18:22:42] INFO root fetch - processPackages [vollseg-napari-trackmate]: New version: [2.1.5] Old Version: [2.1.4]
+[2023-04-17 18:22:42] INFO root fetch - processPackages [afex-audit-trail]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-17 18:22:42] INFO root fetch - processPackages [saliency-maps-metrics]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 18:22:42] INFO root fetch - processPackages [pepperize.cdk-vpc]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-17 18:22:42] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 18:22:42] INFO root fetch - processPackages [maptasker]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-04-17 18:22:42] INFO root fetch - processPackages [wtt01]: executing diffoscope
+[2023-04-17 18:22:42] INFO root fetch - processPackages [wtt01]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wtt01-0.2.6.tar.gz tmp/wtt01-0.2.7.tar.gz --markdown 20230417/w/wtt01/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-04-17 18:22:42] INFO root fetch - processPackages [nerfstudio]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-04-17 18:22:42] INFO root fetch - processPackages [nnogada]: executing diffoscope
+[2023-04-17 18:22:42] INFO root fetch - processPackages [smart-app-framework]: New version: [2.0.1rc7] Old Version: [2.0.1rc6]
+[2023-04-17 18:22:42] INFO root fetch - processPackages [nnogada]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nnogada-0.9.1.1.tar.gz tmp/nnogada-0.9.1.2.tar.gz --markdown 20230417/n/nnogada/0.9.1.1-0.9.1.2/diff.md --exclude *.pyd
+[2023-04-17 18:22:42] INFO root fetch - processPackages [afex-audit-trail]: executing diffoscope
+[2023-04-17 18:22:42] INFO root fetch - processPackages [afex-audit-trail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afex-audit-trail-0.1.3.tar.gz tmp/afex-audit-trail-0.1.4.tar.gz --markdown 20230417/a/afex-audit-trail/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-17 18:22:42] INFO root fetch - processPackages [pepperize.cdk-vpc]: executing diffoscope
+[2023-04-17 18:22:42] INFO root fetch - processPackages [pepperize.cdk-vpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-vpc-0.0.98.tar.gz tmp/pepperize.cdk-vpc-0.0.99.tar.gz --markdown 20230417/p/pepperize.cdk-vpc/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-17 18:22:42] INFO root fetch - processPackages [saliency-maps-metrics]: executing diffoscope
+[2023-04-17 18:22:42] INFO root fetch - processPackages [saliency-maps-metrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saliency_maps_metrics-0.0.8.tar.gz tmp/saliency_maps_metrics-0.0.9.tar.gz --markdown 20230417/s/saliency-maps-metrics/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 18:22:42] INFO root fetch - processPackages [vollseg-napari-trackmate]: Downloading https://files.pythonhosted.org/packages/3f/af/a524e67dc7704432a24628596462df45636d6ade1e21992df67811970d44/vollseg-napari-trackmate-2.1.5.tar.gz
+[2023-04-17 18:22:42] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: Downloading https://files.pythonhosted.org/packages/ca/bf/82d7858f5b89f9588b018ab4ea93c6508a4508ce23569695827cdc5c3992/cdklabs.cdk-validator-cfnguard-0.0.8.tar.gz
+[2023-04-17 18:22:42] INFO root fetch - processPackages [maptasker]: Downloading https://files.pythonhosted.org/packages/dd/dc/f7d6184a965a93a8d70f4c6e0100e1990357d3e912b8cc61007d459ce43d/maptasker-1.3.2.tar.gz
+[2023-04-17 18:22:42] INFO root fetch - processPackages [smart-app-framework]: Downloading https://files.pythonhosted.org/packages/3d/9a/bc2267745371a84e2ba8be3a1a3448b1fbc31fc65b1269de206c093cd76b/smart_app_framework-2.0.1rc6-py3-none-any.whl
+[2023-04-17 18:22:42] INFO root fetch - processPackages [nerfstudio]: Downloading https://files.pythonhosted.org/packages/c1/ea/7e678badcad203b0e19c52a889493112aa21f42ec63dfa3ed43d3d9a2886/nerfstudio-0.1.9.tar.gz
+[2023-04-17 18:22:42] INFO root fetch - processPackages [vollseg-napari-trackmate]: executing diffoscope
+[2023-04-17 18:22:42] INFO root fetch - processPackages [vollseg-napari-trackmate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vollseg-napari-trackmate-2.1.4.tar.gz tmp/vollseg-napari-trackmate-2.1.5.tar.gz --markdown 20230417/v/vollseg-napari-trackmate/2.1.4-2.1.5/diff.md --exclude *.pyd
+[2023-04-17 18:22:43] INFO root fetch - processPackages [maptasker]: Downloading https://files.pythonhosted.org/packages/47/2e/8d56aab601be2550235693996347fc50413ea1d12cd7212625ce2d503f00/maptasker-1.3.3.tar.gz
+[2023-04-17 18:22:43] INFO root fetch - processPackages [smart-app-framework]: Downloading https://files.pythonhosted.org/packages/b6/15/f0cce1c81f21cfa695b48139dd1a9172890c04f361fb0e64e8a088ee616d/smart_app_framework-2.0.1rc7-py3-none-any.whl
+[2023-04-17 18:22:43] INFO root fetch - processPackages [maptasker]: executing diffoscope
+[2023-04-17 18:22:43] INFO root fetch - processPackages [maptasker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maptasker-1.3.2.tar.gz tmp/maptasker-1.3.3.tar.gz --markdown 20230417/m/maptasker/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-04-17 18:22:43] INFO root fetch - processPackages [smart-app-framework]: executing diffoscope
+[2023-04-17 18:22:43] INFO root fetch - processPackages [smart-app-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smart_app_framework-2.0.1rc6-py3-none-any.whl.zip tmp/smart_app_framework-2.0.1rc7-py3-none-any.whl.zip --markdown 20230417/s/smart-app-framework/2.0.1rc6-2.0.1rc7/diff.md --exclude *.pyd
+[2023-04-17 18:22:43] INFO root fetch - processPackages [nerfstudio]: Downloading https://files.pythonhosted.org/packages/f1/09/bcfb6dd20553a21a2474dccbd2175c6a6e35375d8841833492c9180525bf/nerfstudio-0.2.0.tar.gz
+[2023-04-17 18:22:43] INFO root fetch - processPackages [nerfstudio]: executing diffoscope
+[2023-04-17 18:22:43] INFO root fetch - processPackages [nerfstudio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nerfstudio-0.1.9.tar.gz tmp/nerfstudio-0.2.0.tar.gz --markdown 20230417/n/nerfstudio/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-04-17 18:22:43] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: Downloading https://files.pythonhosted.org/packages/87/72/a3d8003ada4028ea6518698c5f3ee208044ed9363e979c066104afb06a6a/cdklabs.cdk-validator-cfnguard-0.0.9.tar.gz
+[2023-04-17 18:22:43] INFO root fetch - processPackages [wtt01]: Start processing: scons-parts
+[2023-04-17 18:22:43] INFO root fetch - main [MainThread]: End processing [wtt01]: success
+[2023-04-17 18:22:44] INFO root fetch - processPackages [pepperize.cdk-vpc]: Start processing: numina-data-client
+[2023-04-17 18:22:44] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-vpc]: success
+[2023-04-17 18:22:44] INFO root fetch - main [MainThread]: End processing [nnogada]: success
+[2023-04-17 18:22:44] INFO root fetch - processPackages [scons-parts]: New version: [0.17.5] Old Version: [0.17.4]
+[2023-04-17 18:22:44] INFO root fetch - processPackages [numina-data-client]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-17 18:22:44] INFO root fetch - main [MainThread]: End processing [afex-audit-trail]: success
+[2023-04-17 18:22:44] INFO root fetch - processPackages [scons-parts]: Downloading https://files.pythonhosted.org/packages/b5/8b/3189cddcb30672ad6621689aab446391709a45406bca7975c86791da82c5/scons_parts-0.17.4-py3-none-any.whl
+[2023-04-17 18:22:44] INFO root fetch - main [MainThread]: End processing [saliency-maps-metrics]: success
+[2023-04-17 18:22:44] INFO root fetch - processPackages [numina-data-client]: Downloading https://files.pythonhosted.org/packages/22/11/36f6e2cc96a091b277834b51144e52bc1cf68bb59592442c5b3a4abb348f/numina-data-client-0.8.0.tar.gz
+[2023-04-17 18:22:44] INFO root fetch - processPackages [scons-parts]: Downloading https://files.pythonhosted.org/packages/73/0e/75ee74dbabf0fa702cf59f6c6697321c9fa0cb4f96a7c46c6cc7835b7b7c/scons_parts-0.17.5-py3-none-any.whl
+[2023-04-17 18:22:44] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: executing diffoscope
+[2023-04-17 18:22:44] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-validator-cfnguard-0.0.8.tar.gz tmp/cdklabs.cdk-validator-cfnguard-0.0.9.tar.gz --markdown 20230417/c/cdklabs.cdk-validator-cfnguard/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 18:22:44] INFO root fetch - main [MainThread]: End processing [vollseg-napari-trackmate]: success
+[2023-04-17 18:22:44] INFO root fetch - processPackages [scons-parts]: executing diffoscope
+[2023-04-17 18:22:44] INFO root fetch - processPackages [scons-parts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scons_parts-0.17.4-py3-none-any.whl.zip tmp/scons_parts-0.17.5-py3-none-any.whl.zip --markdown 20230417/s/scons-parts/0.17.4-0.17.5/diff.md --exclude *.pyd
+[2023-04-17 18:22:44] INFO root fetch - processPackages [numina-data-client]: Downloading https://files.pythonhosted.org/packages/0b/61/05fa6802da7a313764ee7ec48a774a4fdd7fb501309209d2c47d6511e3f2/numina-data-client-0.9.0.tar.gz
+[2023-04-17 18:22:45] INFO root fetch - processPackages [numina-data-client]: executing diffoscope
+[2023-04-17 18:22:45] INFO root fetch - processPackages [numina-data-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numina-data-client-0.8.0.tar.gz tmp/numina-data-client-0.9.0.tar.gz --markdown 20230417/n/numina-data-client/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-17 18:22:46] INFO root fetch - main [MainThread]: End processing [numina-data-client]: success
+[2023-04-17 18:22:46] INFO root fetch - main [MainThread]: End processing [smart-app-framework]: success
+[2023-04-17 18:22:46] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-validator-cfnguard]: success
+[2023-04-17 18:22:47] INFO root fetch - main [MainThread]: End processing [maptasker]: success
+[2023-04-17 18:22:48] INFO root fetch - main [MainThread]: End processing [scons-parts]: success
+[2023-04-17 18:22:48] INFO root fetch - main [MainThread]: End processing [nerfstudio]: success
+[2023-04-17 18:22:48] INFO root fetch - main [MainThread]: Store serial: [17741235]
