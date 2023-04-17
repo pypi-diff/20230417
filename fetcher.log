@@ -12094,3 +12094,92 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-04-17 14:19:23] INFO root fetch - main [MainThread]: End processing [alibabacloud-ecs20140526]: success
 [2023-04-17 14:19:26] INFO root fetch - main [MainThread]: End processing [alibabacloud-ecs20140526-py2]: success
 [2023-04-17 14:19:26] INFO root fetch - main [MainThread]: Store serial: [17737888]
+[2023-04-17 14:24:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17737888]
+[2023-04-17 14:24:36] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-04-17 14:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wozoxutils
+[2023-04-17 14:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-ssm-parameters-cross-region
+[2023-04-17 14:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jina-now
+[2023-04-17 14:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: maestro
+[2023-04-17 14:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pheno-utils
+[2023-04-17 14:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pddl-plus-parser
+[2023-04-17 14:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tabledetect
+[2023-04-17 14:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mikifunctions
+[2023-04-17 14:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cubicweb-seda
+[2023-04-17 14:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyHDLFS
+[2023-04-17 14:24:36] INFO root fetch - processPackages [pyHDLFS]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-17 14:24:36] INFO root fetch - processPackages [cubicweb-seda]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-17 14:24:36] INFO root fetch - processPackages [tabledetect]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-17 14:24:36] WARNING root fetch - processPackages [wozoxutils]: Skipping, unable to determine old version
+[2023-04-17 14:24:36] INFO root fetch - processPackages [wozoxutils]: Start processing: xpress
+[2023-04-17 14:24:36] INFO root fetch - main [MainThread]: End processing [wozoxutils] error
+[2023-04-17 14:24:36] INFO root fetch - processPackages [pddl-plus-parser]: New version: [3.3.0] Old Version: [3.2.2]
+[2023-04-17 14:24:36] INFO root fetch - processPackages [pyHDLFS]: executing diffoscope
+[2023-04-17 14:24:36] WARNING root fetch - processPackages [maestro]: Skipping, unable to determine old version
+[2023-04-17 14:24:36] INFO root fetch - processPackages [pyHDLFS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhdlfs-0.0.2.tar.gz tmp/pyhdlfs-0.0.3.tar.gz --markdown 20230417/p/pyHDLFS/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-17 14:24:36] WARNING root fetch - processPackages [mikifunctions]: Skipping, unable to determine old version
+[2023-04-17 14:24:36] INFO root fetch - processPackages [cubicweb-seda]: executing diffoscope
+[2023-04-17 14:24:36] INFO root fetch - processPackages [maestro]: Start processing: powerbiclient
+[2023-04-17 14:24:36] INFO root fetch - main [MainThread]: End processing [maestro] error
+[2023-04-17 14:24:36] INFO root fetch - processPackages [pheno-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 14:24:36] INFO root fetch - processPackages [mikifunctions]: Start processing: PrSpiders
+[2023-04-17 14:24:36] INFO root fetch - processPackages [cubicweb-seda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cubicweb-seda-0.8.0.tar.gz tmp/cubicweb-seda-0.9.0.tar.gz --markdown 20230417/c/cubicweb-seda/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-17 14:24:36] INFO root fetch - main [MainThread]: End processing [mikifunctions] error
+[2023-04-17 14:24:36] INFO root fetch - processPackages [jina-now]: New version: [0.0.9.dev2] Old Version: [0.0.9]
+[2023-04-17 14:24:36] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-17 14:24:36] INFO root fetch - processPackages [PrSpiders]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-04-17 14:24:36] INFO root fetch - processPackages [pheno-utils]: executing diffoscope
+[2023-04-17 14:24:36] INFO root fetch - processPackages [pheno-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pheno-utils-0.0.8.tar.gz tmp/pheno-utils-0.0.9.tar.gz --markdown 20230417/p/pheno-utils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 14:24:36] INFO root fetch - processPackages [tabledetect]: Downloading https://files.pythonhosted.org/packages/aa/6f/a37671207312672d763265d282eff3914b61e604e2d6ad1983624c7bd488/tabledetect-0.1.4.tar.gz
+[2023-04-17 14:24:36] INFO root fetch - processPackages [PrSpiders]: executing diffoscope
+[2023-04-17 14:24:36] INFO root fetch - processPackages [PrSpiders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PrSpiders-0.2.9.tar.gz tmp/PrSpiders-0.3.0.tar.gz --markdown 20230417/P/PrSpiders/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-04-17 14:24:36] INFO root fetch - processPackages [powerbiclient]: New version: [3.0.0] Old Version: [2.0.1]
+[2023-04-17 14:24:36] INFO root fetch - processPackages [pddl-plus-parser]: Downloading https://files.pythonhosted.org/packages/0f/91/dc40e7635df1649b12b9b179c0eeff6f8458702f76b6715e2d13967ce044/pddl-plus-parser-3.2.2.tar.gz
+[2023-04-17 14:24:36] INFO root fetch - processPackages [xpress]: New version: [9.0.5] Old Version: [9.0.3]
+[2023-04-17 14:24:36] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Downloading https://files.pythonhosted.org/packages/fb/79/6889f2bcfe14ad3c2ad911188cae87c47eed38640d4ded20760568fafd48/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz
+[2023-04-17 14:24:36] INFO root fetch - processPackages [jina-now]: Downloading https://files.pythonhosted.org/packages/a0/c1/8dab3c7cac6450f5dcc71e7437bc31197cbadb65f348356c767429777502/jina-now-0.0.9.tar.gz
+[2023-04-17 14:24:36] INFO root fetch - processPackages [powerbiclient]: Downloading https://files.pythonhosted.org/packages/78/4b/7e067775c86d9c26152cdf5ac99cd650af52bef27534f86ea92b7b84ebfc/powerbiclient-2.0.1-py2.py3-none-any.whl
+[2023-04-17 14:24:37] INFO root fetch - processPackages [xpress]: Downloading https://files.pythonhosted.org/packages/b8/d2/fffac81b95a06daa0d09b9aa0734c53ba45287ee523c2c773a48a891e72b/xpress-9.0.3-cp39-cp39-win_amd64.whl
+[2023-04-17 14:24:37] INFO root fetch - processPackages [pddl-plus-parser]: Downloading https://files.pythonhosted.org/packages/24/53/cbb4b8c9e8e1ff58b507337305a2fb310d9d58f88446a617db50940b9dbc/pddl-plus-parser-3.3.0.tar.gz
+[2023-04-17 14:24:37] INFO root fetch - processPackages [tabledetect]: Downloading https://files.pythonhosted.org/packages/1a/7d/3153e9fa273fdcf2f19235e598ce992854b8558b152f25423271a17577c2/tabledetect-0.1.5.tar.gz
+[2023-04-17 14:24:37] WARNING root fetch - processPackages [xpress]: Skipping package: exceeds size limit 55120643>=10485760
+[2023-04-17 14:24:37] INFO root fetch - processPackages [xpress]: Start processing: epc-api-python
+[2023-04-17 14:24:37] INFO root fetch - main [MainThread]: End processing [xpress] error
+[2023-04-17 14:24:37] INFO root fetch - processPackages [jina-now]: Downloading https://files.pythonhosted.org/packages/82/20/038948e51195bd3de8c85ac694d6a59d712e94575701c6d9eb0c2eb58f7b/jina-now-0.0.9.dev2.tar.gz
+[2023-04-17 14:24:37] WARNING root fetch - processPackages [epc-api-python]: Skipping, unable to determine old version
+[2023-04-17 14:24:37] INFO root fetch - processPackages [epc-api-python]: Start processing: harborapi
+[2023-04-17 14:24:37] INFO root fetch - main [MainThread]: End processing [epc-api-python] error
+[2023-04-17 14:24:37] INFO root fetch - processPackages [powerbiclient]: Downloading https://files.pythonhosted.org/packages/cf/8a/4fc8059846ee61ce53077ab1f252ddfc4ce09860c218a38f8ffa293ae598/powerbiclient-3.0.0-py2.py3-none-any.whl
+[2023-04-17 14:24:37] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Downloading https://files.pythonhosted.org/packages/9b/28/15454316ba7c03762eb5f4132acad608b8e4002ca06c5309244457a24d67/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz
+[2023-04-17 14:24:37] INFO root fetch - processPackages [pddl-plus-parser]: executing diffoscope
+[2023-04-17 14:24:37] INFO root fetch - processPackages [pddl-plus-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pddl-plus-parser-3.2.2.tar.gz tmp/pddl-plus-parser-3.3.0.tar.gz --markdown 20230417/p/pddl-plus-parser/3.2.2-3.3.0/diff.md --exclude *.pyd
+[2023-04-17 14:24:37] INFO root fetch - processPackages [harborapi]: New version: [0.9.0] Old Version: [0.8.6]
+[2023-04-17 14:24:37] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: executing diffoscope
+[2023-04-17 14:24:37] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz --markdown 20230417/p/pepperize.cdk-ssm-parameters-cross-region/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-17 14:24:37] INFO root fetch - processPackages [tabledetect]: executing diffoscope
+[2023-04-17 14:24:37] INFO root fetch - processPackages [tabledetect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tabledetect-0.1.4.tar.gz tmp/tabledetect-0.1.5.tar.gz --markdown 20230417/t/tabledetect/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-17 14:24:37] INFO root fetch - processPackages [powerbiclient]: executing diffoscope
+[2023-04-17 14:24:37] INFO root fetch - processPackages [powerbiclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/powerbiclient-2.0.1-py2.py3-none-any.whl.zip tmp/powerbiclient-3.0.0-py2.py3-none-any.whl.zip --markdown 20230417/p/powerbiclient/2.0.1-3.0.0/diff.md --exclude *.pyd
+[2023-04-17 14:24:37] INFO root fetch - processPackages [jina-now]: executing diffoscope
+[2023-04-17 14:24:37] INFO root fetch - processPackages [jina-now]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jina-now-0.0.9.tar.gz tmp/jina-now-0.0.9.dev2.tar.gz --markdown 20230417/j/jina-now/0.0.9-0.0.9.dev2/diff.md --exclude *.pyd
+[2023-04-17 14:24:37] INFO root fetch - processPackages [harborapi]: Downloading https://files.pythonhosted.org/packages/5c/2a/58d6ecd57c3d1b448b9dc47dc94b6192a2d2a954d42fc450e4d4e9ac2017/harborapi-0.8.6.tar.gz
+[2023-04-17 14:24:37] INFO root fetch - processPackages [harborapi]: Downloading https://files.pythonhosted.org/packages/27/2c/7ea076b0aa166efe412bad3f442cd6278d311f903fcb51e89039fee40d71/harborapi-0.9.0.tar.gz
+[2023-04-17 14:24:37] INFO root fetch - processPackages [pyHDLFS]: Start processing: jmcomic
+[2023-04-17 14:24:37] INFO root fetch - main [MainThread]: End processing [pyHDLFS]: success
+[2023-04-17 14:24:38] INFO root fetch - main [MainThread]: End processing [pheno-utils]: success
+[2023-04-17 14:24:38] INFO root fetch - processPackages [jmcomic]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-04-17 14:24:38] INFO root fetch - processPackages [harborapi]: executing diffoscope
+[2023-04-17 14:24:38] INFO root fetch - processPackages [harborapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/harborapi-0.8.6.tar.gz tmp/harborapi-0.9.0.tar.gz --markdown 20230417/h/harborapi/0.8.6-0.9.0/diff.md --exclude *.pyd
+[2023-04-17 14:24:38] INFO root fetch - main [MainThread]: End processing [PrSpiders]: success
+[2023-04-17 14:24:38] INFO root fetch - processPackages [jmcomic]: Downloading https://files.pythonhosted.org/packages/9f/9a/898215a54e7c89e2ae7c424a759a88d4db48e73058ea6fc30aef1d7ab7f2/jmcomic-1.5.1.tar.gz
+[2023-04-17 14:24:38] INFO root fetch - processPackages [jmcomic]: Downloading https://files.pythonhosted.org/packages/eb/6b/6cf3ff8806c43d0a5621221d4d0f43b1a28f20780470e357b13065223fa3/jmcomic-1.5.2.tar.gz
+[2023-04-17 14:24:38] INFO root fetch - processPackages [jmcomic]: executing diffoscope
+[2023-04-17 14:24:38] INFO root fetch - processPackages [jmcomic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jmcomic-1.5.1.tar.gz tmp/jmcomic-1.5.2.tar.gz --markdown 20230417/j/jmcomic/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-04-17 14:24:39] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ssm-parameters-cross-region]: success
+[2023-04-17 14:24:39] INFO root fetch - main [MainThread]: End processing [cubicweb-seda]: success
+[2023-04-17 14:24:39] INFO root fetch - main [MainThread]: End processing [jmcomic]: success
+[2023-04-17 14:24:39] INFO root fetch - main [MainThread]: End processing [harborapi]: success
+[2023-04-17 14:24:40] INFO root fetch - main [MainThread]: End processing [pddl-plus-parser]: success
+[2023-04-17 14:24:40] INFO root fetch - main [MainThread]: End processing [jina-now]: success
+[2023-04-17 14:24:41] INFO root fetch - main [MainThread]: End processing [tabledetect]: success
+[2023-04-17 14:24:48] INFO root fetch - main [MainThread]: End processing [powerbiclient]: success
+[2023-04-17 14:24:48] INFO root fetch - main [MainThread]: Store serial: [17737944]
