@@ -4012,3 +4012,53 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 04:37:32] INFO root fetch - main [MainThread]: End processing [vhdx-2-zvol]: success
 [2023-04-17 04:37:41] INFO root fetch - main [MainThread]: End processing [gt-defect-dojo]: success
 [2023-04-17 04:37:41] INFO root fetch - main [MainThread]: Store serial: [17732975]
+[2023-04-17 04:42:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17732975]
+[2023-04-17 04:42:50] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-17 04:42:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quickgpt
+[2023-04-17 04:42:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lord-rings-sdk
+[2023-04-17 04:42:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cookiecutter-autodocs
+[2023-04-17 04:42:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dioptra
+[2023-04-17 04:42:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: langchain-utils
+[2023-04-17 04:42:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vhdx-2-zvol
+[2023-04-17 04:42:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nitrado
+[2023-04-17 04:42:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: thule
+[2023-04-17 04:42:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: loganmatic
+[2023-04-17 04:42:50] WARNING root fetch - processPackages [lord-rings-sdk]: Skipping, unable to determine old version
+[2023-04-17 04:42:50] INFO root fetch - processPackages [quickgpt]: New version: [0.6.1] Old Version: [0.6]
+[2023-04-17 04:42:50] INFO root fetch - main [MainThread]: End processing [lord-rings-sdk] error
+[2023-04-17 04:42:50] INFO root fetch - processPackages [dioptra]: New version: [1.0.9rc1] Old Version: [1.0.9]
+[2023-04-17 04:42:50] INFO root fetch - processPackages [langchain-utils]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-17 04:42:50] INFO root fetch - processPackages [cookiecutter-autodocs]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-04-17 04:42:50] INFO root fetch - processPackages [vhdx-2-zvol]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-04-17 04:42:50] INFO root fetch - processPackages [nitrado]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-17 04:42:50] INFO root fetch - processPackages [loganmatic]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-17 04:42:50] INFO root fetch - processPackages [langchain-utils]: executing diffoscope
+[2023-04-17 04:42:50] INFO root fetch - processPackages [langchain-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_utils-0.3.8.tar.gz tmp/langchain_utils-0.3.9.tar.gz --markdown 20230417/l/langchain-utils/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-17 04:42:50] WARNING root fetch - processPackages [thule]: Skipping, unable to determine old version
+[2023-04-17 04:42:50] INFO root fetch - main [MainThread]: End processing [thule] error
+[2023-04-17 04:42:50] INFO root fetch - processPackages [dioptra]: executing diffoscope
+[2023-04-17 04:42:50] INFO root fetch - processPackages [dioptra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dioptra-1.0.9.tar.gz tmp/dioptra-1.0.9rc1.tar.gz --markdown 20230417/d/dioptra/1.0.9-1.0.9rc1/diff.md --exclude *.pyd
+[2023-04-17 04:42:50] INFO root fetch - processPackages [vhdx-2-zvol]: Downloading https://files.pythonhosted.org/packages/40/51/396d2f162e3f72b15d9267c82f0893d905559993ed74da8b4b0973a89878/vhdx_2_zvol-0.4.4.tar.gz
+[2023-04-17 04:42:50] INFO root fetch - processPackages [cookiecutter-autodocs]: Downloading https://files.pythonhosted.org/packages/c8/cc/6c5b037f52d6790025199cd3625c4a6700b249878978afc82bba79b116e1/cookiecutter_autodocs-0.0.1.tar.gz
+[2023-04-17 04:42:50] INFO root fetch - processPackages [nitrado]: Downloading https://files.pythonhosted.org/packages/6e/59/e81c651d0e06e0eca51f733c9daf1a37d2a51144e7a4bb4417f020e7c988/nitrado-1.0.3.tar.gz
+[2023-04-17 04:42:50] INFO root fetch - processPackages [loganmatic]: Downloading https://files.pythonhosted.org/packages/1c/c4/fd2bf1c21ac38fbc280c8559a0527d04ff3e64bad5d396e63cb03df1d7dd/loganmatic-0.0.7.tar.gz
+[2023-04-17 04:42:50] INFO root fetch - processPackages [vhdx-2-zvol]: executing diffoscope
+[2023-04-17 04:42:50] INFO root fetch - processPackages [vhdx-2-zvol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vhdx_2_zvol-0.4.3.tar.gz tmp/vhdx_2_zvol-0.4.4.tar.gz --markdown 20230417/v/vhdx-2-zvol/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-04-17 04:42:50] INFO root fetch - processPackages [quickgpt]: Downloading https://files.pythonhosted.org/packages/c2/be/0588510723704fdacc2f1955cfc6508dda34c1e18173a0ef034a16b4d635/quickgpt-0.6.1.tar.gz
+[2023-04-17 04:42:50] INFO root fetch - processPackages [nitrado]: executing diffoscope
+[2023-04-17 04:42:50] INFO root fetch - processPackages [nitrado]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nitrado-1.0.2.tar.gz tmp/nitrado-1.0.3.tar.gz --markdown 20230417/n/nitrado/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-17 04:42:50] INFO root fetch - processPackages [loganmatic]: executing diffoscope
+[2023-04-17 04:42:50] INFO root fetch - processPackages [loganmatic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loganmatic-0.0.6.tar.gz tmp/loganmatic-0.0.7.tar.gz --markdown 20230417/l/loganmatic/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-17 04:42:50] INFO root fetch - processPackages [quickgpt]: executing diffoscope
+[2023-04-17 04:42:50] INFO root fetch - processPackages [quickgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickgpt-0.6.tar.gz tmp/quickgpt-0.6.1.tar.gz --markdown 20230417/q/quickgpt/0.6-0.6.1/diff.md --exclude *.pyd
+[2023-04-17 04:42:50] INFO root fetch - processPackages [cookiecutter-autodocs]: Downloading https://files.pythonhosted.org/packages/c8/70/3baba7605d50cfd55e73e4da61cdb18db25250fc6aa415d40df472ff2a95/cookiecutter_autodocs-0.0.3.tar.gz
+[2023-04-17 04:42:50] INFO root fetch - processPackages [cookiecutter-autodocs]: executing diffoscope
+[2023-04-17 04:42:50] INFO root fetch - processPackages [cookiecutter-autodocs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cookiecutter_autodocs-0.0.1.tar.gz tmp/cookiecutter_autodocs-0.0.3.tar.gz --markdown 20230417/c/cookiecutter-autodocs/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-04-17 04:42:51] INFO root fetch - main [MainThread]: End processing [langchain-utils]: success
+[2023-04-17 04:42:51] INFO root fetch - main [MainThread]: End processing [vhdx-2-zvol]: success
+[2023-04-17 04:42:51] INFO root fetch - main [MainThread]: End processing [loganmatic]: success
+[2023-04-17 04:42:51] INFO root fetch - main [MainThread]: End processing [nitrado]: success
+[2023-04-17 04:42:51] INFO root fetch - main [MainThread]: End processing [dioptra]: success
+[2023-04-17 04:42:52] INFO root fetch - main [MainThread]: End processing [quickgpt]: success
+[2023-04-17 04:42:52] INFO root fetch - main [MainThread]: End processing [cookiecutter-autodocs]: success
+[2023-04-17 04:42:52] INFO root fetch - main [MainThread]: Store serial: [17733007]
