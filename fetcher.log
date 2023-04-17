@@ -5972,3 +5972,63 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 07:46:22] INFO root fetch - main [MainThread]: End processing [qlat-utils]: success
 [2023-04-17 07:46:25] INFO root fetch - main [MainThread]: End processing [qlat]: success
 [2023-04-17 07:46:25] INFO root fetch - main [MainThread]: Store serial: [17734144]
+[2023-04-17 07:51:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17734144]
+[2023-04-17 07:51:34] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-17 07:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xray-bot
+[2023-04-17 07:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coco-loader
+[2023-04-17 07:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: checkov
+[2023-04-17 07:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cherryblossom
+[2023-04-17 07:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dfeed
+[2023-04-17 07:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: add-abedelnabi
+[2023-04-17 07:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flowclient
+[2023-04-17 07:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hiddifypanel
+[2023-04-17 07:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fenjing
+[2023-04-17 07:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: flowetl
+[2023-04-17 07:51:34] INFO root fetch - processPackages [xray-bot]: New version: [0.1.2] Old Version: [0.1.1rc3]
+[2023-04-17 07:51:34] INFO root fetch - processPackages [coco-loader]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-17 07:51:34] INFO root fetch - processPackages [dfeed]: New version: [0.0b1] Old Version: [0.0.5]
+[2023-04-17 07:51:34] INFO root fetch - processPackages [cherryblossom]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 07:51:34] WARNING root fetch - processPackages [add-abedelnabi]: Skipping, unable to determine old version
+[2023-04-17 07:51:34] INFO root fetch - processPackages [add-abedelnabi]: Start processing: flowmachine
+[2023-04-17 07:51:34] INFO root fetch - main [MainThread]: End processing [add-abedelnabi] error
+[2023-04-17 07:51:34] INFO root fetch - processPackages [fenjing]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-17 07:51:34] INFO root fetch - processPackages [hiddifypanel]: New version: [4.0.0.dev6] Old Version: [4.0.0.dev5]
+[2023-04-17 07:51:35] INFO root fetch - processPackages [flowclient]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2023-04-17 07:51:35] INFO root fetch - processPackages [flowetl]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2023-04-17 07:51:35] INFO root fetch - processPackages [flowmachine]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2023-04-17 07:51:35] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-04-17 07:51:35] INFO root fetch - processPackages [cherryblossom]: executing diffoscope
+[2023-04-17 07:51:35] INFO root fetch - processPackages [cherryblossom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cherryblossom-0.0.8.tar.gz tmp/cherryblossom-0.0.9.tar.gz --markdown 20230417/c/cherryblossom/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 07:51:35] INFO root fetch - processPackages [flowclient]: executing diffoscope
+[2023-04-17 07:51:35] INFO root fetch - processPackages [flowclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowclient-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowclient-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20230417/f/flowclient/1.9.4.post0.dev70-1.9.4.post0.dev76/diff.md --exclude *.pyd
+[2023-04-17 07:51:35] INFO root fetch - processPackages [dfeed]: Downloading https://files.pythonhosted.org/packages/a2/c2/f9cd33365ef7870614b6c5128acac6dd4723fcd88aa47654072fe6ea3db2/dfeed-0.0.5.tar.gz
+[2023-04-17 07:51:35] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-04-17 07:51:35] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-4.0.0.dev5-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/hiddifypanel-4.0.0.dev6-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230417/h/hiddifypanel/4.0.0.dev5-4.0.0.dev6/diff.md --exclude *.pyd
+[2023-04-17 07:51:35] INFO root fetch - processPackages [flowetl]: executing diffoscope
+[2023-04-17 07:51:35] INFO root fetch - processPackages [flowetl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowetl-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowetl-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20230417/f/flowetl/1.9.4.post0.dev70-1.9.4.post0.dev76/diff.md --exclude *.pyd
+[2023-04-17 07:51:35] INFO root fetch - processPackages [flowmachine]: executing diffoscope
+[2023-04-17 07:51:35] INFO root fetch - processPackages [flowmachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowmachine-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowmachine-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20230417/f/flowmachine/1.9.4.post0.dev70-1.9.4.post0.dev76/diff.md --exclude *.pyd
+[2023-04-17 07:51:35] INFO root fetch - processPackages [fenjing]: Downloading https://files.pythonhosted.org/packages/11/b8/be563f66558d778cc0aa3235e64250870a1a1fbff37593206116df2bf163/fenjing-0.1.6.tar.gz
+[2023-04-17 07:51:35] INFO root fetch - processPackages [fenjing]: executing diffoscope
+[2023-04-17 07:51:35] INFO root fetch - processPackages [fenjing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fenjing-0.1.5.tar.gz tmp/fenjing-0.1.6.tar.gz --markdown 20230417/f/fenjing/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-17 07:51:35] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-04-17 07:51:35] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230417/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-04-17 07:51:35] INFO root fetch - processPackages [dfeed]: executing diffoscope
+[2023-04-17 07:51:35] INFO root fetch - processPackages [dfeed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dfeed-0.0.5.tar.gz tmp/dfeed-0.0b1.tar.gz --markdown 20230417/d/dfeed/0.0.5-0.0b1/diff.md --exclude *.pyd
+[2023-04-17 07:51:35] INFO root fetch - processPackages [coco-loader]: Downloading https://files.pythonhosted.org/packages/53/58/bd0901e042d3160d438353c0c3f61c353f6d403478ded4d6c42c809a7079/coco_loader-0.0.3.tar.gz
+[2023-04-17 07:51:35] INFO root fetch - processPackages [xray-bot]: Downloading https://files.pythonhosted.org/packages/6e/fb/c97e15f422e36e7e4a9093940a1d6c39ff35b7e9fd2a59f3daf744d4bc1e/xray_bot-0.1.2-py3-none-any.whl
+[2023-04-17 07:51:35] INFO root fetch - processPackages [coco-loader]: executing diffoscope
+[2023-04-17 07:51:35] INFO root fetch - processPackages [coco-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coco_loader-0.0.2.tar.gz tmp/coco_loader-0.0.3.tar.gz --markdown 20230417/c/coco-loader/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-17 07:51:35] INFO root fetch - processPackages [xray-bot]: executing diffoscope
+[2023-04-17 07:51:35] INFO root fetch - processPackages [xray-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xray_bot-0.1.1rc3-py3-none-any.whl.zip tmp/xray_bot-0.1.2-py3-none-any.whl.zip --markdown 20230417/x/xray-bot/0.1.1rc3-0.1.2/diff.md --exclude *.pyd
+[2023-04-17 07:51:37] INFO root fetch - main [MainThread]: End processing [flowclient]: success
+[2023-04-17 07:51:37] INFO root fetch - main [MainThread]: End processing [flowetl]: success
+[2023-04-17 07:51:37] INFO root fetch - main [MainThread]: End processing [cherryblossom]: success
+[2023-04-17 07:51:37] INFO root fetch - main [MainThread]: End processing [dfeed]: success
+[2023-04-17 07:51:37] INFO root fetch - main [MainThread]: End processing [xray-bot]: success
+[2023-04-17 07:51:37] INFO root fetch - main [MainThread]: End processing [fenjing]: success
+[2023-04-17 07:51:37] INFO root fetch - main [MainThread]: End processing [coco-loader]: success
+[2023-04-17 07:51:38] INFO root fetch - main [MainThread]: End processing [flowmachine]: success
+[2023-04-17 07:51:53] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-04-17 07:52:16] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-04-17 07:52:16] INFO root fetch - main [MainThread]: Store serial: [17734185]
