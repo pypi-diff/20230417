@@ -3872,3 +3872,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 04:16:35] INFO root fetch - main [MainThread]: End processing [dashio]: success
 [2023-04-17 04:16:35] INFO root fetch - main [MainThread]: End processing [alipai]: success
 [2023-04-17 04:16:35] INFO root fetch - main [MainThread]: Store serial: [17732813]
+[2023-04-17 04:21:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17732813]
+[2023-04-17 04:21:44] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-17 04:21:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dashio
+[2023-04-17 04:21:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vhdx-2-zvol
+[2023-04-17 04:21:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PrettyGit
+[2023-04-17 04:21:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rime-sdk
+[2023-04-17 04:21:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gt-defect-dojo
+[2023-04-17 04:21:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-adapter-feishu
+[2023-04-17 04:21:44] INFO root fetch - processPackages [PrettyGit]: New version: [23.0.2] Old Version: [23.0.1]
+[2023-04-17 04:21:44] INFO root fetch - processPackages [dashio]: New version: [3.3.4] Old Version: [3.3.3]
+[2023-04-17 04:21:44] INFO root fetch - processPackages [gt-defect-dojo]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-17 04:21:44] INFO root fetch - processPackages [vhdx-2-zvol]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-04-17 04:21:44] INFO root fetch - processPackages [rime-sdk]: New version: [2.0.0rc7] Old Version: [2.0.0rc6]
+[2023-04-17 04:21:44] INFO root fetch - processPackages [nonebot-adapter-feishu]: New version: [2.0.0b8] Old Version: [2.0.0b7]
+[2023-04-17 04:21:44] INFO root fetch - processPackages [gt-defect-dojo]: Downloading https://files.pythonhosted.org/packages/f5/35/e71a673368f71eda1037ec93d325186f5eea481036941366354ed7710898/gt_defect_dojo-0.0.1.tar.gz
+[2023-04-17 04:21:44] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/11/94/f2a44991e1b896d2683f0f1ce32a5e21c38187cd5024438f250a0c9d3cf5/rime_sdk-2.0.0rc6.tar.gz
+[2023-04-17 04:21:44] INFO root fetch - processPackages [nonebot-adapter-feishu]: Downloading https://files.pythonhosted.org/packages/98/dd/91410a20e235eb05933306008997c83f75df44c3dc7b5302b0a29d9dfbfe/nonebot_adapter_feishu-2.0.0b7.tar.gz
+[2023-04-17 04:21:44] INFO root fetch - processPackages [PrettyGit]: Downloading https://files.pythonhosted.org/packages/14/54/aceaea55327ebe0af5d3fc05b08f5560baacb3c07c08908869e08e692c67/prettygit-23.0.2.tar.gz
+[2023-04-17 04:21:44] INFO root fetch - processPackages [vhdx-2-zvol]: Downloading https://files.pythonhosted.org/packages/78/78/11d2375542cebc2b438902b38cd705478961bc3a18dded2f1dc43fce6e81/vhdx_2_zvol-0.4.2.tar.gz
+[2023-04-17 04:21:44] INFO root fetch - processPackages [dashio]: Downloading https://files.pythonhosted.org/packages/b0/b5/eafb4844e7cd12d8f57dbaa78fcb9d2c5cbe09e5d2a3119f69b2b4eff79e/dashio-3.3.4.tar.gz
+[2023-04-17 04:21:44] INFO root fetch - processPackages [gt-defect-dojo]: Downloading https://files.pythonhosted.org/packages/76/60/953b4ebc5150b07efc9f56951cefd1ae320d5c70c8ab9562594ee1606b28/gt_defect_dojo-0.0.2.tar.gz
+[2023-04-17 04:21:44] INFO root fetch - processPackages [PrettyGit]: executing diffoscope
+[2023-04-17 04:21:44] INFO root fetch - processPackages [PrettyGit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prettygit-23.0.1.tar.gz tmp/prettygit-23.0.2.tar.gz --markdown 20230417/P/PrettyGit/23.0.1-23.0.2/diff.md --exclude *.pyd
+[2023-04-17 04:21:44] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/c3/0e/a469dbe9e3fe5f821358e33ed78f9634b65f2bb594f23270e60a436e57e9/rime_sdk-2.0.0rc7.tar.gz
+[2023-04-17 04:21:44] INFO root fetch - processPackages [vhdx-2-zvol]: executing diffoscope
+[2023-04-17 04:21:44] INFO root fetch - processPackages [vhdx-2-zvol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vhdx_2_zvol-0.4.1.tar.gz tmp/vhdx_2_zvol-0.4.2.tar.gz --markdown 20230417/v/vhdx-2-zvol/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-04-17 04:21:44] INFO root fetch - processPackages [nonebot-adapter-feishu]: Downloading https://files.pythonhosted.org/packages/aa/cc/9583f1631bcaf2bcebeb657ab79610650bc75136570ca8f850ebcb501160/nonebot_adapter_feishu-2.0.0b8.tar.gz
+[2023-04-17 04:21:44] INFO root fetch - processPackages [dashio]: executing diffoscope
+[2023-04-17 04:21:44] INFO root fetch - processPackages [dashio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dashio-3.3.3.tar.gz tmp/dashio-3.3.4.tar.gz --markdown 20230417/d/dashio/3.3.3-3.3.4/diff.md --exclude *.pyd
+[2023-04-17 04:21:44] INFO root fetch - processPackages [gt-defect-dojo]: executing diffoscope
+[2023-04-17 04:21:44] INFO root fetch - processPackages [gt-defect-dojo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gt_defect_dojo-0.0.1.tar.gz tmp/gt_defect_dojo-0.0.2.tar.gz --markdown 20230417/g/gt-defect-dojo/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-17 04:21:44] INFO root fetch - processPackages [rime-sdk]: executing diffoscope
+[2023-04-17 04:21:44] INFO root fetch - processPackages [rime-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rime_sdk-2.0.0rc6.tar.gz tmp/rime_sdk-2.0.0rc7.tar.gz --markdown 20230417/r/rime-sdk/2.0.0rc6-2.0.0rc7/diff.md --exclude *.pyd
+[2023-04-17 04:21:44] INFO root fetch - processPackages [nonebot-adapter-feishu]: executing diffoscope
+[2023-04-17 04:21:44] INFO root fetch - processPackages [nonebot-adapter-feishu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_adapter_feishu-2.0.0b7.tar.gz tmp/nonebot_adapter_feishu-2.0.0b8.tar.gz --markdown 20230417/n/nonebot-adapter-feishu/2.0.0b7-2.0.0b8/diff.md --exclude *.pyd
+[2023-04-17 04:21:45] INFO root fetch - main [MainThread]: End processing [vhdx-2-zvol]: success
+[2023-04-17 04:21:45] INFO root fetch - main [MainThread]: End processing [PrettyGit]: success
+[2023-04-17 04:21:46] INFO root fetch - main [MainThread]: End processing [gt-defect-dojo]: success
+[2023-04-17 04:21:46] INFO root fetch - main [MainThread]: End processing [nonebot-adapter-feishu]: success
+[2023-04-17 04:21:46] INFO root fetch - main [MainThread]: End processing [dashio]: success
+[2023-04-17 04:21:49] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
+[2023-04-17 04:21:49] INFO root fetch - main [MainThread]: Store serial: [17732831]
