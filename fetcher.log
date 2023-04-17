@@ -10831,3 +10831,101 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-04-17 12:57:54] INFO root fetch - main [MainThread]: End processing [kondo-ml]: success
 [2023-04-17 12:58:02] INFO root fetch - main [MainThread]: End processing [fiduswriter]: success
 [2023-04-17 12:58:02] INFO root fetch - main [MainThread]: Store serial: [17737084]
+[2023-04-17 13:03:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17737084]
+[2023-04-17 13:03:12] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-04-17 13:03:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rest-framework-redesign
+[2023-04-17 13:03:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: WiFi-Easy
+[2023-04-17 13:03:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: resolwe-bio
+[2023-04-17 13:03:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gnsstoolbox
+[2023-04-17 13:03:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: paddypy
+[2023-04-17 13:03:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: checkov
+[2023-04-17 13:03:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: syncmaster
+[2023-04-17 13:03:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: chronus
+[2023-04-17 13:03:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fast-depends
+[2023-04-17 13:03:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: latex-ml-helper
+[2023-04-17 13:03:12] WARNING root fetch - processPackages [syncmaster]: Skipping, unable to determine old version
+[2023-04-17 13:03:12] INFO root fetch - processPackages [syncmaster]: Start processing: titiler.core
+[2023-04-17 13:03:12] INFO root fetch - main [MainThread]: End processing [syncmaster] error
+[2023-04-17 13:03:12] INFO root fetch - processPackages [paddypy]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-17 13:03:12] INFO root fetch - processPackages [chronus]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-17 13:03:12] INFO root fetch - processPackages [latex-ml-helper]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-17 13:03:12] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-04-17 13:03:12] INFO root fetch - processPackages [rest-framework-redesign]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-17 13:03:12] INFO root fetch - processPackages [gnsstoolbox]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-04-17 13:03:12] WARNING root fetch - processPackages [WiFi-Easy]: Skipping, unable to determine old version
+[2023-04-17 13:03:12] INFO root fetch - processPackages [WiFi-Easy]: Start processing: titiler.mosaic
+[2023-04-17 13:03:12] INFO root fetch - main [MainThread]: End processing [WiFi-Easy] error
+[2023-04-17 13:03:12] INFO root fetch - processPackages [fast-depends]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-17 13:03:12] INFO root fetch - processPackages [titiler.core]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-04-17 13:03:13] INFO root fetch - processPackages [resolwe-bio]: New version: [9.0.0a4] Old Version: [9.0.0a3]
+[2023-04-17 13:03:13] INFO root fetch - processPackages [chronus]: executing diffoscope
+[2023-04-17 13:03:13] INFO root fetch - processPackages [chronus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chronus-0.1.0.tar.gz tmp/chronus-0.2.0.tar.gz --markdown 20230417/c/chronus/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-04-17 13:03:13] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-04-17 13:03:13] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230417/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-04-17 13:03:13] INFO root fetch - processPackages [titiler.mosaic]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-04-17 13:03:13] INFO root fetch - processPackages [paddypy]: Downloading https://files.pythonhosted.org/packages/29/5b/70b25e9b19e60c4bf1e684d7af434c99bd538ac6104ee3c18af9c7b87632/paddypy-0.0.8.tar.gz
+[2023-04-17 13:03:13] INFO root fetch - processPackages [rest-framework-redesign]: Downloading https://files.pythonhosted.org/packages/40/42/61bf4ab8bce590899e0dc7d42fcf47b92d5a585e2b6264f7eb1d58cfc36c/rest_framework_redesign-0.1.0.tar.gz
+[2023-04-17 13:03:13] INFO root fetch - processPackages [latex-ml-helper]: Downloading https://files.pythonhosted.org/packages/ca/9d/a43382753c5b5fa1fb7b9e03944e6fd45c6d985a363547479f68ddb57192/latex_ml_helper-0.0.4.tar.gz
+[2023-04-17 13:03:13] INFO root fetch - processPackages [gnsstoolbox]: Downloading https://files.pythonhosted.org/packages/47/b4/6791998110cbc4045a134281c6af6aa4445230770c8cb21465cba1631805/gnsstoolbox-1.2.8.tar.gz
+[2023-04-17 13:03:13] INFO root fetch - processPackages [resolwe-bio]: Downloading https://files.pythonhosted.org/packages/c2/bc/f6993bc75941b8f8244e41353c3ec4b4e616477c70876197f0e454cf674e/resolwe-bio-9.0.0a3.tar.gz
+[2023-04-17 13:03:13] INFO root fetch - processPackages [titiler.core]: Downloading https://files.pythonhosted.org/packages/97/2f/6bc1ef0e1aca51ba470d94f5fa32850308c07b110759c632bdf5926bf833/titiler.core-0.8.1.tar.gz
+[2023-04-17 13:03:13] INFO root fetch - processPackages [paddypy]: executing diffoscope
+[2023-04-17 13:03:13] INFO root fetch - processPackages [paddypy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paddypy-0.0.7.tar.gz tmp/paddypy-0.0.8.tar.gz --markdown 20230417/p/paddypy/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-17 13:03:13] INFO root fetch - processPackages [latex-ml-helper]: executing diffoscope
+[2023-04-17 13:03:13] INFO root fetch - processPackages [latex-ml-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latex_ml_helper-0.0.3.tar.gz tmp/latex_ml_helper-0.0.4.tar.gz --markdown 20230417/l/latex-ml-helper/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-17 13:03:13] INFO root fetch - processPackages [titiler.mosaic]: Downloading https://files.pythonhosted.org/packages/64/df/78d67b0ef785ad61c4ff27da86f52a14a7051e25b7c2ee4bad40a8555cdf/titiler.mosaic-0.8.1.tar.gz
+[2023-04-17 13:03:13] INFO root fetch - processPackages [fast-depends]: Downloading https://files.pythonhosted.org/packages/dc/43/aba9aceb9372a4a84d492fd2edc75df2b0eaf905e1c1ca87c1016f471a25/fast_depends-1.0.3.tar.gz
+[2023-04-17 13:03:13] INFO root fetch - processPackages [rest-framework-redesign]: Downloading https://files.pythonhosted.org/packages/cc/a6/91fd0a74abebb1c5ea229350554082c7d451e83201630aa8cc136a0997f7/rest_framework_redesign-0.1.1.tar.gz
+[2023-04-17 13:03:13] INFO root fetch - processPackages [gnsstoolbox]: Downloading https://files.pythonhosted.org/packages/37/dc/054c5e6a99536f8f6cec037839526e12921cfad7fb3a0f6ba106512e4a08/gnsstoolbox-1.2.9.tar.gz
+[2023-04-17 13:03:13] INFO root fetch - processPackages [fast-depends]: executing diffoscope
+[2023-04-17 13:03:13] INFO root fetch - processPackages [fast-depends]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_depends-1.0.2.tar.gz tmp/fast_depends-1.0.3.tar.gz --markdown 20230417/f/fast-depends/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-17 13:03:13] INFO root fetch - processPackages [rest-framework-redesign]: executing diffoscope
+[2023-04-17 13:03:13] INFO root fetch - processPackages [rest-framework-redesign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rest_framework_redesign-0.1.0.tar.gz tmp/rest_framework_redesign-0.1.1.tar.gz --markdown 20230417/r/rest-framework-redesign/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-17 13:03:13] INFO root fetch - processPackages [gnsstoolbox]: executing diffoscope
+[2023-04-17 13:03:13] INFO root fetch - processPackages [gnsstoolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gnsstoolbox-1.2.8.tar.gz tmp/gnsstoolbox-1.2.9.tar.gz --markdown 20230417/g/gnsstoolbox/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-04-17 13:03:13] INFO root fetch - processPackages [titiler.mosaic]: Downloading https://files.pythonhosted.org/packages/60/39/308d945c15924ddd98ef46a95ad34562b1215fe14e9fc145f439e29aa195/titiler.mosaic-0.9.0.tar.gz
+[2023-04-17 13:03:13] INFO root fetch - processPackages [titiler.mosaic]: executing diffoscope
+[2023-04-17 13:03:13] INFO root fetch - processPackages [titiler.mosaic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titiler.mosaic-0.8.1.tar.gz tmp/titiler.mosaic-0.9.0.tar.gz --markdown 20230417/t/titiler.mosaic/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-04-17 13:03:13] INFO root fetch - processPackages [titiler.core]: Downloading https://files.pythonhosted.org/packages/37/09/ee6935b6b91c59a9456045daf3dd1a6225aaa257a1173b717e40411d49af/titiler.core-0.9.0.tar.gz
+[2023-04-17 13:03:13] INFO root fetch - processPackages [titiler.core]: executing diffoscope
+[2023-04-17 13:03:13] INFO root fetch - processPackages [titiler.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titiler.core-0.8.1.tar.gz tmp/titiler.core-0.9.0.tar.gz --markdown 20230417/t/titiler.core/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-04-17 13:03:14] INFO root fetch - processPackages [chronus]: Start processing: titiler.application
+[2023-04-17 13:03:14] INFO root fetch - main [MainThread]: End processing [chronus]: success
+[2023-04-17 13:03:14] INFO root fetch - processPackages [latex-ml-helper]: Start processing: nlpaf
+[2023-04-17 13:03:14] INFO root fetch - main [MainThread]: End processing [latex-ml-helper]: success
+[2023-04-17 13:03:14] INFO root fetch - processPackages [nlpaf]: New version: [2.8.8] Old Version: [2.8.7]
+[2023-04-17 13:03:14] INFO root fetch - processPackages [paddypy]: Start processing: titiler.extensions
+[2023-04-17 13:03:14] INFO root fetch - main [MainThread]: End processing [paddypy]: success
+[2023-04-17 13:03:14] INFO root fetch - processPackages [titiler.application]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-04-17 13:03:14] INFO root fetch - processPackages [nlpaf]: Downloading https://files.pythonhosted.org/packages/5d/da/1b92550f6bc1e7b62d9eca934cf2d4d57ebcc3fb29072424036f138d98af/nlpaf-2.8.7.tar.gz
+[2023-04-17 13:03:14] WARNING root fetch - processPackages [nlpaf]: Skipping package: exceeds size limit 24324747>=10485760
+[2023-04-17 13:03:14] INFO root fetch - processPackages [nlpaf]: Start processing: titiler
+[2023-04-17 13:03:14] INFO root fetch - main [MainThread]: End processing [nlpaf] error
+[2023-04-17 13:03:14] INFO root fetch - processPackages [titiler.extensions]: New version: [0.11.6] Old Version: [0.11.5]
+[2023-04-17 13:03:14] INFO root fetch - processPackages [titiler]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-04-17 13:03:15] INFO root fetch - processPackages [titiler.application]: Downloading https://files.pythonhosted.org/packages/a4/45/99b9cf2384c8cef0aafa53f4dd87b1f801b3a9e224de560955bd5d8cc832/titiler.application-0.8.1.tar.gz
+[2023-04-17 13:03:15] INFO root fetch - main [MainThread]: End processing [fast-depends]: success
+[2023-04-17 13:03:15] INFO root fetch - processPackages [titiler.extensions]: Downloading https://files.pythonhosted.org/packages/d1/28/e83fa3b97fa0a3fc2a9f956fe3076e5c01e6b505a83cdd27c420b9786cb7/titiler.extensions-0.11.5.tar.gz
+[2023-04-17 13:03:15] INFO root fetch - main [MainThread]: End processing [rest-framework-redesign]: success
+[2023-04-17 13:03:15] INFO root fetch - processPackages [titiler]: Downloading https://files.pythonhosted.org/packages/41/dc/ab9cf7a39b7645d7264863cdbdef3be8ff6b75b35846b2341d6edeb0c0df/titiler-0.8.1.tar.gz
+[2023-04-17 13:03:15] INFO root fetch - main [MainThread]: End processing [gnsstoolbox]: success
+[2023-04-17 13:03:15] INFO root fetch - main [MainThread]: End processing [titiler.core]: success
+[2023-04-17 13:03:15] INFO root fetch - processPackages [titiler.application]: Downloading https://files.pythonhosted.org/packages/fd/1c/135d8048e6dea392025148fca0d327db1c54246f093d117a48f0dfc45144/titiler.application-0.9.0.tar.gz
+[2023-04-17 13:03:15] INFO root fetch - main [MainThread]: End processing [titiler.mosaic]: success
+[2023-04-17 13:03:15] INFO root fetch - processPackages [titiler.extensions]: Downloading https://files.pythonhosted.org/packages/99/87/b202ccefa21fc8c82003b965acc93789800c6fa0c9652237612bf129591c/titiler.extensions-0.11.6.tar.gz
+[2023-04-17 13:03:15] INFO root fetch - processPackages [titiler.application]: executing diffoscope
+[2023-04-17 13:03:15] INFO root fetch - processPackages [titiler.application]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titiler.application-0.8.1.tar.gz tmp/titiler.application-0.9.0.tar.gz --markdown 20230417/t/titiler.application/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-04-17 13:03:15] INFO root fetch - processPackages [titiler.extensions]: executing diffoscope
+[2023-04-17 13:03:15] INFO root fetch - processPackages [titiler.extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titiler.extensions-0.11.5.tar.gz tmp/titiler.extensions-0.11.6.tar.gz --markdown 20230417/t/titiler.extensions/0.11.5-0.11.6/diff.md --exclude *.pyd
+[2023-04-17 13:03:15] INFO root fetch - processPackages [titiler]: Downloading https://files.pythonhosted.org/packages/2d/a8/789412eeaaecf169bd27c5d17249338b6e372505215d3f4b89588fffd4b2/titiler-0.9.0.tar.gz
+[2023-04-17 13:03:15] INFO root fetch - processPackages [resolwe-bio]: Downloading https://files.pythonhosted.org/packages/c9/30/533d131f30f01305f0d25555f7e3eaa209d8400cd99b38de17dfec330f11/resolwe-bio-9.0.0a4.tar.gz
+[2023-04-17 13:03:15] INFO root fetch - processPackages [titiler]: executing diffoscope
+[2023-04-17 13:03:15] INFO root fetch - processPackages [titiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titiler-0.8.1.tar.gz tmp/titiler-0.9.0.tar.gz --markdown 20230417/t/titiler/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-04-17 13:03:16] INFO root fetch - main [MainThread]: End processing [titiler.application]: success
+[2023-04-17 13:03:16] INFO root fetch - main [MainThread]: End processing [titiler]: success
+[2023-04-17 13:03:16] INFO root fetch - main [MainThread]: End processing [titiler.extensions]: success
+[2023-04-17 13:03:18] INFO root fetch - processPackages [resolwe-bio]: executing diffoscope
+[2023-04-17 13:03:18] INFO root fetch - processPackages [resolwe-bio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resolwe-bio-9.0.0a3.tar.gz tmp/resolwe-bio-9.0.0a4.tar.gz --markdown 20230417/r/resolwe-bio/9.0.0a3-9.0.0a4/diff.md --exclude *.pyd
+[2023-04-17 13:03:29] INFO root fetch - main [MainThread]: End processing [resolwe-bio]: success
+[2023-04-17 13:04:01] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-04-17 13:04:01] INFO root fetch - main [MainThread]: Store serial: [17737146]
