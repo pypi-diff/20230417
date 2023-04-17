@@ -23520,3 +23520,36 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-17 23:52:15] INFO root fetch - main [MainThread]: End processing [mass-driver]: success
 [2023-04-17 23:52:26] INFO root fetch - main [MainThread]: End processing [gpt3discord]: success
 [2023-04-17 23:52:26] INFO root fetch - main [MainThread]: Store serial: [17744934]
+[2023-04-17 23:57:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17744934]
+[2023-04-17 23:57:35] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-17 23:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: airbyte-cdk
+[2023-04-17 23:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iambic-core
+[2023-04-17 23:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gs-peer-connection
+[2023-04-17 23:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chalkpy
+[2023-04-17 23:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PartehDB
+[2023-04-17 23:57:35] INFO root fetch - processPackages [iambic-core]: New version: [0.2.1] Old Version: [0.1.198]
+[2023-04-17 23:57:35] INFO root fetch - processPackages [airbyte-cdk]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-04-17 23:57:35] INFO root fetch - processPackages [chalkpy]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-04-17 23:57:35] INFO root fetch - processPackages [PartehDB]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-04-17 23:57:35] INFO root fetch - processPackages [gs-peer-connection]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 23:57:35] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-04-17 23:57:35] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-1.9.8.tar.gz tmp/chalkpy-1.9.9.tar.gz --markdown 20230417/c/chalkpy/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-04-17 23:57:35] INFO root fetch - processPackages [iambic-core]: Downloading https://files.pythonhosted.org/packages/42/ad/6c12758f7cdf4136eb1e608afedb0dc81d78f3b2b93c7e1e72aa84f14fc9/iambic_core-0.1.198.tar.gz
+[2023-04-17 23:57:35] INFO root fetch - processPackages [airbyte-cdk]: Downloading https://files.pythonhosted.org/packages/a6/6c/5db8c1f4ef1f82d0d51a3df308363222107d0773276235a4acbc31f7f8dc/airbyte-cdk-0.9.4.tar.gz
+[2023-04-17 23:57:35] INFO root fetch - processPackages [PartehDB]: Downloading https://files.pythonhosted.org/packages/63/e3/1ce09eadd9f34779b6ea8b1f1a0f7cf4536dca8dcf7e2f8282363807c074/PartehDB-1.0.4.tar.gz
+[2023-04-17 23:57:35] INFO root fetch - processPackages [gs-peer-connection]: executing diffoscope
+[2023-04-17 23:57:35] INFO root fetch - processPackages [gs-peer-connection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs-peer-connection-0.0.8.tar.gz tmp/gs-peer-connection-0.0.9.tar.gz --markdown 20230417/g/gs-peer-connection/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 23:57:35] INFO root fetch - processPackages [PartehDB]: executing diffoscope
+[2023-04-17 23:57:35] INFO root fetch - processPackages [PartehDB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PartehDB-1.0.3-py3-none-any.whl.zip tmp/PartehDB-1.0.4.tar.gz --markdown 20230417/P/PartehDB/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-04-17 23:57:35] INFO root fetch - processPackages [iambic-core]: Downloading https://files.pythonhosted.org/packages/59/bd/fd2238e450407fabfbfe123300867ef6331a86bb23fbeb9edb402a7158fe/iambic_core-0.2.1.tar.gz
+[2023-04-17 23:57:35] INFO root fetch - processPackages [airbyte-cdk]: Downloading https://files.pythonhosted.org/packages/9f/96/b471868d256cf73e3745675013847705a79a47e5a529e1c026d6032228bb/airbyte-cdk-0.9.5.tar.gz
+[2023-04-17 23:57:36] INFO root fetch - processPackages [iambic-core]: executing diffoscope
+[2023-04-17 23:57:36] INFO root fetch - processPackages [iambic-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iambic_core-0.1.198.tar.gz tmp/iambic_core-0.2.1.tar.gz --markdown 20230417/i/iambic-core/0.1.198-0.2.1/diff.md --exclude *.pyd
+[2023-04-17 23:57:36] INFO root fetch - processPackages [airbyte-cdk]: executing diffoscope
+[2023-04-17 23:57:36] INFO root fetch - processPackages [airbyte-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-cdk-0.9.4.tar.gz tmp/airbyte-cdk-0.9.5.tar.gz --markdown 20230417/a/airbyte-cdk/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-04-17 23:57:36] INFO root fetch - main [MainThread]: End processing [gs-peer-connection]: success
+[2023-04-17 23:57:36] INFO root fetch - main [MainThread]: End processing [PartehDB]: success
+[2023-04-17 23:57:38] INFO root fetch - main [MainThread]: End processing [iambic-core]: success
+[2023-04-17 23:57:38] INFO root fetch - main [MainThread]: End processing [airbyte-cdk]: success
+[2023-04-17 23:57:40] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-04-17 23:57:40] INFO root fetch - main [MainThread]: Store serial: [17744949]
