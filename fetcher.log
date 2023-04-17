@@ -16109,3 +16109,140 @@ EOFError: EOF read where object expected
 [2023-04-17 17:00:53] INFO root fetch - main [MainThread]: End processing [whoisdomain]: success
 [2023-04-17 17:00:53] INFO root fetch - main [MainThread]: End processing [lmql]: success
 [2023-04-17 17:00:53] INFO root fetch - main [MainThread]: Store serial: [17740202]
+[2023-04-17 17:05:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17740202]
+[2023-04-17 17:06:02] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-04-17 17:06:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: t2qc
+[2023-04-17 17:06:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: molgraph
+[2023-04-17 17:06:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: langchain
+[2023-04-17 17:06:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: monailabel
+[2023-04-17 17:06:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cornflakes
+[2023-04-17 17:06:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyplasm
+[2023-04-17 17:06:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yellowdog-python-examples
+[2023-04-17 17:06:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: usda
+[2023-04-17 17:06:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tkblock
+[2023-04-17 17:06:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: evadb
+[2023-04-17 17:06:03] INFO root fetch - processPackages [tkblock]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-04-17 17:06:03] INFO root fetch - processPackages [t2qc]: New version: [0.2.3] Old Version: [0.2.1]
+[2023-04-17 17:06:03] INFO root fetch - processPackages [molgraph]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-17 17:06:03] INFO root fetch - processPackages [pyplasm]: New version: [3.0.7] Old Version: [2.2.2]
+[2023-04-17 17:06:03] INFO root fetch - processPackages [usda]: New version: [0.0.21] Old Version: [0.0.20]
+[2023-04-17 17:06:03] INFO root fetch - processPackages [langchain]: New version: [0.0.99rc0] Old Version: [0.0.99]
+[2023-04-17 17:06:03] INFO root fetch - processPackages [yellowdog-python-examples]: New version: [5.0.3] Old Version: [5.0.2]
+[2023-04-17 17:06:03] INFO root fetch - processPackages [monailabel]: New version: [0.7.0rc5] Old Version: [0.7.0rc4]
+[2023-04-17 17:06:03] INFO root fetch - processPackages [cornflakes]: New version: [3.2.7] Old Version: [3.2.6]
+[2023-04-17 17:06:03] INFO root fetch - processPackages [tkblock]: Downloading https://files.pythonhosted.org/packages/5e/54/0d8384b6d79754c88c49e415781c9118f2ec19153f64fbe062494feac61e/tkblock-1.1.1.tar.gz
+[2023-04-17 17:06:03] INFO root fetch - processPackages [usda]: Downloading https://files.pythonhosted.org/packages/50/94/80a0b840e0f6eb0f3aecc4ca989c8de635de6eb2459b077158eadd48db2e/usda-0.0.20.tar.gz
+[2023-04-17 17:06:03] INFO root fetch - processPackages [evadb]: New version: [0.2.0] Old Version: [0.1.6]
+[2023-04-17 17:06:03] INFO root fetch - processPackages [monailabel]: Downloading https://files.pythonhosted.org/packages/8f/84/1004369ebb3b1bd73091e3a8df02026ce471ad879bc1d699a0ffcb29c2e3/monailabel-0.7.0rc4-202304110604-py3-none-any.whl
+[2023-04-17 17:06:03] INFO root fetch - processPackages [pyplasm]: Downloading https://files.pythonhosted.org/packages/5a/84/c8894645c8e1dcaa05e4732aec819185513222740ad9967e1f7593534b0f/pyplasm-2.2.2-cp39-none-win_amd64.whl
+[2023-04-17 17:06:03] INFO root fetch - processPackages [t2qc]: Downloading https://files.pythonhosted.org/packages/a5/31/7d44d9e513c4702d10c6ef023b7150cf10eab69ce3a0791e5c7ad4c600c2/t2qc-0.2.1-py2.py3-none-any.whl
+[2023-04-17 17:06:03] INFO root fetch - processPackages [tkblock]: executing diffoscope
+[2023-04-17 17:06:03] INFO root fetch - processPackages [tkblock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tkblock-1.1.0.tar.gz tmp/tkblock-1.1.1.tar.gz --markdown 20230417/t/tkblock/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-04-17 17:06:03] INFO root fetch - processPackages [molgraph]: Downloading https://files.pythonhosted.org/packages/9d/db/a49ac096e343e58ee8a518c6f845e8f37cc2c23c3eb897f7ffeb7dacc396/molgraph-0.3.1.tar.gz
+[2023-04-17 17:06:03] INFO root fetch - processPackages [yellowdog-python-examples]: Downloading https://files.pythonhosted.org/packages/a0/91/019abb1cd8ac15c22556a7ffd1de8831d9f0f769ca91d8156b7d5896941f/yellowdog-python-examples-5.0.3.tar.gz
+[2023-04-17 17:06:03] INFO root fetch - processPackages [evadb]: Downloading https://files.pythonhosted.org/packages/7c/e6/cded87901c3c8f53f9d26cdc89386ecf1848e5dcda14045246fd27c5e2a9/evadb-0.1.6.tar.gz
+[2023-04-17 17:06:03] INFO root fetch - processPackages [cornflakes]: Downloading https://files.pythonhosted.org/packages/5e/1a/f39a1ba5e7e7c42a848f05aeb9aa11c598a734e2850892755032efe0841e/cornflakes-3.2.7.tar.gz
+[2023-04-17 17:06:03] INFO root fetch - processPackages [usda]: Downloading https://files.pythonhosted.org/packages/93/af/8fdafef7a3fc047eeb95667dfd626ffd0e6cd4592e79a3bac84a4cc8100a/usda-0.0.21.tar.gz
+[2023-04-17 17:06:03] INFO root fetch - processPackages [langchain]: executing diffoscope
+[2023-04-17 17:06:03] INFO root fetch - processPackages [langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-0.0.99.tar.gz tmp/langchain-0.0.99rc0.tar.gz --markdown 20230417/l/langchain/0.0.99-0.0.99rc0/diff.md --exclude *.pyd
+[2023-04-17 17:06:03] INFO root fetch - processPackages [t2qc]: Downloading https://files.pythonhosted.org/packages/67/5d/afeb9d7c7a55e961e12d516abd1edab85b63453333693f60fa2d20f58ea2/t2qc-0.2.3-py2.py3-none-any.whl
+[2023-04-17 17:06:03] INFO root fetch - processPackages [yellowdog-python-examples]: executing diffoscope
+[2023-04-17 17:06:03] INFO root fetch - processPackages [yellowdog-python-examples]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yellowdog-python-examples-5.0.2.tar.gz tmp/yellowdog-python-examples-5.0.3.tar.gz --markdown 20230417/y/yellowdog-python-examples/5.0.2-5.0.3/diff.md --exclude *.pyd
+[2023-04-17 17:06:03] INFO root fetch - processPackages [molgraph]: executing diffoscope
+[2023-04-17 17:06:03] INFO root fetch - processPackages [molgraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molgraph-0.3.0.tar.gz tmp/molgraph-0.3.1.tar.gz --markdown 20230417/m/molgraph/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-17 17:06:03] INFO root fetch - processPackages [evadb]: Downloading https://files.pythonhosted.org/packages/23/1b/0ca2dcbfdd7650a3723e9971b3c4be544d387118adbdeed640e3f67a63cc/evadb-0.2.0.tar.gz
+[2023-04-17 17:06:03] INFO root fetch - processPackages [usda]: executing diffoscope
+[2023-04-17 17:06:03] INFO root fetch - processPackages [usda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usda-0.0.20.tar.gz tmp/usda-0.0.21.tar.gz --markdown 20230417/u/usda/0.0.20-0.0.21/diff.md --exclude *.pyd
+[2023-04-17 17:06:03] INFO root fetch - processPackages [t2qc]: executing diffoscope
+[2023-04-17 17:06:03] INFO root fetch - processPackages [t2qc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t2qc-0.2.1-py2.py3-none-any.whl.zip tmp/t2qc-0.2.3-py2.py3-none-any.whl.zip --markdown 20230417/t/t2qc/0.2.1-0.2.3/diff.md --exclude *.pyd
+[2023-04-17 17:06:04] INFO root fetch - processPackages [pyplasm]: Downloading https://files.pythonhosted.org/packages/54/c8/f2604aa3f74b6e03cf91e2fb5f9495009931ec756b490f231e53e3d6e9ef/pyplasm-3.0.7-cp39-none-manylinux2010_x86_64.whl
+[2023-04-17 17:06:04] INFO root fetch - processPackages [evadb]: executing diffoscope
+[2023-04-17 17:06:04] INFO root fetch - processPackages [evadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evadb-0.1.6.tar.gz tmp/evadb-0.2.0.tar.gz --markdown 20230417/e/evadb/0.1.6-0.2.0/diff.md --exclude *.pyd
+[2023-04-17 17:06:04] INFO root fetch - processPackages [cornflakes]: executing diffoscope
+[2023-04-17 17:06:04] INFO root fetch - processPackages [cornflakes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cornflakes-3.2.6.tar.gz tmp/cornflakes-3.2.7.tar.gz --markdown 20230417/c/cornflakes/3.2.6-3.2.7/diff.md --exclude *.pyd
+[2023-04-17 17:06:05] INFO root fetch - processPackages [tkblock]: Start processing: rescupybs
+[2023-04-17 17:06:05] INFO root fetch - main [MainThread]: End processing [tkblock]: success
+[2023-04-17 17:06:05] INFO root fetch - processPackages [pyplasm]: executing diffoscope
+[2023-04-17 17:06:05] INFO root fetch - processPackages [rescupybs]: New version: [0.0.1.4.1] Old Version: [0.0.1.4]
+[2023-04-17 17:06:05] INFO root fetch - processPackages [pyplasm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyplasm-2.2.2-cp39-none-win_amd64.whl.zip tmp/pyplasm-3.0.7-cp39-none-manylinux2010_x86_64.whl.zip --markdown 20230417/p/pyplasm/2.2.2-3.0.7/diff.md --exclude *.pyd
+[2023-04-17 17:06:05] INFO root fetch - processPackages [t2qc]: Start processing: t2qc
+[2023-04-17 17:06:05] INFO root fetch - main [MainThread]: End processing [t2qc]: success
+[2023-04-17 17:06:05] INFO root fetch - processPackages [t2qc]: New version: [0.2.3] Old Version: [0.2.1]
+[2023-04-17 17:06:05] INFO root fetch - processPackages [t2qc]: executing diffoscope
+[2023-04-17 17:06:05] INFO root fetch - processPackages [t2qc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t2qc-0.2.1-py2.py3-none-any.whl.zip tmp/t2qc-0.2.3-py2.py3-none-any.whl.zip --markdown 20230417/t/t2qc/0.2.1-0.2.3/diff.md --exclude *.pyd
+[2023-04-17 17:06:05] INFO root fetch - processPackages [yellowdog-python-examples]: Start processing: pyriksprot-tagger
+[2023-04-17 17:06:05] INFO root fetch - main [MainThread]: End processing [yellowdog-python-examples]: success
+[2023-04-17 17:06:05] INFO root fetch - processPackages [molgraph]: Start processing: fastapi-mlflow
+[2023-04-17 17:06:05] INFO root fetch - main [MainThread]: End processing [molgraph]: success
+[2023-04-17 17:06:05] INFO root fetch - processPackages [monailabel]: Downloading https://files.pythonhosted.org/packages/da/47/e9b2b1d1515d9ca6bac8a04dc205dfd501319ae2da27fc1d9fd582589008/monailabel-0.7.0rc5-202304171453-py3-none-any.whl
+[2023-04-17 17:06:05] INFO root fetch - processPackages [pyriksprot-tagger]: New version: [2023.4.2] Old Version: [2023.4.1]
+[2023-04-17 17:06:05] INFO root fetch - processPackages [rescupybs]: Downloading https://files.pythonhosted.org/packages/b2/bd/7e327125dc8e4fa633dc7e5fddb9c9711b459932e7fffb666b598052cd51/rescupybs-0.0.1.4.1-py3-none-any.whl
+[2023-04-17 17:06:05] INFO root fetch - processPackages [fastapi-mlflow]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-04-17 17:06:05] INFO root fetch - processPackages [rescupybs]: executing diffoscope
+[2023-04-17 17:06:05] INFO root fetch - processPackages [rescupybs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rescupybs-0.0.1.4-py3-none-any.whl.zip tmp/rescupybs-0.0.1.4.1-py3-none-any.whl.zip --markdown 20230417/r/rescupybs/0.0.1.4-0.0.1.4.1/diff.md --exclude *.pyd
+[2023-04-17 17:06:05] INFO root fetch - processPackages [pyriksprot-tagger]: Downloading https://files.pythonhosted.org/packages/c5/20/3cff277e282fba23fa88e1e6dad9f2076089980669ef463ae513edc2d7c4/pyriksprot_tagger-2023.4.1.tar.gz
+[2023-04-17 17:06:05] INFO root fetch - processPackages [fastapi-mlflow]: Downloading https://files.pythonhosted.org/packages/29/b6/50bd894333b7320f667b5d5091bd462f7c9c7cfa1f54888cf8e606c3907b/fastapi-mlflow-0.4.0.tar.gz
+[2023-04-17 17:06:06] INFO root fetch - processPackages [pyriksprot-tagger]: Downloading https://files.pythonhosted.org/packages/a5/bf/8a31318e53afe6b1dfba7ff7942186c4930225ad27ebd91d483adddecb4e/pyriksprot_tagger-2023.4.2.tar.gz
+[2023-04-17 17:06:06] INFO root fetch - processPackages [fastapi-mlflow]: Downloading https://files.pythonhosted.org/packages/95/1e/514781fbc156ed96e73f545ea13947288b0e3d30d76e18f1b10fc7ed42d1/fastapi_mlflow-0.4.1.tar.gz
+[2023-04-17 17:06:06] INFO root fetch - processPackages [pyriksprot-tagger]: executing diffoscope
+[2023-04-17 17:06:06] INFO root fetch - processPackages [pyriksprot-tagger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyriksprot_tagger-2023.4.1.tar.gz tmp/pyriksprot_tagger-2023.4.2.tar.gz --markdown 20230417/p/pyriksprot-tagger/2023.4.1-2023.4.2/diff.md --exclude *.pyd
+[2023-04-17 17:06:06] INFO root fetch - processPackages [usda]: Start processing: ds-daygio
+[2023-04-17 17:06:06] INFO root fetch - main [MainThread]: End processing [usda]: success
+[2023-04-17 17:06:06] INFO root fetch - processPackages [fastapi-mlflow]: executing diffoscope
+[2023-04-17 17:06:06] INFO root fetch - processPackages [fastapi-mlflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-mlflow-0.4.0.tar.gz tmp/fastapi_mlflow-0.4.1.tar.gz --markdown 20230417/f/fastapi-mlflow/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-04-17 17:06:06] WARNING root fetch - processPackages [ds-daygio]: Skipping, unable to determine old version
+[2023-04-17 17:06:06] INFO root fetch - processPackages [ds-daygio]: Start processing: k1lib
+[2023-04-17 17:06:06] INFO root fetch - main [MainThread]: End processing [ds-daygio] error
+[2023-04-17 17:06:06] INFO root fetch - processPackages [k1lib]: New version: [1.3.3.1] Old Version: [1.3.3]
+[2023-04-17 17:06:06] INFO root fetch - processPackages [k1lib]: executing diffoscope
+[2023-04-17 17:06:06] INFO root fetch - processPackages [k1lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/k1lib-1.3.3-py3-none-any.whl.zip tmp/k1lib-1.3.3.1-py3-none-any.whl.zip --markdown 20230417/k/k1lib/1.3.3-1.3.3.1/diff.md --exclude *.pyd
+[2023-04-17 17:06:06] INFO root fetch - processPackages [t2qc]: Start processing: pygameHat
+[2023-04-17 17:06:06] INFO root fetch - main [MainThread]: End processing [t2qc]: success
+[2023-04-17 17:06:06] INFO root fetch - processPackages [pygameHat]: New version: [1.1.0] Old Version: [1.0.8]
+[2023-04-17 17:06:06] INFO root fetch - processPackages [monailabel]: executing diffoscope
+[2023-04-17 17:06:06] INFO root fetch - processPackages [monailabel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monailabel-0.7.0rc4-202304110604-py3-none-any.whl.zip tmp/monailabel-0.7.0rc5-202304171453-py3-none-any.whl.zip --markdown 20230417/m/monailabel/0.7.0rc4-0.7.0rc5/diff.md --exclude *.pyd
+[2023-04-17 17:06:06] INFO root fetch - processPackages [pygameHat]: executing diffoscope
+[2023-04-17 17:06:06] INFO root fetch - processPackages [pygameHat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygameHat-1.0.8.tar.gz tmp/pygameHat-1.1.0.tar.gz --markdown 20230417/p/pygameHat/1.0.8-1.1.0/diff.md --exclude *.pyd
+[2023-04-17 17:06:07] INFO root fetch - processPackages [rescupybs]: Start processing: mymlcustomtools
+[2023-04-17 17:06:07] INFO root fetch - main [MainThread]: End processing [rescupybs]: success
+[2023-04-17 17:06:07] INFO root fetch - processPackages [mymlcustomtools]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-17 17:06:07] INFO root fetch - processPackages [pyplasm]: Start processing: hagis
+[2023-04-17 17:06:07] INFO root fetch - main [MainThread]: End processing [pyplasm]: success
+[2023-04-17 17:06:07] INFO root fetch - processPackages [hagis]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-04-17 17:06:07] INFO root fetch - processPackages [mymlcustomtools]: Downloading https://files.pythonhosted.org/packages/68/8a/33756859f57a1aec153d8c49777694cdf91a89c8a31c055bf1241529bdf6/mymlcustomtools-0.0.2.tar.gz
+[2023-04-17 17:06:07] INFO root fetch - processPackages [langchain]: Start processing: watchtower-browser-testing
+[2023-04-17 17:06:07] INFO root fetch - main [MainThread]: End processing [langchain]: success
+[2023-04-17 17:06:07] INFO root fetch - processPackages [hagis]: Downloading https://files.pythonhosted.org/packages/29/49/495da7bfc04e6f84b164b6d7aa80eef72558ee5e65c6b2cb12a37c4745ea/hagis-0.2.5.tar.gz
+[2023-04-17 17:06:07] INFO root fetch - processPackages [watchtower-browser-testing]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-17 17:06:07] INFO root fetch - processPackages [fastapi-mlflow]: Start processing: Askpyro
+[2023-04-17 17:06:07] INFO root fetch - main [MainThread]: End processing [fastapi-mlflow]: success
+[2023-04-17 17:06:07] INFO root fetch - processPackages [hagis]: executing diffoscope
+[2023-04-17 17:06:07] INFO root fetch - processPackages [hagis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hagis-0.2.4.tar.gz tmp/hagis-0.2.5.tar.gz --markdown 20230417/h/hagis/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-04-17 17:06:07] INFO root fetch - processPackages [Askpyro]: New version: [1.73] Old Version: [1.72]
+[2023-04-17 17:06:07] INFO root fetch - processPackages [watchtower-browser-testing]: Downloading https://files.pythonhosted.org/packages/17/bd/1e68b92b8788c4abff9e920715b73d0469fedf294cc53f97a65481ac3e9d/watchtower_browser_testing-0.3.8.tar.gz
+[2023-04-17 17:06:07] INFO root fetch - processPackages [mymlcustomtools]: Downloading https://files.pythonhosted.org/packages/4f/91/295f17228a6e1b2569123f6064ada049b34a6b22ef726e26f67b9f104aad/mymlcustomtools-0.0.3.tar.gz
+[2023-04-17 17:06:07] INFO root fetch - processPackages [Askpyro]: Downloading https://files.pythonhosted.org/packages/9a/2b/7b74d974229ec7b160b5e1f74f0c59e2f47661ff959515720a22b7975a4e/Askpyro-1.73.tar.gz
+[2023-04-17 17:06:07] INFO root fetch - processPackages [pyriksprot-tagger]: Start processing: tensorflow-text-nightly
+[2023-04-17 17:06:07] INFO root fetch - main [MainThread]: End processing [pyriksprot-tagger]: success
+[2023-04-17 17:06:08] INFO root fetch - processPackages [mymlcustomtools]: executing diffoscope
+[2023-04-17 17:06:08] INFO root fetch - processPackages [mymlcustomtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mymlcustomtools-0.0.2.tar.gz tmp/mymlcustomtools-0.0.3.tar.gz --markdown 20230417/m/mymlcustomtools/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-17 17:06:08] INFO root fetch - processPackages [tensorflow-text-nightly]: New version: [2.13.0.dev20230416] Old Version: [2.13.0.dev20230415]
+[2023-04-17 17:06:08] INFO root fetch - processPackages [watchtower-browser-testing]: Downloading https://files.pythonhosted.org/packages/84/5b/147eb1651427bad0d4c8eba4c3177382c6245cb6d503e5fd5d4d758ace51/watchtower_browser_testing-0.3.9.tar.gz
+[2023-04-17 17:06:08] INFO root fetch - processPackages [watchtower-browser-testing]: executing diffoscope
+[2023-04-17 17:06:08] INFO root fetch - processPackages [watchtower-browser-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchtower_browser_testing-0.3.8.tar.gz tmp/watchtower_browser_testing-0.3.9.tar.gz --markdown 20230417/w/watchtower-browser-testing/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-17 17:06:08] INFO root fetch - main [MainThread]: End processing [pygameHat]: success
+[2023-04-17 17:06:08] INFO root fetch - processPackages [Askpyro]: executing diffoscope
+[2023-04-17 17:06:08] INFO root fetch - processPackages [Askpyro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Askpyro-1.72.tar.gz tmp/Askpyro-1.73.tar.gz --markdown 20230417/A/Askpyro/1.72-1.73/diff.md --exclude *.pyd
+[2023-04-17 17:06:08] INFO root fetch - processPackages [tensorflow-text-nightly]: Downloading https://files.pythonhosted.org/packages/49/83/b58c063bb38a22823fb999f9bb7e82c100d92058176de6ba2d3aa9bcc2f4/tensorflow_text_nightly-2.13.0.dev20230416-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-17 17:06:08] INFO root fetch - main [MainThread]: End processing [k1lib]: success
+[2023-04-17 17:06:09] INFO root fetch - main [MainThread]: End processing [hagis]: success
+[2023-04-17 17:06:09] INFO root fetch - main [MainThread]: End processing [mymlcustomtools]: success
+[2023-04-17 17:06:09] INFO root fetch - processPackages [tensorflow-text-nightly]: executing diffoscope
+[2023-04-17 17:06:09] INFO root fetch - processPackages [tensorflow-text-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow_text_nightly-2.13.0.dev20230415-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/tensorflow_text_nightly-2.13.0.dev20230416-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230417/t/tensorflow-text-nightly/2.13.0.dev20230415-2.13.0.dev20230416/diff.md --exclude *.pyd
+[2023-04-17 17:06:09] INFO root fetch - main [MainThread]: End processing [watchtower-browser-testing]: success
+[2023-04-17 17:06:09] INFO root fetch - main [MainThread]: End processing [Askpyro]: success
+[2023-04-17 17:06:10] INFO root fetch - main [MainThread]: End processing [evadb]: success
+[2023-04-17 17:06:11] INFO root fetch - main [MainThread]: End processing [tensorflow-text-nightly]: success
+[2023-04-17 17:06:13] INFO root fetch - main [MainThread]: End processing [monailabel]: success
+[2023-04-17 17:06:20] INFO root fetch - main [MainThread]: End processing [cornflakes]: success
+[2023-04-17 17:06:20] INFO root fetch - main [MainThread]: Store serial: [17740300]
