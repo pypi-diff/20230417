@@ -7762,3 +7762,44 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 10:06:28] INFO root fetch - main [MainThread]: End processing [vectice]: success
 [2023-04-17 10:06:28] INFO root fetch - main [MainThread]: End processing [pyglove]: success
 [2023-04-17 10:06:28] INFO root fetch - main [MainThread]: Store serial: [17735253]
+[2023-04-17 10:11:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17735253]
+[2023-04-17 10:11:37] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-17 10:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Whitechapel
+[2023-04-17 10:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyHDLFS
+[2023-04-17 10:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yakui
+[2023-04-17 10:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: steam-pysigma
+[2023-04-17 10:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: NikeCA
+[2023-04-17 10:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dials-data
+[2023-04-17 10:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: EMPOL-GUI
+[2023-04-17 10:11:37] INFO root fetch - processPackages [EMPOL-GUI]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-04-17 10:11:37] INFO root fetch - processPackages [pyHDLFS]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-17 10:11:37] WARNING root fetch - processPackages [yakui]: Skipping, unable to determine old version
+[2023-04-17 10:11:37] INFO root fetch - main [MainThread]: End processing [yakui] error
+[2023-04-17 10:11:37] WARNING root fetch - processPackages [Whitechapel]: Skipping, unable to determine old version
+[2023-04-17 10:11:37] INFO root fetch - main [MainThread]: End processing [Whitechapel] error
+[2023-04-17 10:11:37] INFO root fetch - processPackages [steam-pysigma]: New version: [2023.4.8] Old Version: [2023.4.7]
+[2023-04-17 10:11:37] INFO root fetch - processPackages [NikeCA]: New version: [0.1.58] Old Version: [0.1.57]
+[2023-04-17 10:11:37] INFO root fetch - processPackages [dials-data]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-04-17 10:11:37] INFO root fetch - processPackages [pyHDLFS]: Downloading https://files.pythonhosted.org/packages/e3/d8/bf03c564ca162fc676e5d4e3514d8f1a94530d97da950c28db620aaab169/pyhdlfs-0.0.3.tar.gz
+[2023-04-17 10:11:37] INFO root fetch - processPackages [steam-pysigma]: Downloading https://files.pythonhosted.org/packages/f2/e6/c06db03e5d7e94acd48e2dff18db5076fa049a75ca5d0dec03b29c0cb0ef/steam-pysigma-2023.4.7.tar.gz
+[2023-04-17 10:11:37] INFO root fetch - processPackages [NikeCA]: Downloading https://files.pythonhosted.org/packages/7f/3b/621f1874383dce4b23c4525503ae915ac7b03b730e712987ffa7d694972c/NikeCA-0.1.58.tar.gz
+[2023-04-17 10:11:37] INFO root fetch - processPackages [dials-data]: Downloading https://files.pythonhosted.org/packages/14/2c/8d0581b80f2592de3f0c6e4dce273392735db0c8cd0b5eb433f5cc1ebbf9/dials_data-2.4.8.tar.gz
+[2023-04-17 10:11:37] INFO root fetch - processPackages [EMPOL-GUI]: Downloading https://files.pythonhosted.org/packages/7d/eb/41738905681a57c09eeab193c28fc3d0c05f109bb8eaf717abff4d9ae03e/EMPOL_GUI-2.2.1.tar.gz
+[2023-04-17 10:11:37] INFO root fetch - processPackages [pyHDLFS]: executing diffoscope
+[2023-04-17 10:11:37] INFO root fetch - processPackages [pyHDLFS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhdlfs-0.0.2.tar.gz tmp/pyhdlfs-0.0.3.tar.gz --markdown 20230417/p/pyHDLFS/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-17 10:11:37] INFO root fetch - processPackages [NikeCA]: executing diffoscope
+[2023-04-17 10:11:37] INFO root fetch - processPackages [NikeCA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NikeCA-0.1.57.tar.gz tmp/NikeCA-0.1.58.tar.gz --markdown 20230417/N/NikeCA/0.1.57-0.1.58/diff.md --exclude *.pyd
+[2023-04-17 10:11:37] INFO root fetch - processPackages [EMPOL-GUI]: executing diffoscope
+[2023-04-17 10:11:37] INFO root fetch - processPackages [EMPOL-GUI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EMPOL_GUI-2.2.0.tar.gz tmp/EMPOL_GUI-2.2.1.tar.gz --markdown 20230417/E/EMPOL-GUI/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-04-17 10:11:37] INFO root fetch - processPackages [steam-pysigma]: Downloading https://files.pythonhosted.org/packages/82/d5/8d1920ab564a29277ef8ce1bef974624b3875a8c022c0956a9ee66db5eb3/steam-pysigma-2023.4.8.tar.gz
+[2023-04-17 10:11:38] INFO root fetch - processPackages [steam-pysigma]: executing diffoscope
+[2023-04-17 10:11:38] INFO root fetch - processPackages [steam-pysigma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steam-pysigma-2023.4.7.tar.gz tmp/steam-pysigma-2023.4.8.tar.gz --markdown 20230417/s/steam-pysigma/2023.4.7-2023.4.8/diff.md --exclude *.pyd
+[2023-04-17 10:11:38] INFO root fetch - processPackages [dials-data]: Downloading https://files.pythonhosted.org/packages/f3/b5/52b8b6c81fdcced6ca5a79f94efe98b30c6c7968ea6f0d12f520bb611e7d/dials_data-2.4.9.tar.gz
+[2023-04-17 10:11:39] INFO root fetch - main [MainThread]: End processing [pyHDLFS]: success
+[2023-04-17 10:11:39] INFO root fetch - processPackages [dials-data]: executing diffoscope
+[2023-04-17 10:11:39] INFO root fetch - processPackages [dials-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dials_data-2.4.8.tar.gz tmp/dials_data-2.4.9.tar.gz --markdown 20230417/d/dials-data/2.4.8-2.4.9/diff.md --exclude *.pyd
+[2023-04-17 10:11:39] INFO root fetch - main [MainThread]: End processing [steam-pysigma]: success
+[2023-04-17 10:11:39] INFO root fetch - main [MainThread]: End processing [EMPOL-GUI]: success
+[2023-04-17 10:11:40] INFO root fetch - main [MainThread]: End processing [dials-data]: success
+[2023-04-17 10:11:48] INFO root fetch - main [MainThread]: End processing [NikeCA]: success
+[2023-04-17 10:11:48] INFO root fetch - main [MainThread]: Store serial: [17735284]
