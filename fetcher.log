@@ -22442,3 +22442,94 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-17 22:42:11] INFO root fetch - main [MainThread]: End processing [google-fhir-r4]: success
 [2023-04-17 22:42:14] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
 [2023-04-17 22:42:14] INFO root fetch - main [MainThread]: Store serial: [17744215]
+[2023-04-17 22:47:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17744215]
+[2023-04-17 22:47:23] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-17 22:47:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iron-toolbox
+[2023-04-17 22:47:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oecd-toolbox
+[2023-04-17 22:47:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: returnn
+[2023-04-17 22:47:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mymlcustomtools
+[2023-04-17 22:47:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyTEMlib
+[2023-04-17 22:47:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: oak9-tython
+[2023-04-17 22:47:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ansar-encode
+[2023-04-17 22:47:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: google-cloud-retail
+[2023-04-17 22:47:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Termighty
+[2023-04-17 22:47:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dbt-coves
+[2023-04-17 22:47:23] INFO root fetch - processPackages [oecd-toolbox]: New version: [0.4.0] Old Version: [0.3.35]
+[2023-04-17 22:47:23] INFO root fetch - processPackages [ansar-encode]: New version: [0.1.63] Old Version: [0.1.61]
+[2023-04-17 22:47:23] INFO root fetch - processPackages [mymlcustomtools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 22:47:23] INFO root fetch - processPackages [pyTEMlib]: New version: [0.7.2019.9] Old Version: [0.7.2019.10]
+[2023-04-17 22:47:23] INFO root fetch - processPackages [iron-toolbox]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-17 22:47:23] INFO root fetch - processPackages [Termighty]: New version: [3.0.5] Old Version: [3.0.4]
+[2023-04-17 22:47:23] INFO root fetch - processPackages [google-cloud-retail]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-04-17 22:47:23] INFO root fetch - processPackages [oak9-tython]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-04-17 22:47:23] INFO root fetch - processPackages [returnn]: New version: [1.20230417.223227] Old Version: [1.20230417.173710]
+[2023-04-17 22:47:23] INFO root fetch - processPackages [dbt-coves]: New version: [1.4.5] Old Version: [1.4.4]
+[2023-04-17 22:47:23] INFO root fetch - processPackages [dbt-coves]: executing diffoscope
+[2023-04-17 22:47:23] INFO root fetch - processPackages [dbt-coves]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_coves-1.4.4.tar.gz tmp/dbt_coves-1.4.5.tar.gz --markdown 20230417/d/dbt-coves/1.4.4-1.4.5/diff.md --exclude *.pyd
+[2023-04-17 22:47:23] INFO root fetch - processPackages [mymlcustomtools]: Downloading https://files.pythonhosted.org/packages/5a/40/ae6e8ec65f2f427186989e3facc47ae82c47a6293a5acd864d8be9794b21/mymlcustomtools-0.0.8.tar.gz
+[2023-04-17 22:47:23] INFO root fetch - processPackages [ansar-encode]: Downloading https://files.pythonhosted.org/packages/72/ae/4150a0e88c8baa2b2a5b74fdce60feabee47b5f10670b7149508b5e53417/ansar-encode-0.1.61.tar.gz
+[2023-04-17 22:47:23] INFO root fetch - processPackages [oecd-toolbox]: Downloading https://files.pythonhosted.org/packages/74/95/8a09e61d8c9c04825f57917448c529982f05f1c2ea606462f2507b773e71/oecd_toolbox-0.4.0.tar.gz
+[2023-04-17 22:47:23] INFO root fetch - processPackages [iron-toolbox]: Downloading https://files.pythonhosted.org/packages/14/56/607715d5f0a4a64f571ffe260dbd6c986eb107b6942e4a94bd250688ae9d/iron_toolbox-1.0.8.tar.gz
+[2023-04-17 22:47:23] INFO root fetch - processPackages [pyTEMlib]: Downloading https://files.pythonhosted.org/packages/03/fa/71a0822778a4f5f80d20c922f1e7b35649755e6b7a029912d501dd167b84/pyTEMlib-0.7.2019.10.tar.gz
+[2023-04-17 22:47:23] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/94/0c/5cdb5e180a55bf5a63e20aaaf25539566510461b131eff9cec8491764efa/returnn-1.20230417.223227.tar.gz
+[2023-04-17 22:47:23] INFO root fetch - processPackages [google-cloud-retail]: Downloading https://files.pythonhosted.org/packages/61/fd/4901fa49db1833141afd8c28ef9237dff30be89bc2d7cc17fbf204dee90b/google-cloud-retail-1.8.1.tar.gz
+[2023-04-17 22:47:23] INFO root fetch - processPackages [oak9-tython]: Downloading https://files.pythonhosted.org/packages/1a/2a/2b915bcfc6e129b32630b134baecd0a0b99b9bdb57a0e732531732b2b1ce/oak9_tython-1.0.4.tar.gz
+[2023-04-17 22:47:23] INFO root fetch - processPackages [Termighty]: Downloading https://files.pythonhosted.org/packages/fe/ca/d61e3d82a26562853468905c5a26695c7690cca02cfdf292daa227c67048/Termighty-3.0.5.tar.gz
+[2023-04-17 22:47:24] INFO root fetch - processPackages [iron-toolbox]: Downloading https://files.pythonhosted.org/packages/15/c9/6ddb477d6f0ec6bef2b9ab1904ced650193c203c83b26b8b7371a39bbe01/iron_toolbox-1.0.9.tar.gz
+[2023-04-17 22:47:24] INFO root fetch - processPackages [ansar-encode]: Downloading https://files.pythonhosted.org/packages/ba/8d/10e3730824bcc023ddbab8678e5a0ff1cabd40f30dea33a9b9d6bb0e2885/ansar-encode-0.1.63.tar.gz
+[2023-04-17 22:47:24] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-04-17 22:47:24] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230417.173710.tar.gz tmp/returnn-1.20230417.223227.tar.gz --markdown 20230417/r/returnn/1.20230417.173710-1.20230417.223227/diff.md --exclude *.pyd
+[2023-04-17 22:47:24] INFO root fetch - processPackages [mymlcustomtools]: Downloading https://files.pythonhosted.org/packages/87/83/450bbd88d53475b03502a6fb68d0fb06e43e5608bca8a1aeef94269be5fd/mymlcustomtools-0.0.9.tar.gz
+[2023-04-17 22:47:24] INFO root fetch - processPackages [Termighty]: executing diffoscope
+[2023-04-17 22:47:24] INFO root fetch - processPackages [Termighty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Termighty-3.0.4.tar.gz tmp/Termighty-3.0.5.tar.gz --markdown 20230417/T/Termighty/3.0.4-3.0.5/diff.md --exclude *.pyd
+[2023-04-17 22:47:24] INFO root fetch - processPackages [oecd-toolbox]: executing diffoscope
+[2023-04-17 22:47:24] INFO root fetch - processPackages [oecd-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oecd_toolbox-0.3.35.tar.gz tmp/oecd_toolbox-0.4.0.tar.gz --markdown 20230417/o/oecd-toolbox/0.3.35-0.4.0/diff.md --exclude *.pyd
+[2023-04-17 22:47:24] INFO root fetch - processPackages [iron-toolbox]: executing diffoscope
+[2023-04-17 22:47:24] INFO root fetch - processPackages [iron-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iron_toolbox-1.0.8.tar.gz tmp/iron_toolbox-1.0.9.tar.gz --markdown 20230417/i/iron-toolbox/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-17 22:47:24] INFO root fetch - processPackages [oak9-tython]: executing diffoscope
+[2023-04-17 22:47:24] INFO root fetch - processPackages [oak9-tython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oak9_tython-1.0.3.tar.gz tmp/oak9_tython-1.0.4.tar.gz --markdown 20230417/o/oak9-tython/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-04-17 22:47:24] INFO root fetch - processPackages [google-cloud-retail]: Downloading https://files.pythonhosted.org/packages/d9/f2/6965463bb30d193b79fe52fc079c7b37c87c4e6e0254772543f812ad2fac/google-cloud-retail-1.9.0.tar.gz
+[2023-04-17 22:47:24] INFO root fetch - processPackages [ansar-encode]: executing diffoscope
+[2023-04-17 22:47:24] INFO root fetch - processPackages [ansar-encode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansar-encode-0.1.61.tar.gz tmp/ansar-encode-0.1.63.tar.gz --markdown 20230417/a/ansar-encode/0.1.61-0.1.63/diff.md --exclude *.pyd
+[2023-04-17 22:47:24] INFO root fetch - processPackages [mymlcustomtools]: executing diffoscope
+[2023-04-17 22:47:24] INFO root fetch - processPackages [mymlcustomtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mymlcustomtools-0.0.8.tar.gz tmp/mymlcustomtools-0.0.9.tar.gz --markdown 20230417/m/mymlcustomtools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 22:47:24] INFO root fetch - processPackages [google-cloud-retail]: executing diffoscope
+[2023-04-17 22:47:24] INFO root fetch - processPackages [google-cloud-retail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-retail-1.8.1.tar.gz tmp/google-cloud-retail-1.9.0.tar.gz --markdown 20230417/g/google-cloud-retail/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-04-17 22:47:24] INFO root fetch - processPackages [pyTEMlib]: Downloading https://files.pythonhosted.org/packages/98/8d/70e15c910994ead5ef8303f1c9c8c95965c1ef8225969687d3a4b4c141bf/pyTEMlib-0.7.2019.9.tar.gz
+[2023-04-17 22:47:25] INFO root fetch - processPackages [pyTEMlib]: executing diffoscope
+[2023-04-17 22:47:25] INFO root fetch - processPackages [pyTEMlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyTEMlib-0.7.2019.10.tar.gz tmp/pyTEMlib-0.7.2019.9.tar.gz --markdown 20230417/p/pyTEMlib/0.7.2019.10-0.7.2019.9/diff.md --exclude *.pyd
+[2023-04-17 22:47:25] INFO root fetch - processPackages [dbt-coves]: Start processing: arabica
+[2023-04-17 22:47:25] INFO root fetch - main [MainThread]: End processing [dbt-coves]: success
+[2023-04-17 22:47:25] INFO root fetch - processPackages [arabica]: New version: [1.4.4] Old Version: [1.4.3]
+[2023-04-17 22:47:25] INFO root fetch - processPackages [oecd-toolbox]: Start processing: graphscope
+[2023-04-17 22:47:25] INFO root fetch - main [MainThread]: End processing [oecd-toolbox]: success
+[2023-04-17 22:47:25] INFO root fetch - processPackages [arabica]: Downloading https://files.pythonhosted.org/packages/9f/b6/842d7ce4f80de1313046edeeb1638c6ccb29b788627a2d0289f98a41a801/arabica-1.4.4.tar.gz
+[2023-04-17 22:47:25] INFO root fetch - processPackages [graphscope]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-17 22:47:25] INFO root fetch - processPackages [iron-toolbox]: Start processing: uinspect
+[2023-04-17 22:47:25] INFO root fetch - main [MainThread]: End processing [iron-toolbox]: success
+[2023-04-17 22:47:25] INFO root fetch - processPackages [graphscope]: executing diffoscope
+[2023-04-17 22:47:25] INFO root fetch - processPackages [graphscope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphscope-0.9.0-py2.py3-none-macosx_10_9_x86_64.whl.zip tmp/graphscope-0.9.1-py2.py3-none-macosx_11_0_arm64.whl.zip --markdown 20230417/g/graphscope/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-17 22:47:25] INFO root fetch - processPackages [mymlcustomtools]: Start processing: python-datamodel
+[2023-04-17 22:47:25] INFO root fetch - main [MainThread]: End processing [mymlcustomtools]: success
+[2023-04-17 22:47:25] INFO root fetch - processPackages [python-datamodel]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-04-17 22:47:25] INFO root fetch - processPackages [arabica]: executing diffoscope
+[2023-04-17 22:47:25] INFO root fetch - processPackages [arabica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arabica-1.4.3.tar.gz tmp/arabica-1.4.4.tar.gz --markdown 20230417/a/arabica/1.4.3-1.4.4/diff.md --exclude *.pyd
+[2023-04-17 22:47:25] INFO root fetch - processPackages [uinspect]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-17 22:47:26] INFO root fetch - processPackages [python-datamodel]: Downloading https://files.pythonhosted.org/packages/bc/0a/695117dd824dbec50abc232d5c5523da8b545f150e5e9503327387b7a3d3/python_datamodel-0.3.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-17 22:47:26] INFO root fetch - processPackages [uinspect]: Downloading https://files.pythonhosted.org/packages/64/e4/8e1c6a48b6d61426ceb45ad2bcdbe4f32de09cb3365e4207a52fd8e64f8f/uinspect-0.0.4-cp39-cp39-win_amd64.whl
+[2023-04-17 22:47:26] INFO root fetch - main [MainThread]: End processing [ansar-encode]: success
+[2023-04-17 22:47:26] INFO root fetch - main [MainThread]: End processing [Termighty]: success
+[2023-04-17 22:47:26] INFO root fetch - processPackages [uinspect]: Downloading https://files.pythonhosted.org/packages/a3/36/7f7b81a058e4fed3ce62632d2547408de8890a2c26a166a5519f30bda1e2/uinspect-0.0.5-cp311-cp311-win_amd64.whl
+[2023-04-17 22:47:26] INFO root fetch - processPackages [uinspect]: executing diffoscope
+[2023-04-17 22:47:26] INFO root fetch - processPackages [uinspect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uinspect-0.0.4-cp39-cp39-win_amd64.whl.zip tmp/uinspect-0.0.5-cp311-cp311-win_amd64.whl.zip --markdown 20230417/u/uinspect/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-17 22:47:26] INFO root fetch - main [MainThread]: End processing [pyTEMlib]: success
+[2023-04-17 22:47:26] INFO root fetch - processPackages [python-datamodel]: executing diffoscope
+[2023-04-17 22:47:26] INFO root fetch - processPackages [python-datamodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_datamodel-0.3.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/python_datamodel-0.3.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230417/p/python-datamodel/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-04-17 22:47:26] INFO root fetch - main [MainThread]: End processing [graphscope]: success
+[2023-04-17 22:47:27] INFO root fetch - main [MainThread]: End processing [arabica]: success
+[2023-04-17 22:47:27] INFO root fetch - main [MainThread]: End processing [uinspect]: success
+[2023-04-17 22:47:31] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-04-17 22:47:32] INFO root fetch - main [MainThread]: End processing [google-cloud-retail]: success
+[2023-04-17 22:47:35] INFO root fetch - main [MainThread]: End processing [python-datamodel]: success
+[2023-04-17 22:47:37] INFO root fetch - main [MainThread]: End processing [oak9-tython]: success
+[2023-04-17 22:47:37] INFO root fetch - main [MainThread]: Store serial: [17744278]
