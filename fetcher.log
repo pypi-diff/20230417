@@ -7521,3 +7521,65 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 09:50:05] INFO root fetch - main [MainThread]: End processing [stockpy-learn]: success
 [2023-04-17 09:50:12] INFO root fetch - main [MainThread]: End processing [je-assert-lib-dev]: success
 [2023-04-17 09:50:12] INFO root fetch - main [MainThread]: Store serial: [17735060]
+[2023-04-17 09:55:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17735060]
+[2023-04-17 09:55:21] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-17 09:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chatgpt-pre-commit-hooks
+[2023-04-17 09:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: EMPOL-GUI
+[2023-04-17 09:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: robotathome
+[2023-04-17 09:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tmu
+[2023-04-17 09:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: coinlib
+[2023-04-17 09:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: audiostack
+[2023-04-17 09:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: docx-word-instance-generator
+[2023-04-17 09:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flarespy
+[2023-04-17 09:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: flaxsr
+[2023-04-17 09:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ansible-aisnippet
+[2023-04-17 09:55:21] INFO root fetch - processPackages [EMPOL-GUI]: New version: [2.1.0] Old Version: [1.2.0]
+[2023-04-17 09:55:21] INFO root fetch - processPackages [robotathome]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-04-17 09:55:21] INFO root fetch - processPackages [flarespy]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-04-17 09:55:21] WARNING root fetch - processPackages [docx-word-instance-generator]: Skipping, unable to determine old version
+[2023-04-17 09:55:21] INFO root fetch - processPackages [docx-word-instance-generator]: Start processing: treemirror
+[2023-04-17 09:55:21] INFO root fetch - processPackages [coinlib]: New version: [2.2.2] Old Version: [2.2.1]
+[2023-04-17 09:55:21] INFO root fetch - main [MainThread]: End processing [docx-word-instance-generator] error
+[2023-04-17 09:55:21] WARNING root fetch - processPackages [ansible-aisnippet]: Skipping, unable to determine old version
+[2023-04-17 09:55:21] INFO root fetch - main [MainThread]: End processing [ansible-aisnippet] error
+[2023-04-17 09:55:21] INFO root fetch - processPackages [flaxsr]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-17 09:55:21] WARNING root fetch - processPackages [chatgpt-pre-commit-hooks]: Skipping, unable to determine old version
+[2023-04-17 09:55:21] INFO root fetch - main [MainThread]: End processing [chatgpt-pre-commit-hooks] error
+[2023-04-17 09:55:21] INFO root fetch - processPackages [tmu]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-04-17 09:55:21] INFO root fetch - processPackages [audiostack]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-17 09:55:21] WARNING root fetch - processPackages [treemirror]: Skipping, unable to determine old version
+[2023-04-17 09:55:21] INFO root fetch - main [MainThread]: End processing [treemirror] error
+[2023-04-17 09:55:21] INFO root fetch - processPackages [robotathome]: Downloading https://files.pythonhosted.org/packages/8a/ce/390d833cc2cb97c08b154b44450de42ec0f2c21128fde6be0b9c4c345098/robotathome-1.1.2.tar.gz
+[2023-04-17 09:55:21] INFO root fetch - processPackages [flarespy]: Downloading https://files.pythonhosted.org/packages/b3/85/54c3b9b84da4643c0832a4905d27df4403c6c02d1f9f28c26c66272b64ec/flarespy-0.6.2.tar.gz
+[2023-04-17 09:55:21] INFO root fetch - processPackages [EMPOL-GUI]: Downloading https://files.pythonhosted.org/packages/17/71/fb7e9ac6023070a44b5e6f05c6d8f6d436ed89ec0ff868dd7157ca059b3c/EMPOL_GUI-2.1.0.tar.gz
+[2023-04-17 09:55:21] INFO root fetch - processPackages [coinlib]: Downloading https://files.pythonhosted.org/packages/7b/b1/f6e99cbd5615129891d2aa9530cb6a915845680039ce11b2306a778ca986/coinlib-2.2.1.tar.gz
+[2023-04-17 09:55:21] INFO root fetch - processPackages [audiostack]: Downloading https://files.pythonhosted.org/packages/e0/f6/1f87e0bda87e9f3a32bbc638237291e79f4c6b6d2be3414ebabc835e7ba3/audiostack-0.0.4.tar.gz
+[2023-04-17 09:55:21] INFO root fetch - processPackages [EMPOL-GUI]: executing diffoscope
+[2023-04-17 09:55:21] INFO root fetch - processPackages [EMPOL-GUI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EMPOL_GUI-1.2.0.tar.gz tmp/EMPOL_GUI-2.1.0.tar.gz --markdown 20230417/E/EMPOL-GUI/1.2.0-2.1.0/diff.md --exclude *.pyd
+[2023-04-17 09:55:21] INFO root fetch - processPackages [flaxsr]: Downloading https://files.pythonhosted.org/packages/cc/b7/3f8fa33f3d2990e212bd6d0bbe5ed755d39ab86565d2cfaf316729ad88e2/flaxsr-0.0.1-py3-none-any.whl
+[2023-04-17 09:55:22] INFO root fetch - processPackages [flarespy]: Downloading https://files.pythonhosted.org/packages/75/31/9984b238d2dca0ef348286131023929ce0b5625c2b95f605fa377e0cf609/flarespy-0.6.3.tar.gz
+[2023-04-17 09:55:22] INFO root fetch - processPackages [tmu]: Downloading https://files.pythonhosted.org/packages/cd/c8/f59164900cd60fdb1fffb4c5b038f6923df86bfaaae45f5d5521616ac263/tmu-0.8.1-pp39-pypy39_pp73-win_amd64.whl
+[2023-04-17 09:55:22] INFO root fetch - processPackages [tmu]: executing diffoscope
+[2023-04-17 09:55:22] INFO root fetch - processPackages [tmu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmu-0.8.0-pp39-pypy39_pp73-win_amd64.whl.zip tmp/tmu-0.8.1-pp39-pypy39_pp73-win_amd64.whl.zip --markdown 20230417/t/tmu/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-04-17 09:55:22] INFO root fetch - processPackages [flarespy]: executing diffoscope
+[2023-04-17 09:55:22] INFO root fetch - processPackages [flarespy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flarespy-0.6.2.tar.gz tmp/flarespy-0.6.3.tar.gz --markdown 20230417/f/flarespy/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-04-17 09:55:22] INFO root fetch - processPackages [flaxsr]: Downloading https://files.pythonhosted.org/packages/b8/81/072daf042e7fd78bfb96a4a835d7e2a751d066717301f90f24cefa6d1bf6/flaxsr-0.0.2-py3-none-any.whl
+[2023-04-17 09:55:22] INFO root fetch - processPackages [audiostack]: Downloading https://files.pythonhosted.org/packages/1f/42/2331e2556ca929a2ed1458d124fe1e55932b1f6a5e8db3f4260fce84c9a4/audiostack-0.0.5.tar.gz
+[2023-04-17 09:55:22] INFO root fetch - processPackages [coinlib]: Downloading https://files.pythonhosted.org/packages/23/b2/c2203ee70803d4ca01c6c221225b15046ed83e63530e2d1efbed579c3332/coinlib-2.2.2.tar.gz
+[2023-04-17 09:55:22] INFO root fetch - processPackages [robotathome]: Downloading https://files.pythonhosted.org/packages/9b/64/36e30db7912a6ae9574383f957248ee90fc7d683ec63d17dc86bd7505ffc/robotathome-1.1.3.tar.gz
+[2023-04-17 09:55:22] INFO root fetch - processPackages [flaxsr]: executing diffoscope
+[2023-04-17 09:55:22] INFO root fetch - processPackages [flaxsr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flaxsr-0.0.1-py3-none-any.whl.zip tmp/flaxsr-0.0.2-py3-none-any.whl.zip --markdown 20230417/f/flaxsr/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-17 09:55:22] INFO root fetch - processPackages [audiostack]: executing diffoscope
+[2023-04-17 09:55:22] INFO root fetch - processPackages [audiostack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audiostack-0.0.4.tar.gz tmp/audiostack-0.0.5.tar.gz --markdown 20230417/a/audiostack/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-17 09:55:22] INFO root fetch - processPackages [coinlib]: executing diffoscope
+[2023-04-17 09:55:22] INFO root fetch - processPackages [coinlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coinlib-2.2.1.tar.gz tmp/coinlib-2.2.2.tar.gz --markdown 20230417/c/coinlib/2.2.1-2.2.2/diff.md --exclude *.pyd
+[2023-04-17 09:55:22] INFO root fetch - processPackages [robotathome]: executing diffoscope
+[2023-04-17 09:55:22] INFO root fetch - processPackages [robotathome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotathome-1.1.2.tar.gz tmp/robotathome-1.1.3.tar.gz --markdown 20230417/r/robotathome/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-04-17 09:55:23] INFO root fetch - main [MainThread]: End processing [EMPOL-GUI]: success
+[2023-04-17 09:55:23] INFO root fetch - main [MainThread]: End processing [flarespy]: success
+[2023-04-17 09:55:23] INFO root fetch - main [MainThread]: End processing [tmu]: success
+[2023-04-17 09:55:23] INFO root fetch - main [MainThread]: End processing [flaxsr]: success
+[2023-04-17 09:55:23] INFO root fetch - main [MainThread]: End processing [audiostack]: success
+[2023-04-17 09:55:23] INFO root fetch - main [MainThread]: End processing [robotathome]: success
+[2023-04-17 09:55:24] INFO root fetch - main [MainThread]: End processing [coinlib]: success
+[2023-04-17 09:55:24] INFO root fetch - main [MainThread]: Store serial: [17735156]
