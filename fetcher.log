@@ -17859,3 +17859,101 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 18:22:48] INFO root fetch - main [MainThread]: End processing [scons-parts]: success
 [2023-04-17 18:22:48] INFO root fetch - main [MainThread]: End processing [nerfstudio]: success
 [2023-04-17 18:22:48] INFO root fetch - main [MainThread]: Store serial: [17741235]
+[2023-04-17 18:27:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17741235]
+[2023-04-17 18:27:59] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-04-17 18:27:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: snaptrade-python-sdk
+[2023-04-17 18:27:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: simplebox
+[2023-04-17 18:27:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: home-assistant-intents
+[2023-04-17 18:27:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pymediawikidocker
+[2023-04-17 18:27:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: feathub-nightly
+[2023-04-17 18:27:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pypdu
+[2023-04-17 18:27:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: agnmol
+[2023-04-17 18:27:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Salvador-info
+[2023-04-17 18:27:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: djangocms-blog-agenda
+[2023-04-17 18:27:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: openai-shell-craft
+[2023-04-17 18:27:59] INFO root fetch - processPackages [feathub-nightly]: New version: [0.1.dev20230416] Old Version: [0.1.dev20230415]
+[2023-04-17 18:27:59] INFO root fetch - processPackages [agnmol]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-17 18:27:59] INFO root fetch - processPackages [djangocms-blog-agenda]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-17 18:27:59] INFO root fetch - processPackages [pymediawikidocker]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-17 18:27:59] INFO root fetch - processPackages [pypdu]: New version: [0.1.6a8] Old Version: [0.1.6a5]
+[2023-04-17 18:27:59] INFO root fetch - processPackages [snaptrade-python-sdk]: New version: [9.0.0] Old Version: [8.4.0]
+[2023-04-17 18:27:59] INFO root fetch - processPackages [agnmol]: executing diffoscope
+[2023-04-17 18:27:59] INFO root fetch - processPackages [agnmol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agnmol-1.0.1.tar.gz tmp/agnmol-1.0.2.tar.gz --markdown 20230417/a/agnmol/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-17 18:27:59] WARNING root fetch - processPackages [simplebox]: Skipping, unable to determine old version
+[2023-04-17 18:27:59] INFO root fetch - processPackages [simplebox]: Start processing: chem-templates
+[2023-04-17 18:27:59] INFO root fetch - main [MainThread]: End processing [simplebox] error
+[2023-04-17 18:27:59] WARNING root fetch - processPackages [Salvador-info]: Skipping, unable to determine old version
+[2023-04-17 18:27:59] INFO root fetch - processPackages [home-assistant-intents]: New version: [2023.4.17] Old Version: [2023.3.29]
+[2023-04-17 18:27:59] INFO root fetch - processPackages [Salvador-info]: Start processing: impsparc
+[2023-04-17 18:27:59] INFO root fetch - main [MainThread]: End processing [Salvador-info] error
+[2023-04-17 18:27:59] INFO root fetch - processPackages [openai-shell-craft]: New version: [0.5.4] Old Version: [0.4.0]
+[2023-04-17 18:27:59] INFO root fetch - processPackages [pymediawikidocker]: executing diffoscope
+[2023-04-17 18:27:59] INFO root fetch - processPackages [pymediawikidocker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymediawikidocker-0.9.8.tar.gz tmp/pymediawikidocker-0.9.9.tar.gz --markdown 20230417/p/pymediawikidocker/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-17 18:27:59] INFO root fetch - processPackages [pypdu]: executing diffoscope
+[2023-04-17 18:27:59] INFO root fetch - processPackages [pypdu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypdu-0.1.6a5.tar.gz tmp/pypdu-0.1.6a8.tar.gz --markdown 20230417/p/pypdu/0.1.6a5-0.1.6a8/diff.md --exclude *.pyd
+[2023-04-17 18:27:59] INFO root fetch - processPackages [djangocms-blog-agenda]: Downloading https://files.pythonhosted.org/packages/9c/82/17c1e942c696c5314d152bb3c9b47260c5a0c67081512bb8f03f7be01c66/djangocms-blog-agenda-0.3.1.tar.gz
+[2023-04-17 18:27:59] INFO root fetch - processPackages [impsparc]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-04-17 18:27:59] INFO root fetch - processPackages [feathub-nightly]: Downloading https://files.pythonhosted.org/packages/a5/3b/2f09bba639453e505b38e1611b8e342d4ae208077f717228cf26655c45eb/feathub_nightly-0.1.dev20230416-py3-none-any.whl
+[2023-04-17 18:27:59] INFO root fetch - processPackages [openai-shell-craft]: Downloading https://files.pythonhosted.org/packages/95/b7/3802f834d6cf6b28b6fe8d5e08bb117970dde4a48d5722beffbd588a7e5e/openai_shell_craft-0.4.0.tar.gz
+[2023-04-17 18:27:59] INFO root fetch - processPackages [home-assistant-intents]: Downloading https://files.pythonhosted.org/packages/39/ee/bc0041acee4b8f09b7b402b0ea9e9f1058124050fc96095198c2d63abca4/home-assistant-intents-2023.3.29.tar.gz
+[2023-04-17 18:27:59] INFO root fetch - processPackages [chem-templates]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-17 18:27:59] INFO root fetch - processPackages [djangocms-blog-agenda]: executing diffoscope
+[2023-04-17 18:27:59] INFO root fetch - processPackages [djangocms-blog-agenda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangocms-blog-agenda-0.3.0.tar.gz tmp/djangocms-blog-agenda-0.3.1.tar.gz --markdown 20230417/d/djangocms-blog-agenda/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-17 18:27:59] INFO root fetch - processPackages [feathub-nightly]: executing diffoscope
+[2023-04-17 18:27:59] INFO root fetch - processPackages [feathub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feathub_nightly-0.1.dev20230415-py3-none-any.whl.zip tmp/feathub_nightly-0.1.dev20230416-py3-none-any.whl.zip --markdown 20230417/f/feathub-nightly/0.1.dev20230415-0.1.dev20230416/diff.md --exclude *.pyd
+[2023-04-17 18:27:59] INFO root fetch - processPackages [impsparc]: Downloading https://files.pythonhosted.org/packages/03/1f/95ed236d1fe873d2d1aa1aaf8a635e61a3ce114554ef9bf06f5558535f1e/impsparc-2.0.1.tar.gz
+[2023-04-17 18:27:59] INFO root fetch - processPackages [snaptrade-python-sdk]: executing diffoscope
+[2023-04-17 18:27:59] INFO root fetch - processPackages [snaptrade-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snaptrade-python-sdk-8.4.0.tar.gz tmp/snaptrade-python-sdk-9.0.0.tar.gz --markdown 20230417/s/snaptrade-python-sdk/8.4.0-9.0.0/diff.md --exclude *.pyd
+[2023-04-17 18:27:59] INFO root fetch - processPackages [openai-shell-craft]: Downloading https://files.pythonhosted.org/packages/0f/b0/c31173dd3c87f7b40f6ec4de11ed75e63584269ad49d155e77515162dced/openai_shell_craft-0.5.4.tar.gz
+[2023-04-17 18:27:59] INFO root fetch - processPackages [home-assistant-intents]: Downloading https://files.pythonhosted.org/packages/03/b2/11b73c2ec0bcbc1f04562655fff163f087b0272bef3843df04dfc85cfdbe/home-assistant-intents-2023.4.17.tar.gz
+[2023-04-17 18:27:59] INFO root fetch - processPackages [chem-templates]: Downloading https://files.pythonhosted.org/packages/85/8f/746f9d09215ca0ff7b0d8cc670496c8beab141bb132cb29424930cf84180/chem_templates-0.0.4.tar.gz
+[2023-04-17 18:27:59] INFO root fetch - processPackages [openai-shell-craft]: executing diffoscope
+[2023-04-17 18:27:59] INFO root fetch - processPackages [openai-shell-craft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_shell_craft-0.4.0.tar.gz tmp/openai_shell_craft-0.5.4.tar.gz --markdown 20230417/o/openai-shell-craft/0.4.0-0.5.4/diff.md --exclude *.pyd
+[2023-04-17 18:27:59] INFO root fetch - processPackages [impsparc]: Downloading https://files.pythonhosted.org/packages/29/db/c9917ff9594ceb5b86e36abb7529bfd6f8aee0b28b6156177ab66c2bcfb5/impsparc-2.0.2.tar.gz
+[2023-04-17 18:27:59] INFO root fetch - processPackages [home-assistant-intents]: executing diffoscope
+[2023-04-17 18:27:59] INFO root fetch - processPackages [home-assistant-intents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/home-assistant-intents-2023.3.29.tar.gz tmp/home-assistant-intents-2023.4.17.tar.gz --markdown 20230417/h/home-assistant-intents/2023.3.29-2023.4.17/diff.md --exclude *.pyd
+[2023-04-17 18:28:00] INFO root fetch - processPackages [chem-templates]: Downloading https://files.pythonhosted.org/packages/87/68/116397e506bcc83bbaf0dc0f61228d475ba80d0e2ddc4d1c5f4837831fa4/chem_templates-0.0.5.tar.gz
+[2023-04-17 18:28:00] INFO root fetch - processPackages [chem-templates]: executing diffoscope
+[2023-04-17 18:28:00] INFO root fetch - processPackages [chem-templates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chem_templates-0.0.4.tar.gz tmp/chem_templates-0.0.5.tar.gz --markdown 20230417/c/chem-templates/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-17 18:28:00] INFO root fetch - processPackages [impsparc]: executing diffoscope
+[2023-04-17 18:28:00] INFO root fetch - processPackages [impsparc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/impsparc-2.0.1.tar.gz tmp/impsparc-2.0.2.tar.gz --markdown 20230417/i/impsparc/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-04-17 18:28:00] INFO root fetch - processPackages [agnmol]: Start processing: tsforecasting
+[2023-04-17 18:28:00] INFO root fetch - main [MainThread]: End processing [agnmol]: success
+[2023-04-17 18:28:00] INFO root fetch - processPackages [tsforecasting]: New version: [1.2.60] Old Version: [1.2.55]
+[2023-04-17 18:28:00] INFO root fetch - processPackages [tsforecasting]: Downloading https://files.pythonhosted.org/packages/6b/e0/476d2a18669aa1746e614a15cb35129996439b9b83c3b65396bcce8234f9/tsforecasting-1.2.55-py3-none-any.whl
+[2023-04-17 18:28:00] INFO root fetch - processPackages [tsforecasting]: Downloading https://files.pythonhosted.org/packages/a2/8e/9984ffde7b488898e527e74d36cb886e8dfef36756efd8fb3e0046e9ef4c/tsforecasting-1.2.60-py3-none-any.whl
+[2023-04-17 18:28:01] INFO root fetch - processPackages [djangocms-blog-agenda]: Start processing: ipfskvs
+[2023-04-17 18:28:01] INFO root fetch - main [MainThread]: End processing [djangocms-blog-agenda]: success
+[2023-04-17 18:28:01] INFO root fetch - processPackages [ipfskvs]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-17 18:28:01] INFO root fetch - processPackages [tsforecasting]: executing diffoscope
+[2023-04-17 18:28:01] INFO root fetch - processPackages [tsforecasting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsforecasting-1.2.55-py3-none-any.whl.zip tmp/tsforecasting-1.2.60-py3-none-any.whl.zip --markdown 20230417/t/tsforecasting/1.2.55-1.2.60/diff.md --exclude *.pyd
+[2023-04-17 18:28:01] INFO root fetch - processPackages [ipfskvs]: Downloading https://files.pythonhosted.org/packages/13/33/a608c2c3aa90d71c05bc4a7e207bade00494cac1c2267e6f210bdbd87470/ipfskvs-0.0.5.tar.gz
+[2023-04-17 18:28:01] INFO root fetch - processPackages [ipfskvs]: executing diffoscope
+[2023-04-17 18:28:01] INFO root fetch - processPackages [ipfskvs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipfskvs-0.0.4.tar.gz tmp/ipfskvs-0.0.5.tar.gz --markdown 20230417/i/ipfskvs/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-17 18:28:01] INFO root fetch - processPackages [chem-templates]: Start processing: polars-u64-idx
+[2023-04-17 18:28:01] INFO root fetch - main [MainThread]: End processing [chem-templates]: success
+[2023-04-17 18:28:01] INFO root fetch - processPackages [polars-u64-idx]: New version: [0.17.4] Old Version: [0.17.3]
+[2023-04-17 18:28:01] INFO root fetch - processPackages [openai-shell-craft]: Start processing: phenospy
+[2023-04-17 18:28:01] INFO root fetch - main [MainThread]: End processing [openai-shell-craft]: success
+[2023-04-17 18:28:01] INFO root fetch - processPackages [polars-u64-idx]: executing diffoscope
+[2023-04-17 18:28:01] INFO root fetch - processPackages [polars-u64-idx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars_u64_idx-0.17.3.tar.gz tmp/polars_u64_idx-0.17.4.tar.gz --markdown 20230417/p/polars-u64-idx/0.17.3-0.17.4/diff.md --exclude *.pyd
+[2023-04-17 18:28:01] INFO root fetch - processPackages [phenospy]: New version: [0.13] Old Version: [0.12]
+[2023-04-17 18:28:02] INFO root fetch - processPackages [phenospy]: executing diffoscope
+[2023-04-17 18:28:02] INFO root fetch - processPackages [phenospy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phenospy-0.12.tar.gz tmp/phenospy-0.13.tar.gz --markdown 20230417/p/phenospy/0.12-0.13/diff.md --exclude *.pyd
+[2023-04-17 18:28:02] INFO root fetch - processPackages [pymediawikidocker]: Start processing: ipyautoui
+[2023-04-17 18:28:02] INFO root fetch - main [MainThread]: End processing [pymediawikidocker]: success
+[2023-04-17 18:28:02] INFO root fetch - processPackages [ipyautoui]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-04-17 18:28:02] INFO root fetch - main [MainThread]: End processing [impsparc]: success
+[2023-04-17 18:28:02] INFO root fetch - main [MainThread]: End processing [tsforecasting]: success
+[2023-04-17 18:28:02] INFO root fetch - main [MainThread]: End processing [ipfskvs]: success
+[2023-04-17 18:28:02] INFO root fetch - processPackages [ipyautoui]: Downloading https://files.pythonhosted.org/packages/95/b1/83d0127367594eb1dec39a8522ad1424a5e6162d15c0e91a8bfabfc3af19/ipyautoui-0.5.1.tar.gz
+[2023-04-17 18:28:03] INFO root fetch - processPackages [ipyautoui]: executing diffoscope
+[2023-04-17 18:28:03] INFO root fetch - processPackages [ipyautoui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipyautoui-0.5.0.tar.gz tmp/ipyautoui-0.5.1.tar.gz --markdown 20230417/i/ipyautoui/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-04-17 18:28:03] INFO root fetch - main [MainThread]: End processing [feathub-nightly]: success
+[2023-04-17 18:28:03] INFO root fetch - main [MainThread]: End processing [pypdu]: success
+[2023-04-17 18:28:03] INFO root fetch - main [MainThread]: End processing [phenospy]: success
+[2023-04-17 18:28:04] INFO root fetch - main [MainThread]: End processing [ipyautoui]: success
+[2023-04-17 18:28:04] INFO root fetch - main [MainThread]: End processing [home-assistant-intents]: success
+[2023-04-17 18:28:05] INFO root fetch - main [MainThread]: End processing [snaptrade-python-sdk]: success
+[2023-04-17 18:28:20] INFO root fetch - main [MainThread]: End processing [polars-u64-idx]: success
+[2023-04-17 18:28:20] INFO root fetch - main [MainThread]: Store serial: [17741316]
