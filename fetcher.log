@@ -3679,3 +3679,43 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 03:55:45] INFO root fetch - processPackages [gmanka-yml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmanka_yml-22.0.5.tar.gz tmp/gmanka_yml-23.0.0.tar.gz --markdown 20230417/g/gmanka-yml/22.0.5-23.0.0/diff.md --exclude *.pyd
 [2023-04-17 03:55:46] INFO root fetch - main [MainThread]: End processing [gmanka-yml]: success
 [2023-04-17 03:55:46] INFO root fetch - main [MainThread]: Store serial: [17732735]
+[2023-04-17 04:00:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17732735]
+[2023-04-17 04:00:54] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-17 04:00:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TCFile
+[2023-04-17 04:00:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: papers-cli
+[2023-04-17 04:00:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: RiskQuantLib
+[2023-04-17 04:00:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pipeline-optimizer
+[2023-04-17 04:00:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PrettyGit
+[2023-04-17 04:00:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spiderYa
+[2023-04-17 04:00:54] INFO root fetch - processPackages [TCFile]: New version: [2023.4.1] Old Version: [2023.4]
+[2023-04-17 04:00:54] INFO root fetch - processPackages [pipeline-optimizer]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-17 04:00:54] INFO root fetch - processPackages [PrettyGit]: New version: [23.0.1] Old Version: [22.1.4]
+[2023-04-17 04:00:54] INFO root fetch - processPackages [papers-cli]: New version: [v1.0.1] Old Version: [v1.0]
+[2023-04-17 04:00:54] INFO root fetch - processPackages [spiderYa]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 04:00:54] INFO root fetch - processPackages [RiskQuantLib]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-17 04:00:54] INFO root fetch - processPackages [spiderYa]: executing diffoscope
+[2023-04-17 04:00:54] INFO root fetch - processPackages [spiderYa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spiderYa-0.0.8.tar.gz tmp/spiderYa-0.0.9.tar.gz --markdown 20230417/s/spiderYa/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 04:00:55] INFO root fetch - processPackages [PrettyGit]: Downloading https://files.pythonhosted.org/packages/33/b8/bcb085cf5bb312e414e276c00c74b28f1b3fae4bc01c0a8ecd70a148c7bf/prettygit-22.1.4.tar.gz
+[2023-04-17 04:00:55] INFO root fetch - processPackages [pipeline-optimizer]: Downloading https://files.pythonhosted.org/packages/10/0a/9f465ef5b8c020816eadbfdf7a1da03f4efcbac55865a2d2683e2d0688d5/pipeline_optimizer-0.1.2.tar.gz
+[2023-04-17 04:00:55] INFO root fetch - processPackages [papers-cli]: Downloading https://files.pythonhosted.org/packages/de/7f/2e1e3586e194ac6e0e30547180ab4af7520a619852881fd2f7e99823bb56/papers-cli-v1.0.tar.gz
+[2023-04-17 04:00:55] INFO root fetch - processPackages [TCFile]: Downloading https://files.pythonhosted.org/packages/25/02/92dfa15a7d7cc4521b8a9b04bdcd271e73595008025f5bee5bc610cd28fa/TCFile-2023.4.1.tar.gz
+[2023-04-17 04:00:55] INFO root fetch - processPackages [pipeline-optimizer]: executing diffoscope
+[2023-04-17 04:00:55] INFO root fetch - processPackages [pipeline-optimizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipeline_optimizer-0.1.1.tar.gz tmp/pipeline_optimizer-0.1.2.tar.gz --markdown 20230417/p/pipeline-optimizer/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-17 04:00:55] INFO root fetch - processPackages [RiskQuantLib]: Downloading https://files.pythonhosted.org/packages/e9/53/45d0d7d697f3ceac2f135047f48db07f7c0ce45b9fc7f85c52fe7b56adf8/RiskQuantLib-0.2.9.tar.gz
+[2023-04-17 04:00:55] INFO root fetch - processPackages [TCFile]: executing diffoscope
+[2023-04-17 04:00:55] INFO root fetch - processPackages [TCFile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TCFile-2023.4.tar.gz tmp/TCFile-2023.4.1.tar.gz --markdown 20230417/T/TCFile/2023.4-2023.4.1/diff.md --exclude *.pyd
+[2023-04-17 04:00:55] INFO root fetch - processPackages [RiskQuantLib]: executing diffoscope
+[2023-04-17 04:00:55] INFO root fetch - processPackages [RiskQuantLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RiskQuantLib-0.2.8.tar.gz tmp/RiskQuantLib-0.2.9.tar.gz --markdown 20230417/R/RiskQuantLib/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-17 04:00:55] INFO root fetch - processPackages [PrettyGit]: Downloading https://files.pythonhosted.org/packages/18/98/557ce72d0dbe33e09a26280318f77900ba8e8246c4acc4d0e5d7daa80f76/prettygit-23.0.1.tar.gz
+[2023-04-17 04:00:55] INFO root fetch - processPackages [PrettyGit]: executing diffoscope
+[2023-04-17 04:00:55] INFO root fetch - processPackages [PrettyGit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prettygit-22.1.4.tar.gz tmp/prettygit-23.0.1.tar.gz --markdown 20230417/P/PrettyGit/22.1.4-23.0.1/diff.md --exclude *.pyd
+[2023-04-17 04:00:55] INFO root fetch - processPackages [papers-cli]: Downloading https://files.pythonhosted.org/packages/a4/64/cb766aca55f425bee1423f739e335f03967d664d3153cb81df94526c1d29/papers-cli-v1.0.1.tar.gz
+[2023-04-17 04:00:55] INFO root fetch - processPackages [papers-cli]: executing diffoscope
+[2023-04-17 04:00:55] INFO root fetch - processPackages [papers-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/papers-cli-v1.0.tar.gz tmp/papers-cli-v1.0.1.tar.gz --markdown 20230417/p/papers-cli/v1.0-v1.0.1/diff.md --exclude *.pyd
+[2023-04-17 04:00:56] INFO root fetch - main [MainThread]: End processing [pipeline-optimizer]: success
+[2023-04-17 04:00:56] INFO root fetch - main [MainThread]: End processing [TCFile]: success
+[2023-04-17 04:00:56] INFO root fetch - main [MainThread]: End processing [PrettyGit]: success
+[2023-04-17 04:00:56] INFO root fetch - main [MainThread]: End processing [papers-cli]: success
+[2023-04-17 04:00:56] INFO root fetch - main [MainThread]: End processing [RiskQuantLib]: success
+[2023-04-17 04:00:58] INFO root fetch - main [MainThread]: End processing [spiderYa]: success
+[2023-04-17 04:00:58] INFO root fetch - main [MainThread]: Store serial: [17732753]
