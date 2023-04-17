@@ -9321,3 +9321,120 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 11:39:41] INFO root fetch - main [MainThread]: End processing [aiida-core]: success
 [2023-04-17 11:40:21] INFO root fetch - main [MainThread]: End processing [unicat]: success
 [2023-04-17 11:40:21] INFO root fetch - main [MainThread]: Store serial: [17736226]
+[2023-04-17 11:45:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17736226]
+[2023-04-17 11:45:30] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-04-17 11:45:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-wangeditor
+[2023-04-17 11:45:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: papers-cli
+[2023-04-17 11:45:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-advanced-report-builder
+[2023-04-17 11:45:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: birenperf-bireninfra
+[2023-04-17 11:45:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python-fontbro
+[2023-04-17 11:45:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pycyphal
+[2023-04-17 11:45:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sleplet
+[2023-04-17 11:45:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fast-depends
+[2023-04-17 11:45:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: compact-distillation
+[2023-04-17 11:45:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ranx
+[2023-04-17 11:45:30] INFO root fetch - processPackages [django-wangeditor]: New version: [2.0.0] Old Version: [1.0.2]
+[2023-04-17 11:45:30] WARNING root fetch - processPackages [birenperf-bireninfra]: Skipping, unable to determine old version
+[2023-04-17 11:45:30] INFO root fetch - processPackages [birenperf-bireninfra]: Start processing: huscy.participations
+[2023-04-17 11:45:30] INFO root fetch - processPackages [fast-depends]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-17 11:45:30] INFO root fetch - main [MainThread]: End processing [birenperf-bireninfra] error
+[2023-04-17 11:45:30] INFO root fetch - processPackages [compact-distillation]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 11:45:30] INFO root fetch - processPackages [papers-cli]: New version: [v1.0.1] Old Version: [v1.0]
+[2023-04-17 11:45:30] INFO root fetch - processPackages [sleplet]: New version: [1.3.6] Old Version: [1.3.5]
+[2023-04-17 11:45:30] INFO root fetch - processPackages [django-advanced-report-builder]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-17 11:45:30] INFO root fetch - processPackages [python-fontbro]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-17 11:45:30] INFO root fetch - processPackages [pycyphal]: New version: [1.9.1] Old Version: [1.9.0b2]
+[2023-04-17 11:45:30] INFO root fetch - processPackages [ranx]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-04-17 11:45:30] INFO root fetch - processPackages [huscy.participations]: New version: [0.3.0a8] Old Version: [0.3.0a7]
+[2023-04-17 11:45:31] INFO root fetch - processPackages [ranx]: Downloading https://files.pythonhosted.org/packages/dc/2a/23ef6cb30af996ee05fc9f241c963ae7f447c7f7a3e4c4a356bb4ffae626/ranx-0.3.6.tar.gz
+[2023-04-17 11:45:31] INFO root fetch - processPackages [django-advanced-report-builder]: Downloading https://files.pythonhosted.org/packages/8a/2c/d266df5b7419af3eaed97d2dd0ce150a7297fe407c34f179d195e2572bf9/django-advanced-report-builder-0.1.8.tar.gz
+[2023-04-17 11:45:31] INFO root fetch - processPackages [django-wangeditor]: Downloading https://files.pythonhosted.org/packages/8e/79/66f575e2638e5e36f388353f44cf4ceb9c36245e658b00b4a42144f92ef0/django-wangeditor-1.0.2.tar.gz
+[2023-04-17 11:45:31] INFO root fetch - processPackages [sleplet]: Downloading https://files.pythonhosted.org/packages/c7/e9/4df62972c932765fe619e79f53fcbc71617befa9056b9fb22849bc0b1cb2/sleplet-1.3.5.tar.gz
+[2023-04-17 11:45:31] INFO root fetch - processPackages [compact-distillation]: Downloading https://files.pythonhosted.org/packages/b9/da/58721146959d6a5280e724afce724d8744cdef3b8f6620ee03ad37b84c8a/compact-distillation-0.0.8.tar.gz
+[2023-04-17 11:45:31] INFO root fetch - processPackages [pycyphal]: Downloading https://files.pythonhosted.org/packages/4c/b7/d88a03826d7e039947f9bb914a58e83141a8e40a08c30166bbedd2dc154c/pycyphal-1.9.0b2.tar.gz
+[2023-04-17 11:45:31] INFO root fetch - processPackages [python-fontbro]: Downloading https://files.pythonhosted.org/packages/2b/5f/cbb80676bd50a8070a08a6ef3c5f25a3f57343c1b80c5a338bc3c47ea29c/python-fontbro-0.9.0.tar.gz
+[2023-04-17 11:45:31] INFO root fetch - processPackages [huscy.participations]: Downloading https://files.pythonhosted.org/packages/96/8c/da80e0e90d4891153025b434d82d4c381b3f35aa19cab098f6e70ecd40d2/huscy.participations-0.3.0a7.tar.gz
+[2023-04-17 11:45:31] INFO root fetch - processPackages [fast-depends]: Downloading https://files.pythonhosted.org/packages/22/87/20cafa64eb4c4351dbcf2de00d74ba144a7848762741f62124be50c8e5ae/fast_depends-1.0.2.tar.gz
+[2023-04-17 11:45:31] INFO root fetch - processPackages [papers-cli]: executing diffoscope
+[2023-04-17 11:45:31] INFO root fetch - processPackages [papers-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/papers-cli-v1.0.tar.gz tmp/papers-cli-v1.0.1.tar.gz --markdown 20230417/p/papers-cli/v1.0-v1.0.1/diff.md --exclude *.pyd
+[2023-04-17 11:45:31] INFO root fetch - processPackages [huscy.participations]: Downloading https://files.pythonhosted.org/packages/04/30/0d7c3436de54699cd136b402b97e52267fd97d2e9a42347c540a8049748b/huscy.participations-0.3.0a8.tar.gz
+[2023-04-17 11:45:31] INFO root fetch - processPackages [django-wangeditor]: Downloading https://files.pythonhosted.org/packages/c5/93/e3aae78046aa4a9bd21154fdb13a09854dd020cb8312ce38b9bad9788166/django-wangeditor-2.0.0.tar.gz
+[2023-04-17 11:45:31] INFO root fetch - processPackages [fast-depends]: executing diffoscope
+[2023-04-17 11:45:31] INFO root fetch - processPackages [fast-depends]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_depends-1.0.1.tar.gz tmp/fast_depends-1.0.2.tar.gz --markdown 20230417/f/fast-depends/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-17 11:45:31] INFO root fetch - processPackages [django-advanced-report-builder]: Downloading https://files.pythonhosted.org/packages/a2/5f/18eeae58e6612d71cb062bda45dd8842fadb172203c223a2fa675d95d399/django-advanced-report-builder-0.1.9.tar.gz
+[2023-04-17 11:45:31] INFO root fetch - processPackages [compact-distillation]: Downloading https://files.pythonhosted.org/packages/e5/85/2f7ba75e6f4d3213f9f424887a18aba46630f9d9291c67f34b798826e67c/compact-distillation-0.0.9.tar.gz
+[2023-04-17 11:45:31] INFO root fetch - processPackages [ranx]: Downloading https://files.pythonhosted.org/packages/4b/a2/aead77bdc108d38fb0e3c66d892d87f6b3b38479652a3c586795744c53b2/ranx-0.3.7.tar.gz
+[2023-04-17 11:45:31] INFO root fetch - processPackages [pycyphal]: Downloading https://files.pythonhosted.org/packages/c5/90/b4a2e3cfbef3ef5d0f13653834aebbfb4b1087ae16a79fcdb3ca6d23028e/pycyphal-1.9.1.tar.gz
+[2023-04-17 11:45:31] INFO root fetch - processPackages [sleplet]: Downloading https://files.pythonhosted.org/packages/c0/ad/061d32cdd859825ebbdd203bc5190b97191359bc0f07570660ef716cabd4/sleplet-1.3.6.tar.gz
+[2023-04-17 11:45:31] INFO root fetch - processPackages [compact-distillation]: executing diffoscope
+[2023-04-17 11:45:31] INFO root fetch - processPackages [compact-distillation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/compact-distillation-0.0.8.tar.gz tmp/compact-distillation-0.0.9.tar.gz --markdown 20230417/c/compact-distillation/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 11:45:31] INFO root fetch - processPackages [huscy.participations]: executing diffoscope
+[2023-04-17 11:45:31] INFO root fetch - processPackages [huscy.participations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huscy.participations-0.3.0a7.tar.gz tmp/huscy.participations-0.3.0a8.tar.gz --markdown 20230417/h/huscy.participations/0.3.0a7-0.3.0a8/diff.md --exclude *.pyd
+[2023-04-17 11:45:31] INFO root fetch - processPackages [django-advanced-report-builder]: executing diffoscope
+[2023-04-17 11:45:31] INFO root fetch - processPackages [django-advanced-report-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-advanced-report-builder-0.1.8.tar.gz tmp/django-advanced-report-builder-0.1.9.tar.gz --markdown 20230417/d/django-advanced-report-builder/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-17 11:45:31] INFO root fetch - processPackages [pycyphal]: executing diffoscope
+[2023-04-17 11:45:31] INFO root fetch - processPackages [pycyphal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycyphal-1.9.0b2.tar.gz tmp/pycyphal-1.9.1.tar.gz --markdown 20230417/p/pycyphal/1.9.0b2-1.9.1/diff.md --exclude *.pyd
+[2023-04-17 11:45:31] INFO root fetch - processPackages [ranx]: executing diffoscope
+[2023-04-17 11:45:31] INFO root fetch - processPackages [ranx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ranx-0.3.6.tar.gz tmp/ranx-0.3.7.tar.gz --markdown 20230417/r/ranx/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-04-17 11:45:31] INFO root fetch - processPackages [python-fontbro]: Downloading https://files.pythonhosted.org/packages/8e/21/8dbefdc64354ecb053f9e78b5bf4d14bb5fa3fb079ad935211d7875a22f3/python-fontbro-0.9.1.tar.gz
+[2023-04-17 11:45:31] INFO root fetch - processPackages [django-wangeditor]: executing diffoscope
+[2023-04-17 11:45:31] INFO root fetch - processPackages [django-wangeditor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-wangeditor-1.0.2.tar.gz tmp/django-wangeditor-2.0.0.tar.gz --markdown 20230417/d/django-wangeditor/1.0.2-2.0.0/diff.md --exclude *.pyd
+[2023-04-17 11:45:31] INFO root fetch - processPackages [sleplet]: executing diffoscope
+[2023-04-17 11:45:31] INFO root fetch - processPackages [sleplet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleplet-1.3.5.tar.gz tmp/sleplet-1.3.6.tar.gz --markdown 20230417/s/sleplet/1.3.5-1.3.6/diff.md --exclude *.pyd
+[2023-04-17 11:45:31] INFO root fetch - processPackages [python-fontbro]: executing diffoscope
+[2023-04-17 11:45:31] INFO root fetch - processPackages [python-fontbro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-fontbro-0.9.0.tar.gz tmp/python-fontbro-0.9.1.tar.gz --markdown 20230417/p/python-fontbro/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-17 11:45:32] INFO root fetch - processPackages [papers-cli]: Start processing: i3dFeatureExtraction
+[2023-04-17 11:45:32] INFO root fetch - main [MainThread]: End processing [papers-cli]: success
+[2023-04-17 11:45:32] WARNING root fetch - processPackages [i3dFeatureExtraction]: Skipping, unable to determine old version
+[2023-04-17 11:45:32] INFO root fetch - processPackages [i3dFeatureExtraction]: Start processing: hotsos
+[2023-04-17 11:45:32] INFO root fetch - main [MainThread]: End processing [i3dFeatureExtraction] error
+[2023-04-17 11:45:32] INFO root fetch - processPackages [hotsos]: New version: [1.1.13.post9] Old Version: [1.1.13.post8]
+[2023-04-17 11:45:32] INFO root fetch - processPackages [compact-distillation]: Start processing: cbig-network-correspondence
+[2023-04-17 11:45:32] INFO root fetch - main [MainThread]: End processing [compact-distillation]: success
+[2023-04-17 11:45:32] INFO root fetch - processPackages [cbig-network-correspondence]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 11:45:33] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/75/2f/826f5fd0c6bf525ed3cd7199c9efaa8a431240d6c366d68fe3a9f8c34737/hotsos-1.1.13.post8.tar.gz
+[2023-04-17 11:45:33] INFO root fetch - processPackages [huscy.participations]: Start processing: cnn2snn
+[2023-04-17 11:45:33] INFO root fetch - main [MainThread]: End processing [huscy.participations]: success
+[2023-04-17 11:45:33] INFO root fetch - processPackages [cnn2snn]: New version: [2.3.4] Old Version: [2.3.3]
+[2023-04-17 11:45:33] INFO root fetch - processPackages [fast-depends]: Start processing: nxtomomill
+[2023-04-17 11:45:33] INFO root fetch - main [MainThread]: End processing [fast-depends]: success
+[2023-04-17 11:45:33] INFO root fetch - processPackages [cbig-network-correspondence]: Downloading https://files.pythonhosted.org/packages/34/a3/28e287789955959e223d23df4ff9de1a1def36e6ba39bfe932469daf8f21/cbig_network_correspondence-0.0.9.tar.gz
+[2023-04-17 11:45:33] INFO root fetch - processPackages [nxtomomill]: New version: [0.9.0a3] Old Version: [0.9.0a2]
+[2023-04-17 11:45:33] INFO root fetch - processPackages [cnn2snn]: Downloading https://files.pythonhosted.org/packages/49/ee/af850e6d8e787aaef23d413d482dc11009784b35c8a33ed8b6bfb87c2ec6/cnn2snn-2.3.3.tar.gz
+[2023-04-17 11:45:33] INFO root fetch - processPackages [cbig-network-correspondence]: executing diffoscope
+[2023-04-17 11:45:33] INFO root fetch - processPackages [cbig-network-correspondence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbig_network_correspondence-0.0.8.tar.gz tmp/cbig_network_correspondence-0.0.9.tar.gz --markdown 20230417/c/cbig-network-correspondence/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 11:45:33] INFO root fetch - processPackages [nxtomomill]: Downloading https://files.pythonhosted.org/packages/58/c6/454b121748b6bbb0962dd37841f9350345e3dcbb65db152ee469dd6c9334/nxtomomill-0.9.0a2.tar.gz
+[2023-04-17 11:45:33] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/95/52/1124faffb6267189a377decdf47aa64828b350f49f8edf82c0b048673160/hotsos-1.1.13.post9.tar.gz
+[2023-04-17 11:45:33] INFO root fetch - processPackages [cnn2snn]: Downloading https://files.pythonhosted.org/packages/44/b1/3753ccefd2a865ebc4a5f6bef67e1921d2747019761793c3ef0bf0828270/cnn2snn-2.3.4.tar.gz
+[2023-04-17 11:45:33] INFO root fetch - processPackages [hotsos]: executing diffoscope
+[2023-04-17 11:45:33] INFO root fetch - processPackages [hotsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotsos-1.1.13.post8.tar.gz tmp/hotsos-1.1.13.post9.tar.gz --markdown 20230417/h/hotsos/1.1.13.post8-1.1.13.post9/diff.md --exclude *.pyd
+[2023-04-17 11:45:33] INFO root fetch - processPackages [cnn2snn]: executing diffoscope
+[2023-04-17 11:45:33] INFO root fetch - processPackages [cnn2snn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cnn2snn-2.3.3.tar.gz tmp/cnn2snn-2.3.4.tar.gz --markdown 20230417/c/cnn2snn/2.3.3-2.3.4/diff.md --exclude *.pyd
+[2023-04-17 11:45:33] INFO root fetch - processPackages [python-fontbro]: Start processing: django-dnoticias-tables
+[2023-04-17 11:45:33] INFO root fetch - main [MainThread]: End processing [python-fontbro]: success
+[2023-04-17 11:45:33] INFO root fetch - processPackages [django-dnoticias-tables]: New version: [2.0.6a0] Old Version: [2.0.6]
+[2023-04-17 11:45:33] INFO root fetch - processPackages [pycyphal]: Start processing: akida
+[2023-04-17 11:45:33] INFO root fetch - main [MainThread]: End processing [pycyphal]: success
+[2023-04-17 11:45:33] INFO root fetch - processPackages [django-dnoticias-tables]: Downloading https://files.pythonhosted.org/packages/5d/46/3025e6cc69d6cd8d9d8f8b78be53f2801f4f3f6827eaa818ff0c1cf5522b/django_dnoticias_tables-2.0.6.tar.gz
+[2023-04-17 11:45:34] INFO root fetch - processPackages [nxtomomill]: Downloading https://files.pythonhosted.org/packages/2a/16/deba04f7f33d8773b1391f0edc1e6783e781c732fd5016e7ebd3c183b1ad/nxtomomill-0.9.0a3.tar.gz
+[2023-04-17 11:45:34] INFO root fetch - processPackages [akida]: New version: [2.3.4] Old Version: [2.3.3]
+[2023-04-17 11:45:34] INFO root fetch - main [MainThread]: End processing [cbig-network-correspondence]: success
+[2023-04-17 11:45:34] INFO root fetch - processPackages [django-dnoticias-tables]: Downloading https://files.pythonhosted.org/packages/82/8b/7059e4298ff19d15d31b1dad999c822371b7a60aca2b9df93bb0775e78d6/django_dnoticias_tables-2.0.6a0.tar.gz
+[2023-04-17 11:45:34] INFO root fetch - processPackages [nxtomomill]: executing diffoscope
+[2023-04-17 11:45:34] INFO root fetch - processPackages [nxtomomill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nxtomomill-0.9.0a2.tar.gz tmp/nxtomomill-0.9.0a3.tar.gz --markdown 20230417/n/nxtomomill/0.9.0a2-0.9.0a3/diff.md --exclude *.pyd
+[2023-04-17 11:45:34] INFO root fetch - processPackages [akida]: Downloading https://files.pythonhosted.org/packages/68/1c/a247a2d656c8ec58d294e225f7ab7e21028cbca7577a7848c06a0e9c7502/akida-2.3.3-cp39-cp39-win_amd64.whl
+[2023-04-17 11:45:34] INFO root fetch - main [MainThread]: End processing [django-wangeditor]: success
+[2023-04-17 11:45:34] INFO root fetch - processPackages [django-dnoticias-tables]: executing diffoscope
+[2023-04-17 11:45:34] INFO root fetch - processPackages [django-dnoticias-tables]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_dnoticias_tables-2.0.6.tar.gz tmp/django_dnoticias_tables-2.0.6a0.tar.gz --markdown 20230417/d/django-dnoticias-tables/2.0.6-2.0.6a0/diff.md --exclude *.pyd
+[2023-04-17 11:45:34] INFO root fetch - processPackages [akida]: Downloading https://files.pythonhosted.org/packages/30/aa/ccbe4da89fdcc2d5f74e30c6dd8aee1a9a7fb026b78b96adaed468f52d38/akida-2.3.4-cp39-cp39-manylinux_2_24_aarch64.whl
+[2023-04-17 11:45:35] INFO root fetch - main [MainThread]: End processing [cnn2snn]: success
+[2023-04-17 11:45:35] INFO root fetch - processPackages [akida]: executing diffoscope
+[2023-04-17 11:45:35] INFO root fetch - processPackages [akida]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akida-2.3.3-cp39-cp39-win_amd64.whl.zip tmp/akida-2.3.4-cp39-cp39-manylinux_2_24_aarch64.whl.zip --markdown 20230417/a/akida/2.3.3-2.3.4/diff.md --exclude *.pyd
+[2023-04-17 11:45:35] INFO root fetch - main [MainThread]: End processing [sleplet]: success
+[2023-04-17 11:45:35] INFO root fetch - main [MainThread]: End processing [django-advanced-report-builder]: success
+[2023-04-17 11:45:35] INFO root fetch - main [MainThread]: End processing [ranx]: success
+[2023-04-17 11:45:35] INFO root fetch - main [MainThread]: End processing [nxtomomill]: success
+[2023-04-17 11:45:36] INFO root fetch - main [MainThread]: End processing [django-dnoticias-tables]: success
+[2023-04-17 11:45:36] INFO root fetch - main [MainThread]: End processing [hotsos]: success
+[2023-04-17 11:45:39] INFO root fetch - main [MainThread]: End processing [akida]: success
+[2023-04-17 11:45:39] INFO root fetch - main [MainThread]: Store serial: [17736288]
