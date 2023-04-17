@@ -10746,3 +10746,88 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-04-17 12:52:39] INFO root fetch - main [MainThread]: End processing [synergy-dataset]: success
 [2023-04-17 12:52:41] INFO root fetch - main [MainThread]: End processing [dcm-processor]: success
 [2023-04-17 12:52:41] INFO root fetch - main [MainThread]: Store serial: [17737031]
+[2023-04-17 12:57:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17737031]
+[2023-04-17 12:57:51] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-17 12:57:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: erscipcard
+[2023-04-17 12:57:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fiduswriter
+[2023-04-17 12:57:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chronus
+[2023-04-17 12:57:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: q2db
+[2023-04-17 12:57:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bc-time
+[2023-04-17 12:57:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: huscy.project-design
+[2023-04-17 12:57:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jaxrie
+[2023-04-17 12:57:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tkblock
+[2023-04-17 12:57:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: customvalidator
+[2023-04-17 12:57:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: openhexa.sdk
+[2023-04-17 12:57:51] INFO root fetch - processPackages [tkblock]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-04-17 12:57:51] INFO root fetch - processPackages [jaxrie]: New version: [9] Old Version: [8]
+[2023-04-17 12:57:51] INFO root fetch - processPackages [bc-time]: New version: [7.0.0] Old Version: [6.0.0]
+[2023-04-17 12:57:51] INFO root fetch - processPackages [tkblock]: executing diffoscope
+[2023-04-17 12:57:51] INFO root fetch - processPackages [tkblock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tkblock-1.0.0.tar.gz tmp/tkblock-1.1.0.tar.gz --markdown 20230417/t/tkblock/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-04-17 12:57:51] INFO root fetch - processPackages [huscy.project-design]: New version: [0.3.0a5] Old Version: [0.3.0a4]
+[2023-04-17 12:57:51] INFO root fetch - processPackages [chronus]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-17 12:57:51] INFO root fetch - processPackages [q2db]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-17 12:57:51] INFO root fetch - processPackages [erscipcard]: New version: [1.17.7] Old Version: [1.17.4]
+[2023-04-17 12:57:51] INFO root fetch - processPackages [openhexa.sdk]: New version: [0.1.1] Old Version: [0.0.1]
+[2023-04-17 12:57:51] INFO root fetch - processPackages [customvalidator]: New version: [0.2] Old Version: [0.1]
+[2023-04-17 12:57:51] INFO root fetch - processPackages [bc-time]: executing diffoscope
+[2023-04-17 12:57:51] INFO root fetch - processPackages [bc-time]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bc_time-6.0.0.tar.gz tmp/bc_time-7.0.0.tar.gz --markdown 20230417/b/bc-time/6.0.0-7.0.0/diff.md --exclude *.pyd
+[2023-04-17 12:57:51] INFO root fetch - processPackages [fiduswriter]: New version: [3.9.9] Old Version: [3.9.8]
+[2023-04-17 12:57:51] INFO root fetch - processPackages [jaxrie]: Downloading https://files.pythonhosted.org/packages/ab/9a/03c4093f2bce448ed81ab128fb627e16bfb822ad49225c3bdb12441d6278/jaxrie-8.tar.gz
+[2023-04-17 12:57:51] INFO root fetch - processPackages [huscy.project-design]: Downloading https://files.pythonhosted.org/packages/ef/0e/77d72290f20fad7c920caca24dbf3e26d64eca37b049f22608b250df5c24/huscy.project_design-0.3.0a4.tar.gz
+[2023-04-17 12:57:51] INFO root fetch - processPackages [jaxrie]: executing diffoscope
+[2023-04-17 12:57:51] INFO root fetch - processPackages [jaxrie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxrie-8.tar.gz tmp/jaxrie-9.tar.gz --markdown 20230417/j/jaxrie/8-9/diff.md --exclude *.pyd
+[2023-04-17 12:57:51] INFO root fetch - processPackages [fiduswriter]: Downloading https://files.pythonhosted.org/packages/c4/3d/080a8cebc161f4fec5bb67acab0bb88c29a271b4d3913680735b77f7e340/fiduswriter-3.9.8.tar.gz
+[2023-04-17 12:57:51] INFO root fetch - processPackages [q2db]: Downloading https://files.pythonhosted.org/packages/17/38/79b233e045a339bde6d7f5231ab1078cdf7c948755cd92294ac52862b3f8/q2db-0.1.8.tar.gz
+[2023-04-17 12:57:51] INFO root fetch - processPackages [openhexa.sdk]: Downloading https://files.pythonhosted.org/packages/14/bc/6b724c3d66e2f16f2ee01deee285080acfdb6f0bbc73595d2e261233db0c/openhexa.sdk-0.0.1.tar.gz
+[2023-04-17 12:57:51] INFO root fetch - processPackages [chronus]: Downloading https://files.pythonhosted.org/packages/f9/b5/feed8c752134d5c2d83f7ba7f7d6e2383a7307141c1873c06c5d2d608d91/chronus-0.1.0.tar.gz
+[2023-04-17 12:57:51] INFO root fetch - processPackages [customvalidator]: Downloading https://files.pythonhosted.org/packages/cb/95/b7aa9fbcc052e58674abe9e0cd0149f873586d83be240f1901ac2a79c293/customvalidator-0.1.tar.gz
+[2023-04-17 12:57:51] INFO root fetch - processPackages [erscipcard]: Downloading https://files.pythonhosted.org/packages/e7/81/023a386659b24e91136e044e09240465745c94e8adde9958a283fec5ccc9/erscipcard-1.17.7.tar.gz
+[2023-04-17 12:57:51] INFO root fetch - processPackages [openhexa.sdk]: Downloading https://files.pythonhosted.org/packages/dd/ad/e5da33919f06aac24de5e2a81662b93f500b23fb271712c44811a6c70acb/openhexa.sdk-0.1.1.tar.gz
+[2023-04-17 12:57:51] INFO root fetch - processPackages [huscy.project-design]: Downloading https://files.pythonhosted.org/packages/7b/39/9b74fc1b58f0c43133a7c781d28b2efd2115cb2b324da61f97aabc1d71f6/huscy.project_design-0.3.0a5.tar.gz
+[2023-04-17 12:57:51] INFO root fetch - processPackages [q2db]: Downloading https://files.pythonhosted.org/packages/5f/ad/9e4d5db2bcb37b0ac45071edbac7a5449963193849b9df003b9586649cf9/q2db-0.1.9.tar.gz
+[2023-04-17 12:57:51] INFO root fetch - processPackages [q2db]: executing diffoscope
+[2023-04-17 12:57:51] INFO root fetch - processPackages [q2db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/q2db-0.1.8.tar.gz tmp/q2db-0.1.9.tar.gz --markdown 20230417/q/q2db/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-17 12:57:51] INFO root fetch - processPackages [chronus]: Downloading https://files.pythonhosted.org/packages/c5/4a/1e84305bd1a8f43e4e5d3d1767f7e4e81b0dad89b3d498f013e5b9b981db/chronus-0.2.0.tar.gz
+[2023-04-17 12:57:51] INFO root fetch - processPackages [customvalidator]: Downloading https://files.pythonhosted.org/packages/70/6b/4e4fad173b79014bcef89b4210bbde9b0fe5fe959baa3b6fb1b0b4f73bf2/customvalidator-0.2.tar.gz
+[2023-04-17 12:57:51] INFO root fetch - processPackages [openhexa.sdk]: executing diffoscope
+[2023-04-17 12:57:51] INFO root fetch - processPackages [openhexa.sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openhexa.sdk-0.0.1.tar.gz tmp/openhexa.sdk-0.1.1.tar.gz --markdown 20230417/o/openhexa.sdk/0.0.1-0.1.1/diff.md --exclude *.pyd
+[2023-04-17 12:57:51] INFO root fetch - processPackages [erscipcard]: executing diffoscope
+[2023-04-17 12:57:51] INFO root fetch - processPackages [erscipcard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erscipcard-1.17.4.tar.gz tmp/erscipcard-1.17.7.tar.gz --markdown 20230417/e/erscipcard/1.17.4-1.17.7/diff.md --exclude *.pyd
+[2023-04-17 12:57:51] INFO root fetch - processPackages [huscy.project-design]: executing diffoscope
+[2023-04-17 12:57:51] INFO root fetch - processPackages [huscy.project-design]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huscy.project_design-0.3.0a4.tar.gz tmp/huscy.project_design-0.3.0a5.tar.gz --markdown 20230417/h/huscy.project-design/0.3.0a4-0.3.0a5/diff.md --exclude *.pyd
+[2023-04-17 12:57:51] INFO root fetch - processPackages [customvalidator]: executing diffoscope
+[2023-04-17 12:57:51] INFO root fetch - processPackages [customvalidator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/customvalidator-0.1.tar.gz tmp/customvalidator-0.2.tar.gz --markdown 20230417/c/customvalidator/0.1-0.2/diff.md --exclude *.pyd
+[2023-04-17 12:57:51] INFO root fetch - processPackages [chronus]: executing diffoscope
+[2023-04-17 12:57:51] INFO root fetch - processPackages [chronus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chronus-0.1.0.tar.gz tmp/chronus-0.2.0.tar.gz --markdown 20230417/c/chronus/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-04-17 12:57:52] INFO root fetch - processPackages [tkblock]: Start processing: robotic
+[2023-04-17 12:57:52] INFO root fetch - main [MainThread]: End processing [tkblock]: success
+[2023-04-17 12:57:52] INFO root fetch - processPackages [robotic]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-17 12:57:52] INFO root fetch - processPackages [robotic]: Downloading https://files.pythonhosted.org/packages/42/93/21102f1eb727a685857f23ec8ecb19c248af96ed4d3bb2f4c051baaf3af1/robotic-0.0.5-cp39-cp39-manylinux2014_x86_64.whl
+[2023-04-17 12:57:53] INFO root fetch - processPackages [fiduswriter]: Downloading https://files.pythonhosted.org/packages/15/f4/cc0313023739a0bd51496af77e698f1d79b2a0386f84a404b5ca1f00528c/fiduswriter-3.9.9.tar.gz
+[2023-04-17 12:57:53] INFO root fetch - processPackages [jaxrie]: Start processing: nlpaf
+[2023-04-17 12:57:53] INFO root fetch - main [MainThread]: End processing [jaxrie]: success
+[2023-04-17 12:57:53] INFO root fetch - processPackages [bc-time]: Start processing: kondo-ml
+[2023-04-17 12:57:53] INFO root fetch - main [MainThread]: End processing [bc-time]: success
+[2023-04-17 12:57:53] WARNING root fetch - processPackages [robotic]: Skipping package: exceeds size limit 11944002>=10485760
+[2023-04-17 12:57:53] INFO root fetch - processPackages [robotic]: Start processing: divio-docs-gen
+[2023-04-17 12:57:53] INFO root fetch - main [MainThread]: End processing [robotic] error
+[2023-04-17 12:57:53] INFO root fetch - processPackages [kondo-ml]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-17 12:57:53] WARNING root fetch - processPackages [divio-docs-gen]: Skipping, unable to determine old version
+[2023-04-17 12:57:53] INFO root fetch - main [MainThread]: End processing [divio-docs-gen] error
+[2023-04-17 12:57:53] INFO root fetch - processPackages [nlpaf]: New version: [2.8.8] Old Version: [2.8.7]
+[2023-04-17 12:57:53] INFO root fetch - processPackages [kondo-ml]: executing diffoscope
+[2023-04-17 12:57:53] INFO root fetch - processPackages [kondo-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kondo_ml-0.0.7.tar.gz tmp/kondo_ml-0.0.8.tar.gz --markdown 20230417/k/kondo-ml/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-17 12:57:53] INFO root fetch - main [MainThread]: End processing [q2db]: success
+[2023-04-17 12:57:53] INFO root fetch - main [MainThread]: End processing [chronus]: success
+[2023-04-17 12:57:53] INFO root fetch - processPackages [nlpaf]: Downloading https://files.pythonhosted.org/packages/5d/da/1b92550f6bc1e7b62d9eca934cf2d4d57ebcc3fb29072424036f138d98af/nlpaf-2.8.7.tar.gz
+[2023-04-17 12:57:53] INFO root fetch - main [MainThread]: End processing [openhexa.sdk]: success
+[2023-04-17 12:57:53] WARNING root fetch - processPackages [nlpaf]: Skipping package: exceeds size limit 24324747>=10485760
+[2023-04-17 12:57:53] INFO root fetch - main [MainThread]: End processing [nlpaf] error
+[2023-04-17 12:57:53] INFO root fetch - main [MainThread]: End processing [customvalidator]: success
+[2023-04-17 12:57:53] INFO root fetch - main [MainThread]: End processing [huscy.project-design]: success
+[2023-04-17 12:57:54] INFO root fetch - processPackages [fiduswriter]: executing diffoscope
+[2023-04-17 12:57:54] INFO root fetch - processPackages [fiduswriter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiduswriter-3.9.8.tar.gz tmp/fiduswriter-3.9.9.tar.gz --markdown 20230417/f/fiduswriter/3.9.8-3.9.9/diff.md --exclude *.pyd
+[2023-04-17 12:57:54] INFO root fetch - main [MainThread]: End processing [erscipcard]: success
+[2023-04-17 12:57:54] INFO root fetch - main [MainThread]: End processing [kondo-ml]: success
+[2023-04-17 12:58:02] INFO root fetch - main [MainThread]: End processing [fiduswriter]: success
+[2023-04-17 12:58:02] INFO root fetch - main [MainThread]: Store serial: [17737084]
