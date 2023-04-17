@@ -18828,3 +18828,104 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-17 19:17:05] INFO root fetch - main [MainThread]: End processing [fonticon-materialdesignicons6]: success
 [2023-04-17 19:17:29] INFO root fetch - main [MainThread]: End processing [testrail-api-reporter]: success
 [2023-04-17 19:17:29] INFO root fetch - main [MainThread]: Store serial: [17741845]
+[2023-04-17 19:22:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17741845]
+[2023-04-17 19:22:40] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-04-17 19:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: digimat.bac0
+[2023-04-17 19:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: axdd-person-client
+[2023-04-17 19:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pipcryptliberyV2
+[2023-04-17 19:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kittycad
+[2023-04-17 19:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: certora-cli-alpha-master
+[2023-04-17 19:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pythoncoloringslibV2
+[2023-04-17 19:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ultracart-rest-sdk
+[2023-04-17 19:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zhcode
+[2023-04-17 19:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jeff-api
+[2023-04-17 19:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: finbourne-access-sdk
+[2023-04-17 19:22:40] INFO root fetch - processPackages [jeff-api]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-04-17 19:22:40] INFO root fetch - processPackages [zhcode]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-17 19:22:40] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230417.9.51.855811] Old Version: [20230417.12.26.985660]
+[2023-04-17 19:22:40] INFO root fetch - processPackages [digimat.bac0]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-17 19:22:40] INFO root fetch - processPackages [pipcryptliberyV2]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-04-17 19:22:40] INFO root fetch - processPackages [kittycad]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-04-17 19:22:40] INFO root fetch - processPackages [axdd-person-client]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-04-17 19:22:40] WARNING root fetch - processPackages [pythoncoloringslibV2]: Skipping, unable to determine old version
+[2023-04-17 19:22:40] INFO root fetch - processPackages [pythoncoloringslibV2]: Start processing: navigator-api
+[2023-04-17 19:22:40] INFO root fetch - main [MainThread]: End processing [pythoncoloringslibV2] error
+[2023-04-17 19:22:40] INFO root fetch - processPackages [ultracart-rest-sdk]: New version: [4.0.99rc0] Old Version: [4.0.98rc0]
+[2023-04-17 19:22:40] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [0.0.815] Old Version: [0.0.616]
+[2023-04-17 19:22:40] INFO root fetch - processPackages [jeff-api]: Downloading https://files.pythonhosted.org/packages/c2/68/e5816e5b6a0c984bb255b45fe1c6760362c974f11320aecf930259a09d69/jeff_api-1.2.3.tar.gz
+[2023-04-17 19:22:40] INFO root fetch - processPackages [pipcryptliberyV2]: Downloading https://files.pythonhosted.org/packages/49/c7/c2f049ca8178d2eb9effd673c736cd211240859d4d3ea362544f1d9dbfc7/pipcryptliberyV2-1.0.0.tar.gz
+[2023-04-17 19:22:40] INFO root fetch - processPackages [navigator-api]: New version: [2.6.9] Old Version: [2.6.8]
+[2023-04-17 19:22:40] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/15/6c/43a43201a08758621ee4974ea5f9a2ed59ad612d2c383456d24ebd87f3db/certora-cli-alpha-master-20230417.12.26.985660.tar.gz
+[2023-04-17 19:22:40] INFO root fetch - processPackages [zhcode]: Downloading https://files.pythonhosted.org/packages/b7/56/6c62d0636bc6fbeae1053c0914ec6e54fc4292c84f492067ef157e833b4d/zhcode-0.0.4.tar.gz
+[2023-04-17 19:22:40] INFO root fetch - processPackages [kittycad]: Downloading https://files.pythonhosted.org/packages/a4/7f/b36c9bb7acaf3041104f782864fca4a929458339d7dec1876f61941aaad0/kittycad-0.3.5.tar.gz
+[2023-04-17 19:22:40] INFO root fetch - processPackages [axdd-person-client]: Downloading https://files.pythonhosted.org/packages/a8/87/9ec73c61d1cde2a93036af1a5921c5f3e9de7a69ccf13dbac5bffb17aa9d/axdd-person-client-1.1.0.tar.gz
+[2023-04-17 19:22:40] INFO root fetch - processPackages [ultracart-rest-sdk]: Downloading https://files.pythonhosted.org/packages/71/ef/7b3e4c3123392afa24ebd5018befc34b4baacf0250c8a0c2ceeff4a3e3ad/ultracart_rest_sdk-4.0.98rc0.tar.gz
+[2023-04-17 19:22:40] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/22/58/ee379caa00eba72b01ce5884996e3957e85f9db086b5f74209b445963467/finbourne-access-sdk-0.0.616.tar.gz
+[2023-04-17 19:22:40] INFO root fetch - processPackages [jeff-api]: executing diffoscope
+[2023-04-17 19:22:40] INFO root fetch - processPackages [jeff-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jeff_api-1.2.2.tar.gz tmp/jeff_api-1.2.3.tar.gz --markdown 20230417/j/jeff-api/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-04-17 19:22:40] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 38047678>=10485760
+[2023-04-17 19:22:40] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: libdeeplake
+[2023-04-17 19:22:40] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-04-17 19:22:40] INFO root fetch - processPackages [navigator-api]: Downloading https://files.pythonhosted.org/packages/43/b3/6dda4f55e1d3faa57d98d8c8339b3a8c2e280e12edcb071cf369a6eab3b8/navigator_api-2.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-17 19:22:40] INFO root fetch - processPackages [zhcode]: executing diffoscope
+[2023-04-17 19:22:40] INFO root fetch - processPackages [zhcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhcode-0.0.3.tar.gz tmp/zhcode-0.0.4.tar.gz --markdown 20230417/z/zhcode/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-17 19:22:40] INFO root fetch - processPackages [digimat.bac0]: Downloading https://files.pythonhosted.org/packages/f2/9a/6a3f5872dd4acf1553221275c8371875d6d2dde415f286e758fb33772e26/digimat.bac0-0.0.5.tar.gz
+[2023-04-17 19:22:40] INFO root fetch - processPackages [pipcryptliberyV2]: Downloading https://files.pythonhosted.org/packages/6f/2c/c66f09acd79522b712ed441541709671ef33d219f8ef0feaa40b6056a686/pipcryptliberyV2-1.1.0.tar.gz
+[2023-04-17 19:22:40] INFO root fetch - processPackages [kittycad]: Downloading https://files.pythonhosted.org/packages/8c/72/98100b825da848cad948acf1153d4f36c2d1bb826da30f1a09e3bb1910ac/kittycad-0.3.6.tar.gz
+[2023-04-17 19:22:40] INFO root fetch - processPackages [ultracart-rest-sdk]: Downloading https://files.pythonhosted.org/packages/53/de/3357390dfc51b1725d15b38c41c9c2ab33d663a1cf3e2ab06dd0ed795755/ultracart_rest_sdk-4.0.99rc0.tar.gz
+[2023-04-17 19:22:40] INFO root fetch - processPackages [libdeeplake]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 19:22:40] INFO root fetch - processPackages [digimat.bac0]: executing diffoscope
+[2023-04-17 19:22:40] INFO root fetch - processPackages [digimat.bac0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digimat.bac0-0.0.4.tar.gz tmp/digimat.bac0-0.0.5.tar.gz --markdown 20230417/d/digimat.bac0/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-17 19:22:40] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/f5/48/d40801e505892153d9eb9fea2de2f415455702ca8818dd23f14a3f88d813/finbourne-access-sdk-0.0.815.tar.gz
+[2023-04-17 19:22:40] INFO root fetch - processPackages [axdd-person-client]: Downloading https://files.pythonhosted.org/packages/82/ee/b621a0a3decfc13932f2fdef08266cecd2c5730b1e1195fbb5f63802fe58/axdd-person-client-1.1.1.tar.gz
+[2023-04-17 19:22:40] INFO root fetch - processPackages [ultracart-rest-sdk]: executing diffoscope
+[2023-04-17 19:22:40] INFO root fetch - processPackages [ultracart-rest-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultracart_rest_sdk-4.0.98rc0.tar.gz tmp/ultracart_rest_sdk-4.0.99rc0.tar.gz --markdown 20230417/u/ultracart-rest-sdk/4.0.98rc0-4.0.99rc0/diff.md --exclude *.pyd
+[2023-04-17 19:22:40] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2023-04-17 19:22:40] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-access-sdk-0.0.616.tar.gz tmp/finbourne-access-sdk-0.0.815.tar.gz --markdown 20230417/f/finbourne-access-sdk/0.0.616-0.0.815/diff.md --exclude *.pyd
+[2023-04-17 19:22:40] INFO root fetch - processPackages [pipcryptliberyV2]: executing diffoscope
+[2023-04-17 19:22:40] INFO root fetch - processPackages [pipcryptliberyV2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipcryptliberyV2-1.0.0.tar.gz tmp/pipcryptliberyV2-1.1.0.tar.gz --markdown 20230417/p/pipcryptliberyV2/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-04-17 19:22:40] INFO root fetch - processPackages [kittycad]: executing diffoscope
+[2023-04-17 19:22:40] INFO root fetch - processPackages [kittycad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kittycad-0.3.5.tar.gz tmp/kittycad-0.3.6.tar.gz --markdown 20230417/k/kittycad/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-04-17 19:22:41] INFO root fetch - processPackages [axdd-person-client]: executing diffoscope
+[2023-04-17 19:22:41] INFO root fetch - processPackages [axdd-person-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axdd-person-client-1.1.0.tar.gz tmp/axdd-person-client-1.1.1.tar.gz --markdown 20230417/a/axdd-person-client/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-04-17 19:22:41] INFO root fetch - processPackages [libdeeplake]: Downloading https://files.pythonhosted.org/packages/90/d1/8cba2118c890778e1a4faa696a73b8e9aafdf7592d045c088c972941ad5f/libdeeplake-0.0.8-cp39-cp39-manylinux2014_x86_64.whl
+[2023-04-17 19:22:41] INFO root fetch - processPackages [navigator-api]: Downloading https://files.pythonhosted.org/packages/e1/98/0334482971a969cfa2dfd38298d37844a48ae8a8052b69f9cfb99fc44292/navigator_api-2.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-17 19:22:41] WARNING root fetch - processPackages [libdeeplake]: Skipping package: exceeds size limit 20849540>=10485760
+[2023-04-17 19:22:41] INFO root fetch - processPackages [libdeeplake]: Start processing: tarvis-exchange-woo
+[2023-04-17 19:22:41] INFO root fetch - main [MainThread]: End processing [libdeeplake] error
+[2023-04-17 19:22:41] WARNING root fetch - processPackages [tarvis-exchange-woo]: Skipping, unable to determine old version
+[2023-04-17 19:22:41] INFO root fetch - processPackages [tarvis-exchange-woo]: Start processing: spanishconjugator
+[2023-04-17 19:22:41] INFO root fetch - main [MainThread]: End processing [tarvis-exchange-woo] error
+[2023-04-17 19:22:41] INFO root fetch - processPackages [navigator-api]: executing diffoscope
+[2023-04-17 19:22:41] INFO root fetch - processPackages [navigator-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/navigator_api-2.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/navigator_api-2.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230417/n/navigator-api/2.6.8-2.6.9/diff.md --exclude *.pyd
+[2023-04-17 19:22:41] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-04-17 19:22:41] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-04-17 19:22:41] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230417/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-04-17 19:22:42] INFO root fetch - processPackages [jeff-api]: Start processing: spanishconjugator
+[2023-04-17 19:22:42] INFO root fetch - main [MainThread]: End processing [jeff-api]: success
+[2023-04-17 19:22:42] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-04-17 19:22:42] INFO root fetch - processPackages [zhcode]: Start processing: arrendatools-plantillas
+[2023-04-17 19:22:42] INFO root fetch - main [MainThread]: End processing [zhcode]: success
+[2023-04-17 19:22:42] INFO root fetch - processPackages [arrendatools-plantillas]: New version: [1.1.0] Old Version: [1.0.3]
+[2023-04-17 19:22:42] INFO root fetch - processPackages [pipcryptliberyV2]: Start processing: diffusers
+[2023-04-17 19:22:42] INFO root fetch - main [MainThread]: End processing [pipcryptliberyV2]: success
+[2023-04-17 19:22:42] INFO root fetch - main [MainThread]: End processing [digimat.bac0]: success
+[2023-04-17 19:22:42] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-04-17 19:22:42] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230417/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-04-17 19:22:42] INFO root fetch - processPackages [arrendatools-plantillas]: executing diffoscope
+[2023-04-17 19:22:42] INFO root fetch - processPackages [arrendatools-plantillas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arrendatools_plantillas-1.0.3.tar.gz tmp/arrendatools_plantillas-1.1.0.tar.gz --markdown 20230417/a/arrendatools-plantillas/1.0.3-1.1.0/diff.md --exclude *.pyd
+[2023-04-17 19:22:42] INFO root fetch - processPackages [diffusers]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-04-17 19:22:42] INFO root fetch - processPackages [diffusers]: Downloading https://files.pythonhosted.org/packages/bc/a6/709af54ca1141f176d00b36f078693f9f9efe4ce2cfde8fbae3bf30f1537/diffusers-0.8.1.tar.gz
+[2023-04-17 19:22:42] INFO root fetch - main [MainThread]: End processing [axdd-person-client]: success
+[2023-04-17 19:22:43] INFO root fetch - processPackages [diffusers]: Downloading https://files.pythonhosted.org/packages/7d/bf/3eee65a76bafb3954ae41137c790491a098e32902893dfa2997091a8f441/diffusers-0.9.0.tar.gz
+[2023-04-17 19:22:43] INFO root fetch - main [MainThread]: End processing [navigator-api]: success
+[2023-04-17 19:22:43] INFO root fetch - processPackages [diffusers]: executing diffoscope
+[2023-04-17 19:22:43] INFO root fetch - processPackages [diffusers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diffusers-0.8.1.tar.gz tmp/diffusers-0.9.0.tar.gz --markdown 20230417/d/diffusers/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-04-17 19:22:43] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-04-17 19:22:43] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2023-04-17 19:22:43] INFO root fetch - main [MainThread]: End processing [arrendatools-plantillas]: success
+[2023-04-17 19:22:43] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-04-17 19:22:45] INFO root fetch - main [MainThread]: End processing [kittycad]: success
+[2023-04-17 19:22:45] INFO root fetch - main [MainThread]: End processing [diffusers]: success
+[2023-04-17 19:22:53] INFO root fetch - main [MainThread]: End processing [ultracart-rest-sdk]: success
+[2023-04-17 19:22:53] INFO root fetch - main [MainThread]: Store serial: [17741918]
