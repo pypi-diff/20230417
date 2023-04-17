@@ -21551,3 +21551,186 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-17 21:46:24] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
 [2023-04-17 21:46:27] INFO root fetch - main [MainThread]: End processing [diffusers-unchained]: success
 [2023-04-17 21:46:27] INFO root fetch - main [MainThread]: Store serial: [17743608]
+[2023-04-17 21:51:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17743608]
+[2023-04-17 21:51:37] INFO root fetch - main [MainThread]: Found 29 changed packages
+[2023-04-17 21:51:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fluxrpc
+[2023-04-17 21:51:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gojsonnet
+[2023-04-17 21:51:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: heppyness
+[2023-04-17 21:51:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pynapple
+[2023-04-17 21:51:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cleancourt
+[2023-04-17 21:51:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: constructs
+[2023-04-17 21:51:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: google-cloud-build
+[2023-04-17 21:51:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: invokify
+[2023-04-17 21:51:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gpt4all-j
+[2023-04-17 21:51:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lidia
+[2023-04-17 21:51:37] INFO root fetch - processPackages [cleancourt]: New version: [0.7.8] Old Version: [0.7.7]
+[2023-04-17 21:51:37] INFO root fetch - processPackages [gojsonnet]: New version: [0.20.0rc1] Old Version: [0.20.0]
+[2023-04-17 21:51:37] INFO root fetch - processPackages [fluxrpc]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-17 21:51:37] INFO root fetch - processPackages [heppyness]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-04-17 21:51:37] INFO root fetch - processPackages [google-cloud-build]: New version: [3.9.3] Old Version: [3.9.2]
+[2023-04-17 21:51:37] INFO root fetch - processPackages [pynapple]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-04-17 21:51:37] INFO root fetch - processPackages [invokify]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-17 21:51:37] INFO root fetch - processPackages [gpt4all-j]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-17 21:51:37] INFO root fetch - processPackages [constructs]: New version: [3.4.99] Old Version: [3.4.98]
+[2023-04-17 21:51:37] INFO root fetch - processPackages [google-cloud-build]: Downloading https://files.pythonhosted.org/packages/a7/a3/d24db77d483ff3030d14c86e974b1cb6fb32619e9e48f886f505d59b9343/google-cloud-build-3.9.2.tar.gz
+[2023-04-17 21:51:37] INFO root fetch - processPackages [lidia]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-04-17 21:51:37] INFO root fetch - processPackages [fluxrpc]: executing diffoscope
+[2023-04-17 21:51:37] INFO root fetch - processPackages [fluxrpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fluxrpc-0.9.8.tar.gz tmp/fluxrpc-0.9.9.tar.gz --markdown 20230417/f/fluxrpc/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-17 21:51:37] INFO root fetch - processPackages [gojsonnet]: Downloading https://files.pythonhosted.org/packages/c2/15/1ec00939b1b02c6064b2424411b2ea5c7d1f855ecdacc5cb168fa936b202/gojsonnet-0.20.0.tar.gz
+[2023-04-17 21:51:37] INFO root fetch - processPackages [constructs]: executing diffoscope
+[2023-04-17 21:51:37] INFO root fetch - processPackages [constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/constructs-3.4.98.tar.gz tmp/constructs-3.4.99.tar.gz --markdown 20230417/c/constructs/3.4.98-3.4.99/diff.md --exclude *.pyd
+[2023-04-17 21:51:37] INFO root fetch - processPackages [cleancourt]: Downloading https://files.pythonhosted.org/packages/aa/84/8096267cba42f70dda1204de4025380bd246bb28a856df26c0362575b89f/cleancourt-0.7.7.tar.gz
+[2023-04-17 21:51:37] INFO root fetch - processPackages [invokify]: Downloading https://files.pythonhosted.org/packages/7f/40/dd8c86df5310b686d0e2ce75601a23188f354d2a7577e4a04dc059983d7f/invokify-0.1.3.tar.gz
+[2023-04-17 21:51:37] INFO root fetch - processPackages [pynapple]: Downloading https://files.pythonhosted.org/packages/3f/48/6e6cbdfc1fb1936942e2e81de5531733dbb20f2600dc19551a531f0c34bb/pynapple-0.3.2.tar.gz
+[2023-04-17 21:51:38] INFO root fetch - processPackages [heppyness]: Downloading https://files.pythonhosted.org/packages/54/b4/905d98b9696d641ba88d564041f1390eb0f934593034d9e13821bbf999eb/heppyness-2.0.2.tar.gz
+[2023-04-17 21:51:38] INFO root fetch - processPackages [gpt4all-j]: Downloading https://files.pythonhosted.org/packages/0a/06/602bd928052dad6218452c224ff6fea9463e3083ee376f24f57aebeb642f/gpt4all-j-0.0.2.tar.gz
+[2023-04-17 21:51:38] INFO root fetch - processPackages [invokify]: executing diffoscope
+[2023-04-17 21:51:38] INFO root fetch - processPackages [invokify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invokify-0.1.2.tar.gz tmp/invokify-0.1.3.tar.gz --markdown 20230417/i/invokify/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-17 21:51:38] INFO root fetch - processPackages [google-cloud-build]: Downloading https://files.pythonhosted.org/packages/3c/17/46c12ddd8e2929d83b09384ed72971f49645b94e0d23459f9863941ce66a/google-cloud-build-3.9.3.tar.gz
+[2023-04-17 21:51:38] INFO root fetch - processPackages [lidia]: Downloading https://files.pythonhosted.org/packages/c8/16/2218d873aca9b8ff694041e2fb2945c2d6fc0e937a31729f4755607215c9/lidia-0.8.0.tar.gz
+[2023-04-17 21:51:38] INFO root fetch - processPackages [gpt4all-j]: executing diffoscope
+[2023-04-17 21:51:38] INFO root fetch - processPackages [gpt4all-j]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt4all-j-0.0.1.tar.gz tmp/gpt4all-j-0.0.2.tar.gz --markdown 20230417/g/gpt4all-j/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-17 21:51:38] WARNING root fetch - processPackages [pynapple]: Skipping package: exceeds size limit 91289972>=10485760
+[2023-04-17 21:51:38] INFO root fetch - processPackages [pynapple]: Start processing: yopass-api
+[2023-04-17 21:51:38] INFO root fetch - main [MainThread]: End processing [pynapple] error
+[2023-04-17 21:51:38] INFO root fetch - processPackages [cleancourt]: Downloading https://files.pythonhosted.org/packages/5d/ca/ab9aabd24691f3267fcdf460230324a1e952e7cd251f76e357822cbe2627/cleancourt-0.7.8.tar.gz
+[2023-04-17 21:51:38] INFO root fetch - processPackages [google-cloud-build]: executing diffoscope
+[2023-04-17 21:51:38] INFO root fetch - processPackages [gojsonnet]: executing diffoscope
+[2023-04-17 21:51:38] INFO root fetch - processPackages [google-cloud-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-build-3.9.2.tar.gz tmp/google-cloud-build-3.9.3.tar.gz --markdown 20230417/g/google-cloud-build/3.9.2-3.9.3/diff.md --exclude *.pyd
+[2023-04-17 21:51:38] INFO root fetch - processPackages [gojsonnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gojsonnet-0.20.0.tar.gz tmp/gojsonnet-0.20.0rc1.tar.gz --markdown 20230417/g/gojsonnet/0.20.0-0.20.0rc1/diff.md --exclude *.pyd
+[2023-04-17 21:51:38] INFO root fetch - processPackages [cleancourt]: executing diffoscope
+[2023-04-17 21:51:38] INFO root fetch - processPackages [cleancourt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cleancourt-0.7.7.tar.gz tmp/cleancourt-0.7.8.tar.gz --markdown 20230417/c/cleancourt/0.7.7-0.7.8/diff.md --exclude *.pyd
+[2023-04-17 21:51:38] INFO root fetch - processPackages [heppyness]: Downloading https://files.pythonhosted.org/packages/77/3f/42bdd073eca03618eccbc8f46b0da7a007c00c0f9e828516dd257e9db9f1/heppyness-2.0.3.tar.gz
+[2023-04-17 21:51:38] INFO root fetch - processPackages [yopass-api]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-17 21:51:38] INFO root fetch - processPackages [lidia]: Downloading https://files.pythonhosted.org/packages/e0/fc/97d04e9e95e1165e22042ca3362bfe2d9a81c2900db81831d73f642305a7/lidia-0.8.1.tar.gz
+[2023-04-17 21:51:38] INFO root fetch - processPackages [heppyness]: executing diffoscope
+[2023-04-17 21:51:38] INFO root fetch - processPackages [heppyness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heppyness-2.0.2.tar.gz tmp/heppyness-2.0.3.tar.gz --markdown 20230417/h/heppyness/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-04-17 21:51:38] INFO root fetch - processPackages [yopass-api]: Downloading https://files.pythonhosted.org/packages/d9/3b/0d3c5a09919a92957ca17e573a42ff765d2fac163338d2fff5b17829c593/yopass_api-0.0.4.tar.gz
+[2023-04-17 21:51:38] INFO root fetch - processPackages [lidia]: executing diffoscope
+[2023-04-17 21:51:38] INFO root fetch - processPackages [lidia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lidia-0.8.0.tar.gz tmp/lidia-0.8.1.tar.gz --markdown 20230417/l/lidia/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-04-17 21:51:38] INFO root fetch - processPackages [yopass-api]: Downloading https://files.pythonhosted.org/packages/d0/7d/bb2d1a0a5139bdcf65c6446f7342884abedb192d3c20264bb62017c38776/yopass_api-0.0.5.tar.gz
+[2023-04-17 21:51:38] INFO root fetch - processPackages [yopass-api]: executing diffoscope
+[2023-04-17 21:51:38] INFO root fetch - processPackages [yopass-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yopass_api-0.0.4.tar.gz tmp/yopass_api-0.0.5.tar.gz --markdown 20230417/y/yopass-api/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-17 21:51:39] INFO root fetch - processPackages [fluxrpc]: Start processing: gsf
+[2023-04-17 21:51:39] INFO root fetch - main [MainThread]: End processing [fluxrpc]: success
+[2023-04-17 21:51:39] INFO root fetch - processPackages [gsf]: New version: [2.0.0.dev18] Old Version: [2.0.0.dev17]
+[2023-04-17 21:51:39] INFO root fetch - processPackages [gpt4all-j]: Start processing: Simba-UW-tf-dev
+[2023-04-17 21:51:39] INFO root fetch - main [MainThread]: End processing [gpt4all-j]: success
+[2023-04-17 21:51:39] INFO root fetch - processPackages [Simba-UW-tf-dev]: New version: [1.56.5] Old Version: [1.56.4]
+[2023-04-17 21:51:39] INFO root fetch - processPackages [invokify]: Start processing: clusterfiles
+[2023-04-17 21:51:39] INFO root fetch - main [MainThread]: End processing [invokify]: success
+[2023-04-17 21:51:39] WARNING root fetch - processPackages [clusterfiles]: Skipping, unable to determine old version
+[2023-04-17 21:51:39] INFO root fetch - processPackages [clusterfiles]: Start processing: covalent
+[2023-04-17 21:51:39] INFO root fetch - main [MainThread]: End processing [clusterfiles] error
+[2023-04-17 21:51:39] INFO root fetch - processPackages [Simba-UW-tf-dev]: Downloading https://files.pythonhosted.org/packages/01/cd/425f644dc6ba75838c974e88bfa28f137763416f04253829334682f42bf7/Simba-UW-tf-dev-1.56.5.tar.gz
+[2023-04-17 21:51:39] INFO root fetch - processPackages [cleancourt]: Start processing: openctp-ctp-6315
+[2023-04-17 21:51:39] INFO root fetch - main [MainThread]: End processing [cleancourt]: success
+[2023-04-17 21:51:39] INFO root fetch - processPackages [gsf]: Downloading https://files.pythonhosted.org/packages/bb/a6/80982e29802295cafdd7c0d80999d58e2288158989a4e7214ba7ee416e5c/gsf-2.0.0.dev17-py3-none-any.whl
+[2023-04-17 21:51:39] INFO root fetch - processPackages [covalent]: New version: [0.220.0rc0] Old Version: [0.219.0rc0]
+[2023-04-17 21:51:39] INFO root fetch - processPackages [Simba-UW-tf-dev]: executing diffoscope
+[2023-04-17 21:51:39] INFO root fetch - processPackages [Simba-UW-tf-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Simba-UW-tf-dev-1.56.4.tar.gz tmp/Simba-UW-tf-dev-1.56.5.tar.gz --markdown 20230417/S/Simba-UW-tf-dev/1.56.4-1.56.5/diff.md --exclude *.pyd
+[2023-04-17 21:51:39] INFO root fetch - processPackages [openctp-ctp-6315]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-17 21:51:39] INFO root fetch - processPackages [yopass-api]: Start processing: openctp-ctp-6319
+[2023-04-17 21:51:39] INFO root fetch - main [MainThread]: End processing [yopass-api]: success
+[2023-04-17 21:51:40] INFO root fetch - processPackages [constructs]: Start processing: fluxvault
+[2023-04-17 21:51:40] INFO root fetch - main [MainThread]: End processing [constructs]: success
+[2023-04-17 21:51:40] INFO root fetch - processPackages [gsf]: Downloading https://files.pythonhosted.org/packages/f0/9c/3ffb6cbdf1b684cc3945431cf7c2b3cfff2ab269b7eb4f9f88e30f42d6df/gsf-2.0.0.dev18-py3-none-any.whl
+[2023-04-17 21:51:40] INFO root fetch - processPackages [openctp-ctp-6315]: Downloading https://files.pythonhosted.org/packages/7c/51/048fc954487d7457238c89ee1f577dd6df1b834119c16d07cddc54d5fd1d/openctp_ctp_6315-1.0.0-cp39-cp39-win_amd64.whl
+[2023-04-17 21:51:40] INFO root fetch - processPackages [openctp-ctp-6319]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-17 21:51:40] INFO root fetch - processPackages [covalent]: Downloading https://files.pythonhosted.org/packages/ad/18/c298a9c501b4ac044a2b9460ec47170a4968777d36c8f722bc5d3afeb35a/covalent-0.220.0rc0.tar.gz
+[2023-04-17 21:51:40] INFO root fetch - processPackages [fluxvault]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-17 21:51:40] INFO root fetch - processPackages [gsf]: executing diffoscope
+[2023-04-17 21:51:40] INFO root fetch - processPackages [gsf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gsf-2.0.0.dev17-py3-none-any.whl.zip tmp/gsf-2.0.0.dev18-py3-none-any.whl.zip --markdown 20230417/g/gsf/2.0.0.dev17-2.0.0.dev18/diff.md --exclude *.pyd
+[2023-04-17 21:51:40] INFO root fetch - processPackages [openctp-ctp-6319]: Downloading https://files.pythonhosted.org/packages/c6/d6/68382179771b47ebaf396c41b58dd5f5b968a5468432d373375e6c0acf36/openctp_ctp_6319-1.0.0-cp39-cp39-win_amd64.whl
+[2023-04-17 21:51:40] INFO root fetch - processPackages [heppyness]: Start processing: openctp-ctp-651
+[2023-04-17 21:51:40] INFO root fetch - main [MainThread]: End processing [heppyness]: success
+[2023-04-17 21:51:40] INFO root fetch - processPackages [fluxvault]: Downloading https://files.pythonhosted.org/packages/d7/d5/dbfa6ace06aba2d02eca5abfa5f6ec892efef11b45ebcb71d34b50e3d37e/fluxvault-0.9.8.tar.gz
+[2023-04-17 21:51:40] INFO root fetch - processPackages [openctp-ctp-651]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-17 21:51:40] INFO root fetch - processPackages [fluxvault]: Downloading https://files.pythonhosted.org/packages/9b/6d/0ac4d27a70a2594032d6ffd4e7ad971ca7115952825099b359e75e5dd95c/fluxvault-0.9.9.tar.gz
+[2023-04-17 21:51:40] INFO root fetch - processPackages [covalent]: executing diffoscope
+[2023-04-17 21:51:40] INFO root fetch - processPackages [covalent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/covalent-0.219.0rc0.tar.gz tmp/covalent-0.220.0rc0.tar.gz --markdown 20230417/c/covalent/0.219.0rc0-0.220.0rc0/diff.md --exclude *.pyd
+[2023-04-17 21:51:40] INFO root fetch - processPackages [openctp-ctp-651]: Downloading https://files.pythonhosted.org/packages/f6/29/e7d1b70622d5b7004754dcd8b4a76e358150daa4728d6d7dd4749c3f5611/openctp_ctp_651-1.0.0-cp39-cp39-win_amd64.whl
+[2023-04-17 21:51:40] INFO root fetch - processPackages [fluxvault]: executing diffoscope
+[2023-04-17 21:51:40] INFO root fetch - processPackages [fluxvault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fluxvault-0.9.8.tar.gz tmp/fluxvault-0.9.9.tar.gz --markdown 20230417/f/fluxvault/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-17 21:51:40] INFO root fetch - processPackages [openctp-ctp-6315]: Downloading https://files.pythonhosted.org/packages/94/ba/ea91faf292f25653bb9859d5e677752c21232eea39759d0ce5d4e00045cc/openctp_ctp_6315-1.0.1-cp39-cp39-manylinux_2_17_x86_64.whl
+[2023-04-17 21:51:41] INFO root fetch - processPackages [openctp-ctp-6319]: Downloading https://files.pythonhosted.org/packages/d4/f3/42bf002f55eb692f79c575d7cc165a0236a6a04450530c36a22f27412e34/openctp_ctp_6319-1.0.1-cp39-cp39-manylinux_2_17_x86_64.whl
+[2023-04-17 21:51:41] INFO root fetch - processPackages [gsf]: Start processing: proteinTools
+[2023-04-17 21:51:41] INFO root fetch - main [MainThread]: End processing [gsf]: success
+[2023-04-17 21:51:41] INFO root fetch - processPackages [lidia]: Start processing: openctp-ctp-661
+[2023-04-17 21:51:41] INFO root fetch - main [MainThread]: End processing [lidia]: success
+[2023-04-17 21:51:41] INFO root fetch - processPackages [proteinTools]: New version: [1.0.1] Old Version: [0.1.9]
+[2023-04-17 21:51:41] INFO root fetch - processPackages [openctp-ctp-661]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-17 21:51:41] INFO root fetch - processPackages [proteinTools]: Downloading https://files.pythonhosted.org/packages/29/a1/c2b29d08ac299a0c81988949b66a596f434390b37fb28a3c12bec7cc23f2/proteinTools-0.1.9.tar.gz
+[2023-04-17 21:51:41] INFO root fetch - processPackages [openctp-ctp-661]: Downloading https://files.pythonhosted.org/packages/d4/92/4c50450c5ef8be94f84c07c2c112373ac111af88593d4624f1a03b421755/openctp_ctp_661-1.0.0-cp39-cp39-win_amd64.whl
+[2023-04-17 21:51:41] INFO root fetch - processPackages [openctp-ctp-6315]: executing diffoscope
+[2023-04-17 21:51:41] INFO root fetch - processPackages [openctp-ctp-6315]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openctp_ctp_6315-1.0.0-cp39-cp39-win_amd64.whl.zip tmp/openctp_ctp_6315-1.0.1-cp39-cp39-manylinux_2_17_x86_64.whl.zip --markdown 20230417/o/openctp-ctp-6315/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-17 21:51:41] INFO root fetch - processPackages [proteinTools]: Downloading https://files.pythonhosted.org/packages/fe/e1/9dfa7fb2b3cb1597a091e25e3fe6f606eb44f9b43dfe69d1ce9fb9b600ac/proteinTools-1.0.1.tar.gz
+[2023-04-17 21:51:41] INFO root fetch - processPackages [google-cloud-build]: Start processing: BBFinance
+[2023-04-17 21:51:41] INFO root fetch - main [MainThread]: End processing [google-cloud-build]: success
+[2023-04-17 21:51:41] INFO root fetch - processPackages [openctp-ctp-651]: Downloading https://files.pythonhosted.org/packages/7b/f6/d30f2d3ca372358069bb016a937cb1469595b902fe3718970a40f4b87d8f/openctp_ctp_651-1.0.1-cp39-cp39-manylinux_2_17_x86_64.whl
+[2023-04-17 21:51:41] INFO root fetch - processPackages [openctp-ctp-6319]: executing diffoscope
+[2023-04-17 21:51:41] INFO root fetch - processPackages [openctp-ctp-6319]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openctp_ctp_6319-1.0.0-cp39-cp39-win_amd64.whl.zip tmp/openctp_ctp_6319-1.0.1-cp39-cp39-manylinux_2_17_x86_64.whl.zip --markdown 20230417/o/openctp-ctp-6319/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-17 21:51:41] INFO root fetch - processPackages [BBFinance]: New version: [1.4.8] Old Version: [1.4.7]
+[2023-04-17 21:51:41] INFO root fetch - processPackages [proteinTools]: executing diffoscope
+[2023-04-17 21:51:41] INFO root fetch - processPackages [proteinTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proteinTools-0.1.9.tar.gz tmp/proteinTools-1.0.1.tar.gz --markdown 20230417/p/proteinTools/0.1.9-1.0.1/diff.md --exclude *.pyd
+[2023-04-17 21:51:42] INFO root fetch - processPackages [BBFinance]: Downloading https://files.pythonhosted.org/packages/8b/24/9f3acf0d1bca9138d824ddedf722899671a089bef4ea8f307a3548e0dbf1/BBFinance-1.4.7.tar.gz
+[2023-04-17 21:51:42] INFO root fetch - processPackages [BBFinance]: Downloading https://files.pythonhosted.org/packages/57/43/2b8bed52a186de43a81f02eabb38124a09f3665cf47479ac7e666c19dc9f/BBFinance-1.4.8.tar.gz
+[2023-04-17 21:51:42] INFO root fetch - processPackages [BBFinance]: executing diffoscope
+[2023-04-17 21:51:42] INFO root fetch - processPackages [BBFinance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BBFinance-1.4.7.tar.gz tmp/BBFinance-1.4.8.tar.gz --markdown 20230417/B/BBFinance/1.4.7-1.4.8/diff.md --exclude *.pyd
+[2023-04-17 21:51:42] INFO root fetch - processPackages [fluxvault]: Start processing: icat-iml
+[2023-04-17 21:51:42] INFO root fetch - main [MainThread]: End processing [fluxvault]: success
+[2023-04-17 21:51:42] INFO root fetch - processPackages [icat-iml]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-17 21:51:42] INFO root fetch - processPackages [icat-iml]: executing diffoscope
+[2023-04-17 21:51:42] INFO root fetch - processPackages [icat-iml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icat-iml-0.1.0.tar.gz tmp/icat-iml-0.1.1.tar.gz --markdown 20230417/i/icat-iml/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-17 21:51:42] INFO root fetch - processPackages [openctp-ctp-661]: Downloading https://files.pythonhosted.org/packages/e7/e5/3498a1c2117c15cfb129690aa6805f7119c73d06b541ba214d69fd346773/openctp_ctp_661-1.0.1-cp39-cp39-manylinux_2_17_x86_64.whl
+[2023-04-17 21:51:42] INFO root fetch - processPackages [openctp-ctp-651]: executing diffoscope
+[2023-04-17 21:51:42] INFO root fetch - processPackages [openctp-ctp-651]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openctp_ctp_651-1.0.0-cp39-cp39-win_amd64.whl.zip tmp/openctp_ctp_651-1.0.1-cp39-cp39-manylinux_2_17_x86_64.whl.zip --markdown 20230417/o/openctp-ctp-651/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-17 21:51:43] INFO root fetch - processPackages [proteinTools]: Start processing: pipen-board
+[2023-04-17 21:51:43] INFO root fetch - main [MainThread]: End processing [proteinTools]: success
+[2023-04-17 21:51:43] WARNING root fetch - processPackages [pipen-board]: Skipping, unable to determine old version
+[2023-04-17 21:51:43] INFO root fetch - processPackages [pipen-board]: Start processing: openctp-ctp-667
+[2023-04-17 21:51:43] INFO root fetch - main [MainThread]: End processing [pipen-board] error
+[2023-04-17 21:51:43] INFO root fetch - processPackages [openctp-ctp-667]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-17 21:51:43] INFO root fetch - processPackages [openctp-ctp-667]: Downloading https://files.pythonhosted.org/packages/ef/70/dd556b5e5a6d7dc9821974a307277d6ef94d3997766df34815e6446de601/openctp_ctp_667-1.0.0-cp39-cp39-win_amd64.whl
+[2023-04-17 21:51:44] INFO root fetch - processPackages [icat-iml]: Start processing: openctp-ctp-669
+[2023-04-17 21:51:44] INFO root fetch - main [MainThread]: End processing [icat-iml]: success
+[2023-04-17 21:51:44] INFO root fetch - processPackages [openctp-ctp-669]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-17 21:51:44] INFO root fetch - processPackages [openctp-ctp-6315]: Start processing: gsf
+[2023-04-17 21:51:44] INFO root fetch - main [MainThread]: End processing [openctp-ctp-6315]: success
+[2023-04-17 21:51:44] INFO root fetch - processPackages [gsf]: New version: [2.0.0.dev18] Old Version: [2.0.0.dev17]
+[2023-04-17 21:51:44] INFO root fetch - processPackages [openctp-ctp-661]: executing diffoscope
+[2023-04-17 21:51:44] INFO root fetch - processPackages [openctp-ctp-661]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openctp_ctp_661-1.0.0-cp39-cp39-win_amd64.whl.zip tmp/openctp_ctp_661-1.0.1-cp39-cp39-manylinux_2_17_x86_64.whl.zip --markdown 20230417/o/openctp-ctp-661/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-17 21:51:44] INFO root fetch - processPackages [gsf]: executing diffoscope
+[2023-04-17 21:51:44] INFO root fetch - processPackages [gsf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gsf-2.0.0.dev17-py3-none-any.whl.zip tmp/gsf-2.0.0.dev18-py3-none-any.whl.zip --markdown 20230417/g/gsf/2.0.0.dev17-2.0.0.dev18/diff.md --exclude *.pyd
+[2023-04-17 21:51:44] INFO root fetch - processPackages [openctp-ctp-669]: Downloading https://files.pythonhosted.org/packages/59/75/ca478635d4735add3e6532fba2358ad349ab134aea379254397f5e463703/openctp_ctp_669-1.0.0-cp39-cp39-win_amd64.whl
+[2023-04-17 21:51:44] INFO root fetch - processPackages [covalent]: Start processing: gsfarc
+[2023-04-17 21:51:44] INFO root fetch - main [MainThread]: End processing [covalent]: success
+[2023-04-17 21:51:44] INFO root fetch - processPackages [openctp-ctp-6319]: Start processing: channels-auth-token-middlewares
+[2023-04-17 21:51:44] INFO root fetch - main [MainThread]: End processing [openctp-ctp-6319]: success
+[2023-04-17 21:51:44] INFO root fetch - processPackages [gsfarc]: New version: [2.0.0.dev18] Old Version: [1.0.4]
+[2023-04-17 21:51:44] INFO root fetch - processPackages [channels-auth-token-middlewares]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-17 21:51:44] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
+[2023-04-17 21:51:44] INFO root fetch - processPackages [gsfarc]: Downloading https://files.pythonhosted.org/packages/fd/90/ad63b2c63a4fb68bd1a10fe95489379e382ef9e1fb300bb02895a6196bc8/gsfarc-1.0.4.zip
+[2023-04-17 21:51:44] INFO root fetch - main [MainThread]: End processing [BBFinance]: success
+[2023-04-17 21:51:44] INFO root fetch - processPackages [channels-auth-token-middlewares]: Downloading https://files.pythonhosted.org/packages/db/86/1c95b2c03f8fc6a0cf3d6fbe2d3f1cb47cbb17d7396a865e7d5cd5b00daa/channels_auth_token_middlewares-1.0.0.tar.gz
+[2023-04-17 21:51:45] INFO root fetch - processPackages [channels-auth-token-middlewares]: Downloading https://files.pythonhosted.org/packages/00/f0/e10dc4ecca9e87878325ed88becfc8300b28f02a92f916f9b539630b005c/channels_auth_token_middlewares-1.0.1.tar.gz
+[2023-04-17 21:51:45] INFO root fetch - processPackages [openctp-ctp-667]: Downloading https://files.pythonhosted.org/packages/4c/eb/6d385e7e7a3a3653d112fd42d6a9e01c2efe99bbbbc94f74e614a83f9c0a/openctp_ctp_667-1.0.1-cp39-cp39-manylinux_2_17_x86_64.whl
+[2023-04-17 21:51:45] INFO root fetch - processPackages [gsfarc]: Downloading https://files.pythonhosted.org/packages/be/cd/68a7e175c56a985c33f68d1f6c8feb5bba5cbc45fbd269a8874393e2628a/gsfarc-2.0.0.dev18-py3-none-any.whl
+[2023-04-17 21:51:45] INFO root fetch - processPackages [channels-auth-token-middlewares]: executing diffoscope
+[2023-04-17 21:51:45] INFO root fetch - processPackages [channels-auth-token-middlewares]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/channels_auth_token_middlewares-1.0.0.tar.gz tmp/channels_auth_token_middlewares-1.0.1.tar.gz --markdown 20230417/c/channels-auth-token-middlewares/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-17 21:51:45] INFO root fetch - processPackages [gsfarc]: executing diffoscope
+[2023-04-17 21:51:45] INFO root fetch - processPackages [gsfarc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gsfarc-1.0.4.zip tmp/gsfarc-2.0.0.dev18-py3-none-any.whl.zip --markdown 20230417/g/gsfarc/1.0.4-2.0.0.dev18/diff.md --exclude *.pyd
+[2023-04-17 21:51:45] INFO root fetch - main [MainThread]: End processing [openctp-ctp-651]: success
+[2023-04-17 21:51:45] INFO root fetch - main [MainThread]: End processing [gsf]: success
+[2023-04-17 21:51:45] INFO root fetch - processPackages [openctp-ctp-669]: Downloading https://files.pythonhosted.org/packages/46/7f/cb13e85501b09edfaf77c69b33a34fc3784e3ddb09c8f10a33ea12f29bc3/openctp_ctp_669-1.0.1-cp39-cp39-manylinux_2_17_x86_64.whl
+[2023-04-17 21:51:46] INFO root fetch - processPackages [openctp-ctp-667]: executing diffoscope
+[2023-04-17 21:51:46] INFO root fetch - processPackages [openctp-ctp-667]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openctp_ctp_667-1.0.0-cp39-cp39-win_amd64.whl.zip tmp/openctp_ctp_667-1.0.1-cp39-cp39-manylinux_2_17_x86_64.whl.zip --markdown 20230417/o/openctp-ctp-667/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-17 21:51:46] INFO root fetch - main [MainThread]: End processing [channels-auth-token-middlewares]: success
+[2023-04-17 21:51:46] INFO root fetch - main [MainThread]: End processing [gsfarc]: success
+[2023-04-17 21:51:46] INFO root fetch - processPackages [openctp-ctp-669]: executing diffoscope
+[2023-04-17 21:51:46] INFO root fetch - processPackages [openctp-ctp-669]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openctp_ctp_669-1.0.0-cp39-cp39-win_amd64.whl.zip tmp/openctp_ctp_669-1.0.1-cp39-cp39-manylinux_2_17_x86_64.whl.zip --markdown 20230417/o/openctp-ctp-669/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-17 21:51:46] INFO root fetch - main [MainThread]: End processing [openctp-ctp-661]: success
+[2023-04-17 21:51:48] INFO root fetch - main [MainThread]: End processing [openctp-ctp-667]: success
+[2023-04-17 21:51:49] INFO root fetch - main [MainThread]: End processing [openctp-ctp-669]: success
+[2023-04-17 21:53:22] INFO root fetch - main [MainThread]: End processing [gojsonnet]: success
+[2023-04-17 21:53:22] INFO root fetch - main [MainThread]: Store serial: [17743716]
