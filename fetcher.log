@@ -21338,3 +21338,61 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-17 21:35:53] INFO root fetch - main [MainThread]: End processing [feedcrawler]: success
 [2023-04-17 21:35:55] INFO root fetch - main [MainThread]: End processing [itkwidgets]: success
 [2023-04-17 21:35:55] INFO root fetch - main [MainThread]: Store serial: [17743462]
+[2023-04-17 21:40:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17743462]
+[2023-04-17 21:41:04] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-17 21:41:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: icat-iml
+[2023-04-17 21:41:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gamfra-test-probability
+[2023-04-17 21:41:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: apache-airflow-providers-fastetl
+[2023-04-17 21:41:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fargv
+[2023-04-17 21:41:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: saltgang
+[2023-04-17 21:41:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ressyy
+[2023-04-17 21:41:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: TheSilent
+[2023-04-17 21:41:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: histomicstk
+[2023-04-17 21:41:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: universalio
+[2023-04-17 21:41:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sozlukpy
+[2023-04-17 21:41:04] INFO root fetch - processPackages [icat-iml]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-17 21:41:04] INFO root fetch - processPackages [apache-airflow-providers-fastetl]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-17 21:41:04] WARNING root fetch - processPackages [gamfra-test-probability]: Skipping, unable to determine old version
+[2023-04-17 21:41:04] INFO root fetch - main [MainThread]: End processing [gamfra-test-probability] error
+[2023-04-17 21:41:04] INFO root fetch - processPackages [saltgang]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-17 21:41:04] INFO root fetch - processPackages [fargv]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-04-17 21:41:04] INFO root fetch - processPackages [universalio]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 21:41:04] INFO root fetch - processPackages [saltgang]: Downloading https://files.pythonhosted.org/packages/16/bf/9443cff3205e81af654e1a61f32183c912b678457535981077fbf10b3238/saltgang-0.1.8.tar.gz
+[2023-04-17 21:41:04] INFO root fetch - processPackages [sozlukpy]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-17 21:41:04] WARNING root fetch - processPackages [ressyy]: Skipping, unable to determine old version
+[2023-04-17 21:41:04] INFO root fetch - main [MainThread]: End processing [ressyy] error
+[2023-04-17 21:41:04] INFO root fetch - processPackages [universalio]: executing diffoscope
+[2023-04-17 21:41:04] INFO root fetch - processPackages [universalio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/universalio-0.0.8.tar.gz tmp/universalio-0.0.9-py3-none-any.whl.zip --markdown 20230417/u/universalio/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 21:41:04] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-17 21:41:04] INFO root fetch - processPackages [histomicstk]: New version: [1.2.6.dev3] Old Version: [1.2.6.dev1]
+[2023-04-17 21:41:04] INFO root fetch - processPackages [fargv]: Downloading https://files.pythonhosted.org/packages/8c/2c/1c524fcf9f79150860f202c94496a816758606e3e1d1d3ebc7973ed96c92/fargv-0.1.7.tar.gz
+[2023-04-17 21:41:04] INFO root fetch - processPackages [icat-iml]: Downloading https://files.pythonhosted.org/packages/5d/e6/c5128269cace490399fbfe70025b79720243d7b687ad097394b4812c3641/icat-iml-0.1.0.tar.gz
+[2023-04-17 21:41:04] INFO root fetch - processPackages [sozlukpy]: Downloading https://files.pythonhosted.org/packages/5c/1e/e2c77415bb5dfd2a3035e54dd0f2e23602e4bb3ada43ee3ca19b585fefd7/sozlukpy-0.0.6.tar.gz
+[2023-04-17 21:41:04] INFO root fetch - processPackages [histomicstk]: Downloading https://files.pythonhosted.org/packages/8e/05/59f477f67b83074111f5f900e5d7a43262eeb66e7f2d15cea8a9cac41f0c/histomicstk-1.2.6.dev1.tar.gz
+[2023-04-17 21:41:04] INFO root fetch - processPackages [apache-airflow-providers-fastetl]: Downloading https://files.pythonhosted.org/packages/2e/ed/7a4bce0748f4d54c7cb8d8e68b1dfb79834823a47af3d184e428b94e1e4d/apache-airflow-providers-fastetl-0.0.7.tar.gz
+[2023-04-17 21:41:04] INFO root fetch - processPackages [icat-iml]: Downloading https://files.pythonhosted.org/packages/1a/7a/6d0a3ea89f7b0f8451f66054737f93ec42fadfc9818927605940d4b5d751/icat-iml-0.1.1.tar.gz
+[2023-04-17 21:41:04] INFO root fetch - processPackages [apache-airflow-providers-fastetl]: executing diffoscope
+[2023-04-17 21:41:04] INFO root fetch - processPackages [apache-airflow-providers-fastetl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-fastetl-0.0.6.tar.gz tmp/apache-airflow-providers-fastetl-0.0.7.tar.gz --markdown 20230417/a/apache-airflow-providers-fastetl/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-17 21:41:04] WARNING root fetch - processPackages [histomicstk]: Skipping package: exceeds size limit 26140875>=10485760
+[2023-04-17 21:41:04] INFO root fetch - main [MainThread]: End processing [histomicstk] error
+[2023-04-17 21:41:04] INFO root fetch - processPackages [saltgang]: Downloading https://files.pythonhosted.org/packages/91/02/b5fe37b6008ecfdcc955cdab8c98606cd5738661fa7ca825924b35ac396b/saltgang-0.1.9.tar.gz
+[2023-04-17 21:41:04] INFO root fetch - processPackages [fargv]: Downloading https://files.pythonhosted.org/packages/82/55/e55b26aaaad30593a5b1f0d2cade94f540a09334ab0ff4ff5d93caa4654e/fargv-0.1.8-py3-none-any.whl
+[2023-04-17 21:41:04] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-04-17 21:41:04] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230417/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-17 21:41:04] INFO root fetch - processPackages [icat-iml]: executing diffoscope
+[2023-04-17 21:41:04] INFO root fetch - processPackages [icat-iml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icat-iml-0.1.0.tar.gz tmp/icat-iml-0.1.1.tar.gz --markdown 20230417/i/icat-iml/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-17 21:41:05] INFO root fetch - processPackages [fargv]: executing diffoscope
+[2023-04-17 21:41:05] INFO root fetch - processPackages [fargv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fargv-0.1.7.tar.gz tmp/fargv-0.1.8-py3-none-any.whl.zip --markdown 20230417/f/fargv/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-04-17 21:41:05] INFO root fetch - processPackages [sozlukpy]: Downloading https://files.pythonhosted.org/packages/e8/15/2ba293cb601c02528db319d2b2d077ffb52be0ddb872a58c567cbaa17b69/sozlukpy-0.0.7.tar.gz
+[2023-04-17 21:41:05] INFO root fetch - processPackages [saltgang]: executing diffoscope
+[2023-04-17 21:41:05] INFO root fetch - processPackages [saltgang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saltgang-0.1.8.tar.gz tmp/saltgang-0.1.9.tar.gz --markdown 20230417/s/saltgang/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-17 21:41:05] INFO root fetch - processPackages [sozlukpy]: executing diffoscope
+[2023-04-17 21:41:05] INFO root fetch - processPackages [sozlukpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sozlukpy-0.0.6.tar.gz tmp/sozlukpy-0.0.7.tar.gz --markdown 20230417/s/sozlukpy/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-17 21:41:05] INFO root fetch - main [MainThread]: End processing [universalio]: success
+[2023-04-17 21:41:06] INFO root fetch - main [MainThread]: End processing [fargv]: success
+[2023-04-17 21:41:06] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-04-17 21:41:06] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-fastetl]: success
+[2023-04-17 21:41:06] INFO root fetch - main [MainThread]: End processing [sozlukpy]: success
+[2023-04-17 21:41:06] INFO root fetch - main [MainThread]: End processing [icat-iml]: success
+[2023-04-17 21:41:06] INFO root fetch - main [MainThread]: End processing [saltgang]: success
+[2023-04-17 21:41:06] INFO root fetch - main [MainThread]: Store serial: [17743506]
