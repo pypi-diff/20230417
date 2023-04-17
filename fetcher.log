@@ -10639,3 +10639,110 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-04-17 12:47:25] INFO root fetch - main [MainThread]: End processing [fiduswriter-books]: success
 [2023-04-17 12:47:26] INFO root fetch - main [MainThread]: End processing [google-cloud-notebooks]: success
 [2023-04-17 12:47:26] INFO root fetch - main [MainThread]: Store serial: [17736966]
+[2023-04-17 12:52:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17736966]
+[2023-04-17 12:52:35] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-04-17 12:52:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datareservoirio
+[2023-04-17 12:52:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dcm-processor
+[2023-04-17 12:52:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spetlr-tools
+[2023-04-17 12:52:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fiduswriter-gitrepo-export
+[2023-04-17 12:52:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pybeef
+[2023-04-17 12:52:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: commonX
+[2023-04-17 12:52:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: calcasa-api
+[2023-04-17 12:52:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wadi
+[2023-04-17 12:52:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: luminesce-sdk-preview
+[2023-04-17 12:52:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: paddypy
+[2023-04-17 12:52:35] INFO root fetch - processPackages [paddypy]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-17 12:52:35] INFO root fetch - processPackages [datareservoirio]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-04-17 12:52:35] INFO root fetch - processPackages [dcm-processor]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-17 12:52:35] INFO root fetch - processPackages [spetlr-tools]: New version: [0.1.30] Old Version: [0.1.29]
+[2023-04-17 12:52:35] INFO root fetch - processPackages [fiduswriter-gitrepo-export]: New version: [3.11.3] Old Version: [3.11.2]
+[2023-04-17 12:52:35] WARNING root fetch - processPackages [pybeef]: Skipping, unable to determine old version
+[2023-04-17 12:52:35] INFO root fetch - processPackages [commonX]: New version: [0.4.0] Old Version: [0.3.9]
+[2023-04-17 12:52:35] INFO root fetch - processPackages [pybeef]: Start processing: gig-nuuuwan
+[2023-04-17 12:52:35] INFO root fetch - main [MainThread]: End processing [pybeef] error
+[2023-04-17 12:52:35] INFO root fetch - processPackages [wadi]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-04-17 12:52:35] INFO root fetch - processPackages [calcasa-api]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-04-17 12:52:35] INFO root fetch - processPackages [paddypy]: executing diffoscope
+[2023-04-17 12:52:35] INFO root fetch - processPackages [paddypy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paddypy-0.0.6.tar.gz tmp/paddypy-0.0.7.tar.gz --markdown 20230417/p/paddypy/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-17 12:52:35] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2023-04-17 12:52:35] INFO root fetch - processPackages [gig-nuuuwan]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-04-17 12:52:35] INFO root fetch - processPackages [datareservoirio]: Downloading https://files.pythonhosted.org/packages/c4/10/8819372e9d504951c92770ad52b3eb53b08ea312fa74a580420b90be65a0/datareservoirio-0.9.7-py3-none-any.whl
+[2023-04-17 12:52:35] INFO root fetch - processPackages [wadi]: Downloading https://files.pythonhosted.org/packages/e3/62/1fe635daae85d0519190e28dce418b85484498b54c782b1763d6398f65a1/WADI-0.0.1.tar.gz
+[2023-04-17 12:52:35] INFO root fetch - processPackages [spetlr-tools]: Downloading https://files.pythonhosted.org/packages/c7/b2/8dcd8c630b388381c90206b56ad79411ca14b62fa8458eebd0df72d317f6/spetlr-tools-0.1.29.tar.gz
+[2023-04-17 12:52:35] INFO root fetch - processPackages [commonX]: Downloading https://files.pythonhosted.org/packages/a4/01/b593e2b2f9593bde1d40c763a42d99b3b6793d4c3929863a637021a31460/commonX-0.3.9.tar.gz
+[2023-04-17 12:52:35] INFO root fetch - processPackages [fiduswriter-gitrepo-export]: Downloading https://files.pythonhosted.org/packages/87/bd/a7434316c116238ca4285e3501e52119f11d47283d16a736a9937718df2f/fiduswriter-gitrepo-export-3.11.2.tar.gz
+[2023-04-17 12:52:35] INFO root fetch - processPackages [calcasa-api]: Downloading https://files.pythonhosted.org/packages/97/47/d1bd5e986bdb1604244155dbe7bda471cc4d3c773a6cd683716ef1b20bae/calcasa-api-1.2.0.tar.gz
+[2023-04-17 12:52:35] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/d3/7b/a9c3e829fb03ae79379224fe34adb99d80c6dbfc5f00ccc44cf429d34f61/luminesce-sdk-preview-1.9.88.tar.gz
+[2023-04-17 12:52:35] INFO root fetch - processPackages [dcm-processor]: Downloading https://files.pythonhosted.org/packages/bb/66/77ea3b148489107ac93ff583789dbd9a6016a7c67c33e17d66ac7e47db80/dcm-processor-1.0.2.tar.gz
+[2023-04-17 12:52:35] INFO root fetch - processPackages [gig-nuuuwan]: Downloading https://files.pythonhosted.org/packages/d5/2b/ef6e487c682a411702a43144e89bbba5f2f23f401f46ab09982924706c86/gig-nuuuwan-3.0.8.tar.gz
+[2023-04-17 12:52:35] INFO root fetch - processPackages [commonX]: Downloading https://files.pythonhosted.org/packages/99/73/097718344a0cda88fb7c6151387150b587aa198470a5a2c58372fecbf9fc/commonX-0.4.0.tar.gz
+[2023-04-17 12:52:35] INFO root fetch - processPackages [datareservoirio]: Downloading https://files.pythonhosted.org/packages/2e/42/24c3d90de624f9ac84d221f31604d69a317022b864738a238689db39ec8f/datareservoirio-0.9.8-py3-none-any.whl
+[2023-04-17 12:52:35] INFO root fetch - processPackages [spetlr-tools]: Downloading https://files.pythonhosted.org/packages/86/dc/f10e2034415371acefeff54fa5dbb658b4ec6e3dbc32d7baad452b319c4f/spetlr-tools-0.1.30.tar.gz
+[2023-04-17 12:52:35] INFO root fetch - processPackages [wadi]: Downloading https://files.pythonhosted.org/packages/01/c3/840a81737aeb31771fe0a79a9ac95b494090ed48cc36f2a873978476c411/wadi-0.1.0.tar.gz
+[2023-04-17 12:52:35] INFO root fetch - processPackages [datareservoirio]: executing diffoscope
+[2023-04-17 12:52:35] INFO root fetch - processPackages [datareservoirio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datareservoirio-0.9.7-py3-none-any.whl.zip tmp/datareservoirio-0.9.8-py3-none-any.whl.zip --markdown 20230417/d/datareservoirio/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-04-17 12:52:35] INFO root fetch - processPackages [fiduswriter-gitrepo-export]: Downloading https://files.pythonhosted.org/packages/89/f5/e2bfeb185c17c77fd7ca708990503bf3b97efbf16c0e49fec3aaaed2eb9e/fiduswriter-gitrepo-export-3.11.3.tar.gz
+[2023-04-17 12:52:35] INFO root fetch - processPackages [calcasa-api]: Downloading https://files.pythonhosted.org/packages/95/dd/e1dfbeaa80913daaf3653752a8d4da53850788adb81b0745137db9c24e5a/calcasa-api-1.2.1.tar.gz
+[2023-04-17 12:52:35] INFO root fetch - processPackages [commonX]: executing diffoscope
+[2023-04-17 12:52:35] INFO root fetch - processPackages [commonX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commonX-0.3.9.tar.gz tmp/commonX-0.4.0.tar.gz --markdown 20230417/c/commonX/0.3.9-0.4.0/diff.md --exclude *.pyd
+[2023-04-17 12:52:35] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/b4/a1/29e30342ad6b0ee5f31f57c9ebeee25c12a4805f3f972e1908bf31abd599/luminesce-sdk-preview-1.9.92.tar.gz
+[2023-04-17 12:52:35] INFO root fetch - processPackages [gig-nuuuwan]: Downloading https://files.pythonhosted.org/packages/d7/32/ad141ab1c0303d155dc4358978d8c9d504e69f0174a1baf90daa86adc85d/gig-nuuuwan-3.0.9.tar.gz
+[2023-04-17 12:52:35] INFO root fetch - processPackages [spetlr-tools]: executing diffoscope
+[2023-04-17 12:52:35] INFO root fetch - processPackages [spetlr-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spetlr-tools-0.1.29.tar.gz tmp/spetlr-tools-0.1.30.tar.gz --markdown 20230417/s/spetlr-tools/0.1.29-0.1.30/diff.md --exclude *.pyd
+[2023-04-17 12:52:35] INFO root fetch - processPackages [wadi]: executing diffoscope
+[2023-04-17 12:52:35] INFO root fetch - processPackages [wadi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WADI-0.0.1.tar.gz tmp/wadi-0.1.0.tar.gz --markdown 20230417/w/wadi/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-04-17 12:52:35] INFO root fetch - processPackages [fiduswriter-gitrepo-export]: executing diffoscope
+[2023-04-17 12:52:35] INFO root fetch - processPackages [fiduswriter-gitrepo-export]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiduswriter-gitrepo-export-3.11.2.tar.gz tmp/fiduswriter-gitrepo-export-3.11.3.tar.gz --markdown 20230417/f/fiduswriter-gitrepo-export/3.11.2-3.11.3/diff.md --exclude *.pyd
+[2023-04-17 12:52:36] INFO root fetch - processPackages [calcasa-api]: executing diffoscope
+[2023-04-17 12:52:36] INFO root fetch - processPackages [calcasa-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calcasa-api-1.2.0.tar.gz tmp/calcasa-api-1.2.1.tar.gz --markdown 20230417/c/calcasa-api/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-04-17 12:52:36] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2023-04-17 12:52:36] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20230417/l/luminesce-sdk-preview/1.9.88-1.9.92/diff.md --exclude *.pyd
+[2023-04-17 12:52:36] INFO root fetch - processPackages [gig-nuuuwan]: executing diffoscope
+[2023-04-17 12:52:36] INFO root fetch - processPackages [gig-nuuuwan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gig-nuuuwan-3.0.8.tar.gz tmp/gig-nuuuwan-3.0.9.tar.gz --markdown 20230417/g/gig-nuuuwan/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-04-17 12:52:36] INFO root fetch - processPackages [dcm-processor]: executing diffoscope
+[2023-04-17 12:52:36] INFO root fetch - processPackages [dcm-processor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcm-processor-1.0.1.tar.gz tmp/dcm-processor-1.0.2.tar.gz --markdown 20230417/d/dcm-processor/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-17 12:52:36] INFO root fetch - processPackages [paddypy]: Start processing: q2report
+[2023-04-17 12:52:36] INFO root fetch - main [MainThread]: End processing [paddypy]: success
+[2023-04-17 12:52:36] INFO root fetch - processPackages [q2report]: New version: [0.1.26] Old Version: [0.1.25]
+[2023-04-17 12:52:36] INFO root fetch - processPackages [q2report]: Downloading https://files.pythonhosted.org/packages/1a/c6/89ccd1953bf9d555e3fd636e82e5f0b415d6465f607387c9ed3e1acecdb6/q2report-0.1.25.tar.gz
+[2023-04-17 12:52:37] INFO root fetch - processPackages [q2report]: Downloading https://files.pythonhosted.org/packages/dc/94/229308da9d0df943b859153163509c0970c8840b61d047d801516852417c/q2report-0.1.26.tar.gz
+[2023-04-17 12:52:37] INFO root fetch - processPackages [q2report]: executing diffoscope
+[2023-04-17 12:52:37] INFO root fetch - processPackages [q2report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/q2report-0.1.25.tar.gz tmp/q2report-0.1.26.tar.gz --markdown 20230417/q/q2report/0.1.25-0.1.26/diff.md --exclude *.pyd
+[2023-04-17 12:52:37] INFO root fetch - processPackages [spetlr-tools]: Start processing: tkblock
+[2023-04-17 12:52:37] INFO root fetch - main [MainThread]: End processing [spetlr-tools]: success
+[2023-04-17 12:52:37] INFO root fetch - processPackages [datareservoirio]: Start processing: oz-defender
+[2023-04-17 12:52:37] INFO root fetch - main [MainThread]: End processing [datareservoirio]: success
+[2023-04-17 12:52:37] INFO root fetch - processPackages [tkblock]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-04-17 12:52:37] WARNING root fetch - processPackages [oz-defender]: Skipping, unable to determine old version
+[2023-04-17 12:52:37] INFO root fetch - processPackages [oz-defender]: Start processing: bc-time
+[2023-04-17 12:52:37] INFO root fetch - main [MainThread]: End processing [oz-defender] error
+[2023-04-17 12:52:37] INFO root fetch - processPackages [gig-nuuuwan]: Start processing: synergy-dataset
+[2023-04-17 12:52:37] INFO root fetch - main [MainThread]: End processing [gig-nuuuwan]: success
+[2023-04-17 12:52:37] INFO root fetch - processPackages [bc-time]: New version: [7.0.0] Old Version: [6.0.0]
+[2023-04-17 12:52:37] INFO root fetch - processPackages [synergy-dataset]: New version: [1.0a5] Old Version: [1.0a4]
+[2023-04-17 12:52:37] INFO root fetch - processPackages [tkblock]: Downloading https://files.pythonhosted.org/packages/7e/0d/f42354df7369bdf884b7292ee629ef5fb0bd2f40e6234d09c0fd6777f58a/tkblock-1.0.0.tar.gz
+[2023-04-17 12:52:37] INFO root fetch - processPackages [commonX]: Start processing: bp-data-grid
+[2023-04-17 12:52:37] INFO root fetch - main [MainThread]: End processing [commonX]: success
+[2023-04-17 12:52:37] INFO root fetch - main [MainThread]: End processing [wadi]: success
+[2023-04-17 12:52:37] WARNING root fetch - processPackages [bp-data-grid]: Skipping, unable to determine old version
+[2023-04-17 12:52:37] INFO root fetch - main [MainThread]: End processing [bp-data-grid] error
+[2023-04-17 12:52:37] INFO root fetch - processPackages [synergy-dataset]: Downloading https://files.pythonhosted.org/packages/27/69/f75db9fe4a9d05b8f66e5216e66203860402668afadd9d0f357c7d27a2d8/synergy-dataset-1.0a4.tar.gz
+[2023-04-17 12:52:37] INFO root fetch - processPackages [bc-time]: Downloading https://files.pythonhosted.org/packages/c9/94/deb47570c73e422c3539fb4ea2667b05bb5207e402a75cfeaf7d96691c2c/bc_time-6.0.0.tar.gz
+[2023-04-17 12:52:37] INFO root fetch - main [MainThread]: End processing [fiduswriter-gitrepo-export]: success
+[2023-04-17 12:52:38] INFO root fetch - processPackages [tkblock]: Downloading https://files.pythonhosted.org/packages/be/19/523e8e47586050b09c2a406c500f4969f0520d92c349cbc02e2dd2f2f54f/tkblock-1.1.0.tar.gz
+[2023-04-17 12:52:38] INFO root fetch - processPackages [bc-time]: Downloading https://files.pythonhosted.org/packages/ee/6d/2c8d9915a17d0ffb610123ccc68eae4704a85f2f52d213af2d180a6fa1aa/bc_time-7.0.0.tar.gz
+[2023-04-17 12:52:38] INFO root fetch - processPackages [tkblock]: executing diffoscope
+[2023-04-17 12:52:38] INFO root fetch - processPackages [tkblock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tkblock-1.0.0.tar.gz tmp/tkblock-1.1.0.tar.gz --markdown 20230417/t/tkblock/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-04-17 12:52:38] INFO root fetch - processPackages [synergy-dataset]: Downloading https://files.pythonhosted.org/packages/1e/92/4d19d87da3e247bae0edb5655393ebdb79c334cc1104f066914135d25f81/synergy-dataset-1.0a5.tar.gz
+[2023-04-17 12:52:38] INFO root fetch - processPackages [bc-time]: executing diffoscope
+[2023-04-17 12:52:38] INFO root fetch - processPackages [bc-time]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bc_time-6.0.0.tar.gz tmp/bc_time-7.0.0.tar.gz --markdown 20230417/b/bc-time/6.0.0-7.0.0/diff.md --exclude *.pyd
+[2023-04-17 12:52:38] INFO root fetch - processPackages [synergy-dataset]: executing diffoscope
+[2023-04-17 12:52:38] INFO root fetch - processPackages [synergy-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synergy-dataset-1.0a4.tar.gz tmp/synergy-dataset-1.0a5.tar.gz --markdown 20230417/s/synergy-dataset/1.0a4-1.0a5/diff.md --exclude *.pyd
+[2023-04-17 12:52:38] INFO root fetch - main [MainThread]: End processing [q2report]: success
+[2023-04-17 12:52:39] INFO root fetch - main [MainThread]: End processing [tkblock]: success
+[2023-04-17 12:52:39] INFO root fetch - main [MainThread]: End processing [calcasa-api]: success
+[2023-04-17 12:52:39] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2023-04-17 12:52:39] INFO root fetch - main [MainThread]: End processing [bc-time]: success
+[2023-04-17 12:52:39] INFO root fetch - main [MainThread]: End processing [synergy-dataset]: success
+[2023-04-17 12:52:41] INFO root fetch - main [MainThread]: End processing [dcm-processor]: success
+[2023-04-17 12:52:41] INFO root fetch - main [MainThread]: Store serial: [17737031]
