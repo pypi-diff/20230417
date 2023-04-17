@@ -14401,3 +14401,116 @@ EOFError: EOF read where object expected
 [2023-04-17 15:55:53] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-04-17 15:56:01] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-04-17 15:56:01] INFO root fetch - main [MainThread]: Store serial: [17739217]
+[2023-04-17 16:01:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17739217]
+[2023-04-17 16:01:11] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-04-17 16:01:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: blue-engine
+[2023-04-17 16:01:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sentry
+[2023-04-17 16:01:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mikifunctions
+[2023-04-17 16:01:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-l10n-br-fiscal
+[2023-04-17 16:01:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-l10n-br-account
+[2023-04-17 16:01:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: foursight-cgap
+[2023-04-17 16:01:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: digiDownload
+[2023-04-17 16:01:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ccxt
+[2023-04-17 16:01:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: edwh
+[2023-04-17 16:01:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gurobi-machinelearning
+[2023-04-17 16:01:11] INFO root fetch - processPackages [edwh]: New version: [0.6.0] Old Version: [0.4.5]
+[2023-04-17 16:01:11] INFO root fetch - processPackages [foursight-cgap]: New version: [3.4.0.1b0] Old Version: [3.3.2.2b1]
+[2023-04-17 16:01:11] INFO root fetch - processPackages [mikifunctions]: New version: [0.37] Old Version: [0.3]
+[2023-04-17 16:01:11] INFO root fetch - processPackages [blue-engine]: New version: [0.1.1] Old Version: [0.1]
+[2023-04-17 16:01:11] INFO root fetch - processPackages [edwh]: executing diffoscope
+[2023-04-17 16:01:11] INFO root fetch - processPackages [edwh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edwh-0.4.5.tar.gz tmp/edwh-0.6.0.tar.gz --markdown 20230417/e/edwh/0.4.5-0.6.0/diff.md --exclude *.pyd
+[2023-04-17 16:01:11] INFO root fetch - processPackages [digiDownload]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-17 16:01:11] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: New version: [14.0.5.7.1.dev1] Old Version: [14.0.5.7.1]
+[2023-04-17 16:01:11] INFO root fetch - processPackages [gurobi-machinelearning]: New version: [1.2.0a1] Old Version: [1.1.1]
+[2023-04-17 16:01:11] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: New version: [14.0.9.2.1.dev3] Old Version: [14.0.9.2.1.dev2]
+[2023-04-17 16:01:11] INFO root fetch - processPackages [sentry]: New version: [9.1.2] Old Version: [9.1.1]
+[2023-04-17 16:01:11] INFO root fetch - processPackages [ccxt]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-04-17 16:01:11] INFO root fetch - processPackages [foursight-cgap]: executing diffoscope
+[2023-04-17 16:01:11] INFO root fetch - processPackages [foursight-cgap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight_cgap-3.3.2.2b1.tar.gz tmp/foursight_cgap-3.4.0.1b0.tar.gz --markdown 20230417/f/foursight-cgap/3.3.2.2b1-3.4.0.1b0/diff.md --exclude *.pyd
+[2023-04-17 16:01:11] INFO root fetch - processPackages [mikifunctions]: Downloading https://files.pythonhosted.org/packages/39/7e/4d5a163a1533092397a4f8553965d95b2c7e54fe055c8237d4b9e01e8834/mikifunctions-0.3-py3-none-any.whl
+[2023-04-17 16:01:11] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-04-17 16:01:11] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-3.0.8.tar.gz tmp/ccxt-3.0.9.tar.gz --markdown 20230417/c/ccxt/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-04-17 16:01:11] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: Downloading https://files.pythonhosted.org/packages/27/15/845a945c5df0e4708fcd16e5a81b10dc21568c75d8d937ca530139c169c0/odoo14_addon_l10n_br_account-14.0.5.7.1-py3-none-any.whl
+[2023-04-17 16:01:11] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: Downloading https://files.pythonhosted.org/packages/b6/ae/9800d777e4d7166c8a0ee02cd7c2602421433738397b582d529f48db7c5b/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev2-py3-none-any.whl
+[2023-04-17 16:01:12] INFO root fetch - processPackages [sentry]: Downloading https://files.pythonhosted.org/packages/21/4d/5da43a7276652141ddd62b94c722e359bdae2b7a22878a87cbd2e19b97c0/sentry-9.1.1.tar.gz
+[2023-04-17 16:01:12] INFO root fetch - processPackages [blue-engine]: Downloading https://files.pythonhosted.org/packages/67/f9/0447e100fc5c19ed8a3bc82b08f337348ef7afabf554da6021adbdfb4e3d/blue_engine-0.1.tar.gz
+[2023-04-17 16:01:12] INFO root fetch - processPackages [digiDownload]: Downloading https://files.pythonhosted.org/packages/1a/72/fd36878fc27bcba1dfee9fd70937046e8af1e47f149ed1f5dbd239589eab/digiDownload-0.0.4.tar.gz
+[2023-04-17 16:01:12] INFO root fetch - processPackages [gurobi-machinelearning]: Downloading https://files.pythonhosted.org/packages/1c/c5/ebc8aa087abc85526a7469f726862333056bc76cf0fdf6c295dac01896c3/gurobi-machinelearning-1.2.0a1.tar.gz
+[2023-04-17 16:01:12] WARNING root fetch - processPackages [sentry]: Skipping package: exceeds size limit 25304555>=10485760
+[2023-04-17 16:01:12] INFO root fetch - processPackages [sentry]: Start processing: conekta
+[2023-04-17 16:01:12] INFO root fetch - main [MainThread]: End processing [sentry] error
+[2023-04-17 16:01:12] INFO root fetch - processPackages [digiDownload]: executing diffoscope
+[2023-04-17 16:01:12] INFO root fetch - processPackages [digiDownload]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digiDownload-0.0.3.tar.gz tmp/digiDownload-0.0.4.tar.gz --markdown 20230417/d/digiDownload/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-17 16:01:12] INFO root fetch - processPackages [mikifunctions]: Downloading https://files.pythonhosted.org/packages/6e/f4/c941568ace1ed359ce6e210f92d51fca0a9d866ec618efb64eb5004cc300/mikifunctions-0.37-py3-none-any.whl
+[2023-04-17 16:01:12] INFO root fetch - processPackages [conekta]: New version: [2.6.2] Old Version: [2.6.1]
+[2023-04-17 16:01:12] INFO root fetch - processPackages [gurobi-machinelearning]: executing diffoscope
+[2023-04-17 16:01:12] INFO root fetch - processPackages [gurobi-machinelearning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gurobi-machinelearning-1.1.1.tar.gz tmp/gurobi-machinelearning-1.2.0a1.tar.gz --markdown 20230417/g/gurobi-machinelearning/1.1.1-1.2.0a1/diff.md --exclude *.pyd
+[2023-04-17 16:01:12] INFO root fetch - processPackages [blue-engine]: Downloading https://files.pythonhosted.org/packages/70/6c/acd69f46fbfa3528c1baf84313153db9c98d98088e0f9ebb7937557a3324/blue_engine-0.1.1.tar.gz
+[2023-04-17 16:01:12] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: executing diffoscope
+[2023-04-17 16:01:12] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_account-14.0.5.7.1-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_account-14.0.5.7.1.dev1-py3-none-any.whl.zip --markdown 20230417/o/odoo14-addon-l10n-br-account/14.0.5.7.1-14.0.5.7.1.dev1/diff.md --exclude *.pyd
+[2023-04-17 16:01:12] INFO root fetch - processPackages [mikifunctions]: executing diffoscope
+[2023-04-17 16:01:12] INFO root fetch - processPackages [mikifunctions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mikifunctions-0.3-py3-none-any.whl.zip tmp/mikifunctions-0.37-py3-none-any.whl.zip --markdown 20230417/m/mikifunctions/0.3-0.37/diff.md --exclude *.pyd
+[2023-04-17 16:01:12] INFO root fetch - processPackages [conekta]: Downloading https://files.pythonhosted.org/packages/57/9c/aff8b277e00e14c8c5b770023f95407f69da1573656375e4ea29b34c77b8/conekta-2.6.1.tar.gz
+[2023-04-17 16:01:12] INFO root fetch - processPackages [blue-engine]: executing diffoscope
+[2023-04-17 16:01:12] INFO root fetch - processPackages [blue-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blue_engine-0.1.tar.gz tmp/blue_engine-0.1.1.tar.gz --markdown 20230417/b/blue-engine/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-04-17 16:01:12] INFO root fetch - processPackages [conekta]: Downloading https://files.pythonhosted.org/packages/61/cb/46e600b08d656cc0da4f95766ce7e3bf15f775c138a79b3e2c71359b87f8/conekta-2.6.2.tar.gz
+[2023-04-17 16:01:12] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: Downloading https://files.pythonhosted.org/packages/3e/9d/f06739d0fc5ac83076dbdce19b1fc1ffc33e068724d0f81d8a08b9fed2ef/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev3-py3-none-any.whl
+[2023-04-17 16:01:12] INFO root fetch - processPackages [edwh]: Start processing: headjack
+[2023-04-17 16:01:12] INFO root fetch - main [MainThread]: End processing [edwh]: success
+[2023-04-17 16:01:13] INFO root fetch - processPackages [conekta]: executing diffoscope
+[2023-04-17 16:01:13] INFO root fetch - processPackages [conekta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conekta-2.6.1.tar.gz tmp/conekta-2.6.2.tar.gz --markdown 20230417/c/conekta/2.6.1-2.6.2/diff.md --exclude *.pyd
+[2023-04-17 16:01:13] WARNING root fetch - processPackages [headjack]: Skipping, unable to determine old version
+[2023-04-17 16:01:13] INFO root fetch - processPackages [headjack]: Start processing: CalculatorAugustas
+[2023-04-17 16:01:13] INFO root fetch - main [MainThread]: End processing [headjack] error
+[2023-04-17 16:01:13] INFO root fetch - processPackages [foursight-cgap]: Start processing: edwh-server-provisioning-plugin
+[2023-04-17 16:01:13] INFO root fetch - main [MainThread]: End processing [foursight-cgap]: success
+[2023-04-17 16:01:13] WARNING root fetch - processPackages [edwh-server-provisioning-plugin]: Skipping, unable to determine old version
+[2023-04-17 16:01:13] INFO root fetch - processPackages [edwh-server-provisioning-plugin]: Start processing: odoo-addon-fleet-vehicle-inspection
+[2023-04-17 16:01:13] INFO root fetch - main [MainThread]: End processing [edwh-server-provisioning-plugin] error
+[2023-04-17 16:01:13] WARNING root fetch - processPackages [CalculatorAugustas]: Skipping, unable to determine old version
+[2023-04-17 16:01:13] INFO root fetch - processPackages [CalculatorAugustas]: Start processing: oso-cloud
+[2023-04-17 16:01:13] INFO root fetch - main [MainThread]: End processing [CalculatorAugustas] error
+[2023-04-17 16:01:13] WARNING root fetch - processPackages [odoo-addon-fleet-vehicle-inspection]: Skipping, unable to determine old version
+[2023-04-17 16:01:13] INFO root fetch - processPackages [odoo-addon-fleet-vehicle-inspection]: Start processing: uagents
+[2023-04-17 16:01:13] INFO root fetch - main [MainThread]: End processing [odoo-addon-fleet-vehicle-inspection] error
+[2023-04-17 16:01:13] INFO root fetch - processPackages [oso-cloud]: New version: [1.0.6.dev0] Old Version: [1.0.6]
+[2023-04-17 16:01:13] INFO root fetch - processPackages [uagents]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-04-17 16:01:13] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: executing diffoscope
+[2023-04-17 16:01:13] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev3-py3-none-any.whl.zip --markdown 20230417/o/odoo14-addon-l10n-br-fiscal/14.0.9.2.1.dev2-14.0.9.2.1.dev3/diff.md --exclude *.pyd
+[2023-04-17 16:01:13] INFO root fetch - processPackages [oso-cloud]: Downloading https://files.pythonhosted.org/packages/6b/35/7740174cc4a5bfdfeaeeec22e4dfa47471db960fc4baa674da6a4db1387a/oso_cloud-1.0.6-py3-none-any.whl
+[2023-04-17 16:01:13] INFO root fetch - processPackages [digiDownload]: Start processing: bump-my-version
+[2023-04-17 16:01:13] INFO root fetch - main [MainThread]: End processing [digiDownload]: success
+[2023-04-17 16:01:13] INFO root fetch - processPackages [uagents]: Downloading https://files.pythonhosted.org/packages/54/32/1ee0f8ef62fab701458ede5e8bb77ac9366d2269b3e88b30e6aa1a07f8e2/uagents-0.3.2.tar.gz
+[2023-04-17 16:01:13] INFO root fetch - processPackages [bump-my-version]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-04-17 16:01:13] INFO root fetch - processPackages [oso-cloud]: Downloading https://files.pythonhosted.org/packages/ae/61/c8bf563f616f04c3b191d386a6d388706aeea6762ffc315affec70d43666/oso_cloud-1.0.6.dev0-py3-none-any.whl
+[2023-04-17 16:01:13] INFO root fetch - processPackages [blue-engine]: Start processing: DPG
+[2023-04-17 16:01:13] INFO root fetch - main [MainThread]: End processing [blue-engine]: success
+[2023-04-17 16:01:13] INFO root fetch - processPackages [mikifunctions]: Start processing: mikifunctions
+[2023-04-17 16:01:13] INFO root fetch - main [MainThread]: End processing [mikifunctions]: success
+[2023-04-17 16:01:13] INFO root fetch - processPackages [uagents]: Downloading https://files.pythonhosted.org/packages/62/7c/75ee6c3030740bfc9810c6c713055e5eb183732839b3fe826da7865b6e07/uagents-0.4.0.tar.gz
+[2023-04-17 16:01:13] INFO root fetch - processPackages [mikifunctions]: New version: [0.37] Old Version: [0.3]
+[2023-04-17 16:01:13] INFO root fetch - processPackages [bump-my-version]: Downloading https://files.pythonhosted.org/packages/b3/ca/1e0a366a26c6f38b024eeccfa4005e0e9068c43b26f5c48ec916771d9430/bump-my-version-0.2.0.tar.gz
+[2023-04-17 16:01:13] WARNING root fetch - processPackages [DPG]: Skipping, unable to determine old version
+[2023-04-17 16:01:13] INFO root fetch - processPackages [DPG]: Start processing: django-excel-report
+[2023-04-17 16:01:13] INFO root fetch - main [MainThread]: End processing [DPG] error
+[2023-04-17 16:01:13] INFO root fetch - processPackages [oso-cloud]: executing diffoscope
+[2023-04-17 16:01:13] INFO root fetch - processPackages [oso-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oso_cloud-1.0.6-py3-none-any.whl.zip tmp/oso_cloud-1.0.6.dev0-py3-none-any.whl.zip --markdown 20230417/o/oso-cloud/1.0.6-1.0.6.dev0/diff.md --exclude *.pyd
+[2023-04-17 16:01:13] WARNING root fetch - processPackages [django-excel-report]: Skipping, unable to determine old version
+[2023-04-17 16:01:13] INFO root fetch - main [MainThread]: End processing [django-excel-report] error
+[2023-04-17 16:01:13] INFO root fetch - processPackages [mikifunctions]: executing diffoscope
+[2023-04-17 16:01:13] INFO root fetch - processPackages [mikifunctions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mikifunctions-0.3-py3-none-any.whl.zip tmp/mikifunctions-0.37-py3-none-any.whl.zip --markdown 20230417/m/mikifunctions/0.3-0.37/diff.md --exclude *.pyd
+[2023-04-17 16:01:13] INFO root fetch - processPackages [uagents]: executing diffoscope
+[2023-04-17 16:01:13] INFO root fetch - processPackages [uagents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uagents-0.3.2.tar.gz tmp/uagents-0.4.0.tar.gz --markdown 20230417/u/uagents/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-04-17 16:01:14] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-account]: success
+[2023-04-17 16:01:14] INFO root fetch - processPackages [bump-my-version]: Downloading https://files.pythonhosted.org/packages/ae/e0/ad1e14f7e67bda88dd94ef64507e025d12678ce336f4cc7078bd4db4756a/bump-my-version-0.3.0.tar.gz
+[2023-04-17 16:01:14] INFO root fetch - processPackages [bump-my-version]: executing diffoscope
+[2023-04-17 16:01:14] INFO root fetch - processPackages [bump-my-version]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bump-my-version-0.2.0.tar.gz tmp/bump-my-version-0.3.0.tar.gz --markdown 20230417/b/bump-my-version/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-04-17 16:01:14] INFO root fetch - main [MainThread]: End processing [gurobi-machinelearning]: success
+[2023-04-17 16:01:14] INFO root fetch - main [MainThread]: End processing [mikifunctions]: success
+[2023-04-17 16:01:15] INFO root fetch - main [MainThread]: End processing [oso-cloud]: success
+[2023-04-17 16:01:15] INFO root fetch - main [MainThread]: End processing [conekta]: success
+[2023-04-17 16:01:15] INFO root fetch - main [MainThread]: End processing [uagents]: success
+[2023-04-17 16:01:16] INFO root fetch - main [MainThread]: End processing [bump-my-version]: success
+[2023-04-17 16:01:16] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-fiscal]: success
+[2023-04-17 16:01:19] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-04-17 16:01:19] INFO root fetch - main [MainThread]: Store serial: [17739281]
