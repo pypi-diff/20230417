@@ -6374,3 +6374,74 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 08:18:49] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
 [2023-04-17 08:18:49] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
 [2023-04-17 08:18:49] INFO root fetch - main [MainThread]: Store serial: [17734364]
+[2023-04-17 08:23:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17734364]
+[2023-04-17 08:23:58] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-17 08:23:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addons-oca-sale-promotion
+[2023-04-17 08:23:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torch-explain
+[2023-04-17 08:23:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tutti-client
+[2023-04-17 08:23:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fake-bpy-module-latest
+[2023-04-17 08:23:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nepattern
+[2023-04-17 08:23:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-rdma-qe
+[2023-04-17 08:23:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sfdevtools
+[2023-04-17 08:23:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: EMPOL-GUI
+[2023-04-17 08:23:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: diengine-connect
+[2023-04-17 08:23:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dataflows
+[2023-04-17 08:23:58] INFO root fetch - processPackages [python-rdma-qe]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-17 08:23:58] INFO root fetch - processPackages [odoo-addons-oca-sale-promotion]: New version: [15.0.20230416.0] Old Version: [15.0.20230410.0]
+[2023-04-17 08:23:58] INFO root fetch - processPackages [EMPOL-GUI]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-04-17 08:23:58] INFO root fetch - processPackages [tutti-client]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-04-17 08:23:58] INFO root fetch - processPackages [nepattern]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-04-17 08:23:58] INFO root fetch - processPackages [diengine-connect]: New version: [0.1.7] Old Version: [0.0.3]
+[2023-04-17 08:23:58] INFO root fetch - processPackages [torch-explain]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-04-17 08:23:58] INFO root fetch - processPackages [sfdevtools]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-04-17 08:23:58] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20230417] Old Version: [20230416]
+[2023-04-17 08:23:59] INFO root fetch - processPackages [dataflows]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-04-17 08:23:59] INFO root fetch - processPackages [odoo-addons-oca-sale-promotion]: Downloading https://files.pythonhosted.org/packages/80/32/8bfd5f3cc1a19c864ea431901161983f3288f0431a69357ffd7aea855d70/odoo_addons_oca_sale_promotion-15.0.20230410.0-py3-none-any.whl
+[2023-04-17 08:23:59] INFO root fetch - processPackages [diengine-connect]: Downloading https://files.pythonhosted.org/packages/2b/90/09521b1ae15f0294297bc69078676635d644d05d5f401348092f1f2f2697/diengine-connect-0.0.3.tar.gz
+[2023-04-17 08:23:59] INFO root fetch - processPackages [python-rdma-qe]: Downloading https://files.pythonhosted.org/packages/17/2d/356a86da340e7b2e41e948e331d853861d7725db66082e72a42c06cb97ad/python_rdma_qe-0.0.2.tar.gz
+[2023-04-17 08:23:59] INFO root fetch - processPackages [tutti-client]: Downloading https://files.pythonhosted.org/packages/8c/e7/a27b024d62ccc33711718b92d937f54605062d5fb60dca16b4a89101af37/tutti-client-0.3.8.tar.gz
+[2023-04-17 08:23:59] INFO root fetch - processPackages [EMPOL-GUI]: Downloading https://files.pythonhosted.org/packages/49/a8/cc4f45e670e03ab545050513cc035097e74736b58e02e54326f50f92c6cd/EMPOL_GUI-1.0.0.tar.gz
+[2023-04-17 08:23:59] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/3a/da/96f187011b22c384668eae9d43a69645cc9f67a88745403a2248aea9211a/fake-bpy-module-latest-20230417.tar.gz
+[2023-04-17 08:23:59] INFO root fetch - processPackages [torch-explain]: Downloading https://files.pythonhosted.org/packages/67/e2/1e47e08f7f15de83f1236625801cb67b8f16b7a4de2270f7aa87618ec1e6/torch_explain-1.4.0.tar.gz
+[2023-04-17 08:23:59] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2023-04-17 08:23:59] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-latest-20230416.tar.gz tmp/fake-bpy-module-latest-20230417.tar.gz --markdown 20230417/f/fake-bpy-module-latest/20230416-20230417/diff.md --exclude *.pyd
+[2023-04-17 08:23:59] INFO root fetch - processPackages [dataflows]: Downloading https://files.pythonhosted.org/packages/56/7f/e110c34a0c8a98b881e03a614291eb2494e7bf34d19117d5eb2571bd72e8/dataflows-0.3.7.tar.gz
+[2023-04-17 08:23:59] INFO root fetch - processPackages [odoo-addons-oca-sale-promotion]: Downloading https://files.pythonhosted.org/packages/27/cc/39ca40763ff63e47ad464b3086d18af742bef24edd54de6d6128d9c92e98/odoo_addons_oca_sale_promotion-15.0.20230416.0-py3-none-any.whl
+[2023-04-17 08:23:59] INFO root fetch - processPackages [tutti-client]: executing diffoscope
+[2023-04-17 08:23:59] INFO root fetch - processPackages [tutti-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tutti-client-0.3.7.tar.gz tmp/tutti-client-0.3.8.tar.gz --markdown 20230417/t/tutti-client/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-04-17 08:23:59] INFO root fetch - processPackages [sfdevtools]: executing diffoscope
+[2023-04-17 08:23:59] INFO root fetch - processPackages [sfdevtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sfdevtools-1.8.0.tar.gz tmp/sfdevtools-1.9.0.tar.gz --markdown 20230417/s/sfdevtools/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-04-17 08:23:59] INFO root fetch - processPackages [python-rdma-qe]: Downloading https://files.pythonhosted.org/packages/27/0d/a3788fa56c4d2b04a1f73c06cc6057a9edc00f66b2078679d1be988b9e2a/python_rdma_qe-0.0.3.tar.gz
+[2023-04-17 08:23:59] INFO root fetch - processPackages [EMPOL-GUI]: Downloading https://files.pythonhosted.org/packages/5a/8c/39c6867f14539cd520a8f5a49ec3e2fe2d6c5c06b3c06358be8fb2911413/EMPOL_GUI-1.1.0.tar.gz
+[2023-04-17 08:23:59] INFO root fetch - processPackages [diengine-connect]: executing diffoscope
+[2023-04-17 08:23:59] INFO root fetch - processPackages [diengine-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diengine-connect-0.0.3.tar.gz tmp/diengine-connect-0.1.7.tar.gz --markdown 20230417/d/diengine-connect/0.0.3-0.1.7/diff.md --exclude *.pyd
+[2023-04-17 08:23:59] INFO root fetch - processPackages [odoo-addons-oca-sale-promotion]: executing diffoscope
+[2023-04-17 08:23:59] INFO root fetch - processPackages [odoo-addons-oca-sale-promotion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_sale_promotion-15.0.20230410.0-py3-none-any.whl.zip tmp/odoo_addons_oca_sale_promotion-15.0.20230416.0-py3-none-any.whl.zip --markdown 20230417/o/odoo-addons-oca-sale-promotion/15.0.20230410.0-15.0.20230416.0/diff.md --exclude *.pyd
+[2023-04-17 08:23:59] INFO root fetch - processPackages [torch-explain]: Downloading https://files.pythonhosted.org/packages/fc/46/75e737a9493df74b7a6f2533a5d831c4163cfa63aeb6544b9139ee284282/torch_explain-1.4.1.tar.gz
+[2023-04-17 08:23:59] INFO root fetch - processPackages [EMPOL-GUI]: executing diffoscope
+[2023-04-17 08:23:59] INFO root fetch - processPackages [EMPOL-GUI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EMPOL_GUI-1.0.0.tar.gz tmp/EMPOL_GUI-1.1.0.tar.gz --markdown 20230417/E/EMPOL-GUI/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-04-17 08:23:59] INFO root fetch - processPackages [python-rdma-qe]: executing diffoscope
+[2023-04-17 08:23:59] INFO root fetch - processPackages [python-rdma-qe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_rdma_qe-0.0.2.tar.gz tmp/python_rdma_qe-0.0.3.tar.gz --markdown 20230417/p/python-rdma-qe/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-17 08:23:59] INFO root fetch - processPackages [nepattern]: Downloading https://files.pythonhosted.org/packages/6d/65/bc3fd800477c8f78a87ba4e3e4c242a6a5ce145360ea21852bf62ec65447/nepattern-0.5.2.tar.gz
+[2023-04-17 08:23:59] INFO root fetch - processPackages [dataflows]: Downloading https://files.pythonhosted.org/packages/ad/a4/2832e40a1817581784cde0109600276ff868042e194e13a0c124b1e4ca4d/dataflows-0.3.8.tar.gz
+[2023-04-17 08:23:59] INFO root fetch - processPackages [torch-explain]: executing diffoscope
+[2023-04-17 08:23:59] INFO root fetch - processPackages [torch-explain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_explain-1.4.0.tar.gz tmp/torch_explain-1.4.1.tar.gz --markdown 20230417/t/torch-explain/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-04-17 08:23:59] INFO root fetch - processPackages [dataflows]: executing diffoscope
+[2023-04-17 08:23:59] INFO root fetch - processPackages [dataflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataflows-0.3.7.tar.gz tmp/dataflows-0.3.8.tar.gz --markdown 20230417/d/dataflows/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-04-17 08:23:59] INFO root fetch - processPackages [nepattern]: Downloading https://files.pythonhosted.org/packages/54/26/04b6ebe65926e88aa33479b87c08648a2efed3a2b40dc92311dcbdb2edf2/nepattern-0.5.3.tar.gz
+[2023-04-17 08:24:00] INFO root fetch - processPackages [nepattern]: executing diffoscope
+[2023-04-17 08:24:00] INFO root fetch - processPackages [nepattern]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nepattern-0.5.2.tar.gz tmp/nepattern-0.5.3.tar.gz --markdown 20230417/n/nepattern/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-04-17 08:24:01] INFO root fetch - processPackages [sfdevtools]: Start processing: mirrorbot
+[2023-04-17 08:24:01] INFO root fetch - main [MainThread]: End processing [sfdevtools]: success
+[2023-04-17 08:24:01] WARNING root fetch - processPackages [mirrorbot]: Skipping, unable to determine old version
+[2023-04-17 08:24:01] INFO root fetch - main [MainThread]: End processing [mirrorbot] error
+[2023-04-17 08:24:01] INFO root fetch - main [MainThread]: End processing [EMPOL-GUI]: success
+[2023-04-17 08:24:01] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-sale-promotion]: success
+[2023-04-17 08:24:01] INFO root fetch - main [MainThread]: End processing [tutti-client]: success
+[2023-04-17 08:24:01] INFO root fetch - main [MainThread]: End processing [torch-explain]: success
+[2023-04-17 08:24:01] INFO root fetch - main [MainThread]: End processing [python-rdma-qe]: success
+[2023-04-17 08:24:01] INFO root fetch - main [MainThread]: End processing [dataflows]: success
+[2023-04-17 08:24:01] INFO root fetch - main [MainThread]: End processing [nepattern]: success
+[2023-04-17 08:24:03] INFO root fetch - main [MainThread]: End processing [diengine-connect]: success
+[2023-04-17 08:24:07] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2023-04-17 08:24:07] INFO root fetch - main [MainThread]: Store serial: [17734394]
