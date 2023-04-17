@@ -3914,3 +3914,47 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 04:21:46] INFO root fetch - main [MainThread]: End processing [dashio]: success
 [2023-04-17 04:21:49] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
 [2023-04-17 04:21:49] INFO root fetch - main [MainThread]: Store serial: [17732831]
+[2023-04-17 04:26:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17732831]
+[2023-04-17 04:26:57] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-17 04:26:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cargo-lambda-cdk
+[2023-04-17 04:26:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-datamodel
+[2023-04-17 04:26:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iam-actions
+[2023-04-17 04:26:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: loganmatic
+[2023-04-17 04:26:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: SciAssist
+[2023-04-17 04:26:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: psgnuitka
+[2023-04-17 04:26:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chalkpy
+[2023-04-17 04:26:57] INFO root fetch - processPackages [python-datamodel]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-17 04:26:57] INFO root fetch - processPackages [cargo-lambda-cdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 04:26:57] INFO root fetch - processPackages [psgnuitka]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-17 04:26:57] INFO root fetch - processPackages [loganmatic]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-17 04:26:57] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20230417] Old Version: [1.2.20230416]
+[2023-04-17 04:26:57] INFO root fetch - processPackages [SciAssist]: New version: [0.0.30] Old Version: [0.0.29]
+[2023-04-17 04:26:57] INFO root fetch - processPackages [chalkpy]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-04-17 04:26:57] INFO root fetch - processPackages [cargo-lambda-cdk]: executing diffoscope
+[2023-04-17 04:26:57] INFO root fetch - processPackages [cargo-lambda-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cargo-lambda-cdk-0.0.8.tar.gz tmp/cargo-lambda-cdk-0.0.9.tar.gz --markdown 20230417/c/cargo-lambda-cdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 04:26:57] INFO root fetch - processPackages [psgnuitka]: Downloading https://files.pythonhosted.org/packages/66/6f/77d89fe88fa64a4b3219d7ac270a8cf256ec5649325b141330a5ab4637fe/psgnuitka-0.1.0.tar.gz
+[2023-04-17 04:26:57] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/b7/71/7c30032bdda3b6ed9dbb750027345980ddec28da392902693af52ce48537/iam_actions-1.2.20230417.tar.gz
+[2023-04-17 04:26:57] INFO root fetch - processPackages [loganmatic]: Downloading https://files.pythonhosted.org/packages/ce/c0/bbbd85aab161836de7fbae2cf6e2650b3804d9be2f2a4eb55f88c4196b11/loganmatic-0.0.5.tar.gz
+[2023-04-17 04:26:57] INFO root fetch - processPackages [python-datamodel]: Downloading https://files.pythonhosted.org/packages/26/d6/2a4b22cadd3023b7fdacb2d89faa64e65850bcd951f69387b54a6443d105/python_datamodel-0.3.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-17 04:26:57] INFO root fetch - processPackages [SciAssist]: Downloading https://files.pythonhosted.org/packages/9f/01/f0d88ca04aeb480870ff91def282f4db34869f81819b548d00fa1b7b143b/SciAssist-0.0.30.tar.gz
+[2023-04-17 04:26:57] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-04-17 04:26:57] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-1.9.8.tar.gz tmp/chalkpy-1.9.9.tar.gz --markdown 20230417/c/chalkpy/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-04-17 04:26:57] INFO root fetch - processPackages [loganmatic]: executing diffoscope
+[2023-04-17 04:26:57] INFO root fetch - processPackages [loganmatic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loganmatic-0.0.4.tar.gz tmp/loganmatic-0.0.5.tar.gz --markdown 20230417/l/loganmatic/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-17 04:26:57] INFO root fetch - processPackages [psgnuitka]: Downloading https://files.pythonhosted.org/packages/e4/bf/78603ba0eb040ade96a2cd1915b9fb7bd251319df162dbd51c1835c1f3d8/psgnuitka-0.2.0.tar.gz
+[2023-04-17 04:26:57] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2023-04-17 04:26:57] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20230416.tar.gz tmp/iam_actions-1.2.20230417.tar.gz --markdown 20230417/i/iam-actions/1.2.20230416-1.2.20230417/diff.md --exclude *.pyd
+[2023-04-17 04:26:58] INFO root fetch - processPackages [SciAssist]: executing diffoscope
+[2023-04-17 04:26:58] INFO root fetch - processPackages [SciAssist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SciAssist-0.0.29.tar.gz tmp/SciAssist-0.0.30.tar.gz --markdown 20230417/S/SciAssist/0.0.29-0.0.30/diff.md --exclude *.pyd
+[2023-04-17 04:26:58] INFO root fetch - processPackages [psgnuitka]: executing diffoscope
+[2023-04-17 04:26:58] INFO root fetch - processPackages [psgnuitka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psgnuitka-0.1.0.tar.gz tmp/psgnuitka-0.2.0.tar.gz --markdown 20230417/p/psgnuitka/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-04-17 04:26:58] INFO root fetch - processPackages [python-datamodel]: executing diffoscope
+[2023-04-17 04:26:58] INFO root fetch - processPackages [python-datamodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_datamodel-0.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/python_datamodel-0.3.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230417/p/python-datamodel/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-17 04:26:59] INFO root fetch - main [MainThread]: End processing [loganmatic]: success
+[2023-04-17 04:26:59] INFO root fetch - main [MainThread]: End processing [psgnuitka]: success
+[2023-04-17 04:26:59] INFO root fetch - main [MainThread]: End processing [SciAssist]: success
+[2023-04-17 04:27:00] INFO root fetch - main [MainThread]: End processing [cargo-lambda-cdk]: success
+[2023-04-17 04:27:02] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2023-04-17 04:27:05] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-04-17 04:27:07] INFO root fetch - main [MainThread]: End processing [python-datamodel]: success
+[2023-04-17 04:27:07] INFO root fetch - main [MainThread]: Store serial: [17732855]
