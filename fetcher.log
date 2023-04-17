@@ -5679,3 +5679,28 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 07:14:30] INFO root fetch - main [MainThread]: End processing [fedml]: success
 [2023-04-17 07:14:54] INFO root fetch - main [MainThread]: End processing [esphome]: success
 [2023-04-17 07:14:54] INFO root fetch - main [MainThread]: Store serial: [17733906]
+[2023-04-17 07:19:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17733906]
+[2023-04-17 07:20:04] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-04-17 07:20:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: font-CLI
+[2023-04-17 07:20:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adapter-client
+[2023-04-17 07:20:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: auto-gpt-vicuna
+[2023-04-17 07:20:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dfeed
+[2023-04-17 07:20:04] INFO root fetch - processPackages [dfeed]: New version: [0.0b1] Old Version: [0.0.4]
+[2023-04-17 07:20:04] WARNING root fetch - processPackages [auto-gpt-vicuna]: Skipping, unable to determine old version
+[2023-04-17 07:20:04] INFO root fetch - main [MainThread]: End processing [auto-gpt-vicuna] error
+[2023-04-17 07:20:04] INFO root fetch - processPackages [adapter-client]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-04-17 07:20:04] INFO root fetch - processPackages [font-CLI]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-04-17 07:20:04] INFO root fetch - processPackages [dfeed]: Downloading https://files.pythonhosted.org/packages/3e/21/afa2c4b96fdc9fa3414874d504c2ca95c9760c0fad7761735e9f49fd09d0/dfeed-0.0.4.tar.gz
+[2023-04-17 07:20:04] INFO root fetch - processPackages [adapter-client]: Downloading https://files.pythonhosted.org/packages/15/9e/c8e7beb7601ac9f8d5e0b6411413aafc1270f65452fbf5227a43c3e70f0b/adapter-client-1.0.1.tar.gz
+[2023-04-17 07:20:04] INFO root fetch - processPackages [font-CLI]: Downloading https://files.pythonhosted.org/packages/06/60/9a4e563794daa93134d8c5427df6bf3a3d4b52b1d2f640738b6cf7b03ea6/font-CLI-0.9.8.tar.gz
+[2023-04-17 07:20:04] INFO root fetch - processPackages [font-CLI]: executing diffoscope
+[2023-04-17 07:20:04] INFO root fetch - processPackages [font-CLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/font-CLI-0.9.7.tar.gz tmp/font-CLI-0.9.8.tar.gz --markdown 20230417/f/font-CLI/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-04-17 07:20:04] INFO root fetch - processPackages [adapter-client]: Downloading https://files.pythonhosted.org/packages/10/15/9fc777ddbbf771143af2ee54df253e1a863cc2c33fd6138e8805874b7de5/adapter-client-1.1.0.tar.gz
+[2023-04-17 07:20:04] INFO root fetch - processPackages [dfeed]: executing diffoscope
+[2023-04-17 07:20:04] INFO root fetch - processPackages [dfeed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dfeed-0.0.4.tar.gz tmp/dfeed-0.0b1.tar.gz --markdown 20230417/d/dfeed/0.0.4-0.0b1/diff.md --exclude *.pyd
+[2023-04-17 07:20:04] INFO root fetch - processPackages [adapter-client]: executing diffoscope
+[2023-04-17 07:20:04] INFO root fetch - processPackages [adapter-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adapter-client-1.0.1.tar.gz tmp/adapter-client-1.1.0.tar.gz --markdown 20230417/a/adapter-client/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-04-17 07:20:05] INFO root fetch - main [MainThread]: End processing [dfeed]: success
+[2023-04-17 07:20:05] INFO root fetch - main [MainThread]: End processing [adapter-client]: success
+[2023-04-17 07:20:06] INFO root fetch - main [MainThread]: End processing [font-CLI]: success
+[2023-04-17 07:20:06] INFO root fetch - main [MainThread]: Store serial: [17733920]
