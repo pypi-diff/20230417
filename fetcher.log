@@ -10929,3 +10929,79 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-04-17 13:03:29] INFO root fetch - main [MainThread]: End processing [resolwe-bio]: success
 [2023-04-17 13:04:01] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-04-17 13:04:01] INFO root fetch - main [MainThread]: Store serial: [17737146]
+[2023-04-17 13:09:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17737146]
+[2023-04-17 13:09:10] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-17 13:09:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Mongeasy
+[2023-04-17 13:09:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ib110hw
+[2023-04-17 13:09:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastlabel
+[2023-04-17 13:09:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: goastpy
+[2023-04-17 13:09:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: CurrenTime
+[2023-04-17 13:09:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sqlstrings
+[2023-04-17 13:09:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: biostarPython
+[2023-04-17 13:09:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cg
+[2023-04-17 13:09:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mfbluebox
+[2023-04-17 13:09:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: posthog
+[2023-04-17 13:09:10] INFO root fetch - processPackages [ib110hw]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-17 13:09:10] INFO root fetch - processPackages [sqlstrings]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-17 13:09:10] INFO root fetch - processPackages [goastpy]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-17 13:09:10] INFO root fetch - processPackages [cg]: New version: [27.3.4] Old Version: [27.3.3]
+[2023-04-17 13:09:10] WARNING root fetch - processPackages [CurrenTime]: Skipping, unable to determine old version
+[2023-04-17 13:09:10] INFO root fetch - processPackages [CurrenTime]: Start processing: posthoganalytics
+[2023-04-17 13:09:10] INFO root fetch - main [MainThread]: End processing [CurrenTime] error
+[2023-04-17 13:09:10] WARNING root fetch - processPackages [Mongeasy]: Skipping, unable to determine old version
+[2023-04-17 13:09:10] INFO root fetch - processPackages [sqlstrings]: executing diffoscope
+[2023-04-17 13:09:10] INFO root fetch - processPackages [Mongeasy]: Start processing: flexypy
+[2023-04-17 13:09:10] INFO root fetch - processPackages [sqlstrings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlstrings-0.0.3.tar.gz tmp/sqlstrings-0.0.4.tar.gz --markdown 20230417/s/sqlstrings/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-17 13:09:10] INFO root fetch - main [MainThread]: End processing [Mongeasy] error
+[2023-04-17 13:09:10] INFO root fetch - processPackages [goastpy]: executing diffoscope
+[2023-04-17 13:09:10] INFO root fetch - processPackages [goastpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goastpy-0.1.4.tar.gz tmp/goastpy-0.1.5.tar.gz --markdown 20230417/g/goastpy/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-17 13:09:10] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-04-17 13:09:10] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-27.3.3.tar.gz tmp/cg-27.3.4.tar.gz --markdown 20230417/c/cg/27.3.3-27.3.4/diff.md --exclude *.pyd
+[2023-04-17 13:09:10] WARNING root fetch - processPackages [mfbluebox]: Skipping, unable to determine old version
+[2023-04-17 13:09:10] INFO root fetch - processPackages [ib110hw]: executing diffoscope
+[2023-04-17 13:09:10] INFO root fetch - processPackages [mfbluebox]: Start processing: rssfixer
+[2023-04-17 13:09:10] INFO root fetch - main [MainThread]: End processing [mfbluebox] error
+[2023-04-17 13:09:10] INFO root fetch - processPackages [ib110hw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ib110hw-0.1.1.tar.gz tmp/ib110hw-0.1.2.tar.gz --markdown 20230417/i/ib110hw/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-17 13:09:10] INFO root fetch - processPackages [fastlabel]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-17 13:09:10] INFO root fetch - processPackages [posthog]: New version: [3.0.0] Old Version: [2.5.0]
+[2023-04-17 13:09:10] INFO root fetch - processPackages [biostarPython]: New version: [0.3.0.2] Old Version: [0.3.0.1]
+[2023-04-17 13:09:10] INFO root fetch - processPackages [flexypy]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-17 13:09:10] INFO root fetch - processPackages [posthoganalytics]: New version: [3.0.0] Old Version: [2.5.0]
+[2023-04-17 13:09:10] INFO root fetch - processPackages [rssfixer]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-17 13:09:10] INFO root fetch - processPackages [flexypy]: executing diffoscope
+[2023-04-17 13:09:10] INFO root fetch - processPackages [flexypy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flexypy-0.0.2.tar.gz tmp/flexypy-0.0.3.tar.gz --markdown 20230417/f/flexypy/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-17 13:09:10] INFO root fetch - processPackages [biostarPython]: Downloading https://files.pythonhosted.org/packages/be/1f/9dab38c78dc2fd05a2d0d21a669742339ba5d9d6fa1571eea306cc3d9227/biostarPython-0.3.0.1.tar.gz
+[2023-04-17 13:09:10] INFO root fetch - processPackages [posthog]: Downloading https://files.pythonhosted.org/packages/02/93/aaa6cf6fe32347bbeffbc48b4bcff3764d50f77d0b5f6dbc6dd22103d7f8/posthog-2.5.0.tar.gz
+[2023-04-17 13:09:10] INFO root fetch - processPackages [fastlabel]: Downloading https://files.pythonhosted.org/packages/57/be/7f95f0710f3736b944abf8635802ed7c4fa9ed908af29b88814533d5d1aa/fastlabel-0.9.8.tar.gz
+[2023-04-17 13:09:10] INFO root fetch - processPackages [posthoganalytics]: Downloading https://files.pythonhosted.org/packages/92/d6/5935887f5a709a895bea116d33575e3bb40876d60293259db97844ccd7ff/posthoganalytics-2.5.0.tar.gz
+[2023-04-17 13:09:10] INFO root fetch - processPackages [rssfixer]: Downloading https://files.pythonhosted.org/packages/16/1e/00e137f8a789363e8b11658d7986085aea25bbf0922122e208ca455d5299/rssfixer-0.0.4.tar.gz
+[2023-04-17 13:09:10] INFO root fetch - processPackages [posthog]: Downloading https://files.pythonhosted.org/packages/e1/39/63f901afde41eccef161a33053838b416f845625ff7f5023e95c2eaf7cfd/posthog-3.0.0.tar.gz
+[2023-04-17 13:09:10] INFO root fetch - processPackages [biostarPython]: Downloading https://files.pythonhosted.org/packages/d5/7c/29feccd7a4ada64b553ca72964d8ac9e9892315705360b47f821c892fa1c/biostarPython-0.3.0.2.tar.gz
+[2023-04-17 13:09:11] INFO root fetch - processPackages [posthoganalytics]: Downloading https://files.pythonhosted.org/packages/ca/9c/d4b43e648f2605a42f41fdd92c75948253277b5db6ca140ac13c72a101d5/posthoganalytics-3.0.0.tar.gz
+[2023-04-17 13:09:11] INFO root fetch - processPackages [rssfixer]: executing diffoscope
+[2023-04-17 13:09:11] INFO root fetch - processPackages [rssfixer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rssfixer-0.0.3.tar.gz tmp/rssfixer-0.0.4.tar.gz --markdown 20230417/r/rssfixer/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-17 13:09:11] INFO root fetch - processPackages [posthog]: executing diffoscope
+[2023-04-17 13:09:11] INFO root fetch - processPackages [posthog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/posthog-2.5.0.tar.gz tmp/posthog-3.0.0.tar.gz --markdown 20230417/p/posthog/2.5.0-3.0.0/diff.md --exclude *.pyd
+[2023-04-17 13:09:11] INFO root fetch - processPackages [biostarPython]: executing diffoscope
+[2023-04-17 13:09:11] INFO root fetch - processPackages [biostarPython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biostarPython-0.3.0.1.tar.gz tmp/biostarPython-0.3.0.2.tar.gz --markdown 20230417/b/biostarPython/0.3.0.1-0.3.0.2/diff.md --exclude *.pyd
+[2023-04-17 13:09:11] INFO root fetch - processPackages [fastlabel]: Downloading https://files.pythonhosted.org/packages/d0/e5/f18c001dc7450d962af6e6925a6600fb1877e202166062e99e6d1fadf36b/fastlabel-0.9.9.tar.gz
+[2023-04-17 13:09:11] INFO root fetch - processPackages [posthoganalytics]: executing diffoscope
+[2023-04-17 13:09:11] INFO root fetch - processPackages [posthoganalytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/posthoganalytics-2.5.0.tar.gz tmp/posthoganalytics-3.0.0.tar.gz --markdown 20230417/p/posthoganalytics/2.5.0-3.0.0/diff.md --exclude *.pyd
+[2023-04-17 13:09:11] INFO root fetch - processPackages [fastlabel]: executing diffoscope
+[2023-04-17 13:09:11] INFO root fetch - processPackages [fastlabel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastlabel-0.9.8.tar.gz tmp/fastlabel-0.9.9.tar.gz --markdown 20230417/f/fastlabel/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-17 13:09:12] INFO root fetch - processPackages [goastpy]: Start processing: pheno-utils
+[2023-04-17 13:09:12] INFO root fetch - main [MainThread]: End processing [goastpy]: success
+[2023-04-17 13:09:12] INFO root fetch - processPackages [pheno-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 13:09:12] INFO root fetch - main [MainThread]: End processing [ib110hw]: success
+[2023-04-17 13:09:12] INFO root fetch - processPackages [pheno-utils]: executing diffoscope
+[2023-04-17 13:09:12] INFO root fetch - processPackages [pheno-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pheno-utils-0.0.8.tar.gz tmp/pheno-utils-0.0.9.tar.gz --markdown 20230417/p/pheno-utils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 13:09:12] INFO root fetch - main [MainThread]: End processing [sqlstrings]: success
+[2023-04-17 13:09:12] INFO root fetch - main [MainThread]: End processing [flexypy]: success
+[2023-04-17 13:09:12] INFO root fetch - main [MainThread]: End processing [rssfixer]: success
+[2023-04-17 13:09:12] INFO root fetch - main [MainThread]: End processing [posthog]: success
+[2023-04-17 13:09:13] INFO root fetch - main [MainThread]: End processing [posthoganalytics]: success
+[2023-04-17 13:09:13] INFO root fetch - main [MainThread]: End processing [fastlabel]: success
+[2023-04-17 13:09:13] INFO root fetch - main [MainThread]: End processing [pheno-utils]: success
+[2023-04-17 13:09:15] INFO root fetch - main [MainThread]: End processing [biostarPython]: success
+[2023-04-17 13:09:22] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-04-17 13:09:22] INFO root fetch - main [MainThread]: Store serial: [17737201]
