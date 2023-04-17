@@ -16246,3 +16246,197 @@ EOFError: EOF read where object expected
 [2023-04-17 17:06:13] INFO root fetch - main [MainThread]: End processing [monailabel]: success
 [2023-04-17 17:06:20] INFO root fetch - main [MainThread]: End processing [cornflakes]: success
 [2023-04-17 17:06:20] INFO root fetch - main [MainThread]: Store serial: [17740300]
+[2023-04-17 17:11:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17740300]
+[2023-04-17 17:11:31] INFO root fetch - main [MainThread]: Found 32 changed packages
+[2023-04-17 17:11:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-matter-server
+[2023-04-17 17:11:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: maxbot
+[2023-04-17 17:11:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: clipcrop
+[2023-04-17 17:11:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Open-WiFi
+[2023-04-17 17:11:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: invenio-rdm-records
+[2023-04-17 17:11:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rdkit
+[2023-04-17 17:11:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: google-maps-addressvalidation
+[2023-04-17 17:11:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: granslate
+[2023-04-17 17:11:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: google-cloud-container
+[2023-04-17 17:11:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: me-setups
+[2023-04-17 17:11:31] INFO root fetch - processPackages [clipcrop]: New version: [2.4.1] Old Version: [2.4]
+[2023-04-17 17:11:31] INFO root fetch - processPackages [python-matter-server]: New version: [3.3.0] Old Version: [3.2.0]
+[2023-04-17 17:11:31] WARNING root fetch - processPackages [Open-WiFi]: Skipping, unable to determine old version
+[2023-04-17 17:11:31] INFO root fetch - processPackages [Open-WiFi]: Start processing: rfdocsindexer
+[2023-04-17 17:11:31] INFO root fetch - main [MainThread]: End processing [Open-WiFi] error
+[2023-04-17 17:11:31] INFO root fetch - processPackages [google-maps-addressvalidation]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-04-17 17:11:31] INFO root fetch - processPackages [granslate]: New version: [3.4.1] Old Version: [3.4.0]
+[2023-04-17 17:11:31] INFO root fetch - processPackages [me-setups]: New version: [1.6.8] Old Version: [1.6.7]
+[2023-04-17 17:11:31] ERROR root fetch - processPackages [maxbot]: Unable to get metadata: No such project 'maxbot'
+[2023-04-17 17:11:31] INFO root fetch - processPackages [maxbot]: Start processing: reolink-aio
+[2023-04-17 17:11:31] INFO root fetch - processPackages [rdkit]: New version: [2023.3.1b1] Old Version: [2022.9.5]
+[2023-04-17 17:11:31] INFO root fetch - main [MainThread]: End processing [maxbot] error
+[2023-04-17 17:11:31] INFO root fetch - processPackages [google-cloud-container]: New version: [2.9.0] Old Version: [2.8.1]
+[2023-04-17 17:11:31] INFO root fetch - processPackages [invenio-rdm-records]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-04-17 17:11:31] INFO root fetch - processPackages [clipcrop]: Downloading https://files.pythonhosted.org/packages/84/38/83877895edd8e6773e556f39d4b740ee8078285678a2498def90dda6fc6a/clipcrop-2.4.1.tar.gz
+[2023-04-17 17:11:31] INFO root fetch - processPackages [rfdocsindexer]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-04-17 17:11:31] INFO root fetch - processPackages [reolink-aio]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-04-17 17:11:31] INFO root fetch - processPackages [python-matter-server]: Downloading https://files.pythonhosted.org/packages/bd/4d/66d20a8885844d7f3c95937b4cde7d5a7e78ff4417f14f3ceee37d2b80a1/python-matter-server-3.2.0.tar.gz
+[2023-04-17 17:11:31] INFO root fetch - processPackages [granslate]: Downloading https://files.pythonhosted.org/packages/6e/18/5df4bda6fa4cd4630107eb99553f6615f823e89facf61b4030e77f56554f/granslate-3.4.0.tar.gz
+[2023-04-17 17:11:31] INFO root fetch - processPackages [google-maps-addressvalidation]: Downloading https://files.pythonhosted.org/packages/e9/fa/319ceed3b4324db4a464362745447eb0e04a5cda1a92ee4eeed07b1d9237/google-maps-addressvalidation-0.3.2.tar.gz
+[2023-04-17 17:11:31] INFO root fetch - processPackages [clipcrop]: executing diffoscope
+[2023-04-17 17:11:31] INFO root fetch - processPackages [clipcrop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clipcrop-2.4.tar.gz tmp/clipcrop-2.4.1.tar.gz --markdown 20230417/c/clipcrop/2.4-2.4.1/diff.md --exclude *.pyd
+[2023-04-17 17:11:31] INFO root fetch - processPackages [rdkit]: Downloading https://files.pythonhosted.org/packages/29/79/1d920e86906553801db54dd6bf3b36b630a8400a453285be1519ea0b0b27/rdkit-2022.9.5-cp39-cp39-win_amd64.whl
+[2023-04-17 17:11:31] INFO root fetch - processPackages [google-cloud-container]: Downloading https://files.pythonhosted.org/packages/9f/8d/5d2864511401e860531a2dc96c9b966237756ea7efcabaff757e216c3eff/google-cloud-container-2.8.1.tar.gz
+[2023-04-17 17:11:31] INFO root fetch - processPackages [invenio-rdm-records]: Downloading https://files.pythonhosted.org/packages/25/3f/11ea0d11ca2a489f56e83f1260ccb1caf81a40ce36a74f4d39dea324e009/invenio-rdm-records-2.8.0.tar.gz
+[2023-04-17 17:11:31] INFO root fetch - processPackages [rfdocsindexer]: Downloading https://files.pythonhosted.org/packages/45/00/9e30375456c5719a20d6346637d6651713b47b724de8c1daefcbb87786a3/rfdocsindexer-1.1.0.tar.gz
+[2023-04-17 17:11:31] INFO root fetch - processPackages [reolink-aio]: Downloading https://files.pythonhosted.org/packages/1e/21/6e81cae2a4c915cf3bd0de1ae6887f9af93a07a1e4713aa1e8747d17d91f/reolink_aio-0.5.8.tar.gz
+[2023-04-17 17:11:31] INFO root fetch - processPackages [me-setups]: Downloading https://files.pythonhosted.org/packages/5c/c0/5c85c6090e4c862c2ce6065bcd0afdd4b2153cfe57fa9c0992a59853f3f0/me_setups-1.6.8.tar.gz
+[2023-04-17 17:11:31] WARNING root fetch - processPackages [rdkit]: Skipping package: exceeds size limit 20454566>=10485760
+[2023-04-17 17:11:31] INFO root fetch - processPackages [rdkit]: Start processing: nsj-rest-lib
+[2023-04-17 17:11:31] INFO root fetch - main [MainThread]: End processing [rdkit] error
+[2023-04-17 17:11:31] INFO root fetch - processPackages [google-maps-addressvalidation]: Downloading https://files.pythonhosted.org/packages/77/d6/d9b843fe070c5c43bd6bf6ec6b9a6801a27400338791b30a220c30c01c42/google-maps-addressvalidation-0.3.3.tar.gz
+[2023-04-17 17:11:31] INFO root fetch - processPackages [me-setups]: executing diffoscope
+[2023-04-17 17:11:31] INFO root fetch - processPackages [me-setups]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/me_setups-1.6.7.tar.gz tmp/me_setups-1.6.8.tar.gz --markdown 20230417/m/me-setups/1.6.7-1.6.8/diff.md --exclude *.pyd
+[2023-04-17 17:11:31] INFO root fetch - processPackages [python-matter-server]: Downloading https://files.pythonhosted.org/packages/f9/84/fd2498223b9a0a361ceb10d0e1ba63faf157c6c01db4adeef6ba00bbde3d/python-matter-server-3.3.0.tar.gz
+[2023-04-17 17:11:31] INFO root fetch - processPackages [nsj-rest-lib]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-17 17:11:31] INFO root fetch - processPackages [granslate]: Downloading https://files.pythonhosted.org/packages/0a/69/080f02727343c358e1038b28858e55e49c57544630797c130be26d9cac8f/granslate-3.4.1-py3-none-any.whl
+[2023-04-17 17:11:31] INFO root fetch - processPackages [rfdocsindexer]: Downloading https://files.pythonhosted.org/packages/41/f0/a1173531df698da0f34360c57cfc4950868027f40d6019f406d11e688d71/rfdocsindexer-1.2.0.tar.gz
+[2023-04-17 17:11:31] INFO root fetch - processPackages [google-maps-addressvalidation]: executing diffoscope
+[2023-04-17 17:11:31] INFO root fetch - processPackages [google-maps-addressvalidation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-maps-addressvalidation-0.3.2.tar.gz tmp/google-maps-addressvalidation-0.3.3.tar.gz --markdown 20230417/g/google-maps-addressvalidation/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-04-17 17:11:31] INFO root fetch - processPackages [reolink-aio]: Downloading https://files.pythonhosted.org/packages/dd/0a/f711f244291fb1854667f9496c26c7b79a2f7afbdf6c355d899cb1f1f31b/reolink_aio-0.5.9.tar.gz
+[2023-04-17 17:11:31] INFO root fetch - processPackages [python-matter-server]: executing diffoscope
+[2023-04-17 17:11:31] INFO root fetch - processPackages [python-matter-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-matter-server-3.2.0.tar.gz tmp/python-matter-server-3.3.0.tar.gz --markdown 20230417/p/python-matter-server/3.2.0-3.3.0/diff.md --exclude *.pyd
+[2023-04-17 17:11:32] INFO root fetch - processPackages [invenio-rdm-records]: Downloading https://files.pythonhosted.org/packages/5a/80/578ad02d592e3cd2d1a58043ceef96d141f24a916bf2ebd1b023fddd50df/invenio-rdm-records-2.9.0.tar.gz
+[2023-04-17 17:11:32] INFO root fetch - processPackages [granslate]: executing diffoscope
+[2023-04-17 17:11:32] INFO root fetch - processPackages [granslate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/granslate-3.4.0.tar.gz tmp/granslate-3.4.1-py3-none-any.whl.zip --markdown 20230417/g/granslate/3.4.0-3.4.1/diff.md --exclude *.pyd
+[2023-04-17 17:11:32] INFO root fetch - processPackages [rfdocsindexer]: executing diffoscope
+[2023-04-17 17:11:32] INFO root fetch - processPackages [rfdocsindexer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rfdocsindexer-1.1.0.tar.gz tmp/rfdocsindexer-1.2.0.tar.gz --markdown 20230417/r/rfdocsindexer/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-04-17 17:11:32] INFO root fetch - processPackages [reolink-aio]: executing diffoscope
+[2023-04-17 17:11:32] INFO root fetch - processPackages [reolink-aio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reolink_aio-0.5.8.tar.gz tmp/reolink_aio-0.5.9.tar.gz --markdown 20230417/r/reolink-aio/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-04-17 17:11:32] INFO root fetch - processPackages [google-cloud-container]: Downloading https://files.pythonhosted.org/packages/a6/0f/71a16bec82f5b84b1aa6c4b9e6d8d7c40de8f7abe8d0b150e7a45bbb927c/google-cloud-container-2.9.0.tar.gz
+[2023-04-17 17:11:32] INFO root fetch - processPackages [invenio-rdm-records]: executing diffoscope
+[2023-04-17 17:11:32] INFO root fetch - processPackages [invenio-rdm-records]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-rdm-records-2.8.0.tar.gz tmp/invenio-rdm-records-2.9.0.tar.gz --markdown 20230417/i/invenio-rdm-records/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-04-17 17:11:32] INFO root fetch - processPackages [nsj-rest-lib]: executing diffoscope
+[2023-04-17 17:11:32] INFO root fetch - processPackages [nsj-rest-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsj_rest_lib-0.1.8.tar.gz tmp/nsj_rest_lib-0.1.9.tar.gz --markdown 20230417/n/nsj-rest-lib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-17 17:11:32] INFO root fetch - processPackages [google-cloud-container]: executing diffoscope
+[2023-04-17 17:11:32] INFO root fetch - processPackages [google-cloud-container]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-container-2.8.1.tar.gz tmp/google-cloud-container-2.9.0.tar.gz --markdown 20230417/g/google-cloud-container/2.8.1-2.9.0/diff.md --exclude *.pyd
+[2023-04-17 17:11:32] INFO root fetch - processPackages [clipcrop]: Start processing: synthdid
+[2023-04-17 17:11:32] INFO root fetch - main [MainThread]: End processing [clipcrop]: success
+[2023-04-17 17:11:33] WARNING root fetch - processPackages [synthdid]: Skipping, unable to determine old version
+[2023-04-17 17:11:33] INFO root fetch - processPackages [synthdid]: Start processing: vm-manager
+[2023-04-17 17:11:33] INFO root fetch - main [MainThread]: End processing [synthdid] error
+[2023-04-17 17:11:33] WARNING root fetch - processPackages [vm-manager]: Skipping, unable to determine old version
+[2023-04-17 17:11:33] INFO root fetch - processPackages [vm-manager]: Start processing: bugbug
+[2023-04-17 17:11:33] INFO root fetch - main [MainThread]: End processing [vm-manager] error
+[2023-04-17 17:11:33] INFO root fetch - processPackages [bugbug]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-17 17:11:33] INFO root fetch - processPackages [bugbug]: executing diffoscope
+[2023-04-17 17:11:33] INFO root fetch - processPackages [bugbug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bugbug-0.0.98.tar.gz tmp/bugbug-0.0.99.tar.gz --markdown 20230417/b/bugbug/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-17 17:11:33] INFO root fetch - processPackages [granslate]: Start processing: assemblyline-service-client
+[2023-04-17 17:11:33] INFO root fetch - main [MainThread]: End processing [granslate]: success
+[2023-04-17 17:11:33] INFO root fetch - processPackages [python-matter-server]: Start processing: assemblyline-service-server
+[2023-04-17 17:11:33] INFO root fetch - main [MainThread]: End processing [python-matter-server]: success
+[2023-04-17 17:11:33] INFO root fetch - processPackages [me-setups]: Start processing: assemblyline-ui
+[2023-04-17 17:11:33] INFO root fetch - main [MainThread]: End processing [me-setups]: success
+[2023-04-17 17:11:33] INFO root fetch - processPackages [assemblyline-service-client]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-04-17 17:11:33] INFO root fetch - processPackages [google-maps-addressvalidation]: Start processing: assemblyline-v4-service
+[2023-04-17 17:11:33] INFO root fetch - main [MainThread]: End processing [google-maps-addressvalidation]: success
+[2023-04-17 17:11:33] INFO root fetch - processPackages [assemblyline-service-server]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-04-17 17:11:33] INFO root fetch - processPackages [assemblyline-ui]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-04-17 17:11:33] INFO root fetch - processPackages [rfdocsindexer]: Start processing: nucliadb
+[2023-04-17 17:11:33] INFO root fetch - main [MainThread]: End processing [rfdocsindexer]: success
+[2023-04-17 17:11:33] INFO root fetch - processPackages [assemblyline-v4-service]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-04-17 17:11:33] INFO root fetch - processPackages [nsj-rest-lib]: Start processing: assemblyline
+[2023-04-17 17:11:33] INFO root fetch - main [MainThread]: End processing [nsj-rest-lib]: success
+[2023-04-17 17:11:33] INFO root fetch - processPackages [nucliadb]: New version: [2.7.0.post172] Old Version: [2.7.0.post171]
+[2023-04-17 17:11:33] INFO root fetch - processPackages [assemblyline-service-client]: Downloading https://files.pythonhosted.org/packages/04/da/ba9c84811620a7e4f74cdd379ed84829ffebe2e8b3095cde197f8edbb0d2/assemblyline_service_client-4.4.1.dev8-py3-none-any.whl
+[2023-04-17 17:11:33] INFO root fetch - processPackages [assemblyline-service-server]: Downloading https://files.pythonhosted.org/packages/49/52/30734eec25bbbcfac5e9d09954a795303ef5a4bffd91537cb6530243ca19/assemblyline_service_server-4.4.1.dev8-py3-none-any.whl
+[2023-04-17 17:11:33] INFO root fetch - processPackages [assemblyline]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-04-17 17:11:33] INFO root fetch - processPackages [assemblyline-ui]: Downloading https://files.pythonhosted.org/packages/66/4d/ea002cac99d18dd0086c262a4c4a9f2f6c21fbe31f5354e0ea8fda6cfde0/assemblyline_ui-4.4.1.dev8-py3-none-any.whl
+[2023-04-17 17:11:33] INFO root fetch - processPackages [assemblyline-v4-service]: Downloading https://files.pythonhosted.org/packages/31/9b/74a79323f33656205a07291c919ad769d89cfbe5996571c1e97b82bcb106/assemblyline_v4_service-4.4.1.dev8-py3-none-any.whl
+[2023-04-17 17:11:34] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/45/be/711353907e627d15f5c9616759a07770f8de40574caf8191b549feab6618/nucliadb-2.7.0.post172-py3-none-any.whl
+[2023-04-17 17:11:34] INFO root fetch - processPackages [assemblyline-service-client]: Downloading https://files.pythonhosted.org/packages/dd/a5/2a4c95683532f2c15ad8d700b6fca9e4131e1bb3be525fee8ab9f5f00a96/assemblyline_service_client-4.4.1.dev9-py3-none-any.whl
+[2023-04-17 17:11:34] INFO root fetch - processPackages [assemblyline-service-server]: Downloading https://files.pythonhosted.org/packages/df/1f/c5189798641107a44aa14e39f89efa4e230a7a8a172d88125ec72b3a7e88/assemblyline_service_server-4.4.1.dev9-py3-none-any.whl
+[2023-04-17 17:11:34] INFO root fetch - processPackages [assemblyline]: Downloading https://files.pythonhosted.org/packages/ac/80/ff80a76b6febd2252f379e7364a86126d6be5b36c40c2525f8513500e2a8/assemblyline-4.4.1.dev8.tar.gz
+[2023-04-17 17:11:34] INFO root fetch - processPackages [assemblyline-ui]: Downloading https://files.pythonhosted.org/packages/df/0c/d233afa2ddadc75804e18ff6477e85a40893bbb801680f8f94b71d773bb6/assemblyline_ui-4.4.1.dev9-py3-none-any.whl
+[2023-04-17 17:11:34] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2023-04-17 17:11:34] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-2.7.0.post171-py3-none-any.whl.zip tmp/nucliadb-2.7.0.post172-py3-none-any.whl.zip --markdown 20230417/n/nucliadb/2.7.0.post171-2.7.0.post172/diff.md --exclude *.pyd
+[2023-04-17 17:11:34] INFO root fetch - processPackages [reolink-aio]: Start processing: nucliadb-client
+[2023-04-17 17:11:34] INFO root fetch - main [MainThread]: End processing [reolink-aio]: success
+[2023-04-17 17:11:34] INFO root fetch - processPackages [assemblyline-service-client]: executing diffoscope
+[2023-04-17 17:11:34] INFO root fetch - processPackages [assemblyline-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_client-4.4.1.dev8-py3-none-any.whl.zip tmp/assemblyline_service_client-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230417/a/assemblyline-service-client/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-04-17 17:11:34] INFO root fetch - processPackages [assemblyline-service-server]: executing diffoscope
+[2023-04-17 17:11:34] INFO root fetch - processPackages [assemblyline-service-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_server-4.4.1.dev8-py3-none-any.whl.zip tmp/assemblyline_service_server-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230417/a/assemblyline-service-server/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-04-17 17:11:34] INFO root fetch - processPackages [nucliadb-client]: New version: [2.7.0.post172] Old Version: [2.7.0.post171]
+[2023-04-17 17:11:34] INFO root fetch - processPackages [assemblyline-v4-service]: Downloading https://files.pythonhosted.org/packages/19/22/1c4aa53ab099ddbe7425a63c62df075a8da7a2a3d5db1c9a378aeafc1fb5/assemblyline_v4_service-4.4.1.dev9-py3-none-any.whl
+[2023-04-17 17:11:34] INFO root fetch - processPackages [assemblyline-ui]: executing diffoscope
+[2023-04-17 17:11:34] INFO root fetch - processPackages [assemblyline-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_ui-4.4.1.dev8-py3-none-any.whl.zip tmp/assemblyline_ui-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230417/a/assemblyline-ui/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-04-17 17:11:34] INFO root fetch - processPackages [assemblyline-v4-service]: executing diffoscope
+[2023-04-17 17:11:34] INFO root fetch - processPackages [assemblyline-v4-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_v4_service-4.4.1.dev8-py3-none-any.whl.zip tmp/assemblyline_v4_service-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230417/a/assemblyline-v4-service/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-04-17 17:11:34] INFO root fetch - processPackages [assemblyline]: Downloading https://files.pythonhosted.org/packages/67/05/c7346b47651123d738107bf89c007a88f96774f20922ba21da9d8a6017d1/assemblyline-4.4.1.dev9.tar.gz
+[2023-04-17 17:11:34] INFO root fetch - processPackages [nucliadb-client]: Downloading https://files.pythonhosted.org/packages/fd/4a/67e5e18b711bf935281c3b03162d1825aa53fa37f2a0689e63f58e341bfd/nucliadb_client-2.7.0.post172-py3-none-any.whl
+[2023-04-17 17:11:34] INFO root fetch - processPackages [assemblyline]: executing diffoscope
+[2023-04-17 17:11:34] INFO root fetch - processPackages [assemblyline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-4.4.1.dev8.tar.gz tmp/assemblyline-4.4.1.dev9.tar.gz --markdown 20230417/a/assemblyline/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-04-17 17:11:34] INFO root fetch - processPackages [nucliadb-client]: executing diffoscope
+[2023-04-17 17:11:34] INFO root fetch - processPackages [nucliadb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_client-2.7.0.post171-py3-none-any.whl.zip tmp/nucliadb_client-2.7.0.post172-py3-none-any.whl.zip --markdown 20230417/n/nucliadb-client/2.7.0.post171-2.7.0.post172/diff.md --exclude *.pyd
+[2023-04-17 17:11:35] INFO root fetch - processPackages [google-cloud-container]: Start processing: patata
+[2023-04-17 17:11:35] INFO root fetch - main [MainThread]: End processing [google-cloud-container]: success
+[2023-04-17 17:11:35] INFO root fetch - processPackages [patata]: New version: [3.6.0] Old Version: [3.5.0]
+[2023-04-17 17:11:35] INFO root fetch - processPackages [assemblyline-service-client]: Start processing: assemblyline-core
+[2023-04-17 17:11:35] INFO root fetch - main [MainThread]: End processing [assemblyline-service-client]: success
+[2023-04-17 17:11:35] INFO root fetch - processPackages [patata]: Downloading https://files.pythonhosted.org/packages/d8/0a/8b513d6340deb5f2587d6d62c609a1663730e2025fb15c718912e5a283a0/patata-3.5.0.tar.gz
+[2023-04-17 17:11:35] INFO root fetch - processPackages [assemblyline-core]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-04-17 17:11:35] INFO root fetch - processPackages [assemblyline-service-server]: Start processing: nucliadb-dataset
+[2023-04-17 17:11:35] INFO root fetch - main [MainThread]: End processing [assemblyline-service-server]: success
+[2023-04-17 17:11:35] INFO root fetch - processPackages [patata]: Downloading https://files.pythonhosted.org/packages/8f/34/d6d4d7dcb58a029229b3b6d49abcf5421325dbf8ecf2b53db6db5deffddd/patata-3.6.0.tar.gz
+[2023-04-17 17:11:35] INFO root fetch - processPackages [nucliadb-dataset]: New version: [2.7.0.post172] Old Version: [2.7.0.post171]
+[2023-04-17 17:11:35] INFO root fetch - processPackages [patata]: executing diffoscope
+[2023-04-17 17:11:35] INFO root fetch - processPackages [patata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/patata-3.5.0.tar.gz tmp/patata-3.6.0.tar.gz --markdown 20230417/p/patata/3.5.0-3.6.0/diff.md --exclude *.pyd
+[2023-04-17 17:11:35] INFO root fetch - processPackages [assemblyline-core]: Downloading https://files.pythonhosted.org/packages/98/84/beacd2548b29322344838f0886de874e5a70eb11a896ae38e4293fb45d7d/assemblyline-core-4.4.1.dev8.tar.gz
+[2023-04-17 17:11:35] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/6a/f3/c6075575e1882b8417fb32ea224772200bbec8fc1adc9f1da57b94e5274e/nucliadb_dataset-2.7.0.post172-py3-none-any.whl
+[2023-04-17 17:11:35] INFO root fetch - processPackages [nucliadb-client]: Start processing: nucliadb-models
+[2023-04-17 17:11:35] INFO root fetch - main [MainThread]: End processing [nucliadb-client]: success
+[2023-04-17 17:11:35] INFO root fetch - processPackages [nucliadb-models]: New version: [2.7.0.post172] Old Version: [2.7.0.post171]
+[2023-04-17 17:11:36] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2023-04-17 17:11:36] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-2.7.0.post171-py3-none-any.whl.zip tmp/nucliadb_dataset-2.7.0.post172-py3-none-any.whl.zip --markdown 20230417/n/nucliadb-dataset/2.7.0.post171-2.7.0.post172/diff.md --exclude *.pyd
+[2023-04-17 17:11:36] INFO root fetch - processPackages [assemblyline-core]: Downloading https://files.pythonhosted.org/packages/5c/53/40f339ad9dc41d9e1e3f7f70618e7767e94d672695b7c772b3365bfcf550/assemblyline-core-4.4.1.dev9.tar.gz
+[2023-04-17 17:11:36] INFO root fetch - processPackages [assemblyline-ui]: Start processing: nucliadb-protos
+[2023-04-17 17:11:36] INFO root fetch - main [MainThread]: End processing [assemblyline-ui]: success
+[2023-04-17 17:11:36] INFO root fetch - processPackages [nucliadb-protos]: New version: [2.7.0.post172] Old Version: [2.7.0.post171]
+[2023-04-17 17:11:36] INFO root fetch - processPackages [assemblyline-core]: executing diffoscope
+[2023-04-17 17:11:36] INFO root fetch - processPackages [assemblyline-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-core-4.4.1.dev8.tar.gz tmp/assemblyline-core-4.4.1.dev9.tar.gz --markdown 20230417/a/assemblyline-core/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-04-17 17:11:36] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/05/20/9cfd0f16bad93afb3515fe341cc5b6373efe8e02e069df9233b628a19e03/nucliadb_models-2.7.0.post172-py3-none-any.whl
+[2023-04-17 17:11:36] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2023-04-17 17:11:36] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-2.7.0.post171-py3-none-any.whl.zip tmp/nucliadb_models-2.7.0.post172-py3-none-any.whl.zip --markdown 20230417/n/nucliadb-models/2.7.0.post171-2.7.0.post172/diff.md --exclude *.pyd
+[2023-04-17 17:11:36] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/ac/8d/140b11011299061ec93f5524bfdcabb5075dc71d99b25d8518f3b390c200/nucliadb_protos-2.7.0.post172-py3-none-any.whl
+[2023-04-17 17:11:36] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2023-04-17 17:11:36] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-2.7.0.post171-py3-none-any.whl.zip tmp/nucliadb_protos-2.7.0.post172-py3-none-any.whl.zip --markdown 20230417/n/nucliadb-protos/2.7.0.post171-2.7.0.post172/diff.md --exclude *.pyd
+[2023-04-17 17:11:36] INFO root fetch - processPackages [bugbug]: Start processing: nucliadb-sdk
+[2023-04-17 17:11:36] INFO root fetch - main [MainThread]: End processing [bugbug]: success
+[2023-04-17 17:11:36] INFO root fetch - processPackages [nucliadb-sdk]: New version: [2.7.0.post172] Old Version: [2.7.0.post171]
+[2023-04-17 17:11:37] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/1e/ab/67143253f22427aaccc850af69ba2e1ded254a979eb50c67386cfa087b22/nucliadb_sdk-2.7.0.post172-py3-none-any.whl
+[2023-04-17 17:11:37] INFO root fetch - processPackages [assemblyline]: Start processing: nucliadb-utils
+[2023-04-17 17:11:37] INFO root fetch - main [MainThread]: End processing [assemblyline]: success
+[2023-04-17 17:11:37] INFO root fetch - processPackages [nucliadb-utils]: New version: [2.7.0.post172] Old Version: [2.7.0.post171]
+[2023-04-17 17:11:37] INFO root fetch - processPackages [patata]: Start processing: remoteit-ssh
+[2023-04-17 17:11:37] INFO root fetch - main [MainThread]: End processing [patata]: success
+[2023-04-17 17:11:37] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2023-04-17 17:11:37] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-2.7.0.post171-py3-none-any.whl.zip tmp/nucliadb_sdk-2.7.0.post172-py3-none-any.whl.zip --markdown 20230417/n/nucliadb-sdk/2.7.0.post171-2.7.0.post172/diff.md --exclude *.pyd
+[2023-04-17 17:11:37] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: dramatiq-crontab
+[2023-04-17 17:11:37] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2023-04-17 17:11:37] INFO root fetch - processPackages [remoteit-ssh]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-17 17:11:37] INFO root fetch - processPackages [dramatiq-crontab]: New version: [1.0rc3] Old Version: [1.0rc1]
+[2023-04-17 17:11:37] INFO root fetch - processPackages [dramatiq-crontab]: executing diffoscope
+[2023-04-17 17:11:37] INFO root fetch - processPackages [dramatiq-crontab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dramatiq-crontab-1.0rc1.tar.gz tmp/dramatiq-crontab-1.0rc3.tar.gz --markdown 20230417/d/dramatiq-crontab/1.0rc1-1.0rc3/diff.md --exclude *.pyd
+[2023-04-17 17:11:37] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/77/30/a86abc19541d54f9b5ab5f5acefcb9e2c773b74c7f9ab07304dfe2afbf74/nucliadb_utils-2.7.0.post172-py3-none-any.whl
+[2023-04-17 17:11:37] INFO root fetch - processPackages [remoteit-ssh]: Downloading https://files.pythonhosted.org/packages/80/2a/4acdcb974de69c541fceafbad6ce97a2807aadff6178e0545913f883c466/remoteit-ssh-0.3.0.tar.gz
+[2023-04-17 17:11:37] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2023-04-17 17:11:37] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-2.7.0.post171-py3-none-any.whl.zip tmp/nucliadb_utils-2.7.0.post172-py3-none-any.whl.zip --markdown 20230417/n/nucliadb-utils/2.7.0.post171-2.7.0.post172/diff.md --exclude *.pyd
+[2023-04-17 17:11:37] INFO root fetch - processPackages [remoteit-ssh]: Downloading https://files.pythonhosted.org/packages/b9/32/2da92f97948a4a87cfc1501c5f4d1255a4de5fad424c53372ba860d7c0ce/remoteit-ssh-0.3.1.tar.gz
+[2023-04-17 17:11:37] INFO root fetch - main [MainThread]: End processing [assemblyline-core]: success
+[2023-04-17 17:11:38] INFO root fetch - processPackages [remoteit-ssh]: executing diffoscope
+[2023-04-17 17:11:38] INFO root fetch - processPackages [remoteit-ssh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remoteit-ssh-0.3.0.tar.gz tmp/remoteit-ssh-0.3.1.tar.gz --markdown 20230417/r/remoteit-ssh/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-17 17:11:38] INFO root fetch - main [MainThread]: End processing [assemblyline-v4-service]: success
+[2023-04-17 17:11:38] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2023-04-17 17:11:38] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2023-04-17 17:11:38] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2023-04-17 17:11:38] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2023-04-17 17:11:38] INFO root fetch - main [MainThread]: End processing [dramatiq-crontab]: success
+[2023-04-17 17:11:39] INFO root fetch - main [MainThread]: End processing [remoteit-ssh]: success
+[2023-04-17 17:11:39] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2023-04-17 17:11:41] INFO root fetch - main [MainThread]: End processing [invenio-rdm-records]: success
+[2023-04-17 17:11:41] INFO root fetch - main [MainThread]: Store serial: [17740432]
