@@ -19689,3 +19689,168 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-17 20:06:57] INFO root fetch - main [MainThread]: End processing [piperider-nightly]: success
 [2023-04-17 20:07:04] INFO root fetch - main [MainThread]: End processing [OctoBot-Trading]: success
 [2023-04-17 20:07:04] INFO root fetch - main [MainThread]: Store serial: [17742410]
+[2023-04-17 20:12:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17742410]
+[2023-04-17 20:12:15] INFO root fetch - main [MainThread]: Found 26 changed packages
+[2023-04-17 20:12:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: watchtower-browser-testing
+[2023-04-17 20:12:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kadalu-quotad
+[2023-04-17 20:12:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: class-file-Nikolay
+[2023-04-17 20:12:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pht-train-container-library
+[2023-04-17 20:12:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pydefenderultra
+[2023-04-17 20:12:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyplasm
+[2023-04-17 20:12:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mlcube
+[2023-04-17 20:12:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: AutoSteper
+[2023-04-17 20:12:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: telliot-feeds
+[2023-04-17 20:12:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aind-data-schema
+[2023-04-17 20:12:15] INFO root fetch - processPackages [watchtower-browser-testing]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-17 20:12:15] INFO root fetch - processPackages [mlcube]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 20:12:15] WARNING root fetch - processPackages [class-file-Nikolay]: Skipping, unable to determine old version
+[2023-04-17 20:12:15] INFO root fetch - processPackages [class-file-Nikolay]: Start processing: cf-wesgrh
+[2023-04-17 20:12:15] INFO root fetch - main [MainThread]: End processing [class-file-Nikolay] error
+[2023-04-17 20:12:15] INFO root fetch - processPackages [telliot-feeds]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-17 20:12:15] INFO root fetch - processPackages [kadalu-quotad]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-04-17 20:12:15] INFO root fetch - processPackages [AutoSteper]: New version: [2.0.0] Old Version: [1.4.0]
+[2023-04-17 20:12:15] WARNING root fetch - processPackages [pydefenderultra]: Skipping, unable to determine old version
+[2023-04-17 20:12:15] INFO root fetch - processPackages [pydefenderultra]: Start processing: smthforthetest1337
+[2023-04-17 20:12:15] INFO root fetch - main [MainThread]: End processing [pydefenderultra] error
+[2023-04-17 20:12:15] INFO root fetch - processPackages [pht-train-container-library]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-04-17 20:12:15] INFO root fetch - processPackages [aind-data-schema]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-04-17 20:12:15] INFO root fetch - processPackages [pyplasm]: New version: [3.0.8] Old Version: [3.0.7]
+[2023-04-17 20:12:15] INFO root fetch - processPackages [cf-wesgrh]: New version: [0.2] Old Version: [0.1]
+[2023-04-17 20:12:15] INFO root fetch - processPackages [smthforthetest1337]: New version: [0.1] Old Version: [0.0]
+[2023-04-17 20:12:15] INFO root fetch - processPackages [mlcube]: Downloading https://files.pythonhosted.org/packages/70/b8/1fdc57fdf892e4eaa132f5dbf580030be37c111920828c3b095d10dd5632/mlcube-0.0.8.tar.gz
+[2023-04-17 20:12:15] INFO root fetch - processPackages [AutoSteper]: Downloading https://files.pythonhosted.org/packages/02/84/1906e4046086964328e60fdcf3896dcb8dff8a5c1c3c49faeef6d0872755/AutoSteper-1.4.0.tar.gz
+[2023-04-17 20:12:15] INFO root fetch - processPackages [kadalu-quotad]: Downloading https://files.pythonhosted.org/packages/4e/d0/dd26dd2fb7dec0e0682a25aa52af420d1067e5136e3ff5f1f0bc3f2d711f/kadalu-quotad-1.0.1.tar.gz
+[2023-04-17 20:12:15] INFO root fetch - processPackages [aind-data-schema]: Downloading https://files.pythonhosted.org/packages/f0/3d/4b855ccf3f1b8204c6d84b119d9c98b856c1659bfafe8aa893009a0e4d63/aind-data-schema-0.9.5.tar.gz
+[2023-04-17 20:12:15] INFO root fetch - processPackages [telliot-feeds]: Downloading https://files.pythonhosted.org/packages/df/1a/c9b36c153e58ba24a4171fb8f5e04a3981b821679dda9604c73c0698db61/telliot_feeds-0.1.8.tar.gz
+[2023-04-17 20:12:15] INFO root fetch - processPackages [cf-wesgrh]: Downloading https://files.pythonhosted.org/packages/6a/d9/0226b64a5fd84c8e0a527e43cededcbc4c831fcf71c5835b12348f398c0a/cf_wesgrh-0.1.tar.gz
+[2023-04-17 20:12:15] INFO root fetch - processPackages [smthforthetest1337]: Downloading https://files.pythonhosted.org/packages/38/6a/cd78bf6c40a505d041183b57f05e6443183f84b200cb0950db2ce06b1b0c/smthforthetest1337-0.0.tar.gz
+[2023-04-17 20:12:15] INFO root fetch - processPackages [watchtower-browser-testing]: executing diffoscope
+[2023-04-17 20:12:15] INFO root fetch - processPackages [watchtower-browser-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchtower_browser_testing-0.3.8.tar.gz tmp/watchtower_browser_testing-0.3.9.tar.gz --markdown 20230417/w/watchtower-browser-testing/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-17 20:12:15] INFO root fetch - processPackages [pht-train-container-library]: Downloading https://files.pythonhosted.org/packages/75/01/0b2b51a9d785aeb99ed39bab72a647f9e0509e56c6e5269612a3c218ffa4/pht_train_container_library-2.0.5.tar.gz
+[2023-04-17 20:12:15] INFO root fetch - processPackages [pyplasm]: executing diffoscope
+[2023-04-17 20:12:15] INFO root fetch - processPackages [pyplasm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyplasm-3.0.7-cp39-none-win_amd64.whl.zip tmp/pyplasm-3.0.8-cp39-none-win_amd64.whl.zip --markdown 20230417/p/pyplasm/3.0.7-3.0.8/diff.md --exclude *.pyd
+[2023-04-17 20:12:15] INFO root fetch - processPackages [mlcube]: Downloading https://files.pythonhosted.org/packages/3c/85/dcef86afc7719cb8aeebc31c1b7c49ba4814bf61cfed1cd9565f63aa31d0/mlcube-0.0.9.tar.gz
+[2023-04-17 20:12:15] INFO root fetch - processPackages [kadalu-quotad]: Downloading https://files.pythonhosted.org/packages/9f/c5/973bd977e4d405b7084334590aca3dd5467797b92319db3ec1558e79287c/kadalu-quotad-1.1.0.tar.gz
+[2023-04-17 20:12:15] INFO root fetch - processPackages [smthforthetest1337]: Downloading https://files.pythonhosted.org/packages/23/90/820c43f581a00d08582995a593d724313e2c32e7281def36b413a2b2d8f2/smthforthetest1337-0.1.tar.gz
+[2023-04-17 20:12:15] INFO root fetch - processPackages [pht-train-container-library]: executing diffoscope
+[2023-04-17 20:12:15] INFO root fetch - processPackages [pht-train-container-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pht_train_container_library-2.0.4.tar.gz tmp/pht_train_container_library-2.0.5.tar.gz --markdown 20230417/p/pht-train-container-library/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-04-17 20:12:15] INFO root fetch - processPackages [cf-wesgrh]: Downloading https://files.pythonhosted.org/packages/d0/03/39fedb5fab4f850e3b9bc183771f17cdf5167c440e3d6a4b63c6cd8e607d/cf_wesgrh-0.2.tar.gz
+[2023-04-17 20:12:16] INFO root fetch - processPackages [mlcube]: executing diffoscope
+[2023-04-17 20:12:16] INFO root fetch - processPackages [mlcube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlcube-0.0.8.tar.gz tmp/mlcube-0.0.9.tar.gz --markdown 20230417/m/mlcube/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 20:12:16] INFO root fetch - processPackages [aind-data-schema]: Downloading https://files.pythonhosted.org/packages/42/51/6b230e8ca198de797130787e0cd5036fc8d11696d1c43a8c8c07152176e8/aind-data-schema-0.9.6.tar.gz
+[2023-04-17 20:12:16] INFO root fetch - processPackages [kadalu-quotad]: executing diffoscope
+[2023-04-17 20:12:16] INFO root fetch - processPackages [kadalu-quotad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kadalu-quotad-1.0.1.tar.gz tmp/kadalu-quotad-1.1.0.tar.gz --markdown 20230417/k/kadalu-quotad/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-04-17 20:12:16] INFO root fetch - processPackages [smthforthetest1337]: executing diffoscope
+[2023-04-17 20:12:16] INFO root fetch - processPackages [smthforthetest1337]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smthforthetest1337-0.0.tar.gz tmp/smthforthetest1337-0.1.tar.gz --markdown 20230417/s/smthforthetest1337/0.0-0.1/diff.md --exclude *.pyd
+[2023-04-17 20:12:16] INFO root fetch - processPackages [AutoSteper]: Downloading https://files.pythonhosted.org/packages/85/ed/4388be70b689a892e0dfff50ecd7af46d44e7f088ab1db207241d54152ba/AutoSteper-2.0.0.tar.gz
+[2023-04-17 20:12:16] INFO root fetch - processPackages [telliot-feeds]: Downloading https://files.pythonhosted.org/packages/52/27/8b9f1e8bd347878f083b101e232b8ede0ab361ea62a8d40310e22130c2e2/telliot_feeds-0.1.9.tar.gz
+[2023-04-17 20:12:16] INFO root fetch - processPackages [cf-wesgrh]: executing diffoscope
+[2023-04-17 20:12:16] INFO root fetch - processPackages [cf-wesgrh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cf_wesgrh-0.1.tar.gz tmp/cf_wesgrh-0.2.tar.gz --markdown 20230417/c/cf-wesgrh/0.1-0.2/diff.md --exclude *.pyd
+[2023-04-17 20:12:16] INFO root fetch - processPackages [aind-data-schema]: executing diffoscope
+[2023-04-17 20:12:16] INFO root fetch - processPackages [aind-data-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind-data-schema-0.9.5.tar.gz tmp/aind-data-schema-0.9.6.tar.gz --markdown 20230417/a/aind-data-schema/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-04-17 20:12:16] INFO root fetch - processPackages [telliot-feeds]: executing diffoscope
+[2023-04-17 20:12:16] INFO root fetch - processPackages [telliot-feeds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telliot_feeds-0.1.8.tar.gz tmp/telliot_feeds-0.1.9.tar.gz --markdown 20230417/t/telliot-feeds/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-17 20:12:16] WARNING root fetch - processPackages [AutoSteper]: Skipping package: exceeds size limit 78517008>=10485760
+[2023-04-17 20:12:16] INFO root fetch - processPackages [AutoSteper]: Start processing: xh-dict-utils
+[2023-04-17 20:12:16] INFO root fetch - main [MainThread]: End processing [AutoSteper] error
+[2023-04-17 20:12:16] INFO root fetch - processPackages [xh-dict-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 20:12:16] INFO root fetch - processPackages [xh-dict-utils]: executing diffoscope
+[2023-04-17 20:12:16] INFO root fetch - processPackages [xh-dict-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xh-dict-utils-0.0.8.tar.gz tmp/xh-dict-utils-0.0.9.tar.gz --markdown 20230417/x/xh-dict-utils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 20:12:17] INFO root fetch - processPackages [watchtower-browser-testing]: Start processing: hoppr-nexus-bundler
+[2023-04-17 20:12:17] INFO root fetch - main [MainThread]: End processing [watchtower-browser-testing]: success
+[2023-04-17 20:12:17] INFO root fetch - processPackages [pht-train-container-library]: Start processing: jeff-api
+[2023-04-17 20:12:17] INFO root fetch - main [MainThread]: End processing [pht-train-container-library]: success
+[2023-04-17 20:12:17] INFO root fetch - processPackages [jeff-api]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-04-17 20:12:17] INFO root fetch - processPackages [hoppr-nexus-bundler]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-04-17 20:12:17] INFO root fetch - processPackages [cf-wesgrh]: Start processing: cl-file
+[2023-04-17 20:12:17] INFO root fetch - main [MainThread]: End processing [cf-wesgrh]: success
+[2023-04-17 20:12:17] INFO root fetch - processPackages [cl-file]: New version: [0.2] Old Version: [0.1]
+[2023-04-17 20:12:17] INFO root fetch - processPackages [jeff-api]: executing diffoscope
+[2023-04-17 20:12:17] INFO root fetch - processPackages [jeff-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jeff_api-1.2.8.tar.gz tmp/jeff_api-1.2.9.tar.gz --markdown 20230417/j/jeff-api/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-04-17 20:12:17] INFO root fetch - processPackages [mlcube]: Start processing: mlcube-singularity
+[2023-04-17 20:12:17] INFO root fetch - main [MainThread]: End processing [mlcube]: success
+[2023-04-17 20:12:17] INFO root fetch - processPackages [kadalu-quotad]: Start processing: mlcube-docker
+[2023-04-17 20:12:17] INFO root fetch - main [MainThread]: End processing [kadalu-quotad]: success
+[2023-04-17 20:12:17] INFO root fetch - processPackages [smthforthetest1337]: Start processing: polyfasNast
+[2023-04-17 20:12:17] INFO root fetch - main [MainThread]: End processing [smthforthetest1337]: success
+[2023-04-17 20:12:17] INFO root fetch - processPackages [polyfasNast]: New version: [1.1] Old Version: [1.0]
+[2023-04-17 20:12:17] INFO root fetch - processPackages [hoppr-nexus-bundler]: Downloading https://files.pythonhosted.org/packages/24/dc/7dbe48857c28ce7ec823dad41a966a4b0c0df60e0dd3734ab3530c7f5d59/hoppr_nexus_bundler-0.4.3.tar.gz
+[2023-04-17 20:12:17] INFO root fetch - processPackages [mlcube-singularity]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 20:12:17] INFO root fetch - processPackages [mlcube-docker]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 20:12:17] INFO root fetch - processPackages [cl-file]: Downloading https://files.pythonhosted.org/packages/f6/79/459b9a288917edf41cabb9ee0a16e94d305932f6c1cd0c0ff338474592b4/cl_file-0.1.tar.gz
+[2023-04-17 20:12:17] INFO root fetch - processPackages [polyfasNast]: Downloading https://files.pythonhosted.org/packages/52/0a/b409df59493a1fb74a5d13d5679cd23df2206247c5c8730f09b06fa42750/polyfasNast-1.0.tar.gz
+[2023-04-17 20:12:17] INFO root fetch - processPackages [mlcube-singularity]: Downloading https://files.pythonhosted.org/packages/5a/1a/ea7c473f87a1460bb41114c26a6734b32cdfb34f360580d440d4505f4b6a/mlcube_singularity-0.0.8.tar.gz
+[2023-04-17 20:12:17] INFO root fetch - processPackages [mlcube-docker]: Downloading https://files.pythonhosted.org/packages/b3/ce/c3fb3f1c322d551957cca97a66fadeb32af3100a4ac87fc32c08f83d6e53/mlcube_docker-0.0.8.tar.gz
+[2023-04-17 20:12:17] INFO root fetch - processPackages [hoppr-nexus-bundler]: Downloading https://files.pythonhosted.org/packages/0f/d8/4600d60a329f4ca319a2f619d7d2a7c58b997527f0e7f862c627e8b93f76/hoppr_nexus_bundler-0.4.4.tar.gz
+[2023-04-17 20:12:18] INFO root fetch - processPackages [hoppr-nexus-bundler]: executing diffoscope
+[2023-04-17 20:12:18] INFO root fetch - processPackages [hoppr-nexus-bundler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hoppr_nexus_bundler-0.4.3.tar.gz tmp/hoppr_nexus_bundler-0.4.4.tar.gz --markdown 20230417/h/hoppr-nexus-bundler/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-04-17 20:12:18] INFO root fetch - processPackages [cl-file]: Downloading https://files.pythonhosted.org/packages/f7/eb/1e6ee850bace5eb7c5458ed7dbb7f69c30aceb843587afc263db704f11e5/cl_file-0.2.tar.gz
+[2023-04-17 20:12:18] INFO root fetch - processPackages [mlcube-docker]: Downloading https://files.pythonhosted.org/packages/15/7c/2682f279a8599434e4a2dcffad70d43bbbf810bccf930a999a4de911ad15/mlcube_docker-0.0.9.tar.gz
+[2023-04-17 20:12:18] INFO root fetch - processPackages [xh-dict-utils]: Start processing: dcicutils
+[2023-04-17 20:12:18] INFO root fetch - main [MainThread]: End processing [xh-dict-utils]: success
+[2023-04-17 20:12:18] INFO root fetch - processPackages [polyfasNast]: Downloading https://files.pythonhosted.org/packages/df/9a/7ba83a76ba51115cbff49758716a89f9e3cb59d850f1d3b256f2a942679d/polyfasNast-1.1.tar.gz
+[2023-04-17 20:12:18] INFO root fetch - processPackages [dcicutils]: New version: [7.2.0.1b0] Old Version: [7.1.0]
+[2023-04-17 20:12:18] INFO root fetch - processPackages [mlcube-singularity]: Downloading https://files.pythonhosted.org/packages/ae/2a/d3c5afcfeda21cbd4c5e08e89a9dfbbc599d885450470c3cab9585d4688d/mlcube_singularity-0.0.9.tar.gz
+[2023-04-17 20:12:18] INFO root fetch - processPackages [dcicutils]: executing diffoscope
+[2023-04-17 20:12:18] INFO root fetch - processPackages [dcicutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicutils-7.1.0.tar.gz tmp/dcicutils-7.2.0.1b0.tar.gz --markdown 20230417/d/dcicutils/7.1.0-7.2.0.1b0/diff.md --exclude *.pyd
+[2023-04-17 20:12:18] INFO root fetch - processPackages [cl-file]: executing diffoscope
+[2023-04-17 20:12:18] INFO root fetch - processPackages [cl-file]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cl_file-0.1.tar.gz tmp/cl_file-0.2.tar.gz --markdown 20230417/c/cl-file/0.1-0.2/diff.md --exclude *.pyd
+[2023-04-17 20:12:18] INFO root fetch - processPackages [mlcube-docker]: executing diffoscope
+[2023-04-17 20:12:18] INFO root fetch - processPackages [mlcube-docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlcube_docker-0.0.8.tar.gz tmp/mlcube_docker-0.0.9.tar.gz --markdown 20230417/m/mlcube-docker/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 20:12:18] INFO root fetch - processPackages [polyfasNast]: executing diffoscope
+[2023-04-17 20:12:18] INFO root fetch - processPackages [polyfasNast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polyfasNast-1.0.tar.gz tmp/polyfasNast-1.1.tar.gz --markdown 20230417/p/polyfasNast/1.0-1.1/diff.md --exclude *.pyd
+[2023-04-17 20:12:18] INFO root fetch - processPackages [mlcube-singularity]: executing diffoscope
+[2023-04-17 20:12:18] INFO root fetch - processPackages [mlcube-singularity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlcube_singularity-0.0.8.tar.gz tmp/mlcube_singularity-0.0.9.tar.gz --markdown 20230417/m/mlcube-singularity/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 20:12:18] INFO root fetch - processPackages [jeff-api]: Start processing: mlcube-ssh
+[2023-04-17 20:12:18] INFO root fetch - main [MainThread]: End processing [jeff-api]: success
+[2023-04-17 20:12:18] INFO root fetch - processPackages [mlcube-ssh]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 20:12:19] INFO root fetch - processPackages [mlcube-ssh]: Downloading https://files.pythonhosted.org/packages/c6/53/66a490df4c0397c449f1f262612d84f354e170703421f504f11c320c00d0/mlcube_ssh-0.0.8.tar.gz
+[2023-04-17 20:12:19] INFO root fetch - processPackages [aind-data-schema]: Start processing: mlcube-k8s
+[2023-04-17 20:12:19] INFO root fetch - main [MainThread]: End processing [aind-data-schema]: success
+[2023-04-17 20:12:19] INFO root fetch - processPackages [mlcube-ssh]: Downloading https://files.pythonhosted.org/packages/82/ec/0e975aee227195f2f4420797eddcdc7bd995753cf283f593e25592e7a0ed/mlcube_ssh-0.0.9.tar.gz
+[2023-04-17 20:12:19] INFO root fetch - processPackages [mlcube-k8s]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 20:12:19] INFO root fetch - processPackages [mlcube-ssh]: executing diffoscope
+[2023-04-17 20:12:19] INFO root fetch - processPackages [mlcube-ssh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlcube_ssh-0.0.8.tar.gz tmp/mlcube_ssh-0.0.9.tar.gz --markdown 20230417/m/mlcube-ssh/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 20:12:19] INFO root fetch - processPackages [cl-file]: Start processing: mlcube-kubeflow
+[2023-04-17 20:12:19] INFO root fetch - main [MainThread]: End processing [cl-file]: success
+[2023-04-17 20:12:19] INFO root fetch - processPackages [hoppr-nexus-bundler]: Start processing: mlcube-gcp
+[2023-04-17 20:12:19] INFO root fetch - main [MainThread]: End processing [hoppr-nexus-bundler]: success
+[2023-04-17 20:12:19] INFO root fetch - processPackages [mlcube-k8s]: Downloading https://files.pythonhosted.org/packages/94/62/239f9cda5ffcf6454f3b4a90b609491eb7a22104759c880a291557e61d06/mlcube_k8s-0.0.8.tar.gz
+[2023-04-17 20:12:19] INFO root fetch - processPackages [mlcube-kubeflow]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 20:12:19] INFO root fetch - processPackages [mlcube-gcp]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 20:12:19] INFO root fetch - processPackages [polyfasNast]: Start processing: hoppr-security-commons
+[2023-04-17 20:12:19] INFO root fetch - main [MainThread]: End processing [polyfasNast]: success
+[2023-04-17 20:12:19] INFO root fetch - processPackages [mlcube-docker]: Start processing: ethyca-fides
+[2023-04-17 20:12:19] INFO root fetch - main [MainThread]: End processing [mlcube-docker]: success
+[2023-04-17 20:12:19] INFO root fetch - main [MainThread]: End processing [mlcube-singularity]: success
+[2023-04-17 20:12:19] INFO root fetch - processPackages [hoppr-security-commons]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 20:12:19] INFO root fetch - processPackages [mlcube-gcp]: Downloading https://files.pythonhosted.org/packages/16/5b/b2c4a24290935182d61d9419033cd24789aa6bffe4e73321c5d173ee1608/mlcube_gcp-0.0.8.tar.gz
+[2023-04-17 20:12:19] INFO root fetch - processPackages [mlcube-kubeflow]: Downloading https://files.pythonhosted.org/packages/96/95/97aa40a0fdf80beeea25b4ee8293efdd05d3219cb7c866e0385c5ef99fc1/mlcube_kubeflow-0.0.8.tar.gz
+[2023-04-17 20:12:20] INFO root fetch - processPackages [mlcube-k8s]: Downloading https://files.pythonhosted.org/packages/81/e2/e8d03052f84a101486e5ec12467bd8463a73def94aa9ef9e529526ae9358/mlcube_k8s-0.0.9.tar.gz
+[2023-04-17 20:12:20] INFO root fetch - processPackages [ethyca-fides]: New version: [2.9.2] Old Version: [2.9.1]
+[2023-04-17 20:12:20] INFO root fetch - processPackages [hoppr-security-commons]: Downloading https://files.pythonhosted.org/packages/73/a4/8b39dee10fcc7f5b6cf68593087145653b22ef60b8f70d63c5484f34b750/hoppr_security_commons-0.0.8.tar.gz
+[2023-04-17 20:12:20] INFO root fetch - processPackages [mlcube-kubeflow]: Downloading https://files.pythonhosted.org/packages/c6/3f/f7150e5f18ebbac673f88f6efe9acfeabb0502c47e2424822717cb518445/mlcube_kubeflow-0.0.9.tar.gz
+[2023-04-17 20:12:20] INFO root fetch - processPackages [mlcube-k8s]: executing diffoscope
+[2023-04-17 20:12:20] INFO root fetch - processPackages [mlcube-k8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlcube_k8s-0.0.8.tar.gz tmp/mlcube_k8s-0.0.9.tar.gz --markdown 20230417/m/mlcube-k8s/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 20:12:20] INFO root fetch - processPackages [ethyca-fides]: Downloading https://files.pythonhosted.org/packages/a5/ce/6ad04dd381854d1db26960c5cc1e174a086becd7eea9daa2b89a8dde7a70/ethyca-fides-2.9.1.tar.gz
+[2023-04-17 20:12:20] INFO root fetch - processPackages [mlcube-gcp]: Downloading https://files.pythonhosted.org/packages/d0/20/507b73adf2677030ca08b86e0f687b6b9d4a9179ceeedc8da4a8ed9d509b/mlcube_gcp-0.0.9.tar.gz
+[2023-04-17 20:12:20] INFO root fetch - processPackages [mlcube-kubeflow]: executing diffoscope
+[2023-04-17 20:12:20] INFO root fetch - processPackages [mlcube-kubeflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlcube_kubeflow-0.0.8.tar.gz tmp/mlcube_kubeflow-0.0.9.tar.gz --markdown 20230417/m/mlcube-kubeflow/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 20:12:20] INFO root fetch - processPackages [mlcube-gcp]: executing diffoscope
+[2023-04-17 20:12:20] INFO root fetch - processPackages [mlcube-gcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlcube_gcp-0.0.8.tar.gz tmp/mlcube_gcp-0.0.9.tar.gz --markdown 20230417/m/mlcube-gcp/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 20:12:20] INFO root fetch - processPackages [hoppr-security-commons]: Downloading https://files.pythonhosted.org/packages/28/98/819d5ffab5f26c075fb2191a2d5583cd18aa8069a8fc43484d65978fe18d/hoppr_security_commons-0.0.9.tar.gz
+[2023-04-17 20:12:20] INFO root fetch - main [MainThread]: End processing [mlcube-ssh]: success
+[2023-04-17 20:12:20] INFO root fetch - processPackages [hoppr-security-commons]: executing diffoscope
+[2023-04-17 20:12:20] INFO root fetch - processPackages [hoppr-security-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hoppr_security_commons-0.0.8.tar.gz tmp/hoppr_security_commons-0.0.9.tar.gz --markdown 20230417/h/hoppr-security-commons/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 20:12:20] INFO root fetch - main [MainThread]: End processing [telliot-feeds]: success
+[2023-04-17 20:12:21] INFO root fetch - processPackages [ethyca-fides]: Downloading https://files.pythonhosted.org/packages/a3/0c/e979f7bc3c1a405c539d4df6c4c75896975e70d6b87777b8378ea071da2c/ethyca-fides-2.9.2.tar.gz
+[2023-04-17 20:12:21] INFO root fetch - main [MainThread]: End processing [mlcube-k8s]: success
+[2023-04-17 20:12:21] INFO root fetch - main [MainThread]: End processing [mlcube-kubeflow]: success
+[2023-04-17 20:12:21] INFO root fetch - main [MainThread]: End processing [mlcube-gcp]: success
+[2023-04-17 20:12:21] INFO root fetch - main [MainThread]: End processing [hoppr-security-commons]: success
+[2023-04-17 20:12:21] INFO root fetch - main [MainThread]: End processing [dcicutils]: success
+[2023-04-17 20:12:22] INFO root fetch - processPackages [ethyca-fides]: executing diffoscope
+[2023-04-17 20:12:22] INFO root fetch - processPackages [ethyca-fides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ethyca-fides-2.9.1.tar.gz tmp/ethyca-fides-2.9.2.tar.gz --markdown 20230417/e/ethyca-fides/2.9.1-2.9.2/diff.md --exclude *.pyd
+[2023-04-17 20:12:25] INFO root fetch - main [MainThread]: End processing [pyplasm]: success
+[2023-04-17 20:12:31] INFO root fetch - main [MainThread]: End processing [ethyca-fides]: success
+[2023-04-17 20:12:31] INFO root fetch - main [MainThread]: Store serial: [17742489]
