@@ -4657,3 +4657,50 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 05:26:02] INFO root fetch - main [MainThread]: End processing [hyperdb-python]: success
 [2023-04-17 05:26:04] INFO root fetch - main [MainThread]: End processing [konfuzio-sdk]: success
 [2023-04-17 05:26:04] INFO root fetch - main [MainThread]: Store serial: [17733364]
+[2023-04-17 05:31:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17733364]
+[2023-04-17 05:31:13] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-17 05:31:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trex-model
+[2023-04-17 05:31:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jupyter-summarytools
+[2023-04-17 05:31:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cliffy
+[2023-04-17 05:31:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: trex-apis
+[2023-04-17 05:31:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: econdata
+[2023-04-17 05:31:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: datoso
+[2023-04-17 05:31:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cargo-lambda-cdk
+[2023-04-17 05:31:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: accurating
+[2023-04-17 05:31:13] INFO root fetch - processPackages [accurating]: New version: [0.3.1] Old Version: [0.3]
+[2023-04-17 05:31:13] WARNING root fetch - processPackages [econdata]: Skipping, unable to determine old version
+[2023-04-17 05:31:13] INFO root fetch - main [MainThread]: End processing [econdata] error
+[2023-04-17 05:31:13] INFO root fetch - processPackages [jupyter-summarytools]: New version: [0.2.3] Old Version: [0.2.1]
+[2023-04-17 05:31:13] INFO root fetch - processPackages [accurating]: executing diffoscope
+[2023-04-17 05:31:13] INFO root fetch - processPackages [accurating]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accurating-0.3.tar.gz tmp/accurating-0.3.1.tar.gz --markdown 20230417/a/accurating/0.3-0.3.1/diff.md --exclude *.pyd
+[2023-04-17 05:31:13] INFO root fetch - processPackages [trex-model]: New version: [1.0.0] Old Version: [0.2.9]
+[2023-04-17 05:31:13] INFO root fetch - processPackages [cargo-lambda-cdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 05:31:13] WARNING root fetch - processPackages [datoso]: Skipping, unable to determine old version
+[2023-04-17 05:31:13] INFO root fetch - main [MainThread]: End processing [datoso] error
+[2023-04-17 05:31:13] INFO root fetch - processPackages [trex-apis]: New version: [1.0.0] Old Version: [0.2.9]
+[2023-04-17 05:31:13] INFO root fetch - processPackages [cliffy]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-04-17 05:31:13] INFO root fetch - processPackages [cargo-lambda-cdk]: executing diffoscope
+[2023-04-17 05:31:13] INFO root fetch - processPackages [cargo-lambda-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cargo-lambda-cdk-0.0.8.tar.gz tmp/cargo-lambda-cdk-0.0.9.tar.gz --markdown 20230417/c/cargo-lambda-cdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 05:31:13] INFO root fetch - processPackages [trex-model]: Downloading https://files.pythonhosted.org/packages/73/1b/10711f8b326d9aa143ffa908e16933fd2bf944f0b11d0131d87e01ce3e81/trex-model-0.2.9.tar.gz
+[2023-04-17 05:31:13] INFO root fetch - processPackages [jupyter-summarytools]: Downloading https://files.pythonhosted.org/packages/96/0a/460343adc5b5c45bec6ec53d96dfdfd77bf5c23d1381e16405d52a549ea6/jupyter-summarytools-0.2.1.tar.gz
+[2023-04-17 05:31:13] INFO root fetch - processPackages [cliffy]: Downloading https://files.pythonhosted.org/packages/45/9a/36b773d612c76901c6759e2cda090b85637004bab5a09c8e37a3f2aa893a/cliffy-0.2.3.tar.gz
+[2023-04-17 05:31:13] INFO root fetch - processPackages [trex-apis]: Downloading https://files.pythonhosted.org/packages/64/bb/7a72bb2dae3cad63f8d25a1ae89ae37ce3a775ef3e0e028da70cb08e9737/trex-apis-0.2.9.tar.gz
+[2023-04-17 05:31:13] INFO root fetch - processPackages [cliffy]: Downloading https://files.pythonhosted.org/packages/b2/69/f46521a6bf6db8a20d49151cfedef860f10d58c91b8e8bc09c58e55306aa/cliffy-0.2.4.tar.gz
+[2023-04-17 05:31:13] INFO root fetch - processPackages [jupyter-summarytools]: Downloading https://files.pythonhosted.org/packages/a7/19/d082d174b21d4e4b9fd92898b2ce27fda94a251b541cf186e3672f95258e/jupyter-summarytools-0.2.3.tar.gz
+[2023-04-17 05:31:13] INFO root fetch - processPackages [trex-model]: Downloading https://files.pythonhosted.org/packages/80/39/628b9f594d3e86b636a77e3287f0fd9166bb60c509afe646f7f8bc9439c8/trex-model-1.0.0.tar.gz
+[2023-04-17 05:31:13] INFO root fetch - processPackages [trex-apis]: Downloading https://files.pythonhosted.org/packages/45/45/52f14ed303eeb3846e1be95978ff96ff9971e315bd98be9793ea89d53cac/trex-apis-1.0.0.tar.gz
+[2023-04-17 05:31:14] INFO root fetch - processPackages [cliffy]: executing diffoscope
+[2023-04-17 05:31:14] INFO root fetch - processPackages [cliffy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cliffy-0.2.3.tar.gz tmp/cliffy-0.2.4.tar.gz --markdown 20230417/c/cliffy/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-04-17 05:31:14] INFO root fetch - processPackages [jupyter-summarytools]: executing diffoscope
+[2023-04-17 05:31:14] INFO root fetch - processPackages [jupyter-summarytools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter-summarytools-0.2.1.tar.gz tmp/jupyter-summarytools-0.2.3.tar.gz --markdown 20230417/j/jupyter-summarytools/0.2.1-0.2.3/diff.md --exclude *.pyd
+[2023-04-17 05:31:14] INFO root fetch - processPackages [trex-model]: executing diffoscope
+[2023-04-17 05:31:14] INFO root fetch - processPackages [trex-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trex-model-0.2.9.tar.gz tmp/trex-model-1.0.0.tar.gz --markdown 20230417/t/trex-model/0.2.9-1.0.0/diff.md --exclude *.pyd
+[2023-04-17 05:31:14] INFO root fetch - processPackages [trex-apis]: executing diffoscope
+[2023-04-17 05:31:14] INFO root fetch - processPackages [trex-apis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trex-apis-0.2.9.tar.gz tmp/trex-apis-1.0.0.tar.gz --markdown 20230417/t/trex-apis/0.2.9-1.0.0/diff.md --exclude *.pyd
+[2023-04-17 05:31:14] INFO root fetch - main [MainThread]: End processing [accurating]: success
+[2023-04-17 05:31:14] INFO root fetch - main [MainThread]: End processing [cargo-lambda-cdk]: success
+[2023-04-17 05:31:15] INFO root fetch - main [MainThread]: End processing [cliffy]: success
+[2023-04-17 05:31:15] INFO root fetch - main [MainThread]: End processing [jupyter-summarytools]: success
+[2023-04-17 05:31:15] INFO root fetch - main [MainThread]: End processing [trex-apis]: success
+[2023-04-17 05:31:15] INFO root fetch - main [MainThread]: End processing [trex-model]: success
+[2023-04-17 05:31:15] INFO root fetch - main [MainThread]: Store serial: [17733390]
