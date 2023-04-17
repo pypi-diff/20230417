@@ -5820,3 +5820,79 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 07:35:57] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
 [2023-04-17 07:35:57] INFO root fetch - main [MainThread]: End processing [monashspa]: success
 [2023-04-17 07:35:57] INFO root fetch - main [MainThread]: Store serial: [17734013]
+[2023-04-17 07:41:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17734013]
+[2023-04-17 07:41:06] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-17 07:41:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tarina
+[2023-04-17 07:41:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyarmor.cli.runtime
+[2023-04-17 07:41:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mirrorbot
+[2023-04-17 07:41:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bgdiscovery
+[2023-04-17 07:41:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyarmor
+[2023-04-17 07:41:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: langchain-serve
+[2023-04-17 07:41:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cherryblossom
+[2023-04-17 07:41:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: otoe
+[2023-04-17 07:41:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: LibCode
+[2023-04-17 07:41:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Askpyro
+[2023-04-17 07:41:06] ERROR root fetch - processPackages [mirrorbot]: Unable to get metadata: No such project 'mirrorbot'
+[2023-04-17 07:41:06] INFO root fetch - processPackages [mirrorbot]: Start processing: arxivterminal
+[2023-04-17 07:41:06] INFO root fetch - main [MainThread]: End processing [mirrorbot] error
+[2023-04-17 07:41:06] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.4.dev5] Old Version: [0.0.4.dev4]
+[2023-04-17 07:41:06] INFO root fetch - processPackages [pyarmor.cli.runtime]: New version: [2.1.dev9] Old Version: [2.1.dev8]
+[2023-04-17 07:41:06] INFO root fetch - processPackages [tarina]: New version: [0.3.0] Old Version: [0.2.3]
+[2023-04-17 07:41:06] INFO root fetch - processPackages [cherryblossom]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 07:41:06] INFO root fetch - processPackages [otoe]: New version: [0.0.7a1] Old Version: [0.0.7a0]
+[2023-04-17 07:41:06] WARNING root fetch - processPackages [bgdiscovery]: Skipping, unable to determine old version
+[2023-04-17 07:41:06] INFO root fetch - processPackages [Askpyro]: New version: [1.71] Old Version: [1.70]
+[2023-04-17 07:41:06] INFO root fetch - processPackages [bgdiscovery]: Start processing: bgdiscovery
+[2023-04-17 07:41:06] INFO root fetch - main [MainThread]: End processing [bgdiscovery] error
+[2023-04-17 07:41:06] INFO root fetch - processPackages [LibCode]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-04-17 07:41:06] INFO root fetch - processPackages [arxivterminal]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-17 07:41:06] INFO root fetch - processPackages [pyarmor]: New version: [8.1.dev9] Old Version: [8.1.dev7]
+[2023-04-17 07:41:06] WARNING root fetch - processPackages [bgdiscovery]: Skipping, unable to determine old version
+[2023-04-17 07:41:06] INFO root fetch - processPackages [bgdiscovery]: Start processing: grizzly-loadtester-ls
+[2023-04-17 07:41:06] INFO root fetch - main [MainThread]: End processing [bgdiscovery] error
+[2023-04-17 07:41:06] INFO root fetch - processPackages [pyarmor.cli.runtime]: Downloading https://files.pythonhosted.org/packages/72/15/fed03ddb7b1a2e7a8a10b5bc6c60732b04c81292849483d20112f7b459c7/pyarmor.cli.runtime-2.1.dev8-cp39-none-any.whl
+[2023-04-17 07:41:06] INFO root fetch - processPackages [grizzly-loadtester-ls]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-17 07:41:06] INFO root fetch - processPackages [cherryblossom]: Downloading https://files.pythonhosted.org/packages/0f/2d/24cb19493f8eb426641d82764246da50997181265f2a98e189110f7ecda0/cherryblossom-0.0.8.tar.gz
+[2023-04-17 07:41:06] INFO root fetch - processPackages [otoe]: Downloading https://files.pythonhosted.org/packages/1a/e1/191c3e5c05ac84a36e84a074b4f8f0293fc1700b97f547bf2690c45d5306/otoe-0.0.7a1.tar.gz
+[2023-04-17 07:41:06] INFO root fetch - processPackages [Askpyro]: Downloading https://files.pythonhosted.org/packages/49/9c/bff4fe3ad01be91e88ef001b8c5350f51061643314906b521f8fd5130fd2/Askpyro-1.71.tar.gz
+[2023-04-17 07:41:06] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/d9/c5/9a617bcff2f4497670f320fe6b38fcc7f09af24412e667aca563e112d9c1/langchain-serve-0.0.4.dev5.tar.gz
+[2023-04-17 07:41:06] INFO root fetch - processPackages [pyarmor]: Downloading https://files.pythonhosted.org/packages/05/f9/33898cc52661e0e1028ce1fe5f5c07a0e0d885b0d5c6530686415fb14f42/pyarmor-8.1.dev7.zip
+[2023-04-17 07:41:06] INFO root fetch - processPackages [grizzly-loadtester-ls]: Downloading https://files.pythonhosted.org/packages/1e/e9/667be752c7194c5412a438507ade8dfa1802fc37b9983f9313bcfeb0859c/grizzly-loadtester-ls-1.0.1.tar.gz
+[2023-04-17 07:41:06] INFO root fetch - processPackages [LibCode]: Downloading https://files.pythonhosted.org/packages/86/93/bf8b5a12957d53fd1d894dbfdad8c12a68cd5b510b94a610db2aa5551155/LibCode-1.3.0.tar.gz
+[2023-04-17 07:41:06] INFO root fetch - processPackages [arxivterminal]: Downloading https://files.pythonhosted.org/packages/ac/09/a5d6d073d82983ad04d7096fed5da1dfe6ea949d85ea570edf3d1e93513a/arxivterminal-0.3.1.tar.gz
+[2023-04-17 07:41:06] INFO root fetch - processPackages [tarina]: Downloading https://files.pythonhosted.org/packages/8c/d3/25dc8f3dcb736b7c7571a54069257f36e61492b34a5122405d0b3e07c93d/tarina-0.3.0.tar.gz
+[2023-04-17 07:41:06] INFO root fetch - processPackages [otoe]: executing diffoscope
+[2023-04-17 07:41:06] INFO root fetch - processPackages [otoe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otoe-0.0.7a0.tar.gz tmp/otoe-0.0.7a1.tar.gz --markdown 20230417/o/otoe/0.0.7a0-0.0.7a1/diff.md --exclude *.pyd
+[2023-04-17 07:41:06] INFO root fetch - processPackages [Askpyro]: executing diffoscope
+[2023-04-17 07:41:06] INFO root fetch - processPackages [Askpyro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Askpyro-1.70.tar.gz tmp/Askpyro-1.71.tar.gz --markdown 20230417/A/Askpyro/1.70-1.71/diff.md --exclude *.pyd
+[2023-04-17 07:41:06] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-04-17 07:41:06] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.4.dev4.tar.gz tmp/langchain-serve-0.0.4.dev5.tar.gz --markdown 20230417/l/langchain-serve/0.0.4.dev4-0.0.4.dev5/diff.md --exclude *.pyd
+[2023-04-17 07:41:06] INFO root fetch - processPackages [cherryblossom]: Downloading https://files.pythonhosted.org/packages/61/4f/a31f4b193751ea5c329a9a633df29cf90a2b13d09d2551c422fd9e3a4ad1/cherryblossom-0.0.9.tar.gz
+[2023-04-17 07:41:06] INFO root fetch - processPackages [LibCode]: executing diffoscope
+[2023-04-17 07:41:06] INFO root fetch - processPackages [LibCode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LibCode-1.2.0.tar.gz tmp/LibCode-1.3.0.tar.gz --markdown 20230417/L/LibCode/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-04-17 07:41:06] INFO root fetch - processPackages [arxivterminal]: executing diffoscope
+[2023-04-17 07:41:06] INFO root fetch - processPackages [arxivterminal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arxivterminal-0.3.0.tar.gz tmp/arxivterminal-0.3.1.tar.gz --markdown 20230417/a/arxivterminal/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-17 07:41:07] INFO root fetch - processPackages [tarina]: executing diffoscope
+[2023-04-17 07:41:07] INFO root fetch - processPackages [tarina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tarina-0.2.3.tar.gz tmp/tarina-0.3.0.tar.gz --markdown 20230417/t/tarina/0.2.3-0.3.0/diff.md --exclude *.pyd
+[2023-04-17 07:41:07] INFO root fetch - processPackages [grizzly-loadtester-ls]: Downloading https://files.pythonhosted.org/packages/52/45/e4308707689efa210d28d884146415d2be42157c5e10b11a260270e76770/grizzly-loadtester-ls-1.0.2.tar.gz
+[2023-04-17 07:41:07] INFO root fetch - processPackages [cherryblossom]: executing diffoscope
+[2023-04-17 07:41:07] INFO root fetch - processPackages [cherryblossom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cherryblossom-0.0.8.tar.gz tmp/cherryblossom-0.0.9.tar.gz --markdown 20230417/c/cherryblossom/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 07:41:07] INFO root fetch - processPackages [grizzly-loadtester-ls]: executing diffoscope
+[2023-04-17 07:41:07] INFO root fetch - processPackages [grizzly-loadtester-ls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grizzly-loadtester-ls-1.0.1.tar.gz tmp/grizzly-loadtester-ls-1.0.2.tar.gz --markdown 20230417/g/grizzly-loadtester-ls/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-17 07:41:07] INFO root fetch - processPackages [pyarmor.cli.runtime]: Downloading https://files.pythonhosted.org/packages/df/a1/448ec9d21588a205f94722a91c5eddcf902cffefadcb36b6d29aa7b49e47/pyarmor.cli.runtime-2.1.dev9-cp39-none-any.whl
+[2023-04-17 07:41:07] INFO root fetch - processPackages [pyarmor]: Downloading https://files.pythonhosted.org/packages/cd/b6/f5383a3dc0cc04fc66bd49899776f2952b7ca87e7c655a2b57a49a433f83/pyarmor-8.1.dev9.zip
+[2023-04-17 07:41:07] INFO root fetch - processPackages [pyarmor.cli.runtime]: executing diffoscope
+[2023-04-17 07:41:07] INFO root fetch - processPackages [pyarmor.cli.runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.runtime-2.1.dev8-cp39-none-any.whl.zip tmp/pyarmor.cli.runtime-2.1.dev9-cp39-none-any.whl.zip --markdown 20230417/p/pyarmor.cli.runtime/2.1.dev8-2.1.dev9/diff.md --exclude *.pyd
+[2023-04-17 07:41:08] INFO root fetch - main [MainThread]: End processing [Askpyro]: success
+[2023-04-17 07:41:08] INFO root fetch - main [MainThread]: End processing [otoe]: success
+[2023-04-17 07:41:08] INFO root fetch - processPackages [pyarmor]: executing diffoscope
+[2023-04-17 07:41:08] INFO root fetch - processPackages [pyarmor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor-8.1.dev7.zip tmp/pyarmor-8.1.dev9.zip --markdown 20230417/p/pyarmor/8.1.dev7-8.1.dev9/diff.md --exclude *.pyd
+[2023-04-17 07:41:08] INFO root fetch - main [MainThread]: End processing [LibCode]: success
+[2023-04-17 07:41:08] INFO root fetch - main [MainThread]: End processing [arxivterminal]: success
+[2023-04-17 07:41:08] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-04-17 07:41:08] INFO root fetch - main [MainThread]: End processing [tarina]: success
+[2023-04-17 07:41:08] INFO root fetch - main [MainThread]: End processing [grizzly-loadtester-ls]: success
+[2023-04-17 07:41:08] INFO root fetch - main [MainThread]: End processing [cherryblossom]: success
+[2023-04-17 07:41:09] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.runtime]: success
+[2023-04-17 07:41:10] INFO root fetch - main [MainThread]: End processing [pyarmor]: success
+[2023-04-17 07:41:10] INFO root fetch - main [MainThread]: Store serial: [17734107]
