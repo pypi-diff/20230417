@@ -15095,3 +15095,192 @@ EOFError: EOF read where object expected
 [2023-04-17 16:28:32] INFO root fetch - main [MainThread]: End processing [indy-plenum]: success
 [2023-04-17 16:28:43] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
 [2023-04-17 16:28:43] INFO root fetch - main [MainThread]: Store serial: [17739614]
+[2023-04-17 16:33:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17739614]
+[2023-04-17 16:33:52] INFO root fetch - main [MainThread]: Found 32 changed packages
+[2023-04-17 16:33:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tupa123
+[2023-04-17 16:33:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: planetmint-driver-python
+[2023-04-17 16:33:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pepperize.cdk-dynamodb-backup
+[2023-04-17 16:33:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: devchat
+[2023-04-17 16:33:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nucliadb
+[2023-04-17 16:33:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nucliadb-client
+[2023-04-17 16:33:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nucliadb-dataset
+[2023-04-17 16:33:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nucliadb-models
+[2023-04-17 16:33:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nucliadb-protos
+[2023-04-17 16:33:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nucliadb-sdk
+[2023-04-17 16:33:52] INFO root fetch - processPackages [nucliadb]: New version: [2.7.0.post170] Old Version: [2.7.0.post169]
+[2023-04-17 16:33:52] INFO root fetch - processPackages [nucliadb-sdk]: New version: [2.7.0.post170] Old Version: [2.7.0.post169]
+[2023-04-17 16:33:52] INFO root fetch - processPackages [nucliadb-dataset]: New version: [2.7.0.post170] Old Version: [2.7.0.post169]
+[2023-04-17 16:33:52] INFO root fetch - processPackages [nucliadb-protos]: New version: [2.7.0.post170] Old Version: [2.7.0.post169]
+[2023-04-17 16:33:53] INFO root fetch - processPackages [nucliadb-models]: New version: [2.7.0.post170] Old Version: [2.7.0.post169]
+[2023-04-17 16:33:53] INFO root fetch - processPackages [nucliadb-client]: New version: [2.7.0.post170] Old Version: [2.7.0.post169]
+[2023-04-17 16:33:53] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-17 16:33:53] INFO root fetch - processPackages [planetmint-driver-python]: New version: [0.18.2] Old Version: [0.17.0]
+[2023-04-17 16:33:53] WARNING root fetch - processPackages [devchat]: Skipping, unable to determine old version
+[2023-04-17 16:33:53] INFO root fetch - processPackages [devchat]: Start processing: nucliadb-utils
+[2023-04-17 16:33:53] INFO root fetch - main [MainThread]: End processing [devchat] error
+[2023-04-17 16:33:53] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2023-04-17 16:33:53] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-2.7.0.post169-py3-none-any.whl.zip tmp/nucliadb_dataset-2.7.0.post170-py3-none-any.whl.zip --markdown 20230417/n/nucliadb-dataset/2.7.0.post169-2.7.0.post170/diff.md --exclude *.pyd
+[2023-04-17 16:33:53] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2023-04-17 16:33:53] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-2.7.0.post169-py3-none-any.whl.zip tmp/nucliadb-2.7.0.post170-py3-none-any.whl.zip --markdown 20230417/n/nucliadb/2.7.0.post169-2.7.0.post170/diff.md --exclude *.pyd
+[2023-04-17 16:33:53] INFO root fetch - processPackages [tupa123]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-04-17 16:33:53] INFO root fetch - processPackages [nucliadb-utils]: New version: [2.7.0.post170] Old Version: [2.7.0.post169]
+[2023-04-17 16:33:53] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2023-04-17 16:33:53] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-2.7.0.post169-py3-none-any.whl.zip tmp/nucliadb_protos-2.7.0.post170-py3-none-any.whl.zip --markdown 20230417/n/nucliadb-protos/2.7.0.post169-2.7.0.post170/diff.md --exclude *.pyd
+[2023-04-17 16:33:53] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2023-04-17 16:33:53] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-2.7.0.post169-py3-none-any.whl.zip tmp/nucliadb_models-2.7.0.post170-py3-none-any.whl.zip --markdown 20230417/n/nucliadb-models/2.7.0.post169-2.7.0.post170/diff.md --exclude *.pyd
+[2023-04-17 16:33:53] INFO root fetch - processPackages [nucliadb-client]: executing diffoscope
+[2023-04-17 16:33:53] INFO root fetch - processPackages [nucliadb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_client-2.7.0.post169-py3-none-any.whl.zip tmp/nucliadb_client-2.7.0.post170-py3-none-any.whl.zip --markdown 20230417/n/nucliadb-client/2.7.0.post169-2.7.0.post170/diff.md --exclude *.pyd
+[2023-04-17 16:33:53] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: executing diffoscope
+[2023-04-17 16:33:53] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-dynamodb-backup-0.0.98.tar.gz tmp/pepperize.cdk-dynamodb-backup-0.0.99.tar.gz --markdown 20230417/p/pepperize.cdk-dynamodb-backup/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-17 16:33:53] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2023-04-17 16:33:53] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-2.7.0.post169-py3-none-any.whl.zip tmp/nucliadb_sdk-2.7.0.post170-py3-none-any.whl.zip --markdown 20230417/n/nucliadb-sdk/2.7.0.post169-2.7.0.post170/diff.md --exclude *.pyd
+[2023-04-17 16:33:53] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2023-04-17 16:33:53] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-2.7.0.post169-py3-none-any.whl.zip tmp/nucliadb_utils-2.7.0.post170-py3-none-any.whl.zip --markdown 20230417/n/nucliadb-utils/2.7.0.post169-2.7.0.post170/diff.md --exclude *.pyd
+[2023-04-17 16:33:53] INFO root fetch - processPackages [planetmint-driver-python]: Downloading https://files.pythonhosted.org/packages/43/6a/c600e4d9b6be30bbd951f7bfb837ff21f96b34982afe5c64114ab3b273e8/planetmint_driver_python-0.17.0.tar.gz
+[2023-04-17 16:33:53] INFO root fetch - processPackages [tupa123]: Downloading https://files.pythonhosted.org/packages/da/99/fd4047f9152783c56113c6f2e6262329b013324301605c3677cfcf9efc5d/tupa123-1.3.2.tar.gz
+[2023-04-17 16:33:53] INFO root fetch - processPackages [planetmint-driver-python]: Downloading https://files.pythonhosted.org/packages/ff/3b/fdb9368c0bce16e003a3571e4afcaaa121f4ee6033bec91a0aa974530acf/planetmint_driver_python-0.18.2.tar.gz
+[2023-04-17 16:33:53] INFO root fetch - processPackages [tupa123]: Downloading https://files.pythonhosted.org/packages/da/86/6dda02f12d70db69c332f1b85ba0dc0acb756c09a592af44320a817409c6/tupa123-1.3.3.tar.gz
+[2023-04-17 16:33:53] INFO root fetch - processPackages [planetmint-driver-python]: executing diffoscope
+[2023-04-17 16:33:53] INFO root fetch - processPackages [planetmint-driver-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planetmint_driver_python-0.17.0.tar.gz tmp/planetmint_driver_python-0.18.2.tar.gz --markdown 20230417/p/planetmint-driver-python/0.17.0-0.18.2/diff.md --exclude *.pyd
+[2023-04-17 16:33:53] INFO root fetch - processPackages [tupa123]: executing diffoscope
+[2023-04-17 16:33:53] INFO root fetch - processPackages [tupa123]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tupa123-1.3.2.tar.gz tmp/tupa123-1.3.3.tar.gz --markdown 20230417/t/tupa123/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-04-17 16:33:54] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: mtap
+[2023-04-17 16:33:54] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2023-04-17 16:33:54] INFO root fetch - processPackages [mtap]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-04-17 16:33:54] INFO root fetch - processPackages [nucliadb-client]: Start processing: anyon
+[2023-04-17 16:33:54] INFO root fetch - main [MainThread]: End processing [nucliadb-client]: success
+[2023-04-17 16:33:54] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: Start processing: vnav
+[2023-04-17 16:33:54] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-dynamodb-backup]: success
+[2023-04-17 16:33:54] WARNING root fetch - processPackages [anyon]: Skipping, unable to determine old version
+[2023-04-17 16:33:54] INFO root fetch - processPackages [anyon]: Start processing: localstack
+[2023-04-17 16:33:54] INFO root fetch - main [MainThread]: End processing [anyon] error
+[2023-04-17 16:33:54] INFO root fetch - processPackages [nucliadb-models]: Start processing: pyworld
+[2023-04-17 16:33:54] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2023-04-17 16:33:54] INFO root fetch - processPackages [vnav]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-17 16:33:55] INFO root fetch - processPackages [localstack]: New version: [2.0.2] Old Version: [2.0.1.dev20230331110744]
+[2023-04-17 16:33:55] INFO root fetch - processPackages [nucliadb-protos]: Start processing: localstack-ext
+[2023-04-17 16:33:55] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2023-04-17 16:33:55] INFO root fetch - processPackages [pyworld]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-04-17 16:33:55] INFO root fetch - processPackages [mtap]: Downloading https://files.pythonhosted.org/packages/82/06/62b4d5ebec118e15363dde23c6c9853a8933030e195669bbd443048bd3c8/mtap-1.2.1.tar.gz
+[2023-04-17 16:33:55] INFO root fetch - processPackages [nucliadb-sdk]: Start processing: python-datamodel
+[2023-04-17 16:33:55] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2023-04-17 16:33:55] INFO root fetch - processPackages [python-datamodel]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-04-17 16:33:55] INFO root fetch - processPackages [pyworld]: Downloading https://files.pythonhosted.org/packages/f3/1d/139048bfb91fcfc17657561c3049f1091031e3cf1ca6fb6a93d65a82253b/pyworld-0.3.2.tar.gz
+[2023-04-17 16:33:55] INFO root fetch - processPackages [localstack]: Downloading https://files.pythonhosted.org/packages/c2/ea/6fc4dd48f191caf46a3c8d19571c3647478e347830fc343314a9611bfa6c/localstack-2.0.1.dev20230331110744.tar.gz
+[2023-04-17 16:33:55] INFO root fetch - processPackages [vnav]: Downloading https://files.pythonhosted.org/packages/79/28/4b788df1413cb5512354721f9b163ab8add154f2efa0c97d53ec2eed370a/vnav-0.3.0-py2.py3-none-any.whl
+[2023-04-17 16:33:55] INFO root fetch - processPackages [nucliadb-utils]: Start processing: disvide
+[2023-04-17 16:33:55] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2023-04-17 16:33:55] INFO root fetch - processPackages [mtap]: executing diffoscope
+[2023-04-17 16:33:55] INFO root fetch - processPackages [mtap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mtap-1.2.0.tar.gz tmp/mtap-1.2.1.tar.gz --markdown 20230417/m/mtap/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-04-17 16:33:55] WARNING root fetch - processPackages [disvide]: Skipping, unable to determine old version
+[2023-04-17 16:33:55] INFO root fetch - processPackages [disvide]: Start processing: qudi-hira-analysis
+[2023-04-17 16:33:55] INFO root fetch - main [MainThread]: End processing [disvide] error
+[2023-04-17 16:33:55] INFO root fetch - processPackages [localstack-ext]: New version: [2.0.2] Old Version: [2.0.1.dev20230331110744]
+[2023-04-17 16:33:55] INFO root fetch - processPackages [python-datamodel]: Downloading https://files.pythonhosted.org/packages/5f/93/e0933d28cffb0d18196cab630b5158ff2ac7b1f8cdc5f9c317009956b2c1/python_datamodel-0.3.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-17 16:33:55] INFO root fetch - processPackages [qudi-hira-analysis]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-04-17 16:33:55] INFO root fetch - processPackages [pyworld]: Downloading https://files.pythonhosted.org/packages/6c/bf/31e05e6d916d7df5732a58059e93e6e4a60f7f9415621f9f92105c6e1076/pyworld-0.3.3-cp310-cp310-win_amd64.whl
+[2023-04-17 16:33:55] INFO root fetch - processPackages [localstack-ext]: Downloading https://files.pythonhosted.org/packages/7c/39/57e7f956a87cb652d76d1b8e27a1180b8895721a2be20f5bb99828c62f51/localstack-ext-2.0.1.dev20230331110744.tar.gz
+[2023-04-17 16:33:55] INFO root fetch - processPackages [localstack]: Downloading https://files.pythonhosted.org/packages/a6/97/1b6102bdc5b7d4922b73ffd2c7acecf537ba928880abb5207f4610039f97/localstack-2.0.2.tar.gz
+[2023-04-17 16:33:55] INFO root fetch - processPackages [vnav]: Downloading https://files.pythonhosted.org/packages/b0/75/f119b6ba843bb2c3c67f11e463954b86103cb48e2f2efbb2e598131df111/vnav-0.3.1-py2.py3-none-any.whl
+[2023-04-17 16:33:55] INFO root fetch - processPackages [planetmint-driver-python]: Start processing: alnoda-wrk
+[2023-04-17 16:33:55] INFO root fetch - main [MainThread]: End processing [planetmint-driver-python]: success
+[2023-04-17 16:33:55] INFO root fetch - processPackages [qudi-hira-analysis]: Downloading https://files.pythonhosted.org/packages/91/e5/d073583d214e3386d213022dc7a918ff8506e523d13ed80cbb090fe63ffc/qudi_hira_analysis-1.4.1.tar.gz
+[2023-04-17 16:33:55] INFO root fetch - processPackages [alnoda-wrk]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-04-17 16:33:55] INFO root fetch - processPackages [pyworld]: executing diffoscope
+[2023-04-17 16:33:55] INFO root fetch - processPackages [pyworld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyworld-0.3.2.tar.gz tmp/pyworld-0.3.3-cp310-cp310-win_amd64.whl.zip --markdown 20230417/p/pyworld/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-04-17 16:33:55] INFO root fetch - processPackages [localstack]: executing diffoscope
+[2023-04-17 16:33:55] INFO root fetch - processPackages [localstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-2.0.1.dev20230331110744.tar.gz tmp/localstack-2.0.2.tar.gz --markdown 20230417/l/localstack/2.0.1.dev20230331110744-2.0.2/diff.md --exclude *.pyd
+[2023-04-17 16:33:55] INFO root fetch - processPackages [vnav]: executing diffoscope
+[2023-04-17 16:33:55] INFO root fetch - processPackages [vnav]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vnav-0.3.0-py2.py3-none-any.whl.zip tmp/vnav-0.3.1-py2.py3-none-any.whl.zip --markdown 20230417/v/vnav/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-17 16:33:55] INFO root fetch - processPackages [alnoda-wrk]: Downloading https://files.pythonhosted.org/packages/60/9c/f0de1e31e2d3aa6c29711eef3324122173ef2bd5e489d2e73e5d5a014329/alnoda_wrk-0.4.2.tar.gz
+[2023-04-17 16:33:55] INFO root fetch - processPackages [alnoda-wrk]: executing diffoscope
+[2023-04-17 16:33:55] INFO root fetch - processPackages [alnoda-wrk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alnoda_wrk-0.4.1.tar.gz tmp/alnoda_wrk-0.4.2.tar.gz --markdown 20230417/a/alnoda-wrk/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-04-17 16:33:55] INFO root fetch - processPackages [qudi-hira-analysis]: Downloading https://files.pythonhosted.org/packages/2f/4b/264fe34d0e06587f58e119f5f0f744f855c04df684f27f544b604394afbe/qudi_hira_analysis-1.4.2.tar.gz
+[2023-04-17 16:33:55] INFO root fetch - processPackages [tupa123]: Start processing: clipcrop
+[2023-04-17 16:33:55] INFO root fetch - main [MainThread]: End processing [tupa123]: success
+[2023-04-17 16:33:55] INFO root fetch - processPackages [python-datamodel]: executing diffoscope
+[2023-04-17 16:33:55] INFO root fetch - processPackages [python-datamodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_datamodel-0.3.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/python_datamodel-0.3.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230417/p/python-datamodel/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-04-17 16:33:55] INFO root fetch - processPackages [qudi-hira-analysis]: executing diffoscope
+[2023-04-17 16:33:55] INFO root fetch - processPackages [qudi-hira-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qudi_hira_analysis-1.4.1.tar.gz tmp/qudi_hira_analysis-1.4.2.tar.gz --markdown 20230417/q/qudi-hira-analysis/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-04-17 16:33:56] INFO root fetch - processPackages [clipcrop]: New version: [2.4] Old Version: [2.3]
+[2023-04-17 16:33:56] INFO root fetch - processPackages [clipcrop]: Downloading https://files.pythonhosted.org/packages/cd/96/714f7f0110db9be01ee51f7c74810e4966f576677823cea12ce0b0d4c909/clipcrop-2.3.tar.gz
+[2023-04-17 16:33:56] INFO root fetch - processPackages [clipcrop]: Downloading https://files.pythonhosted.org/packages/ac/fc/33b2d88f62904e8d3e9871366fc5a243c74deae5fd6dd386b630dea6782a/clipcrop-2.4.tar.gz
+[2023-04-17 16:33:56] INFO root fetch - processPackages [localstack-ext]: Downloading https://files.pythonhosted.org/packages/f9/91/9acc7005e9e65bb47267ceaab901140e87bbf3f585cbd77cb249f1880be4/localstack-ext-2.0.2.tar.gz
+[2023-04-17 16:33:56] INFO root fetch - processPackages [clipcrop]: executing diffoscope
+[2023-04-17 16:33:56] INFO root fetch - processPackages [clipcrop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clipcrop-2.3.tar.gz tmp/clipcrop-2.4.tar.gz --markdown 20230417/c/clipcrop/2.3-2.4/diff.md --exclude *.pyd
+[2023-04-17 16:33:56] INFO root fetch - processPackages [pyworld]: Start processing: digimat.bac0
+[2023-04-17 16:33:56] INFO root fetch - main [MainThread]: End processing [pyworld]: success
+[2023-04-17 16:33:56] INFO root fetch - processPackages [localstack-ext]: executing diffoscope
+[2023-04-17 16:33:56] INFO root fetch - processPackages [localstack-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-ext-2.0.1.dev20230331110744.tar.gz tmp/localstack-ext-2.0.2.tar.gz --markdown 20230417/l/localstack-ext/2.0.1.dev20230331110744-2.0.2/diff.md --exclude *.pyd
+[2023-04-17 16:33:56] INFO root fetch - processPackages [digimat.bac0]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-17 16:33:56] INFO root fetch - processPackages [localstack]: Start processing: QtGraphVisuals
+[2023-04-17 16:33:56] INFO root fetch - main [MainThread]: End processing [localstack]: success
+[2023-04-17 16:33:57] INFO root fetch - processPackages [vnav]: Start processing: LbAPLocal
+[2023-04-17 16:33:57] INFO root fetch - main [MainThread]: End processing [vnav]: success
+[2023-04-17 16:33:57] INFO root fetch - processPackages [QtGraphVisuals]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-17 16:33:57] INFO root fetch - processPackages [LbAPLocal]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-04-17 16:33:57] INFO root fetch - processPackages [QtGraphVisuals]: Downloading https://files.pythonhosted.org/packages/15/d7/507690c5e6ae01de730d7ce9e1126b6e89facf95ed81c9fd94b4473d8030/qtgraphvisuals-0.0.3.tar.gz
+[2023-04-17 16:33:57] INFO root fetch - processPackages [digimat.bac0]: Downloading https://files.pythonhosted.org/packages/40/b9/697c8788dc9c6bcac842b05bbb2e68e2c39e60034a4c201e81a0a5da5a53/digimat.bac0-0.0.4.tar.gz
+[2023-04-17 16:33:57] INFO root fetch - processPackages [nucliadb]: Start processing: aws-sso-cli
+[2023-04-17 16:33:57] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2023-04-17 16:33:57] INFO root fetch - processPackages [LbAPLocal]: Downloading https://files.pythonhosted.org/packages/0d/c1/dddaa847b9cdc1b1453e9d362a49ef4464e34667f6e01e88279bf6e757dc/LbAPLocal-0.6.2.tar.gz
+[2023-04-17 16:33:57] INFO root fetch - processPackages [digimat.bac0]: executing diffoscope
+[2023-04-17 16:33:57] INFO root fetch - processPackages [digimat.bac0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digimat.bac0-0.0.3.tar.gz tmp/digimat.bac0-0.0.4.tar.gz --markdown 20230417/d/digimat.bac0/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-17 16:33:57] WARNING root fetch - processPackages [aws-sso-cli]: Skipping, unable to determine old version
+[2023-04-17 16:33:57] INFO root fetch - processPackages [aws-sso-cli]: Start processing: clumps-ptm
+[2023-04-17 16:33:57] INFO root fetch - main [MainThread]: End processing [aws-sso-cli] error
+[2023-04-17 16:33:57] INFO root fetch - processPackages [QtGraphVisuals]: Downloading https://files.pythonhosted.org/packages/1b/b5/8e6e0661f2268c14130eb09e5f302df549e70c9dc50c5d54f9fc3e3ccda6/qtgraphvisuals-0.0.4.tar.gz
+[2023-04-17 16:33:57] INFO root fetch - processPackages [clipcrop]: Start processing: gitlab2prov
+[2023-04-17 16:33:57] INFO root fetch - main [MainThread]: End processing [clipcrop]: success
+[2023-04-17 16:33:57] INFO root fetch - processPackages [clumps-ptm]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-17 16:33:57] INFO root fetch - processPackages [LbAPLocal]: Downloading https://files.pythonhosted.org/packages/41/e5/4e4b77c9fa8d83542e1d9c6ee34b27955b4983bb55e6358be18ea35a0597/LbAPLocal-0.6.3.tar.gz
+[2023-04-17 16:33:57] INFO root fetch - processPackages [QtGraphVisuals]: executing diffoscope
+[2023-04-17 16:33:57] INFO root fetch - processPackages [QtGraphVisuals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtgraphvisuals-0.0.3.tar.gz tmp/qtgraphvisuals-0.0.4.tar.gz --markdown 20230417/Q/QtGraphVisuals/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-17 16:33:57] INFO root fetch - processPackages [gitlab2prov]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-04-17 16:33:57] INFO root fetch - processPackages [clumps-ptm]: Downloading https://files.pythonhosted.org/packages/91/a0/9d6614ac73a668055f226002901fbb16c54a516bb4e8498034fce7c74fa3/clumps-ptm-0.0.5.tar.gz
+[2023-04-17 16:33:57] INFO root fetch - processPackages [LbAPLocal]: executing diffoscope
+[2023-04-17 16:33:57] INFO root fetch - processPackages [LbAPLocal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LbAPLocal-0.6.2.tar.gz tmp/LbAPLocal-0.6.3.tar.gz --markdown 20230417/L/LbAPLocal/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-04-17 16:33:57] INFO root fetch - processPackages [gitlab2prov]: Downloading https://files.pythonhosted.org/packages/d2/06/cf09d43920d8a825f6695087d6672479fd94adb99b34b641aaa8b51d46ca/gitlab2prov-2.0.0.tar.gz
+[2023-04-17 16:33:57] INFO root fetch - processPackages [clumps-ptm]: Downloading https://files.pythonhosted.org/packages/53/08/c575be8645b0d0cc3ad0fa1a803830c0fb3a95057e0e8c7ee517f9c1658b/clumps-ptm-0.0.6.tar.gz
+[2023-04-17 16:33:58] INFO root fetch - processPackages [alnoda-wrk]: Start processing: niet
+[2023-04-17 16:33:58] INFO root fetch - main [MainThread]: End processing [alnoda-wrk]: success
+[2023-04-17 16:33:58] INFO root fetch - processPackages [clumps-ptm]: executing diffoscope
+[2023-04-17 16:33:58] INFO root fetch - processPackages [clumps-ptm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clumps-ptm-0.0.5.tar.gz tmp/clumps-ptm-0.0.6.tar.gz --markdown 20230417/c/clumps-ptm/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-17 16:33:58] INFO root fetch - processPackages [niet]: New version: [3.0.0] Old Version: [2.5.0]
+[2023-04-17 16:33:58] INFO root fetch - processPackages [gitlab2prov]: Downloading https://files.pythonhosted.org/packages/21/56/c7ae20cbfc158c0acca05099328c35f3abfa67f05635c13fcd8c4d447730/gitlab2prov-2.1.0.tar.gz
+[2023-04-17 16:33:58] INFO root fetch - processPackages [gitlab2prov]: executing diffoscope
+[2023-04-17 16:33:58] INFO root fetch - processPackages [gitlab2prov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlab2prov-2.0.0.tar.gz tmp/gitlab2prov-2.1.0.tar.gz --markdown 20230417/g/gitlab2prov/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-04-17 16:33:58] INFO root fetch - processPackages [niet]: Downloading https://files.pythonhosted.org/packages/2f/74/138a39e06d992f1f80935995be5a21e3ec37e72513a34851308ed2b22cdd/niet-2.5.0.tar.gz
+[2023-04-17 16:33:58] INFO root fetch - processPackages [qudi-hira-analysis]: Start processing: nanoatp
+[2023-04-17 16:33:58] INFO root fetch - main [MainThread]: End processing [qudi-hira-analysis]: success
+[2023-04-17 16:33:58] INFO root fetch - processPackages [digimat.bac0]: Start processing: mbonig.state-machine
+[2023-04-17 16:33:58] INFO root fetch - main [MainThread]: End processing [digimat.bac0]: success
+[2023-04-17 16:33:58] INFO root fetch - processPackages [nanoatp]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-04-17 16:33:58] INFO root fetch - processPackages [mbonig.state-machine]: New version: [0.0.23] Old Version: [0.0.22]
+[2023-04-17 16:33:58] INFO root fetch - processPackages [niet]: Downloading https://files.pythonhosted.org/packages/45/cd/ea85e0e7782e474340939eba596a22c6e28a47f0fbf64445390a79043ae0/niet-3.0.0.tar.gz
+[2023-04-17 16:33:58] INFO root fetch - processPackages [mbonig.state-machine]: Downloading https://files.pythonhosted.org/packages/ce/76/56137c7df9c250805e1affb380fcba0cbf103e1d9a095f6ab41121066b41/mbonig.state-machine-0.0.23.tar.gz
+[2023-04-17 16:33:58] INFO root fetch - processPackages [nanoatp]: Downloading https://files.pythonhosted.org/packages/c9/04/03d71229f9c38ff3487fa17011d10a565bae115a1b684dd7228c0d6d07dd/nanoatp-0.3.0.tar.gz
+[2023-04-17 16:33:58] INFO root fetch - processPackages [niet]: executing diffoscope
+[2023-04-17 16:33:58] INFO root fetch - processPackages [niet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/niet-2.5.0.tar.gz tmp/niet-3.0.0.tar.gz --markdown 20230417/n/niet/2.5.0-3.0.0/diff.md --exclude *.pyd
+[2023-04-17 16:33:58] INFO root fetch - processPackages [mbonig.state-machine]: executing diffoscope
+[2023-04-17 16:33:58] INFO root fetch - processPackages [mbonig.state-machine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mbonig.state-machine-0.0.22.tar.gz tmp/mbonig.state-machine-0.0.23.tar.gz --markdown 20230417/m/mbonig.state-machine/0.0.22-0.0.23/diff.md --exclude *.pyd
+[2023-04-17 16:33:58] INFO root fetch - processPackages [nanoatp]: executing diffoscope
+[2023-04-17 16:33:58] INFO root fetch - processPackages [nanoatp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanoatp-0.2.0.tar.gz tmp/nanoatp-0.3.0.tar.gz --markdown 20230417/n/nanoatp/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-04-17 16:33:58] INFO root fetch - processPackages [QtGraphVisuals]: Start processing: textgen
+[2023-04-17 16:33:58] INFO root fetch - main [MainThread]: End processing [QtGraphVisuals]: success
+[2023-04-17 16:33:59] INFO root fetch - processPackages [textgen]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-17 16:33:59] INFO root fetch - processPackages [textgen]: Downloading https://files.pythonhosted.org/packages/c2/b1/5e2b3d6b24c3976eea60c9d338d41c983887f81297494897f937d7fe8e55/textgen-0.2.1.tar.gz
+[2023-04-17 16:33:59] INFO root fetch - main [MainThread]: End processing [clumps-ptm]: success
+[2023-04-17 16:33:59] INFO root fetch - main [MainThread]: End processing [gitlab2prov]: success
+[2023-04-17 16:33:59] INFO root fetch - processPackages [textgen]: Downloading https://files.pythonhosted.org/packages/31/8f/770d37aa18add4e775b5a476179e4af04848202688c0aa281ad094eb1ba1/textgen-0.2.2.tar.gz
+[2023-04-17 16:33:59] INFO root fetch - processPackages [textgen]: executing diffoscope
+[2023-04-17 16:33:59] INFO root fetch - processPackages [textgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textgen-0.2.1.tar.gz tmp/textgen-0.2.2.tar.gz --markdown 20230417/t/textgen/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-17 16:33:59] INFO root fetch - main [MainThread]: End processing [niet]: success
+[2023-04-17 16:34:00] INFO root fetch - main [MainThread]: End processing [nanoatp]: success
+[2023-04-17 16:34:00] INFO root fetch - main [MainThread]: End processing [mbonig.state-machine]: success
+[2023-04-17 16:34:01] INFO root fetch - main [MainThread]: End processing [textgen]: success
+[2023-04-17 16:34:01] INFO root fetch - main [MainThread]: End processing [python-datamodel]: success
+[2023-04-17 16:34:02] INFO root fetch - main [MainThread]: End processing [mtap]: success
+[2023-04-17 16:34:04] INFO root fetch - main [MainThread]: End processing [LbAPLocal]: success
+[2023-04-17 16:34:04] INFO root fetch - main [MainThread]: End processing [localstack-ext]: success
+[2023-04-17 16:34:04] INFO root fetch - main [MainThread]: Store serial: [17739709]
