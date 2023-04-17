@@ -21286,3 +21286,55 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-17 21:30:38] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
 [2023-04-17 21:30:40] INFO root fetch - main [MainThread]: End processing [aesara-nightly]: success
 [2023-04-17 21:30:40] INFO root fetch - main [MainThread]: Store serial: [17743436]
+[2023-04-17 21:35:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17743436]
+[2023-04-17 21:35:49] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-17 21:35:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dandi
+[2023-04-17 21:35:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: disvide
+[2023-04-17 21:35:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pymultiastar
+[2023-04-17 21:35:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: feedcrawler
+[2023-04-17 21:35:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: itkwidgets
+[2023-04-17 21:35:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: robotathome
+[2023-04-17 21:35:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gpt4all-j
+[2023-04-17 21:35:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sabledocs
+[2023-04-17 21:35:49] WARNING root fetch - processPackages [pymultiastar]: Skipping, unable to determine old version
+[2023-04-17 21:35:49] INFO root fetch - main [MainThread]: End processing [pymultiastar] error
+[2023-04-17 21:35:49] INFO root fetch - processPackages [disvide]: New version: [0.5.0] Old Version: [0.4.2]
+[2023-04-17 21:35:49] INFO root fetch - processPackages [gpt4all-j]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-04-17 21:35:49] INFO root fetch - processPackages [dandi]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-17 21:35:49] INFO root fetch - processPackages [robotathome]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-04-17 21:35:49] INFO root fetch - processPackages [itkwidgets]: New version: [1.0a9] Old Version: [1.0a8]
+[2023-04-17 21:35:49] INFO root fetch - processPackages [sabledocs]: New version: [0.1.96] Old Version: [0.1.91]
+[2023-04-17 21:35:49] INFO root fetch - processPackages [feedcrawler]: New version: [18.0.5] Old Version: [18.0.4]
+[2023-04-17 21:35:49] INFO root fetch - processPackages [sabledocs]: executing diffoscope
+[2023-04-17 21:35:49] INFO root fetch - processPackages [sabledocs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sabledocs-0.1.91.tar.gz tmp/sabledocs-0.1.96.tar.gz --markdown 20230417/s/sabledocs/0.1.91-0.1.96/diff.md --exclude *.pyd
+[2023-04-17 21:35:49] INFO root fetch - processPackages [disvide]: Downloading https://files.pythonhosted.org/packages/93/7c/ffefa4621a57316950717e7353e9bb9be58c67fb027daea1a0367fe28a4d/disvide-0.4.2.tar.gz
+[2023-04-17 21:35:49] INFO root fetch - processPackages [dandi]: Downloading https://files.pythonhosted.org/packages/45/27/7481f61f2dfd6bc781deb746db15788de5602cb62c74a83165382937191d/dandi-0.8.0.tar.gz
+[2023-04-17 21:35:50] INFO root fetch - processPackages [gpt4all-j]: Downloading https://files.pythonhosted.org/packages/bd/86/333751f02d31f4475ffabccf226522a8e5bc8cb6e440db382897821c24a0/gpt4all-j-0.0.0.tar.gz
+[2023-04-17 21:35:50] INFO root fetch - processPackages [robotathome]: Downloading https://files.pythonhosted.org/packages/aa/e6/7ed39937e0489273e222c371d8cbcd5a7e0044d834a545849838f7f38517/robotathome-1.1.4.tar.gz
+[2023-04-17 21:35:50] INFO root fetch - processPackages [itkwidgets]: Downloading https://files.pythonhosted.org/packages/41/8e/9980d2794f27358c534a93078db99144d0eb7853c43418db7de67eea462d/itkwidgets-1.0a8.tar.gz
+[2023-04-17 21:35:50] INFO root fetch - processPackages [feedcrawler]: Downloading https://files.pythonhosted.org/packages/46/c1/c378974e7c942f169e098fae68fa3ed3f95b276af4272f70238527adcd81/feedcrawler-18.0.5.tar.gz
+[2023-04-17 21:35:50] INFO root fetch - processPackages [disvide]: Downloading https://files.pythonhosted.org/packages/59/2e/992ba36af64fffe476baeff341d939494b9167bd32af5a172643c493fa91/disvide-0.5.0.tar.gz
+[2023-04-17 21:35:50] INFO root fetch - processPackages [gpt4all-j]: Downloading https://files.pythonhosted.org/packages/ac/27/979393e3f1ef3089301422c549d4d26bb1cb0949b788790b305d0dcffd33/gpt4all-j-0.0.1.tar.gz
+[2023-04-17 21:35:50] INFO root fetch - processPackages [dandi]: Downloading https://files.pythonhosted.org/packages/1a/6e/a8fc23e1e42d580ca6c094970f6eb6a25451f7c10e89e7c7db12ef039482/dandi-0.9.0.tar.gz
+[2023-04-17 21:35:50] INFO root fetch - processPackages [feedcrawler]: executing diffoscope
+[2023-04-17 21:35:50] INFO root fetch - processPackages [feedcrawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feedcrawler-18.0.4.tar.gz tmp/feedcrawler-18.0.5.tar.gz --markdown 20230417/f/feedcrawler/18.0.4-18.0.5/diff.md --exclude *.pyd
+[2023-04-17 21:35:50] INFO root fetch - processPackages [robotathome]: Downloading https://files.pythonhosted.org/packages/82/f4/a127ade0ef11328459537e0dce9a72eba33f6cafe37bbfbcdb2e6292f426/robotathome-1.1.5.tar.gz
+[2023-04-17 21:35:50] INFO root fetch - processPackages [gpt4all-j]: executing diffoscope
+[2023-04-17 21:35:50] INFO root fetch - processPackages [gpt4all-j]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt4all-j-0.0.0.tar.gz tmp/gpt4all-j-0.0.1.tar.gz --markdown 20230417/g/gpt4all-j/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-04-17 21:35:50] INFO root fetch - processPackages [disvide]: executing diffoscope
+[2023-04-17 21:35:50] INFO root fetch - processPackages [disvide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/disvide-0.4.2.tar.gz tmp/disvide-0.5.0.tar.gz --markdown 20230417/d/disvide/0.4.2-0.5.0/diff.md --exclude *.pyd
+[2023-04-17 21:35:50] INFO root fetch - processPackages [dandi]: executing diffoscope
+[2023-04-17 21:35:50] INFO root fetch - processPackages [dandi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dandi-0.8.0.tar.gz tmp/dandi-0.9.0.tar.gz --markdown 20230417/d/dandi/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-17 21:35:50] INFO root fetch - processPackages [robotathome]: executing diffoscope
+[2023-04-17 21:35:50] INFO root fetch - processPackages [robotathome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotathome-1.1.4.tar.gz tmp/robotathome-1.1.5.tar.gz --markdown 20230417/r/robotathome/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-04-17 21:35:51] INFO root fetch - main [MainThread]: End processing [sabledocs]: success
+[2023-04-17 21:35:51] INFO root fetch - main [MainThread]: End processing [gpt4all-j]: success
+[2023-04-17 21:35:51] INFO root fetch - main [MainThread]: End processing [disvide]: success
+[2023-04-17 21:35:52] INFO root fetch - processPackages [itkwidgets]: Downloading https://files.pythonhosted.org/packages/65/bd/993b7fa27e50062787a5583ef5bc1440702b8eff92fe7f8f0448e74e2d68/itkwidgets-1.0a9.tar.gz
+[2023-04-17 21:35:52] INFO root fetch - main [MainThread]: End processing [dandi]: success
+[2023-04-17 21:35:52] INFO root fetch - main [MainThread]: End processing [robotathome]: success
+[2023-04-17 21:35:53] INFO root fetch - processPackages [itkwidgets]: executing diffoscope
+[2023-04-17 21:35:53] INFO root fetch - processPackages [itkwidgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itkwidgets-1.0a8.tar.gz tmp/itkwidgets-1.0a9.tar.gz --markdown 20230417/i/itkwidgets/1.0a8-1.0a9/diff.md --exclude *.pyd
+[2023-04-17 21:35:53] INFO root fetch - main [MainThread]: End processing [feedcrawler]: success
+[2023-04-17 21:35:55] INFO root fetch - main [MainThread]: End processing [itkwidgets]: success
+[2023-04-17 21:35:55] INFO root fetch - main [MainThread]: Store serial: [17743462]
