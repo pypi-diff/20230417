@@ -21734,3 +21734,111 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-17 21:51:49] INFO root fetch - main [MainThread]: End processing [openctp-ctp-669]: success
 [2023-04-17 21:53:22] INFO root fetch - main [MainThread]: End processing [gojsonnet]: success
 [2023-04-17 21:53:22] INFO root fetch - main [MainThread]: Store serial: [17743716]
+[2023-04-17 21:58:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17743716]
+[2023-04-17 21:58:33] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-04-17 21:58:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dbt-coves
+[2023-04-17 21:58:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: DiamondCoinApi
+[2023-04-17 21:58:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: haystack-memory
+[2023-04-17 21:58:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hyperqueue
+[2023-04-17 21:58:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: simp-le-client
+[2023-04-17 21:58:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nml
+[2023-04-17 21:58:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tap-dbt
+[2023-04-17 21:58:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: drf-kit
+[2023-04-17 21:58:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: TheSilent
+[2023-04-17 21:58:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: torchhacks
+[2023-04-17 21:58:33] INFO root fetch - processPackages [haystack-memory]: New version: [0.5] Old Version: [0.3]
+[2023-04-17 21:58:33] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-17 21:58:33] ERROR root fetch - processPackages [DiamondCoinApi]: Unable to get metadata: No such project 'DiamondCoinApi'
+[2023-04-17 21:58:33] INFO root fetch - processPackages [DiamondCoinApi]: Start processing: aiopioneer
+[2023-04-17 21:58:33] INFO root fetch - main [MainThread]: End processing [DiamondCoinApi] error
+[2023-04-17 21:58:33] INFO root fetch - processPackages [simp-le-client]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-04-17 21:58:33] INFO root fetch - processPackages [hyperqueue]: New version: [0.15.0] Old Version: [0.14.0]
+[2023-04-17 21:58:33] WARNING root fetch - processPackages [torchhacks]: Skipping, unable to determine old version
+[2023-04-17 21:58:33] INFO root fetch - processPackages [tap-dbt]: New version: [0.5.1a1] Old Version: [0.5.0]
+[2023-04-17 21:58:33] INFO root fetch - processPackages [torchhacks]: Start processing: safrs
+[2023-04-17 21:58:33] INFO root fetch - processPackages [dbt-coves]: New version: [1.4.5] Old Version: [1.4.4]
+[2023-04-17 21:58:33] INFO root fetch - processPackages [nml]: New version: [r1512] Old Version: [0.7.2]
+[2023-04-17 21:58:33] INFO root fetch - main [MainThread]: End processing [torchhacks] error
+[2023-04-17 21:58:33] INFO root fetch - processPackages [drf-kit]: New version: [1.9.0] Old Version: [1.8.7]
+[2023-04-17 21:58:33] INFO root fetch - processPackages [haystack-memory]: executing diffoscope
+[2023-04-17 21:58:33] INFO root fetch - processPackages [haystack-memory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haystack_memory-0.3.tar.gz tmp/haystack_memory-0.5.tar.gz --markdown 20230417/h/haystack-memory/0.3-0.5/diff.md --exclude *.pyd
+[2023-04-17 21:58:33] INFO root fetch - processPackages [aiopioneer]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-04-17 21:58:33] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-04-17 21:58:33] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230417/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-17 21:58:33] INFO root fetch - processPackages [safrs]: New version: [3.0.2] Old Version: [3.0.1]
+[2023-04-17 21:58:33] INFO root fetch - processPackages [nml]: Downloading https://files.pythonhosted.org/packages/56/3e/a3f48ae82285ab0976aa4db04c842bd6b28655ea3c30c18e88e7fb08c40f/nml-0.7.2.tar.gz
+[2023-04-17 21:58:33] INFO root fetch - processPackages [simp-le-client]: Downloading https://files.pythonhosted.org/packages/46/57/fe6db5d91748eb3745e66d4751903ea9c4bfb3fe773481d6da2007263492/simp_le-client-0.8.1.tar.gz
+[2023-04-17 21:58:33] INFO root fetch - processPackages [hyperqueue]: Downloading https://files.pythonhosted.org/packages/c0/36/823a0a4885582c6f1755499f98cdc7aa37a2de0eaee7f7875b67f9147c39/hyperqueue-0.14.0-cp36-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-17 21:58:34] INFO root fetch - processPackages [drf-kit]: Downloading https://files.pythonhosted.org/packages/08/ab/5faecc24d6c3ffea558698cedd2cfdd5915a0c1a9ea8fb5f6f31a1ba3c9e/drf-kit-1.8.7.tar.gz
+[2023-04-17 21:58:34] INFO root fetch - processPackages [dbt-coves]: Downloading https://files.pythonhosted.org/packages/37/f9/b4a85bd4542d195f7b8d0f62c7a04647a42d042a24f8cd2c7d4b35c7c9d1/dbt_coves-1.4.4.tar.gz
+[2023-04-17 21:58:34] INFO root fetch - processPackages [aiopioneer]: Downloading https://files.pythonhosted.org/packages/68/61/026b2b4ecee800d67de19c4b614b5b8fd06ccaca65fd8620e20bb9d3bd3d/aiopioneer-0.4.1.tar.gz
+[2023-04-17 21:58:34] INFO root fetch - processPackages [tap-dbt]: Downloading https://files.pythonhosted.org/packages/81/68/5419425aa7238b174c8fe1ef587585124107ae000929984104baefd5eed6/tap_dbt-0.5.1a1.tar.gz
+[2023-04-17 21:58:34] INFO root fetch - processPackages [safrs]: Downloading https://files.pythonhosted.org/packages/dc/fb/c2b4dbe0c5819af3b8bf799d66f1189b1eef2c186f87f7be8d13ee71e9bb/safrs-3.0.1.tar.gz
+[2023-04-17 21:58:34] INFO root fetch - processPackages [tap-dbt]: executing diffoscope
+[2023-04-17 21:58:34] INFO root fetch - processPackages [tap-dbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap_dbt-0.5.0.tar.gz tmp/tap_dbt-0.5.1a1.tar.gz --markdown 20230417/t/tap-dbt/0.5.0-0.5.1a1/diff.md --exclude *.pyd
+[2023-04-17 21:58:34] INFO root fetch - processPackages [aiopioneer]: Downloading https://files.pythonhosted.org/packages/12/87/b5f7a3a8191f99277ec69a25a935c1a8a9d7dac525028a40a425bb3426f2/aiopioneer-0.4.2.tar.gz
+[2023-04-17 21:58:34] INFO root fetch - processPackages [nml]: Downloading https://files.pythonhosted.org/packages/da/51/16019af084f51c3c90c31171b32d38d14e64457ad3c66b583cba7af32d39/nml-r1512.tar.gz
+[2023-04-17 21:58:34] INFO root fetch - processPackages [dbt-coves]: Downloading https://files.pythonhosted.org/packages/cd/bd/ec1576b51f55ebf16e221effa2ac8d441b1339a89b5adf1c774a7954155c/dbt_coves-1.4.5.tar.gz
+[2023-04-17 21:58:34] INFO root fetch - processPackages [aiopioneer]: executing diffoscope
+[2023-04-17 21:58:34] INFO root fetch - processPackages [aiopioneer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiopioneer-0.4.1.tar.gz tmp/aiopioneer-0.4.2.tar.gz --markdown 20230417/a/aiopioneer/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-04-17 21:58:34] INFO root fetch - processPackages [dbt-coves]: executing diffoscope
+[2023-04-17 21:58:34] INFO root fetch - processPackages [dbt-coves]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_coves-1.4.4.tar.gz tmp/dbt_coves-1.4.5.tar.gz --markdown 20230417/d/dbt-coves/1.4.4-1.4.5/diff.md --exclude *.pyd
+[2023-04-17 21:58:34] INFO root fetch - processPackages [safrs]: Downloading https://files.pythonhosted.org/packages/d2/ed/8163fea962fea5a6c63e3bab81a28cfc19f4c9ea66c72883f7ad2142d1ce/safrs-3.0.2.tar.gz
+[2023-04-17 21:58:34] INFO root fetch - processPackages [simp-le-client]: Downloading https://files.pythonhosted.org/packages/bc/88/21bcc48207ee08e019643809814578a87d049532feb031a3471ae5d34816/simp_le-client-0.9.0.tar.gz
+[2023-04-17 21:58:34] INFO root fetch - processPackages [hyperqueue]: Downloading https://files.pythonhosted.org/packages/bc/5c/9d3ae896bec0c860d422dbac7f1e49e9928e1deea6bbb70db6df5ec91460/hyperqueue-0.15.0-cp36-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-17 21:58:34] INFO root fetch - processPackages [drf-kit]: Downloading https://files.pythonhosted.org/packages/aa/e5/774e027488891430f34e9bf81096830a88e69d862f2d412723bae9896816/drf-kit-1.9.0.tar.gz
+[2023-04-17 21:58:34] INFO root fetch - processPackages [safrs]: executing diffoscope
+[2023-04-17 21:58:34] INFO root fetch - processPackages [safrs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/safrs-3.0.1.tar.gz tmp/safrs-3.0.2.tar.gz --markdown 20230417/s/safrs/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2023-04-17 21:58:34] INFO root fetch - processPackages [nml]: executing diffoscope
+[2023-04-17 21:58:34] INFO root fetch - processPackages [nml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nml-0.7.2.tar.gz tmp/nml-r1512.tar.gz --markdown 20230417/n/nml/0.7.2-r1512/diff.md --exclude *.pyd
+[2023-04-17 21:58:34] INFO root fetch - processPackages [hyperqueue]: executing diffoscope
+[2023-04-17 21:58:34] INFO root fetch - processPackages [hyperqueue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperqueue-0.14.0-cp36-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/hyperqueue-0.15.0-cp36-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230417/h/hyperqueue/0.14.0-0.15.0/diff.md --exclude *.pyd
+[2023-04-17 21:58:34] INFO root fetch - processPackages [simp-le-client]: executing diffoscope
+[2023-04-17 21:58:34] INFO root fetch - processPackages [simp-le-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simp_le-client-0.8.1.tar.gz tmp/simp_le-client-0.9.0.tar.gz --markdown 20230417/s/simp-le-client/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-04-17 21:58:34] INFO root fetch - processPackages [drf-kit]: executing diffoscope
+[2023-04-17 21:58:34] INFO root fetch - processPackages [drf-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf-kit-1.8.7.tar.gz tmp/drf-kit-1.9.0.tar.gz --markdown 20230417/d/drf-kit/1.8.7-1.9.0/diff.md --exclude *.pyd
+[2023-04-17 21:58:34] INFO root fetch - processPackages [haystack-memory]: Start processing: dlrepo
+[2023-04-17 21:58:34] INFO root fetch - main [MainThread]: End processing [haystack-memory]: success
+[2023-04-17 21:58:35] INFO root fetch - processPackages [dlrepo]: New version: [0.8] Old Version: [0.5]
+[2023-04-17 21:58:35] INFO root fetch - processPackages [dlrepo]: executing diffoscope
+[2023-04-17 21:58:35] INFO root fetch - processPackages [dlrepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlrepo-0.5.tar.gz tmp/dlrepo-0.8.tar.gz --markdown 20230417/d/dlrepo/0.5-0.8/diff.md --exclude *.pyd
+[2023-04-17 21:58:35] INFO root fetch - processPackages [TheSilent]: Start processing: autoplugin
+[2023-04-17 21:58:35] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-04-17 21:58:35] WARNING root fetch - processPackages [autoplugin]: Skipping, unable to determine old version
+[2023-04-17 21:58:35] INFO root fetch - processPackages [autoplugin]: Start processing: quilt-py
+[2023-04-17 21:58:35] INFO root fetch - main [MainThread]: End processing [autoplugin] error
+[2023-04-17 21:58:35] INFO root fetch - processPackages [quilt-py]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-04-17 21:58:35] INFO root fetch - processPackages [tap-dbt]: Start processing: bestconfig
+[2023-04-17 21:58:35] INFO root fetch - main [MainThread]: End processing [tap-dbt]: success
+[2023-04-17 21:58:35] INFO root fetch - processPackages [quilt-py]: Downloading https://files.pythonhosted.org/packages/3e/a3/14f14e89b9dedfa4d5168246994bb38f362577e1ae3a563dca2d2d606641/quilt_py-0.5.2.tar.gz
+[2023-04-17 21:58:35] INFO root fetch - processPackages [bestconfig]: New version: [1.3.6] Old Version: [1.3.5]
+[2023-04-17 21:58:35] INFO root fetch - processPackages [quilt-py]: executing diffoscope
+[2023-04-17 21:58:35] INFO root fetch - processPackages [quilt-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quilt_py-0.5.1.tar.gz tmp/quilt_py-0.5.2.tar.gz --markdown 20230417/q/quilt-py/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-04-17 21:58:36] INFO root fetch - processPackages [bestconfig]: Downloading https://files.pythonhosted.org/packages/16/08/5e28a204d1184662cb09e6c005f865f3eb7204197b6856f88c7e538df198/bestconfig-1.3.5.tar.gz
+[2023-04-17 21:58:36] INFO root fetch - processPackages [simp-le-client]: Start processing: spotdl
+[2023-04-17 21:58:36] INFO root fetch - main [MainThread]: End processing [simp-le-client]: success
+[2023-04-17 21:58:36] INFO root fetch - processPackages [spotdl]: New version: [4.1.5] Old Version: [4.1.4]
+[2023-04-17 21:58:36] INFO root fetch - processPackages [bestconfig]: Downloading https://files.pythonhosted.org/packages/3d/c9/3a9ceba596102ce66d126075b1ff47881da24469fcf1977da2f511adf600/bestconfig-1.3.6.tar.gz
+[2023-04-17 21:58:36] INFO root fetch - processPackages [spotdl]: executing diffoscope
+[2023-04-17 21:58:36] INFO root fetch - processPackages [spotdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotdl-4.1.4.tar.gz tmp/spotdl-4.1.5.tar.gz --markdown 20230417/s/spotdl/4.1.4-4.1.5/diff.md --exclude *.pyd
+[2023-04-17 21:58:36] INFO root fetch - processPackages [bestconfig]: executing diffoscope
+[2023-04-17 21:58:36] INFO root fetch - processPackages [bestconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bestconfig-1.3.5.tar.gz tmp/bestconfig-1.3.6.tar.gz --markdown 20230417/b/bestconfig/1.3.5-1.3.6/diff.md --exclude *.pyd
+[2023-04-17 21:58:36] INFO root fetch - processPackages [drf-kit]: Start processing: clusterfiles
+[2023-04-17 21:58:36] INFO root fetch - main [MainThread]: End processing [drf-kit]: success
+[2023-04-17 21:58:36] WARNING root fetch - processPackages [clusterfiles]: Skipping, unable to determine old version
+[2023-04-17 21:58:36] INFO root fetch - processPackages [clusterfiles]: Start processing: universalio
+[2023-04-17 21:58:36] INFO root fetch - main [MainThread]: End processing [clusterfiles] error
+[2023-04-17 21:58:36] INFO root fetch - processPackages [universalio]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 21:58:36] INFO root fetch - processPackages [universalio]: executing diffoscope
+[2023-04-17 21:58:36] INFO root fetch - processPackages [universalio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/universalio-0.0.8.tar.gz tmp/universalio-0.0.9-py3-none-any.whl.zip --markdown 20230417/u/universalio/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 21:58:36] INFO root fetch - main [MainThread]: End processing [dlrepo]: success
+[2023-04-17 21:58:37] INFO root fetch - main [MainThread]: End processing [quilt-py]: success
+[2023-04-17 21:58:37] INFO root fetch - main [MainThread]: End processing [safrs]: success
+[2023-04-17 21:58:37] INFO root fetch - main [MainThread]: End processing [dbt-coves]: success
+[2023-04-17 21:58:37] INFO root fetch - main [MainThread]: End processing [aiopioneer]: success
+[2023-04-17 21:58:37] INFO root fetch - main [MainThread]: End processing [bestconfig]: success
+[2023-04-17 21:58:37] INFO root fetch - main [MainThread]: End processing [nml]: success
+[2023-04-17 21:58:37] INFO root fetch - main [MainThread]: End processing [spotdl]: success
+[2023-04-17 21:58:38] INFO root fetch - main [MainThread]: End processing [universalio]: success
+[2023-04-17 21:59:04] INFO root fetch - main [MainThread]: End processing [hyperqueue]: success
+[2023-04-17 21:59:04] INFO root fetch - main [MainThread]: Store serial: [17743781]
