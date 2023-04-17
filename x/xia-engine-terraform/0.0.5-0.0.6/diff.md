@@ -1,4 +1,4 @@
-# Comparing `tmp/xia_engine_terraform-0.0.5-cp39-none-win_amd64.whl.zip` & `tmp/xia_engine_terraform-0.0.6-cp39-none-macosx_11_0_x86_64.whl.zip`
+# Comparing `tmp/xia_engine_terraform-0.0.5-cp39-none-win_amd64.whl.zip` & `tmp/xia_engine_terraform-0.0.6-cp39-none-win_amd64.whl.zip`
 
 ## zipinfo {}
 
@@ -13,15 +13,15 @@
 --rw-r--r--  2.0 unx       21 b- defN 23-Apr-16 20:44 xia_engine_terraform-0.0.5.dist-info/top_level.txt
 -?rw-rw-r--  2.0 unx      646 b- defN 23-Apr-16 20:44 xia_engine_terraform-0.0.5.dist-info/RECORD
 -7 files, 407552 bytes uncompressed, 157516 bytes compressed:  61.4%
-+Zip file size: 134877 bytes, number of entries: 7
-+-rw-r--r--  2.0 unx      394 b- defN 23-Apr-17 09:10 xia_engine_terraform/__init__.py
-+-rw-r--r--  2.0 unx   372552 b- defN 23-Apr-17 09:11 xia_engine_terraform/engine.cpython-310-darwin.so
-+-rw-r--r--  2.0 unx      152 b- defN 23-Apr-17 09:11 xia_engine_terraform-0.0.6.dist-info/LICENSE.txt
-+-rw-r--r--  2.0 unx      699 b- defN 23-Apr-17 09:11 xia_engine_terraform-0.0.6.dist-info/METADATA
-+-rw-r--r--  2.0 unx      108 b- defN 23-Apr-17 09:11 xia_engine_terraform-0.0.6.dist-info/WHEEL
-+-rw-r--r--  2.0 unx       21 b- defN 23-Apr-17 09:11 xia_engine_terraform-0.0.6.dist-info/top_level.txt
-+?rw-rw-r--  2.0 unx      650 b- defN 23-Apr-17 09:11 xia_engine_terraform-0.0.6.dist-info/RECORD
-+7 files, 374576 bytes uncompressed, 133705 bytes compressed:  64.3%
++Zip file size: 165335 bytes, number of entries: 7
++-rw-r--r--  2.0 unx      394 b- defN 23-Apr-17 09:09 xia_engine_terraform/__init__.py
++-rw-r--r--  2.0 unx   423936 b- defN 23-Apr-17 09:12 xia_engine_terraform/engine.cp39-win_amd64.pyd
++-rw-rw-rw-  2.0 unx      152 b- defN 23-Apr-17 09:12 xia_engine_terraform-0.0.6.dist-info/LICENSE.txt
++-rw-r--r--  2.0 unx      736 b- defN 23-Apr-17 09:12 xia_engine_terraform-0.0.6.dist-info/METADATA
++-rw-r--r--  2.0 unx       99 b- defN 23-Apr-17 09:12 xia_engine_terraform-0.0.6.dist-info/WHEEL
++-rw-r--r--  2.0 unx       21 b- defN 23-Apr-17 09:12 xia_engine_terraform-0.0.6.dist-info/top_level.txt
++?rw-rw-r--  2.0 unx      646 b- defN 23-Apr-17 09:12 xia_engine_terraform-0.0.6.dist-info/RECORD
++7 files, 425984 bytes uncompressed, 164169 bytes compressed:  61.5%
 ```
 
 ## zipnote {}
@@ -31,8 +31,7 @@
  Filename: xia_engine_terraform/__init__.py
  Comment: 
  
--Filename: xia_engine_terraform/engine.cp39-win_amd64.pyd
-+Filename: xia_engine_terraform/engine.cpython-310-darwin.so
+ Filename: xia_engine_terraform/engine.cp39-win_amd64.pyd
  Comment: 
  
 -Filename: xia_engine_terraform-0.0.5.dist-info/LICENSE.txt
@@ -75,10 +74,10 @@
 
 ## Comparing `xia_engine_terraform-0.0.5.dist-info/METADATA` & `xia_engine_terraform-0.0.6.dist-info/METADATA`
 
- * *Files 8% similar despite different names*
+ * *Files 25% similar despite different names*
 
 ```diff
-@@ -1,16 +1,14 @@
+@@ -1,12 +1,12 @@
  Metadata-Version: 2.1
  Name: xia-engine-terraform
 -Version: 0.0.5
@@ -88,24 +87,10 @@
 +Home-page: https://develop.x-i-a.com/docs/xia-engine-terraform/0.0.6/index.html
  Author: X-I-A
  Author-email: admin@x-i-a.com
--License: UNKNOWN
--Platform: UNKNOWN
+ License: UNKNOWN
+ Platform: UNKNOWN
  Requires-Python: >=3.9
  Description-Content-Type: text/x-rst
  License-File: LICENSE.txt
- Requires-Dist: jinja2
- Requires-Dist: google-cloud-storage
- Requires-Dist: xia-engine
- 
-@@ -28,9 +26,7 @@
- =============================
- 
- Install the package::
- 
-     pip install
- 
- 
--
--
 ```
 

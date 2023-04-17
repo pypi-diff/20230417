@@ -19611,3 +19611,81 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-17 20:01:43] INFO root fetch - main [MainThread]: End processing [lamda]: success
 [2023-04-17 20:01:44] INFO root fetch - main [MainThread]: End processing [dkist-processing-visp]: success
 [2023-04-17 20:01:44] INFO root fetch - main [MainThread]: Store serial: [17742374]
+[2023-04-17 20:06:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17742374]
+[2023-04-17 20:06:53] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-17 20:06:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mb-pytorch
+[2023-04-17 20:06:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xedocs
+[2023-04-17 20:06:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-l10n-br-account-nfe
+[2023-04-17 20:06:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: universalio
+[2023-04-17 20:06:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-l10n-br-account
+[2023-04-17 20:06:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-pictures
+[2023-04-17 20:06:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pymediawikidocker
+[2023-04-17 20:06:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xia-engine-terraform
+[2023-04-17 20:06:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: statsig
+[2023-04-17 20:06:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ethereal
+[2023-04-17 20:06:53] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: New version: [14.0.5.7.1.dev1] Old Version: [14.0.5.7.1]
+[2023-04-17 20:06:53] INFO root fetch - processPackages [pymediawikidocker]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-17 20:06:53] INFO root fetch - processPackages [universalio]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 20:06:53] INFO root fetch - processPackages [xia-engine-terraform]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-17 20:06:53] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: executing diffoscope
+[2023-04-17 20:06:53] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_account-14.0.5.7.1-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_account-14.0.5.7.1.dev1-py3-none-any.whl.zip --markdown 20230417/o/odoo14-addon-l10n-br-account/14.0.5.7.1-14.0.5.7.1.dev1/diff.md --exclude *.pyd
+[2023-04-17 20:06:53] INFO root fetch - processPackages [xedocs]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-17 20:06:53] INFO root fetch - processPackages [universalio]: executing diffoscope
+[2023-04-17 20:06:53] INFO root fetch - processPackages [universalio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/universalio-0.0.8.tar.gz tmp/universalio-0.0.9-py3-none-any.whl.zip --markdown 20230417/u/universalio/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 20:06:53] INFO root fetch - processPackages [mb-pytorch]: New version: [1.0.202304171800] Old Version: [1.0.202304171721]
+[2023-04-17 20:06:53] INFO root fetch - processPackages [odoo14-addon-l10n-br-account-nfe]: New version: [14.0.2.1.0] Old Version: [14.0.2.0.1.dev3]
+[2023-04-17 20:06:53] INFO root fetch - processPackages [ethereal]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-17 20:06:53] INFO root fetch - processPackages [statsig]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-04-17 20:06:53] INFO root fetch - processPackages [django-pictures]: New version: [1.0rc5] Old Version: [1.0rc4]
+[2023-04-17 20:06:53] INFO root fetch - processPackages [pymediawikidocker]: executing diffoscope
+[2023-04-17 20:06:53] INFO root fetch - processPackages [pymediawikidocker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymediawikidocker-0.9.8.tar.gz tmp/pymediawikidocker-0.9.9.tar.gz --markdown 20230417/p/pymediawikidocker/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-17 20:06:53] INFO root fetch - processPackages [xedocs]: Downloading https://files.pythonhosted.org/packages/62/85/73d44546eea10f8ff3903db4cc725b1a1fc5d6f8e542480dda813a591cef/xedocs-0.2.8.tar.gz
+[2023-04-17 20:06:53] INFO root fetch - processPackages [odoo14-addon-l10n-br-account-nfe]: Downloading https://files.pythonhosted.org/packages/db/8f/5719225387a4c1e6e262077498d5a577e167ebe0b9f07cf796c6738b1ff0/odoo14_addon_l10n_br_account_nfe-14.0.2.0.1.dev3-py3-none-any.whl
+[2023-04-17 20:06:53] INFO root fetch - processPackages [django-pictures]: Downloading https://files.pythonhosted.org/packages/20/9a/e6b5d6e8b2dddfcccf3c8374c9c52ba58070a5f18cc80af66f918b4df0d6/django-pictures-1.0rc4.tar.gz
+[2023-04-17 20:06:53] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/6f/f4/dc2289ac07d4aa4665177982903ed145706977e1b8b935f71e851debc944/mb_pytorch-1.0.202304171721-py3-none-any.whl
+[2023-04-17 20:06:53] INFO root fetch - processPackages [statsig]: Downloading https://files.pythonhosted.org/packages/38/b0/16efff7d25166e913ff9b76e7accc49d8aac44b28d77cd76e7132df7b2b9/statsig-0.9.2.tar.gz
+[2023-04-17 20:06:53] INFO root fetch - processPackages [ethereal]: Downloading https://files.pythonhosted.org/packages/34/80/54fd12c3c00120b22cd9d7277cd9442f000f19f03f540ce93197d941e3c6/ethereal-0.1.0.tar.gz
+[2023-04-17 20:06:53] INFO root fetch - processPackages [xia-engine-terraform]: Downloading https://files.pythonhosted.org/packages/ba/06/35a17a2b5ec7a517968c90ed44c2d8bdf9d94edeb0a736bb8c53ac60acfc/xia_engine_terraform-0.0.6-cp39-none-win_amd64.whl
+[2023-04-17 20:06:53] INFO root fetch - processPackages [xia-engine-terraform]: executing diffoscope
+[2023-04-17 20:06:53] INFO root fetch - processPackages [xia-engine-terraform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_engine_terraform-0.0.5-cp39-none-win_amd64.whl.zip tmp/xia_engine_terraform-0.0.6-cp39-none-win_amd64.whl.zip --markdown 20230417/x/xia-engine-terraform/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-17 20:06:53] INFO root fetch - processPackages [statsig]: Downloading https://files.pythonhosted.org/packages/7b/55/5642b93d0c02ac2dbe029e43a9c303cf33960c5117169b5507c990d44495/statsig-0.9.3.tar.gz
+[2023-04-17 20:06:53] INFO root fetch - processPackages [odoo14-addon-l10n-br-account-nfe]: Downloading https://files.pythonhosted.org/packages/4b/88/8e097ec0a7c2102af5516070095acff4cd4d66b25dcf283cfe2d8d5e6c5c/odoo14_addon_l10n_br_account_nfe-14.0.2.1.0-py3-none-any.whl
+[2023-04-17 20:06:53] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/a8/f2/b0b38d6c2948a222598ac74a8e4d3e5d5b071c3caf14a82b03b498de4505/mb_pytorch-1.0.202304171800-py3-none-any.whl
+[2023-04-17 20:06:53] INFO root fetch - processPackages [statsig]: executing diffoscope
+[2023-04-17 20:06:53] INFO root fetch - processPackages [statsig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/statsig-0.9.2.tar.gz tmp/statsig-0.9.3.tar.gz --markdown 20230417/s/statsig/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-04-17 20:06:53] INFO root fetch - processPackages [ethereal]: Downloading https://files.pythonhosted.org/packages/21/ac/3ea204f4bd856ecc25cf582f582b8616765ebf06052f7d3fb10ef62410f8/ethereal-0.1.1.tar.gz
+[2023-04-17 20:06:53] INFO root fetch - processPackages [xedocs]: Downloading https://files.pythonhosted.org/packages/44/a7/8fa4c7553287769dc6c12dbf7bcece560fd0dd124d938a0d31b7a45331e7/xedocs-0.2.9.tar.gz
+[2023-04-17 20:06:53] INFO root fetch - processPackages [django-pictures]: Downloading https://files.pythonhosted.org/packages/bc/d2/21307c38b25f8c301d5bb0be93330bd63872a8a85dc5e99a536aaa522a83/django-pictures-1.0rc5.tar.gz
+[2023-04-17 20:06:54] INFO root fetch - processPackages [odoo14-addon-l10n-br-account-nfe]: executing diffoscope
+[2023-04-17 20:06:54] INFO root fetch - processPackages [odoo14-addon-l10n-br-account-nfe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_account_nfe-14.0.2.0.1.dev3-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_account_nfe-14.0.2.1.0-py3-none-any.whl.zip --markdown 20230417/o/odoo14-addon-l10n-br-account-nfe/14.0.2.0.1.dev3-14.0.2.1.0/diff.md --exclude *.pyd
+[2023-04-17 20:06:54] INFO root fetch - processPackages [mb-pytorch]: executing diffoscope
+[2023-04-17 20:06:54] INFO root fetch - processPackages [mb-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_pytorch-1.0.202304171721-py3-none-any.whl.zip tmp/mb_pytorch-1.0.202304171800-py3-none-any.whl.zip --markdown 20230417/m/mb-pytorch/1.0.202304171721-1.0.202304171800/diff.md --exclude *.pyd
+[2023-04-17 20:06:54] INFO root fetch - processPackages [ethereal]: executing diffoscope
+[2023-04-17 20:06:54] INFO root fetch - processPackages [ethereal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ethereal-0.1.0.tar.gz tmp/ethereal-0.1.1.tar.gz --markdown 20230417/e/ethereal/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-17 20:06:54] INFO root fetch - processPackages [xedocs]: executing diffoscope
+[2023-04-17 20:06:54] INFO root fetch - processPackages [xedocs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xedocs-0.2.8.tar.gz tmp/xedocs-0.2.9.tar.gz --markdown 20230417/x/xedocs/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-17 20:06:54] INFO root fetch - processPackages [django-pictures]: executing diffoscope
+[2023-04-17 20:06:54] INFO root fetch - processPackages [django-pictures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-pictures-1.0rc4.tar.gz tmp/django-pictures-1.0rc5.tar.gz --markdown 20230417/d/django-pictures/1.0rc4-1.0rc5/diff.md --exclude *.pyd
+[2023-04-17 20:06:54] INFO root fetch - processPackages [universalio]: Start processing: piperider-nightly
+[2023-04-17 20:06:54] INFO root fetch - main [MainThread]: End processing [universalio]: success
+[2023-04-17 20:06:54] INFO root fetch - processPackages [piperider-nightly]: New version: [0.9.0.20220921] Old Version: [0.9.0.20220920]
+[2023-04-17 20:06:54] INFO root fetch - processPackages [piperider-nightly]: executing diffoscope
+[2023-04-17 20:06:54] INFO root fetch - processPackages [piperider-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piperider-nightly-0.9.0.20220920.tar.gz tmp/piperider-nightly-0.9.0.20220921.tar.gz --markdown 20230417/p/piperider-nightly/0.9.0.20220920-0.9.0.20220921/diff.md --exclude *.pyd
+[2023-04-17 20:06:55] INFO root fetch - processPackages [xia-engine-terraform]: Start processing: OctoBot-Trading
+[2023-04-17 20:06:55] INFO root fetch - main [MainThread]: End processing [xia-engine-terraform]: success
+[2023-04-17 20:06:55] INFO root fetch - processPackages [OctoBot-Trading]: New version: [2.3.7] Old Version: [2.3.4]
+[2023-04-17 20:06:55] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-account]: success
+[2023-04-17 20:06:55] INFO root fetch - processPackages [OctoBot-Trading]: Downloading https://files.pythonhosted.org/packages/5a/57/d35c569e98801f6b9e22f65c3ff69f2f4fa4a2936d8c2ca816d225461e85/OctoBot-Trading-2.3.4.tar.gz
+[2023-04-17 20:06:55] INFO root fetch - main [MainThread]: End processing [ethereal]: success
+[2023-04-17 20:06:55] INFO root fetch - main [MainThread]: End processing [statsig]: success
+[2023-04-17 20:06:55] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-account-nfe]: success
+[2023-04-17 20:06:55] INFO root fetch - main [MainThread]: End processing [mb-pytorch]: success
+[2023-04-17 20:06:55] INFO root fetch - processPackages [OctoBot-Trading]: Downloading https://files.pythonhosted.org/packages/78/1b/4bac9fd8c48ef3b9b487a53218540a861d565349559fb077933af3b39e43/OctoBot-Trading-2.3.7.tar.gz
+[2023-04-17 20:06:55] INFO root fetch - main [MainThread]: End processing [xedocs]: success
+[2023-04-17 20:06:55] INFO root fetch - processPackages [OctoBot-Trading]: executing diffoscope
+[2023-04-17 20:06:55] INFO root fetch - processPackages [OctoBot-Trading]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OctoBot-Trading-2.3.4.tar.gz tmp/OctoBot-Trading-2.3.7.tar.gz --markdown 20230417/O/OctoBot-Trading/2.3.4-2.3.7/diff.md --exclude *.pyd
+[2023-04-17 20:06:55] INFO root fetch - main [MainThread]: End processing [django-pictures]: success
+[2023-04-17 20:06:56] INFO root fetch - main [MainThread]: End processing [pymediawikidocker]: success
+[2023-04-17 20:06:57] INFO root fetch - main [MainThread]: End processing [piperider-nightly]: success
+[2023-04-17 20:07:04] INFO root fetch - main [MainThread]: End processing [OctoBot-Trading]: success
+[2023-04-17 20:07:04] INFO root fetch - main [MainThread]: Store serial: [17742410]
