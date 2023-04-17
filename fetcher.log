@@ -20194,3 +20194,86 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-17 20:33:34] INFO root fetch - main [MainThread]: End processing [plone.restapi]: success
 [2023-04-17 20:33:59] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-04-17 20:33:59] INFO root fetch - main [MainThread]: Store serial: [17742722]
+[2023-04-17 20:39:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17742722]
+[2023-04-17 20:39:08] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-17 20:39:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: moto
+[2023-04-17 20:39:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xh-dict-utils
+[2023-04-17 20:39:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: plugwise
+[2023-04-17 20:39:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ovos-vad-plugin-precise
+[2023-04-17 20:39:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: duplocloud-client
+[2023-04-17 20:39:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyamg
+[2023-04-17 20:39:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: surfacetopography
+[2023-04-17 20:39:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: evals
+[2023-04-17 20:39:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xh-dict-utils
+[2023-04-17 20:39:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: log-decor
+[2023-04-17 20:39:08] INFO root fetch - processPackages [xh-dict-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 20:39:08] INFO root fetch - processPackages [xh-dict-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 20:39:08] WARNING root fetch - processPackages [ovos-vad-plugin-precise]: Skipping, unable to determine old version
+[2023-04-17 20:39:08] INFO root fetch - processPackages [ovos-vad-plugin-precise]: Start processing: hopara
+[2023-04-17 20:39:08] INFO root fetch - main [MainThread]: End processing [ovos-vad-plugin-precise] error
+[2023-04-17 20:39:08] INFO root fetch - processPackages [pyamg]: New version: [4.2.3] Old Version: [4.2.2]
+[2023-04-17 20:39:09] INFO root fetch - processPackages [evals]: New version: [1.0.3] Old Version: [1.0.2.post1]
+[2023-04-17 20:39:09] INFO root fetch - processPackages [duplocloud-client]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-17 20:39:09] INFO root fetch - processPackages [log-decor]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-04-17 20:39:09] INFO root fetch - processPackages [plugwise]: New version: [0.9.4a9] Old Version: [0.9.4a8]
+[2023-04-17 20:39:09] INFO root fetch - processPackages [xh-dict-utils]: executing diffoscope
+[2023-04-17 20:39:09] INFO root fetch - processPackages [xh-dict-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xh-dict-utils-0.0.8.tar.gz tmp/xh-dict-utils-0.0.9.tar.gz --markdown 20230417/x/xh-dict-utils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 20:39:09] INFO root fetch - processPackages [surfacetopography]: New version: [1.6.2] Old Version: [1.6.1]
+[2023-04-17 20:39:09] INFO root fetch - processPackages [hopara]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-04-17 20:39:09] INFO root fetch - processPackages [moto]: New version: [4.1.8.dev9] Old Version: [4.1.8.dev8]
+[2023-04-17 20:39:09] INFO root fetch - processPackages [xh-dict-utils]: executing diffoscope
+[2023-04-17 20:39:09] INFO root fetch - processPackages [xh-dict-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xh-dict-utils-0.0.8.tar.gz tmp/xh-dict-utils-0.0.9.tar.gz --markdown 20230417/x/xh-dict-utils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 20:39:09] INFO root fetch - processPackages [pyamg]: Downloading https://files.pythonhosted.org/packages/01/b7/70dfcbeb168a4b9f26d7fa0c7d6ab3f96009e1a1e288629c015ebcc1b7a0/pyamg-4.2.2.tar.gz
+[2023-04-17 20:39:09] INFO root fetch - processPackages [duplocloud-client]: Downloading https://files.pythonhosted.org/packages/f7/40/f334c885445cb7ef0d486cba67ce279c80e75fd042fbc541e92292abd221/duplocloud-client-0.0.5.tar.gz
+[2023-04-17 20:39:09] INFO root fetch - processPackages [evals]: Downloading https://files.pythonhosted.org/packages/e6/b6/c3598a757bd6cdd1328b4d37e91ce21782d10d57e621741754690ebfd268/evals-1.0.2.post1.tar.gz
+[2023-04-17 20:39:09] INFO root fetch - processPackages [plugwise]: Downloading https://files.pythonhosted.org/packages/9f/eb/88773e492984c980bc342942239d3bd6eee77c3dc052d35d25e42e2137a6/plugwise-0.9.4a8.tar.gz
+[2023-04-17 20:39:09] INFO root fetch - processPackages [log-decor]: Downloading https://files.pythonhosted.org/packages/6e/a3/b71ecd9b35e1febd1a41caecaf9003f91b8c695066c525e1ab301837fccc/log_decor-2.0.4.tar.gz
+[2023-04-17 20:39:09] INFO root fetch - processPackages [surfacetopography]: Downloading https://files.pythonhosted.org/packages/f3/5b/86f13b9ca177a1ae268c61dc60e73301797b0bab895e581949d13264968c/surfacetopography-1.6.1.tar.gz
+[2023-04-17 20:39:09] INFO root fetch - processPackages [hopara]: Downloading https://files.pythonhosted.org/packages/4e/42/e34f499c18abdc72f134e1ead512e2199186712cea3957b597103d453a8e/hopara-1.9.0.tar.gz
+[2023-04-17 20:39:09] INFO root fetch - processPackages [log-decor]: Downloading https://files.pythonhosted.org/packages/20/20/39c40a4239df260659469a061505ee51e91cdca3e3874b84a96b138157b4/log_decor-2.0.5.tar.gz
+[2023-04-17 20:39:09] INFO root fetch - processPackages [duplocloud-client]: Downloading https://files.pythonhosted.org/packages/e4/23/dc8ac6b45a1e95012332f08bb9befb0e3b9e28dfb2db34495c67c68dbc43/duplocloud-client-0.0.6.tar.gz
+[2023-04-17 20:39:09] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-04-17 20:39:09] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.8.dev8.tar.gz tmp/moto-4.1.8.dev9.tar.gz --markdown 20230417/m/moto/4.1.8.dev8-4.1.8.dev9/diff.md --exclude *.pyd
+[2023-04-17 20:39:09] INFO root fetch - processPackages [hopara]: Downloading https://files.pythonhosted.org/packages/cd/1b/1431697e799fa081ff35944b608f738199cab875e46ab08a17ff9a56da77/hopara-1.9.1.tar.gz
+[2023-04-17 20:39:09] INFO root fetch - processPackages [hopara]: executing diffoscope
+[2023-04-17 20:39:09] INFO root fetch - processPackages [hopara]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hopara-1.9.0.tar.gz tmp/hopara-1.9.1.tar.gz --markdown 20230417/h/hopara/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-04-17 20:39:09] INFO root fetch - processPackages [duplocloud-client]: executing diffoscope
+[2023-04-17 20:39:09] INFO root fetch - processPackages [duplocloud-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duplocloud-client-0.0.5.tar.gz tmp/duplocloud-client-0.0.6.tar.gz --markdown 20230417/d/duplocloud-client/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-17 20:39:09] INFO root fetch - processPackages [log-decor]: executing diffoscope
+[2023-04-17 20:39:09] INFO root fetch - processPackages [log-decor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/log_decor-2.0.4.tar.gz tmp/log_decor-2.0.5.tar.gz --markdown 20230417/l/log-decor/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-04-17 20:39:09] INFO root fetch - processPackages [pyamg]: Downloading https://files.pythonhosted.org/packages/6d/1a/c6602b4e25093563c9f7a9b79fd462b2db9076043471588c96e307255fc2/pyamg-4.2.3.tar.gz
+[2023-04-17 20:39:09] INFO root fetch - processPackages [plugwise]: Downloading https://files.pythonhosted.org/packages/ec/fd/45b5a2ee424806593e900234e26bf62ae0c3582ac99cadfa9477e6719004/plugwise-0.9.4a9.tar.gz
+[2023-04-17 20:39:10] INFO root fetch - processPackages [pyamg]: executing diffoscope
+[2023-04-17 20:39:10] INFO root fetch - processPackages [pyamg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyamg-4.2.2.tar.gz tmp/pyamg-4.2.3.tar.gz --markdown 20230417/p/pyamg/4.2.2-4.2.3/diff.md --exclude *.pyd
+[2023-04-17 20:39:10] INFO root fetch - processPackages [xh-dict-utils]: Start processing: rdiffweb
+[2023-04-17 20:39:10] INFO root fetch - main [MainThread]: End processing [xh-dict-utils]: success
+[2023-04-17 20:39:10] INFO root fetch - processPackages [xh-dict-utils]: Start processing: fwdviewpy
+[2023-04-17 20:39:10] INFO root fetch - main [MainThread]: End processing [xh-dict-utils]: success
+[2023-04-17 20:39:10] WARNING root fetch - processPackages [fwdviewpy]: Skipping, unable to determine old version
+[2023-04-17 20:39:10] INFO root fetch - processPackages [fwdviewpy]: Start processing: xia-scw-instance
+[2023-04-17 20:39:10] INFO root fetch - main [MainThread]: End processing [fwdviewpy] error
+[2023-04-17 20:39:10] INFO root fetch - processPackages [plugwise]: executing diffoscope
+[2023-04-17 20:39:10] INFO root fetch - processPackages [plugwise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plugwise-0.9.4a8.tar.gz tmp/plugwise-0.9.4a9.tar.gz --markdown 20230417/p/plugwise/0.9.4a8-0.9.4a9/diff.md --exclude *.pyd
+[2023-04-17 20:39:10] INFO root fetch - processPackages [rdiffweb]: New version: [2.7.0a3] Old Version: [2.7.0a2]
+[2023-04-17 20:39:10] WARNING root fetch - processPackages [xia-scw-instance]: Skipping, unable to determine old version
+[2023-04-17 20:39:10] INFO root fetch - main [MainThread]: End processing [xia-scw-instance] error
+[2023-04-17 20:39:10] INFO root fetch - processPackages [rdiffweb]: Downloading https://files.pythonhosted.org/packages/e9/3c/449b8f07f8f9d8230dbc45abe0ce62987677e39839506133c9a734fbc5a2/rdiffweb-2.7.0a2-py3-none-any.whl
+[2023-04-17 20:39:10] INFO root fetch - processPackages [evals]: Downloading https://files.pythonhosted.org/packages/88/25/e895ae934a9ab93fdc2d52d9aa747edc1247c33209f7aa606553cfe07559/evals-1.0.3.tar.gz
+[2023-04-17 20:39:10] INFO root fetch - processPackages [evals]: executing diffoscope
+[2023-04-17 20:39:10] INFO root fetch - processPackages [evals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evals-1.0.2.post1.tar.gz tmp/evals-1.0.3.tar.gz --markdown 20230417/e/evals/1.0.2.post1-1.0.3/diff.md --exclude *.pyd
+[2023-04-17 20:39:10] INFO root fetch - main [MainThread]: End processing [hopara]: success
+[2023-04-17 20:39:10] INFO root fetch - processPackages [surfacetopography]: Downloading https://files.pythonhosted.org/packages/88/d2/a743946eb77da252843d3ea8aed500e59aac72a4e9ecd91db92e68000a2c/surfacetopography-1.6.2.tar.gz
+[2023-04-17 20:39:10] INFO root fetch - main [MainThread]: End processing [log-decor]: success
+[2023-04-17 20:39:11] INFO root fetch - main [MainThread]: End processing [duplocloud-client]: success
+[2023-04-17 20:39:11] INFO root fetch - main [MainThread]: End processing [plugwise]: success
+[2023-04-17 20:39:11] INFO root fetch - processPackages [rdiffweb]: Downloading https://files.pythonhosted.org/packages/0c/68/a137d86e4488211826a2969feea514c507e5a5282f61b3ae3745df0985c6/rdiffweb-2.7.0a3-py3-none-any.whl
+[2023-04-17 20:39:12] INFO root fetch - processPackages [rdiffweb]: executing diffoscope
+[2023-04-17 20:39:12] INFO root fetch - processPackages [rdiffweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdiffweb-2.7.0a2-py3-none-any.whl.zip tmp/rdiffweb-2.7.0a3-py3-none-any.whl.zip --markdown 20230417/r/rdiffweb/2.7.0a2-2.7.0a3/diff.md --exclude *.pyd
+[2023-04-17 20:39:12] INFO root fetch - processPackages [surfacetopography]: executing diffoscope
+[2023-04-17 20:39:12] INFO root fetch - processPackages [surfacetopography]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surfacetopography-1.6.1.tar.gz tmp/surfacetopography-1.6.2.tar.gz --markdown 20230417/s/surfacetopography/1.6.1-1.6.2/diff.md --exclude *.pyd
+[2023-04-17 20:39:13] INFO root fetch - main [MainThread]: End processing [pyamg]: success
+[2023-04-17 20:39:16] INFO root fetch - main [MainThread]: End processing [evals]: success
+[2023-04-17 20:39:16] INFO root fetch - main [MainThread]: End processing [rdiffweb]: success
+[2023-04-17 20:39:45] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-04-17 20:39:51] INFO root fetch - main [MainThread]: End processing [surfacetopography]: success
+[2023-04-17 20:39:51] INFO root fetch - main [MainThread]: Store serial: [17742798]
