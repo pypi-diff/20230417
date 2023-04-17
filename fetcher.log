@@ -23172,3 +23172,55 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-17 23:19:20] INFO root fetch - main [MainThread]: End processing [sesg]: success
 [2023-04-17 23:19:59] INFO root fetch - main [MainThread]: End processing [ddtrace]: success
 [2023-04-17 23:19:59] INFO root fetch - main [MainThread]: Store serial: [17744712]
+[2023-04-17 23:25:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17744712]
+[2023-04-17 23:25:08] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-17 23:25:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: markdownlit
+[2023-04-17 23:25:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: graph-notebook
+[2023-04-17 23:25:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: light-labyrinth
+[2023-04-17 23:25:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scappy
+[2023-04-17 23:25:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tinote
+[2023-04-17 23:25:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: secure-web3
+[2023-04-17 23:25:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: material-va-lighthouse
+[2023-04-17 23:25:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qick
+[2023-04-17 23:25:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: block-recurrent-transformer-pytorch
+[2023-04-17 23:25:08] INFO root fetch - processPackages [graph-notebook]: New version: [3.8.1] Old Version: [3.8.0]
+[2023-04-17 23:25:08] INFO root fetch - processPackages [qick]: New version: [0.2.138] Old Version: [0.2.135]
+[2023-04-17 23:25:08] WARNING root fetch - processPackages [scappy]: Skipping, unable to determine old version
+[2023-04-17 23:25:08] INFO root fetch - processPackages [secure-web3]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-04-17 23:25:08] INFO root fetch - main [MainThread]: End processing [scappy] error
+[2023-04-17 23:25:08] INFO root fetch - processPackages [markdownlit]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-17 23:25:08] INFO root fetch - processPackages [tinote]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-17 23:25:08] WARNING root fetch - processPackages [material-va-lighthouse]: Skipping, unable to determine old version
+[2023-04-17 23:25:08] INFO root fetch - main [MainThread]: End processing [material-va-lighthouse] error
+[2023-04-17 23:25:08] INFO root fetch - processPackages [light-labyrinth]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-04-17 23:25:08] INFO root fetch - processPackages [block-recurrent-transformer-pytorch]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-04-17 23:25:09] INFO root fetch - processPackages [tinote]: Downloading https://files.pythonhosted.org/packages/b3/27/7bedb1dac3b03ed48fcaed13a2c546fb3ee186fa29fcd007a9ad24bebd1d/tinote-1.0.1.tar.gz
+[2023-04-17 23:25:09] INFO root fetch - processPackages [qick]: Downloading https://files.pythonhosted.org/packages/a2/40/7500deb831a2f5e111b8d34b9193326f92481e8511f7aec38305c3b929d1/qick-0.2.135.tar.gz
+[2023-04-17 23:25:09] INFO root fetch - processPackages [graph-notebook]: Downloading https://files.pythonhosted.org/packages/24/d0/317b394b8009badeb5878e93e3e6b1d0a4a85a173130d26dd113e9ed4a64/graph-notebook-3.8.0.tar.gz
+[2023-04-17 23:25:09] INFO root fetch - processPackages [secure-web3]: Downloading https://files.pythonhosted.org/packages/3c/df/cae4198d170443649fe9f39478fecef3436d189a5f652d6dece1c53c1078/secure_web3-1.3.1.tar.gz
+[2023-04-17 23:25:09] INFO root fetch - processPackages [light-labyrinth]: Downloading https://files.pythonhosted.org/packages/7f/26/c4c167f6b959f285612e2afc5cd84978c6da742807555c01ab557d1d3bfe/light_labyrinth-0.2.7-pp39-pypy39_pp73-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-17 23:25:09] INFO root fetch - processPackages [markdownlit]: Downloading https://files.pythonhosted.org/packages/5c/bd/d0ad4895b9766c3d63e37ee354fe46947e3f6b49f1edff6f22059bf8c3f3/markdownlit-0.0.6.tar.gz
+[2023-04-17 23:25:09] INFO root fetch - processPackages [block-recurrent-transformer-pytorch]: Downloading https://files.pythonhosted.org/packages/b3/9a/a798d047ee08e45e0ae462239d53717a72e577c37ab67807cbd6f8f4ce4f/block-recurrent-transformer-pytorch-0.2.2.tar.gz
+[2023-04-17 23:25:09] WARNING root fetch - processPackages [graph-notebook]: Skipping package: exceeds size limit 19408051>=10485760
+[2023-04-17 23:25:09] WARNING root fetch - processPackages [qick]: Skipping package: exceeds size limit 13555676>=10485760
+[2023-04-17 23:25:09] INFO root fetch - main [MainThread]: End processing [graph-notebook] error
+[2023-04-17 23:25:09] INFO root fetch - main [MainThread]: End processing [qick] error
+[2023-04-17 23:25:09] INFO root fetch - processPackages [tinote]: executing diffoscope
+[2023-04-17 23:25:09] INFO root fetch - processPackages [tinote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinote-1.0.0.tar.gz tmp/tinote-1.0.1.tar.gz --markdown 20230417/t/tinote/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-17 23:25:09] INFO root fetch - processPackages [secure-web3]: executing diffoscope
+[2023-04-17 23:25:09] INFO root fetch - processPackages [secure-web3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secure_web3-1.3.0.tar.gz tmp/secure_web3-1.3.1.tar.gz --markdown 20230417/s/secure-web3/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-04-17 23:25:09] INFO root fetch - processPackages [block-recurrent-transformer-pytorch]: Downloading https://files.pythonhosted.org/packages/e8/5a/52bcade02c5831d7b129e638c5e80bc2b021c8a47fd59ef20e174f6b5a61/block-recurrent-transformer-pytorch-0.3.0.tar.gz
+[2023-04-17 23:25:09] INFO root fetch - processPackages [markdownlit]: Downloading https://files.pythonhosted.org/packages/13/ab/c6eca20098fc7464df4f1626c65ca07b76903c5e2e9fa60763037e3554a4/markdownlit-0.0.7.tar.gz
+[2023-04-17 23:25:09] INFO root fetch - processPackages [light-labyrinth]: Downloading https://files.pythonhosted.org/packages/3d/56/cfd8ee6fd3d3f9bc3bf6fcd8884a9ffe1ba05c9e959a6fb954d96b6da90b/light_labyrinth-0.2.8-pp39-pypy39_pp73-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-17 23:25:09] INFO root fetch - processPackages [block-recurrent-transformer-pytorch]: executing diffoscope
+[2023-04-17 23:25:09] INFO root fetch - processPackages [block-recurrent-transformer-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/block-recurrent-transformer-pytorch-0.2.2.tar.gz tmp/block-recurrent-transformer-pytorch-0.3.0.tar.gz --markdown 20230417/b/block-recurrent-transformer-pytorch/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-04-17 23:25:09] INFO root fetch - processPackages [markdownlit]: executing diffoscope
+[2023-04-17 23:25:09] INFO root fetch - processPackages [markdownlit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markdownlit-0.0.6.tar.gz tmp/markdownlit-0.0.7.tar.gz --markdown 20230417/m/markdownlit/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-17 23:25:09] INFO root fetch - processPackages [light-labyrinth]: executing diffoscope
+[2023-04-17 23:25:09] INFO root fetch - processPackages [light-labyrinth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/light_labyrinth-0.2.7-pp39-pypy39_pp73-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/light_labyrinth-0.2.8-pp39-pypy39_pp73-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230417/l/light-labyrinth/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-04-17 23:25:10] INFO root fetch - main [MainThread]: End processing [tinote]: success
+[2023-04-17 23:25:10] INFO root fetch - main [MainThread]: End processing [block-recurrent-transformer-pytorch]: success
+[2023-04-17 23:25:10] INFO root fetch - main [MainThread]: End processing [markdownlit]: success
+[2023-04-17 23:25:13] INFO root fetch - main [MainThread]: End processing [light-labyrinth]: success
+[2023-04-17 23:25:20] INFO root fetch - main [MainThread]: End processing [secure-web3]: success
+[2023-04-17 23:25:20] INFO root fetch - main [MainThread]: Store serial: [17744770]
