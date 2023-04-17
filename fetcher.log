@@ -11530,3 +11530,83 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-04-17 13:35:59] INFO root fetch - main [MainThread]: End processing [holoviews]: success
 [2023-04-17 13:36:26] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-04-17 13:36:26] INFO root fetch - main [MainThread]: Store serial: [17737542]
+[2023-04-17 13:41:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17737542]
+[2023-04-17 13:41:36] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-17 13:41:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: customvalidator
+[2023-04-17 13:41:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eepackages
+[2023-04-17 13:41:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dcicutils
+[2023-04-17 13:41:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xpotato
+[2023-04-17 13:41:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: inductiva
+[2023-04-17 13:41:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: v8unpack
+[2023-04-17 13:41:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: polars
+[2023-04-17 13:41:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyre-check-nightly
+[2023-04-17 13:41:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: valmi-connector-lib
+[2023-04-17 13:41:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-excel-report
+[2023-04-17 13:41:36] INFO root fetch - processPackages [valmi-connector-lib]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-17 13:41:36] INFO root fetch - processPackages [customvalidator]: New version: [0.4] Old Version: [0.3]
+[2023-04-17 13:41:36] INFO root fetch - processPackages [inductiva]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 13:41:36] INFO root fetch - processPackages [dcicutils]: New version: [7.2.0.1b0] Old Version: [7.1.0]
+[2023-04-17 13:41:36] WARNING root fetch - processPackages [django-excel-report]: Skipping, unable to determine old version
+[2023-04-17 13:41:36] INFO root fetch - processPackages [django-excel-report]: Start processing: satori-ci
+[2023-04-17 13:41:36] INFO root fetch - main [MainThread]: End processing [django-excel-report] error
+[2023-04-17 13:41:36] INFO root fetch - processPackages [xpotato]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-17 13:41:36] INFO root fetch - processPackages [eepackages]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-17 13:41:36] INFO root fetch - processPackages [v8unpack]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-04-17 13:41:36] INFO root fetch - processPackages [pyre-check-nightly]: New version: [0.0.101681729968] Old Version: [0.0.101681643482]
+[2023-04-17 13:41:36] INFO root fetch - processPackages [polars]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-17 13:41:36] INFO root fetch - processPackages [satori-ci]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-04-17 13:41:36] INFO root fetch - processPackages [valmi-connector-lib]: Downloading https://files.pythonhosted.org/packages/81/16/df5c6768b5ffcd82814fc63b5c610e8ccc26b14786bf35a50cc1c519ba97/valmi_connector_lib-0.1.3.tar.gz
+[2023-04-17 13:41:36] INFO root fetch - processPackages [customvalidator]: Downloading https://files.pythonhosted.org/packages/64/69/521007101bc140cd0525a9736713c2dcb40535e3ab3f58b7a0c0c9e1b00e/customvalidator-0.3.tar.gz
+[2023-04-17 13:41:36] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/84/cc/6d7c5aa9d36e5f10c816036c71927bc3d7d3003213ffcad7d87da5c2e5e6/dcicutils-7.1.0.tar.gz
+[2023-04-17 13:41:36] INFO root fetch - processPackages [pyre-check-nightly]: Downloading https://files.pythonhosted.org/packages/67/89/4afbabfd5903777f5471efe14ccb804d22138e163fae0c5b74440d650a58/pyre-check-nightly-0.0.101681643482.tar.gz
+[2023-04-17 13:41:36] INFO root fetch - processPackages [xpotato]: Downloading https://files.pythonhosted.org/packages/7f/e6/2e89504fa3ee3b835a557cb6d07665fefd9414ca4f093f40aed9f6f7f6eb/xpotato-0.1.4.tar.gz
+[2023-04-17 13:41:36] INFO root fetch - processPackages [eepackages]: Downloading https://files.pythonhosted.org/packages/c4/07/af3132898eda57bf71fb5ac7734a04e334cfbcf5b2a2b6ceeccfd5c4567f/eepackages-0.8.0.tar.gz
+[2023-04-17 13:41:36] INFO root fetch - processPackages [satori-ci]: Downloading https://files.pythonhosted.org/packages/25/a1/c1289aa9f0be7223d04f140c2947a26e648eacc5d65af4ac24624c20c118/satori-ci-1.1.8.tar.gz
+[2023-04-17 13:41:36] INFO root fetch - processPackages [valmi-connector-lib]: executing diffoscope
+[2023-04-17 13:41:36] INFO root fetch - processPackages [valmi-connector-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valmi_connector_lib-0.1.2.tar.gz tmp/valmi_connector_lib-0.1.3.tar.gz --markdown 20230417/v/valmi-connector-lib/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-17 13:41:36] WARNING root fetch - processPackages [pyre-check-nightly]: Skipping package: exceeds size limit 23128750>=10485760
+[2023-04-17 13:41:36] INFO root fetch - processPackages [pyre-check-nightly]: Start processing: terra-ai-datasets-framework
+[2023-04-17 13:41:36] INFO root fetch - main [MainThread]: End processing [pyre-check-nightly] error
+[2023-04-17 13:41:36] INFO root fetch - processPackages [inductiva]: executing diffoscope
+[2023-04-17 13:41:36] INFO root fetch - processPackages [inductiva]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inductiva-0.0.8.tar.gz tmp/inductiva-0.0.9.tar.gz --markdown 20230417/i/inductiva/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 13:41:36] INFO root fetch - processPackages [polars]: executing diffoscope
+[2023-04-17 13:41:36] INFO root fetch - processPackages [polars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars-0.9.8.tar.gz tmp/polars-0.9.9.tar.gz --markdown 20230417/p/polars/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-17 13:41:36] INFO root fetch - processPackages [v8unpack]: executing diffoscope
+[2023-04-17 13:41:36] INFO root fetch - processPackages [v8unpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/v8unpack-0.9.2.tar.gz tmp/v8unpack-0.9.3.tar.gz --markdown 20230417/v/v8unpack/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-04-17 13:41:36] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/b1/3b/339b342ab9f0722a88d64d9b7390d6be4ee0517c09b7a3abe6ce10dd8b21/dcicutils-7.2.0.1b0.tar.gz
+[2023-04-17 13:41:36] INFO root fetch - processPackages [customvalidator]: Downloading https://files.pythonhosted.org/packages/19/80/f9aba8c06ba5e308d6fa4760d5add818e900e47e88efe7bd2b3853844a08/customvalidator-0.4.tar.gz
+[2023-04-17 13:41:36] INFO root fetch - processPackages [terra-ai-datasets-framework]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-04-17 13:41:36] INFO root fetch - processPackages [xpotato]: Downloading https://files.pythonhosted.org/packages/32/38/a3aeeb422c8c9e20f2603b2ff13d374a8fb25476558b3e41a0250c726cf2/xpotato-0.1.5.tar.gz
+[2023-04-17 13:41:36] INFO root fetch - processPackages [satori-ci]: Downloading https://files.pythonhosted.org/packages/5e/9a/6cfd282963557dcaddef231f1d071033255d4cc52138879d814e80cca01b/satori-ci-1.1.9.tar.gz
+[2023-04-17 13:41:36] INFO root fetch - processPackages [eepackages]: Downloading https://files.pythonhosted.org/packages/e6/8e/9d290b1c3f11cc35dfedf6dc9221bc6fecb44b0314c37b202c4b84151467/eepackages-0.9.0.tar.gz
+[2023-04-17 13:41:36] INFO root fetch - processPackages [customvalidator]: executing diffoscope
+[2023-04-17 13:41:36] INFO root fetch - processPackages [customvalidator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/customvalidator-0.3.tar.gz tmp/customvalidator-0.4.tar.gz --markdown 20230417/c/customvalidator/0.3-0.4/diff.md --exclude *.pyd
+[2023-04-17 13:41:36] INFO root fetch - processPackages [dcicutils]: executing diffoscope
+[2023-04-17 13:41:36] INFO root fetch - processPackages [dcicutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicutils-7.1.0.tar.gz tmp/dcicutils-7.2.0.1b0.tar.gz --markdown 20230417/d/dcicutils/7.1.0-7.2.0.1b0/diff.md --exclude *.pyd
+[2023-04-17 13:41:36] INFO root fetch - processPackages [satori-ci]: executing diffoscope
+[2023-04-17 13:41:36] INFO root fetch - processPackages [satori-ci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satori-ci-1.1.8.tar.gz tmp/satori-ci-1.1.9.tar.gz --markdown 20230417/s/satori-ci/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-04-17 13:41:36] INFO root fetch - processPackages [xpotato]: executing diffoscope
+[2023-04-17 13:41:36] INFO root fetch - processPackages [xpotato]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xpotato-0.1.4.tar.gz tmp/xpotato-0.1.5.tar.gz --markdown 20230417/x/xpotato/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-17 13:41:37] INFO root fetch - processPackages [eepackages]: executing diffoscope
+[2023-04-17 13:41:37] INFO root fetch - processPackages [eepackages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eepackages-0.8.0.tar.gz tmp/eepackages-0.9.0.tar.gz --markdown 20230417/e/eepackages/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-17 13:41:37] INFO root fetch - processPackages [terra-ai-datasets-framework]: Downloading https://files.pythonhosted.org/packages/86/9b/ca05190d1f5d1ba3efaf7749c8ffc3231838a80224528161231462dbc0d2/terra_ai_datasets_framework-1.1.7.tar.gz
+[2023-04-17 13:41:37] INFO root fetch - processPackages [terra-ai-datasets-framework]: executing diffoscope
+[2023-04-17 13:41:37] INFO root fetch - processPackages [terra-ai-datasets-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terra_ai_datasets_framework-1.1.6.tar.gz tmp/terra_ai_datasets_framework-1.1.7.tar.gz --markdown 20230417/t/terra-ai-datasets-framework/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2023-04-17 13:41:38] INFO root fetch - processPackages [customvalidator]: Start processing: MailToolsBox
+[2023-04-17 13:41:38] INFO root fetch - main [MainThread]: End processing [customvalidator]: success
+[2023-04-17 13:41:38] INFO root fetch - main [MainThread]: End processing [valmi-connector-lib]: success
+[2023-04-17 13:41:38] INFO root fetch - processPackages [MailToolsBox]: New version: [0.1.0.1] Old Version: [0.0.4.6]
+[2023-04-17 13:41:38] INFO root fetch - main [MainThread]: End processing [satori-ci]: success
+[2023-04-17 13:41:38] INFO root fetch - main [MainThread]: End processing [v8unpack]: success
+[2023-04-17 13:41:38] INFO root fetch - processPackages [MailToolsBox]: Downloading https://files.pythonhosted.org/packages/5c/d7/a89cd6c296442feb4ba3c4227fccb9f1b908872544b1c5a886685c37a5a2/MailToolsBox-0.0.4.6.tar.gz
+[2023-04-17 13:41:38] INFO root fetch - main [MainThread]: End processing [eepackages]: success
+[2023-04-17 13:41:38] INFO root fetch - processPackages [MailToolsBox]: Downloading https://files.pythonhosted.org/packages/77/7c/bf9064ba81e242f31cd9de6461bbdd4158e4421447aadbdec67cd670340f/MailToolsBox-0.1.0.1.tar.gz
+[2023-04-17 13:41:38] INFO root fetch - main [MainThread]: End processing [terra-ai-datasets-framework]: success
+[2023-04-17 13:41:39] INFO root fetch - main [MainThread]: End processing [xpotato]: success
+[2023-04-17 13:41:39] INFO root fetch - processPackages [MailToolsBox]: executing diffoscope
+[2023-04-17 13:41:39] INFO root fetch - processPackages [MailToolsBox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MailToolsBox-0.0.4.6.tar.gz tmp/MailToolsBox-0.1.0.1.tar.gz --markdown 20230417/M/MailToolsBox/0.0.4.6-0.1.0.1/diff.md --exclude *.pyd
+[2023-04-17 13:41:39] INFO root fetch - main [MainThread]: End processing [MailToolsBox]: success
+[2023-04-17 13:41:40] INFO root fetch - main [MainThread]: End processing [inductiva]: success
+[2023-04-17 13:41:40] INFO root fetch - main [MainThread]: End processing [dcicutils]: success
+[2023-04-17 13:41:44] INFO root fetch - main [MainThread]: End processing [polars]: success
+[2023-04-17 13:41:44] INFO root fetch - main [MainThread]: Store serial: [17737588]
