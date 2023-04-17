@@ -13733,3 +13733,128 @@ EOFError: EOF read where object expected
 [2023-04-17 15:26:06] INFO root fetch - main [MainThread]: End processing [fastestimator-nightly]: success
 [2023-04-17 15:26:08] INFO root fetch - main [MainThread]: End processing [demisto-sdk]: success
 [2023-04-17 15:26:08] INFO root fetch - main [MainThread]: Store serial: [17738844]
+[2023-04-17 15:31:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17738844]
+[2023-04-17 15:31:19] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-04-17 15:31:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bp-data-grid
+[2023-04-17 15:31:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kcli
+[2023-04-17 15:31:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: renovosolutions.aws-cdk-one-time-event
+[2023-04-17 15:31:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: manohelpers
+[2023-04-17 15:31:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mkdocs-material-otf
+[2023-04-17 15:31:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hagis
+[2023-04-17 15:31:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: edwh
+[2023-04-17 15:31:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pephubclient
+[2023-04-17 15:31:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: optimum
+[2023-04-17 15:31:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: write-the
+[2023-04-17 15:31:19] INFO root fetch - processPackages [mkdocs-material-otf]: New version: [9.1.6] Old Version: [9.1.206]
+[2023-04-17 15:31:19] INFO root fetch - processPackages [optimum]: New version: [1.8.1] Old Version: [1.8.0]
+[2023-04-17 15:31:19] INFO root fetch - processPackages [write-the]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-04-17 15:31:19] INFO root fetch - processPackages [hagis]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-04-17 15:31:19] INFO root fetch - processPackages [mkdocs-material-otf]: executing diffoscope
+[2023-04-17 15:31:19] INFO root fetch - processPackages [mkdocs-material-otf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs_material_otf-9.1.206.tar.gz tmp/mkdocs_material_otf-9.1.6.tar.gz --markdown 20230417/m/mkdocs-material-otf/9.1.206-9.1.6/diff.md --exclude *.pyd
+[2023-04-17 15:31:19] INFO root fetch - processPackages [bp-data-grid]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-17 15:31:19] INFO root fetch - processPackages [write-the]: executing diffoscope
+[2023-04-17 15:31:19] INFO root fetch - processPackages [manohelpers]: New version: [0.0.9] Old Version: [0.0.1]
+[2023-04-17 15:31:19] WARNING root fetch - processPackages [pephubclient]: Skipping, unable to determine old version
+[2023-04-17 15:31:19] INFO root fetch - processPackages [write-the]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/write_the-0.3.0.tar.gz tmp/write_the-0.4.0.tar.gz --markdown 20230417/w/write-the/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-04-17 15:31:19] INFO root fetch - processPackages [pephubclient]: Start processing: cvcreator
+[2023-04-17 15:31:19] INFO root fetch - main [MainThread]: End processing [pephubclient] error
+[2023-04-17 15:31:19] INFO root fetch - processPackages [edwh]: New version: [0.6.0] Old Version: [0.4.5]
+[2023-04-17 15:31:19] INFO root fetch - processPackages [renovosolutions.aws-cdk-one-time-event]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-04-17 15:31:19] INFO root fetch - processPackages [hagis]: executing diffoscope
+[2023-04-17 15:31:19] INFO root fetch - processPackages [hagis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hagis-0.2.3.tar.gz tmp/hagis-0.2.4.tar.gz --markdown 20230417/h/hagis/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-04-17 15:31:19] INFO root fetch - processPackages [kcli]: New version: [99.0.202304171325] Old Version: [99.0.202304162048]
+[2023-04-17 15:31:19] INFO root fetch - processPackages [optimum]: Downloading https://files.pythonhosted.org/packages/40/28/666f473cabfd05a5f0d53a809c3a5718d4abf1ccbdb224fa13151d0f0ba6/optimum-1.8.1.tar.gz
+[2023-04-17 15:31:19] INFO root fetch - processPackages [cvcreator]: New version: [1.1.9] Old Version: [1.1.5]
+[2023-04-17 15:31:19] INFO root fetch - processPackages [manohelpers]: Downloading https://files.pythonhosted.org/packages/be/85/ce89b3db5151e80c78b9f3281becd83da7dbfb2f9b1ccd70bedeaa506dca/manohelpers-0.0.1.tar.gz
+[2023-04-17 15:31:19] INFO root fetch - processPackages [edwh]: Downloading https://files.pythonhosted.org/packages/46/a7/af2b020f745763089ac49a10f310908091a9716fe985684309a0907851bf/edwh-0.4.5.tar.gz
+[2023-04-17 15:31:19] INFO root fetch - processPackages [bp-data-grid]: Downloading https://files.pythonhosted.org/packages/07/1a/b20ff0c28caf0633f01c2096b58cfa5bbaa5ece0b3eb7112fd8fe422a3a4/bp_data_grid-0.0.5.tar.gz
+[2023-04-17 15:31:19] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/01/48/89806bd69896d8bcf1d32e691b3a044a0ee8aa22f5313d2ce8c29ecbe607/kcli-99.0.202304162048-py3-none-any.whl
+[2023-04-17 15:31:19] INFO root fetch - processPackages [cvcreator]: Downloading https://files.pythonhosted.org/packages/81/b7/d217ae5c88caa42deaa57fde11eecd11c4ce67171f3ebcfbac18673e86e5/cvcreator-1.1.5.tar.gz
+[2023-04-17 15:31:19] INFO root fetch - processPackages [bp-data-grid]: executing diffoscope
+[2023-04-17 15:31:19] INFO root fetch - processPackages [bp-data-grid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bp_data_grid-0.0.4.tar.gz tmp/bp_data_grid-0.0.5.tar.gz --markdown 20230417/b/bp-data-grid/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-17 15:31:20] INFO root fetch - processPackages [manohelpers]: Downloading https://files.pythonhosted.org/packages/b6/cd/fb008dbdcad97e073a51b3a43e3ec9df993ba71f46eed0e0816fd88c4e0c/manohelpers-0.0.9.tar.gz
+[2023-04-17 15:31:20] INFO root fetch - processPackages [optimum]: executing diffoscope
+[2023-04-17 15:31:20] INFO root fetch - processPackages [optimum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optimum-1.8.0.tar.gz tmp/optimum-1.8.1.tar.gz --markdown 20230417/o/optimum/1.8.0-1.8.1/diff.md --exclude *.pyd
+[2023-04-17 15:31:20] INFO root fetch - processPackages [edwh]: Downloading https://files.pythonhosted.org/packages/a4/24/088ee3968a3041eda8f96e0b7df68bc74e5498091698887bd9a326b0b9c1/edwh-0.6.0.tar.gz
+[2023-04-17 15:31:20] INFO root fetch - processPackages [renovosolutions.aws-cdk-one-time-event]: executing diffoscope
+[2023-04-17 15:31:20] INFO root fetch - processPackages [renovosolutions.aws-cdk-one-time-event]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-one-time-event-2.1.98.tar.gz tmp/renovosolutions.aws-cdk-one-time-event-2.1.99.tar.gz --markdown 20230417/r/renovosolutions.aws-cdk-one-time-event/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-04-17 15:31:20] INFO root fetch - processPackages [manohelpers]: executing diffoscope
+[2023-04-17 15:31:20] INFO root fetch - processPackages [manohelpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manohelpers-0.0.1.tar.gz tmp/manohelpers-0.0.9.tar.gz --markdown 20230417/m/manohelpers/0.0.1-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 15:31:20] INFO root fetch - processPackages [edwh]: executing diffoscope
+[2023-04-17 15:31:20] INFO root fetch - processPackages [edwh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edwh-0.4.5.tar.gz tmp/edwh-0.6.0.tar.gz --markdown 20230417/e/edwh/0.4.5-0.6.0/diff.md --exclude *.pyd
+[2023-04-17 15:31:20] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/4e/db/57c86e075d90f0db555c18ca3682a274a61c60c954cc51e22ee5ff65eb83/kcli-99.0.202304171325-py3-none-any.whl
+[2023-04-17 15:31:20] INFO root fetch - processPackages [cvcreator]: Downloading https://files.pythonhosted.org/packages/c9/9c/33e63ec184a384b336904fed3142eb61946fcf643a053ed3be0cf0532830/cvcreator-1.1.9-py3-none-any.whl
+[2023-04-17 15:31:20] INFO root fetch - processPackages [cvcreator]: executing diffoscope
+[2023-04-17 15:31:20] INFO root fetch - processPackages [cvcreator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvcreator-1.1.5.tar.gz tmp/cvcreator-1.1.9-py3-none-any.whl.zip --markdown 20230417/c/cvcreator/1.1.5-1.1.9/diff.md --exclude *.pyd
+[2023-04-17 15:31:20] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-04-17 15:31:20] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202304162048-py3-none-any.whl.zip tmp/kcli-99.0.202304171325-py3-none-any.whl.zip --markdown 20230417/k/kcli/99.0.202304162048-99.0.202304171325/diff.md --exclude *.pyd
+[2023-04-17 15:31:20] INFO root fetch - processPackages [hagis]: Start processing: flask-fd
+[2023-04-17 15:31:20] INFO root fetch - main [MainThread]: End processing [hagis]: success
+[2023-04-17 15:31:21] INFO root fetch - processPackages [flask-fd]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-17 15:31:21] INFO root fetch - processPackages [flask-fd]: Downloading https://files.pythonhosted.org/packages/ce/0a/54729977b8004f113c1c666b7d7ae1d530e16bdc1f34b1ad1508d3f09fad/flask-fd-1.0.2.tar.gz
+[2023-04-17 15:31:21] INFO root fetch - processPackages [manohelpers]: Start processing: odoo14-addon-l10n-br-resource
+[2023-04-17 15:31:21] INFO root fetch - main [MainThread]: End processing [manohelpers]: success
+[2023-04-17 15:31:21] INFO root fetch - processPackages [flask-fd]: Downloading https://files.pythonhosted.org/packages/eb/b4/2b9664b524204bb327f28ddbbaa005dbefa3b4d3c96bbee539fbba5ab4b5/flask-fd-1.0.3.tar.gz
+[2023-04-17 15:31:21] INFO root fetch - processPackages [odoo14-addon-l10n-br-resource]: New version: [14.0.1.0.2.dev4] Old Version: [14.0.1.0.2.dev3]
+[2023-04-17 15:31:21] INFO root fetch - processPackages [edwh]: Start processing: kerchunk
+[2023-04-17 15:31:21] INFO root fetch - main [MainThread]: End processing [edwh]: success
+[2023-04-17 15:31:21] INFO root fetch - processPackages [kerchunk]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-17 15:31:21] INFO root fetch - processPackages [flask-fd]: executing diffoscope
+[2023-04-17 15:31:21] INFO root fetch - processPackages [flask-fd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask-fd-1.0.2.tar.gz tmp/flask-fd-1.0.3.tar.gz --markdown 20230417/f/flask-fd/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-17 15:31:21] INFO root fetch - processPackages [odoo14-addon-l10n-br-resource]: Downloading https://files.pythonhosted.org/packages/83/9f/cab3449795adba6677e3c06ce0e8d7f1006e9a7dc97ab5d2e4c055547131/odoo14_addon_l10n_br_resource-14.0.1.0.2.dev3-py3-none-any.whl
+[2023-04-17 15:31:21] INFO root fetch - processPackages [renovosolutions.aws-cdk-one-time-event]: Start processing: orthanc-api-client
+[2023-04-17 15:31:21] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-one-time-event]: success
+[2023-04-17 15:31:21] INFO root fetch - processPackages [orthanc-api-client]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-17 15:31:21] INFO root fetch - processPackages [kerchunk]: Downloading https://files.pythonhosted.org/packages/57/bb/5abed84894f59dc85d01bc850a3a4afb94a4a1fd39a84fd2124702451331/kerchunk-0.1.0.tar.gz
+[2023-04-17 15:31:22] INFO root fetch - processPackages [write-the]: Start processing: rocketapi
+[2023-04-17 15:31:22] INFO root fetch - main [MainThread]: End processing [write-the]: success
+[2023-04-17 15:31:22] INFO root fetch - processPackages [odoo14-addon-l10n-br-resource]: Downloading https://files.pythonhosted.org/packages/3f/db/42d006bf62a4c58d4696733b7dedf6d83b718531232f1e2b419ff38c43cf/odoo14_addon_l10n_br_resource-14.0.1.0.2.dev4-py3-none-any.whl
+[2023-04-17 15:31:22] INFO root fetch - processPackages [orthanc-api-client]: Downloading https://files.pythonhosted.org/packages/d3/bb/5e4faf3e3a5f69003789d5b91a42a13657767f8431b010a7ac293ad91b7d/orthanc_api_client-0.9.0.tar.gz
+[2023-04-17 15:31:22] INFO root fetch - processPackages [rocketapi]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-17 15:31:22] INFO root fetch - processPackages [kerchunk]: Downloading https://files.pythonhosted.org/packages/57/c8/ba74e7b53884b24b034a8fd591ef3a898f83c2a94ebe6267c521234c14d6/kerchunk-0.1.1.tar.gz
+[2023-04-17 15:31:22] INFO root fetch - processPackages [odoo14-addon-l10n-br-resource]: executing diffoscope
+[2023-04-17 15:31:22] INFO root fetch - processPackages [odoo14-addon-l10n-br-resource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_resource-14.0.1.0.2.dev3-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_resource-14.0.1.0.2.dev4-py3-none-any.whl.zip --markdown 20230417/o/odoo14-addon-l10n-br-resource/14.0.1.0.2.dev3-14.0.1.0.2.dev4/diff.md --exclude *.pyd
+[2023-04-17 15:31:22] INFO root fetch - processPackages [rocketapi]: Downloading https://files.pythonhosted.org/packages/cc/fb/b96d4aad20c343917d51d649335e7466d64eba5f8e4d3a5390116724056d/rocketapi-1.0.2.tar.gz
+[2023-04-17 15:31:22] INFO root fetch - processPackages [kerchunk]: executing diffoscope
+[2023-04-17 15:31:22] INFO root fetch - processPackages [kerchunk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kerchunk-0.1.0.tar.gz tmp/kerchunk-0.1.1.tar.gz --markdown 20230417/k/kerchunk/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-17 15:31:22] INFO root fetch - processPackages [orthanc-api-client]: Downloading https://files.pythonhosted.org/packages/a6/4e/712c36ab021efbd300d80d5b8bb2e343f1bd39b61e3d0cfcd9634e6e0db2/orthanc_api_client-0.9.1.tar.gz
+[2023-04-17 15:31:22] INFO root fetch - processPackages [orthanc-api-client]: executing diffoscope
+[2023-04-17 15:31:22] INFO root fetch - processPackages [orthanc-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orthanc_api_client-0.9.0.tar.gz tmp/orthanc_api_client-0.9.1.tar.gz --markdown 20230417/o/orthanc-api-client/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-17 15:31:22] INFO root fetch - processPackages [rocketapi]: Downloading https://files.pythonhosted.org/packages/12/07/29ea22499b70bb73b55b1a8a03c5e54d5508743c1426874ff0d81fc877f1/rocketapi-1.0.3.tar.gz
+[2023-04-17 15:31:22] INFO root fetch - processPackages [rocketapi]: executing diffoscope
+[2023-04-17 15:31:22] INFO root fetch - processPackages [rocketapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rocketapi-1.0.2.tar.gz tmp/rocketapi-1.0.3.tar.gz --markdown 20230417/r/rocketapi/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-17 15:31:22] INFO root fetch - processPackages [flask-fd]: Start processing: renovosolutions.aws-cdk-aws-ipam
+[2023-04-17 15:31:22] INFO root fetch - main [MainThread]: End processing [flask-fd]: success
+[2023-04-17 15:31:22] INFO root fetch - processPackages [cvcreator]: Start processing: manohelpers
+[2023-04-17 15:31:22] INFO root fetch - main [MainThread]: End processing [cvcreator]: success
+[2023-04-17 15:31:22] INFO root fetch - processPackages [renovosolutions.aws-cdk-aws-ipam]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-04-17 15:31:22] INFO root fetch - processPackages [manohelpers]: New version: [0.0.9] Old Version: [0.0.1]
+[2023-04-17 15:31:23] INFO root fetch - processPackages [renovosolutions.aws-cdk-aws-ipam]: executing diffoscope
+[2023-04-17 15:31:23] INFO root fetch - processPackages [renovosolutions.aws-cdk-aws-ipam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-aws-ipam-0.1.98.tar.gz tmp/renovosolutions.aws-cdk-aws-ipam-0.1.99.tar.gz --markdown 20230417/r/renovosolutions.aws-cdk-aws-ipam/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-04-17 15:31:23] INFO root fetch - processPackages [manohelpers]: executing diffoscope
+[2023-04-17 15:31:23] INFO root fetch - processPackages [manohelpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manohelpers-0.0.1.tar.gz tmp/manohelpers-0.0.9.tar.gz --markdown 20230417/m/manohelpers/0.0.1-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 15:31:23] INFO root fetch - processPackages [odoo14-addon-l10n-br-resource]: Start processing: spacy-llm
+[2023-04-17 15:31:23] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-resource]: success
+[2023-04-17 15:31:23] WARNING root fetch - processPackages [spacy-llm]: Skipping, unable to determine old version
+[2023-04-17 15:31:23] INFO root fetch - processPackages [spacy-llm]: Start processing: psd-export
+[2023-04-17 15:31:23] INFO root fetch - main [MainThread]: End processing [spacy-llm] error
+[2023-04-17 15:31:23] INFO root fetch - processPackages [psd-export]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-04-17 15:31:23] INFO root fetch - processPackages [psd-export]: executing diffoscope
+[2023-04-17 15:31:23] INFO root fetch - processPackages [psd-export]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psd_export-1.0.4.tar.gz tmp/psd_export-1.0.5.tar.gz --markdown 20230417/p/psd-export/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-04-17 15:31:23] INFO root fetch - processPackages [rocketapi]: Start processing: robotic
+[2023-04-17 15:31:23] INFO root fetch - main [MainThread]: End processing [rocketapi]: success
+[2023-04-17 15:31:24] INFO root fetch - processPackages [robotic]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-17 15:31:24] INFO root fetch - processPackages [robotic]: Downloading https://files.pythonhosted.org/packages/f0/e1/e932be05514bb27269ca1cc7692d2ff37e03d8900b61356cb1396e0b23b9/robotic-0.0.6-cp39-cp39-manylinux2014_x86_64.whl
+[2023-04-17 15:31:24] WARNING root fetch - processPackages [robotic]: Skipping package: exceeds size limit 12240189>=10485760
+[2023-04-17 15:31:24] INFO root fetch - main [MainThread]: End processing [robotic] error
+[2023-04-17 15:31:24] INFO root fetch - main [MainThread]: End processing [manohelpers]: success
+[2023-04-17 15:31:24] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-aws-ipam]: success
+[2023-04-17 15:31:25] INFO root fetch - main [MainThread]: End processing [kerchunk]: success
+[2023-04-17 15:31:25] INFO root fetch - main [MainThread]: End processing [psd-export]: success
+[2023-04-17 15:31:25] INFO root fetch - main [MainThread]: End processing [orthanc-api-client]: success
+[2023-04-17 15:31:25] INFO root fetch - main [MainThread]: End processing [optimum]: success
+[2023-04-17 15:31:25] INFO root fetch - main [MainThread]: End processing [bp-data-grid]: success
+[2023-04-17 15:31:29] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-04-17 15:34:19] ERROR root fetch - processPackages [mkdocs-material-otf]: Timeout during execution of pkgdiff
+[2023-04-17 15:34:19] INFO root fetch - main [MainThread]: End processing [mkdocs-material-otf] error
+[2023-04-17 15:34:19] INFO root fetch - main [MainThread]: Store serial: [17738909]
