@@ -6079,3 +6079,58 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 07:57:27] INFO root fetch - main [MainThread]: End processing [rext]: success
 [2023-04-17 07:57:43] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
 [2023-04-17 07:57:43] INFO root fetch - main [MainThread]: Store serial: [17734210]
+[2023-04-17 08:02:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17734210]
+[2023-04-17 08:02:52] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-17 08:02:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: EMPOL-GUI
+[2023-04-17 08:02:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lctutil
+[2023-04-17 08:02:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gmanka-yml
+[2023-04-17 08:02:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: webslides
+[2023-04-17 08:02:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lsaBGC
+[2023-04-17 08:02:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xh-dict-utils
+[2023-04-17 08:02:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: strcolrify
+[2023-04-17 08:02:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyg-nightly
+[2023-04-17 08:02:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: noaa-coops
+[2023-04-17 08:02:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mirrorbot
+[2023-04-17 08:02:52] INFO root fetch - processPackages [xh-dict-utils]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-17 08:02:52] INFO root fetch - processPackages [gmanka-yml]: New version: [23.0.2] Old Version: [23.0.1]
+[2023-04-17 08:02:52] INFO root fetch - processPackages [lsaBGC]: New version: [1.35] Old Version: [1.34]
+[2023-04-17 08:02:52] INFO root fetch - processPackages [webslides]: New version: [0.5.7] Old Version: [0.5.6]
+[2023-04-17 08:02:52] INFO root fetch - processPackages [lctutil]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-04-17 08:02:52] INFO root fetch - processPackages [pyg-nightly]: New version: [2.4.0.dev20230416] Old Version: [2.4.0.dev20230415]
+[2023-04-17 08:02:52] WARNING root fetch - processPackages [EMPOL-GUI]: Skipping, unable to determine old version
+[2023-04-17 08:02:52] WARNING root fetch - processPackages [strcolrify]: Skipping, unable to determine old version
+[2023-04-17 08:02:52] INFO root fetch - main [MainThread]: End processing [EMPOL-GUI] error
+[2023-04-17 08:02:52] INFO root fetch - main [MainThread]: End processing [strcolrify] error
+[2023-04-17 08:02:52] INFO root fetch - processPackages [noaa-coops]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-17 08:02:52] ERROR root fetch - processPackages [mirrorbot]: Unable to get metadata: No such project 'mirrorbot'
+[2023-04-17 08:02:52] INFO root fetch - main [MainThread]: End processing [mirrorbot] error
+[2023-04-17 08:02:52] INFO root fetch - processPackages [xh-dict-utils]: Downloading https://files.pythonhosted.org/packages/6b/f8/1508a4de44b256b2322ebbc71fe13119b7ae7c4432e178b4edaa2da4c56a/xh-dict-utils-0.0.4.tar.gz
+[2023-04-17 08:02:52] INFO root fetch - processPackages [gmanka-yml]: Downloading https://files.pythonhosted.org/packages/a9/2a/914f8442612a97042027de31575fc321b701382c678151b298c76c87a88f/gmanka_yml-23.0.2.tar.gz
+[2023-04-17 08:02:52] INFO root fetch - processPackages [lctutil]: Downloading https://files.pythonhosted.org/packages/8f/85/0898dc85bfd056c7cc567eb2e0c466926901fffce2a2bb4628651f321622/lctutil-0.5.0.tar.gz
+[2023-04-17 08:02:52] INFO root fetch - processPackages [lsaBGC]: Downloading https://files.pythonhosted.org/packages/dd/9d/9e1c994583ddd51bf1dced8d463ff281dc59ad09911f11d74b64db5cf659/lsaBGC-1.35.tar.gz
+[2023-04-17 08:02:52] INFO root fetch - processPackages [xh-dict-utils]: executing diffoscope
+[2023-04-17 08:02:52] INFO root fetch - processPackages [xh-dict-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xh-dict-utils-0.0.3.tar.gz tmp/xh-dict-utils-0.0.4.tar.gz --markdown 20230417/x/xh-dict-utils/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-17 08:02:52] INFO root fetch - processPackages [noaa-coops]: Downloading https://files.pythonhosted.org/packages/ec/15/cc4dbf9136649037732e1a6a7ded64ba5732b7264a4388b786b646e2c33f/noaa_coops-0.2.1.tar.gz
+[2023-04-17 08:02:52] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/7c/a2/8adb7858abf08d02b7ec290c461a93e7ce024763273bacd101012aa08244/pyg-nightly-2.4.0.dev20230416.tar.gz
+[2023-04-17 08:02:52] INFO root fetch - processPackages [lctutil]: executing diffoscope
+[2023-04-17 08:02:52] INFO root fetch - processPackages [lctutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lctutil-0.4.0.tar.gz tmp/lctutil-0.5.0.tar.gz --markdown 20230417/l/lctutil/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-04-17 08:02:52] INFO root fetch - processPackages [webslides]: Downloading https://files.pythonhosted.org/packages/68/58/a3be1e5c91e4a71a832d97be6c59d73663b0a88264beb6b16dedc853d674/webslides-0.5.7.tar.gz
+[2023-04-17 08:02:52] INFO root fetch - processPackages [gmanka-yml]: executing diffoscope
+[2023-04-17 08:02:52] INFO root fetch - processPackages [gmanka-yml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmanka_yml-23.0.1.tar.gz tmp/gmanka_yml-23.0.2.tar.gz --markdown 20230417/g/gmanka-yml/23.0.1-23.0.2/diff.md --exclude *.pyd
+[2023-04-17 08:02:52] INFO root fetch - processPackages [lsaBGC]: executing diffoscope
+[2023-04-17 08:02:52] INFO root fetch - processPackages [lsaBGC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsaBGC-1.34.tar.gz tmp/lsaBGC-1.35.tar.gz --markdown 20230417/l/lsaBGC/1.34-1.35/diff.md --exclude *.pyd
+[2023-04-17 08:02:52] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2023-04-17 08:02:52] INFO root fetch - processPackages [webslides]: executing diffoscope
+[2023-04-17 08:02:52] INFO root fetch - processPackages [webslides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webslides-0.5.6.tar.gz tmp/webslides-0.5.7.tar.gz --markdown 20230417/w/webslides/0.5.6-0.5.7/diff.md --exclude *.pyd
+[2023-04-17 08:02:52] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg-nightly-2.4.0.dev20230415.tar.gz tmp/pyg-nightly-2.4.0.dev20230416.tar.gz --markdown 20230417/p/pyg-nightly/2.4.0.dev20230415-2.4.0.dev20230416/diff.md --exclude *.pyd
+[2023-04-17 08:02:52] INFO root fetch - processPackages [noaa-coops]: Downloading https://files.pythonhosted.org/packages/37/24/fd9b538f47d96b1a99eda696e4c8006d0c51043c69726fe64cc27b7339f1/noaa_coops-0.2.2.tar.gz
+[2023-04-17 08:02:53] INFO root fetch - processPackages [noaa-coops]: executing diffoscope
+[2023-04-17 08:02:53] INFO root fetch - processPackages [noaa-coops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/noaa_coops-0.2.1.tar.gz tmp/noaa_coops-0.2.2.tar.gz --markdown 20230417/n/noaa-coops/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-17 08:02:53] INFO root fetch - main [MainThread]: End processing [gmanka-yml]: success
+[2023-04-17 08:02:54] INFO root fetch - main [MainThread]: End processing [xh-dict-utils]: success
+[2023-04-17 08:02:54] INFO root fetch - main [MainThread]: End processing [lctutil]: success
+[2023-04-17 08:02:54] INFO root fetch - main [MainThread]: End processing [webslides]: success
+[2023-04-17 08:02:54] INFO root fetch - main [MainThread]: End processing [noaa-coops]: success
+[2023-04-17 08:02:55] INFO root fetch - main [MainThread]: End processing [lsaBGC]: success
+[2023-04-17 08:02:57] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2023-04-17 08:02:57] INFO root fetch - main [MainThread]: Store serial: [17734250]
