@@ -12183,3 +12183,73 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-04-17 14:24:41] INFO root fetch - main [MainThread]: End processing [tabledetect]: success
 [2023-04-17 14:24:48] INFO root fetch - main [MainThread]: End processing [powerbiclient]: success
 [2023-04-17 14:24:48] INFO root fetch - main [MainThread]: Store serial: [17737944]
+[2023-04-17 14:29:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17737944]
+[2023-04-17 14:29:57] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-17 14:29:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: japyconjugator
+[2023-04-17 14:29:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gg-release-notes
+[2023-04-17 14:29:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: one-api-tool
+[2023-04-17 14:29:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: certora-cli-alpha-master
+[2023-04-17 14:29:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hasher-cnml
+[2023-04-17 14:29:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Pras-Server
+[2023-04-17 14:29:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: OpenGeode-Geosciences
+[2023-04-17 14:29:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tabpfn
+[2023-04-17 14:29:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: thrivve-core
+[2023-04-17 14:29:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: glinux-breakfix
+[2023-04-17 14:29:57] WARNING root fetch - processPackages [one-api-tool]: Skipping, unable to determine old version
+[2023-04-17 14:29:57] INFO root fetch - processPackages [one-api-tool]: Start processing: goobuntu-encryption-config
+[2023-04-17 14:29:57] INFO root fetch - main [MainThread]: End processing [one-api-tool] error
+[2023-04-17 14:29:57] INFO root fetch - processPackages [thrivve-core]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-17 14:29:57] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230417.9.51.855811] Old Version: [20230416.21.42.947623]
+[2023-04-17 14:29:57] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/c3/88/60137b072cdf982e490cd9bfd127d6c97e99586089c77b2b32b793fbaab3/certora-cli-alpha-master-20230416.21.42.947623.tar.gz
+[2023-04-17 14:29:57] INFO root fetch - processPackages [thrivve-core]: executing diffoscope
+[2023-04-17 14:29:57] INFO root fetch - processPackages [thrivve-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thrivve_core-0.0.5.tar.gz tmp/thrivve_core-0.0.6.tar.gz --markdown 20230417/t/thrivve-core/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-17 14:29:57] WARNING root fetch - processPackages [japyconjugator]: Skipping, unable to determine old version
+[2023-04-17 14:29:57] INFO root fetch - processPackages [Pras-Server]: New version: [1.1.14] Old Version: [1.0.9]
+[2023-04-17 14:29:57] INFO root fetch - processPackages [japyconjugator]: Start processing: python3-glinux
+[2023-04-17 14:29:57] INFO root fetch - main [MainThread]: End processing [japyconjugator] error
+[2023-04-17 14:29:57] INFO root fetch - processPackages [gg-release-notes]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-04-17 14:29:57] WARNING root fetch - processPackages [hasher-cnml]: Skipping, unable to determine old version
+[2023-04-17 14:29:57] WARNING root fetch - processPackages [glinux-breakfix]: Skipping, unable to determine old version
+[2023-04-17 14:29:57] INFO root fetch - processPackages [hasher-cnml]: Start processing: python-credkit-client
+[2023-04-17 14:29:57] INFO root fetch - processPackages [glinux-breakfix]: Start processing: tupa123
+[2023-04-17 14:29:57] INFO root fetch - main [MainThread]: End processing [hasher-cnml] error
+[2023-04-17 14:29:57] INFO root fetch - processPackages [tabpfn]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-17 14:29:57] INFO root fetch - main [MainThread]: End processing [glinux-breakfix] error
+[2023-04-17 14:29:57] WARNING root fetch - processPackages [goobuntu-encryption-config]: Skipping, unable to determine old version
+[2023-04-17 14:29:57] INFO root fetch - processPackages [goobuntu-encryption-config]: Start processing: odoo14-addon-mrp-flattened-bom-xlsx-subcontracting-cost
+[2023-04-17 14:29:57] INFO root fetch - main [MainThread]: End processing [goobuntu-encryption-config] error
+[2023-04-17 14:29:57] INFO root fetch - processPackages [OpenGeode-Geosciences]: New version: [7.0.2] Old Version: [7.0.1]
+[2023-04-17 14:29:57] INFO root fetch - processPackages [tupa123]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-04-17 14:29:58] WARNING root fetch - processPackages [python3-glinux]: Skipping, unable to determine old version
+[2023-04-17 14:29:58] INFO root fetch - main [MainThread]: End processing [python3-glinux] error
+[2023-04-17 14:29:58] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 38007777>=10485760
+[2023-04-17 14:29:58] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-04-17 14:29:58] WARNING root fetch - processPackages [python-credkit-client]: Skipping, unable to determine old version
+[2023-04-17 14:29:58] INFO root fetch - main [MainThread]: End processing [python-credkit-client] error
+[2023-04-17 14:29:58] INFO root fetch - processPackages [tupa123]: executing diffoscope
+[2023-04-17 14:29:58] INFO root fetch - processPackages [tupa123]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tupa123-1.3.0.tar.gz tmp/tupa123-1.3.1.tar.gz --markdown 20230417/t/tupa123/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-04-17 14:29:58] WARNING root fetch - processPackages [odoo14-addon-mrp-flattened-bom-xlsx-subcontracting-cost]: Skipping, unable to determine old version
+[2023-04-17 14:29:58] INFO root fetch - main [MainThread]: End processing [odoo14-addon-mrp-flattened-bom-xlsx-subcontracting-cost] error
+[2023-04-17 14:29:58] INFO root fetch - processPackages [tabpfn]: Downloading https://files.pythonhosted.org/packages/28/43/4871900d91adcdf682ef48bf661d625c92f5eb2e7c93cb6a8c496b42060d/tabpfn-0.1.8.tar.gz
+[2023-04-17 14:29:58] INFO root fetch - processPackages [gg-release-notes]: Downloading https://files.pythonhosted.org/packages/e9/a5/bc5e3719c8e3897278e9ea9dd46f3726cbbf4b278fabad05b6f3885d8861/gg_release_notes-1.2.7-py3-none-any.whl
+[2023-04-17 14:29:58] INFO root fetch - processPackages [OpenGeode-Geosciences]: Downloading https://files.pythonhosted.org/packages/10/22/e2683fa982812ea05fe8c8840701df3710ba41bd83d82d8241a5f2ec9dba/OpenGeode_Geosciences-7.0.1-cp39-cp39-win_amd64.whl
+[2023-04-17 14:29:58] INFO root fetch - processPackages [Pras-Server]: Downloading https://files.pythonhosted.org/packages/d1/41/ad0abf8ffc573642d468fb8de302f590942c0994da56c81c75acea8d589d/Pras_Server-1.0.9.tar.gz
+[2023-04-17 14:29:58] INFO root fetch - processPackages [gg-release-notes]: Downloading https://files.pythonhosted.org/packages/42/85/10478806312b86a26736702667a6c48bbfe3121ed4f4da099ec585c5358f/gg_release_notes-1.2.8-py3-none-any.whl
+[2023-04-17 14:29:58] INFO root fetch - processPackages [OpenGeode-Geosciences]: Downloading https://files.pythonhosted.org/packages/20/f3/3803fbc5626028ed875a91a274edaa6f2f469372bff4d85c031e98e99968/OpenGeode_Geosciences-7.0.2-cp39-cp39-manylinux2014_x86_64.whl
+[2023-04-17 14:29:58] INFO root fetch - processPackages [tabpfn]: Downloading https://files.pythonhosted.org/packages/ff/24/bf072507a80846210536b0fb5693f7c9649fcfce314829e0d6b3ec6d4d00/tabpfn-0.1.9.tar.gz
+[2023-04-17 14:29:58] INFO root fetch - processPackages [gg-release-notes]: executing diffoscope
+[2023-04-17 14:29:58] INFO root fetch - processPackages [gg-release-notes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gg_release_notes-1.2.7-py3-none-any.whl.zip tmp/gg_release_notes-1.2.8-py3-none-any.whl.zip --markdown 20230417/g/gg-release-notes/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-04-17 14:29:58] INFO root fetch - processPackages [tabpfn]: executing diffoscope
+[2023-04-17 14:29:58] INFO root fetch - processPackages [tabpfn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tabpfn-0.1.8.tar.gz tmp/tabpfn-0.1.9.tar.gz --markdown 20230417/t/tabpfn/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-17 14:29:58] INFO root fetch - processPackages [OpenGeode-Geosciences]: executing diffoscope
+[2023-04-17 14:29:58] INFO root fetch - processPackages [OpenGeode-Geosciences]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenGeode_Geosciences-7.0.1-cp39-cp39-win_amd64.whl.zip tmp/OpenGeode_Geosciences-7.0.2-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230417/O/OpenGeode-Geosciences/7.0.1-7.0.2/diff.md --exclude *.pyd
+[2023-04-17 14:29:59] INFO root fetch - main [MainThread]: End processing [tupa123]: success
+[2023-04-17 14:29:59] INFO root fetch - main [MainThread]: End processing [thrivve-core]: success
+[2023-04-17 14:29:59] INFO root fetch - main [MainThread]: End processing [gg-release-notes]: success
+[2023-04-17 14:29:59] INFO root fetch - processPackages [Pras-Server]: Downloading https://files.pythonhosted.org/packages/d5/ec/e5d7b8e5271343f4b45babb2d80e4f987f0e8e720b682c6db0d7471625ad/Pras_Server-1.1.14.tar.gz
+[2023-04-17 14:30:00] INFO root fetch - processPackages [Pras-Server]: executing diffoscope
+[2023-04-17 14:30:00] INFO root fetch - processPackages [Pras-Server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pras_Server-1.0.9.tar.gz tmp/Pras_Server-1.1.14.tar.gz --markdown 20230417/P/Pras-Server/1.0.9-1.1.14/diff.md --exclude *.pyd
+[2023-04-17 14:30:00] INFO root fetch - main [MainThread]: End processing [tabpfn]: success
+[2023-04-17 14:30:00] INFO root fetch - main [MainThread]: End processing [OpenGeode-Geosciences]: success
+[2023-04-17 14:30:02] INFO root fetch - main [MainThread]: End processing [Pras-Server]: success
+[2023-04-17 14:30:02] INFO root fetch - main [MainThread]: Store serial: [17738005]
