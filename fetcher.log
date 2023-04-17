@@ -5704,3 +5704,26 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 07:20:05] INFO root fetch - main [MainThread]: End processing [adapter-client]: success
 [2023-04-17 07:20:06] INFO root fetch - main [MainThread]: End processing [font-CLI]: success
 [2023-04-17 07:20:06] INFO root fetch - main [MainThread]: Store serial: [17733920]
+[2023-04-17 07:25:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17733920]
+[2023-04-17 07:25:14] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-04-17 07:25:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flowclient
+[2023-04-17 07:25:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flowmachine
+[2023-04-17 07:25:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flowetl
+[2023-04-17 07:25:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: crazy-thursday
+[2023-04-17 07:25:14] INFO root fetch - processPackages [flowetl]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2023-04-17 07:25:14] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.4.9.1] Old Version: [2023.4.9.0]
+[2023-04-17 07:25:14] INFO root fetch - processPackages [flowclient]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2023-04-17 07:25:14] INFO root fetch - processPackages [flowmachine]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2023-04-17 07:25:14] INFO root fetch - processPackages [flowetl]: executing diffoscope
+[2023-04-17 07:25:14] INFO root fetch - processPackages [flowetl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowetl-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowetl-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20230417/f/flowetl/1.9.4.post0.dev70-1.9.4.post0.dev76/diff.md --exclude *.pyd
+[2023-04-17 07:25:14] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-04-17 07:25:14] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.4.9.0.tar.gz tmp/crazy-thursday-2023.4.9.1.tar.gz --markdown 20230417/c/crazy-thursday/2023.4.9.0-2023.4.9.1/diff.md --exclude *.pyd
+[2023-04-17 07:25:14] INFO root fetch - processPackages [flowclient]: executing diffoscope
+[2023-04-17 07:25:14] INFO root fetch - processPackages [flowclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowclient-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowclient-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20230417/f/flowclient/1.9.4.post0.dev70-1.9.4.post0.dev76/diff.md --exclude *.pyd
+[2023-04-17 07:25:14] INFO root fetch - processPackages [flowmachine]: executing diffoscope
+[2023-04-17 07:25:14] INFO root fetch - processPackages [flowmachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowmachine-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowmachine-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20230417/f/flowmachine/1.9.4.post0.dev70-1.9.4.post0.dev76/diff.md --exclude *.pyd
+[2023-04-17 07:25:15] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-04-17 07:25:15] INFO root fetch - main [MainThread]: End processing [flowetl]: success
+[2023-04-17 07:25:16] INFO root fetch - main [MainThread]: End processing [flowclient]: success
+[2023-04-17 07:25:16] INFO root fetch - main [MainThread]: End processing [flowmachine]: success
+[2023-04-17 07:25:16] INFO root fetch - main [MainThread]: Store serial: [17733930]
