@@ -13263,3 +13263,190 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-04-17 15:12:26] INFO root fetch - main [MainThread]: End processing [jina]: success
 [2023-04-17 15:12:29] INFO root fetch - main [MainThread]: End processing [gs2]: success
 [2023-04-17 15:12:29] INFO root fetch - main [MainThread]: Store serial: [17738600]
+[2023-04-17 15:17:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17738600]
+[2023-04-17 15:17:38] INFO root fetch - main [MainThread]: Found 32 changed packages
+[2023-04-17 15:17:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: funcs
+[2023-04-17 15:17:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbdev-pytorch
+[2023-04-17 15:17:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tabledetect
+[2023-04-17 15:17:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: swh.indexer
+[2023-04-17 15:17:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mkdocs-material-otf
+[2023-04-17 15:17:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: blue-engine
+[2023-04-17 15:17:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-geostore
+[2023-04-17 15:17:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: glabpkg
+[2023-04-17 15:17:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nbdev-scipy
+[2023-04-17 15:17:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: renovosolutions.aws-cdk-renovo-instance-service
+[2023-04-17 15:17:38] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-17 15:17:38] INFO root fetch - processPackages [tabledetect]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-04-17 15:17:38] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-17 15:17:38] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-instance-service]: New version: [2.9.99] Old Version: [2.9.98]
+[2023-04-17 15:17:38] INFO root fetch - processPackages [mkdocs-material-otf]: New version: [9.1.6] Old Version: [9.1.206]
+[2023-04-17 15:17:38] INFO root fetch - processPackages [funcs]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-17 15:17:38] INFO root fetch - processPackages [glabpkg]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-04-17 15:17:38] INFO root fetch - processPackages [django-geostore]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-04-17 15:17:38] WARNING root fetch - processPackages [blue-engine]: Skipping, unable to determine old version
+[2023-04-17 15:17:38] INFO root fetch - processPackages [blue-engine]: Start processing: SIOTCommon
+[2023-04-17 15:17:38] INFO root fetch - main [MainThread]: End processing [blue-engine] error
+[2023-04-17 15:17:38] INFO root fetch - processPackages [swh.indexer]: New version: [2.9.3] Old Version: [2.9.1]
+[2023-04-17 15:17:38] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-instance-service]: executing diffoscope
+[2023-04-17 15:17:38] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-instance-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-renovo-instance-service-2.9.98.tar.gz tmp/renovosolutions.aws-cdk-renovo-instance-service-2.9.99.tar.gz --markdown 20230417/r/renovosolutions.aws-cdk-renovo-instance-service/2.9.98-2.9.99/diff.md --exclude *.pyd
+[2023-04-17 15:17:38] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-04-17 15:17:38] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230417/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-17 15:17:38] INFO root fetch - processPackages [SIOTCommon]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-17 15:17:39] INFO root fetch - processPackages [tabledetect]: Downloading https://files.pythonhosted.org/packages/a9/4a/1ae27bf7b18a1de4b77d0270009727cda3848f29fe60f02a2b7e28623188/tabledetect-0.2.8.tar.gz
+[2023-04-17 15:17:39] INFO root fetch - processPackages [funcs]: Downloading https://files.pythonhosted.org/packages/c7/20/4ec0792992feedb332428b96cc17d53d4755778ea3b401dd5128b32e5fce/funcs-0.2.1.tar.gz
+[2023-04-17 15:17:39] INFO root fetch - processPackages [SIOTCommon]: executing diffoscope
+[2023-04-17 15:17:39] INFO root fetch - processPackages [SIOTCommon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SIOTCommon-0.0.7.tar.gz tmp/SIOTCommon-0.0.8.tar.gz --markdown 20230417/S/SIOTCommon/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-17 15:17:39] INFO root fetch - processPackages [mkdocs-material-otf]: Downloading https://files.pythonhosted.org/packages/82/bd/f99a54512f10c358b387448493edc3dc5c5d80521ba4626c5416baa0745b/mkdocs_material_otf-9.1.206.tar.gz
+[2023-04-17 15:17:39] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-04-17 15:17:39] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230417/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-17 15:17:39] INFO root fetch - processPackages [django-geostore]: Downloading https://files.pythonhosted.org/packages/49/9e/8a19f0789d73b1713532b8253599ba602d9d895f11a215fef90719d9c8c7/django-geostore-0.7.2.tar.gz
+[2023-04-17 15:17:39] INFO root fetch - processPackages [swh.indexer]: Downloading https://files.pythonhosted.org/packages/a1/ab/84edfe158d03646384adfb022dff4974f1441cd5b6cb7a0ba8ed1ea5f112/swh.indexer-2.9.1.tar.gz
+[2023-04-17 15:17:39] INFO root fetch - processPackages [glabpkg]: Downloading https://files.pythonhosted.org/packages/8e/e1/460bb8d696b2237baba7ee9560230dc0f0caa641d410a03e529127fef033/glabpkg-2.1.0.tar.gz
+[2023-04-17 15:17:39] INFO root fetch - processPackages [tabledetect]: executing diffoscope
+[2023-04-17 15:17:39] INFO root fetch - processPackages [tabledetect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tabledetect-0.2.7.tar.gz tmp/tabledetect-0.2.8.tar.gz --markdown 20230417/t/tabledetect/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-04-17 15:17:39] INFO root fetch - processPackages [funcs]: Downloading https://files.pythonhosted.org/packages/5f/de/0f97143bb523e1a4ca2d2af31821a6f6d54399fbc1e791f4970b4b9c21a0/funcs-0.2.2.tar.gz
+[2023-04-17 15:17:39] INFO root fetch - processPackages [funcs]: executing diffoscope
+[2023-04-17 15:17:39] INFO root fetch - processPackages [funcs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funcs-0.2.1.tar.gz tmp/funcs-0.2.2.tar.gz --markdown 20230417/f/funcs/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-17 15:17:39] INFO root fetch - processPackages [mkdocs-material-otf]: executing diffoscope
+[2023-04-17 15:17:39] INFO root fetch - processPackages [mkdocs-material-otf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs_material_otf-9.1.206.tar.gz tmp/mkdocs_material_otf-9.1.6.tar.gz --markdown 20230417/m/mkdocs-material-otf/9.1.206-9.1.6/diff.md --exclude *.pyd
+[2023-04-17 15:17:39] INFO root fetch - processPackages [glabpkg]: Downloading https://files.pythonhosted.org/packages/71/b4/e2f4cc715614b68378b1b797c2073b7f08d61cb7013b13bee7ddf70fbb63/glabpkg-2.2.0.tar.gz
+[2023-04-17 15:17:39] INFO root fetch - processPackages [django-geostore]: Downloading https://files.pythonhosted.org/packages/9c/95/6800b157e308844ce4cfdc09725b5cacfcccc874d315ad86edf9a1331340/django-geostore-0.7.3.tar.gz
+[2023-04-17 15:17:39] INFO root fetch - processPackages [swh.indexer]: Downloading https://files.pythonhosted.org/packages/ed/d8/5e77e7686e857a1100eafdf4192cf5c3d2de280015f42c3ae25bffdf3e7c/swh.indexer-2.9.3.tar.gz
+[2023-04-17 15:17:39] INFO root fetch - processPackages [glabpkg]: executing diffoscope
+[2023-04-17 15:17:39] INFO root fetch - processPackages [glabpkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glabpkg-2.1.0.tar.gz tmp/glabpkg-2.2.0.tar.gz --markdown 20230417/g/glabpkg/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-04-17 15:17:39] INFO root fetch - processPackages [django-geostore]: executing diffoscope
+[2023-04-17 15:17:39] INFO root fetch - processPackages [django-geostore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-geostore-0.7.2.tar.gz tmp/django-geostore-0.7.3.tar.gz --markdown 20230417/d/django-geostore/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-04-17 15:17:39] INFO root fetch - processPackages [swh.indexer]: executing diffoscope
+[2023-04-17 15:17:39] INFO root fetch - processPackages [swh.indexer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swh.indexer-2.9.1.tar.gz tmp/swh.indexer-2.9.3.tar.gz --markdown 20230417/s/swh.indexer/2.9.1-2.9.3/diff.md --exclude *.pyd
+[2023-04-17 15:17:40] INFO root fetch - processPackages [SIOTCommon]: Start processing: renovosolutions.aws-cdk-renovo-s3-bucket
+[2023-04-17 15:17:40] INFO root fetch - main [MainThread]: End processing [SIOTCommon]: success
+[2023-04-17 15:17:40] INFO root fetch - processPackages [nbdev-pytorch]: Start processing: lcacollect-config
+[2023-04-17 15:17:40] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-04-17 15:17:40] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-s3-bucket]: New version: [2.2.99] Old Version: [2.2.98]
+[2023-04-17 15:17:40] INFO root fetch - processPackages [lcacollect-config]: New version: [1.3.3] Old Version: [1.3.1]
+[2023-04-17 15:17:40] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-s3-bucket]: Downloading https://files.pythonhosted.org/packages/4c/6b/90416cf53e8400cdaf11e92cb98ea451bf7c4f2d7c260a7cd9c6da11ec7d/renovosolutions.aws-cdk-renovo-s3-bucket-2.2.98.tar.gz
+[2023-04-17 15:17:40] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-instance-service]: Start processing: testpackagehelloworldtest
+[2023-04-17 15:17:40] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-renovo-instance-service]: success
+[2023-04-17 15:17:40] INFO root fetch - processPackages [lcacollect-config]: Downloading https://files.pythonhosted.org/packages/e6/41/aa0ab065d13233ce0ef7b58eb387bd96e9762857e2bc82c45d7b51debbfc/lcacollect_config-1.3.1.tar.gz
+[2023-04-17 15:17:40] INFO root fetch - processPackages [testpackagehelloworldtest]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-17 15:17:40] INFO root fetch - processPackages [testpackagehelloworldtest]: executing diffoscope
+[2023-04-17 15:17:40] INFO root fetch - processPackages [testpackagehelloworldtest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testpackagehelloworldtest-0.0.2.tar.gz tmp/testpackagehelloworldtest-0.0.3.tar.gz --markdown 20230417/t/testpackagehelloworldtest/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-17 15:17:40] INFO root fetch - processPackages [funcs]: Start processing: compoundwidgets
+[2023-04-17 15:17:40] INFO root fetch - main [MainThread]: End processing [funcs]: success
+[2023-04-17 15:17:40] INFO root fetch - processPackages [compoundwidgets]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-04-17 15:17:40] INFO root fetch - processPackages [compoundwidgets]: Downloading https://files.pythonhosted.org/packages/dc/b3/818c3ef3ddc2eba315fbb4548be8c0fc58f4de4ebcca9440611beacf5cd5/compoundwidgets-0.2.0.tar.gz
+[2023-04-17 15:17:41] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-s3-bucket]: Downloading https://files.pythonhosted.org/packages/2d/44/4ea042d3b487e3c7587be24dd6662ddf2fca0abc104b9be548038ef0ed26/renovosolutions.aws-cdk-renovo-s3-bucket-2.2.99.tar.gz
+[2023-04-17 15:17:41] INFO root fetch - processPackages [lcacollect-config]: Downloading https://files.pythonhosted.org/packages/99/4f/3df6296842b646086c99b9748c9a54f592656c8ab8248cfeaef16b9f92c1/lcacollect_config-1.3.3.tar.gz
+[2023-04-17 15:17:41] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-s3-bucket]: executing diffoscope
+[2023-04-17 15:17:41] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-s3-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-renovo-s3-bucket-2.2.98.tar.gz tmp/renovosolutions.aws-cdk-renovo-s3-bucket-2.2.99.tar.gz --markdown 20230417/r/renovosolutions.aws-cdk-renovo-s3-bucket/2.2.98-2.2.99/diff.md --exclude *.pyd
+[2023-04-17 15:17:41] INFO root fetch - processPackages [lcacollect-config]: executing diffoscope
+[2023-04-17 15:17:41] INFO root fetch - processPackages [lcacollect-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lcacollect_config-1.3.1.tar.gz tmp/lcacollect_config-1.3.3.tar.gz --markdown 20230417/l/lcacollect-config/1.3.1-1.3.3/diff.md --exclude *.pyd
+[2023-04-17 15:17:41] INFO root fetch - processPackages [glabpkg]: Start processing: limits
+[2023-04-17 15:17:41] INFO root fetch - main [MainThread]: End processing [glabpkg]: success
+[2023-04-17 15:17:41] INFO root fetch - processPackages [limits]: New version: [3.4.0] Old Version: [3.3.1]
+[2023-04-17 15:17:41] INFO root fetch - processPackages [limits]: Downloading https://files.pythonhosted.org/packages/fc/1b/59545e847205730b39a37a9e02dc5844c3e4b880c1f2e0d77944c728105a/limits-3.3.1.tar.gz
+[2023-04-17 15:17:41] INFO root fetch - processPackages [compoundwidgets]: executing diffoscope
+[2023-04-17 15:17:41] INFO root fetch - processPackages [compoundwidgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/compoundwidgets-0.2.0.tar.gz tmp/compoundwidgets-0.2.1.tar.gz --markdown 20230417/c/compoundwidgets/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-04-17 15:17:41] INFO root fetch - processPackages [limits]: Downloading https://files.pythonhosted.org/packages/54/58/651969d328d212f927249db8b74982fbdf3249df2b6c33a66409f333ceb7/limits-3.4.0.tar.gz
+[2023-04-17 15:17:41] INFO root fetch - processPackages [limits]: executing diffoscope
+[2023-04-17 15:17:41] INFO root fetch - processPackages [limits]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/limits-3.3.1.tar.gz tmp/limits-3.4.0.tar.gz --markdown 20230417/l/limits/3.3.1-3.4.0/diff.md --exclude *.pyd
+[2023-04-17 15:17:41] INFO root fetch - processPackages [nbdev-scipy]: Start processing: archimedes-python-client
+[2023-04-17 15:17:41] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-04-17 15:17:41] INFO root fetch - processPackages [testpackagehelloworldtest]: Start processing: finbourne-identity-sdk
+[2023-04-17 15:17:41] INFO root fetch - main [MainThread]: End processing [testpackagehelloworldtest]: success
+[2023-04-17 15:17:41] INFO root fetch - processPackages [archimedes-python-client]: New version: [4.9.0] Old Version: [4.8.3]
+[2023-04-17 15:17:41] INFO root fetch - processPackages [finbourne-identity-sdk]: New version: [0.0.840] Old Version: [0.0.2385]
+[2023-04-17 15:17:42] INFO root fetch - processPackages [finbourne-identity-sdk]: executing diffoscope
+[2023-04-17 15:17:42] INFO root fetch - processPackages [finbourne-identity-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-identity-sdk-0.0.2385.tar.gz tmp/finbourne-identity-sdk-0.0.840.tar.gz --markdown 20230417/f/finbourne-identity-sdk/0.0.2385-0.0.840/diff.md --exclude *.pyd
+[2023-04-17 15:17:42] INFO root fetch - processPackages [django-geostore]: Start processing: nbdev-sphinx
+[2023-04-17 15:17:42] INFO root fetch - main [MainThread]: End processing [django-geostore]: success
+[2023-04-17 15:17:42] INFO root fetch - processPackages [archimedes-python-client]: Downloading https://files.pythonhosted.org/packages/31/fb/2086e9e3fb37986436ca47dca9879d3d503780a91e0d2c045c319f825059/archimedes_python_client-4.8.3.tar.gz
+[2023-04-17 15:17:42] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-17 15:17:42] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-04-17 15:17:42] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230417/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-17 15:17:42] INFO root fetch - processPackages [lcacollect-config]: Start processing: pyxll
+[2023-04-17 15:17:42] INFO root fetch - main [MainThread]: End processing [lcacollect-config]: success
+[2023-04-17 15:17:42] INFO root fetch - processPackages [pyxll]: New version: [5.6.0] Old Version: [5.5.4]
+[2023-04-17 15:17:42] INFO root fetch - processPackages [archimedes-python-client]: Downloading https://files.pythonhosted.org/packages/d2/f1/7c35edeab7f2c8c504b9e00e68f6b64247857ede6f4f85b9f4953a55c15e/archimedes_python_client-4.9.0.tar.gz
+[2023-04-17 15:17:42] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-s3-bucket]: Start processing: hotsos
+[2023-04-17 15:17:42] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-renovo-s3-bucket]: success
+[2023-04-17 15:17:42] INFO root fetch - processPackages [hotsos]: New version: [1.1.13.post9] Old Version: [1.1.13.post8]
+[2023-04-17 15:17:42] INFO root fetch - processPackages [pyxll]: Downloading https://files.pythonhosted.org/packages/e1/ec/973948e50dd20df31b4f4235269b04fb377834f567e2c86fad6bb58aebe2/pyxll-5.5.4-cp39-none-any.whl
+[2023-04-17 15:17:42] INFO root fetch - processPackages [archimedes-python-client]: executing diffoscope
+[2023-04-17 15:17:42] INFO root fetch - processPackages [archimedes-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/archimedes_python_client-4.8.3.tar.gz tmp/archimedes_python_client-4.9.0.tar.gz --markdown 20230417/a/archimedes-python-client/4.8.3-4.9.0/diff.md --exclude *.pyd
+[2023-04-17 15:17:42] INFO root fetch - processPackages [tabledetect]: Start processing: calc-vr
+[2023-04-17 15:17:42] INFO root fetch - main [MainThread]: End processing [tabledetect]: success
+[2023-04-17 15:17:42] WARNING root fetch - processPackages [calc-vr]: Skipping, unable to determine old version
+[2023-04-17 15:17:42] INFO root fetch - processPackages [calc-vr]: Start processing: nbdev-django
+[2023-04-17 15:17:42] INFO root fetch - main [MainThread]: End processing [calc-vr] error
+[2023-04-17 15:17:43] INFO root fetch - processPackages [hotsos]: executing diffoscope
+[2023-04-17 15:17:43] INFO root fetch - processPackages [hotsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotsos-1.1.13.post8.tar.gz tmp/hotsos-1.1.13.post9.tar.gz --markdown 20230417/h/hotsos/1.1.13.post8-1.1.13.post9/diff.md --exclude *.pyd
+[2023-04-17 15:17:43] INFO root fetch - processPackages [pyxll]: Downloading https://files.pythonhosted.org/packages/1f/95/8bbe4257a97ebed5decac2098ff1ab3bfb8813a86bbf8eefba10d3a8696f/pyxll-5.6.0-cp39-none-any.whl
+[2023-04-17 15:17:43] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-17 15:17:43] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-04-17 15:17:43] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230417/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-17 15:17:43] INFO root fetch - processPackages [pyxll]: executing diffoscope
+[2023-04-17 15:17:43] INFO root fetch - processPackages [pyxll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxll-5.5.4-cp39-none-any.whl.zip tmp/pyxll-5.6.0-cp39-none-any.whl.zip --markdown 20230417/p/pyxll/5.5.4-5.6.0/diff.md --exclude *.pyd
+[2023-04-17 15:17:43] INFO root fetch - processPackages [limits]: Start processing: testpackagehelloworldtest
+[2023-04-17 15:17:43] INFO root fetch - main [MainThread]: End processing [limits]: success
+[2023-04-17 15:17:43] INFO root fetch - processPackages [testpackagehelloworldtest]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-17 15:17:43] INFO root fetch - processPackages [nbdev-sphinx]: Start processing: hotsos
+[2023-04-17 15:17:43] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-04-17 15:17:43] INFO root fetch - processPackages [hotsos]: New version: [1.1.13.post9] Old Version: [1.1.13.post8]
+[2023-04-17 15:17:43] INFO root fetch - processPackages [testpackagehelloworldtest]: Downloading https://files.pythonhosted.org/packages/c7/37/a22fe75afe61a36c48746e293ac6ae05f9774e9ef96c2d9098907ceaef96/testpackagehelloworldtest-0.0.4.tar.gz
+[2023-04-17 15:17:43] INFO root fetch - processPackages [hotsos]: executing diffoscope
+[2023-04-17 15:17:43] INFO root fetch - processPackages [hotsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotsos-1.1.13.post8.tar.gz tmp/hotsos-1.1.13.post9.tar.gz --markdown 20230417/h/hotsos/1.1.13.post8-1.1.13.post9/diff.md --exclude *.pyd
+[2023-04-17 15:17:44] INFO root fetch - processPackages [testpackagehelloworldtest]: Downloading https://files.pythonhosted.org/packages/0c/29/e46b5034e59d89bbf2bd09ec76badc45d3364ca7536b4c89682693704d44/testpackagehelloworldtest-0.0.5.tar.gz
+[2023-04-17 15:17:44] INFO root fetch - processPackages [finbourne-identity-sdk]: Start processing: pixelfeeder
+[2023-04-17 15:17:44] INFO root fetch - main [MainThread]: End processing [finbourne-identity-sdk]: success
+[2023-04-17 15:17:44] INFO root fetch - processPackages [testpackagehelloworldtest]: executing diffoscope
+[2023-04-17 15:17:44] INFO root fetch - processPackages [testpackagehelloworldtest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testpackagehelloworldtest-0.0.4.tar.gz tmp/testpackagehelloworldtest-0.0.5.tar.gz --markdown 20230417/t/testpackagehelloworldtest/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-17 15:17:44] WARNING root fetch - processPackages [pixelfeeder]: Skipping, unable to determine old version
+[2023-04-17 15:17:44] INFO root fetch - processPackages [pixelfeeder]: Start processing: ccp-performance
+[2023-04-17 15:17:44] INFO root fetch - main [MainThread]: End processing [pixelfeeder] error
+[2023-04-17 15:17:44] INFO root fetch - processPackages [swh.indexer]: Start processing: pyaugmecon
+[2023-04-17 15:17:44] INFO root fetch - main [MainThread]: End processing [swh.indexer]: success
+[2023-04-17 15:17:44] INFO root fetch - processPackages [ccp-performance]: New version: [0.2.4] Old Version: [0.2.1]
+[2023-04-17 15:17:44] INFO root fetch - processPackages [archimedes-python-client]: Start processing: pkglts
+[2023-04-17 15:17:44] INFO root fetch - main [MainThread]: End processing [archimedes-python-client]: success
+[2023-04-17 15:17:44] INFO root fetch - processPackages [pyaugmecon]: New version: [1.0.0] Old Version: [0.2.1]
+[2023-04-17 15:17:44] INFO root fetch - processPackages [pkglts]: New version: [6.6.0] Old Version: [6.5.0]
+[2023-04-17 15:17:44] INFO root fetch - processPackages [ccp-performance]: Downloading https://files.pythonhosted.org/packages/4e/35/e8a18522a29a28dd1370672030b4736b0be600934c7e1f7d8804cca13ce0/ccp-performance-0.2.1.tar.gz
+[2023-04-17 15:17:44] INFO root fetch - processPackages [pyaugmecon]: Downloading https://files.pythonhosted.org/packages/2a/78/28cdd426c6b3d85d0006988c792f42434e3133aa4332b9523a2d201786ee/pyaugmecon-0.2.1.tar.gz
+[2023-04-17 15:17:44] INFO root fetch - processPackages [pkglts]: Downloading https://files.pythonhosted.org/packages/87/af/3e5157abd07263880239ed921cda37c1226619dcaa9629c4e7432711f00c/pkglts-6.5.0.tar.gz
+[2023-04-17 15:17:45] INFO root fetch - processPackages [pyxll]: Start processing: OpenGeode-core.geode
+[2023-04-17 15:17:45] INFO root fetch - main [MainThread]: End processing [pyxll]: success
+[2023-04-17 15:17:45] INFO root fetch - processPackages [ccp-performance]: Downloading https://files.pythonhosted.org/packages/e2/8f/2d46dd57ea0223b3e84febb5ee0525a6d3c22cd6866522f6c7ca691bf967/ccp-performance-0.2.4.tar.gz
+[2023-04-17 15:17:45] INFO root fetch - processPackages [pyaugmecon]: Downloading https://files.pythonhosted.org/packages/f5/f5/2e03f94bae2c2dce161143dcebad4005bbff8c308e3b464f5c1e48dc0354/pyaugmecon-1.0.0.tar.gz
+[2023-04-17 15:17:45] INFO root fetch - processPackages [OpenGeode-core.geode]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-04-17 15:17:45] INFO root fetch - processPackages [pyaugmecon]: executing diffoscope
+[2023-04-17 15:17:45] INFO root fetch - processPackages [pyaugmecon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyaugmecon-0.2.1.tar.gz tmp/pyaugmecon-1.0.0.tar.gz --markdown 20230417/p/pyaugmecon/0.2.1-1.0.0/diff.md --exclude *.pyd
+[2023-04-17 15:17:45] INFO root fetch - processPackages [nbdev-django]: Start processing: NewTestPackage
+[2023-04-17 15:17:45] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-04-17 15:17:45] INFO root fetch - processPackages [ccp-performance]: executing diffoscope
+[2023-04-17 15:17:45] INFO root fetch - processPackages [ccp-performance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccp-performance-0.2.1.tar.gz tmp/ccp-performance-0.2.4.tar.gz --markdown 20230417/c/ccp-performance/0.2.1-0.2.4/diff.md --exclude *.pyd
+[2023-04-17 15:17:45] INFO root fetch - processPackages [OpenGeode-core.geode]: Downloading https://files.pythonhosted.org/packages/33/58/fe142a3795e273bd917c209759b91d46170cea56e991e736dd3aaf496ca2/OpenGeode_core.geode-1.7.8-cp39-cp39-win_amd64.whl
+[2023-04-17 15:17:45] INFO root fetch - processPackages [pkglts]: Downloading https://files.pythonhosted.org/packages/86/63/2832b17bdaabb34ea400bf1339ced4845dbc9de75ee65cf9ac7acc667c4f/pkglts-6.6.0.tar.gz
+[2023-04-17 15:17:45] WARNING root fetch - processPackages [NewTestPackage]: Skipping, unable to determine old version
+[2023-04-17 15:17:45] INFO root fetch - processPackages [NewTestPackage]: Start processing: japyconjugator
+[2023-04-17 15:17:45] INFO root fetch - main [MainThread]: End processing [NewTestPackage] error
+[2023-04-17 15:17:45] INFO root fetch - processPackages [japyconjugator]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-17 15:17:45] INFO root fetch - main [MainThread]: End processing [testpackagehelloworldtest]: success
+[2023-04-17 15:17:45] INFO root fetch - processPackages [japyconjugator]: Downloading https://files.pythonhosted.org/packages/00/2f/8ed008eab1bc21d6145601ad8dda85367706e9c9d076f347e825a295bf46/japyconjugator-1.0.0.tar.gz
+[2023-04-17 15:17:45] INFO root fetch - processPackages [pkglts]: executing diffoscope
+[2023-04-17 15:17:45] INFO root fetch - processPackages [pkglts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkglts-6.5.0.tar.gz tmp/pkglts-6.6.0.tar.gz --markdown 20230417/p/pkglts/6.5.0-6.6.0/diff.md --exclude *.pyd
+[2023-04-17 15:17:45] INFO root fetch - processPackages [OpenGeode-core.geode]: Downloading https://files.pythonhosted.org/packages/dc/0d/9ae3c86f34e7b90f05ff797c46df787e65e03e0ea32dd85a30aaa377a922/OpenGeode_core.geode-1.7.9-cp39-cp39-win_amd64.whl
+[2023-04-17 15:17:46] ERROR root fetch - processPackages [japyconjugator]: Unable to fetch info: No such project/version 'japyconjugator' 1.0.1
+[2023-04-17 15:17:46] INFO root fetch - main [MainThread]: End processing [japyconjugator] error
+[2023-04-17 15:17:46] INFO root fetch - processPackages [OpenGeode-core.geode]: executing diffoscope
+[2023-04-17 15:17:46] INFO root fetch - processPackages [OpenGeode-core.geode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenGeode_core.geode-1.7.8-cp39-cp39-win_amd64.whl.zip tmp/OpenGeode_core.geode-1.7.9-cp39-cp39-win_amd64.whl.zip --markdown 20230417/O/OpenGeode-core.geode/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-04-17 15:17:46] INFO root fetch - main [MainThread]: End processing [hotsos]: success
+[2023-04-17 15:17:46] INFO root fetch - main [MainThread]: End processing [pyaugmecon]: success
+[2023-04-17 15:17:47] INFO root fetch - main [MainThread]: End processing [ccp-performance]: success
+[2023-04-17 15:17:47] INFO root fetch - main [MainThread]: End processing [OpenGeode-core.geode]: success
+[2023-04-17 15:17:49] INFO root fetch - main [MainThread]: End processing [hotsos]: success
+[2023-04-17 15:17:50] INFO root fetch - main [MainThread]: End processing [pkglts]: success
+[2023-04-17 15:17:54] INFO root fetch - main [MainThread]: End processing [compoundwidgets]: success
+[2023-04-17 15:20:39] ERROR root fetch - processPackages [mkdocs-material-otf]: Timeout during execution of pkgdiff
+[2023-04-17 15:20:39] INFO root fetch - main [MainThread]: End processing [mkdocs-material-otf] error
+[2023-04-17 15:20:39] INFO root fetch - main [MainThread]: Store serial: [17738717]
