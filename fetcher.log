@@ -4820,3 +4820,46 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 05:47:16] INFO root fetch - main [MainThread]: End processing [zstandard]: success
 [2023-04-17 05:47:16] INFO root fetch - main [MainThread]: End processing [p-template-generator]: success
 [2023-04-17 05:47:16] INFO root fetch - main [MainThread]: Store serial: [17733509]
+[2023-04-17 05:52:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17733509]
+[2023-04-17 05:52:26] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-17 05:52:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: felixlib
+[2023-04-17 05:52:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yeagerai-agent
+[2023-04-17 05:52:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: enrichsdk
+[2023-04-17 05:52:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yeagerai-agent
+[2023-04-17 05:52:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xray-bot
+[2023-04-17 05:52:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: quarkstudio
+[2023-04-17 05:52:26] INFO root fetch - processPackages [quarkstudio]: New version: [6.5.0rc3] Old Version: [6.5.0rc2]
+[2023-04-17 05:52:26] INFO root fetch - processPackages [yeagerai-agent]: New version: [0.0.41] Old Version: [0.0.40]
+[2023-04-17 05:52:26] INFO root fetch - processPackages [yeagerai-agent]: New version: [0.0.41] Old Version: [0.0.40]
+[2023-04-17 05:52:26] INFO root fetch - processPackages [xray-bot]: New version: [0.1.1rc3] Old Version: [0.1.1rc2]
+[2023-04-17 05:52:26] INFO root fetch - processPackages [felixlib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 05:52:26] INFO root fetch - processPackages [enrichsdk]: New version: [4.7.2] Old Version: [4.7.1]
+[2023-04-17 05:52:26] INFO root fetch - processPackages [yeagerai-agent]: Downloading https://files.pythonhosted.org/packages/cb/c6/37bb3111e4682e6ab09f21621f1e0bf3a5e81786db071d7d7ea6c4cee5c8/yeagerai-agent-0.0.40.tar.gz
+[2023-04-17 05:52:26] INFO root fetch - processPackages [yeagerai-agent]: Downloading https://files.pythonhosted.org/packages/cb/c6/37bb3111e4682e6ab09f21621f1e0bf3a5e81786db071d7d7ea6c4cee5c8/yeagerai-agent-0.0.40.tar.gz
+[2023-04-17 05:52:26] INFO root fetch - processPackages [enrichsdk]: Downloading https://files.pythonhosted.org/packages/cc/67/187d43dcab04600c0cb2d7b098dc0c5aacbf57fba2733a737581e1c3cc39/enrichsdk-4.7.1.tar.gz
+[2023-04-17 05:52:26] INFO root fetch - processPackages [xray-bot]: Downloading https://files.pythonhosted.org/packages/58/0d/54126c62700d4eb7f98ca6f255cc6938b44ea7da50164306ad97f6aceb22/xray_bot-0.1.1rc2-py3-none-any.whl
+[2023-04-17 05:52:26] INFO root fetch - processPackages [felixlib]: Downloading https://files.pythonhosted.org/packages/60/ee/fcd5856ee03d5c7f71883af6ef5171eb44d8b80f161f805b4002453d0b9b/felixlib-0.0.8.tar.gz
+[2023-04-17 05:52:27] INFO root fetch - processPackages [quarkstudio]: executing diffoscope
+[2023-04-17 05:52:27] INFO root fetch - processPackages [quarkstudio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quarkstudio-6.5.0rc2-cp311-cp311-win_amd64.whl.zip tmp/quarkstudio-6.5.0rc3-cp311-cp311-win_amd64.whl.zip --markdown 20230417/q/quarkstudio/6.5.0rc2-6.5.0rc3/diff.md --exclude *.pyd
+[2023-04-17 05:52:27] INFO root fetch - processPackages [yeagerai-agent]: Downloading https://files.pythonhosted.org/packages/6e/d3/7b85cbb9f91f1f0d6e69cd291b970310b34c6814d68e8db8a42677be1e7d/yeagerai-agent-0.0.41.tar.gz
+[2023-04-17 05:52:27] INFO root fetch - processPackages [yeagerai-agent]: Downloading https://files.pythonhosted.org/packages/6e/d3/7b85cbb9f91f1f0d6e69cd291b970310b34c6814d68e8db8a42677be1e7d/yeagerai-agent-0.0.41.tar.gz
+[2023-04-17 05:52:27] INFO root fetch - processPackages [enrichsdk]: Downloading https://files.pythonhosted.org/packages/92/9a/2c4426d74a8aef686c180d919fc77a52c77d2356f972cf72cd7f795ed24f/enrichsdk-4.7.2.tar.gz
+[2023-04-17 05:52:27] INFO root fetch - processPackages [xray-bot]: Downloading https://files.pythonhosted.org/packages/90/dd/5c06aaa836a845b4708a3077d16f613f95336549de71997b984c43125d6e/xray_bot-0.1.1rc3-py3-none-any.whl
+[2023-04-17 05:52:27] INFO root fetch - processPackages [yeagerai-agent]: executing diffoscope
+[2023-04-17 05:52:27] INFO root fetch - processPackages [yeagerai-agent]: executing diffoscope
+[2023-04-17 05:52:27] INFO root fetch - processPackages [yeagerai-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeagerai-agent-0.0.40.tar.gz tmp/yeagerai-agent-0.0.41.tar.gz --markdown 20230417/y/yeagerai-agent/0.0.40-0.0.41/diff.md --exclude *.pyd
+[2023-04-17 05:52:27] INFO root fetch - processPackages [yeagerai-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeagerai-agent-0.0.40.tar.gz tmp/yeagerai-agent-0.0.41.tar.gz --markdown 20230417/y/yeagerai-agent/0.0.40-0.0.41/diff.md --exclude *.pyd
+[2023-04-17 05:52:27] INFO root fetch - processPackages [enrichsdk]: executing diffoscope
+[2023-04-17 05:52:27] INFO root fetch - processPackages [enrichsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enrichsdk-4.7.1.tar.gz tmp/enrichsdk-4.7.2.tar.gz --markdown 20230417/e/enrichsdk/4.7.1-4.7.2/diff.md --exclude *.pyd
+[2023-04-17 05:52:27] INFO root fetch - processPackages [xray-bot]: executing diffoscope
+[2023-04-17 05:52:27] INFO root fetch - processPackages [xray-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xray_bot-0.1.1rc2-py3-none-any.whl.zip tmp/xray_bot-0.1.1rc3-py3-none-any.whl.zip --markdown 20230417/x/xray-bot/0.1.1rc2-0.1.1rc3/diff.md --exclude *.pyd
+[2023-04-17 05:52:27] INFO root fetch - processPackages [felixlib]: Downloading https://files.pythonhosted.org/packages/47/63/15d755fb1f3a0a7623cf47ebd6ffb0a4769067b4a3f6c2e927539d7dd168/felixlib-0.0.9.tar.gz
+[2023-04-17 05:52:28] INFO root fetch - processPackages [felixlib]: executing diffoscope
+[2023-04-17 05:52:28] INFO root fetch - processPackages [felixlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/felixlib-0.0.8.tar.gz tmp/felixlib-0.0.9.tar.gz --markdown 20230417/f/felixlib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 05:52:28] INFO root fetch - main [MainThread]: End processing [xray-bot]: success
+[2023-04-17 05:52:28] INFO root fetch - main [MainThread]: End processing [yeagerai-agent]: success
+[2023-04-17 05:52:28] INFO root fetch - main [MainThread]: End processing [yeagerai-agent]: success
+[2023-04-17 05:52:29] INFO root fetch - main [MainThread]: End processing [felixlib]: success
+[2023-04-17 05:52:29] INFO root fetch - main [MainThread]: End processing [enrichsdk]: success
+[2023-04-17 05:52:29] INFO root fetch - main [MainThread]: End processing [quarkstudio]: success
+[2023-04-17 05:52:29] INFO root fetch - main [MainThread]: Store serial: [17733524]
