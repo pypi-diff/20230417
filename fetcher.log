@@ -21842,3 +21842,51 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-17 21:58:38] INFO root fetch - main [MainThread]: End processing [universalio]: success
 [2023-04-17 21:59:04] INFO root fetch - main [MainThread]: End processing [hyperqueue]: success
 [2023-04-17 21:59:04] INFO root fetch - main [MainThread]: Store serial: [17743781]
+[2023-04-17 22:04:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17743781]
+[2023-04-17 22:04:18] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-17 22:04:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pwman-python
+[2023-04-17 22:04:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: TGAMpy
+[2023-04-17 22:04:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-semantic-release
+[2023-04-17 22:04:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: DiamondCoinApi
+[2023-04-17 22:04:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autoplugin
+[2023-04-17 22:04:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: warn-transformer
+[2023-04-17 22:04:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: NikeCA
+[2023-04-17 22:04:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: chartart
+[2023-04-17 22:04:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wzl-udi
+[2023-04-17 22:04:18] INFO root fetch - processPackages [pwman-python]: New version: [2.9] Old Version: [2.8]
+[2023-04-17 22:04:18] WARNING root fetch - processPackages [TGAMpy]: Skipping, unable to determine old version
+[2023-04-17 22:04:18] INFO root fetch - main [MainThread]: End processing [TGAMpy] error
+[2023-04-17 22:04:18] INFO root fetch - processPackages [NikeCA]: New version: [0.1.58] Old Version: [0.1.57]
+[2023-04-17 22:04:18] WARNING root fetch - processPackages [autoplugin]: Skipping, unable to determine old version
+[2023-04-17 22:04:18] INFO root fetch - main [MainThread]: End processing [autoplugin] error
+[2023-04-17 22:04:18] INFO root fetch - processPackages [python-semantic-release]: New version: [8.0.0a5] Old Version: [8.0.0a4]
+[2023-04-17 22:04:18] INFO root fetch - processPackages [chartart]: New version: [0.0.3.dev13] Old Version: [0.0.3.dev12]
+[2023-04-17 22:04:18] INFO root fetch - processPackages [NikeCA]: executing diffoscope
+[2023-04-17 22:04:18] INFO root fetch - processPackages [NikeCA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NikeCA-0.1.57.tar.gz tmp/NikeCA-0.1.58.tar.gz --markdown 20230417/N/NikeCA/0.1.57-0.1.58/diff.md --exclude *.pyd
+[2023-04-17 22:04:18] WARNING root fetch - processPackages [DiamondCoinApi]: Skipping, unable to determine old version
+[2023-04-17 22:04:18] INFO root fetch - main [MainThread]: End processing [DiamondCoinApi] error
+[2023-04-17 22:04:18] INFO root fetch - processPackages [warn-transformer]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-04-17 22:04:18] INFO root fetch - processPackages [wzl-udi]: New version: [8.2.5] Old Version: [8.2.4]
+[2023-04-17 22:04:18] INFO root fetch - processPackages [chartart]: executing diffoscope
+[2023-04-17 22:04:18] INFO root fetch - processPackages [chartart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chartart-0.0.3.dev12.tar.gz tmp/chartart-0.0.3.dev13.tar.gz --markdown 20230417/c/chartart/0.0.3.dev12-0.0.3.dev13/diff.md --exclude *.pyd
+[2023-04-17 22:04:18] INFO root fetch - processPackages [pwman-python]: Downloading https://files.pythonhosted.org/packages/f9/1b/205ab81811348f2d8c1d11c38493cb5e911382ff53ac5ebedfe4f2dac2df/pwman-python-2.8.tar.gz
+[2023-04-17 22:04:18] INFO root fetch - processPackages [python-semantic-release]: Downloading https://files.pythonhosted.org/packages/8a/5a/0d15fc08a75ba6e75eaea422dc7c042204c23ffda956d0bc43fbbc7e00d5/python-semantic-release-8.0.0a4.tar.gz
+[2023-04-17 22:04:19] INFO root fetch - processPackages [wzl-udi]: Downloading https://files.pythonhosted.org/packages/42/06/f5575f00ea9094de0275801fbdec82c349a1dd14318b380ef903a03bb005/wzl-udi-8.2.4.tar.gz
+[2023-04-17 22:04:19] INFO root fetch - processPackages [warn-transformer]: Downloading https://files.pythonhosted.org/packages/27/ea/a7f48507ea48fcdbce1aeece06724a91fabd45f25890432912afb917e10a/warn-transformer-1.3.8.tar.gz
+[2023-04-17 22:04:19] INFO root fetch - processPackages [wzl-udi]: Downloading https://files.pythonhosted.org/packages/e7/c4/9a2c623c042177fc1b95ebf48bfa36389b2f6a96e45c6be0ba4dfe6f090f/wzl-udi-8.2.5.tar.gz
+[2023-04-17 22:04:19] INFO root fetch - processPackages [pwman-python]: Downloading https://files.pythonhosted.org/packages/0b/6b/731ca439570cc604b00ec79a61cb843ee5ed6b0a3937f5259aa5446689e1/pwman-python-2.9.tar.gz
+[2023-04-17 22:04:19] INFO root fetch - processPackages [python-semantic-release]: Downloading https://files.pythonhosted.org/packages/8b/fa/2643a2a5ad6d21b7c8420143ccc4d784e6c43c893512a7585e4e74f56764/python-semantic-release-8.0.0a5.tar.gz
+[2023-04-17 22:04:19] INFO root fetch - processPackages [pwman-python]: executing diffoscope
+[2023-04-17 22:04:19] INFO root fetch - processPackages [pwman-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pwman-python-2.8.tar.gz tmp/pwman-python-2.9.tar.gz --markdown 20230417/p/pwman-python/2.8-2.9/diff.md --exclude *.pyd
+[2023-04-17 22:04:19] INFO root fetch - processPackages [wzl-udi]: executing diffoscope
+[2023-04-17 22:04:19] INFO root fetch - processPackages [wzl-udi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wzl-udi-8.2.4.tar.gz tmp/wzl-udi-8.2.5.tar.gz --markdown 20230417/w/wzl-udi/8.2.4-8.2.5/diff.md --exclude *.pyd
+[2023-04-17 22:04:19] INFO root fetch - processPackages [python-semantic-release]: executing diffoscope
+[2023-04-17 22:04:19] INFO root fetch - processPackages [python-semantic-release]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-semantic-release-8.0.0a4.tar.gz tmp/python-semantic-release-8.0.0a5.tar.gz --markdown 20230417/p/python-semantic-release/8.0.0a4-8.0.0a5/diff.md --exclude *.pyd
+[2023-04-17 22:04:19] WARNING root fetch - processPackages [warn-transformer]: Skipping package: exceeds size limit 17532658>=10485760
+[2023-04-17 22:04:19] INFO root fetch - main [MainThread]: End processing [warn-transformer] error
+[2023-04-17 22:04:19] INFO root fetch - main [MainThread]: End processing [chartart]: success
+[2023-04-17 22:04:19] INFO root fetch - main [MainThread]: End processing [NikeCA]: success
+[2023-04-17 22:04:20] INFO root fetch - main [MainThread]: End processing [wzl-udi]: success
+[2023-04-17 22:04:21] INFO root fetch - main [MainThread]: End processing [python-semantic-release]: success
+[2023-04-17 22:04:23] INFO root fetch - main [MainThread]: End processing [pwman-python]: success
+[2023-04-17 22:04:23] INFO root fetch - main [MainThread]: Store serial: [17743810]
