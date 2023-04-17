@@ -5029,3 +5029,154 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 06:13:15] INFO root fetch - main [MainThread]: End processing [IMSIS]: success
 [2023-04-17 06:13:15] INFO root fetch - main [MainThread]: End processing [Pandora-ChatGPT]: success
 [2023-04-17 06:13:15] INFO root fetch - main [MainThread]: Store serial: [17733601]
+[2023-04-17 06:18:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17733601]
+[2023-04-17 06:18:24] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-04-17 06:18:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odbc2orm
+[2023-04-17 06:18:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-form-surveys
+[2023-04-17 06:18:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: UserReadWriteMemory
+[2023-04-17 06:18:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigdl-nano
+[2023-04-17 06:18:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: network-scanner-kbk
+[2023-04-17 06:18:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigdl-chronos
+[2023-04-17 06:18:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bigdl-serving
+[2023-04-17 06:18:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xh-dict-utils
+[2023-04-17 06:18:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ArmaQDL
+[2023-04-17 06:18:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: reqmgr2
+[2023-04-17 06:18:24] INFO root fetch - processPackages [odbc2orm]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-04-17 06:18:24] INFO root fetch - processPackages [network-scanner-kbk]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-04-17 06:18:24] INFO root fetch - processPackages [django-form-surveys]: New version: [1.8.1] Old Version: [1.8.0]
+[2023-04-17 06:18:24] INFO root fetch - processPackages [UserReadWriteMemory]: New version: [1.2] Old Version: [1]
+[2023-04-17 06:18:24] INFO root fetch - processPackages [bigdl-chronos]: New version: [2.3.0b20230416] Old Version: [2.3.0b20230414]
+[2023-04-17 06:18:24] INFO root fetch - processPackages [xh-dict-utils]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-17 06:18:24] INFO root fetch - processPackages [reqmgr2]: New version: [2.2.0rc9] Old Version: [2.2.0rc8]
+[2023-04-17 06:18:24] INFO root fetch - processPackages [ArmaQDL]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-04-17 06:18:24] INFO root fetch - processPackages [bigdl-serving]: New version: [2.3.0b20230416] Old Version: [2.3.0b20230414]
+[2023-04-17 06:18:24] INFO root fetch - processPackages [bigdl-nano]: New version: [2.3.0b20230416] Old Version: [2.3.0b20230414]
+[2023-04-17 06:18:24] INFO root fetch - processPackages [network-scanner-kbk]: executing diffoscope
+[2023-04-17 06:18:24] INFO root fetch - processPackages [network-scanner-kbk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/network_scanner_kbk-0.0.7.tar.gz tmp/network_scanner_kbk-0.0.9.tar.gz --markdown 20230417/n/network-scanner-kbk/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 06:18:24] INFO root fetch - processPackages [odbc2orm]: Downloading https://files.pythonhosted.org/packages/8a/e5/4f40165810b16e3cf9f3347bbb5c06413dd454b1e98a50fd23c0ed1fbf26/odbc2orm-1.0.6.tar.gz
+[2023-04-17 06:18:24] INFO root fetch - processPackages [django-form-surveys]: Downloading https://files.pythonhosted.org/packages/cf/66/e84811302631fd9e8f54836d0d5da42c252d86f689ede9cc1a8c57764b6c/django-form-surveys-1.8.0.tar.gz
+[2023-04-17 06:18:24] INFO root fetch - processPackages [reqmgr2]: Downloading https://files.pythonhosted.org/packages/3b/a8/5df1b70b545ffa313eb320c62265f5635d7df9b59e11b6f309e5e7cb5ff3/reqmgr2-2.2.0rc8.tar.gz
+[2023-04-17 06:18:24] INFO root fetch - processPackages [ArmaQDL]: Downloading https://files.pythonhosted.org/packages/28/97/577102b368b91a084f5a6905bb40f7bd0d6d2d4a46b26aae72ed0f16c16c/armaqdl-0.5.0.tar.gz
+[2023-04-17 06:18:25] INFO root fetch - processPackages [UserReadWriteMemory]: Downloading https://files.pythonhosted.org/packages/96/e2/de2f10e2f53abe40607adfef44ff482dc01d14abdad53731425d45ea94b1/UserReadWriteMemory-1.2.tar.gz
+[2023-04-17 06:18:25] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/cf/a3/f34883789e4eb065f084b72a9ecc391e5370c31cda66239c717fc49008b9/bigdl_nano-2.3.0b20230416-py3-none-win_amd64.whl
+[2023-04-17 06:18:25] INFO root fetch - processPackages [odbc2orm]: Downloading https://files.pythonhosted.org/packages/9a/58/f82144e906af78d198c9d34f5bc0a6cfdebf4f0544885e3fab54c8512c62/odbc2orm-1.0.7.tar.gz
+[2023-04-17 06:18:25] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/7c/74/b8cc02ceeaa22d60bede8495b8f869d896b6e89255f11008a39a09973f61/bigdl_chronos-2.3.0b20230416-py3-none-win_amd64.whl
+[2023-04-17 06:18:25] INFO root fetch - processPackages [xh-dict-utils]: Downloading https://files.pythonhosted.org/packages/94/f4/eb67ea6f3cbdd211b4b4f30540192b6556a0d4e829aee2d823243d0a23f4/xh-dict-utils-0.0.2.tar.gz
+[2023-04-17 06:18:25] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/04/3e/a582b87fd531a24985df979c356c17f21ec74a1da0ac1d2fe27848eded19/bigdl_serving-2.3.0b20230416-py2.py3-none-any.whl
+[2023-04-17 06:18:25] INFO root fetch - processPackages [UserReadWriteMemory]: executing diffoscope
+[2023-04-17 06:18:25] INFO root fetch - processPackages [UserReadWriteMemory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UserReadWriteMemory-1.tar.gz tmp/UserReadWriteMemory-1.2.tar.gz --markdown 20230417/U/UserReadWriteMemory/1-1.2/diff.md --exclude *.pyd
+[2023-04-17 06:18:25] INFO root fetch - processPackages [odbc2orm]: executing diffoscope
+[2023-04-17 06:18:25] INFO root fetch - processPackages [odbc2orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odbc2orm-1.0.6.tar.gz tmp/odbc2orm-1.0.7.tar.gz --markdown 20230417/o/odbc2orm/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-04-17 06:18:25] INFO root fetch - processPackages [xh-dict-utils]: executing diffoscope
+[2023-04-17 06:18:25] INFO root fetch - processPackages [xh-dict-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xh-dict-utils-0.0.1.tar.gz tmp/xh-dict-utils-0.0.2.tar.gz --markdown 20230417/x/xh-dict-utils/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-17 06:18:25] INFO root fetch - processPackages [ArmaQDL]: Downloading https://files.pythonhosted.org/packages/e8/1a/67e21bee4322c7cc8248d19a345b5a5f94e493530806fe595b71bd386005/armaqdl-0.6.0.tar.gz
+[2023-04-17 06:18:25] INFO root fetch - processPackages [bigdl-chronos]: executing diffoscope
+[2023-04-17 06:18:25] INFO root fetch - processPackages [bigdl-chronos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos-2.3.0b20230414-py3-none-win_amd64.whl.zip tmp/bigdl_chronos-2.3.0b20230416-py3-none-win_amd64.whl.zip --markdown 20230417/b/bigdl-chronos/2.3.0b20230414-2.3.0b20230416/diff.md --exclude *.pyd
+[2023-04-17 06:18:25] INFO root fetch - processPackages [django-form-surveys]: Downloading https://files.pythonhosted.org/packages/8d/0a/90cf0235db9559986c64686ce21bd975a1287adde87f1412835e82b612a7/django-form-surveys-1.8.1.tar.gz
+[2023-04-17 06:18:25] INFO root fetch - processPackages [bigdl-serving]: executing diffoscope
+[2023-04-17 06:18:25] INFO root fetch - processPackages [bigdl-serving]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_serving-2.3.0b20230414-py2.py3-none-any.whl.zip tmp/bigdl_serving-2.3.0b20230416-py2.py3-none-any.whl.zip --markdown 20230417/b/bigdl-serving/2.3.0b20230414-2.3.0b20230416/diff.md --exclude *.pyd
+[2023-04-17 06:18:25] INFO root fetch - processPackages [ArmaQDL]: executing diffoscope
+[2023-04-17 06:18:25] INFO root fetch - processPackages [ArmaQDL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/armaqdl-0.5.0.tar.gz tmp/armaqdl-0.6.0.tar.gz --markdown 20230417/A/ArmaQDL/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-04-17 06:18:25] INFO root fetch - processPackages [django-form-surveys]: executing diffoscope
+[2023-04-17 06:18:25] INFO root fetch - processPackages [django-form-surveys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-form-surveys-1.8.0.tar.gz tmp/django-form-surveys-1.8.1.tar.gz --markdown 20230417/d/django-form-surveys/1.8.0-1.8.1/diff.md --exclude *.pyd
+[2023-04-17 06:18:25] INFO root fetch - processPackages [bigdl-nano]: executing diffoscope
+[2023-04-17 06:18:25] INFO root fetch - processPackages [bigdl-nano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_nano-2.3.0b20230414-py3-none-win_amd64.whl.zip tmp/bigdl_nano-2.3.0b20230416-py3-none-win_amd64.whl.zip --markdown 20230417/b/bigdl-nano/2.3.0b20230414-2.3.0b20230416/diff.md --exclude *.pyd
+[2023-04-17 06:18:25] INFO root fetch - processPackages [reqmgr2]: executing diffoscope
+[2023-04-17 06:18:25] INFO root fetch - processPackages [reqmgr2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqmgr2-2.2.0rc8.tar.gz tmp/reqmgr2-2.2.0rc9.tar.gz --markdown 20230417/r/reqmgr2/2.2.0rc8-2.2.0rc9/diff.md --exclude *.pyd
+[2023-04-17 06:18:26] INFO root fetch - processPackages [network-scanner-kbk]: Start processing: reqmgr2ms-output
+[2023-04-17 06:18:26] INFO root fetch - main [MainThread]: End processing [network-scanner-kbk]: success
+[2023-04-17 06:18:26] INFO root fetch - processPackages [reqmgr2ms-output]: New version: [2.2.0rc9] Old Version: [2.2.0rc8]
+[2023-04-17 06:18:26] INFO root fetch - processPackages [reqmgr2ms-output]: Downloading https://files.pythonhosted.org/packages/06/90/b8ee65aa2037d96efc6939fc46e314f4496c07e9b101b77ab0b4722b7dbf/reqmgr2ms-output-2.2.0rc8.tar.gz
+[2023-04-17 06:18:26] INFO root fetch - processPackages [UserReadWriteMemory]: Start processing: cnki-html2json
+[2023-04-17 06:18:26] INFO root fetch - main [MainThread]: End processing [UserReadWriteMemory]: success
+[2023-04-17 06:18:26] INFO root fetch - processPackages [cnki-html2json]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 06:18:26] INFO root fetch - processPackages [odbc2orm]: Start processing: acdcserver
+[2023-04-17 06:18:26] INFO root fetch - main [MainThread]: End processing [odbc2orm]: success
+[2023-04-17 06:18:26] INFO root fetch - processPackages [acdcserver]: New version: [2.2.0rc9] Old Version: [2.2.0rc8]
+[2023-04-17 06:18:26] INFO root fetch - processPackages [xh-dict-utils]: Start processing: reqmon
+[2023-04-17 06:18:26] INFO root fetch - main [MainThread]: End processing [xh-dict-utils]: success
+[2023-04-17 06:18:26] INFO root fetch - processPackages [reqmon]: New version: [2.2.0rc9] Old Version: [2.2.0rc8]
+[2023-04-17 06:18:26] INFO root fetch - processPackages [cnki-html2json]: Downloading https://files.pythonhosted.org/packages/66/1e/9b509ce8c11c6af19f8b55c6ed539fd0702a049419e3e8cf7668037d009c/cnki_html2json-0.0.9.tar.gz
+[2023-04-17 06:18:26] INFO root fetch - processPackages [reqmgr2ms-output]: executing diffoscope
+[2023-04-17 06:18:26] INFO root fetch - processPackages [reqmgr2ms-output]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqmgr2ms-output-2.2.0rc8.tar.gz tmp/reqmgr2ms-output-2.2.0rc9.tar.gz --markdown 20230417/r/reqmgr2ms-output/2.2.0rc8-2.2.0rc9/diff.md --exclude *.pyd
+[2023-04-17 06:18:26] INFO root fetch - processPackages [acdcserver]: Downloading https://files.pythonhosted.org/packages/e7/d0/3995887043fcb572f0ab2eb61f781253b5aa33bc2f85160a2dbf34f54971/acdcserver-2.2.0rc8.tar.gz
+[2023-04-17 06:18:26] INFO root fetch - processPackages [cnki-html2json]: executing diffoscope
+[2023-04-17 06:18:26] INFO root fetch - processPackages [cnki-html2json]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cnki_html2json-0.0.8.tar.gz tmp/cnki_html2json-0.0.9.tar.gz --markdown 20230417/c/cnki-html2json/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 06:18:26] INFO root fetch - processPackages [bigdl-serving]: Start processing: wmagent
+[2023-04-17 06:18:26] INFO root fetch - main [MainThread]: End processing [bigdl-serving]: success
+[2023-04-17 06:18:26] INFO root fetch - processPackages [reqmon]: Downloading https://files.pythonhosted.org/packages/bb/91/216a8fd0e8f7c3884af1991820974f8ff03244bdddbad1830b060d4013aa/reqmon-2.2.0rc8.tar.gz
+[2023-04-17 06:18:26] INFO root fetch - processPackages [wmagent]: New version: [2.2.0rc9] Old Version: [2.2.0rc8]
+[2023-04-17 06:18:26] INFO root fetch - processPackages [ArmaQDL]: Start processing: global-workqueue
+[2023-04-17 06:18:26] INFO root fetch - main [MainThread]: End processing [ArmaQDL]: success
+[2023-04-17 06:18:27] INFO root fetch - processPackages [global-workqueue]: New version: [2.2.0rc9] Old Version: [2.2.0rc8]
+[2023-04-17 06:18:27] INFO root fetch - processPackages [wmagent]: Downloading https://files.pythonhosted.org/packages/4e/2a/b0bb7c5dd80db7c61e98193315002a41e91b8d1fa261996a760cb73737f7/wmagent-2.2.0rc8.tar.gz
+[2023-04-17 06:18:27] INFO root fetch - processPackages [global-workqueue]: Downloading https://files.pythonhosted.org/packages/f2/49/3f09961f45928da39d165fab3e232a7207230ac70ef4b7125e8cf0b72029/global-workqueue-2.2.0rc8.tar.gz
+[2023-04-17 06:18:27] INFO root fetch - processPackages [acdcserver]: executing diffoscope
+[2023-04-17 06:18:27] INFO root fetch - processPackages [acdcserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acdcserver-2.2.0rc8.tar.gz tmp/acdcserver-2.2.0rc9.tar.gz --markdown 20230417/a/acdcserver/2.2.0rc8-2.2.0rc9/diff.md --exclude *.pyd
+[2023-04-17 06:18:27] INFO root fetch - processPackages [reqmon]: executing diffoscope
+[2023-04-17 06:18:27] INFO root fetch - processPackages [reqmon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqmon-2.2.0rc8.tar.gz tmp/reqmon-2.2.0rc9.tar.gz --markdown 20230417/r/reqmon/2.2.0rc8-2.2.0rc9/diff.md --exclude *.pyd
+[2023-04-17 06:18:27] INFO root fetch - processPackages [global-workqueue]: executing diffoscope
+[2023-04-17 06:18:27] INFO root fetch - processPackages [global-workqueue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/global-workqueue-2.2.0rc8.tar.gz tmp/global-workqueue-2.2.0rc9.tar.gz --markdown 20230417/g/global-workqueue/2.2.0rc8-2.2.0rc9/diff.md --exclude *.pyd
+[2023-04-17 06:18:27] INFO root fetch - processPackages [wmagent]: executing diffoscope
+[2023-04-17 06:18:27] INFO root fetch - processPackages [wmagent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmagent-2.2.0rc8.tar.gz tmp/wmagent-2.2.0rc9.tar.gz --markdown 20230417/w/wmagent/2.2.0rc8-2.2.0rc9/diff.md --exclude *.pyd
+[2023-04-17 06:18:27] INFO root fetch - processPackages [django-form-surveys]: Start processing: wmagent-devtools
+[2023-04-17 06:18:27] INFO root fetch - main [MainThread]: End processing [django-form-surveys]: success
+[2023-04-17 06:18:27] INFO root fetch - processPackages [wmagent-devtools]: New version: [2.2.0rc9] Old Version: [2.2.0rc8]
+[2023-04-17 06:18:27] INFO root fetch - processPackages [bigdl-chronos]: Start processing: wmcore
+[2023-04-17 06:18:27] INFO root fetch - main [MainThread]: End processing [bigdl-chronos]: success
+[2023-04-17 06:18:27] INFO root fetch - processPackages [wmcore]: New version: [2.2.0rc9] Old Version: [2.2.0rc8]
+[2023-04-17 06:18:28] INFO root fetch - processPackages [wmagent-devtools]: Downloading https://files.pythonhosted.org/packages/9f/1c/cdd0dfe2cbebdc33562a99fd2ecc83e0c16e46fa598e08a9a49d32c20010/wmagent-devtools-2.2.0rc8.tar.gz
+[2023-04-17 06:18:28] INFO root fetch - processPackages [wmcore]: Downloading https://files.pythonhosted.org/packages/4a/79/64ad3ff3fce4c76705e870895586fe560937df3ff6af125f51e172fa29cf/wmcore-2.2.0rc8.tar.gz
+[2023-04-17 06:18:28] WARNING root fetch - processPackages [wmagent-devtools]: Skipping package: exceeds size limit 11421603>=10485760
+[2023-04-17 06:18:28] INFO root fetch - processPackages [wmagent-devtools]: Start processing: reqmgr2ms-pileup
+[2023-04-17 06:18:28] INFO root fetch - main [MainThread]: End processing [wmagent-devtools] error
+[2023-04-17 06:18:28] INFO root fetch - processPackages [reqmgr2ms-pileup]: New version: [2.2.0rc9] Old Version: [2.2.0rc8]
+[2023-04-17 06:18:28] INFO root fetch - processPackages [reqmgr2ms-pileup]: Downloading https://files.pythonhosted.org/packages/48/e4/b3b0bee956f331a7b268de40f238b5343b9bcdc9f23861f5e3ca37ffdaab/reqmgr2ms-pileup-2.2.0rc8.tar.gz
+[2023-04-17 06:18:28] INFO root fetch - processPackages [cnki-html2json]: Start processing: reqmgr2ms-rulecleaner
+[2023-04-17 06:18:28] INFO root fetch - main [MainThread]: End processing [cnki-html2json]: success
+[2023-04-17 06:18:28] INFO root fetch - processPackages [bigdl-nano]: Start processing: reqmgr2ms-unmerged
+[2023-04-17 06:18:28] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
+[2023-04-17 06:18:28] INFO root fetch - processPackages [reqmgr2ms-rulecleaner]: New version: [2.2.0rc9] Old Version: [2.2.0rc8]
+[2023-04-17 06:18:28] INFO root fetch - processPackages [reqmgr2ms-pileup]: executing diffoscope
+[2023-04-17 06:18:28] INFO root fetch - processPackages [reqmgr2ms-pileup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqmgr2ms-pileup-2.2.0rc8.tar.gz tmp/reqmgr2ms-pileup-2.2.0rc9.tar.gz --markdown 20230417/r/reqmgr2ms-pileup/2.2.0rc8-2.2.0rc9/diff.md --exclude *.pyd
+[2023-04-17 06:18:28] INFO root fetch - processPackages [reqmgr2ms-unmerged]: New version: [2.2.0rc9] Old Version: [2.2.0rc8]
+[2023-04-17 06:18:28] INFO root fetch - processPackages [reqmgr2ms-rulecleaner]: Downloading https://files.pythonhosted.org/packages/ea/b8/598b2f4718319147cd693b27d789e4b6e740c036222cd8132f429b893422/reqmgr2ms-rulecleaner-2.2.0rc8.tar.gz
+[2023-04-17 06:18:28] INFO root fetch - processPackages [reqmgr2ms-unmerged]: Downloading https://files.pythonhosted.org/packages/0a/8a/4239ee8c17bb6f306d2af5e116fadb8191b12167e495d02987d16a32d080/reqmgr2ms-unmerged-2.2.0rc8.tar.gz
+[2023-04-17 06:18:28] INFO root fetch - processPackages [wmcore]: executing diffoscope
+[2023-04-17 06:18:28] INFO root fetch - processPackages [wmcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmcore-2.2.0rc8.tar.gz tmp/wmcore-2.2.0rc9.tar.gz --markdown 20230417/w/wmcore/2.2.0rc8-2.2.0rc9/diff.md --exclude *.pyd
+[2023-04-17 06:18:29] INFO root fetch - processPackages [acdcserver]: Start processing: reqmgr2ms-monitor
+[2023-04-17 06:18:29] INFO root fetch - main [MainThread]: End processing [acdcserver]: success
+[2023-04-17 06:18:29] INFO root fetch - processPackages [reqmgr2ms-monitor]: New version: [2.2.0rc9] Old Version: [2.2.0rc8]
+[2023-04-17 06:18:29] INFO root fetch - processPackages [reqmgr2ms-rulecleaner]: executing diffoscope
+[2023-04-17 06:18:29] INFO root fetch - processPackages [reqmgr2ms-rulecleaner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqmgr2ms-rulecleaner-2.2.0rc8.tar.gz tmp/reqmgr2ms-rulecleaner-2.2.0rc9.tar.gz --markdown 20230417/r/reqmgr2ms-rulecleaner/2.2.0rc8-2.2.0rc9/diff.md --exclude *.pyd
+[2023-04-17 06:18:29] INFO root fetch - processPackages [reqmgr2ms-unmerged]: executing diffoscope
+[2023-04-17 06:18:29] INFO root fetch - processPackages [reqmgr2ms-unmerged]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqmgr2ms-unmerged-2.2.0rc8.tar.gz tmp/reqmgr2ms-unmerged-2.2.0rc9.tar.gz --markdown 20230417/r/reqmgr2ms-unmerged/2.2.0rc8-2.2.0rc9/diff.md --exclude *.pyd
+[2023-04-17 06:18:29] INFO root fetch - processPackages [reqmgr2ms-monitor]: Downloading https://files.pythonhosted.org/packages/59/19/e8bbaf893d7e090f09aee3c7fd11863815e298a6fda7a0bb86cf6e0f2e55/reqmgr2ms-monitor-2.2.0rc8.tar.gz
+[2023-04-17 06:18:29] INFO root fetch - processPackages [reqmgr2ms-monitor]: executing diffoscope
+[2023-04-17 06:18:29] INFO root fetch - processPackages [reqmgr2ms-monitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqmgr2ms-monitor-2.2.0rc8.tar.gz tmp/reqmgr2ms-monitor-2.2.0rc9.tar.gz --markdown 20230417/r/reqmgr2ms-monitor/2.2.0rc8-2.2.0rc9/diff.md --exclude *.pyd
+[2023-04-17 06:18:31] INFO root fetch - processPackages [global-workqueue]: Start processing: reqmgr2ms-transferor
+[2023-04-17 06:18:31] INFO root fetch - main [MainThread]: End processing [global-workqueue]: success
+[2023-04-17 06:18:31] INFO root fetch - processPackages [reqmgr2ms-transferor]: New version: [2.2.0rc9] Old Version: [2.2.0rc8]
+[2023-04-17 06:18:31] INFO root fetch - processPackages [reqmgr2ms-transferor]: Downloading https://files.pythonhosted.org/packages/00/ce/fadc63d6ca9ce950e382a6254e5ac54b80c0533956a0a376b6b2f28ec8a9/reqmgr2ms-transferor-2.2.0rc8.tar.gz
+[2023-04-17 06:18:32] INFO root fetch - processPackages [reqmon]: Start processing: promptx
+[2023-04-17 06:18:32] INFO root fetch - main [MainThread]: End processing [reqmon]: success
+[2023-04-17 06:18:32] INFO root fetch - processPackages [promptx]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-17 06:18:32] INFO root fetch - processPackages [reqmgr2ms-rulecleaner]: Start processing: ifastapi
+[2023-04-17 06:18:32] INFO root fetch - main [MainThread]: End processing [reqmgr2ms-rulecleaner]: success
+[2023-04-17 06:18:32] INFO root fetch - main [MainThread]: End processing [reqmgr2ms-unmerged]: success
+[2023-04-17 06:18:32] INFO root fetch - processPackages [reqmgr2ms-transferor]: executing diffoscope
+[2023-04-17 06:18:32] INFO root fetch - processPackages [reqmgr2ms-transferor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqmgr2ms-transferor-2.2.0rc8.tar.gz tmp/reqmgr2ms-transferor-2.2.0rc9.tar.gz --markdown 20230417/r/reqmgr2ms-transferor/2.2.0rc8-2.2.0rc9/diff.md --exclude *.pyd
+[2023-04-17 06:18:32] WARNING root fetch - processPackages [ifastapi]: Skipping, unable to determine old version
+[2023-04-17 06:18:32] INFO root fetch - main [MainThread]: End processing [ifastapi] error
+[2023-04-17 06:18:32] INFO root fetch - main [MainThread]: End processing [reqmgr2ms-monitor]: success
+[2023-04-17 06:18:32] INFO root fetch - processPackages [promptx]: Downloading https://files.pythonhosted.org/packages/02/b8/9a5f70f8ec5b89741721bd9377f0951980b894b4da4a69d4ac37706b5fa5/promptx-0.0.6.tar.gz
+[2023-04-17 06:18:32] INFO root fetch - processPackages [promptx]: executing diffoscope
+[2023-04-17 06:18:32] INFO root fetch - processPackages [promptx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptx-0.0.5.tar.gz tmp/promptx-0.0.6.tar.gz --markdown 20230417/p/promptx/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-17 06:18:33] INFO root fetch - main [MainThread]: End processing [reqmgr2ms-output]: success
+[2023-04-17 06:18:33] INFO root fetch - main [MainThread]: End processing [promptx]: success
+[2023-04-17 06:18:34] INFO root fetch - main [MainThread]: End processing [reqmgr2ms-pileup]: success
+[2023-04-17 06:18:34] INFO root fetch - main [MainThread]: End processing [reqmgr2ms-transferor]: success
+[2023-04-17 06:18:37] INFO root fetch - main [MainThread]: End processing [reqmgr2]: success
+[2023-04-17 06:18:48] INFO root fetch - main [MainThread]: End processing [wmagent]: success
+[2023-04-17 06:19:12] INFO root fetch - main [MainThread]: End processing [wmcore]: success
+[2023-04-17 06:19:12] INFO root fetch - main [MainThread]: Store serial: [17733662]
