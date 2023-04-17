@@ -16534,3 +16534,74 @@ EOFError: EOF read where object expected
 [2023-04-17 17:16:54] INFO root fetch - main [MainThread]: End processing [web-foundation]: success
 [2023-04-17 17:16:54] INFO root fetch - main [MainThread]: End processing [waveforms]: success
 [2023-04-17 17:16:54] INFO root fetch - main [MainThread]: Store serial: [17740503]
+[2023-04-17 17:21:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17740503]
+[2023-04-17 17:22:04] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-17 17:22:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-autotask
+[2023-04-17 17:22:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: titan-iris
+[2023-04-17 17:22:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyxel-dic
+[2023-04-17 17:22:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fhirstarter
+[2023-04-17 17:22:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: underactuated
+[2023-04-17 17:22:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: terka
+[2023-04-17 17:22:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: uxu
+[2023-04-17 17:22:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flashcam
+[2023-04-17 17:22:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: protobuf-to-pydantic
+[2023-04-17 17:22:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: audio-verification
+[2023-04-17 17:22:04] INFO root fetch - processPackages [terka]: New version: [1.6.0] Old Version: [1.5.5]
+[2023-04-17 17:22:04] INFO root fetch - processPackages [flashcam]: New version: [1.3.4] Old Version: [1.3.22]
+[2023-04-17 17:22:04] INFO root fetch - processPackages [fhirstarter]: New version: [0.13.8] Old Version: [0.13.7]
+[2023-04-17 17:22:04] INFO root fetch - processPackages [django-autotask]: New version: [0.0.9a0] Old Version: [0.0.99a0]
+[2023-04-17 17:22:04] INFO root fetch - processPackages [terka]: executing diffoscope
+[2023-04-17 17:22:04] INFO root fetch - processPackages [terka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terka-1.5.5.tar.gz tmp/terka-1.6.0.tar.gz --markdown 20230417/t/terka/1.5.5-1.6.0/diff.md --exclude *.pyd
+[2023-04-17 17:22:04] WARNING root fetch - processPackages [audio-verification]: Skipping, unable to determine old version
+[2023-04-17 17:22:04] INFO root fetch - processPackages [audio-verification]: Start processing: maxbot
+[2023-04-17 17:22:04] INFO root fetch - processPackages [pyxel-dic]: New version: [3.0.2] Old Version: [3.0.1]
+[2023-04-17 17:22:04] INFO root fetch - main [MainThread]: End processing [audio-verification] error
+[2023-04-17 17:22:04] INFO root fetch - processPackages [flashcam]: executing diffoscope
+[2023-04-17 17:22:04] INFO root fetch - processPackages [flashcam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flashcam-1.3.22.tar.gz tmp/flashcam-1.3.4.tar.gz --markdown 20230417/f/flashcam/1.3.22-1.3.4/diff.md --exclude *.pyd
+[2023-04-17 17:22:04] INFO root fetch - processPackages [uxu]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-17 17:22:04] INFO root fetch - processPackages [underactuated]: New version: [2023.4.17] Old Version: [2023.3.2]
+[2023-04-17 17:22:04] INFO root fetch - processPackages [titan-iris]: New version: [0.3.9a2] Old Version: [0.3.9a1]
+[2023-04-17 17:22:04] ERROR root fetch - processPackages [maxbot]: Unable to get metadata: No such project 'maxbot'
+[2023-04-17 17:22:04] INFO root fetch - processPackages [maxbot]: Start processing: wordsfromparagraph
+[2023-04-17 17:22:04] INFO root fetch - main [MainThread]: End processing [maxbot] error
+[2023-04-17 17:22:04] INFO root fetch - processPackages [fhirstarter]: Downloading https://files.pythonhosted.org/packages/6c/10/dd5536bba319a3ca2ed1ee64dd19ece3ae63d5af37e6b20b41d4622e0f56/fhirstarter-0.13.7.tar.gz
+[2023-04-17 17:22:04] INFO root fetch - processPackages [django-autotask]: Downloading https://files.pythonhosted.org/packages/86/5b/8f3bb33971b5926fbe9156584ba0ea01eb39125609b667051f298de7af88/django-autotask-0.0.99a0.tar.gz
+[2023-04-17 17:22:04] INFO root fetch - processPackages [uxu]: Downloading https://files.pythonhosted.org/packages/87/7a/a9e42f092d38a657cf6295f4c51f523e0f58f934eb29ba439ae6acc8c4e2/uxu-0.0.1.tar.gz
+[2023-04-17 17:22:04] INFO root fetch - processPackages [pyxel-dic]: Downloading https://files.pythonhosted.org/packages/a4/bd/a8d101c2826428fb8b7352d5316c5fef65afeabda4cf065d35f37f6e83e2/pyxel-dic-3.0.1.tar.gz
+[2023-04-17 17:22:04] INFO root fetch - processPackages [protobuf-to-pydantic]: New version: [0.1.7.2] Old Version: [0.1.7.1]
+[2023-04-17 17:22:04] INFO root fetch - processPackages [underactuated]: Downloading https://files.pythonhosted.org/packages/c5/2f/049c996488bf3e87cbae29781f1dee430602a13e95b639223c2f49f101b4/underactuated-2023.3.2.tar.gz
+[2023-04-17 17:22:04] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/44/d5/65facd9094b25df7ad98b3e18ba0615e010861081bf1b7fe7ca7cc35b0a7/titan-iris-0.3.9a1.tar.gz
+[2023-04-17 17:22:04] WARNING root fetch - processPackages [wordsfromparagraph]: Skipping, unable to determine old version
+[2023-04-17 17:22:04] INFO root fetch - main [MainThread]: End processing [wordsfromparagraph] error
+[2023-04-17 17:22:05] INFO root fetch - processPackages [protobuf-to-pydantic]: Downloading https://files.pythonhosted.org/packages/c4/d9/8a16e6129e7534a1ffb08665475d54299e3d50bf1d671905b6917ae20592/protobuf_to_pydantic-0.1.7.1.tar.gz
+[2023-04-17 17:22:05] INFO root fetch - processPackages [uxu]: Downloading https://files.pythonhosted.org/packages/28/38/0c59f8b59bef6a46f1a2f8bab0fce0478abeaf315348e67d48d46f9b7d64/uxu-0.0.2.tar.gz
+[2023-04-17 17:22:05] INFO root fetch - processPackages [pyxel-dic]: Downloading https://files.pythonhosted.org/packages/ae/bd/1376ed48578211a0d98caa0185f2bc3331ed7dc71af95400b806eef23775/pyxel-dic-3.0.2.tar.gz
+[2023-04-17 17:22:05] INFO root fetch - processPackages [fhirstarter]: Downloading https://files.pythonhosted.org/packages/8d/37/a6432d31574a0e64c26338996abc65fdf3302e8b88bddc64c2febc226116/fhirstarter-0.13.8.tar.gz
+[2023-04-17 17:22:05] INFO root fetch - processPackages [underactuated]: Downloading https://files.pythonhosted.org/packages/e7/4c/61f959b15b0f894820aa8fb50c9d9f8c8c1f889f4b1cd0038417aa660266/underactuated-2023.4.17.tar.gz
+[2023-04-17 17:22:05] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/6e/81/2a91a9be26df9651b2fc3a6054ccc6fbe32f3a3f990f2ffe9f5b67799541/titan-iris-0.3.9a2.tar.gz
+[2023-04-17 17:22:05] INFO root fetch - processPackages [django-autotask]: Downloading https://files.pythonhosted.org/packages/26/ed/ed72b2a324ddd5d00073ec60d8779faf96340473e13bf9e774e34ffb5bf4/django-autotask-0.0.9a0.tar.gz
+[2023-04-17 17:22:05] INFO root fetch - processPackages [protobuf-to-pydantic]: Downloading https://files.pythonhosted.org/packages/fc/bd/029ef2a5a4c186a4504680c266abd656e23f0ec42662c4583e8b365fba9e/protobuf_to_pydantic-0.1.7.2.tar.gz
+[2023-04-17 17:22:05] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-04-17 17:22:05] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.3.9a1.tar.gz tmp/titan-iris-0.3.9a2.tar.gz --markdown 20230417/t/titan-iris/0.3.9a1-0.3.9a2/diff.md --exclude *.pyd
+[2023-04-17 17:22:05] INFO root fetch - processPackages [pyxel-dic]: executing diffoscope
+[2023-04-17 17:22:05] INFO root fetch - processPackages [pyxel-dic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxel-dic-3.0.1.tar.gz tmp/pyxel-dic-3.0.2.tar.gz --markdown 20230417/p/pyxel-dic/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2023-04-17 17:22:05] INFO root fetch - processPackages [fhirstarter]: executing diffoscope
+[2023-04-17 17:22:05] INFO root fetch - processPackages [fhirstarter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fhirstarter-0.13.7.tar.gz tmp/fhirstarter-0.13.8.tar.gz --markdown 20230417/f/fhirstarter/0.13.7-0.13.8/diff.md --exclude *.pyd
+[2023-04-17 17:22:05] INFO root fetch - processPackages [underactuated]: executing diffoscope
+[2023-04-17 17:22:05] INFO root fetch - processPackages [underactuated]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/underactuated-2023.3.2.tar.gz tmp/underactuated-2023.4.17.tar.gz --markdown 20230417/u/underactuated/2023.3.2-2023.4.17/diff.md --exclude *.pyd
+[2023-04-17 17:22:05] INFO root fetch - processPackages [django-autotask]: executing diffoscope
+[2023-04-17 17:22:05] INFO root fetch - processPackages [django-autotask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-autotask-0.0.99a0.tar.gz tmp/django-autotask-0.0.9a0.tar.gz --markdown 20230417/d/django-autotask/0.0.99a0-0.0.9a0/diff.md --exclude *.pyd
+[2023-04-17 17:22:05] INFO root fetch - processPackages [protobuf-to-pydantic]: executing diffoscope
+[2023-04-17 17:22:05] INFO root fetch - processPackages [protobuf-to-pydantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protobuf_to_pydantic-0.1.7.1.tar.gz tmp/protobuf_to_pydantic-0.1.7.2.tar.gz --markdown 20230417/p/protobuf-to-pydantic/0.1.7.1-0.1.7.2/diff.md --exclude *.pyd
+[2023-04-17 17:22:06] INFO root fetch - main [MainThread]: End processing [terka]: success
+[2023-04-17 17:22:06] INFO root fetch - processPackages [uxu]: executing diffoscope
+[2023-04-17 17:22:06] INFO root fetch - processPackages [uxu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uxu-0.0.1.tar.gz tmp/uxu-0.0.2.tar.gz --markdown 20230417/u/uxu/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-17 17:22:06] INFO root fetch - main [MainThread]: End processing [flashcam]: success
+[2023-04-17 17:22:06] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-04-17 17:22:07] INFO root fetch - main [MainThread]: End processing [django-autotask]: success
+[2023-04-17 17:22:07] INFO root fetch - main [MainThread]: End processing [pyxel-dic]: success
+[2023-04-17 17:22:07] INFO root fetch - main [MainThread]: End processing [uxu]: success
+[2023-04-17 17:22:07] INFO root fetch - main [MainThread]: End processing [fhirstarter]: success
+[2023-04-17 17:22:09] INFO root fetch - main [MainThread]: End processing [underactuated]: success
+[2023-04-17 17:22:10] INFO root fetch - main [MainThread]: End processing [protobuf-to-pydantic]: success
+[2023-04-17 17:22:10] INFO root fetch - main [MainThread]: Store serial: [17740556]
