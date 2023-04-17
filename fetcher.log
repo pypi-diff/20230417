@@ -3170,3 +3170,54 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 03:07:32] INFO root fetch - main [MainThread]: End processing [pymodd]: success
 [2023-04-17 03:07:32] INFO root fetch - main [MainThread]: End processing [pyagrum-nightly]: success
 [2023-04-17 03:07:32] INFO root fetch - main [MainThread]: Store serial: [17732475]
+[2023-04-17 03:12:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17732475]
+[2023-04-17 03:12:41] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-17 03:12:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ligo-followup-advocate
+[2023-04-17 03:12:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-sops-secrets
+[2023-04-17 03:12:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: snapccess
+[2023-04-17 03:12:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cargo-lambda-cdk
+[2023-04-17 03:12:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cherryblossom
+[2023-04-17 03:12:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sootty
+[2023-04-17 03:12:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: glinux-identity
+[2023-04-17 03:12:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jeff-api
+[2023-04-17 03:12:41] INFO root fetch - processPackages [ligo-followup-advocate]: New version: [1.2.0] Old Version: [1.1.dev1]
+[2023-04-17 03:12:41] INFO root fetch - processPackages [cherryblossom]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-17 03:12:41] INFO root fetch - processPackages [jeff-api]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-04-17 03:12:41] WARNING root fetch - processPackages [glinux-identity]: Skipping, unable to determine old version
+[2023-04-17 03:12:41] INFO root fetch - main [MainThread]: End processing [glinux-identity] error
+[2023-04-17 03:12:41] INFO root fetch - processPackages [snapccess]: New version: [0.2.1] Old Version: [0.1.9]
+[2023-04-17 03:12:41] INFO root fetch - processPackages [sootty]: New version: [0.3] Old Version: [0.2.3]
+[2023-04-17 03:12:41] INFO root fetch - processPackages [cargo-lambda-cdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-17 03:12:41] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-04-17 03:12:41] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-04-17 03:12:41] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.8.tar.gz tmp/cdk-sops-secrets-1.2.9.tar.gz --markdown 20230417/c/cdk-sops-secrets/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-04-17 03:12:41] INFO root fetch - processPackages [jeff-api]: Downloading https://files.pythonhosted.org/packages/5d/89/196e746f216672c8708b279781bec4c1360f46e2e24fa116ff7234aa4a59/jeff_api-1.2.2.tar.gz
+[2023-04-17 03:12:41] INFO root fetch - processPackages [cherryblossom]: Downloading https://files.pythonhosted.org/packages/5c/87/5265704aab80d64203d90b68bd49776075dd5935026d5fa542c396f27a8b/cherryblossom-0.0.4.tar.gz
+[2023-04-17 03:12:41] INFO root fetch - processPackages [snapccess]: Downloading https://files.pythonhosted.org/packages/37/d9/d4d6755e16b38fd4a896178c737898324bfc19e33186aed65dcf9f757178/snapccess-0.1.9.tar.gz
+[2023-04-17 03:12:41] INFO root fetch - processPackages [sootty]: Downloading https://files.pythonhosted.org/packages/8c/f3/24f6db7052faa6eaeddfda084cda8a8fc80ee7089cf8e9a596701ba29032/sootty-0.2.3.tar.gz
+[2023-04-17 03:12:41] INFO root fetch - processPackages [ligo-followup-advocate]: Downloading https://files.pythonhosted.org/packages/03/9f/504abab52bf2fd85294b09f0143f3dae4f8f695d4c04df4f572ea57fcdcb/ligo-followup-advocate-1.1.dev1.tar.gz
+[2023-04-17 03:12:41] INFO root fetch - processPackages [cargo-lambda-cdk]: Downloading https://files.pythonhosted.org/packages/f7/d4/e8d65150c1019bbeca8a396e6e5114443d68fa7229412cd3012a66f5e1de/cargo-lambda-cdk-0.0.8.tar.gz
+[2023-04-17 03:12:41] INFO root fetch - processPackages [cherryblossom]: executing diffoscope
+[2023-04-17 03:12:41] INFO root fetch - processPackages [cherryblossom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cherryblossom-0.0.3.tar.gz tmp/cherryblossom-0.0.4.tar.gz --markdown 20230417/c/cherryblossom/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-17 03:12:41] INFO root fetch - processPackages [jeff-api]: executing diffoscope
+[2023-04-17 03:12:41] INFO root fetch - processPackages [jeff-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jeff_api-1.2.1.tar.gz tmp/jeff_api-1.2.2.tar.gz --markdown 20230417/j/jeff-api/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-04-17 03:12:41] INFO root fetch - processPackages [snapccess]: Downloading https://files.pythonhosted.org/packages/77/e7/32d847b756831a2cb256b8ed7ccd845805946d7ffa2af086c995b90a52d7/snapccess-0.2.1.tar.gz
+[2023-04-17 03:12:41] INFO root fetch - processPackages [sootty]: Downloading https://files.pythonhosted.org/packages/3e/e9/9a31710406700a624e0e3b03a2532a06a00e9aac040a7ecc3fa04320f88b/sootty-0.3.tar.gz
+[2023-04-17 03:12:41] INFO root fetch - processPackages [cargo-lambda-cdk]: Downloading https://files.pythonhosted.org/packages/78/0a/4370f89ce92b1404cf4deee57db3aa2083279bd636e12d0ca6146fa1031d/cargo-lambda-cdk-0.0.9.tar.gz
+[2023-04-17 03:12:41] INFO root fetch - processPackages [sootty]: executing diffoscope
+[2023-04-17 03:12:41] INFO root fetch - processPackages [sootty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sootty-0.2.3.tar.gz tmp/sootty-0.3.tar.gz --markdown 20230417/s/sootty/0.2.3-0.3/diff.md --exclude *.pyd
+[2023-04-17 03:12:41] INFO root fetch - processPackages [snapccess]: executing diffoscope
+[2023-04-17 03:12:41] INFO root fetch - processPackages [snapccess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snapccess-0.1.9.tar.gz tmp/snapccess-0.2.1.tar.gz --markdown 20230417/s/snapccess/0.1.9-0.2.1/diff.md --exclude *.pyd
+[2023-04-17 03:12:42] INFO root fetch - processPackages [cargo-lambda-cdk]: executing diffoscope
+[2023-04-17 03:12:42] INFO root fetch - processPackages [cargo-lambda-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cargo-lambda-cdk-0.0.8.tar.gz tmp/cargo-lambda-cdk-0.0.9.tar.gz --markdown 20230417/c/cargo-lambda-cdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-17 03:12:42] INFO root fetch - processPackages [ligo-followup-advocate]: Downloading https://files.pythonhosted.org/packages/4c/90/1bdcf385a63002b0a43501eeb5026a79f3fd9d00af0d4d1a532092723d5e/ligo-followup-advocate-1.2.0.tar.gz
+[2023-04-17 03:12:42] INFO root fetch - main [MainThread]: End processing [cherryblossom]: success
+[2023-04-17 03:12:42] INFO root fetch - main [MainThread]: End processing [jeff-api]: success
+[2023-04-17 03:12:43] INFO root fetch - main [MainThread]: End processing [snapccess]: success
+[2023-04-17 03:12:43] INFO root fetch - main [MainThread]: End processing [cargo-lambda-cdk]: success
+[2023-04-17 03:12:43] INFO root fetch - main [MainThread]: End processing [sootty]: success
+[2023-04-17 03:12:43] INFO root fetch - processPackages [ligo-followup-advocate]: executing diffoscope
+[2023-04-17 03:12:43] INFO root fetch - processPackages [ligo-followup-advocate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ligo-followup-advocate-1.1.dev1.tar.gz tmp/ligo-followup-advocate-1.2.0.tar.gz --markdown 20230417/l/ligo-followup-advocate/1.1.dev1-1.2.0/diff.md --exclude *.pyd
+[2023-04-17 03:12:44] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-04-17 03:12:46] INFO root fetch - main [MainThread]: End processing [ligo-followup-advocate]: success
+[2023-04-17 03:12:46] INFO root fetch - main [MainThread]: Store serial: [17732500]
