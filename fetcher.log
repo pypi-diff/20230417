@@ -22350,3 +22350,95 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-17 22:36:40] INFO root fetch - main [MainThread]: End processing [bowtie-json-schema]: success
 [2023-04-17 22:36:52] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
 [2023-04-17 22:36:52] INFO root fetch - main [MainThread]: Store serial: [17744158]
+[2023-04-17 22:41:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17744158]
+[2023-04-17 22:42:04] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-04-17 22:42:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chalkpy
+[2023-04-17 22:42:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fijiconvert
+[2023-04-17 22:42:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: compoundwidgets
+[2023-04-17 22:42:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: clarifai
+[2023-04-17 22:42:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mymlcustomtools
+[2023-04-17 22:42:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fluxrpc
+[2023-04-17 22:42:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: trainerbase
+[2023-04-17 22:42:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: iloscar
+[2023-04-17 22:42:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: konsepy
+[2023-04-17 22:42:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ipfskvs
+[2023-04-17 22:42:04] INFO root fetch - processPackages [mymlcustomtools]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-17 22:42:04] INFO root fetch - processPackages [compoundwidgets]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-17 22:42:04] WARNING root fetch - processPackages [iloscar]: Skipping, unable to determine old version
+[2023-04-17 22:42:04] INFO root fetch - processPackages [iloscar]: Start processing: rocksnot
+[2023-04-17 22:42:04] INFO root fetch - main [MainThread]: End processing [iloscar] error
+[2023-04-17 22:42:04] INFO root fetch - processPackages [chalkpy]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-04-17 22:42:04] INFO root fetch - processPackages [trainerbase]: New version: [2.9.9] Old Version: [2.9.8]
+[2023-04-17 22:42:04] INFO root fetch - processPackages [fluxrpc]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-17 22:42:04] INFO root fetch - processPackages [ipfskvs]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-17 22:42:04] WARNING root fetch - processPackages [fijiconvert]: Skipping, unable to determine old version
+[2023-04-17 22:42:04] INFO root fetch - processPackages [fijiconvert]: Start processing: pyamg
+[2023-04-17 22:42:04] INFO root fetch - main [MainThread]: End processing [fijiconvert] error
+[2023-04-17 22:42:04] INFO root fetch - processPackages [clarifai]: New version: [9.3.3] Old Version: [9.3.2]
+[2023-04-17 22:42:04] INFO root fetch - processPackages [konsepy]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-17 22:42:04] INFO root fetch - processPackages [trainerbase]: executing diffoscope
+[2023-04-17 22:42:04] INFO root fetch - processPackages [trainerbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TrainerBase-2.9.8.tar.gz tmp/TrainerBase-2.9.9.tar.gz --markdown 20230417/t/trainerbase/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2023-04-17 22:42:04] INFO root fetch - processPackages [rocksnot]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-17 22:42:04] INFO root fetch - processPackages [pyamg]: New version: [5.0.0a3] Old Version: [5.0.0a2]
+[2023-04-17 22:42:04] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-04-17 22:42:04] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-1.9.8.tar.gz tmp/chalkpy-1.9.9.tar.gz --markdown 20230417/c/chalkpy/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-04-17 22:42:04] INFO root fetch - processPackages [fluxrpc]: executing diffoscope
+[2023-04-17 22:42:04] INFO root fetch - processPackages [fluxrpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fluxrpc-0.9.8.tar.gz tmp/fluxrpc-0.9.9.tar.gz --markdown 20230417/f/fluxrpc/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-17 22:42:04] INFO root fetch - processPackages [ipfskvs]: executing diffoscope
+[2023-04-17 22:42:04] INFO root fetch - processPackages [ipfskvs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipfskvs-0.0.7.tar.gz tmp/ipfskvs-0.0.8.tar.gz --markdown 20230417/i/ipfskvs/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-17 22:42:04] INFO root fetch - processPackages [pyamg]: executing diffoscope
+[2023-04-17 22:42:04] INFO root fetch - processPackages [pyamg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyamg-5.0.0a2.tar.gz tmp/pyamg-5.0.0a3.tar.gz --markdown 20230417/p/pyamg/5.0.0a2-5.0.0a3/diff.md --exclude *.pyd
+[2023-04-17 22:42:04] INFO root fetch - processPackages [compoundwidgets]: Downloading https://files.pythonhosted.org/packages/d4/7a/07e58d4b776ce7864a4bf649cbc856cdf4a8f3eba9174224f4f19092070d/compoundwidgets-0.2.2.tar.gz
+[2023-04-17 22:42:04] INFO root fetch - processPackages [mymlcustomtools]: Downloading https://files.pythonhosted.org/packages/64/a3/319823582fd4800ed2951ffc75e231ca92f67bf48bd1326d85f5a4b1ed24/mymlcustomtools-0.0.7.tar.gz
+[2023-04-17 22:42:04] INFO root fetch - processPackages [rocksnot]: Downloading https://files.pythonhosted.org/packages/1a/e6/3f1db01a1ec826bde4cb46ec5f83a1bce293e390fd7af28a02cff1db463c/rocksnot-0.0.7.tar.gz
+[2023-04-17 22:42:04] INFO root fetch - processPackages [clarifai]: Downloading https://files.pythonhosted.org/packages/53/56/c0cdcd8a8571366cd583a0f95181c758dad6cd1110c8cd0cc8ad0c4e5d3a/clarifai-9.3.2.tar.gz
+[2023-04-17 22:42:05] INFO root fetch - processPackages [mymlcustomtools]: executing diffoscope
+[2023-04-17 22:42:05] INFO root fetch - processPackages [mymlcustomtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mymlcustomtools-0.0.6.tar.gz tmp/mymlcustomtools-0.0.7.tar.gz --markdown 20230417/m/mymlcustomtools/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-17 22:42:05] INFO root fetch - processPackages [konsepy]: Downloading https://files.pythonhosted.org/packages/21/0d/f9c198f3faafaed989b7e1ae379b2406f5375ea8587d03bfd1b10225ef44/konsepy-0.0.5.tar.gz
+[2023-04-17 22:42:05] INFO root fetch - processPackages [compoundwidgets]: executing diffoscope
+[2023-04-17 22:42:05] INFO root fetch - processPackages [compoundwidgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/compoundwidgets-0.2.1.tar.gz tmp/compoundwidgets-0.2.2.tar.gz --markdown 20230417/c/compoundwidgets/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-17 22:42:05] INFO root fetch - processPackages [clarifai]: Downloading https://files.pythonhosted.org/packages/17/5e/4eee0f25419be8e2d1b996f82d3c612008107d334cb144a9daa33c65d6f1/clarifai-9.3.3.tar.gz
+[2023-04-17 22:42:05] INFO root fetch - processPackages [rocksnot]: Downloading https://files.pythonhosted.org/packages/fe/03/c1435f12e394cb09f704e86fd1e47525f7f69af4c1b85bf56696ac2bc58f/rocksnot-0.0.8.tar.gz
+[2023-04-17 22:42:05] INFO root fetch - processPackages [konsepy]: executing diffoscope
+[2023-04-17 22:42:05] INFO root fetch - processPackages [konsepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/konsepy-0.0.4.tar.gz tmp/konsepy-0.0.5.tar.gz --markdown 20230417/k/konsepy/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-17 22:42:05] INFO root fetch - processPackages [clarifai]: executing diffoscope
+[2023-04-17 22:42:05] INFO root fetch - processPackages [clarifai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clarifai-9.3.2.tar.gz tmp/clarifai-9.3.3.tar.gz --markdown 20230417/c/clarifai/9.3.2-9.3.3/diff.md --exclude *.pyd
+[2023-04-17 22:42:05] INFO root fetch - processPackages [rocksnot]: executing diffoscope
+[2023-04-17 22:42:05] INFO root fetch - processPackages [rocksnot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rocksnot-0.0.7.tar.gz tmp/rocksnot-0.0.8.tar.gz --markdown 20230417/r/rocksnot/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-17 22:42:06] INFO root fetch - processPackages [ipfskvs]: Start processing: google-fhir-core
+[2023-04-17 22:42:06] INFO root fetch - main [MainThread]: End processing [ipfskvs]: success
+[2023-04-17 22:42:06] INFO root fetch - processPackages [mymlcustomtools]: Start processing: google-fhir-r4
+[2023-04-17 22:42:06] INFO root fetch - main [MainThread]: End processing [mymlcustomtools]: success
+[2023-04-17 22:42:06] INFO root fetch - processPackages [google-fhir-core]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-04-17 22:42:06] INFO root fetch - processPackages [google-fhir-r4]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-04-17 22:42:06] INFO root fetch - processPackages [trainerbase]: Start processing: google-fhir-views
+[2023-04-17 22:42:06] INFO root fetch - main [MainThread]: End processing [trainerbase]: success
+[2023-04-17 22:42:06] INFO root fetch - processPackages [konsepy]: Start processing: cythereal-magic
+[2023-04-17 22:42:06] INFO root fetch - main [MainThread]: End processing [konsepy]: success
+[2023-04-17 22:42:06] INFO root fetch - processPackages [cythereal-magic]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-04-17 22:42:06] INFO root fetch - processPackages [google-fhir-core]: Downloading https://files.pythonhosted.org/packages/f3/bc/2d612432b68394b0a1e7b13b3a89b827f4aacbe2f49ea5648a22c657de41/google_fhir_core-0.9.1-py3-none-any.whl
+[2023-04-17 22:42:06] INFO root fetch - processPackages [google-fhir-views]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-04-17 22:42:06] INFO root fetch - processPackages [google-fhir-r4]: Downloading https://files.pythonhosted.org/packages/e0/9c/a3944fdd095fe675d57b20a938bf30d942f2f31f3a83ff235033bd0bd81d/google_fhir_r4-0.9.1-py3-none-any.whl
+[2023-04-17 22:42:06] INFO root fetch - processPackages [cythereal-magic]: executing diffoscope
+[2023-04-17 22:42:06] INFO root fetch - processPackages [cythereal-magic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cythereal-magic-1.9.0.tar.gz tmp/cythereal-magic-1.9.1.tar.gz --markdown 20230417/c/cythereal-magic/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-04-17 22:42:06] INFO root fetch - main [MainThread]: End processing [rocksnot]: success
+[2023-04-17 22:42:06] INFO root fetch - processPackages [google-fhir-core]: Downloading https://files.pythonhosted.org/packages/36/68/4965fc5e93b0fd4197179df68161dc3303906706a48e1deeea917959731d/google_fhir_core-0.9.2-py3-none-any.whl
+[2023-04-17 22:42:06] INFO root fetch - processPackages [google-fhir-views]: Downloading https://files.pythonhosted.org/packages/71/cc/f3418cc7d60469e79331dc444881cb505a8293da991c00f301090f1afa54/google_fhir_views-0.9.1-py3-none-any.whl
+[2023-04-17 22:42:06] INFO root fetch - main [MainThread]: End processing [clarifai]: success
+[2023-04-17 22:42:07] INFO root fetch - main [MainThread]: End processing [fluxrpc]: success
+[2023-04-17 22:42:07] INFO root fetch - processPackages [google-fhir-views]: Downloading https://files.pythonhosted.org/packages/68/9d/7c87ae8233e103916c4741f9d94769ea2e2cfd73cf3f05423dfd44fa7097/google_fhir_views-0.9.2-py3-none-any.whl
+[2023-04-17 22:42:07] INFO root fetch - processPackages [google-fhir-core]: executing diffoscope
+[2023-04-17 22:42:07] INFO root fetch - processPackages [google-fhir-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google_fhir_core-0.9.1-py3-none-any.whl.zip tmp/google_fhir_core-0.9.2-py3-none-any.whl.zip --markdown 20230417/g/google-fhir-core/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-04-17 22:42:07] INFO root fetch - processPackages [google-fhir-views]: executing diffoscope
+[2023-04-17 22:42:07] INFO root fetch - processPackages [google-fhir-views]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google_fhir_views-0.9.1-py3-none-any.whl.zip tmp/google_fhir_views-0.9.2-py3-none-any.whl.zip --markdown 20230417/g/google-fhir-views/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-04-17 22:42:07] INFO root fetch - processPackages [google-fhir-r4]: Downloading https://files.pythonhosted.org/packages/e6/34/7040a0227b431aaad0a2091bfd056ee378918263acda0f5da27e01fece93/google_fhir_r4-0.9.2-py3-none-any.whl
+[2023-04-17 22:42:08] INFO root fetch - main [MainThread]: End processing [cythereal-magic]: success
+[2023-04-17 22:42:08] INFO root fetch - main [MainThread]: End processing [google-fhir-views]: success
+[2023-04-17 22:42:08] INFO root fetch - main [MainThread]: End processing [google-fhir-core]: success
+[2023-04-17 22:42:08] INFO root fetch - processPackages [google-fhir-r4]: executing diffoscope
+[2023-04-17 22:42:08] INFO root fetch - processPackages [google-fhir-r4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google_fhir_r4-0.9.1-py3-none-any.whl.zip tmp/google_fhir_r4-0.9.2-py3-none-any.whl.zip --markdown 20230417/g/google-fhir-r4/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-04-17 22:42:10] INFO root fetch - main [MainThread]: End processing [compoundwidgets]: success
+[2023-04-17 22:42:10] INFO root fetch - main [MainThread]: End processing [pyamg]: success
+[2023-04-17 22:42:11] INFO root fetch - main [MainThread]: End processing [google-fhir-r4]: success
+[2023-04-17 22:42:14] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-04-17 22:42:14] INFO root fetch - main [MainThread]: Store serial: [17744215]
