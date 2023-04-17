@@ -3644,3 +3644,25 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-17 03:45:25] INFO root fetch - main [MainThread]: End processing [glinux-homedir-helper]: success
 [2023-04-17 03:45:25] INFO root fetch - main [MainThread]: End processing [glinux-shutdown-installer]: success
 [2023-04-17 03:45:25] INFO root fetch - main [MainThread]: Store serial: [17732718]
+[2023-04-17 03:50:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17732718]
+[2023-04-17 03:50:33] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-04-17 03:50:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: regis
+[2023-04-17 03:50:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: inhandtest
+[2023-04-17 03:50:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: remin
+[2023-04-17 03:50:33] INFO root fetch - processPackages [remin]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-17 03:50:33] INFO root fetch - processPackages [regis]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-17 03:50:33] INFO root fetch - processPackages [inhandtest]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-17 03:50:34] INFO root fetch - processPackages [regis]: executing diffoscope
+[2023-04-17 03:50:34] INFO root fetch - processPackages [regis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/regis-0.1.8.tar.gz tmp/regis-0.1.9.tar.gz --markdown 20230417/r/regis/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-17 03:50:34] INFO root fetch - processPackages [remin]: Downloading https://files.pythonhosted.org/packages/d7/97/c011c60b76a85d7b16bd1c1a89c6a66f08324324bb27491b91fa4b53b141/remin-0.0.1.tar.gz
+[2023-04-17 03:50:34] INFO root fetch - processPackages [inhandtest]: Downloading https://files.pythonhosted.org/packages/60/42/c36663fc7008121df7c2bedf8ffd4dffe92e3b4bcc04ec1b174415bbe840/inhandtest-0.0.4.tar.gz
+[2023-04-17 03:50:34] INFO root fetch - processPackages [remin]: Downloading https://files.pythonhosted.org/packages/56/3b/242ac2543bbf0d3a8ee107a312ec2c88cf806efde2670d7aa8910104f766/remin-0.0.2.tar.gz
+[2023-04-17 03:50:34] INFO root fetch - processPackages [inhandtest]: Downloading https://files.pythonhosted.org/packages/20/89/0b043ea18fecb89793f825d9c1cc44822ee3695ce0bf8397281c2d0b3b99/inhandtest-0.0.5.tar.gz
+[2023-04-17 03:50:34] INFO root fetch - processPackages [remin]: executing diffoscope
+[2023-04-17 03:50:34] INFO root fetch - processPackages [remin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remin-0.0.1.tar.gz tmp/remin-0.0.2.tar.gz --markdown 20230417/r/remin/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-17 03:50:34] INFO root fetch - processPackages [inhandtest]: executing diffoscope
+[2023-04-17 03:50:34] INFO root fetch - processPackages [inhandtest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inhandtest-0.0.4.tar.gz tmp/inhandtest-0.0.5.tar.gz --markdown 20230417/i/inhandtest/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-17 03:50:35] INFO root fetch - main [MainThread]: End processing [regis]: success
+[2023-04-17 03:50:35] INFO root fetch - main [MainThread]: End processing [remin]: success
+[2023-04-17 03:50:35] INFO root fetch - main [MainThread]: End processing [inhandtest]: success
+[2023-04-17 03:50:35] INFO root fetch - main [MainThread]: Store serial: [17732726]
