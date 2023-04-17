@@ -11812,3 +11812,87 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-04-17 13:57:40] INFO root fetch - main [MainThread]: End processing [junifer]: success
 [2023-04-17 13:57:58] INFO root fetch - main [MainThread]: End processing [foursight-core]: success
 [2023-04-17 13:57:58] INFO root fetch - main [MainThread]: Store serial: [17737707]
+[2023-04-17 14:03:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17737707]
+[2023-04-17 14:03:08] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-17 14:03:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: theforensicator
+[2023-04-17 14:03:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vpp-papi
+[2023-04-17 14:03:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ruleminer
+[2023-04-17 14:03:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: utils-nuuuwan
+[2023-04-17 14:03:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: finbourne-identity-sdk
+[2023-04-17 14:03:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wks
+[2023-04-17 14:03:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pykechain
+[2023-04-17 14:03:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cubicweb-seda
+[2023-04-17 14:03:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tts-arranger
+[2023-04-17 14:03:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addon-mrp-flattened-bom-xlsx-direct-materials-cost
+[2023-04-17 14:03:08] INFO root fetch - processPackages [utils-nuuuwan]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-04-17 14:03:08] INFO root fetch - processPackages [tts-arranger]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-17 14:03:08] INFO root fetch - processPackages [vpp-papi]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-04-17 14:03:08] INFO root fetch - processPackages [tts-arranger]: executing diffoscope
+[2023-04-17 14:03:08] INFO root fetch - processPackages [tts-arranger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tts_arranger-0.1.4.tar.gz tmp/tts_arranger-0.1.5.tar.gz --markdown 20230417/t/tts-arranger/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-17 14:03:08] INFO root fetch - processPackages [ruleminer]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-17 14:03:08] INFO root fetch - processPackages [cubicweb-seda]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-17 14:03:08] INFO root fetch - processPackages [wks]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-04-17 14:03:08] INFO root fetch - processPackages [utils-nuuuwan]: executing diffoscope
+[2023-04-17 14:03:08] WARNING root fetch - processPackages [odoo14-addon-mrp-flattened-bom-xlsx-direct-materials-cost]: Skipping, unable to determine old version
+[2023-04-17 14:03:08] INFO root fetch - processPackages [utils-nuuuwan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utils-nuuuwan-1.2.4.tar.gz tmp/utils-nuuuwan-1.2.5.tar.gz --markdown 20230417/u/utils-nuuuwan/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-04-17 14:03:08] INFO root fetch - processPackages [odoo14-addon-mrp-flattened-bom-xlsx-direct-materials-cost]: Start processing: cg
+[2023-04-17 14:03:08] INFO root fetch - main [MainThread]: End processing [odoo14-addon-mrp-flattened-bom-xlsx-direct-materials-cost] error
+[2023-04-17 14:03:08] INFO root fetch - processPackages [theforensicator]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-17 14:03:08] INFO root fetch - processPackages [pykechain]: New version: [4.7.0] Old Version: [4.6.0]
+[2023-04-17 14:03:08] INFO root fetch - processPackages [finbourne-identity-sdk]: New version: [0.0.840] Old Version: [0.0.2385]
+[2023-04-17 14:03:08] INFO root fetch - processPackages [cg]: New version: [27.3.5] Old Version: [27.3.4]
+[2023-04-17 14:03:08] INFO root fetch - processPackages [vpp-papi]: Downloading https://files.pythonhosted.org/packages/91/76/0b9f4791f3f74a129f6c2174ebe6df8aa2a1a1b8603a613acef050762613/vpp_papi-2.0.0.tar.gz
+[2023-04-17 14:03:08] INFO root fetch - processPackages [wks]: Downloading https://files.pythonhosted.org/packages/a6/b0/7d262048e03ad29c0ab2e246bf5572131920c7833f66cb647b3d5f5dd731/wks-0.2.6.tar.gz
+[2023-04-17 14:03:08] INFO root fetch - processPackages [cubicweb-seda]: Downloading https://files.pythonhosted.org/packages/b6/49/9c17b1bf7be4ecd6fa97fa4402e9327ef9438d50e9347deebad512eff2d4/cubicweb-seda-0.8.0.tar.gz
+[2023-04-17 14:03:08] INFO root fetch - processPackages [pykechain]: Downloading https://files.pythonhosted.org/packages/8f/41/b04db14942a2739bad579d0c7f2f23a5d8a2a41eb82dca8e43ebed2f89a8/pykechain-4.6.0.tar.gz
+[2023-04-17 14:03:08] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/cd/1f/11ca4310521ba3f9f3b3cc611ee9c5d7ccaa6b53914d9a58f27269382f8b/finbourne-identity-sdk-0.0.2385.tar.gz
+[2023-04-17 14:03:08] INFO root fetch - processPackages [ruleminer]: Downloading https://files.pythonhosted.org/packages/56/4a/8c1d0b0130beebde1b21925b1094dfcecbad18c00342038c0b7ad085a1e5/ruleminer-0.1.8-py2.py3-none-any.whl
+[2023-04-17 14:03:08] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/f0/6d/2240b13ec0027fef5a74d215b25ef92913ca5afcafc6cbaa73e294131326/cg-27.3.5.tar.gz
+[2023-04-17 14:03:08] INFO root fetch - processPackages [theforensicator]: Downloading https://files.pythonhosted.org/packages/51/af/01eb35fe8ade012503153aadcbb7157cf4b51cc0322c8fa3956a3d7e9734/theforensicator-0.1.6.tar.gz
+[2023-04-17 14:03:08] INFO root fetch - processPackages [vpp-papi]: Downloading https://files.pythonhosted.org/packages/52/a4/e219b10642d34809c7c1759e1d383f23524368335f64c663100689a3866d/vpp-papi-2.0.1.tar.gz
+[2023-04-17 14:03:08] INFO root fetch - processPackages [wks]: Downloading https://files.pythonhosted.org/packages/15/58/70275147011fd1b6b70b6fff48edd39b4e862c353f6ab31cf22ee7b65245/wks-0.2.7.tar.gz
+[2023-04-17 14:03:08] INFO root fetch - processPackages [theforensicator]: executing diffoscope
+[2023-04-17 14:03:08] INFO root fetch - processPackages [theforensicator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/theforensicator-0.1.5.tar.gz tmp/theforensicator-0.1.6.tar.gz --markdown 20230417/t/theforensicator/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-17 14:03:08] INFO root fetch - processPackages [cubicweb-seda]: Downloading https://files.pythonhosted.org/packages/09/f7/8db9d3b65ccfcb25f76e8fece5d333a511b7a196753890c8ade3f7789352/cubicweb-seda-0.9.0.tar.gz
+[2023-04-17 14:03:08] INFO root fetch - processPackages [ruleminer]: Downloading https://files.pythonhosted.org/packages/42/4e/5ea94f19fc07634c633158d076ba968b988458f1ea195a51b8d4ce3883f0/ruleminer-0.1.9-py2.py3-none-any.whl
+[2023-04-17 14:03:08] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/60/02/556fee55b1aaf556ab945658f46e9f25aae842d2790fb15aa1ad81b2ba2a/finbourne-identity-sdk-0.0.840.tar.gz
+[2023-04-17 14:03:08] INFO root fetch - processPackages [vpp-papi]: executing diffoscope
+[2023-04-17 14:03:08] INFO root fetch - processPackages [vpp-papi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vpp_papi-2.0.0.tar.gz tmp/vpp-papi-2.0.1.tar.gz --markdown 20230417/v/vpp-papi/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-04-17 14:03:08] INFO root fetch - processPackages [wks]: executing diffoscope
+[2023-04-17 14:03:08] INFO root fetch - processPackages [wks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wks-0.2.6.tar.gz tmp/wks-0.2.7.tar.gz --markdown 20230417/w/wks/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-04-17 14:03:08] INFO root fetch - processPackages [cubicweb-seda]: executing diffoscope
+[2023-04-17 14:03:08] INFO root fetch - processPackages [cubicweb-seda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cubicweb-seda-0.8.0.tar.gz tmp/cubicweb-seda-0.9.0.tar.gz --markdown 20230417/c/cubicweb-seda/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-17 14:03:08] INFO root fetch - processPackages [finbourne-identity-sdk]: executing diffoscope
+[2023-04-17 14:03:08] INFO root fetch - processPackages [finbourne-identity-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-identity-sdk-0.0.2385.tar.gz tmp/finbourne-identity-sdk-0.0.840.tar.gz --markdown 20230417/f/finbourne-identity-sdk/0.0.2385-0.0.840/diff.md --exclude *.pyd
+[2023-04-17 14:03:09] INFO root fetch - processPackages [ruleminer]: executing diffoscope
+[2023-04-17 14:03:09] INFO root fetch - processPackages [ruleminer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ruleminer-0.1.8-py2.py3-none-any.whl.zip tmp/ruleminer-0.1.9-py2.py3-none-any.whl.zip --markdown 20230417/r/ruleminer/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-17 14:03:09] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-04-17 14:03:09] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-27.3.4.tar.gz tmp/cg-27.3.5.tar.gz --markdown 20230417/c/cg/27.3.4-27.3.5/diff.md --exclude *.pyd
+[2023-04-17 14:03:09] INFO root fetch - processPackages [pykechain]: Downloading https://files.pythonhosted.org/packages/c4/7b/0058dc992eeda73ef41028da38918fdd3ad2ee4986bb152fef2d8cc2875c/pykechain-4.7.0.tar.gz
+[2023-04-17 14:03:10] INFO root fetch - processPackages [tts-arranger]: Start processing: ptal-api
+[2023-04-17 14:03:10] INFO root fetch - main [MainThread]: End processing [tts-arranger]: success
+[2023-04-17 14:03:10] INFO root fetch - processPackages [pykechain]: executing diffoscope
+[2023-04-17 14:03:10] INFO root fetch - processPackages [pykechain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pykechain-4.6.0.tar.gz tmp/pykechain-4.7.0.tar.gz --markdown 20230417/p/pykechain/4.6.0-4.7.0/diff.md --exclude *.pyd
+[2023-04-17 14:03:10] INFO root fetch - processPackages [ptal-api]: New version: [0.11.4] Old Version: [0.11.3.1]
+[2023-04-17 14:03:10] INFO root fetch - processPackages [ptal-api]: Downloading https://files.pythonhosted.org/packages/74/8a/0a559c8e3d8af8dba6d0bf7238423a0543b4b9fe98025741b0e9611a91c8/ptal_api-0.11.3.1.tar.gz
+[2023-04-17 14:03:10] INFO root fetch - processPackages [theforensicator]: Start processing: proteinflow
+[2023-04-17 14:03:10] INFO root fetch - main [MainThread]: End processing [theforensicator]: success
+[2023-04-17 14:03:10] INFO root fetch - main [MainThread]: End processing [vpp-papi]: success
+[2023-04-17 14:03:10] INFO root fetch - processPackages [proteinflow]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-04-17 14:03:10] INFO root fetch - processPackages [ptal-api]: Downloading https://files.pythonhosted.org/packages/34/3b/09c0223344c73d9a1ddc8b7e2496d435dd1c8964fd80c38b26370c6166fb/ptal_api-0.11.4.tar.gz
+[2023-04-17 14:03:10] INFO root fetch - main [MainThread]: End processing [utils-nuuuwan]: success
+[2023-04-17 14:03:10] INFO root fetch - main [MainThread]: End processing [wks]: success
+[2023-04-17 14:03:10] INFO root fetch - main [MainThread]: End processing [ruleminer]: success
+[2023-04-17 14:03:10] INFO root fetch - processPackages [ptal-api]: executing diffoscope
+[2023-04-17 14:03:10] INFO root fetch - processPackages [proteinflow]: Downloading https://files.pythonhosted.org/packages/11/1f/ab4bf952a2d0059bf93505a5f550b91884de6af0ec29d5c35dfebb4e5d7c/proteinflow-1.2.7.tar.gz
+[2023-04-17 14:03:10] INFO root fetch - processPackages [ptal-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ptal_api-0.11.3.1.tar.gz tmp/ptal_api-0.11.4.tar.gz --markdown 20230417/p/ptal-api/0.11.3.1-0.11.4/diff.md --exclude *.pyd
+[2023-04-17 14:03:11] INFO root fetch - processPackages [proteinflow]: Downloading https://files.pythonhosted.org/packages/98/a3/e54b68c659c4b0d3403f5d33ce23b2a93d92eec65d7835ad9ec03444adee/proteinflow-1.2.8.tar.gz
+[2023-04-17 14:03:11] INFO root fetch - processPackages [proteinflow]: executing diffoscope
+[2023-04-17 14:03:11] INFO root fetch - processPackages [proteinflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230417:/home/abi/fetcher/20230417:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proteinflow-1.2.7.tar.gz tmp/proteinflow-1.2.8.tar.gz --markdown 20230417/p/proteinflow/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-04-17 14:03:11] INFO root fetch - main [MainThread]: End processing [cubicweb-seda]: success
+[2023-04-17 14:03:12] INFO root fetch - main [MainThread]: End processing [proteinflow]: success
+[2023-04-17 14:03:12] INFO root fetch - main [MainThread]: End processing [finbourne-identity-sdk]: success
+[2023-04-17 14:03:14] INFO root fetch - main [MainThread]: End processing [ptal-api]: success
+[2023-04-17 14:03:25] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-04-17 14:03:38] INFO root fetch - main [MainThread]: End processing [pykechain]: success
+[2023-04-17 14:03:38] INFO root fetch - main [MainThread]: Store serial: [17737747]
